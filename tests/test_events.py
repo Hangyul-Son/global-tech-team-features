@@ -18,7 +18,7 @@ class DatasetTests(unittest.TestCase):
 
     def test_exact_priority_universe(self):
         self.assertEqual({c['id'] for c in self.data['companies'] if c['coverage']},
-                         {'TSM','NVDA','AMD','AVGO','MRVL','AAPL','MSFT','ORCL','CRM','NOW','ADBE','WDAY','META'})
+                         {'TSM','NVDA','AMD','AVGO','MRVL','AAPL','MSFT','ORCL','CRM','NOW','ADBE','WDAY','META','INTC','ARM','QCOM','SNOW','CRWD','PANW'})
         self.assertEqual(len(self.companies), len(self.data['companies']))
         self.assertTrue({'ASML','LRCX','005930.KS','000660.KS','MU','2454.TW','AMZN','GOOGL','ANTHROPIC','CRWV','NBIS'} <= self.companies.keys())
 
@@ -28,7 +28,7 @@ class DatasetTests(unittest.TestCase):
             with self.subTest(event=event['id']):
                 self.assertNotIn(event['id'], ids)
                 ids.add(event['id'])
-                self.assertTrue(event['companies'])
+                self.assertTrue(event['companies'] or event.get('organizer'))
                 self.assertTrue(set(event['companies']) <= self.companies.keys())
                 self.assertIn(event['status'], ['confirmed','estimated','reported','unannounced'])
                 self.assertTrue(event['basis'])
@@ -49,9 +49,9 @@ class DatasetTests(unittest.TestCase):
                     if event['endDate']:
                         self.assertGreaterEqual(date.fromisoformat(event['endDate']),date.fromisoformat(event['date']))
                 elif event['status'] == 'estimated':
-                    self.assertIsNotNone(event['date'])
+                    self.assertTrue(event['date'] or event.get('timingWindow'))
                     self.assertIsNone(event['window'])
-                    self.assertTrue(any(source['kind']=='estimate' for source in event['sources']))
+                    self.assertTrue(any(source['kind']=='estimate' for source in event['sources']) or (event.get('estimateKind')=='reported-target' and any(source['kind']=='report' for source in event['sources'])))
                     self.assertIsNone(event['verifiedAt'])
                     self.assertIsNone(event['time'])
                 elif event['status'] == 'reported':
@@ -83,10 +83,32 @@ class DatasetTests(unittest.TestCase):
             for evidence in event['sources']:
                 self.assertEqual(urlsplit(evidence['url']).scheme,'https')
                 self.assertTrue(evidence['label'])
-        estimates={e['companies'][0]:e for e in self.data['events'] if e['companies'][0] in ['CRWV','NBIS']}
+        estimates={e['companies'][0]:e for e in self.data['events'] if e['companies'] and e['companies'][0] in ['CRWV','NBIS']}
         self.assertEqual(estimates['CRWV']['date'],'2026-11-09')
         self.assertEqual(estimates['NBIS']['date'],'2026-11-10')
         self.assertTrue(all(e['status']=='estimated' and e['verifiedAt'] is None for e in estimates.values()))
+
+    def test_windows_never_assert_exact_event_dates(self):
+        events={e['id']:e for e in self.data['events']}
+        for event in self.data['events']:
+            window=event.get('timingWindow')
+            if not window:
+                continue
+            self.assertIsNone(event['date'])
+            self.assertIsNone(event['endDate'])
+            self.assertIsNone(event['verifiedAt'])
+            self.assertNotEqual(event['status'],'confirmed')
+            self.assertGreaterEqual(date.fromisoformat(window['end']),date.fromisoformat(window['start']))
+            self.assertIn(window['precision'],['week','month','quarter','year'])
+            self.assertTrue(window['label'])
+        self.assertEqual(events['anthropic-ipo']['timingWindow']['precision'],'month')
+        self.assertEqual(events['anthropic-ipo']['timingWindow']['start'],'2026-11-01')
+        self.assertEqual(events['openai-ipo']['timingWindow']['precision'],'year')
+        self.assertEqual(events['openai-ipo']['timingWindow']['start'],'2027-01-01')
+        self.assertEqual(events['mit-ai-2026']['companies'],[])
+        self.assertEqual(events['mit-ai-2026']['organizer'],'MIT AI Conference')
+        self.assertEqual(events['oracle-ai-world-2025']['date'],'2025-10-13')
+        self.assertEqual(events['oracle-ai-world-2026']['date'],'2026-10-25')
 
     def test_current_editions_are_not_undated_watch_items(self):
         events={e['id']:e for e in self.data['events']}
@@ -113,6 +135,12 @@ class ExtractionTests(unittest.TestCase):
         self.assertEqual(len(rows),2)
         self.assertTrue(all(r['status']=='needs_review' for r in rows))
         self.assertTrue(all('publication date' in r['warning'] for r in rows))
+
+    def test_conference_schedules_are_staged_for_review(self):
+        for title in ['MIT AI Conference 2026','Cloudflare Connect 2026','Oracle AI World 2026']:
+            rows=refresh.extract_candidates(f'<h1>{title}</h1><p>October 17, 2026</p>')
+            self.assertEqual(len(rows),1,title)
+            self.assertEqual(rows[0]['status'],'needs_review')
 
     def test_scripts_and_irrelevant_dates_are_ignored(self):
         html = '<script>October 1, 2026 earnings</script><p>December 4, 2026</p><p>Dividend payment</p>'

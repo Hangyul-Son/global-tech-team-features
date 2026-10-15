@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-15T14:06:23.437209+00:00",
-  "successfulSources": 55,
-  "totalSources": 56,
+  "checkedAt": "2026-10-15T14:49:27.658306+00:00",
+  "successfulSources": 78,
+  "totalSources": 79,
   "note": "Published estimates are staged separately and remain unconfirmed. Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged.",
   "sources": [
     {
@@ -998,6 +998,18 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "Sep 11, 2026 • 8:50 am PDT",
+          "evidence": "Add to Calendar | Past Events | Sep 11, 2026 • 8:50 am PDT | Goldman Sachs Communacopia + Technology Conference | Sep 8, 2026 • 9:30 am EDT | Citi’s 2026 Global TMT Conference | Aug 11, 2026 • 9:30 am MDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 8, 2026 • 9:30 am EDT",
+          "evidence": "Sep 11, 2026 • 8:50 am PDT | Goldman Sachs Communacopia + Technology Conference | Sep 8, 2026 • 9:30 am EDT | Citi’s 2026 Global TMT Conference | Aug 11, 2026 • 9:30 am MDT | KeyBanc’s Technology Leadership Forum | Aug 4, 2026 • 2:00 pm PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "Aug 11, 2026 • 9:30 am MDT",
           "evidence": "Sep 8, 2026 • 9:30 am EDT | Citi’s 2026 Global TMT Conference | Aug 11, 2026 • 9:30 am MDT | KeyBanc’s Technology Leadership Forum | Aug 4, 2026 • 2:00 pm PDT | AMD Fiscal Second Quarter 2026 Financial Results | Jul 23, 2026",
           "status": "needs_review",
@@ -1012,6 +1024,12 @@
         {
           "dateText": "Jul 23, 2026",
           "evidence": "Aug 4, 2026 • 2:00 pm PDT | AMD Fiscal Second Quarter 2026 Financial Results | Jul 23, 2026 | Advancing AI 2026 | Jun 2, 2026 • 11:20 am PDT | Bank of America Global Technology Conference | May 13, 2026 • 9:00 am PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 2, 2026 • 11:20 am PDT",
+          "evidence": "Jul 23, 2026 | Advancing AI 2026 | Jun 2, 2026 • 11:20 am PDT | Bank of America Global Technology Conference | May 13, 2026 • 9:00 am PDT | 2026 Annual Meeting of Stockholders | May 5, 2026 • 5:00 pm EDT",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1201,7 +1219,26 @@
       ],
       "status": "retrieved",
       "publishedEstimate": null,
-      "candidates": []
+      "candidates": [
+        {
+          "dateText": "Lam Research Corporation Announces September Quarter Financial Conference Call - Sep 30, 2026",
+          "evidence": "Lam Research Corporation Announces September Quarter Financial Conference Call - Sep 30, 2026 | Skip to content | Lam Research Logo | About | About Us",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 30, 2026",
+          "evidence": "Press Releases | Lam Research Corporation Announces September Quarter Financial Conference Call | September 30, 2026 | View PDF | Print Page | Email URL | RSS Feed",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "/ -- Lam Research Corp. (NASDAQ: LRCX) today announced that the company will host its quarterly financial conference call and webcast on Wednesday, October 21, 2026, beginning at 2:00 p.m. Pacific Daylight Time (5:00 p.m. Eastern Daylight Time).",
+          "evidence": "/ | PRNewswire | / -- Lam Research Corp. (NASDAQ: LRCX) today announced that the company will host its quarterly financial conference call and webcast on Wednesday, October 21, 2026, beginning at 2:00 p.m. Pacific Daylight Time (5:00 p.m. Eastern Daylight Time). | Webcast: | To access the webcast, visit the Investors section of Lam's website at | http://www.lamresearch.com | and click on the Investors/Investors Overview/Events & Presentations section to view the details.",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     },
     {
       "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
@@ -1224,6 +1261,54 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "September 23, 2026",
+          "evidence": "Expand | BofA, 2026 Asia Pacific Conference | September 23, 2026 | CLSA, Investor's Forum 2026 | September 21 ~ 22, 2026 | UBS, Tech Tour | September 16, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 16, 2026",
+          "evidence": "September 21 ~ 22, 2026 | UBS, Tech Tour | September 16, 2026 | Jefferies, Korea Conference | September 9, 2026 | Shinhan Securities, Corp Day | September 2, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 9, 2026",
+          "evidence": "September 16, 2026 | Jefferies, Korea Conference | September 9, 2026 | Shinhan Securities, Corp Day | September 2, 2026 | 2Q26 Overseas NDR | August 31 ~ September 4, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 31 ~ September 4, 2026",
+          "evidence": "September 2, 2026 | 2Q26 Overseas NDR | August 31 ~ September 4, 2026 | Kiwoom Securities, 2026 Corp Day | August 31, 2026 | Citi, 2026 Korea Investor Conference | August 27, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 31, 2026",
+          "evidence": "August 31 ~ September 4, 2026 | Kiwoom Securities, 2026 Corp Day | August 31, 2026 | Citi, 2026 Korea Investor Conference | August 27, 2026 | JP Morgan, Annual Asia Tech Tour | August 20, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 27, 2026",
+          "evidence": "August 31, 2026 | Citi, 2026 Korea Investor Conference | August 27, 2026 | JP Morgan, Annual Asia Tech Tour | August 20, 2026 | Nomura, Tech Tour | August 20, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 20, 2026",
+          "evidence": "August 27, 2026 | JP Morgan, Annual Asia Tech Tour | August 20, 2026 | Nomura, Tech Tour | August 20, 2026 | Samsung Securities, Samsung Group Asia Conference | August 10 ~ 12, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 20, 2026",
+          "evidence": "August 20, 2026 | Nomura, Tech Tour | August 20, 2026 | Samsung Securities, Samsung Group Asia Conference | August 10 ~ 12, 2026 | 2Q26 Domestic NDR | July 31 ~ August 3, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "July 31 ~ August 3, 2026",
           "evidence": "August 10 ~ 12, 2026 | 2Q26 Domestic NDR | July 31 ~ August 3, 2026 | 2Q26 Earnings Conference Call | July 30, 2026, 10:00 a.m. KST | Webcast | PDF",
           "status": "needs_review",
@@ -1236,8 +1321,44 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "July 7, 2026",
+          "evidence": "PDF | 2Q26 Guidance Announcement | July 7, 2026 | CLSA, Northeast Asia Forum | June 23, 2026 | BofA, Korea Conference | June 17, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 23, 2026",
+          "evidence": "July 7, 2026 | CLSA, Northeast Asia Forum | June 23, 2026 | BofA, Korea Conference | June 17, 2026 | BofA, Global Technology Conference | June 3 ~ 4, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 17, 2026",
+          "evidence": "June 23, 2026 | BofA, Korea Conference | June 17, 2026 | BofA, Global Technology Conference | June 3 ~ 4, 2026 | 1Q26 Overseas NDR | June 2, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 2, 2026",
+          "evidence": "June 3 ~ 4, 2026 | 1Q26 Overseas NDR | June 2, 2026 | Jefferies, Tech Tour | May 27, 2026 | Macquarie, Asia Conference 2026 | May 18 ~ 20, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 27, 2026",
+          "evidence": "June 2, 2026 | Jefferies, Tech Tour | May 27, 2026 | Macquarie, Asia Conference 2026 | May 18 ~ 20, 2026 | Citi, Pan-Asia Conference | May 18 ~ 20, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "April 30, 2026, 10:00 a.m. KST",
           "evidence": "May 6 ~ 7, 2026 | 1Q26 Earnings Conference Call | April 30, 2026, 10:00 a.m. KST | Webcast | PDF | 1Q26 Guidance Announcement | April 7, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 18, 2026, 9:00 a.m. KST",
+          "evidence": "March 19 ~ 20, 2026 | 57th Annual General Meeting | March 18, 2026, 9:00 a.m. KST | UBS, APAC Tech Tour | March 11, 2026 | JP Morgan, Korea Conference | March 5, 2026",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1266,6 +1387,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "December 1, 2025",
+          "evidence": "Expand | Citi, Tech Tour | December 1, 2025 | 3Q25 Overseas NDR | November 21 ~ 23, 2025 | Morgan Stanley, Asia Pacific Summit | November 19 ~ 20, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "October 30 ~ November 3, 2025",
           "evidence": "November 3 ~ 6, 2025 | 3Q25 Domestic NDR | October 30 ~ November 3, 2025 | 3Q25 Earnings Conference Call | October 30, 2025, 10:00 a.m. KST | Webcast | PDF",
           "status": "needs_review",
@@ -1274,6 +1401,54 @@
         {
           "dateText": "October 30, 2025, 10:00 a.m. KST",
           "evidence": "October 30 ~ November 3, 2025 | 3Q25 Earnings Conference Call | October 30, 2025, 10:00 a.m. KST | Webcast | PDF | 3Q25 Guidance Announcement | October 14, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 16, 2025",
+          "evidence": "Sep 16, 2025 | Kiwoom Securities, 2025 Kiwoom Corporate Day | Sep 16, 2025 | CLSA, CITIC CLSA Investors' Forum 2025 | Sep 10 ~ Sep 11, 2025 | BofA, America APAC Conference 2025 | Sep 8 ~ Sep 9, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 10 ~ Sep 11, 2025",
+          "evidence": "Sep 16, 2025 | CLSA, CITIC CLSA Investors' Forum 2025 | Sep 10 ~ Sep 11, 2025 | BofA, America APAC Conference 2025 | Sep 8 ~ Sep 9, 2025 | Goldman Sachs, Asia Leaders Conference | Sep 3 ~ Sep 4, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 8 ~ Sep 9, 2025",
+          "evidence": "Sep 10 ~ Sep 11, 2025 | BofA, America APAC Conference 2025 | Sep 8 ~ Sep 9, 2025 | Goldman Sachs, Asia Leaders Conference | Sep 3 ~ Sep 4, 2025 | KB Securities, KB-Jefferies Korea Conference | Sep 2, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 3 ~ Sep 4, 2025",
+          "evidence": "Sep 8 ~ Sep 9, 2025 | Goldman Sachs, Asia Leaders Conference | Sep 3 ~ Sep 4, 2025 | KB Securities, KB-Jefferies Korea Conference | Sep 2, 2025 | JP Morgan, Asia Tech Tour | Aug 29, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 2, 2025",
+          "evidence": "Sep 3 ~ Sep 4, 2025 | KB Securities, KB-Jefferies Korea Conference | Sep 2, 2025 | JP Morgan, Asia Tech Tour | Aug 29, 2025 | UBS, Korea summit 2025 | Aug 26, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 29, 2025",
+          "evidence": "Sep 2, 2025 | JP Morgan, Asia Tech Tour | Aug 29, 2025 | UBS, Korea summit 2025 | Aug 26, 2025 | Samsung Securities, Samsung Group 2025 Asia Conference | Aug 18 ~ Aug 21, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 26, 2025",
+          "evidence": "Aug 29, 2025 | UBS, Korea summit 2025 | Aug 26, 2025 | Samsung Securities, Samsung Group 2025 Asia Conference | Aug 18 ~ Aug 21, 2025 | 2Q25 Overseas NDR | Aug 5 ~ Aug 7, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 18 ~ Aug 21, 2025",
+          "evidence": "Aug 26, 2025 | Samsung Securities, Samsung Group 2025 Asia Conference | Aug 18 ~ Aug 21, 2025 | 2Q25 Overseas NDR | Aug 5 ~ Aug 7, 2025 | 2Q25 Domestic NDR | Jul 31 ~ Aug 4, 2025",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1296,6 +1471,36 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "July 8, 2025",
+          "evidence": "PDF | 2Q25 Guidance Announcement | July 8, 2025 | Citi, Macro & Pan-Asia Invesor Conference | May 29 ~ May 30, 2025 | UBS, Asia Investor Conference | May 27 ~ May 28, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 29 ~ May 30, 2025",
+          "evidence": "July 8, 2025 | Citi, Macro & Pan-Asia Invesor Conference | May 29 ~ May 30, 2025 | UBS, Asia Investor Conference | May 27 ~ May 28, 2025 | BofA, 2025 Korea Conference | May 19, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 27 ~ May 28, 2025",
+          "evidence": "May 29 ~ May 30, 2025 | UBS, Asia Investor Conference | May 27 ~ May 28, 2025 | BofA, 2025 Korea Conference | May 19, 2025 | Samsung Securities, Samsung Global Investors Conference 2025 | May 16, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 19, 2025",
+          "evidence": "May 27 ~ May 28, 2025 | BofA, 2025 Korea Conference | May 19, 2025 | Samsung Securities, Samsung Global Investors Conference 2025 | May 16, 2025 | 1Q25 Overseas NDR | May 8 ~ May 13, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 16, 2025",
+          "evidence": "May 19, 2025 | Samsung Securities, Samsung Global Investors Conference 2025 | May 16, 2025 | 1Q25 Overseas NDR | May 8 ~ May 13, 2025 | 1Q25 Domestic NDR | Apr 30 ~ May 7, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "May 8 ~ May 13, 2025",
           "evidence": "May 16, 2025 | 1Q25 Overseas NDR | May 8 ~ May 13, 2025 | 1Q25 Domestic NDR | Apr 30 ~ May 7, 2025 | 1Q25 Earnings Conference Call | April 30, 2025, 10:00 a.m. KST",
           "status": "needs_review",
@@ -1310,6 +1515,48 @@
         {
           "dateText": "April 30, 2025, 10:00 a.m. KST",
           "evidence": "Apr 30 ~ May 7, 2025 | 1Q25 Earnings Conference Call | April 30, 2025, 10:00 a.m. KST | Webcast | PDF | 1Q25 Guidance Announcement | April 8, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 8, 2025",
+          "evidence": "PDF | 1Q25 Guidance Announcement | April 8, 2025 | HSBC, Global Investment Summit | Mar 25 ~ 26, 2025 | Jeffries, Asia Conference | Mar 20, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Mar 20, 2025",
+          "evidence": "Mar 25 ~ 26, 2025 | Jeffries, Asia Conference | Mar 20, 2025 | 56th Annual General Meeting | Mar 19, 2025, 9:00 a.m. KST | BofA, 2025 Asia Tech Conference | Mar 17, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Mar 19, 2025, 9:00 a.m. KST",
+          "evidence": "Mar 20, 2025 | 56th Annual General Meeting | Mar 19, 2025, 9:00 a.m. KST | BofA, 2025 Asia Tech Conference | Mar 17, 2025 | UBS, APAC Tech Tour | Mar 12, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Mar 17, 2025",
+          "evidence": "Mar 19, 2025, 9:00 a.m. KST | BofA, 2025 Asia Tech Conference | Mar 17, 2025 | UBS, APAC Tech Tour | Mar 12, 2025 | Citi, Asia Tech Tour | Feb 24, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Mar 12, 2025",
+          "evidence": "Mar 17, 2025 | UBS, APAC Tech Tour | Mar 12, 2025 | Citi, Asia Tech Tour | Feb 24, 2025 | JP Morgan, Korea Conference | Feb 20, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Feb 24, 2025",
+          "evidence": "Mar 12, 2025 | Citi, Asia Tech Tour | Feb 24, 2025 | JP Morgan, Korea Conference | Feb 20, 2025 | Nomura, Tech Tour | Feb 11, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Feb 20, 2025",
+          "evidence": "Feb 24, 2025 | JP Morgan, Korea Conference | Feb 20, 2025 | Nomura, Tech Tour | Feb 11, 2025 | 4Q24 Overseas NDR | Feb 4 - Feb 7, 2025",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1350,6 +1597,30 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "Nov 20 ~ Nov 21, 2024​",
+          "evidence": "Nov 27, 2024​ | Morgan Stanley, Annual Asia Pacific Summit | Nov 20 ~ Nov 21, 2024​ | Citi, Korea Corporate Day | Nov 19, 2024​ | JP Morgan, Global TMT Conference | Nov 18, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Nov 19, 2024​",
+          "evidence": "Nov 20 ~ Nov 21, 2024​ | Citi, Korea Corporate Day | Nov 19, 2024​ | JP Morgan, Global TMT Conference | Nov 18, 2024​ | 3Q24 Overseas NDR | Nov 11 ~ Nov 15, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Nov 18, 2024​",
+          "evidence": "Nov 19, 2024​ | JP Morgan, Global TMT Conference | Nov 18, 2024​ | 3Q24 Overseas NDR | Nov 11 ~ Nov 15, 2024​ | Korea Investment & Securities, Global Investors Conference 2024 | Nov 12, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Nov 11 ~ Nov 15, 2024​",
+          "evidence": "Nov 18, 2024​ | 3Q24 Overseas NDR | Nov 11 ~ Nov 15, 2024​ | Korea Investment & Securities, Global Investors Conference 2024 | Nov 12, 2024​ | 3Q24 Domestic NDR | Oct 31 - Nov 4, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "Nov 12, 2024​",
           "evidence": "Nov 11 ~ Nov 15, 2024​ | Korea Investment & Securities, Global Investors Conference 2024 | Nov 12, 2024​ | 3Q24 Domestic NDR | Oct 31 - Nov 4, 2024​ | 3Q24 Earnings Conference Call | October 31, 2024, 10:00 a.m. KST",
           "status": "needs_review",
@@ -1364,6 +1635,48 @@
         {
           "dateText": "October 31, 2024, 10:00 a.m. KST",
           "evidence": "Oct 31 - Nov 4, 2024​ | 3Q24 Earnings Conference Call | October 31, 2024, 10:00 a.m. KST | Webcast | PDF | 3Q24 Guidance Announcement | October 8, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 10, 2024​",
+          "evidence": "Sep 24, 2024​ | Mirae Asset, Korea Investment Week | Sep 10, 2024​ | CLSA, 31st Annual CITIC CLSA Investors' Forum | Sep 9 - Sep 11, 2024​ | KB Securities, Korea Conference | Sep 3, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 9 - Sep 11, 2024​",
+          "evidence": "Sep 10, 2024​ | CLSA, 31st Annual CITIC CLSA Investors' Forum | Sep 9 - Sep 11, 2024​ | KB Securities, Korea Conference | Sep 3, 2024 | JP Morgan, Corporate day | Aug 29, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 3, 2024",
+          "evidence": "Sep 9 - Sep 11, 2024​ | KB Securities, Korea Conference | Sep 3, 2024 | JP Morgan, Corporate day | Aug 29, 2024​ | Samsung Securities, Samsung Group 2024 Asia Conference | Aug 26 - Aug 29, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 29, 2024​",
+          "evidence": "Sep 3, 2024 | JP Morgan, Corporate day | Aug 29, 2024​ | Samsung Securities, Samsung Group 2024 Asia Conference | Aug 26 - Aug 29, 2024​ | UBS, Korea Summit 2024 | Aug 26, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 26 - Aug 29, 2024​",
+          "evidence": "Aug 29, 2024​ | Samsung Securities, Samsung Group 2024 Asia Conference | Aug 26 - Aug 29, 2024​ | UBS, Korea Summit 2024 | Aug 26, 2024​ | Goldman Sachs, Singapore Conference (Virtual) | Aug 22, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 26, 2024​",
+          "evidence": "Aug 26 - Aug 29, 2024​ | UBS, Korea Summit 2024 | Aug 26, 2024​ | Goldman Sachs, Singapore Conference (Virtual) | Aug 22, 2024​ | 2Q24 Overseas NDR | Aug 5 - Aug 14, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 22, 2024​",
+          "evidence": "Aug 26, 2024​ | Goldman Sachs, Singapore Conference (Virtual) | Aug 22, 2024​ | 2Q24 Overseas NDR | Aug 5 - Aug 14, 2024​ | 2Q24 Domestic NDR | Jul 31 - Aug 2, 2024​",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1386,6 +1699,36 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "July 5, 2024​",
+          "evidence": "PDF | 2Q24 Guidance Announcement | July 5, 2024​ | Citi, Pan-Asia Regional Conference | May 29 - May 30, 2024 | UBS, Asian Investment Conference 2024 | May 27, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 29 - May 30, 2024",
+          "evidence": "July 5, 2024​ | Citi, Pan-Asia Regional Conference | May 29 - May 30, 2024 | UBS, Asian Investment Conference 2024 | May 27, 2024 | NH Securities, The C Forum | May 23, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 27, 2024",
+          "evidence": "May 29 - May 30, 2024 | UBS, Asian Investment Conference 2024 | May 27, 2024 | NH Securities, The C Forum | May 23, 2024 | BofA, Korea Conference | May 22, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 23, 2024",
+          "evidence": "May 27, 2024 | NH Securities, The C Forum | May 23, 2024 | BofA, Korea Conference | May 22, 2024 | Samsung Securities, Global Investors Conference | May 9, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 22, 2024",
+          "evidence": "May 23, 2024 | BofA, Korea Conference | May 22, 2024 | Samsung Securities, Global Investors Conference | May 9, 2024 | 1Q24 Domestic NDR | Apr 30 - May 2, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "May 9, 2024",
           "evidence": "May 22, 2024 | Samsung Securities, Global Investors Conference | May 9, 2024 | 1Q24 Domestic NDR | Apr 30 - May 2, 2024 | 1Q24 Earnings Conference Call | April 30, 2024, 10:00 a.m. KST",
           "status": "needs_review",
@@ -1400,6 +1743,42 @@
         {
           "dateText": "April 30, 2024, 10:00 a.m. KST",
           "evidence": "Apr 30 - May 2, 2024 | 1Q24 Earnings Conference Call | April 30, 2024, 10:00 a.m. KST | Webcast | PDF | 1Q24 Guidance Announcement | April 5, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 5, 2024",
+          "evidence": "PDF | 1Q24 Guidance Announcement | April 5, 2024 | BofA, APAC TMT Conference | March 21, 2024 | 55th Annual General Meeting | March 20, 2024, 9:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 21, 2024",
+          "evidence": "April 5, 2024 | BofA, APAC TMT Conference | March 21, 2024 | 55th Annual General Meeting | March 20, 2024, 9:00 a.m. KST | Jefferies, Asia Forum | March 19, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 20, 2024, 9:00 a.m. KST",
+          "evidence": "March 21, 2024 | 55th Annual General Meeting | March 20, 2024, 9:00 a.m. KST | Jefferies, Asia Forum | March 19, 2024 | Citi, Korea Conference | March 8, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 19, 2024",
+          "evidence": "March 20, 2024, 9:00 a.m. KST | Jefferies, Asia Forum | March 19, 2024 | Citi, Korea Conference | March 8, 2024 | JP Morgan, 2024 Korea Conference | February 22, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 8, 2024",
+          "evidence": "March 19, 2024 | Citi, Korea Conference | March 8, 2024 | JP Morgan, 2024 Korea Conference | February 22, 2024 | 4Q23 Overseas NDR | February 5 - February 16, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 22, 2024",
+          "evidence": "March 8, 2024 | JP Morgan, 2024 Korea Conference | February 22, 2024 | 4Q23 Overseas NDR | February 5 - February 16, 2024 | 4Q23 Domestic NDR | January 31 - February 2, 2024",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1422,6 +1801,36 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "January 9, 2023",
+          "evidence": "PDF | 4Q23 Guidance Announcement | January 9, 2023 | CES Conference 2024 | January 8~10, 2024 | 2023 | Expand",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "December 1, 2023",
+          "evidence": "Expand | Yuanta Securities, 2023 Yuanta Corporate Day | December 1, 2023 | NH Securities, NH Corporate Day | November 22, 2023 | Morgan Stanley, 2023 Asia Pacific Summit | November 15 ~ November 16, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 22, 2023",
+          "evidence": "December 1, 2023 | NH Securities, NH Corporate Day | November 22, 2023 | Morgan Stanley, 2023 Asia Pacific Summit | November 15 ~ November 16, 2023 | JP Morgan, Global TMT Conference in Asia 2023 | November 14, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 15 ~ November 16, 2023",
+          "evidence": "November 22, 2023 | Morgan Stanley, 2023 Asia Pacific Summit | November 15 ~ November 16, 2023 | JP Morgan, Global TMT Conference in Asia 2023 | November 14, 2023 | Samsung Electronics Investors Forum 2023 | November 13, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 14, 2023",
+          "evidence": "November 15 ~ November 16, 2023 | JP Morgan, Global TMT Conference in Asia 2023 | November 14, 2023 | Samsung Electronics Investors Forum 2023 | November 13, 2023 | Hong Kong | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "November 6 ~ November 7, 2023",
           "evidence": "November 8 ~ November 10, 2023 | HSBC, Asia Investor Forum | November 6 ~ November 7, 2023 | 3Q23 Domestic NDR | October 31 ~ November 2, 2023 | 3Q23 Earnings Conference Call | October 31, 2023, 10:00 a.m. KST",
           "status": "needs_review",
@@ -1436,6 +1845,48 @@
         {
           "dateText": "October 31, 2023, 10:00 a.m. KST",
           "evidence": "October 31 ~ November 2, 2023 | 3Q23 Earnings Conference Call | October 31, 2023, 10:00 a.m. KST | Webcast | PDF | UBS, Korea Summit 2023 | September 21, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 21, 2023",
+          "evidence": "PDF | UBS, Korea Summit 2023 | September 21, 2023 | Kiwoom, 2023 Kiwoom Corporate Day | September 18, 2023 | KB Securities, Korea Conference | September 13, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 18, 2023",
+          "evidence": "September 21, 2023 | Kiwoom, 2023 Kiwoom Corporate Day | September 18, 2023 | KB Securities, Korea Conference | September 13, 2023 | CLSA, 30th Annual CITIC CLSA Flagship Investors' Forum | September 11 - September 13, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 13, 2023",
+          "evidence": "September 18, 2023 | KB Securities, Korea Conference | September 13, 2023 | CLSA, 30th Annual CITIC CLSA Flagship Investors' Forum | September 11 - September 13, 2023 | Jefferies, 4th Asia Forum | September 7 - September 8, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 7 - September 8, 2023",
+          "evidence": "September 11 - September 13, 2023 | Jefferies, 4th Asia Forum | September 7 - September 8, 2023 | JP Morgan, Korea Corporate Day | September 5, 2023 | Samsung Securities, Samsung Group Asia Conference | August 28 - August 31, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 5, 2023",
+          "evidence": "September 7 - September 8, 2023 | JP Morgan, Korea Corporate Day | September 5, 2023 | Samsung Securities, Samsung Group Asia Conference | August 28 - August 31, 2023 | Korea Investment & Securities, Global Investors Conference | August 22, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 28 - August 31, 2023",
+          "evidence": "September 5, 2023 | Samsung Securities, Samsung Group Asia Conference | August 28 - August 31, 2023 | Korea Investment & Securities, Global Investors Conference | August 22, 2023 | ESG Roadshow (Virtual) | July 31 - August 4, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 22, 2023",
+          "evidence": "August 28 - August 31, 2023 | Korea Investment & Securities, Global Investors Conference | August 22, 2023 | ESG Roadshow (Virtual) | July 31 - August 4, 2023 | 2Q23 Domestic, Overseas NDR | July 27 - August 4, 2023",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1458,6 +1909,78 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "July 7, 2023",
+          "evidence": "PDF | 2Q23 Guidance Announcement | July 7, 2023 | Macquarie, Asia Conference in London | June 21 ~ June 23, 2023 | NH Securities, Domestic Tech Conference | June 14, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 21 ~ June 23, 2023",
+          "evidence": "July 7, 2023 | Macquarie, Asia Conference in London | June 21 ~ June 23, 2023 | NH Securities, Domestic Tech Conference | June 14, 2023 | UBS, Future-Now APAC Conference (Virtual) | June 13, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 14, 2023",
+          "evidence": "June 21 ~ June 23, 2023 | NH Securities, Domestic Tech Conference | June 14, 2023 | UBS, Future-Now APAC Conference (Virtual) | June 13, 2023 | Eugene Securities, Corporate Day (Virtual) | June 12, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 13, 2023",
+          "evidence": "June 14, 2023 | UBS, Future-Now APAC Conference (Virtual) | June 13, 2023 | Eugene Securities, Corporate Day (Virtual) | June 12, 2023 | Nomura, Investment Forum Asia 2023 | June 5 ~ June 9, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 12, 2023",
+          "evidence": "June 13, 2023 | Eugene Securities, Corporate Day (Virtual) | June 12, 2023 | Nomura, Investment Forum Asia 2023 | June 5 ~ June 9, 2023 | Citi, Regional Tech Conference | May 31 ~ June 2, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 5 ~ June 9, 2023",
+          "evidence": "June 12, 2023 | Nomura, Investment Forum Asia 2023 | June 5 ~ June 9, 2023 | Citi, Regional Tech Conference | May 31 ~ June 2, 2023 | Hana Securities, Tech Corporate Day | May 30, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 31 ~ June 2, 2023",
+          "evidence": "June 5 ~ June 9, 2023 | Citi, Regional Tech Conference | May 31 ~ June 2, 2023 | Hana Securities, Tech Corporate Day | May 30, 2023 | Samsung Securities, Samsung Global Investors Conference | May 25, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 30, 2023",
+          "evidence": "May 31 ~ June 2, 2023 | Hana Securities, Tech Corporate Day | May 30, 2023 | Samsung Securities, Samsung Global Investors Conference | May 25, 2023 | Yuanta, Korea & Taiwan 1st Global Investment Forum (Virtual) | May 24, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 25, 2023",
+          "evidence": "May 30, 2023 | Samsung Securities, Samsung Global Investors Conference | May 25, 2023 | Yuanta, Korea & Taiwan 1st Global Investment Forum (Virtual) | May 24, 2023 | Goldman Sachs, TechNet Conference Asia Pacific 2023 (Virtual) | May 23, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 24, 2023",
+          "evidence": "May 25, 2023 | Yuanta, Korea & Taiwan 1st Global Investment Forum (Virtual) | May 24, 2023 | Goldman Sachs, TechNet Conference Asia Pacific 2023 (Virtual) | May 23, 2023 | Macquarie Korea Conference: Finding K-Growth in A.I. & Contents | May 18, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 23, 2023",
+          "evidence": "May 24, 2023 | Goldman Sachs, TechNet Conference Asia Pacific 2023 (Virtual) | May 23, 2023 | Macquarie Korea Conference: Finding K-Growth in A.I. & Contents | May 18, 2023 | BofA, 2023 Korea & Global EV/EV Battery Conference | May 16, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 18, 2023",
+          "evidence": "May 23, 2023 | Macquarie Korea Conference: Finding K-Growth in A.I. & Contents | May 18, 2023 | BofA, 2023 Korea & Global EV/EV Battery Conference | May 16, 2023 | 1Q23 Domestic NDR | April 27 - May 2, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "May 16, 2023",
           "evidence": "May 18, 2023 | BofA, 2023 Korea & Global EV/EV Battery Conference | May 16, 2023 | 1Q23 Domestic NDR | April 27 - May 2, 2023 | 1Q23 Earnings Conference Call | April 27, 2023, 10:00 a.m. KST",
           "status": "needs_review",
@@ -1472,6 +1995,36 @@
         {
           "dateText": "April 27, 2023, 10:00 a.m. KST",
           "evidence": "April 27 - May 2, 2023 | 1Q23 Earnings Conference Call | April 27, 2023, 10:00 a.m. KST | Webcast | PDF | 1Q23 Guidance Announcement | April 7, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 7, 2023",
+          "evidence": "PDF | 1Q23 Guidance Announcement | April 7, 2023 | CGS-CIMB, Tech and EV Conference 2023 (Virtual) | March 29, 2023 | Credit Suisse, Asian Investment Conference | March 20 ~ March 22, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 29, 2023",
+          "evidence": "April 7, 2023 | CGS-CIMB, Tech and EV Conference 2023 (Virtual) | March 29, 2023 | Credit Suisse, Asian Investment Conference | March 20 ~ March 22, 2023 | KB Securities, 2023 Korea Corporate Day (Virtual) | March 17, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 20 ~ March 22, 2023",
+          "evidence": "March 29, 2023 | Credit Suisse, Asian Investment Conference | March 20 ~ March 22, 2023 | KB Securities, 2023 Korea Corporate Day (Virtual) | March 17, 2023 | BofA, 2023 TMT Conference | March 15 ~ March 17, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 17, 2023",
+          "evidence": "March 20 ~ March 22, 2023 | KB Securities, 2023 Korea Corporate Day (Virtual) | March 17, 2023 | BofA, 2023 TMT Conference | March 15 ~ March 17, 2023 | 54th Annual General Meeting | March 15, 2023, 9:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 15 ~ March 17, 2023",
+          "evidence": "March 17, 2023 | BofA, 2023 TMT Conference | March 15 ~ March 17, 2023 | 54th Annual General Meeting | March 15, 2023, 9:00 a.m. KST | Citi, Korea Investors Conference | March 9, 2023",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1494,6 +2047,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "February 15, 2023",
+          "evidence": "February 23 - 24, 2023 | Goldman Sachs, Korea Conference (Virtual) | February 15, 2023 | 4Q22 Overseas NDR | February 2 - February 10, 2023 | 4Q22 Domestic NDR | January 31 - February 1, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "February 2 - February 10, 2023",
           "evidence": "February 15, 2023 | 4Q22 Overseas NDR | February 2 - February 10, 2023 | 4Q22 Domestic NDR | January 31 - February 1, 2023 | 4Q22 Earnings Conference Call | January 31, 2023, 10:00 a.m. KST",
           "status": "needs_review",
@@ -1512,8 +2071,92 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "January 6, 2023",
+          "evidence": "PDF | 4Q22 Guidance Announcement | January 6, 2023 | CES Conference 2023 (Virtual) | January 4-6, 2023 | 2022 | Expand",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 28, 2022",
+          "evidence": "Expand | Citi, Tech Tour | November 28, 2022 | Yuanta Securities, Tech Corporate Day | November 23, 2022 | Morgan Stanley, 2022 Asia Pacific Summit | November 16-17, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 23, 2022",
+          "evidence": "November 28, 2022 | Yuanta Securities, Tech Corporate Day | November 23, 2022 | Morgan Stanley, 2022 Asia Pacific Summit | November 16-17, 2022 | Samsung Electronics Investors Forum 2022 | November 15, 2022, 13:20 p.m. SGT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 15, 2022, 13:20 p.m. SGT",
+          "evidence": "November 16-17, 2022 | Samsung Electronics Investors Forum 2022 | November 15, 2022, 13:20 p.m. SGT | Webcast | Shinhan Investment, Corporate Day | November 14, 2022 | JP Morgan, Global TMT Conference (Virtual)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 14, 2022",
+          "evidence": "Webcast | Shinhan Investment, Corporate Day | November 14, 2022 | JP Morgan, Global TMT Conference (Virtual) | November 10, 2022 | 2022 Extraordinary General Meeting | November 3, 2022, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2022",
+          "evidence": "November 14, 2022 | JP Morgan, Global TMT Conference (Virtual) | November 10, 2022 | 2022 Extraordinary General Meeting | November 3, 2022, 10:00 a.m. KST | Samsung Securities, Samsung Group Asia Conference | November 1-4, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 3, 2022, 10:00 a.m. KST",
+          "evidence": "November 10, 2022 | 2022 Extraordinary General Meeting | November 3, 2022, 10:00 a.m. KST | Samsung Securities, Samsung Group Asia Conference | November 1-4, 2022 | 3Q22 Domestic NDR | October 27-28, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "October 27, 2022, 10:00 a.m. KST",
           "evidence": "October 27-28, 2022 | 3Q22 Earnings Conference Call | October 27, 2022, 10:00 a.m. KST | Webcast | PDF | 3Q22 Guidance Announcement | October 7, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 26, 2022",
+          "evidence": "October 7, 2022 | eBest Investment & Securities, eBest Corporate Day | September 26, 2022 | Nomura, Korea Corporate Day 2022 (Virtual) | September 21, 2022 | HSBC, HSBC Global Emerging Markets Conference (Virtual) | September 16, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 21, 2022",
+          "evidence": "September 26, 2022 | Nomura, Korea Corporate Day 2022 (Virtual) | September 21, 2022 | HSBC, HSBC Global Emerging Markets Conference (Virtual) | September 16, 2022 | CLSA, 29th Annual CITIC CLSA Flagship Investors' Forum 2022 (Virtual) | September 14, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 16, 2022",
+          "evidence": "September 21, 2022 | HSBC, HSBC Global Emerging Markets Conference (Virtual) | September 16, 2022 | CLSA, 29th Annual CITIC CLSA Flagship Investors' Forum 2022 (Virtual) | September 14, 2022 | Credit Suisse,Asian Tech Conference (Virtual) | September 8, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 14, 2022",
+          "evidence": "September 16, 2022 | CLSA, 29th Annual CITIC CLSA Flagship Investors' Forum 2022 (Virtual) | September 14, 2022 | Credit Suisse,Asian Tech Conference (Virtual) | September 8, 2022 | KB Securities, KB Korea Conference | September 6-7, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 8, 2022",
+          "evidence": "September 14, 2022 | Credit Suisse,Asian Tech Conference (Virtual) | September 8, 2022 | KB Securities, KB Korea Conference | September 6-7, 2022 | Credit Suisse, Korea Corporate Day | September 2, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 1, 2022",
+          "evidence": "September 2, 2022 | JP Morgan, Korea Corporate Day | September 1, 2022 | Mirae Asset, Semiconductor IR Week | August 23, 2022 | Samsung Securities, Samsung Global Investors Conference | August 18, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 23, 2022",
+          "evidence": "September 1, 2022 | Mirae Asset, Semiconductor IR Week | August 23, 2022 | Samsung Securities, Samsung Global Investors Conference | August 18, 2022 | 2Q22 Domestic, Overseas NDR | July 28 ~ August 5, 2022",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1536,14 +2179,44 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "July 7, 2022",
+          "evidence": "PDF | 2Q22 Guidance Announcement | July 7, 2022 | UBS, Korea Conference 2022 (Virtual) | June 23, 2022 | Nomura, Investment Forum Asia (Virtual) | June 10, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 23, 2022",
+          "evidence": "July 7, 2022 | UBS, Korea Conference 2022 (Virtual) | June 23, 2022 | Nomura, Investment Forum Asia (Virtual) | June 10, 2022 | Citi, Tech Investor Conference | June 7-11, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "June 10, 2022",
           "evidence": "June 23, 2022 | Nomura, Investment Forum Asia (Virtual) | June 10, 2022 | Citi, Tech Investor Conference | June 7-11, 2022 | Daiwa, Investment Conference | May 23-27, 2022",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "May 17, 2022",
+          "evidence": "May 23-27, 2022 | Korea Investment & Securities, Global Investors Conference | May 17, 2022 | 1Q22 Overseas NDR | May 8-13, 2022 | 1Q22 Domestic NDR (Virtual) | April 28-29, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "April 28, 2022, 10:00 a.m. KST",
           "evidence": "April 28-29, 2022 | 1Q22 Earnings Conference Call | April 28, 2022, 10:00 a.m. KST | Webcast | PDF | 1Q22 Guidance Announcement | April 7, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 7, 2022",
+          "evidence": "PDF | 1Q22 Guidance Announcement | April 7, 2022 | Credit Suisse, 25th Asian Investment Conference (Virtual) | March 30, 2022 | BofA, 2022 APAC TMT Conference (Virtual) | March 24, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 30, 2022",
+          "evidence": "April 7, 2022 | Credit Suisse, 25th Asian Investment Conference (Virtual) | March 30, 2022 | BofA, 2022 APAC TMT Conference (Virtual) | March 24, 2022 | The 53rd Annual General Meeting | March 16, 2022, 09:00a.m. KST",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1566,8 +2239,56 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "March 3, 2022",
+          "evidence": "March 8, 2022 | Citi, Korea Investor Conference (Virtual) | March 3, 2022 | JP Morgan, Korea Conference (Virtual) | February 25, 2022 | Goldman Sachs, Korea Conference (Virtual) | February 15, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 25, 2022",
+          "evidence": "March 3, 2022 | JP Morgan, Korea Conference (Virtual) | February 25, 2022 | Goldman Sachs, Korea Conference (Virtual) | February 15, 2022 | 4Q21 Overseas NDR (Virtual) | February 3-10, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 15, 2022",
+          "evidence": "February 25, 2022 | Goldman Sachs, Korea Conference (Virtual) | February 15, 2022 | 4Q21 Overseas NDR (Virtual) | February 3-10, 2022 | 4Q21 Domestic NDR (Virtual) | January 27-28, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "January 27, 2022, 10:00 a.m. KST",
           "evidence": "January 27-28, 2022 | 4Q21 Earnings Conference Call | January 27, 2022, 10:00 a.m. KST | Webcast | PDF | 4Q21 Guidance Announcement | January 7, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "December 9, 2021",
+          "evidence": "Expand | Nomura, Investment Forum 2021 (Virtual) | December 9, 2021 | UBS, Global TMT Conference 2021 (Virtual) | December 7, 2021 | NH, Corporate Day (Virtual) | December 2, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "December 7, 2021",
+          "evidence": "December 9, 2021 | UBS, Global TMT Conference 2021 (Virtual) | December 7, 2021 | NH, Corporate Day (Virtual) | December 2, 2021 | Kiwoom Securities, Corporate Day (Virtual) | November 22, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 16, 2021",
+          "evidence": "November 22, 2021 | Samsung Electronics' 2021 Investors Forum (Virtual) | November 16, 2021 | Webcast | Shinhan Investment, Corporate Day (Virtual) | November 12, 2021 | JP Morgan, Global TMT Conference (Virtual)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 12, 2021",
+          "evidence": "Webcast | Shinhan Investment, Corporate Day (Virtual) | November 12, 2021 | JP Morgan, Global TMT Conference (Virtual) | November 11, 2021 | Korea Investment & Securities Investors Forum | November 9-10, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 11, 2021",
+          "evidence": "November 12, 2021 | JP Morgan, Global TMT Conference (Virtual) | November 11, 2021 | Korea Investment & Securities Investors Forum | November 9-10, 2021 | Seoul | 3Q21 Domestic NDR (Virtual)",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1578,8 +2299,80 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "October 8, 2021",
+          "evidence": "PDF | 3Q21 Guidance Announcement | October 8, 2021 | Daishin Securities, Daishin Corporate Day (Virtual) | September 28, 2021 | eBest Investment & Securities, eBest Tech Conference (Virtual) | September 27, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 28, 2021",
+          "evidence": "October 8, 2021 | Daishin Securities, Daishin Corporate Day (Virtual) | September 28, 2021 | eBest Investment & Securities, eBest Tech Conference (Virtual) | September 27, 2021 | CLSA, Investors' Forum 2021 (Virtual) | September 16, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 27, 2021",
+          "evidence": "September 28, 2021 | eBest Investment & Securities, eBest Tech Conference (Virtual) | September 27, 2021 | CLSA, Investors' Forum 2021 (Virtual) | September 16, 2021 | KB Securities, KB Korea Conference (Virtual) | September 8, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 16, 2021",
+          "evidence": "September 27, 2021 | CLSA, Investors' Forum 2021 (Virtual) | September 16, 2021 | KB Securities, KB Korea Conference (Virtual) | September 8, 2021 | Credit Suisse, Asian Tech Conference (Virtual) | September 7, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 8, 2021",
+          "evidence": "September 16, 2021 | KB Securities, KB Korea Conference (Virtual) | September 8, 2021 | Credit Suisse, Asian Tech Conference (Virtual) | September 7, 2021 | HSBC, Korea Corporate Day (Virtual) | September 1~2, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 7, 2021",
+          "evidence": "September 8, 2021 | Credit Suisse, Asian Tech Conference (Virtual) | September 7, 2021 | HSBC, Korea Corporate Day (Virtual) | September 1~2, 2021 | BoA Merrill Lynch, 2021 Korea Conference (Virtual) | August 19, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 19, 2021",
+          "evidence": "September 1~2, 2021 | BoA Merrill Lynch, 2021 Korea Conference (Virtual) | August 19, 2021 | Goldman Sachs Korea Corp Day (Virtual) | August 17, 2021 | 2Q21 Overseas NDR (Virtual) | August 2-6, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "July 29, 2021, 10:00 a.m. KST",
           "evidence": "July 29-30, 2021 | 2Q21 Earnings Conference Call | July 29, 2021, 10:00 a.m. KST | Webcast | PDF | 2Q21 Guidance Announcement | July 7, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 7, 2021",
+          "evidence": "PDF | 2Q21 Guidance Announcement | July 7, 2021 | Hana, IT H/W Conference (Virtual) | June 29, 2021 | UBS, Korea Conference 2021 (Virtual) | June 24, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 29, 2021",
+          "evidence": "July 7, 2021 | Hana, IT H/W Conference (Virtual) | June 29, 2021 | UBS, Korea Conference 2021 (Virtual) | June 24, 2021 | BoA Merrill Lynch, Global Tech Conference (Virtual) | June 10, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 24, 2021",
+          "evidence": "June 29, 2021 | UBS, Korea Conference 2021 (Virtual) | June 24, 2021 | BoA Merrill Lynch, Global Tech Conference (Virtual) | June 10, 2021 | BoA Merrill Lynch, Innovative Conference (Virtual) | June 2, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 10, 2021",
+          "evidence": "June 24, 2021 | BoA Merrill Lynch, Global Tech Conference (Virtual) | June 10, 2021 | BoA Merrill Lynch, Innovative Conference (Virtual) | June 2, 2021 | Citi, Pan Asia Investor Conference (Virtual) | June 2-4, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 2, 2021",
+          "evidence": "June 10, 2021 | BoA Merrill Lynch, Innovative Conference (Virtual) | June 2, 2021 | Citi, Pan Asia Investor Conference (Virtual) | June 2-4, 2021 | Nomura, Investment Forum Asia (Virtual) | May 31 ~ June 4, 2021",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1592,6 +2385,24 @@
         {
           "dateText": "April 29, 2021, 10:00 a.m. KST",
           "evidence": "April 29-30, 2021 | 1Q21 Earnings Conference Call | April 29, 2021, 10:00 a.m. KST | Webcast | PDF | Daiwa ESG Conference | April 15-16, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 7, 2021",
+          "evidence": "April 15-16, 2021 | 1Q21 Guidance Announcement | April 7, 2021 | Credit Suisse, Asian Investment Conference (Virtual) | March 25, 2021 | BoA Merrill Lynch, APAC TMT Conference (Virtual) | March 18, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 25, 2021",
+          "evidence": "April 7, 2021 | Credit Suisse, Asian Investment Conference (Virtual) | March 25, 2021 | BoA Merrill Lynch, APAC TMT Conference (Virtual) | March 18, 2021 | The 52nd Annual General Meeting | March 17, 2021, 09:00a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 18, 2021",
+          "evidence": "March 25, 2021 | BoA Merrill Lynch, APAC TMT Conference (Virtual) | March 18, 2021 | The 52nd Annual General Meeting | March 17, 2021, 09:00a.m. KST | KB Securities, Jefferies/KB Virtual Tech Trip (Virtual) | March 12, 2021",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1610,6 +2421,24 @@
         {
           "dateText": "March 8, 2021",
           "evidence": "March 12, 2021 | Daiwa, Investment Conference (Virtual) | March 8, 2021 | Citi, Korea Investor Conference (Virtual) | March 5, 2021 | Goldman Sachs, Korea Corp Day (Virtual) | February 26, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 5, 2021",
+          "evidence": "March 8, 2021 | Citi, Korea Investor Conference (Virtual) | March 5, 2021 | Goldman Sachs, Korea Corp Day (Virtual) | February 26, 2021 | JP Morgan, Korea Conference (Virtual) | February 26, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 26, 2021",
+          "evidence": "March 5, 2021 | Goldman Sachs, Korea Corp Day (Virtual) | February 26, 2021 | JP Morgan, Korea Conference (Virtual) | February 26, 2021 | 4Q20 Overseas NDR (Virtual) | February 1-5, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 26, 2021",
+          "evidence": "February 26, 2021 | JP Morgan, Korea Conference (Virtual) | February 26, 2021 | 4Q20 Overseas NDR (Virtual) | February 1-5, 2021 | 4Q20 Domestic NDR (Virtual) | January 28-29, 2021",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1638,6 +2467,36 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "November 26, 2020",
+          "evidence": "Webcast | Shinhan Securities, Super Corporate Day (Virtual) | November 26, 2020 | KRX, IR Event (Virtual) | November 24, 2020 | Morgan Stanley, Annual Asia Pacific Summit (Virtual) | November 19, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 24, 2020",
+          "evidence": "November 26, 2020 | KRX, IR Event (Virtual) | November 24, 2020 | Morgan Stanley, Annual Asia Pacific Summit (Virtual) | November 19, 2020 | Nomura, Korea All Access 2020 (Virtual) | November 17, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 19, 2020",
+          "evidence": "November 24, 2020 | Morgan Stanley, Annual Asia Pacific Summit (Virtual) | November 19, 2020 | Nomura, Korea All Access 2020 (Virtual) | November 17, 2020 | JP Morgan, Global TMT Conference (Virtual) | November 16, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 17, 2020",
+          "evidence": "November 19, 2020 | Nomura, Korea All Access 2020 (Virtual) | November 17, 2020 | JP Morgan, Global TMT Conference (Virtual) | November 16, 2020 | UBS, Korea Conference 2020 (Virtual) | November 12-13, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 16, 2020",
+          "evidence": "November 17, 2020 | JP Morgan, Global TMT Conference (Virtual) | November 16, 2020 | UBS, Korea Conference 2020 (Virtual) | November 12-13, 2020 | Korea Investment & Securities Investors Forum (Virtual) | November 10-11, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "November 2, 2020",
           "evidence": "November 3-6, 2020 | Goldman Sachs, Conference (Virtual) | November 2, 2020 | 3Q20 Domestic NDR (Virtual) | October 29-30, 2020 | 3Q20 Earnings Conference Call | October 29, 2020, 10:00 a.m. KST",
           "status": "needs_review",
@@ -1646,6 +2505,60 @@
         {
           "dateText": "October 29, 2020, 10:00 a.m. KST",
           "evidence": "October 29-30, 2020 | 3Q20 Earnings Conference Call | October 29, 2020, 10:00 a.m. KST | Webcast | PDF | 3Q20 Guidance Announcement | October 8, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 8, 2020",
+          "evidence": "PDF | 3Q20 Guidance Announcement | October 8, 2020 | Nomura, Korea Corporate Day 2020 (Virtual) | September 24, 2020 | BoA Merrill Lynch, 2020 Korea Conference (Virtual) | September 22, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 24, 2020",
+          "evidence": "October 8, 2020 | Nomura, Korea Corporate Day 2020 (Virtual) | September 24, 2020 | BoA Merrill Lynch, 2020 Korea Conference (Virtual) | September 22, 2020 | KB Securities, KB Korea Conference (Virtual) | September 17, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 22, 2020",
+          "evidence": "September 24, 2020 | BoA Merrill Lynch, 2020 Korea Conference (Virtual) | September 22, 2020 | KB Securities, KB Korea Conference (Virtual) | September 17, 2020 | Jeffries, Asia Investors’ Conference (Virtual) | September 16, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 17, 2020",
+          "evidence": "September 22, 2020 | KB Securities, KB Korea Conference (Virtual) | September 17, 2020 | Jeffries, Asia Investors’ Conference (Virtual) | September 16, 2020 | CLSA, Investors' Forum 2020 (Virtual) | September 8-9, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 16, 2020",
+          "evidence": "September 17, 2020 | Jeffries, Asia Investors’ Conference (Virtual) | September 16, 2020 | CLSA, Investors' Forum 2020 (Virtual) | September 8-9, 2020 | Credit Suisse, Asian Tech Conference (Virtual) | September 7, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 7, 2020",
+          "evidence": "September 8-9, 2020 | Credit Suisse, Asian Tech Conference (Virtual) | September 7, 2020 | Citi Korea Investor Conference (Virtual) | August 27, 2020 | NH Investments & Securities Korea Corporate Day (Virtual) | August 25, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 27, 2020",
+          "evidence": "September 7, 2020 | Citi Korea Investor Conference (Virtual) | August 27, 2020 | NH Investments & Securities Korea Corporate Day (Virtual) | August 25, 2020 | Korea Investment & Securities Investors Conference (Virtual) | August 18, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 25, 2020",
+          "evidence": "August 27, 2020 | NH Investments & Securities Korea Corporate Day (Virtual) | August 25, 2020 | Korea Investment & Securities Investors Conference (Virtual) | August 18, 2020 | 2Q20 Overseas NDR (Virtual) | August 3-7, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 18, 2020",
+          "evidence": "August 25, 2020 | Korea Investment & Securities Investors Conference (Virtual) | August 18, 2020 | 2Q20 Overseas NDR (Virtual) | August 3-7, 2020 | 2Q20 Domestic NDR (Virtual) | July 30 - August 3, 2020",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1662,6 +2575,48 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "July 7, 2020",
+          "evidence": "PDF | 2Q20 Guidance Announcement | July 7, 2020 | Macquarie, Asia Tech Conference | June 29, 2020 | Hana, Corporate Day (Virtual) | June 23, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 29, 2020",
+          "evidence": "July 7, 2020 | Macquarie, Asia Tech Conference | June 29, 2020 | Hana, Corporate Day (Virtual) | June 23, 2020 | UBS, Virtual Korea Corporate Day | June 16, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 16, 2020",
+          "evidence": "June 23, 2020 | UBS, Virtual Korea Corporate Day | June 16, 2020 | Daishin, Corporate Day | June 9, 2020 | Seoul | BoA Merrill Lynch, Innovative Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 9, 2020",
+          "evidence": "June 16, 2020 | Daishin, Corporate Day | June 9, 2020 | Seoul | BoA Merrill Lynch, Innovative Conference | June 9, 2020 | BoA Merrill Lynch, Global Tech Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 9, 2020",
+          "evidence": "Seoul | BoA Merrill Lynch, Innovative Conference | June 9, 2020 | BoA Merrill Lynch, Global Tech Conference | June 4, 2020 | Mirae asset Daewoo, Corporate Day | June 2, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 4, 2020",
+          "evidence": "June 9, 2020 | BoA Merrill Lynch, Global Tech Conference | June 4, 2020 | Mirae asset Daewoo, Corporate Day | June 2, 2020 | Seoul | Citi Pan Asia Investor Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 2, 2020",
+          "evidence": "June 4, 2020 | Mirae asset Daewoo, Corporate Day | June 2, 2020 | Seoul | Citi Pan Asia Investor Conference | May 19-21, 2020 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "April 29 - May 7, 2020",
           "evidence": "Seoul | 1Q20 Domestic NDR (Virtual) | April 29 - May 7, 2020 | 1Q20 Earnings Conference Call | April 29, 2020, 10:00 a.m. KST | Webcast | PDF",
           "status": "needs_review",
@@ -1670,6 +2625,12 @@
         {
           "dateText": "April 29, 2020, 10:00 a.m. KST",
           "evidence": "April 29 - May 7, 2020 | 1Q20 Earnings Conference Call | April 29, 2020, 10:00 a.m. KST | Webcast | PDF | 1Q20 Guidance Announcement | April 7, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 7, 2020",
+          "evidence": "PDF | 1Q20 Guidance Announcement | April 7, 2020 | Merrill Lynch Tech Conference | March 19, 2020 | Seoul | 4Q19 Domestic, Overseas NDR",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1692,6 +2653,18 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "November 28, 2019",
+          "evidence": "Tokyo | Nomura Korea All Access 2019 | November 28, 2019 | Seoul | Morgan Stanley Annual Asia Pacific Summit | November 20-22, 2019 | Singapore",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 19, 2019",
+          "evidence": "Singapore | Dashin securities Tech Conference | November 19, 2019 | Seoul | Samsung securities conference | November 13-14, 2019 | London",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "November 5, 2019",
           "evidence": "New York/Boston | Samsung securities Corporate Day | November 5, 2019 | Seoul | 3Q19 Domestic NDR | October 31-November 4, 2019 | 3Q19 Earnings Conference Call",
           "status": "needs_review",
@@ -1710,6 +2683,24 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "September 2, 2019",
+          "evidence": "Seoul | Credit Suisse Korea Corporate Day | September 2, 2019 | Seoul | BoAML Korea Conference 2019 | August 29, 2019 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 29, 2019",
+          "evidence": "Seoul | BoAML Korea Conference 2019 | August 29, 2019 | Seoul | Kiwoon Securities Corporate Day | August 27, 2019 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 26, 2019",
+          "evidence": "Seoul | JP Morgan Tech Coference | August 26, 2019 | Seoul | Samsung Securities, Samsung Group Asia Conference | August 20 ~ 22, 2019 | Singapore/Hong Kong",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "July 31 - August 9, 2019",
           "evidence": "Singapore/Hong Kong | 2Q19 Domestic, Overseas NDR | July 31 - August 9, 2019 | 2Q19 Earnings Conference Call | July 31, 2019, 10:00 a.m. KST | Webcast | PDF",
           "status": "needs_review",
@@ -1722,6 +2713,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "June 26, 2019",
+          "evidence": "July 5, 2019 | Samsung Electronics' 2019 Investors Forum | June 26, 2019 | Seoul | Webcast | UBS Korea Conference 2019 | June 24-25, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "April 30-May 2, 2019",
           "evidence": "Seoul | 1Q19 Domestic NDR | April 30-May 2, 2019 | 1Q19 Earnings Conference Call | April 30, 2019, 10:00 a.m. KST | Webcast | PDF",
           "status": "needs_review",
@@ -1730,6 +2727,18 @@
         {
           "dateText": "April 30, 2019, 10:00 a.m. KST",
           "evidence": "April 30-May 2, 2019 | 1Q19 Earnings Conference Call | April 30, 2019, 10:00 a.m. KST | Webcast | PDF | 1Q19 Guidance Announcement | April 5, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 5, 2019",
+          "evidence": "PDF | 1Q19 Guidance Announcement | April 5, 2019 | Credit Suisse, Asian Investment Conference | March 25-28, 2019 | Hong Kong | BoAML Asia Pacific TMT Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 20, 2019, 9:00 a.m. KST",
+          "evidence": "Taipei | The 50th Annual General Meeting of Shareholders | March 20, 2019, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg | [Public Disclosure] | Reference Material | Citi, Korea Conference",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1758,8 +2767,20 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "January 8, 2019",
+          "evidence": "PDF | 4Q18 Guidance Announcement | January 8, 2019 | Nomura CES Conference 2019 | January 7-8, 2019 | Las Vegas | 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "November 27, 2018",
           "evidence": "Seoul | Daishin Tech Conference | November 27, 2018 | Seoul | Shinhan Corporate Day | November 19, 2018 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 15, 2018",
+          "evidence": "Seoul | Mirae asset Daewoo Corporate Day | November 15, 2018 | Seoul | JP Global TMT Conference | November 14-15, 2018 | Hong Kong",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1776,6 +2797,18 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "October 5, 2018",
+          "evidence": "PDF | 3Q18 Guidance Announcement | October 5, 2018 | BoAML Korea Conference 2018 | September 18, 2018 | Seoul | KB Securities Corporate Day",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 18, 2018",
+          "evidence": "October 5, 2018 | BoAML Korea Conference 2018 | September 18, 2018 | Seoul | KB Securities Corporate Day | September 13, 2018 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "July 31-August 10, 2018",
           "evidence": "Singapore/Hong Kong | 2Q18 Domestic, Overseas NDR | July 31-August 10, 2018 | 2Q18 Earnings Conference Call | July 31, 2018, 10:00 a.m. KST | Webcast | PDF",
           "status": "needs_review",
@@ -1788,8 +2821,44 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "July 6, 2018",
+          "evidence": "PDF | 2Q18 Guidance Announcement | July 6, 2018 | UBS Korea Conference 2018 | June 25-26, 2018 | Seoul | Macquarie, Emerging Industries Summit",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 21, 2018",
+          "evidence": "Seoul | Macquarie, Emerging Industries Summit | June 21, 2018 | Seoul | Goldman Sachs Korea Corporate Day | June 21-22, 2018 | Hong Kong",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 4, 2018",
+          "evidence": "Singapore | Samsung Electronics' 2018 Investors Forum | June 4, 2018 | Singapore | Webcast | Citi Taiwan and Regional Tech Conference 2018 | May 30-31, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 23, 2018",
+          "evidence": "Seoul | Shinhan Securities, Tech Corporate Day | May 23, 2018 | Seoul | Samsung Securities, Global Investors Conference | May 17-18, 2018 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2018",
+          "evidence": "New York | KRX Conference | May 10, 2018 | Hong Kong | BNP Asia Pacific TMT Conference | May 8-9, 2018 | Hong Kong",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "April 26, 2018, 10:00 a.m. KST",
           "evidence": "April 26-30, 2018 | 1Q18 Earnings Conference Call | April 26, 2018, 10:00 a.m. KST | Webcast | PDF | 1Q18 Guidance Announcement | April 6, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 23, 2018, 9:00 a.m. KST",
+          "evidence": "April 6, 2018 | The 49th Annual General Meeting of Shareholders | March 23, 2018, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg | [Public Disclosure] | Reference Material | Credit Suisse, Asian Investment Conference",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1806,14 +2875,38 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "January 9, 2018",
+          "evidence": "PDF | 4Q17 Guidance Announcement | January 9, 2018 | Nomura CES Conference 2018 | January 8-9, 2018 | Las Vegas | 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "October 31, 2017, 10:00 a.m. KST",
           "evidence": "New York/Boston | 3Q17 Earnings Conference Call | October 31, 2017, 10:00 a.m. KST | Webcast | PDF | 3Q17 Guidance Announcement | October 13",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "September 6, 2017",
+          "evidence": "Hong Kong | KB Securities Corporate Day 2017 | September 6, 2017 | Seoul | Credit Suisse TNT Conference | September 4, 2017 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "September 4, 2017",
+          "evidence": "Seoul | Credit Suisse TNT Conference | September 4, 2017 | Seoul | Samsung Securities, Samsung Group Asia Conference | August 22-25, 2017 | Singapore/Hong Kong",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "July 27, 2017, 10:00 a.m. KST",
           "evidence": "Singapore/Hong Kong | 2Q FY2017 Earnings Conference Call | July 27, 2017, 10:00 a.m. KST | Webcast | PDF | 2Q17 Guidance Announcement | July 7",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 24, 2017",
+          "evidence": "Los Angeles | KRX Conference | May 24, 2017 | Hong Kong | Samsung Electronics' 2017 Investors Forum | May 22, 2017 | Hong Kong",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1836,8 +2929,26 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "April 7, 2017",
+          "evidence": "PDF | 1Q17 Guidance Announcement | April 7, 2017 | Credit Suisse, Asian Investment Conference | March 28-30, 2017 | Hong Kong | The 48th Annual General Meeting of Shareholders",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "January 24, 2017, 9:30 a.m. KST",
           "evidence": "Seoul | 4Q16 Earnings Conference Call | January 24, 2017, 9:30 a.m. KST | Webcast | PDF | 4Q16 Guidance Announcement | January 6, 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 6, 2017",
+          "evidence": "PDF | 4Q16 Guidance Announcement | January 6, 2017 | Nomura CES Conference 2017 | January 4-6, 2017 | Las Vegas | 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 29, 2016, 9:30 a.m. KST",
+          "evidence": "Tokyo | Samsung Electronics Strategic Update Conference Call | November 29, 2016, 9:30 a.m. KST | Webcast | PDF | Nomura Korea Corporate Day | November 23-24, 2016",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1854,6 +2965,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "September 2, 2016",
+          "evidence": "Seoul | KRX IR Conference | September 2, 2016 | Korea Exchange, Seoul | Samsung Securities, Samsung Group Asia Conference | August 29-September 2, 2016 | Hong Kong/Singapore",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "August 29-September 2, 2016",
           "evidence": "Korea Exchange, Seoul | Samsung Securities, Samsung Group Asia Conference | August 29-September 2, 2016 | Hong Kong/Singapore | 2Q16 Earnings Conference Call | July 28, 2016, 9:30 a.m. KST | Webcast",
           "status": "needs_review",
@@ -1866,14 +2983,56 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "July 7, 2016",
+          "evidence": "PDF | 2Q16 Guidance Announcement | July 7, 2016 | UBS, Korea Conference 2016 | June 21, 2016 | Conrad Hotel, Seoul | Samsung Investors Forum 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 21, 2016",
+          "evidence": "July 7, 2016 | UBS, Korea Conference 2016 | June 21, 2016 | Conrad Hotel, Seoul | Samsung Investors Forum 2016 | June 20, 2016 | Conrad Hotel, Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "April 28, 2016, 9:30 a.m. KST",
           "evidence": "Hong Kong | 1Q16 Earnings Conference Call | April 28, 2016, 9:30 a.m. KST | Webcast | PDF | 1Q16 Guidance Announcement | April 7, 2016",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "April 7, 2016",
+          "evidence": "PDF | 1Q16 Guidance Announcement | April 7, 2016 | Credit Suisse, Asian Investment Conference | April 5-8, 2016 | Hong Kong | Daewoo Securities, Daewoo Corporate Day",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 17, 2016",
+          "evidence": "Hong Kong | Daewoo Securities, Daewoo Corporate Day | March 17, 2016 | Seoul | BoAML, Asia Pacific TMT Conference 2016 | March 14-15, 2016 | Taipei",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 11, 2016, 9:00 a.m. KST",
+          "evidence": "Taipei | The 47th Annual General Meeting of Shareholders | March 11, 2016, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg | Citi, Korea Investors Conference | March 4, 2016 | Conrad Hotel, Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 4, 2016",
+          "evidence": "Multifunctional Hall (5F), Samsung Electronics Bldg | Citi, Korea Investors Conference | March 4, 2016 | Conrad Hotel, Seoul | Daiwa, Investor Forum | March 3-4, 2016 | Tokyo",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "January 28, 2016, 9:30 a.m. KST",
           "evidence": "Conrad Hotel, Seoul | 4Q15 Earnings Conference Call | January 28, 2016, 9:30 a.m. KST | Webcast | PDF | 4Q15 Guidance Announcement | January 8, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 8, 2016",
+          "evidence": "PDF | 4Q15 Guidance Announcement | January 8, 2016 | Nomura, CES Conference 2016 | January 5-7, 2016 | Las Vegas | 2015",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1938,6 +3097,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "November 17, 2014, 1:00 p.m. EST",
+          "evidence": "New York / Boston | Samsung Investors Forum 2014 | November 17, 2014, 1:00 p.m. EST | Deutsche Bank, db Access Korea Conference | November 6-7, 2014 | Seoul | Samsung Securities, Corporate Day",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "November 4, 2014",
           "evidence": "Seoul | Samsung Securities, Corporate Day | November 4, 2014 | Seoul | 3Q FY2014 Earnings Conference Call | October 30, 2014 | Webcast",
           "status": "needs_review",
@@ -1956,6 +3121,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "September 2, 2014",
+          "evidence": "Seoul | Korea Exchange, KRX IR Conference | September 2, 2014 | Seoul | Barclays, Korea Conference | August 21-22, 2014 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "July 31, 2014",
           "evidence": "Seoul | 2Q FY2014 Earnings Conference Call | July 31, 2014 | Webcast | PDF | Announces Earnings Guidance for 2nd Quarter 2014 | July 8, 2014",
           "status": "needs_review",
@@ -1964,6 +3135,12 @@
         {
           "dateText": "July 8, 2014",
           "evidence": "PDF | Announces Earnings Guidance for 2nd Quarter 2014 | July 8, 2014 | UBS, Korea Conference | June 23-24, 2014 | Seoul | Goldman Sachs, Korea Corporate Day",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 9, 2014",
+          "evidence": "Singapore / Hong Kong | CIMB, Asia Pacific Conference & Invest Malaysia | June 9, 2014 | Kuala Lumpur | Dongbu Securities, IT Corporate day | June 2, 2014 | Seoul",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -1982,6 +3159,12 @@
         {
           "dateText": "April 8, 2014",
           "evidence": "PDF | Announces Earnings Guidance for 1st Quarter 2014 | April 8, 2014 | Credit Suisse, Asian Investment Conference | March 24-26, 2014 | Hong Kong | KDB Daewoo Securities, Corporate Day",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 14, 2014, 9:00 a.m. KST",
+          "evidence": "Taiwan | The 45th Annual General Meeting of Shareholders | March 14, 2014, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg. | Citi, Korea Conference | March 6-7, 2014 | Seoul",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2034,6 +3217,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "May 16, 2013",
+          "evidence": "Seoul | HanaDaetoo Securities, Corporate Day | May 16, 2013 | Seoul | BNP Paribas, Asia Pacific TMT Conference | May 13-15, 2013 | Hong Kong",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "April 26, 2013",
           "evidence": "Seoul | 1Q FY2013 Earnings Conference Call (Simultaneous translation provided) | April 26, 2013 | Webcast | PDF | Announces Earnings Guidance for 1st Quarter 2013 | April 5, 2013",
           "status": "needs_review",
@@ -2042,6 +3231,12 @@
         {
           "dateText": "April 5, 2013",
           "evidence": "PDF | Announces Earnings Guidance for 1st Quarter 2013 | April 5, 2013 | KDB Daewoo, Corporate Day | March 26-27, 2013 | Seoul | Credit Suisse, Asian Investment Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 15, 2013",
+          "evidence": "Hong Kong | The 44th Annual General Shareholders' Meeting | March 15, 2013 | Seoul | Bank of America Merrill Lynch, Technology & Beyond Conference | March 12-13, 2013 | Taiwan",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2088,6 +3283,24 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "May 31-June 1, 2012",
+          "evidence": "Seoul | BNP Paribas, Asia Pacific TMT Conference | May 31-June 1, 2012 | Seoul | Nomura, Pan-Asia Technology Forum | May 30-June 1, 2012 | Hong Kong",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 30-June 1, 2012",
+          "evidence": "Seoul | Nomura, Pan-Asia Technology Forum | May 30-June 1, 2012 | Hong Kong | Deutsche Bank, Access Asia Conference | May 28-29, 2012 | Singapore",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 24, 2012",
+          "evidence": "Singapore | Hana Daetoo Securities, Corporate Day | May 24, 2012 | Seoul | Macquarie, North Asia Conference | May 24-25, 2012 | London",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "May 3, 2012",
           "evidence": "Seoul | Hyundai Securities, HYUNDAI K-Tops Conference | May 3, 2012 | Seoul | Korea Investment & Securities, KIS Investors Forum | May 3-4, 2012 | Boston/New York",
           "status": "needs_review",
@@ -2106,6 +3319,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "March 16, 2012, 9:00 a.m. KST",
+          "evidence": "Seoul | The 43rd Annual General Shareholders' Meeting | March 16, 2012, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg. | PDF | Bank of America Merrill Lynch, Technology & Beyond Conference | March 13-15, 2012",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "January 27, 2012",
           "evidence": "Seoul | 4Q FY2011 Earnings Conference Call | January 27, 2012 | Webcast | PDF | 2012 CES | January 9-12, 2012",
           "status": "needs_review",
@@ -2114,6 +3333,18 @@
         {
           "dateText": "January 6, 2012",
           "evidence": "Las Vegas | Announces Earnings Guidance for Fourth Quarter 2011 | January 6, 2012 | 2011 | Expand | KB Investment & Securities, 2012 Top-Picks Corporate Day | December 14, 2011",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "December 14, 2011",
+          "evidence": "Expand | KB Investment & Securities, 2012 Top-Picks Corporate Day | December 14, 2011 | Seoul | Barclays Capital, Global Technology Conference | December 7-9, 2011 | San Francisco",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 18, 2011",
+          "evidence": "Tokyo | J.P. Morgan, Asia Pacific TMT Conference 2011 | November 18, 2011 | Hong Kong | Morgan Stanley, Asia Pacific Summit 2011 | November 15-17, 2011 | Singapore",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2166,6 +3397,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "September 3, 2010",
+          "evidence": "Hong Kong | Samsung Securities, Samsung Group Conference | September 3, 2010 | Singapore | Merrill Lynch, Korea Conference | September 2-3, 2010 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "July 30, 2009",
           "evidence": "Seoul | 2Q FY2010 Earnings Conference Call | July 30, 2009 | Webcast | PDF | J.P.Morgan, Asia Pacific Equity Conference | June 28-30, 2010",
           "status": "needs_review",
@@ -2202,6 +3439,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "September 11, 2009",
+          "evidence": "Hong Kong / Singapore | Deutsche Bank, Global Emerging Markets Conference | September 11, 2009 | New York | Citigroup, Global Technology Conference | September 9-10, 2009 | New York",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "July 24, 2009, 10:00 a.m. KST",
           "evidence": "Seoul (Hotel Shilla) | 2Q FY2009 Earnings Conference Call | July 24, 2009, 10:00 a.m. KST | 2Q FY2009 Earnings Release | July 24, 2009, 16:30 p.m. KST | Woori Art Hall (4th floor), Woori Investment & Securities building | PDF",
           "status": "needs_review",
@@ -2226,6 +3469,12 @@
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
+          "dateText": "March 13, 2009, 9:00 a.m. KST",
+          "evidence": "Taiwan | The 40th Annual General Meeting of Shareholders | March 13, 2009, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg. | Citigroup, Korea Investor Conference | March 5-6, 2009 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
           "dateText": "January 23, 2009, 10:00 a.m. KST",
           "evidence": "Seoul | 4Q FY2008 Earnings Conference Call | January 23, 2009, 10:00 a.m. KST | 4Q FY2008 Earnings Release | January 23 , 2009, 16:00 p.m. KST | International Conference Hall (1st floor), Korea Exchange | PDF",
           "status": "needs_review",
@@ -2240,7 +3489,20 @@
       ],
       "status": "retrieved",
       "publishedEstimate": null,
-      "candidates": []
+      "candidates": [
+        {
+          "dateText": "Sep 28, 2026",
+          "evidence": "AI Infrastructure | “Behind AI’s Rapid Growth Lies Memory” — SK hynix Shares Its Next-Generation Memory Portfolio at the TSMC OIP Conference | Sep 28, 2026 | TECH&AI | AI Semiconductor | eSSD | HBF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 17, 2026",
+          "evidence": "Ventures Day | SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit 2026’ | Sep 17, 2026 | TECH&AI | AI | AI Infra Summit | AI Memory",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     },
     {
       "url": "https://investors.micron.com/events-and-presentations",
@@ -2858,6 +4120,172 @@
       "candidates": []
     },
     {
+      "url": "https://www.intc.com/news-events/ir-calendar",
+      "companies": [
+        "INTC"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Oct 29, 2026 • 2:00 PM PDT",
+          "evidence": "Presentations | Upcoming Events | Oct 29, 2026 • 2:00 PM PDT | Q3 2026 Intel Corporation Earnings Conference Call | Audio | Webcast | Past Events",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 8, 2026",
+          "evidence": "Webcast | Past Events | Sep 8, 2026 | SPIE Photomask Technology + Extreme Ultraviolet Lithography Conference | Aug 26, 2026 • 10:35 AM PDT | Deutsche Bank's 2026 Technology Conference | Jul 23, 2026 • 2:00 PM PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 26, 2026 • 10:35 AM PDT",
+          "evidence": "Sep 8, 2026 | SPIE Photomask Technology + Extreme Ultraviolet Lithography Conference | Aug 26, 2026 • 10:35 AM PDT | Deutsche Bank's 2026 Technology Conference | Jul 23, 2026 • 2:00 PM PDT | Q2 2026 Intel Corporation Earnings Conference Call | Jun 2, 2026 • 3:20 PM PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 23, 2026 • 2:00 PM PDT",
+          "evidence": "Aug 26, 2026 • 10:35 AM PDT | Deutsche Bank's 2026 Technology Conference | Jul 23, 2026 • 2:00 PM PDT | Q2 2026 Intel Corporation Earnings Conference Call | Jun 2, 2026 • 3:20 PM PDT | BofA Global Technology Conference | Jun 1, 2026 • 10:30 PM PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 2, 2026 • 3:20 PM PDT",
+          "evidence": "Jul 23, 2026 • 2:00 PM PDT | Q2 2026 Intel Corporation Earnings Conference Call | Jun 2, 2026 • 3:20 PM PDT | BofA Global Technology Conference | Jun 1, 2026 • 10:30 PM PDT | Computex Keynote | May 19, 2026 • 9:55 AM PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 1, 2026 • 10:30 PM PDT",
+          "evidence": "Jun 2, 2026 • 3:20 PM PDT | BofA Global Technology Conference | Jun 1, 2026 • 10:30 PM PDT | Computex Keynote | May 19, 2026 • 9:55 AM PDT | J.P. Morgan Global Technology, Media and Communications Conference | May 13, 2026 • 9:00 AM PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 19, 2026 • 9:55 AM PDT",
+          "evidence": "Jun 1, 2026 • 10:30 PM PDT | Computex Keynote | May 19, 2026 • 9:55 AM PDT | J.P. Morgan Global Technology, Media and Communications Conference | May 13, 2026 • 9:00 AM PDT | 2026 Annual Stockholders' Meeting | Apr 23, 2026 • 2:00 PM PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 13, 2026 • 9:00 AM PDT",
+          "evidence": "May 19, 2026 • 9:55 AM PDT | J.P. Morgan Global Technology, Media and Communications Conference | May 13, 2026 • 9:00 AM PDT | 2026 Annual Stockholders' Meeting | Apr 23, 2026 • 2:00 PM PDT | Q1 2026 Intel Corporation Earnings Conference Call | View All Past Events",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 23, 2026 • 2:00 PM PDT",
+          "evidence": "May 13, 2026 • 9:00 AM PDT | 2026 Annual Stockholders' Meeting | Apr 23, 2026 • 2:00 PM PDT | Q1 2026 Intel Corporation Earnings Conference Call | View All Past Events | Email Alerts | Tear Sheet",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://investors.arm.com/news-events/investor-events-presentations",
+      "companies": [
+        "ARM"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Q3 - February 3, 2027",
+          "evidence": "Tentatively proposed earnings dates: | FYE27 | Q3 - February 3, 2027 | Q4 - May 5, 2027 | Upcoming Events | Nov 4, 2026 | 2:00 PM PST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://investor.qualcomm.com/",
+      "companies": [
+        "QCOM"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "June 24, 2026 | New York City",
+          "evidence": "for Snapdragon Summit 2024 | Investor Day 2026 | June 24, 2026 | New York City | Event Details | (opens in new tab) | Latest Financial Results | $",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://investors.snowflake.com/",
+      "companies": [
+        "SNOW"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
+      "url": "https://ir.crowdstrike.com/",
+      "companies": [
+        "CRWD"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
+      "url": "https://investors.paloaltonetworks.com/",
+      "companies": [
+        "PANW"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Palo Alto Networks to Announce Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results on Tuesday, September 1, 2026",
+          "evidence": "3 Aug | 2026 | Palo Alto Networks to Announce Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results on Tuesday, September 1, 2026 | Learn more | 21 Jul | 2026 | Palo Alto Networks to Extend Leading Observability Platform with Innovative Digital Experience Monitoring",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 10, 2026 at 3:45 PM EDT",
+          "evidence": "See All Events | Goldman Sachs Communacopia + Technology Conference | Sep 10, 2026 at 3:45 PM EDT | Webcast | Q4 FY2026 Palo Alto Networks, Inc. Earnings Call | Sep 1, 2026 at 1:30 PM PDT | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 1, 2026 at 1:30 PM PDT",
+          "evidence": "Webcast | Q4 FY2026 Palo Alto Networks, Inc. Earnings Call | Sep 1, 2026 at 1:30 PM PDT | Webcast | Q3 FY2026 Palo Alto Networks, Inc. Earnings Call | Jun 2, 2026 at 1:30 PM PDT | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 2, 2026 at 1:30 PM PDT",
+          "evidence": "Webcast | Q3 FY2026 Palo Alto Networks, Inc. Earnings Call | Jun 2, 2026 at 1:30 PM PDT | Webcast | Investor Contacts | General Inquiry: | ir@paloaltonetworks.com",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://cloudflare.net/",
+      "companies": [
+        "NET"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
+      "url": "https://openai.com/news/",
+      "companies": [
+        "OPENAI"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
       "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
       "companies": [
         "NVDA"
@@ -2872,8 +4300,8 @@
       },
       "candidates": [
         {
-          "dateText": "NVIDIA issued Q2 2027 earnings on August 26, 2026, reporting an EPS of",
-          "evidence": "Short Interest | NVIDIA Earnings Summary | NVIDIA issued Q2 2027 earnings on August 26, 2026, reporting an EPS of | $2.22 | , which topped the consensus estimate of | $2.09 | by",
+          "dateText": "NVIDIA announced Q2 2027 earnings on August 26, 2026, reporting an EPS of",
+          "evidence": "Short Interest | NVIDIA Earnings Summary | NVIDIA announced Q2 2027 earnings on August 26, 2026, reporting an EPS of | $2.22 | , which beat analysts' consensus estimates of | $2.09 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2928,8 +4356,8 @@
       },
       "candidates": [
         {
-          "dateText": "Marvell Technology issued Q2 2027 earnings on August 27, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Marvell Technology Earnings Summary | Marvell Technology issued Q2 2027 earnings on August 27, 2026, reporting an EPS of | $0.94 | , which beat the consensus estimate of | $0.93 | by",
+          "dateText": "Marvell Technology announced Q2 2027 earnings on August 27, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Marvell Technology Earnings Summary | Marvell Technology announced Q2 2027 earnings on August 27, 2026, reporting an EPS of | $0.94 | , which topped analysts' consensus estimates of | $0.93 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2956,8 +4384,8 @@
       },
       "candidates": [
         {
-          "dateText": "Oracle announced Q1 2027 earnings on September 10, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Oracle Earnings Summary | Oracle announced Q1 2027 earnings on September 10, 2026, reporting an EPS of | $1.92 | , which beat analysts' consensus estimates of | $1.74 | by",
+          "dateText": "Oracle issued Q1 2027 earnings on September 10, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Oracle Earnings Summary | Oracle issued Q1 2027 earnings on September 10, 2026, reporting an EPS of | $1.92 | , which topped analysts' consensus estimates of | $1.74 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2984,8 +4412,8 @@
       },
       "candidates": [
         {
-          "dateText": "Salesforce posted Q2 2027 earnings on August 26, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Salesforce Earnings Summary | Salesforce posted Q2 2027 earnings on August 26, 2026, reporting an EPS of | $5.90 | , which beat the consensus estimate of | $3.27 | by",
+          "dateText": "Salesforce announced Q2 2027 earnings on August 26, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Salesforce Earnings Summary | Salesforce announced Q2 2027 earnings on August 26, 2026, reporting an EPS of | $5.90 | , which beat analysts' consensus estimates of | $3.27 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3012,8 +4440,8 @@
       },
       "candidates": [
         {
-          "dateText": "Adobe announced Q3 2026 earnings on September 10, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Adobe Earnings Summary | Adobe announced Q3 2026 earnings on September 10, 2026, reporting an EPS of | $6.13 | , which topped the consensus estimate of | $6.08 | by",
+          "dateText": "Adobe released Q3 2026 earnings on September 10, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Adobe Earnings Summary | Adobe released Q3 2026 earnings on September 10, 2026, reporting an EPS of | $6.13 | , which topped analysts' consensus estimates of | $6.08 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3068,8 +4496,8 @@
       },
       "candidates": [
         {
-          "dateText": "Micron Technology posted Q4 2026 earnings on September 30, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Micron Technology Earnings Summary | Micron Technology posted Q4 2026 earnings on September 30, 2026, reporting an EPS of | $33.42 | , which topped analysts' consensus estimates of | $31.77 | by",
+          "dateText": "Micron Technology issued Q4 2026 earnings on September 30, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Micron Technology Earnings Summary | Micron Technology issued Q4 2026 earnings on September 30, 2026, reporting an EPS of | $33.42 | , which topped analysts' consensus estimates of | $31.77 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3096,8 +4524,8 @@
       },
       "candidates": [
         {
-          "dateText": "Amazon.com issued Q2 2026 earnings on July 30, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Amazon.com Earnings Summary | Amazon.com issued Q2 2026 earnings on July 30, 2026, reporting an EPS of | $5.75 | , which topped analysts' consensus estimates of | $1.82 | by",
+          "dateText": "Amazon.com posted Q2 2026 earnings on July 30, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Amazon.com Earnings Summary | Amazon.com posted Q2 2026 earnings on July 30, 2026, reporting an EPS of | $5.75 | , which topped analysts' consensus estimates of | $1.82 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3302,7 +4730,7 @@
       "candidates": [
         {
           "dateText": "Nov 9, 2026",
-          "evidence": "141.47 (+133.99%) | Est. Earnings | Nov 9, 2026 | About CRWV | CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States. The company offers CoreWeave Cloud platform that comprises proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence (AI) infrastructure at scale. It also offers data and storage solutions, such as Local Object Transport Accelerator; infrastructure control solutions, including CoreWeave Kubernetes service; mission control services, including node, rack, and fleet lifecycle manageme... | [Read more] | Industry",
+          "evidence": "140.76 (+127.84%) | Est. Earnings | Nov 9, 2026 | About CRWV | CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States. The company offers CoreWeave Cloud platform that comprises proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence (AI) infrastructure at scale. It also offers data and storage solutions, such as Local Object Transport Accelerator; infrastructure control solutions, including CoreWeave Kubernetes service; mission control services, including node, rack, and fleet lifecycle manageme... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3343,6 +4771,194 @@
       ]
     },
     {
+      "url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
+      "companies": [
+        "INTC"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Oct 29, 2026 • 2:00 PM PDT",
+          "evidence": "Presentations | Q3 2026 Intel Corporation Earnings Conference Call | Oct 29, 2026 • 2:00 PM PDT | Audio | Webcast | Email Alerts | Tear Sheet",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
+      "companies": [
+        "QCOM"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "November 4, 2026",
+          "evidence": "Event Details | Q4 FY26 Earnings Conference Call | November 4, 2026 | 01:45 PM PT | Webcast | Email Alerts | Contacts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+      "companies": [
+        "SNOW"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-02",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Snowflake announced Q2 2027 earnings on September 2, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Snowflake Earnings Summary | Snowflake announced Q2 2027 earnings on September 2, 2026, reporting an EPS of | $0.62 | , which beat analysts' consensus estimates of | $0.45 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Snowflake's next earnings date is estimated for Wednesday, December 2, 2026, based on past reporting schedules.",
+          "evidence": "SEC Filing | SNOW Upcoming Earnings | Snowflake's next earnings date is estimated for Wednesday, December 2, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Snowflake Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings/",
+      "companies": [
+        "CRWD"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-01",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "CrowdStrike posted Q2 2027 earnings on August 26, 2026, reporting an EPS of",
+          "evidence": "Short Interest | CrowdStrike Earnings Summary | CrowdStrike posted Q2 2027 earnings on August 26, 2026, reporting an EPS of | $0.31 | , which topped the consensus estimate of | $0.29 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "CrowdStrike's next earnings date is estimated for Tuesday, December 1, 2026, based on past reporting schedules.",
+          "evidence": "SEC Filing | CRWD Upcoming Earnings | CrowdStrike's next earnings date is estimated for Tuesday, December 1, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get CrowdStrike Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings/",
+      "companies": [
+        "PANW"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-18",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Palo Alto Networks released Q4 2026 earnings on September 1, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Palo Alto Networks Earnings Summary | Palo Alto Networks released Q4 2026 earnings on September 1, 2026, reporting an EPS of | $1.02 | , which beat the consensus estimate of | $0.98 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Palo Alto Networks' next earnings date is estimated for Wednesday, November 18, 2026, based on past reporting schedules.",
+          "evidence": "Annual Report (10-K) | PANW Upcoming Earnings | Palo Alto Networks' next earnings date is estimated for Wednesday, November 18, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Palo Alto Networks Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+      "companies": [
+        "NET"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "2026-10-13",
+          "evidence": "View All News | Cloudflare Announces Date of Third Quarter 2026 Financial Results | 2026-10-13 | SAN FRANCISCO--(BUSINESS WIRE)-- | Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced that it will report its financial results for the third quarter ended September 30, 2026 after the U.S. market closes on Thursday, November 5, 2026. | Cloudflare will host an investor conference call that day at 2:00 p.m. Pacific time (5:00 p.m. Eastern time) to discuss the results. Interested parties can access the call by dialing +1 (833) 461-5787 (North America) or +1 (585) 542-9983 (International) with conference ID 732669571. | A live webcast of the conference call will be accessible from the Cloudflare investor relations website at",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced that it will report its financial results for the third quarter ended September 30, 2026 after the U.S. market closes on Thursday, November 5, 2026.",
+          "evidence": "2026-10-13 | SAN FRANCISCO--(BUSINESS WIRE)-- | Cloudflare, Inc. (NYSE: NET), the leading connectivity cloud company, today announced that it will report its financial results for the third quarter ended September 30, 2026 after the U.S. market closes on Thursday, November 5, 2026. | Cloudflare will host an investor conference call that day at 2:00 p.m. Pacific time (5:00 p.m. Eastern time) to discuss the results. Interested parties can access the call by dialing +1 (833) 461-5787 (North America) or +1 (585) 542-9983 (International) with conference ID 732669571. | A live webcast of the conference call will be accessible from the Cloudflare investor relations website at | cloudflare.NET | . A replay will be available approximately two hours after the conclusion of the live event and will remain available for approximately one year.",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.cloudflare.com/connect/",
+      "companies": [
+        "NET"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "# event name Cloudflare Connect 2026 dates 2026-10-19 — 2026-10-21 venue Moscone West, San Francisco, CA, USA duration 3 days register https://events.www.cloudflare.com/connect2026/begin agenda-builder https://events.www.cloudflare.com/connect2026/si",
+          "evidence": "Trademark | cloudflare-connect-2026 | # event name Cloudflare Connect 2026 dates 2026-10-19 — 2026-10-21 venue Moscone West, San Francisco, CA, USA duration 3 days register https://events.www.cloudflare.com/connect2026/begin agenda-builder https://events.www.cloudflare.com/connect2026/sign-in?rId=11538273 contact connect@cloudflare.com # current-page path /connect/ title Cloudflare Connect 2026 — Where the Internet's builders connect description Join us in San Francisco, October 19-21, 2026 at Moscone West for Cloudflare Connect 2026. Workshops, live demos, and conversations with the teams behind Cloudflare. # pricing (USD) conference-pass $595 university sold out for 2026; no passes available team-5-9 $495 per pass team-10-plus 50% off ticket prices gov/mil/edu -$100 requires .gov / .mil / .edu email includes meals, exclusive event swag, evening party # tracks - Application — Connect & Protect - Developer & AI — Build Smarter - Networking & Security — Beyond SASE - Platform & Governance — Connectivity Cloud # agenda mon 2026-10-19 Cloudflare University · Global Partner Summit · The Cold Start · Welcome Reception tue 2026-10-20 Opening General Session · Breakouts · Hub · Knowledge Bar · Innovations Theatre wed 2026-10-21 Innovation General Session · Breakouts · Cloudflare After Dark wed 2026-10-21 Innovation General Session · Breakouts · func(tion) # pages /connect/sessions all published sessions /connect/sponsors event sponsors /connect/cloudflare-university full-day technical training · sold out for 2026 /connect/partner-summit global partner summit /connect/cold-start li",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.oracle.com/ai-world/",
+      "companies": [
+        "ORCL"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
+      "url": "https://go.oracle.com/LP=144151?elqCampaignId=577240",
+      "companies": [
+        "ORCL"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
+      "url": "https://finance.yahoo.com/technology/ai/articles/openai-pushes-ipo-2027-172405429.html",
+      "companies": [
+        "OPENAI"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "June 26, 2026",
+          "evidence": "OpenAI Pushes Its IPO to 2027 | Renato Neves, CFA | June 26, 2026 | 1 min read | SPCX | Trade SPCX on Coinbase | Trading disclosure",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
       "url": "https://stockanalysis.com/stocks/nvda/",
       "companies": [
         "NVDA"
@@ -3358,7 +4974,7 @@
       "candidates": [
         {
           "dateText": "Nov 18, 2026",
-          "evidence": "328.72 (+52.62%) | Est. Earnings | Nov 18, 2026 | About NVDA | NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs fo... | [Read more] | Industry",
+          "evidence": "328.72 (+51.65%) | Est. Earnings | Nov 18, 2026 | About NVDA | NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs fo... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }
@@ -3380,7 +4996,7 @@
       "candidates": [
         {
           "dateText": "Dec 1, 2026",
-          "evidence": "339.36 (+46.76%) | Est. Earnings | Dec 1, 2026 | About MRVL | Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and ... | [Read more] | Industry",
+          "evidence": "339.36 (+44.22%) | Est. Earnings | Dec 1, 2026 | About MRVL | Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and ... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3408,7 +5024,7 @@
       "candidates": [
         {
           "dateText": "Dec 2, 2026",
-          "evidence": "285.68 (+17.25%) | Est. Earnings | Dec 2, 2026 | About CRM | Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Servi... | [Read more] | Industry",
+          "evidence": "285.68 (+17.14%) | Est. Earnings | Dec 2, 2026 | About CRM | Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Servi... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3436,7 +5052,7 @@
       "candidates": [
         {
           "dateText": "Nov 24, 2026",
-          "evidence": "208.10 (+4.44%) | Est. Earnings | Nov 24, 2026 | About WDAY | Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, and management insights; perform financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides spend management solutions that help organizations to strea... | [Read more] | Industry",
+          "evidence": "208.10 (+5.63%) | Est. Earnings | Nov 24, 2026 | About WDAY | Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, and management insights; perform financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides spend management solutions that help organizations to strea... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3470,7 +5086,7 @@
       "candidates": [
         {
           "dateText": "Oct 29, 2026",
-          "evidence": "331.46 (+31.62%) | Est. Earnings | Oct 29, 2026 | About AMZN | Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and ... | [Read more] | Industry",
+          "evidence": "331.46 (+31.5%) | Est. Earnings | Oct 29, 2026 | About AMZN | Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and ... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }
@@ -3540,13 +5156,13 @@
       "candidates": [
         {
           "dateText": "earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following it",
-          "evidence": "ASML last | reported | earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has drifted -2.4% lower. From the time it announced earnings, ASML traded in a range between 1594.03 and 1623.67. The last price (1609.84) is closer to the higher end of range. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature",
+          "evidence": "ASML last | reported | earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has drifted -1.6% lower. From the time it announced earnings, ASML traded in a range between 1594.03 and 1623.83. The last price (1623.00) is closer to the higher end of range. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
           "dateText": "ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates).",
-          "evidence": "earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has drifted -2.4% lower. From the time it announced earnings, ASML traded in a range between 1594.03 and 1623.67. The last price (1609.84) is closer to the higher end of range. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature | Login | |",
+          "evidence": "earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has drifted -1.6% lower. From the time it announced earnings, ASML traded in a range between 1594.03 and 1623.83. The last price (1623.00) is closer to the higher end of range. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature | Login | |",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }
@@ -3590,13 +5206,133 @@
       "candidates": [
         {
           "dateText": "Nov 10, 2026",
-          "evidence": "283.60 (+70.13%) | Est. Earnings | Nov 10, 2026 | About NBIS | Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It h... | [Read more] | Industry",
+          "evidence": "283.60 (+64.87%) | Est. Earnings | Nov 10, 2026 | About NBIS | Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It h... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
           "dateText": "May 24, 2011",
           "evidence": "Communication Services | IPO Date | May 24, 2011 | Employees | 1,543 | Stock Exchange | Nasdaq",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/snow/",
+      "companies": [
+        "SNOW"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-02",
+        "sourceUrl": "https://stockanalysis.com/stocks/snow/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Dec 2, 2026",
+          "evidence": "425.14 (+31.31%) | Est. Earnings | Dec 2, 2026 | About SNOW | Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company’s platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufac... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 16, 2020",
+          "evidence": "Technology | IPO Date | Sep 16, 2020 | Employees | 9,060 | Stock Exchange | NYSE",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/crwd/",
+      "companies": [
+        "CRWD"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-01",
+        "sourceUrl": "https://stockanalysis.com/stocks/crwd/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Dec 1, 2026",
+          "evidence": "244.01 (+0.93%) | Est. Earnings | Dec 1, 2026 | About CRWD | CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally. Its unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data through a software as a service (SaaS) subscription-based model. The company offers corporate endpoint and cloud workload security, managed security, security and vulnerability management, IT operations management, identity protection, threat intelligence, data protection, SaaS security posture management, and AI powered workflow automatio... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 12, 2019",
+          "evidence": "Technology | IPO Date | Jun 12, 2019 | Employees | 10,698 | Stock Exchange | Nasdaq",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/panw/",
+      "companies": [
+        "PANW"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-18",
+        "sourceUrl": "https://stockanalysis.com/stocks/panw/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Nov 18, 2026",
+          "evidence": "397.92 (+8.05%) | Est. Earnings | Nov 18, 2026 | About PANW | Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. It offers Prisma Access, a secure access service edge solution; Strata Cloud Manager, a network security management solution; and Prisma AIRS to protect customers’ entire AI ecosystem. It provides a comprehensive cloud native application protection platform; and Code to Cloud platform, as well as offers VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environment... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 20, 2012",
+          "evidence": "Technology | IPO Date | Jul 20, 2012 | Employees | 21,921 | Stock Exchange | Nasdaq",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.mitaiconference.org/",
+      "companies": [],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "October 17, 2026 · Computer History Museum",
+          "evidence": "FAQ | Register | October 17, 2026 · Computer History Museum | MIT AI Conference 2026 — | AI: The Age of | Agency | Bringing together leading minds in AI",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 17, 2026 · Full-day",
+          "evidence": "Register Now | Current conference pricing is available through registration close. | October 17, 2026 · Full-day | Agenda | 8:15 AM | Registration | General Admission",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.zacks.com/featured-articles/781/openai-ipo",
+      "companies": [
+        "OPENAI"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Updated on June 8, 2026",
+          "evidence": "OpenAI IPO 2026 Guide: Date, Expected Valuation, and How to Invest in ChatGPT | Kevin Voigt | Updated on June 8, 2026 | Join Zacks for Free | Key Takeaways | OpenAI, maker of the popular ChatGPT, has filed paperwork for its widely anticipated IPO. | Plans for the offering come after SpaceX broke records with its June 12 IPO.",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }

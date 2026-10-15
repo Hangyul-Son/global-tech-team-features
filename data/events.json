@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "asOf": "2026-10-15",
-  "lastSuccessfulRefresh": "2026-10-15T07:46:07.615401+00:00",
+  "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
   "lastAttempt": "2026-10-15T07:46:07.615401+00:00",
   "feedStatus": "reviewed-public-sources",
   "companies": [
@@ -325,6 +325,78 @@
       "source": "https://nebius.com/investor-hub",
       "months": [],
       "thesis": "GPU cloud demand, contracted capacity, infrastructure capex and financing."
+    },
+    {
+      "id": "INTC",
+      "name": "Intel",
+      "sector": "Semiconductors",
+      "coverage": true,
+      "source": "https://www.intc.com/news-events/ir-calendar",
+      "months": [],
+      "thesis": "PC and server processors, foundry progress, AI inference and manufacturing capex."
+    },
+    {
+      "id": "ARM",
+      "name": "Arm",
+      "sector": "Semiconductors",
+      "coverage": true,
+      "source": "https://investors.arm.com/news-events/investor-events-presentations",
+      "months": [],
+      "thesis": "CPU royalties, licensing, data-center adoption and edge AI."
+    },
+    {
+      "id": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Semiconductors",
+      "coverage": true,
+      "source": "https://investor.qualcomm.com/",
+      "months": [],
+      "thesis": "Mobile and automotive silicon, edge AI and licensing."
+    },
+    {
+      "id": "SNOW",
+      "name": "Snowflake",
+      "sector": "Software & cloud",
+      "coverage": true,
+      "source": "https://investors.snowflake.com/",
+      "months": [],
+      "thesis": "Data-cloud consumption, AI workloads and enterprise data spending."
+    },
+    {
+      "id": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Cybersecurity",
+      "coverage": true,
+      "source": "https://ir.crowdstrike.com/",
+      "months": [],
+      "thesis": "Endpoint and cloud security, platform consolidation and AI security."
+    },
+    {
+      "id": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Cybersecurity",
+      "coverage": true,
+      "source": "https://investors.paloaltonetworks.com/",
+      "months": [],
+      "thesis": "Network/cloud security, platform adoption and enterprise budgets."
+    },
+    {
+      "id": "NET",
+      "name": "Cloudflare",
+      "sector": "Cybersecurity & cloud",
+      "coverage": false,
+      "source": "https://cloudflare.net/",
+      "months": [],
+      "thesis": "Edge computing, connectivity, security and agentic AI infrastructure."
+    },
+    {
+      "id": "OPENAI",
+      "name": "OpenAI",
+      "sector": "AI ecosystem",
+      "coverage": false,
+      "source": "https://openai.com/news/",
+      "months": [],
+      "thesis": "AI model economics, compute demand, cloud partnerships and possible public-market financing."
     }
   ],
   "events": [
@@ -1213,8 +1285,8 @@
       "title": "Anthropic potential IPO marketing · target week",
       "type": "IPO watch",
       "status": "estimated",
-      "date": "2026-11-09",
-      "endDate": "2026-11-13",
+      "date": null,
+      "endDate": null,
       "window": null,
       "time": null,
       "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
@@ -1230,16 +1302,23 @@
           "kind": "estimate",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "estimateKind": "reported-target",
+      "timingWindow": {
+        "start": "2026-11-09",
+        "end": "2026-11-13",
+        "label": "Week of 9 November 2026 · possible marketing",
+        "precision": "week"
+      }
     },
     {
       "id": "anthropic-ipo",
       "companies": [
         "ANTHROPIC"
       ],
-      "title": "Anthropic IPO · listing date not announced",
+      "title": "Anthropic potential IPO · November target",
       "type": "IPO watch",
-      "status": "unannounced",
+      "status": "estimated",
       "window": null,
       "date": null,
       "endDate": null,
@@ -1247,9 +1326,9 @@
       "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
       "sourceLabel": "Yahoo Finance / Stocktwits · Bloomberg reporting",
       "verifiedAt": null,
-      "basis": "Reports target a possible listing before US Thanksgiving, but no exact listing date was verified. Investor day and a potential marketing week are separate dated entries; neither is an IPO date.",
+      "basis": "Public reporting citing Bloomberg targets a potential November 2026 listing before US Thanksgiving. This is a reported month-level target, not a confirmed IPO date. The full month is displayed as an uncertainty window; November 1 is not an asserted listing day.",
       "importance": "Watch item only. No IPO or listing date has been verified.",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
       "sources": [
         {
           "label": "Yahoo Finance / Stocktwits",
@@ -1257,7 +1336,14 @@
           "kind": "report",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "estimateKind": "reported-target",
+      "timingWindow": {
+        "start": "2026-11-01",
+        "end": "2026-11-30",
+        "label": "November 2026 · reported target",
+        "precision": "month"
+      }
     },
     {
       "id": "gtc-berlin-2026",
@@ -1426,7 +1512,416 @@
           "checkedAt": "2026-10-15T14:02:20.217352+00:00"
         }
       ]
+    },
+    {
+      "id": "INTC-2026-10-earnings",
+      "companies": [
+        "INTC"
+      ],
+      "title": "Intel Q3 earnings conference call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-10-29",
+      "endDate": null,
+      "window": null,
+      "time": "Call: 14:00 PDT",
+      "sourceUrl": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
+      "sourceLabel": "Intel · official earnings event",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Intel’s official event page schedules its Q3 earnings call for October 29, 2026 at 14:00 PDT.",
+      "importance": "PC and server processors, foundry progress, AI inference and manufacturing capex.",
+      "sources": [
+        {
+          "label": "Intel · official earnings event",
+          "url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ARM-2026-11-earnings",
+      "companies": [
+        "ARM"
+      ],
+      "title": "Arm Q2 FY27 earnings",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-11-04",
+      "endDate": null,
+      "window": null,
+      "time": "Call: 14:00 PST",
+      "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
+      "sourceLabel": "Arm · official investor events",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Arm lists November 4, 2026 at 14:00 PST for its second-quarter fiscal 2027 results.",
+      "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
+      "sources": [
+        {
+          "label": "Arm · official investor events",
+          "url": "https://investors.arm.com/news-events/investor-events-presentations",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ARM-2027-02-earnings",
+      "companies": [
+        "ARM"
+      ],
+      "title": "Arm Q3 FY27 earnings",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2027-02-03",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
+      "sourceLabel": "Arm · published FY27 financial calendar",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Arm’s FY27 financial calendar explicitly lists this quarterly reporting date. No call time was verified.",
+      "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
+      "sources": [
+        {
+          "label": "Arm · published FY27 financial calendar",
+          "url": "https://investors.arm.com/news-events/investor-events-presentations",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ARM-2027-05-earnings",
+      "companies": [
+        "ARM"
+      ],
+      "title": "Arm Q4 FY27 earnings",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2027-05-05",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
+      "sourceLabel": "Arm · published FY27 financial calendar",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Arm’s FY27 financial calendar explicitly lists this quarterly reporting date. No call time was verified.",
+      "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
+      "sources": [
+        {
+          "label": "Arm · published FY27 financial calendar",
+          "url": "https://investors.arm.com/news-events/investor-events-presentations",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "QCOM-2026-11-earnings",
+      "companies": [
+        "QCOM"
+      ],
+      "title": "Qualcomm Q4 FY26 earnings call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-11-04",
+      "endDate": null,
+      "window": null,
+      "time": "Call: 13:45 PT",
+      "sourceUrl": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
+      "sourceLabel": "Qualcomm · official earnings event",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Qualcomm’s official Q4 FY26 event page lists November 4, 2026 at 13:45 PT. This is the call time.",
+      "importance": "Mobile and automotive silicon, edge AI and licensing.",
+      "sources": [
+        {
+          "label": "Qualcomm · official earnings event",
+          "url": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "SNOW-2026-12-earnings",
+      "companies": [
+        "SNOW"
+      ],
+      "title": "Snowflake earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-12-02",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+      "sourceLabel": "MarketBeat · published earnings estimate",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
+      "importance": "Data-cloud consumption, AI workloads and enterprise data spending.",
+      "sources": [
+        {
+          "label": "MarketBeat · published earnings estimate",
+          "url": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        },
+        {
+          "label": "Stock Analysis · published earnings estimate",
+          "url": "https://stockanalysis.com/stocks/snow/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "CRWD-2026-12-earnings",
+      "companies": [
+        "CRWD"
+      ],
+      "title": "CrowdStrike earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings/",
+      "sourceLabel": "MarketBeat · published earnings estimate",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
+      "importance": "Endpoint and cloud security, platform consolidation and AI security.",
+      "sources": [
+        {
+          "label": "MarketBeat · published earnings estimate",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        },
+        {
+          "label": "Stock Analysis · published earnings estimate",
+          "url": "https://stockanalysis.com/stocks/crwd/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "PANW-2026-11-earnings",
+      "companies": [
+        "PANW"
+      ],
+      "title": "Palo Alto Networks earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-11-18",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings/",
+      "sourceLabel": "MarketBeat · published earnings estimate",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
+      "importance": "Network/cloud security, platform adoption and enterprise budgets.",
+      "sources": [
+        {
+          "label": "MarketBeat · published earnings estimate",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        },
+        {
+          "label": "Stock Analysis · published earnings estimate",
+          "url": "https://stockanalysis.com/stocks/panw/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "NET-2026-11-earnings",
+      "companies": [
+        "NET"
+      ],
+      "title": "Cloudflare Q3 results & earnings call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-11-05",
+      "endDate": null,
+      "window": null,
+      "time": "After US close; call: 17:00 ET",
+      "sourceUrl": "https://cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+      "sourceLabel": "Cloudflare · company announcement",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Cloudflare’s company announcement schedules November 5, 2026 third-quarter financial results after US market close and a 17:00 Eastern earnings call.",
+      "importance": "Edge computing, connectivity, security and agentic AI infrastructure.",
+      "sources": [
+        {
+          "label": "Cloudflare · company announcement",
+          "url": "https://cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mit-ai-2026",
+      "companies": [],
+      "title": "MIT AI Conference 2026",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-10-17",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mitaiconference.org/",
+      "sourceLabel": "MIT AI Conference · official organizer",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "The organizer publishes October 17, 2026 at the Computer History Museum in Mountain View, California. This industry event is not attributed to a specific tracked company.",
+      "importance": "AI research, model capabilities, enterprise adoption and agentic infrastructure.",
+      "sources": [
+        {
+          "label": "MIT AI Conference · official organizer",
+          "url": "https://www.mitaiconference.org/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ],
+      "organizer": "MIT AI Conference"
+    },
+    {
+      "id": "cloudflare-connect-2026",
+      "companies": [
+        "NET"
+      ],
+      "title": "Cloudflare Connect 2026",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-10-19",
+      "endDate": "2026-10-21",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.cloudflare.com/connect/",
+      "sourceLabel": "Cloudflare · official Connect schedule",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Cloudflare’s official FAQ specifies October 19–21, 2026 at Moscone West in San Francisco. The full published range includes University and Partner Summit on day one.",
+      "importance": "Edge computing, connectivity, security and agentic AI infrastructure.",
+      "sources": [
+        {
+          "label": "Cloudflare · official Connect schedule",
+          "url": "https://www.cloudflare.com/connect/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "oracle-ai-world-2026",
+      "companies": [
+        "ORCL"
+      ],
+      "title": "Oracle AI World 2026",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-10-25",
+      "endDate": "2026-10-28",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.oracle.com/ai-world/",
+      "sourceLabel": "Oracle · official AI World schedule",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Oracle publishes October 25–28, 2026 in Las Vegas. The official FAQ confirms this range.",
+      "importance": "OCI capacity, remaining performance obligations and AI capex.",
+      "sources": [
+        {
+          "label": "Oracle · official AI World schedule",
+          "url": "https://www.oracle.com/ai-world/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "oracle-ai-world-2025",
+      "companies": [
+        "ORCL"
+      ],
+      "title": "Oracle AI World 2025",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2025-10-13",
+      "endDate": "2025-10-16",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://go.oracle.com/LP=144151?elqCampaignId=577240",
+      "sourceLabel": "Oracle · archived 2025 event invitation",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
+      "basis": "Oracle’s 2025 invitation explicitly lists October 13–16, 2025 in Las Vegas. This is historical context, not the upcoming 2026 edition.",
+      "importance": "OCI capacity, remaining performance obligations and AI capex.",
+      "sources": [
+        {
+          "label": "Oracle · archived 2025 event invitation",
+          "url": "https://go.oracle.com/LP=144151?elqCampaignId=577240",
+          "kind": "official",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ]
+    },
+    {
+      "id": "openai-ipo",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI potential IPO · 2027 scenario",
+      "type": "IPO watch",
+      "status": "estimated",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/openai-pushes-ipo-2027-172405429.html",
+      "sourceLabel": "Yahoo Finance · report citing The New York Times",
+      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "verifiedAt": null,
+      "basis": "The retrieved report discusses a possible 2027 IPO, without a confirmed month or quarter. More recent public commentary also discusses late 2026/early 2027. The calendar uses a broad 2027 scenario window rather than inventing an early-year date. This is a conditional scenario, not a company commitment.",
+      "importance": "AI model economics, compute demand, cloud partnerships and possible public-market financing.",
+      "sources": [
+        {
+          "label": "Yahoo Finance · NYT-reported 2027 scenario",
+          "url": "https://finance.yahoo.com/technology/ai/articles/openai-pushes-ipo-2027-172405429.html",
+          "kind": "report",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        },
+        {
+          "label": "Zacks · late 2026 / early 2027 commentary",
+          "url": "https://www.zacks.com/featured-articles/781/openai-ipo",
+          "kind": "report",
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        }
+      ],
+      "estimateKind": "reported-target",
+      "timingWindow": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "label": "2027 · reported scenario; quarter unconfirmed",
+        "precision": "year"
+      },
+      "dateConflict": "Public timing commentary differs: 2027 in the retrieved NYT-based report versus late 2026/early 2027 in Zacks. No official listing date was verified."
     }
   ],
-  "verificationNote": "13 coverage companies including Meta; CoreWeave and Nebius added to the wider tracked universe with sourced estimated earnings dates. Every event carries public evidence links."
+  "verificationNote": "19 coverage companies, 13 wider tracked companies; sourced IPO windows remain distinct from exact dates. Additional MIT, Cloudflare and Oracle event schedules verified."
 }

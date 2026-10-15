@@ -18,7 +18,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 MONTH = r'(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)'
 DATE = re.compile(r'\b(?:' + MONTH + r'\.?\s+\d{1,2},?\s+20\d{2}|20\d{2}-\d{2}-\d{2})\b', re.I)
-RELEVANT = re.compile(r'earnings|financial results|results.{0,20}conference|investor day|capital markets|GTC|re:Invent|Ignite|OCP|initial public offering|IPO|AI.{0,20}conference', re.I)
+RELEVANT = re.compile(r'earnings|financial results|conference|summit|investor day|capital markets|GTC|re:Invent|Ignite|OCP|AI World|Cloudflare Connect|initial public offering|IPO', re.I)
 
 class PageText(HTMLParser):
     def __init__(self):

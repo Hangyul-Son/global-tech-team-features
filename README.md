@@ -31,15 +31,15 @@ These checks exercise both views, priority filtering, source details, keyboard d
 
 ## Coverage
 
-The 13 priority companies are TSMC (TSM), NVIDIA, AMD, Broadcom, Marvell Technology, Apple, Microsoft, Oracle, Salesforce, ServiceNow, Adobe, Workday and Meta. Stars identify their events in both views and event briefs. Multi-company events are priority events if at least one covered company participates.
+The 19 priority companies are TSMC (TSM), NVIDIA, AMD, Broadcom, Marvell Technology, Apple, Microsoft, Oracle, Salesforce, ServiceNow, Adobe, Workday, Meta, Intel, Arm, Qualcomm, Snowflake, CrowdStrike and Palo Alto Networks. Stars identify their events in both views and event briefs. Multi-company events are priority events if at least one covered company participates.
 
-The wider universe includes ASML, Lam Research, Samsung, SK hynix, Micron, MediaTek, Amazon, Alphabet, Anthropic, CoreWeave and Nebius. Hyperscaler earnings are included for capex context. GTC, OCP, re:Invent, Ignite, investor days and a potential Anthropic IPO are monitoring targets. An undated watch item does not assert that an event or IPO is scheduled. Dividends and routine corporate actions are not seeded.
+The wider universe includes ASML, Lam Research, Samsung, SK hynix, Micron, MediaTek, Amazon, Alphabet, Anthropic, CoreWeave, Nebius, Cloudflare and OpenAI. Hyperscaler earnings are included for capex context. GTC, OCP, re:Invent, Ignite, investor days and a potential Anthropic IPO are monitoring targets. An undated watch item does not assert that an event or IPO is scheduled. Dividends and routine corporate actions are not seeded.
 
 ## Browsing and presentation
 
-The calendar/list switch and month controls are at the top, without a hero banner or statistics cards. The sidebar lists every tracked company in two sections: 13 starred coverage companies and 11 other companies in the research universe. On mobile, the company-universe menu exposes the same lists without pushing the calendar down.
+The calendar/list switch is at the top, without a hero banner or statistics cards. Only Calendar view is month-based. List view is one chronological, scrollable timeline containing every event across all months and years. It initially scrolls to a today marker; scroll upward for history and downward for future events. “Jump to today” restores that position. Search and filters apply to the full timeline, not a selected month. The sidebar lists every tracked company in two sections: 19 starred coverage companies and 13 other companies in the research universe. On mobile, the company-universe menu exposes the same lists without pushing the calendar down.
 
-Color is determined only by event type: blue for earnings, teal for conferences, purple for keynotes, amber for investor days and slate for IPO watches. Coverage adds a star, not a different background. Future-starting events have a dotted border in calendar and list views regardless of whether the date is confirmed or estimated. Past and current dates have solid borders. The legend spells out these meanings.
+Color is determined only by event type: blue for earnings, teal for conferences, purple for keynotes, amber for investor days and slate for IPO watches. Coverage adds a star, not a different background. Unconfirmed dates and timing windows (estimated, media-reported or unannounced) have dotted borders. Officially confirmed events have solid borders, including events in the future. This is independent of whether an event is past or upcoming. The legend spells out these meanings.
 
 Every calendar entry has a direct source link. Every list row and undated watch item exposes all its evidence links, deduplicated by URL, without opening a dialog. Provider estimates link to the provider calendar; company announcements and event schedules link to their evidence. Opening a brief still shows status, check timestamps, source discrepancies and all sources. Outbound URLs must use HTTPS and are rendered safely.
 
@@ -56,11 +56,19 @@ CoreWeave's November 9 and Nebius's November 10, 2026 earnings dates are public 
 
 Every dated entry includes `sourceCheckedAt`, `sourceUrl`, `sourceLabel`, a `sources` array and a rationale. `dateConflict`, when present, exposes discrepancies in the event brief. Official company announcements override older provider estimates. Examples found in this review include official ServiceNow after-close timing versus a vendor's before-open label; an AMD timezone label requiring verification; MediaTek calendars disagreeing; and ASML provider confirmation flags disagreeing.
 
-All 13 coverage companies have a sourced day-level next earnings date as of October 15, 2026. Unsourced January–March reporting-month placeholders were removed. Do not fill future quarters by extrapolating cadence. Check a public provider or company announcement first.
+All 19 coverage companies have a sourced day-level next earnings date as of October 15, 2026. Unsourced January–March reporting-month placeholders were removed. Do not fill future quarters by extrapolating cadence. Check a public provider or company announcement first.
 
 Dates and optional `endDate` use `YYYY-MM-DD` in the published event calendar. Full conference ranges and separately scheduled keynotes are distinct events. Times include their source timezone; the client does not invent UTC conversions. The today indicator uses Hong Kong time. Past scheduled dates stay in their historical month and display “Past date”; they cannot appear in the undated radar. The October 14 ASML results, October 14 Anthropic investor day, October 12–15 OCP edition and October 6 Marvell investor day are dated entries. Future GTC editions, CEO keynotes, Ignite and re:Invent use published schedules.
 
 Dates checked more than 14 days ago display a recheck label. Check timestamps prove a source review, not a guarantee that the schedule cannot change. Status labels distinguish estimates and media-reported dates without changing event-type colors.
+
+### Approximate timing is distinct from an exact date
+
+An event with `timingWindow` has `date: null` and `endDate: null`. Its window records `start`, `end`, `precision` and a human-readable `label`. Range boundaries define an uncertainty period, not scheduled event days. The list displays the label and sorts by the window start; the month calendar shows overlapping windows in a separate panel rather than filling calendar cells with a fabricated IPO date.
+
+Anthropic's possible IPO is a reported November 2026 month window; its proposed marketing week is a separate week window. OpenAI's possible IPO is a broad 2027 scenario window. Sources disagree about late 2026 versus early 2027, and no specific quarter is confirmed, so the app does not invent one. These are unconfirmed targets, never guaranteed listings.
+
+An industry event may have no tracked company: it then requires an `organizer` and primary event evidence. MIT AI Conference is such an event. Do not imply that tracked companies are participants merely to populate a company field. Newly verified conference dates include MIT AI Conference (October 17, 2026), Cloudflare Connect (October 19–21, 2026) and Oracle AI World (October 25–28, 2026). Oracle's October 13–16, 2025 edition is retained as a separate historical event. “Agenti Conference” remains to be identified rather than guessing its organizer or date.
 
 ### Check public sources
 
