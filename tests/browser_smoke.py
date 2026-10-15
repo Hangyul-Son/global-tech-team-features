@@ -29,7 +29,9 @@ with sync_playwright() as p:
         event=by_id[entry.get_attribute('data-event-id')]
         style=entry.evaluate('(e)=>getComputedStyle(e).borderTopStyle')
         assert style==('solid' if event['status']=='confirmed' else 'dotted'),(event['id'],style)
-        assert entry.locator('.calendar-source').get_attribute('href')==event['sourceUrl']
+        assert entry.locator('a, .badge').count()==0
+        assert entry.locator('.calendar-event').get_attribute('title')==event['title']
+        assert 'Confirmed' not in entry.inner_text() and 'Upcoming' not in entry.inner_text()
     for event_id,style in [('005930.KS-2026-10-earnings','solid'),('AMZN-2026-10-earnings','dotted'),('2454.TW-2026-10-earnings','dotted')]:
         assert page.locator(f'.calendar-entry[data-event-id="{event_id}"]').evaluate('(e)=>getComputedStyle(e).borderTopStyle')==style
     expect(page.locator('.calendar-entry[data-event-id="ASML-2026-10-earnings"]')).to_have_count(1)
@@ -37,6 +39,11 @@ with sync_playwright() as p:
     expect(page.locator('.calendar-entry[data-event-id="cloudflare-connect-2026"]')).to_have_count(3)
     earnings_colors=page.locator('.calendar-entry.kind-earnings').evaluate_all('(els)=>els.map(e=>getComputedStyle(e).backgroundColor)')
     assert len(set(earnings_colors))==1
+    assert page.locator('#calendar').bounding_box()['height']<650, 'Calendar should stay compact at desktop width'
+    page.locator('.calendar-entry[data-event-id="005930.KS-2026-10-earnings"] .calendar-event').click()
+    expect(page.locator('#event-detail .source-link')).to_have_attribute('href',by_id['005930.KS-2026-10-earnings']['sourceUrl'])
+    expect(page.locator('#event-detail')).to_contain_text('10:00 KST')
+    page.keyboard.press('Escape')
     page.locator('#list-view').click()
     rows=page.locator('.list-table tbody tr[data-event-id]')
     expect(rows).to_have_count(len(dataset['events']))

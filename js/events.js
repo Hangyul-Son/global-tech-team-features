@@ -79,14 +79,15 @@
       const key = dayKey(d), outside = monthKey(d) !== monthKey(month);
       const items = outside ? [] : events.filter(e => e.date && e.date <= key && (e.endDate || e.date) >= key);
       html += `<div class="day ${outside?'outside':''} ${key===today?'today':''} ${i%7>=5?'weekend':''}"><time class="day-number" datetime="${key}" ${key===today?'aria-current="date"':''}>${d.getUTCDate()}</time>${items.map(e=>{
-        const url=sourceURL(e.sourceUrl);
-        return `<div class="calendar-entry ${eventKind(e)} ${temporalClass(e)} ${certaintyClass(e)}" data-event-id="${escape(e.id)}"><button class="calendar-event ${escape(e.status)}" data-event="${escape(e.id)}">${priority(e)?'<b class="event-star" aria-label="Coverage">★</b> ':''}${escape(e.title)}<span>${escape(labels[e.status])} · ${escape(lifecycle(e))}${e.time?' · '+escape(e.time):''}</span></button>${url?`<a class="calendar-source" href="${escape(url)}" target="_blank" rel="noopener noreferrer" aria-label="Source for ${escape(e.title)}">${e.status==='estimated'?'Estimate source':'Source'} ↗</a>`:''}</div>`;
+        const title=e.type==='Earnings'?`${e.companies.join(' / ')} earnings`:e.title;
+        const description=`${priority(e)?'Coverage: ':''}${e.title}. ${dateStatus(e)}${e.time?'. '+e.time:''}. Open event details.`;
+        return `<div class="calendar-entry ${eventKind(e)} ${temporalClass(e)} ${certaintyClass(e)}" data-event-id="${escape(e.id)}"><button class="calendar-event ${escape(e.status)}" data-event="${escape(e.id)}" title="${escape(e.title)}" aria-label="${escape(description)}">${priority(e)?'<b class="event-star" aria-hidden="true">★</b> ':''}${escape(title)}</button></div>`;
       }).join('')}</div>`;
     }
     $('calendar').innerHTML = html;
     const windows=events.filter(e=>e.timingWindow);
     $('timing-windows').hidden=windows.length===0;
-    $('timing-windows').innerHTML=windows.length ? `<h3>Timing windows · exact date unconfirmed</h3><div class="radar-grid">${windows.map(e=>`<article class="radar-card ${eventKind(e)} ${certaintyClass(e)}" data-event-id="${escape(e.id)}"><div class="radar-top"><span class="type-tag">${escape(e.type)}</span>${coverage(e)}</div><button class="event-name" data-event="${escape(e.id)}">${escape(e.title)}</button><strong class="window-label">${escape(e.timingWindow.label)}</strong>${badge(e)}<p>Shown as a ${escape(e.timingWindow.precision)} window, not an exact event day.</p>${sourceLinks(e)}</article>`).join('')}</div>` : '';
+    $('timing-windows').innerHTML=windows.length ? `<h3>Approximate timing windows</h3><div class="window-grid">${windows.map(e=>`<article class="timing-window ${eventKind(e)} ${certaintyClass(e)}" data-event-id="${escape(e.id)}"><button class="event-name" data-event="${escape(e.id)}">${priority(e)?'<span class="event-star" aria-label="Coverage">★</span> ':''}${escape(e.title)}</button><span class="window-label">${escape(e.timingWindow.label)}</span></article>`).join('')}</div>` : '';
 
   }
   function renderList(events) {
