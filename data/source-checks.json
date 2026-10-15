@@ -1,0 +1,1289 @@
+{
+  "checkedAt": "2026-10-15T06:59:44.022146+00:00",
+  "successfulSources": 18,
+  "totalSources": 27,
+  "note": "Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged.",
+  "sources": [
+    {
+      "url": "https://investor.tsmc.com/english/financial-calendar",
+      "companies": [
+        "TSM"
+      ],
+      "status": "retrieved",
+      "candidates": [
+        {
+          "dateText": "October 15, 2026 (Thu)",
+          "evidence": "Financial Calendar | Upcoming Events | October 15, 2026 (Thu) | 2026-10-15 14:00:00 | 2026-10-15 15:30:00 | TSMC 3Q'26 Results - Earnings Conference and Conference Call | Asia/Taipei",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "2026-10-15 14:00:00",
+          "evidence": "Upcoming Events | October 15, 2026 (Thu) | 2026-10-15 14:00:00 | 2026-10-15 15:30:00 | TSMC 3Q'26 Results - Earnings Conference and Conference Call | Asia/Taipei | public",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "2026-10-15 15:30:00",
+          "evidence": "October 15, 2026 (Thu) | 2026-10-15 14:00:00 | 2026-10-15 15:30:00 | TSMC 3Q'26 Results - Earnings Conference and Conference Call | Asia/Taipei | public | TSMC 3Q'26 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2026 (Tue)",
+          "evidence": "public | TSMC 3Q'26 Results - Earnings Conference and Conference Call | November 10, 2026 (Tue) | 2026-11-10 13:30:00 | 2026-11-10 13:31:00 | TSMC Monthly Sales - October 2026 | Asia/Taipei",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "2026-11-10 13:30:00",
+          "evidence": "TSMC 3Q'26 Results - Earnings Conference and Conference Call | November 10, 2026 (Tue) | 2026-11-10 13:30:00 | 2026-11-10 13:31:00 | TSMC Monthly Sales - October 2026 | Asia/Taipei | public",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2026 (Mon)",
+          "evidence": "TSMC Monthly Sales - August 2026 | /english/monthly-revenue/2026 | August 10, 2026 (Mon) | TSMC Monthly Sales - July 2026 | /english/monthly-revenue/2026 | July 16, 2026 (Thu) | TSMC 2Q'26 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 16, 2026 (Thu)",
+          "evidence": "TSMC Monthly Sales - July 2026 | /english/monthly-revenue/2026 | July 16, 2026 (Thu) | TSMC 2Q'26 Results - Earnings Conference and Conference Call | /english/quarterly-results/2026/q2 | July 13, 2026 (Mon) | TSMC Monthly Sales - June 2026 (postponed due to the typhoon day-off on July 10th, 2026.)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 13, 2026 (Mon)",
+          "evidence": "TSMC 2Q'26 Results - Earnings Conference and Conference Call | /english/quarterly-results/2026/q2 | July 13, 2026 (Mon) | TSMC Monthly Sales - June 2026 (postponed due to the typhoon day-off on July 10th, 2026.) | /english/monthly-revenue/2026 | June 10, 2026 (Wed) | TSMC Monthly Sales - May 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 08, 2026 (Fri)",
+          "evidence": "TSMC Monthly Sales - May 2026 | /english/monthly-revenue/2026 | May 08, 2026 (Fri) | TSMC Monthly Sales - April 2026 | /english/monthly-revenue/2026 | April 16, 2026 (Thu) | TSMC 1Q'26 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 16, 2026 (Thu)",
+          "evidence": "TSMC Monthly Sales - April 2026 | /english/monthly-revenue/2026 | April 16, 2026 (Thu) | TSMC 1Q'26 Results - Earnings Conference and Conference Call | /english/quarterly-results/2026/q1 | April 10, 2026 (Fri) | TSMC Monthly Sales - March 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2026 (Fri)",
+          "evidence": "TSMC 1Q'26 Results - Earnings Conference and Conference Call | /english/quarterly-results/2026/q1 | April 10, 2026 (Fri) | TSMC Monthly Sales - March 2026 | /english/monthly-revenue/2026 | March 10, 2026 (Tue) | TSMC Monthly Sales - February 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 10, 2026 (Tue)",
+          "evidence": "TSMC Monthly Sales - February 2026 | /english/monthly-revenue/2026 | February 10, 2026 (Tue) | TSMC Monthly Sales - January 2026 | /english/monthly-revenue/2026 | January 15, 2026 (Thu) | TSMC 4Q'25 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 15, 2026 (Thu)",
+          "evidence": "TSMC Monthly Sales - January 2026 | /english/monthly-revenue/2026 | January 15, 2026 (Thu) | TSMC 4Q'25 Results - Earnings Conference and Conference Call | /english/quarterly-results/2025/q4 | January 09, 2026 (Fri) | TSMC Monthly Sales - December 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 09, 2026 (Fri)",
+          "evidence": "TSMC 4Q'25 Results - Earnings Conference and Conference Call | /english/quarterly-results/2025/q4 | January 09, 2026 (Fri) | TSMC Monthly Sales - December 2025 | /english/monthly-revenue/2025 | Important: This calendar is subject to change during the year as dates are adjusted. | December 10, 2025 (Wed)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2025 (Mon)",
+          "evidence": "TSMC Monthly Sales - November 2025 | /english/monthly-revenue/2025 | November 10, 2025 (Mon) | TSMC Monthly Sales - October 2025 | /english/monthly-revenue/2025 | October 16, 2025 (Thu) | TSMC 3Q'25 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 16, 2025 (Thu)",
+          "evidence": "TSMC Monthly Sales - October 2025 | /english/monthly-revenue/2025 | October 16, 2025 (Thu) | TSMC 3Q'25 Results - Earnings Conference and Conference Call | /english/quarterly-results/2025/q3 | October 09, 2025 (Thu) | TSMC Monthly Sales - September 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 09, 2025 (Thu)",
+          "evidence": "TSMC 3Q'25 Results - Earnings Conference and Conference Call | /english/quarterly-results/2025/q3 | October 09, 2025 (Thu) | TSMC Monthly Sales - September 2025 | /english/monthly-revenue/2025 | September 10, 2025 (Wed) | TSMC Monthly Sales - August 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 08, 2025 (Fri)",
+          "evidence": "TSMC Monthly Sales - August 2025 | /english/monthly-revenue/2025 | August 08, 2025 (Fri) | TSMC Monthly Sales - July 2025 | /english/monthly-revenue/2025 | July 17, 2025 (Thu) | TSMC 2Q'25 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 17, 2025 (Thu)",
+          "evidence": "TSMC Monthly Sales - July 2025 | /english/monthly-revenue/2025 | July 17, 2025 (Thu) | TSMC 2Q'25 Results - Earnings Conference and Conference Call | /english/quarterly-results/2025/q2 | July 10, 2025 (Thu) | TSMC Monthly Sales - June 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2025 (Thu)",
+          "evidence": "TSMC 2Q'25 Results - Earnings Conference and Conference Call | /english/quarterly-results/2025/q2 | July 10, 2025 (Thu) | TSMC Monthly Sales - June 2025 | /english/monthly-revenue/2025 | June 10, 2025 (Tue) | TSMC Monthly Sales - May 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 09, 2025 (Fri)",
+          "evidence": "TSMC Monthly Sales - May 2025 | /english/monthly-revenue/2025 | May 09, 2025 (Fri) | TSMC Monthly Sales - April 2025 | /english/monthly-revenue/2025 | April 17, 2025 (Thu) | TSMC 1Q'25 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 17, 2025 (Thu)",
+          "evidence": "TSMC Monthly Sales - April 2025 | /english/monthly-revenue/2025 | April 17, 2025 (Thu) | TSMC 1Q'25 Results - Earnings Conference and Conference Call | /english/quarterly-results/2025/q1 | April 10, 2025 (Thu) | TSMC Monthly Sales - March 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2025 (Thu)",
+          "evidence": "TSMC 1Q'25 Results - Earnings Conference and Conference Call | /english/quarterly-results/2025/q1 | April 10, 2025 (Thu) | TSMC Monthly Sales - March 2025 | /english/monthly-revenue/2025 | March 10, 2025 (Mon) | TSMC Monthly Sales - February 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 10, 2025 (Mon)",
+          "evidence": "TSMC Monthly Sales - February 2025 | /english/monthly-revenue/2025 | February 10, 2025 (Mon) | TSMC Monthly Sales - January 2025 | /english/monthly-revenue/2025 | January 16, 2025 (Thu) | TSMC 4Q'24 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 16, 2025 (Thu)",
+          "evidence": "TSMC Monthly Sales - January 2025 | /english/monthly-revenue/2025 | January 16, 2025 (Thu) | TSMC 4Q'24 Results - Earnings Conference and Conference Call | /english/quarterly-results/2024/q4 | January 10, 2025 (Fri) | TSMC Monthly Sales - December 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2025 (Fri)",
+          "evidence": "TSMC 4Q'24 Results - Earnings Conference and Conference Call | /english/quarterly-results/2024/q4 | January 10, 2025 (Fri) | TSMC Monthly Sales - December 2024 | /english/monthly-revenue/2024 | Important: This calendar is subject to change during the year as dates are adjusted. | December 10, 2024 (Tue)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 08, 2024 (Fri)",
+          "evidence": "TSMC Monthly Sales - November 2024 | /english/monthly-revenue/2024 | November 08, 2024 (Fri) | TSMC Monthly Sales - October 2024 | /english/monthly-revenue/2024 | October 17, 2024 (Thu) | TSMC 3Q'24 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 17, 2024 (Thu)",
+          "evidence": "TSMC Monthly Sales - October 2024 | /english/monthly-revenue/2024 | October 17, 2024 (Thu) | TSMC 3Q'24 Results - Earnings Conference and Conference Call | /english/quarterly-results/2024/q3 | October 09, 2024 (Wed) | TSMC Monthly Sales - September 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 09, 2024 (Wed)",
+          "evidence": "TSMC 3Q'24 Results - Earnings Conference and Conference Call | /english/quarterly-results/2024/q3 | October 09, 2024 (Wed) | TSMC Monthly Sales - September 2024 | /english/monthly-revenue/2024 | September 10, 2024 (Tue) | TSMC Monthly Sales - August 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 09, 2024 (Fri)",
+          "evidence": "TSMC Monthly Sales - August 2024 | /english/monthly-revenue/2024 | August 09, 2024 (Fri) | TSMC Monthly Sales - July 2024 | /english/monthly-revenue/2024 | July 18, 2024 (Thu) | TSMC 2Q'24 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 18, 2024 (Thu)",
+          "evidence": "TSMC Monthly Sales - July 2024 | /english/monthly-revenue/2024 | July 18, 2024 (Thu) | TSMC 2Q'24 Results - Earnings Conference and Conference Call | /english/quarterly-results/2024/q2 | July 10, 2024 (Wed) | TSMC Monthly Sales - June 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2024 (Wed)",
+          "evidence": "TSMC 2Q'24 Results - Earnings Conference and Conference Call | /english/quarterly-results/2024/q2 | July 10, 2024 (Wed) | TSMC Monthly Sales - June 2024 | /english/monthly-revenue/2024 | June 07, 2024 (Fri) | TSMC Monthly Sales - May 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2024 (Fri)",
+          "evidence": "TSMC Monthly Sales - May 2024 | /english/monthly-revenue/2024 | May 10, 2024 (Fri) | TSMC Monthly Sales - April 2024 | /english/monthly-revenue/2024 | April 18, 2024 (Thu) | TSMC 1Q'24 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 18, 2024 (Thu)",
+          "evidence": "TSMC Monthly Sales - April 2024 | /english/monthly-revenue/2024 | April 18, 2024 (Thu) | TSMC 1Q'24 Results - Earnings Conference and Conference Call | /english/quarterly-results/2024/q1 | April 10, 2024 (Wed) | TSMC Monthly Sales - March 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2024 (Wed)",
+          "evidence": "TSMC 1Q'24 Results - Earnings Conference and Conference Call | /english/quarterly-results/2024/q1 | April 10, 2024 (Wed) | TSMC Monthly Sales - March 2024 | /english/monthly-revenue/2024 | March 08, 2024 (Fri) | TSMC Monthly Sales - February 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 07, 2024 (Wed)",
+          "evidence": "TSMC Monthly Sales - February 2024 | /english/monthly-revenue/2024 | February 07, 2024 (Wed) | TSMC Monthly Sales - January 2024 | /english/monthly-revenue/2024 | January 18, 2024 (Thu) | TSMC 4Q'23 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 18, 2024 (Thu)",
+          "evidence": "TSMC Monthly Sales - January 2024 | /english/monthly-revenue/2024 | January 18, 2024 (Thu) | TSMC 4Q'23 Results - Earnings Conference and Conference Call | /english/quarterly-results/2023/q4 | January 10, 2024 (Wed) | TSMC Monthly Sales - December 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2024 (Wed)",
+          "evidence": "TSMC 4Q'23 Results - Earnings Conference and Conference Call | /english/quarterly-results/2023/q4 | January 10, 2024 (Wed) | TSMC Monthly Sales - December 2023 | /english/monthly-revenue/2023 | Important: This calendar is subject to change during the year as dates are adjusted. | December 08, 2023 (Fri)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2023 (Fri)",
+          "evidence": "TSMC Monthly Sales - November 2023 | /english/monthly-revenue/2023 | November 10, 2023 (Fri) | TSMC Monthly Sales - October 2023 | /english/monthly-revenue/2023 | October 19, 2023 (Thu) | TSMC 3Q'23 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 19, 2023 (Thu)",
+          "evidence": "TSMC Monthly Sales - October 2023 | /english/monthly-revenue/2023 | October 19, 2023 (Thu) | TSMC 3Q'23 Results - Earnings Conference and Conference Call | /english/quarterly-results/2023/q3 | October 06, 2023 (Fri) | TSMC Monthly Sales - September 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 06, 2023 (Fri)",
+          "evidence": "TSMC 3Q'23 Results - Earnings Conference and Conference Call | /english/quarterly-results/2023/q3 | October 06, 2023 (Fri) | TSMC Monthly Sales - September 2023 | /english/monthly-revenue/2023 | September 08, 2023 (Fri) | TSMC Monthly Sales - August 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2023 (Thu)",
+          "evidence": "TSMC Monthly Sales - August 2023 | /english/monthly-revenue/2023 | August 10, 2023 (Thu) | TSMC Monthly Sales - July 2023 | /english/monthly-revenue/2023 | July 20, 2023 (Thu) | TSMC 2Q'23 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 20, 2023 (Thu)",
+          "evidence": "TSMC Monthly Sales - July 2023 | /english/monthly-revenue/2023 | July 20, 2023 (Thu) | TSMC 2Q'23 Results - Earnings Conference and Conference Call | /english/quarterly-results/2023/q2 | July 10, 2023 (Mon) | TSMC Monthly Sales - June 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2023 (Mon)",
+          "evidence": "TSMC 2Q'23 Results - Earnings Conference and Conference Call | /english/quarterly-results/2023/q2 | July 10, 2023 (Mon) | TSMC Monthly Sales - June 2023 | /english/monthly-revenue/2023 | June 09, 2023 (Fri) | TSMC Monthly Sales - May 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2023 (Wed)",
+          "evidence": "TSMC Monthly Sales - April 2023 | /english/monthly-revenue/2023 | May 10, 2023 (Wed) | TSMC Monthly Sales - April 2023 | /english/monthly-revenue/2023 | April 20, 2023 (Thu) | TSMC 1Q'23 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 20, 2023 (Thu)",
+          "evidence": "TSMC Monthly Sales - April 2023 | /english/monthly-revenue/2023 | April 20, 2023 (Thu) | TSMC 1Q'23 Results - Earnings Conference and Conference Call | /english/quarterly-results/2023/q1 | April 10, 2023 (Mon) | TSMC Monthly Sales - March 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2023 (Mon)",
+          "evidence": "TSMC 1Q'23 Results - Earnings Conference and Conference Call | /english/quarterly-results/2023/q1 | April 10, 2023 (Mon) | TSMC Monthly Sales - March 2023 | /english/monthly-revenue/2023 | March 10, 2023 (Fri) | TSMC Monthly Sales - February 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 10, 2023 (Fri)",
+          "evidence": "TSMC Monthly Sales - February 2023 | /english/monthly-revenue/2023 | February 10, 2023 (Fri) | TSMC Monthly Sales - January 2023 | /english/monthly-revenue/2023 | January 12, 2023 (Thu) | TSMC 4Q22 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 12, 2023 (Thu)",
+          "evidence": "TSMC Monthly Sales - January 2023 | /english/monthly-revenue/2023 | January 12, 2023 (Thu) | TSMC 4Q22 Results - Earnings Conference and Conference Call | /english/quarterly-results/2022/q4 | January 10, 2023 (Tue) | TSMC Monthly Sales - December 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2023 (Tue)",
+          "evidence": "TSMC 4Q22 Results - Earnings Conference and Conference Call | /english/quarterly-results/2022/q4 | January 10, 2023 (Tue) | TSMC Monthly Sales - December 2022 | /english/monthly-revenue/2022 | Important: This calendar is subject to change during the year as dates are adjusted. | December 09, 2022 (Fri)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2022 (Thu)",
+          "evidence": "TSMC Monthly Sales - November 2022 | /english/monthly-revenue/2022 | November 10, 2022 (Thu) | TSMC Monthly Sales - October 2022 | /english/monthly-revenue/2022 | October 13, 2022 (Thu) | TSMC 3Q22 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 13, 2022 (Thu)",
+          "evidence": "TSMC Monthly Sales - October 2022 | /english/monthly-revenue/2022 | October 13, 2022 (Thu) | TSMC 3Q22 Results - Earnings Conference and Conference Call | /english/quarterly-results/2022/q3 | October 07, 2022 (Fri) | TSMC Monthly Sales - September 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 07, 2022 (Fri)",
+          "evidence": "TSMC 3Q22 Results - Earnings Conference and Conference Call | /english/quarterly-results/2022/q3 | October 07, 2022 (Fri) | TSMC Monthly Sales - September 2022 | /english/monthly-revenue/2022 | September 08, 2022 (Thu) | TSMC Monthly Sales - August 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2022 (Wed)",
+          "evidence": "TSMC Monthly Sales - August 2022 | /english/monthly-revenue/2022 | August 10, 2022 (Wed) | TSMC Monthly Sales - July 2022 | /english/monthly-revenue/2022 | July 14, 2022 (Thu) | TSMC 2Q22 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 14, 2022 (Thu)",
+          "evidence": "TSMC Monthly Sales - July 2022 | /english/monthly-revenue/2022 | July 14, 2022 (Thu) | TSMC 2Q22 Results - Earnings Conference and Conference Call | /english/quarterly-results/2022/q2 | July 08, 2022 (Fri) | TSMC Monthly Sales - June 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 08, 2022 (Fri)",
+          "evidence": "TSMC 2Q22 Results - Earnings Conference and Conference Call | /english/quarterly-results/2022/q2 | July 08, 2022 (Fri) | TSMC Monthly Sales - June 2022 | /english/monthly-revenue/2022 | June 10, 2022 (Fri) | TSMC Monthly Sales - May 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2022 (Tue)",
+          "evidence": "TSMC Monthly Sales - May 2022 | /english/monthly-revenue/2022 | May 10, 2022 (Tue) | TSMC Monthly Sales - April 2022 | /english/monthly-revenue/2022 | April 14, 2022 (Thu) | TSMC 1Q22 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 14, 2022 (Thu)",
+          "evidence": "TSMC Monthly Sales - April 2022 | /english/monthly-revenue/2022 | April 14, 2022 (Thu) | TSMC 1Q22 Results - Earnings Conference and Conference Call | /english/quarterly-results/2022/q1 | April 08, 2022 (Fri) | TSMC Monthly Sales - March 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 08, 2022 (Fri)",
+          "evidence": "TSMC 1Q22 Results - Earnings Conference and Conference Call | /english/quarterly-results/2022/q1 | April 08, 2022 (Fri) | TSMC Monthly Sales - March 2022 | /english/monthly-revenue/2022 | March 10, 2022 (Thu) | TSMC Monthly Sales - February 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 10, 2022 (Thu)",
+          "evidence": "TSMC Monthly Sales - February 2022 | /english/monthly-revenue/2022 | February 10, 2022 (Thu) | TSMC Monthly Sales - January 2022 | /english/monthly-revenue/2022 | January 13, 2022 (Thu) | TSMC 4Q21 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 13, 2022 (Thu)",
+          "evidence": "TSMC Monthly Sales - January 2022 | /english/monthly-revenue/2022 | January 13, 2022 (Thu) | TSMC 4Q21 Results - Earnings Conference and Conference Call | /english/quarterly-results/2021/q4 | January 10, 2022 (Mon) | TSMC Monthly Sales - December 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2022 (Mon)",
+          "evidence": "TSMC 4Q21 Results - Earnings Conference and Conference Call | /english/quarterly-results/2021/q4 | January 10, 2022 (Mon) | TSMC Monthly Sales - December 2021 | /english/monthly-revenue/2021 | Important: This calendar is subject to change during the year as dates are adjusted. | December 10, 2021 (Fri)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2021 (Wed)",
+          "evidence": "TSMC Monthly Sales - November 2021 | /english/monthly-revenue/2021 | November 10, 2021 (Wed) | TSMC Monthly Sales - October 2021 | /english/monthly-revenue/2021 | October 14, 2021 (Thu) | TSMC 3Q21 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 14, 2021 (Thu)",
+          "evidence": "TSMC Monthly Sales - October 2021 | /english/monthly-revenue/2021 | October 14, 2021 (Thu) | TSMC 3Q21 Results - Earnings Conference and Conference Call | /english/quarterly-results/2021/q3 | October 08, 2021 (Fri) | TSMC Monthly Sales - September 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 08, 2021 (Fri)",
+          "evidence": "TSMC 3Q21 Results - Earnings Conference and Conference Call | /english/quarterly-results/2021/q3 | October 08, 2021 (Fri) | TSMC Monthly Sales - September 2021 | /english/monthly-revenue/2021 | September 10, 2021 (Fri) | TSMC Monthly Sales - August 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2021 (Tue)",
+          "evidence": "TSMC Monthly Sales - August 2021 | /english/monthly-revenue/2021 | August 10, 2021 (Tue) | TSMC Monthly Sales - July 2021 | /english/monthly-revenue/2021 | July 15, 2021 (Thu) | TSMC 2Q21 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 15, 2021 (Thu)",
+          "evidence": "TSMC Monthly Sales - July 2021 | /english/monthly-revenue/2021 | July 15, 2021 (Thu) | TSMC 2Q21 Results - Earnings Conference and Conference Call | /english/quarterly-results/2021/q2 | July 09, 2021 (Fri) | TSMC Monthly Sales - June 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 09, 2021 (Fri)",
+          "evidence": "TSMC 2Q21 Results - Earnings Conference and Conference Call | /english/quarterly-results/2021/q2 | July 09, 2021 (Fri) | TSMC Monthly Sales - June 2021 | /english/monthly-revenue/2021 | June 10, 2021 (Thu) | TSMC Monthly Sales - May 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2021 (Mon)",
+          "evidence": "TSMC Monthly Sales - May 2021 | /english/monthly-revenue/2021 | May 10, 2021 (Mon) | TSMC Monthly Sales - April 2021 | /english/monthly-revenue/2021 | April 15, 2021 (Thu) | TSMC 1Q21 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 15, 2021 (Thu)",
+          "evidence": "TSMC Monthly Sales - April 2021 | /english/monthly-revenue/2021 | April 15, 2021 (Thu) | TSMC 1Q21 Results - Earnings Conference and Conference Call | /english/quarterly-results/2021/q1 | April 09, 2021 (Fri) | TSMC Monthly Sales - March 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 09, 2021 (Fri)",
+          "evidence": "TSMC 1Q21 Results - Earnings Conference and Conference Call | /english/quarterly-results/2021/q1 | April 09, 2021 (Fri) | TSMC Monthly Sales - March 2021 | /english/monthly-revenue/2021 | March 10, 2021 (Wed) | TSMC Monthly Sales - February 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 09, 2021 (Tue)",
+          "evidence": "TSMC Monthly Sales - February 2021 | /english/monthly-revenue/2021 | February 09, 2021 (Tue) | TSMC Monthly Sales - January 2021 | /english/monthly-revenue/2021 | January 14, 2021 (Thu) | TSMC 4Q20 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 14, 2021 (Thu)",
+          "evidence": "TSMC Monthly Sales - January 2021 | /english/monthly-revenue/2021 | January 14, 2021 (Thu) | TSMC 4Q20 Results - Earnings Conference and Conference Call | /english/quarterly-results/2020/q4 | January 08, 2021 (Fri) | TSMC Monthly Sales - December 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 08, 2021 (Fri)",
+          "evidence": "TSMC 4Q20 Results - Earnings Conference and Conference Call | /english/quarterly-results/2020/q4 | January 08, 2021 (Fri) | TSMC Monthly Sales - December 2020 | /english/monthly-revenue/2020 | Important: This calendar is subject to change during the year as dates are adjusted. | December 10, 2020 (Thu)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2020 (Tue)",
+          "evidence": "TSMC Monthly Sales - November 2020 | /english/monthly-revenue/2020 | November 10, 2020 (Tue) | TSMC Monthly Sales - October 2020 | October 15, 2020 (Thu) | TSMC 3Q20 Results - Earnings Conference and Conference Call | October 08, 2020 (Thu)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 15, 2020 (Thu)",
+          "evidence": "November 10, 2020 (Tue) | TSMC Monthly Sales - October 2020 | October 15, 2020 (Thu) | TSMC 3Q20 Results - Earnings Conference and Conference Call | October 08, 2020 (Thu) | TSMC Monthly Sales - September 2020 | September 10, 2020 (Thu)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 08, 2020 (Thu)",
+          "evidence": "October 15, 2020 (Thu) | TSMC 3Q20 Results - Earnings Conference and Conference Call | October 08, 2020 (Thu) | TSMC Monthly Sales - September 2020 | September 10, 2020 (Thu) | TSMC Monthly Sales - August 2020 | August 10, 2020 (Mon)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2020 (Mon)",
+          "evidence": "September 10, 2020 (Thu) | TSMC Monthly Sales - August 2020 | August 10, 2020 (Mon) | TSMC Monthly Sales - July 2020 | July 16, 2020 (Thu) | TSMC 2Q20 Results - Earnings Conference and Conference Call | July 10, 2020 (Fri)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 16, 2020 (Thu)",
+          "evidence": "August 10, 2020 (Mon) | TSMC Monthly Sales - July 2020 | July 16, 2020 (Thu) | TSMC 2Q20 Results - Earnings Conference and Conference Call | July 10, 2020 (Fri) | TSMC Monthly Sales - June 2020 | /english/monthly-revenue/2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2020 (Fri)",
+          "evidence": "July 16, 2020 (Thu) | TSMC 2Q20 Results - Earnings Conference and Conference Call | July 10, 2020 (Fri) | TSMC Monthly Sales - June 2020 | /english/monthly-revenue/2020 | June 10, 2020 (Wed) | TSMC Monthly Sales - May 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 08, 2020 (Fri)",
+          "evidence": "TSMC Monthly Sales - May 2020 | /english/monthly-revenue/2020 | May 08, 2020 (Fri) | TSMC Monthly Sales - April 2020 | /english/monthly-revenue/2020 | April 16, 2020 (Thu) | TSMC 1Q20 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 16, 2020 (Thu)",
+          "evidence": "TSMC Monthly Sales - April 2020 | /english/monthly-revenue/2020 | April 16, 2020 (Thu) | TSMC 1Q20 Results - Earnings Conference and Conference Call | /english/quarterly-results/2020/q1 | April 10, 2020 (Fri) | TSMC Monthly Sales - March 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2020 (Fri)",
+          "evidence": "TSMC 1Q20 Results - Earnings Conference and Conference Call | /english/quarterly-results/2020/q1 | April 10, 2020 (Fri) | TSMC Monthly Sales - March 2020 | /english/monthly-revenue/2020 | March 10, 2020 (Tue) | TSMC Monthly Sales - February 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 10, 2020 (Mon)",
+          "evidence": "TSMC Monthly Sales - February 2020 | /english/monthly-revenue/2020 | February 10, 2020 (Mon) | TSMC Monthly Sales - January 2020 | /english/monthly-revenue/2020 | January 16, 2020 (Thu) | TSMC 4Q19 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 16, 2020 (Thu)",
+          "evidence": "TSMC Monthly Sales - January 2020 | /english/monthly-revenue/2020 | January 16, 2020 (Thu) | TSMC 4Q19 Results - Earnings Conference and Conference Call | /english/quarterly-results/2019/q4 | January 10, 2020 (Fri) | TSMC Monthly Sales - December 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2020 (Fri)",
+          "evidence": "TSMC 4Q19 Results - Earnings Conference and Conference Call | /english/quarterly-results/2019/q4 | January 10, 2020 (Fri) | TSMC Monthly Sales - December 2019 | /english/monthly-revenue/2019 | Important: This calendar is subject to change during the year as dates are adjusted. | December 10, 2019 (Tue)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 08, 2019 (Fri)",
+          "evidence": "TSMC Monthly Sales - November 2019 | /english/monthly-revenue/2019 | November 08, 2019 (Fri) | TSMC Monthly Sales - October 2019 | /english/monthly-revenue/2019 | October 17, 2019 (Thu) | TSMC 3Q19 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 17, 2019 (Thu)",
+          "evidence": "TSMC Monthly Sales - October 2019 | /english/monthly-revenue/2019 | October 17, 2019 (Thu) | TSMC 3Q19 Results - Earnings Conference and Conference Call | /english/quarterly-results/2019/q3 | October 09, 2019 (Wed) | TSMC Monthly Sales - September 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 09, 2019 (Wed)",
+          "evidence": "TSMC 3Q19 Results - Earnings Conference and Conference Call | /english/quarterly-results/2019/q3 | October 09, 2019 (Wed) | TSMC Monthly Sales - September 2019 | /english/monthly-revenue/2019 | September 10, 2019 (Tue) | TSMC Monthly Sales - August 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 12, 2019 (Mon)",
+          "evidence": "TSMC Monthly Sales - August 2019 | /english/monthly-revenue/2019 | August 12, 2019 (Mon) | TSMC Monthly Sales - July 2019 | /english/monthly-revenue/2019 | July 18, 2019 (Thu) | 2Q19 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 18, 2019 (Thu)",
+          "evidence": "TSMC Monthly Sales - July 2019 | /english/monthly-revenue/2019 | July 18, 2019 (Thu) | 2Q19 Results - Earnings Conference and Conference Call | /english/quarterly-results/2019/q2 | July 10, 2019 (Wed) | TSMC Monthly Sales - June 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2019 (Wed)",
+          "evidence": "2Q19 Results - Earnings Conference and Conference Call | /english/quarterly-results/2019/q2 | July 10, 2019 (Wed) | TSMC Monthly Sales - June 2019 | /english/monthly-revenue/2019 | June 10, 2019 (Mon) | TSMC Monthly Sales - May 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2019 (Fri)",
+          "evidence": "TSMC Monthly Sales - May 2019 | /english/monthly-revenue/2019 | May 10, 2019 (Fri) | Monthly Sales - April 2019 | /english/monthly-revenue/2019 | April 18, 2019 (Thu) | 1Q19 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 18, 2019 (Thu)",
+          "evidence": "Monthly Sales - April 2019 | /english/monthly-revenue/2019 | April 18, 2019 (Thu) | 1Q19 Results - Earnings Conference and Conference Call | /english/quarterly-results/2019/q1 | April 10, 2019 (Wed) | Monthly Sales - March 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2019 (Wed)",
+          "evidence": "1Q19 Results - Earnings Conference and Conference Call | /english/quarterly-results/2019/q1 | April 10, 2019 (Wed) | Monthly Sales - March 2019 | /english/monthly-revenue/2019 | March 08, 2019 (Fri) | Monthly Sales - February 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 15, 2019 (Fri)",
+          "evidence": "Monthly Sales - February 2019 | /english/monthly-revenue/2019 | February 15, 2019 (Fri) | Monthly Sales - January 2019 | /english/monthly-revenue/2019 | January 17, 2019 (Thu) | 4Q18 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 17, 2019 (Thu)",
+          "evidence": "Monthly Sales - January 2019 | /english/monthly-revenue/2019 | January 17, 2019 (Thu) | 4Q18 Results - Earnings Conference and Conference Call | /english/quarterly-results/2018/q4 | January 10, 2019 (Thu) | Monthly Sales - Decebmer 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2019 (Thu)",
+          "evidence": "4Q18 Results - Earnings Conference and Conference Call | /english/quarterly-results/2018/q4 | January 10, 2019 (Thu) | Monthly Sales - Decebmer 2018 | /english/monthly-revenue/2018 | Important: This calendar is subject to change during the year as dates are adjusted. | December 10, 2018 (Mon)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 09, 2018 (Fri)",
+          "evidence": "Monthly Sales - November 2018 | /english/monthly-revenue/2018 | November 09, 2018 (Fri) | Monthly Sales - October 2018 | /english/monthly-revenue/2018 | October 18, 2018 (Thu) | 3Q18 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 18, 2018 (Thu)",
+          "evidence": "Monthly Sales - October 2018 | /english/monthly-revenue/2018 | October 18, 2018 (Thu) | 3Q18 Results - Earnings Conference and Conference Call | /english/quarterly-results/2018/q3 | October 09, 2018 (Tue) | Monthly Sales - September 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 09, 2018 (Tue)",
+          "evidence": "3Q18 Results - Earnings Conference and Conference Call | /english/quarterly-results/2018/q3 | October 09, 2018 (Tue) | Monthly Sales - September 2018 | /english/monthly-revenue/2018 | September 10, 2018 (Mon) | Monthly Sales - August 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2018 (Fri)",
+          "evidence": "Monthly Sales - August 2018 | /english/monthly-revenue/2018 | August 10, 2018 (Fri) | Monthly Sales - July 2018 | /english/monthly-revenue/2018 | July 19, 2018 (Thu) | 2Q18 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 19, 2018 (Thu)",
+          "evidence": "Monthly Sales - July 2018 | /english/monthly-revenue/2018 | July 19, 2018 (Thu) | 2Q18 Results - Earnings Conference and Conference Call | /english/quarterly-results/2018/q2 | July 10, 2018 (Tue) | Monthly Sales - June 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2018 (Tue)",
+          "evidence": "2Q18 Results - Earnings Conference and Conference Call | /english/quarterly-results/2018/q2 | July 10, 2018 (Tue) | Monthly Sales - June 2018 | /english/monthly-revenue/2018 | June 08, 2018 (Fri) | Monthly Sales - May 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2018 (Thu)",
+          "evidence": "Monthly Sales - May 2018 | /english/monthly-revenue/2018 | May 10, 2018 (Thu) | Monthly Sales - April 2018 | /english/monthly-revenue/2018 | April 19, 2018 (Thu) | 1Q18 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 19, 2018 (Thu)",
+          "evidence": "Monthly Sales - April 2018 | /english/monthly-revenue/2018 | April 19, 2018 (Thu) | 1Q18 Results - Earnings Conference and Conference Call | /english/quarterly-results/2018/q1 | April 10, 2018 (Tue) | Monthly Sales - March 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2018 (Tue)",
+          "evidence": "1Q18 Results - Earnings Conference and Conference Call | /english/quarterly-results/2018/q1 | April 10, 2018 (Tue) | Monthly Sales - March 2018 | /english/monthly-revenue/2018 | March 09, 2018 (Fri) | Monthly Sales - February 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 09, 2018 (Fri)",
+          "evidence": "Monthly Sales - February 2018 | /english/monthly-revenue/2018 | February 09, 2018 (Fri) | Monthly Sales - January 2018 | /english/monthly-revenue/2018 | January 18, 2018 (Thu) | 4Q17 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 18, 2018 (Thu)",
+          "evidence": "Monthly Sales - January 2018 | /english/monthly-revenue/2018 | January 18, 2018 (Thu) | 4Q17 Results - Earnings Conference and Conference Call | /english/quarterly-results/2017/q4 | January 10, 2018 (Wed) | Monthly Sales - December 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2018 (Wed)",
+          "evidence": "4Q17 Results - Earnings Conference and Conference Call | /english/quarterly-results/2017/q4 | January 10, 2018 (Wed) | Monthly Sales - December 2017 | /english/monthly-revenue/2017 | Important: This calendar is subject to change during the year as dates are adjusted. | December 08, 2017 (Fri)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2017 (Fri)",
+          "evidence": "Monthly Sales - November 2017 | /english/monthly-revenue/2017 | November 10, 2017 (Fri) | Monthly Sales - October 2017 | /english/monthly-revenue/2017 | October 19, 2017 (Thu) | 3Q17 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 19, 2017 (Thu)",
+          "evidence": "Monthly Sales - October 2017 | /english/monthly-revenue/2017 | October 19, 2017 (Thu) | 3Q17 Results - Earnings Conference and Conference Call | /english/quarterly-results/2017/q3 | October 06, 2017 (Fri) | Monthly Sales - September 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 06, 2017 (Fri)",
+          "evidence": "3Q17 Results - Earnings Conference and Conference Call | /english/quarterly-results/2017/q3 | October 06, 2017 (Fri) | Monthly Sales - September 2017 | /english/monthly-revenue/2017 | September 08, 2017 (Fri) | Monthly Sales - August 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2017 (Thu)",
+          "evidence": "Monthly Sales - August 2017 | /english/monthly-revenue/2017 | August 10, 2017 (Thu) | Monthly Sales - July 2017 | /english/monthly-revenue/2017 | July 13, 2017 (Thu) | 2Q17 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 13, 2017 (Thu)",
+          "evidence": "Monthly Sales - July 2017 | /english/monthly-revenue/2017 | July 13, 2017 (Thu) | 2Q17 Results - Earnings Conference and Conference Call | /english/quarterly-results/2017/q2 | July 10, 2017 (Mon) | Monthly Sales - June 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2017 (Mon)",
+          "evidence": "2Q17 Results - Earnings Conference and Conference Call | /english/quarterly-results/2017/q2 | July 10, 2017 (Mon) | Monthly Sales - June 2017 | /english/monthly-revenue/2017 | June 09, 2017 (Fri) | Monthly Sales - May 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2017 (Wed)",
+          "evidence": "Annual General Shareholders' Meeting | /english/shareholders-meeting/2017 | May 10, 2017 (Wed) | Monthly Sales - April 2017 | /english/monthly-revenue/2017 | April 13, 2017 (Thu) | 1Q17 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 13, 2017 (Thu)",
+          "evidence": "Monthly Sales - April 2017 | /english/monthly-revenue/2017 | April 13, 2017 (Thu) | 1Q17 Results - Earnings Conference and Conference Call | /english/quarterly-results/2017/q1 | April 10, 2017 (Mon) | Monthly Sales - March 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2017 (Mon)",
+          "evidence": "1Q17 Results - Earnings Conference and Conference Call | /english/quarterly-results/2017/q1 | April 10, 2017 (Mon) | Monthly Sales - March 2017 | /english/monthly-revenue/2017 | March 10, 2017 (Fri) | Monthly Sales - February 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 10, 2017 (Fri)",
+          "evidence": "Monthly Sales - February 2017 | /english/monthly-revenue/2017 | February 10, 2017 (Fri) | Monthly Sales - January 2017 | /english/monthly-revenue/2016 | January 12, 2017 (Thu) | 4Q16 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 12, 2017 (Thu)",
+          "evidence": "Monthly Sales - January 2017 | /english/monthly-revenue/2016 | January 12, 2017 (Thu) | 4Q16 Results - Earnings Conference and Conference Call | /english/quarterly-results/2016/q4 | January 10, 2017 (Tue) | Monthly Sales - December 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2017 (Tue)",
+          "evidence": "4Q16 Results - Earnings Conference and Conference Call | /english/quarterly-results/2016/q4 | January 10, 2017 (Tue) | Monthly Sales - December 2016 | /english/monthly-revenue/2016 | Important: This calendar is subject to change during the year as dates are adjusted. | December 09, 2016 (Fri)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2016 (Thu)",
+          "evidence": "Monthly Sales - November 2016 | /english/monthly-revenue/2016 | November 10, 2016 (Thu) | Monthly Sales - October 2016 | /english/monthly-revenue/2016 | October 13, 2016 (Thu) | 3Q16 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 13, 2016 (Thu)",
+          "evidence": "Monthly Sales - October 2016 | /english/monthly-revenue/2016 | October 13, 2016 (Thu) | 3Q16 Results - Earnings Conference and Conference Call | /english/quarterly-results/2016/q3 | October 07, 2016 (Fri) | Monthly Sales - September 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 07, 2016 (Fri)",
+          "evidence": "3Q16 Results - Earnings Conference and Conference Call | /english/quarterly-results/2016/q3 | October 07, 2016 (Fri) | Monthly Sales - September 2016 | /english/monthly-revenue/2016 | September 09, 2016 (Fri) | Monthly Sales - August 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2016 (Wed)",
+          "evidence": "Monthly Sales - August 2016 | /english/monthly-revenue/2016 | August 10, 2016 (Wed) | Monthly Sales - July 2016 | /english/monthly-revenue/2016 | July 14, 2016 (Thu) | 2Q16 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 14, 2016 (Thu)",
+          "evidence": "Monthly Sales - July 2016 | /english/monthly-revenue/2016 | July 14, 2016 (Thu) | 2Q16 Results - Earnings Conference and Conference Call | /english/quarterly-results/2016/q2 | July 11, 2016 (Mon) | Monthly Sales - June 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 11, 2016 (Mon)",
+          "evidence": "2Q16 Results - Earnings Conference and Conference Call | /english/quarterly-results/2016/q2 | July 11, 2016 (Mon) | Monthly Sales - June 2016 | /english/monthly-revenue/2016 | June 08, 2016 (Wed) | Monthly Sales - May 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 10, 2016 (Tue)",
+          "evidence": "Annual General Shareholders' Meeting | /english/shareholders-meeting/2016 | May 10, 2016 (Tue) | Monthly Sales - April 2016 | /english/monthly-revenue/2016 | April 14, 2016 (Thu) | 1Q16 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 14, 2016 (Thu)",
+          "evidence": "Monthly Sales - April 2016 | /english/monthly-revenue/2016 | April 14, 2016 (Thu) | 1Q16 Results - Earnings Conference and Conference Call | /english/quarterly-results/2016/q1 | April 08, 2016 (Fri) | Monthly Sales - March 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 08, 2016 (Fri)",
+          "evidence": "1Q16 Results - Earnings Conference and Conference Call | /english/quarterly-results/2016/q1 | April 08, 2016 (Fri) | Monthly Sales - March 2016 | /english/monthly-revenue/2016 | March 10, 2016 (Thu) | Monthly Sales - February 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 15, 2016 (Mon)",
+          "evidence": "Monthly Sales - February 2016 | /english/monthly-revenue/2016 | February 15, 2016 (Mon) | Monthly Sales - January 2016 | /english/monthly-revenue/2016 | January 14, 2016 (Thu) | 4Q15 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 14, 2016 (Thu)",
+          "evidence": "Monthly Sales - January 2016 | /english/monthly-revenue/2016 | January 14, 2016 (Thu) | 4Q15 Results - Earnings Conference and Conference Call | /english/quarterly-results/2015/q4 | January 08, 2016 (Fri) | Monthly Sales - December 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 08, 2016 (Fri)",
+          "evidence": "4Q15 Results - Earnings Conference and Conference Call | /english/quarterly-results/2015/q4 | January 08, 2016 (Fri) | Monthly Sales - December 2015 | /english/monthly-revenue/2015 | Important: This calendar is subject to change during the year as dates are adjusted. | December 10, 2015 (Thu)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2015 (Tue)",
+          "evidence": "Monthly Sales - November 2015 | /english/monthly-revenue/2015 | November 10, 2015 (Tue) | Monthly Sales - October 2015 | /english/monthly-revenue/2015 | October 15, 2015 (Thu) | 3Q15 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 15, 2015 (Thu)",
+          "evidence": "Monthly Sales - October 2015 | /english/monthly-revenue/2015 | October 15, 2015 (Thu) | 3Q15 Results - Earnings Conference and Conference Call | /english/quarterly-results/2015/q3 | October 08, 2015 (Thu) | Monthly Sales - September 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 08, 2015 (Thu)",
+          "evidence": "3Q15 Results - Earnings Conference and Conference Call | /english/quarterly-results/2015/q3 | October 08, 2015 (Thu) | Monthly Sales - September 2015 | /english/monthly-revenue/2015 | September 10, 2015 (Thu) | Monthly Sales - August 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 10, 2015 (Mon)",
+          "evidence": "Monthly Sales - August 2015 | /english/monthly-revenue/2015 | August 10, 2015 (Mon) | Monthly Sales - July 2015 | /english/monthly-revenue/2015 | July 16, 2015 (Thu) | 2Q15 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 16, 2015 (Thu)",
+          "evidence": "Monthly Sales - July 2015 | /english/monthly-revenue/2015 | July 16, 2015 (Thu) | 2Q15 Results - Earnings Conference and Conference Call | /english/quarterly-results/2015/q2 | July 10, 2015 (Fri) | Monthly Sales - June 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2015 (Fri)",
+          "evidence": "2Q15 Results - Earnings Conference and Conference Call | /english/quarterly-results/2015/q2 | July 10, 2015 (Fri) | Monthly Sales - June 2015 | /english/monthly-revenue/2015 | June 10, 2015 (Wed) | Monthly Sales - May 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 08, 2015 (Fri)",
+          "evidence": "Annual General Shareholders' Meeting | /english/shareholders-meeting/2015 | May 08, 2015 (Fri) | Monthly Sales - April 2015 | /english/monthly-revenue/2015 | April 16, 2015 (Thu) | 1Q15 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 16, 2015 (Thu)",
+          "evidence": "Monthly Sales - April 2015 | /english/monthly-revenue/2015 | April 16, 2015 (Thu) | 1Q15 Results - Earnings Conference and Conference Call | /english/quarterly-results/2015/q1 | April 10, 2015 (Fri) | Monthly Sales - March 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2015 (Fri)",
+          "evidence": "1Q15 Results - Earnings Conference and Conference Call | /english/quarterly-results/2015/q1 | April 10, 2015 (Fri) | Monthly Sales - March 2015 | /english/monthly-revenue/2015 | March 10, 2015 (Tue) | Monthly Sales - February 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 10, 2015 (Tue)",
+          "evidence": "Monthly Sales - February 2015 | /english/monthly-revenue/2015 | February 10, 2015 (Tue) | Monthly Sales - January 2015 | /english/monthly-revenue/2015 | January 15, 2015 (Thu) | 4Q14 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 15, 2015 (Thu)",
+          "evidence": "Monthly Sales - January 2015 | /english/monthly-revenue/2015 | January 15, 2015 (Thu) | 4Q14 Results - Earnings Conference and Conference Call | /english/quarterly-results/2014/q4 | January 09, 2015 (Fri) | Monthly Sales - December 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 09, 2015 (Fri)",
+          "evidence": "4Q14 Results - Earnings Conference and Conference Call | /english/quarterly-results/2014/q4 | January 09, 2015 (Fri) | Monthly Sales - December 2014 | /english/monthly-revenue/2014 | Important: This calendar is subject to change during the year as dates are adjusted. | December 10, 2014 (Wed)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 10, 2014 (Mon)",
+          "evidence": "Monthly Sales - November 2014 | /english/monthly-revenue/2014 | November 10, 2014 (Mon) | Monthly Sales - October 2014 | /english/monthly-revenue/2014 | October 16, 2014 (Thu) | 3Q14 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 16, 2014 (Thu)",
+          "evidence": "Monthly Sales - October 2014 | /english/monthly-revenue/2014 | October 16, 2014 (Thu) | 3Q14 Results - Earnings Conference and Conference Call | /english/quarterly-results/2014/q3 | October 09, 2014 (Thu) | Monthly Sales - September 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 09, 2014 (Thu)",
+          "evidence": "3Q14 Results - Earnings Conference and Conference Call | /english/quarterly-results/2014/q3 | October 09, 2014 (Thu) | Monthly Sales - September 2014 | /english/monthly-revenue/2014 | September 10, 2014 (Wed) | Monthly Sales - August 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 08, 2014 (Fri)",
+          "evidence": "Monthly Sales - August 2014 | /english/monthly-revenue/2014 | August 08, 2014 (Fri) | Monthly Sales - July 2014 | /english/monthly-revenue/2014 | July 16, 2014 (Wed) | 2Q14 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 16, 2014 (Wed)",
+          "evidence": "Monthly Sales - July 2014 | /english/monthly-revenue/2014 | July 16, 2014 (Wed) | 2Q14 Results - Earnings Conference and Conference Call | /english/quarterly-results/2014/q2 | July 10, 2014 (Thu) | Monthly Sales - June 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 10, 2014 (Thu)",
+          "evidence": "2Q14 Results - Earnings Conference and Conference Call | /english/quarterly-results/2014/q2 | July 10, 2014 (Thu) | Monthly Sales - June 2014 | /english/monthly-revenue/2014 | June 10, 2014 (Tue) | Monthly Sales - May 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 09, 2014 (Fri)",
+          "evidence": "Monthly Sales - May 2014 | /english/monthly-revenue/2014 | May 09, 2014 (Fri) | Monthly Sales - April 2014 | /english/monthly-revenue/2014 | April 17, 2014 (Thu) | 1Q14 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 17, 2014 (Thu)",
+          "evidence": "Monthly Sales - April 2014 | /english/monthly-revenue/2014 | April 17, 2014 (Thu) | 1Q14 Results - Earnings Conference and Conference Call | /english/quarterly-results/2014/q1 | April 10, 2014 (Thu) | Monthly Sales - March 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 10, 2014 (Thu)",
+          "evidence": "1Q14 Results - Earnings Conference and Conference Call | /english/quarterly-results/2014/q1 | April 10, 2014 (Thu) | Monthly Sales - March 2014 | /english/monthly-revenue/2014 | March 10, 2014 (Mon) | Monthly Sales - February 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 10, 2014 (Mon)",
+          "evidence": "Monthly Sales - February 2014 | /english/monthly-revenue/2014 | February 10, 2014 (Mon) | Monthly Sales - January 2014 | /english/monthly-revenue/2014 | January 16, 2014 (Thu) | 4Q13 Results - Earnings Conference and Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 16, 2014 (Thu)",
+          "evidence": "Monthly Sales - January 2014 | /english/monthly-revenue/2014 | January 16, 2014 (Thu) | 4Q13 Results - Earnings Conference and Conference Call | /english/quarterly-results/2013/q4 | January 10, 2014 (Fri) | Monthly Sales - December 2013",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 10, 2014 (Fri)",
+          "evidence": "4Q13 Results - Earnings Conference and Conference Call | /english/quarterly-results/2013/q4 | January 10, 2014 (Fri) | Monthly Sales - December 2013 | /english/monthly-revenue/2013 | Important: This calendar is subject to change during the year as dates are adjusted. | Related Information",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+      "companies": [
+        "NVDA"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://ir.amd.com/news-events/ir-calendar",
+      "companies": [
+        "AMD"
+      ],
+      "status": "retrieved",
+      "candidates": [
+        {
+          "dateText": "Nov 3, 2026 • 2:00 pm PDT",
+          "evidence": "Annual Meeting of Stockholders | Upcoming Events | Nov 3, 2026 • 2:00 pm PDT | AMD Fiscal Third Quarter 2026 Financial Results | Webcast | Audio | Add to Calendar",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Dec 1, 2026",
+          "evidence": "Audio | Add to Calendar | Dec 1, 2026 | UBS Global Technology and AI Conference | Add to Calendar | Dec 9, 2026 | Barclays 24th Annual Global Technology Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Dec 9, 2026",
+          "evidence": "UBS Global Technology and AI Conference | Add to Calendar | Dec 9, 2026 | Barclays 24th Annual Global Technology Conference | Add to Calendar | Past Events | Sep 11, 2026 • 8:50 am PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 11, 2026 • 9:30 am MDT",
+          "evidence": "Sep 8, 2026 • 9:30 am EDT | Citi’s 2026 Global TMT Conference | Aug 11, 2026 • 9:30 am MDT | KeyBanc’s Technology Leadership Forum | Aug 4, 2026 • 2:00 pm PDT | AMD Fiscal Second Quarter 2026 Financial Results | Jul 23, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 4, 2026 • 2:00 pm PDT",
+          "evidence": "Aug 11, 2026 • 9:30 am MDT | KeyBanc’s Technology Leadership Forum | Aug 4, 2026 • 2:00 pm PDT | AMD Fiscal Second Quarter 2026 Financial Results | Jul 23, 2026 | Advancing AI 2026 | Jun 2, 2026 • 11:20 am PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 23, 2026",
+          "evidence": "Aug 4, 2026 • 2:00 pm PDT | AMD Fiscal Second Quarter 2026 Financial Results | Jul 23, 2026 | Advancing AI 2026 | Jun 2, 2026 • 11:20 am PDT | Bank of America Global Technology Conference | May 13, 2026 • 9:00 am PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 13, 2026 • 9:00 am PDT",
+          "evidence": "Jun 2, 2026 • 11:20 am PDT | Bank of America Global Technology Conference | May 13, 2026 • 9:00 am PDT | 2026 Annual Meeting of Stockholders | May 5, 2026 • 5:00 pm EDT | AMD Fiscal First Quarter 2026 Financial Results | View All Past Events",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 5, 2026 • 5:00 pm EDT",
+          "evidence": "May 13, 2026 • 9:00 am PDT | 2026 Annual Meeting of Stockholders | May 5, 2026 • 5:00 pm EDT | AMD Fiscal First Quarter 2026 Financial Results | View All Past Events | Investor Relations | AMD",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://investors.broadcom.com/company-information/events-presentations",
+      "companies": [
+        "AVGO"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://investor.marvell.com/news-events/ir-calendar",
+      "companies": [
+        "MRVL"
+      ],
+      "status": "retrieved",
+      "candidates": [
+        {
+          "dateText": "Oct 6, 2026",
+          "evidence": "to receive notices about upcoming events and press releases. | Past Events | Oct 6, 2026 | Marvell Investor Day 2026 | Sep 9, 2026 11:30 am EDT | Citi’s 2026 Global TMT Conference | Aug 27, 2026 1:45 pm PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Sep 9, 2026 11:30 am EDT",
+          "evidence": "Oct 6, 2026 | Marvell Investor Day 2026 | Sep 9, 2026 11:30 am EDT | Citi’s 2026 Global TMT Conference | Aug 27, 2026 1:45 pm PDT | Q2 2027 Marvell Technology, Inc. Earnings Conference Call | Jun 3, 2026 2:40 pm PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 27, 2026 1:45 pm PDT",
+          "evidence": "Sep 9, 2026 11:30 am EDT | Citi’s 2026 Global TMT Conference | Aug 27, 2026 1:45 pm PDT | Q2 2027 Marvell Technology, Inc. Earnings Conference Call | Jun 3, 2026 2:40 pm PDT | BofA Securities 2026 Global Technology Conference | Jun 2, 2026 3:50 pm PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 3, 2026 2:40 pm PDT",
+          "evidence": "Aug 27, 2026 1:45 pm PDT | Q2 2027 Marvell Technology, Inc. Earnings Conference Call | Jun 3, 2026 2:40 pm PDT | BofA Securities 2026 Global Technology Conference | Jun 2, 2026 3:50 pm PDT | 2026 Evercore Global TMT Conference | May 27, 2026 1:45 pm PDT",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 2, 2026 3:50 pm PDT",
+          "evidence": "Jun 3, 2026 2:40 pm PDT | BofA Securities 2026 Global Technology Conference | Jun 2, 2026 3:50 pm PDT | 2026 Evercore Global TMT Conference | May 27, 2026 1:45 pm PDT | Q1 2027 Marvell Technology, Inc. Earnings Conference Call | View All Past Events",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 27, 2026 1:45 pm PDT",
+          "evidence": "Jun 2, 2026 3:50 pm PDT | 2026 Evercore Global TMT Conference | May 27, 2026 1:45 pm PDT | Q1 2027 Marvell Technology, Inc. Earnings Conference Call | View All Past Events | email | Email Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://investor.apple.com/investor-relations/default.aspx",
+      "companies": [
+        "AAPL"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/Investor",
+      "companies": [
+        "MSFT"
+      ],
+      "status": "retrieved",
+      "candidates": [
+        {
+          "dateText": "October 28, 2026",
+          "evidence": "Next slide | Upcoming Microsoft FY27 Q1 Earnings | October 28, 2026 | GET NOTIFICATION > | 2026 Responsible AI Transparency Report | VIEW DETAILS > | 2026 Environmental Sustainability Report",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "The next earnings release will be on October 28, 2026.",
+          "evidence": "Collapse All | Know the next earnings release date | The next earnings release will be on October 28, 2026. | Know the dates for the quarterly dividend | Get the quarterly dividend amount, record date, ex-dividend date, payable date and history | Get Details | Lookup Microsoft stock prices by date",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://investor.oracle.com/events-and-presentations/default.aspx",
+      "companies": [
+        "ORCL"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+      "companies": [
+        "CRM"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://investors.servicenow.com/events-and-presentations/default.aspx",
+      "companies": [
+        "NOW"
+      ],
+      "status": "connection_failed",
+      "candidates": []
+    },
+    {
+      "url": "https://news.adobe.com/financial",
+      "companies": [
+        "ADBE"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://investor.workday.com/events-and-presentations/default.aspx",
+      "companies": [
+        "WDAY"
+      ],
+      "status": "http_404",
+      "candidates": []
+    },
+    {
+      "url": "https://www.asml.com/en/investors/financial-calendar",
+      "companies": [
+        "ASML"
+      ],
+      "status": "connection_failed",
+      "candidates": []
+    },
+    {
+      "url": "https://investor.lamresearch.com/events-and-presentations",
+      "companies": [
+        "LRCX"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://news.samsung.com/global/category/press-resources/press-release",
+      "companies": [
+        "005930.KS"
+      ],
+      "status": "retrieved",
+      "candidates": [
+        {
+          "dateText": "October 14, 2026",
+          "evidence": "Press Release | Samsung Health Makes Sleep Coaching Easier To Start and Tailors Weekly Guidance | October 14, 2026 | Press Release | Samsung Electronics Announces Earnings Guidance for Third Quarter 2026 | October 8, 2026 | Press Release",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 8, 2026",
+          "evidence": "Press Release | Samsung Electronics Announces Earnings Guidance for Third Quarter 2026 | October 8, 2026 | Press Release | Samsung Introduces ‘SmartThings Now’ in New Platform Update That Brings More Intuitive User Experiences | October 6, 2026 | Press Release",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://news.skhynix.com/",
+      "companies": [
+        "000660.KS"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://investors.micron.com/events-and-presentations",
+      "companies": [
+        "MU"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://corp.mediatek.com/investor-relations",
+      "companies": [
+        "2454.TW"
+      ],
+      "status": "connection_failed",
+      "candidates": []
+    },
+    {
+      "url": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+      "companies": [
+        "AMZN"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://abc.xyz/investor/",
+      "companies": [
+        "GOOGL"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://investor.atmeta.com/investor-events/default.aspx",
+      "companies": [
+        "META"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "status": "retrieved",
+      "candidates": []
+    },
+    {
+      "url": "https://www.nvidia.com/gtc/",
+      "companies": [
+        "NVDA"
+      ],
+      "status": "connection_failed",
+      "candidates": []
+    },
+    {
+      "url": "https://www.opencompute.org/summit/global-summit",
+      "companies": [
+        "META",
+        "MSFT",
+        "NVDA",
+        "AVGO",
+        "MRVL"
+      ],
+      "status": "http_404",
+      "candidates": []
+    },
+    {
+      "url": "https://reinvent.awsevents.com/",
+      "companies": [
+        "AMZN"
+      ],
+      "status": "connection_failed",
+      "candidates": []
+    },
+    {
+      "url": "https://ignite.microsoft.com/",
+      "companies": [
+        "MSFT"
+      ],
+      "status": "connection_failed",
+      "candidates": []
+    },
+    {
+      "url": "https://investor.marvell.com/events-and-presentations",
+      "companies": [
+        "MRVL"
+      ],
+      "status": "http_404",
+      "candidates": []
+    }
+  ]
+}

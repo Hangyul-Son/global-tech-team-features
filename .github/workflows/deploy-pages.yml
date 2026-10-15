@@ -6,6 +6,8 @@ on:
       - claude/build-tech-finance-site-HRNbI
       - main
 
+  workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
@@ -25,13 +27,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Validate dataset and prepare static site
+        run: |
+          python3 -m unittest discover -s tests -v
+          node --check js/events.js
+          python3 scripts/build_site.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment

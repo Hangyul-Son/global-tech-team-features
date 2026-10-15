@@ -1,60 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech & Finance Learning Hub</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="index.html" class="logo">Tech & Finance Hub</a>
-      <ul class="nav-links">
-        <li><a href="#research" class="active">Research</a></li>
-        <li><a href="chinese.html">中文学习</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="home" class="hero">
-      <h1>Train Me to Be a Better Financial Analyst</h1>
-      <p>Deep research on the hottest topics in tech &mdash; the technology, the companies, the competition, and what it all means for investors.</p>
-    </section>
-
-    <section id="research" class="section">
-      <h2>Research</h2>
-      <div class="card-grid">
-        <a href="articles/hbm.html" class="card card-link">
-          <div class="card-meta">
-            <span class="tag">Semiconductors</span>
-            <time>2026-02-21</time>
-          </div>
-          <h3>HBM: The Memory Chip Powering the AI Revolution</h3>
-          <p>What is High Bandwidth Memory, why every AI chip needs it, and how Samsung, SK Hynix, and Micron are battling for a $100B market.</p>
-          <div class="card-stats">
-            <span>Deep Dive</span>
-            <span>15 min read</span>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <h2>About This Site</h2>
-      <div class="about-content">
-        <p>The finance industry is being reshaped by technology. Every week there's a new topic &mdash; HBM, AI chips, quantum computing, energy storage &mdash; and understanding these technologies is essential for making informed investment decisions.</p>
-        <p>This site is my personal research library. Each article breaks down a complex tech topic into clear, structured educational material: what the technology is, who the key players are, where the money flows, and why investors should care.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>Tech & Finance Learning Hub &mdash; A personal research knowledge base</p>
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="A public calendar of technology earnings and major events across semiconductors, software and AI infrastructure."><title>Catalyst — Technology earnings & events</title><link rel="stylesheet" href="css/events.css"><script src="js/events.js" defer></script></head>
+<body><a class="skip-link" href="#main">Skip to calendar</a>
+<aside class="sidebar"><a class="brand" href="index.html"><span class="brand-mark">c·</span><span>catalyst<small>TECHNOLOGY INTELLIGENCE</small></span></a><div class="workspace-label">RESEARCH WORKSPACE</div><div class="side-current">▦ &nbsp; Earnings & events <span class="live-dot"></span></div><a class="side-link" href="research.html">▤ &nbsp; Research library ↗</a><div class="sidebar-section"><div class="section-label">OUR COVERAGE <span>12</span></div><p>The companies at the center of our research.</p><div id="coverage-list"></div></div><div class="side-bottom"><span class="public-dot"></span> Public research calendar<p>Read-only. Maintained by the research team.</p></div></aside>
+<div class="app"><header class="topbar"><div><a href="research.html">Research</a> <span>/</span> <strong>Earnings & events</strong></div><span class="public-label">◉ PUBLIC VIEW</span></header>
+<main id="main"><div class="page-heading"><div><div class="eyebrow">THE TECHNOLOGY LANDSCAPE, IN FOCUS</div><h1>Know what’s next<span>.</span></h1><p>Earnings, industry gatherings and the moments that move tech.</p></div><div class="date-stamp"><span id="today-label"></span><small>Coverage across the AI value chain</small></div></div>
+<div class="notice" id="data-notice" role="status"><span class="notice-icon">i</span><div><strong>Planning edition · source verification pending</strong><p>Estimated months are planning assumptions, not announced earnings dates. No live Bloomberg or Refinitiv connection. Open an event for its source and verification status.</p></div><button id="methodology-button" class="text-button">How dates work ↗</button></div>
+<section class="metrics" aria-label="Calendar summary"><div><span class="metric-label">RESEARCH UNIVERSE</span><strong id="universe-count">—</strong><small>companies followed</small></div><div><span class="metric-label">PRIORITY COVERAGE</span><strong>12<span class="metric-star">★</span></strong><small>semiconductors & software</small></div><div><span class="metric-label">ANNOUNCED DATES</span><strong id="confirmed-count">—</strong><small>source-backed events</small></div><div><span class="metric-label">ON THE HORIZON</span><strong id="watch-count">—</strong><small>undated events to monitor</small></div></section>
+<section class="event-workspace" aria-label="Events explorer"><div class="toolbar"><div class="view-switch" role="group" aria-label="Event view"><button id="calendar-view" aria-pressed="true">▦ &nbsp; Calendar</button><button id="list-view" aria-pressed="false">☷ &nbsp; List</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search companies or events…" aria-label="Search companies or events"></label></div>
+<div class="filters"><label>Universe<select id="universe"><option value="all">All companies</option><option value="coverage">★ Our coverage</option><option value="ecosystem">Wider ecosystem</option></select></label><label>Event type<select id="type"><option value="all">All event types</option><option>Earnings</option><option>Conference</option><option>Investor day</option><option>IPO watch</option></select></label><label>Date status<select id="status"><option value="all">All statuses</option><option value="confirmed">Confirmed</option><option value="estimated">Estimated month</option><option value="unannounced">Date unannounced</option></select></label><button id="clear-filters" class="text-button">Reset filters</button><span class="coverage-key">★ Coverage company</span></div>
+<div class="month-toolbar"><div class="month-navigation"><h2 id="month-label"></h2><button id="prev-month" aria-label="Previous month">‹</button><button id="next-month" aria-label="Next month">›</button><button id="today-button">This month</button></div><span id="results-count" role="status" aria-live="polite"></span></div>
+<div id="calendar-panel"><div class="calendar-scroll-hint">Swipe the calendar horizontally to see the full week →</div><div class="calendar-scroll"><div class="calendar-grid" id="calendar" role="region" aria-label="Monthly event calendar"></div></div><div id="month-estimates" class="month-estimates"></div></div><div id="list-panel" hidden></div><div class="calendar-legend"><span><i class="legend-dot confirmed"></i> Confirmed by an official source</span><span><i class="legend-dot estimated"></i> Estimated month · not a dated event</span><span>Dates as published · times include source timezone</span></div></section>
+<section class="watch-section"><div class="section-heading"><div><div class="eyebrow">BEYOND THE QUARTER</div><h2>On the radar</h2><p>Important catalysts awaiting a verified date. Monitoring targets, not announced events.</p></div><span id="radar-count" class="count-pill"></span></div><div class="radar-grid" id="radar"></div></section>
+<footer><div><strong>catalyst<span>·</span></strong><p>Follow the signal. Understand the implications.</p></div><p id="freshness">Loading source information…</p><a href="data/events.json">Public dataset ↗</a><a href="data/source-checks.json">Source checks ↗</a><button id="footer-methodology" class="text-button">Date methodology</button></footer><noscript><p class="notice">Enable JavaScript to use the calendar, or <a href="data/events.json">read the public event dataset</a>.</p></noscript></main></div>
+<dialog id="event-dialog"><div class="dialog-top"><span class="eyebrow">EVENT BRIEF</span><button class="close-dialog" aria-label="Close event details">×</button></div><div id="event-detail"></div></dialog>
+<dialog id="methodology-dialog"><div class="dialog-top"><span class="eyebrow">ABOUT THE DATA</span><button class="close-dialog" aria-label="Close methodology">×</button></div><h2>Confidence before precision.</h2><p><strong>Confirmed</strong> means an explicit date is supported by an official announcement reviewed by the maintainer. Each entry includes its source and verification time. Confirmation can become stale; check the source before relying on a date.</p><p><strong>Estimated month</strong> is an editorial planning assumption based on typical quarterly reporting cadence. It is not vendor consensus and has not been checked against a current announcement. No exact day or time is implied; reporting may shift into an adjacent month.</p><p><strong>Date unannounced</strong> means a monitoring target has no verified date. A potential IPO is a watch item, not a claim that an IPO is scheduled.</p><p>The dataset combines manually verified official announcements with unverified planning windows. Source access is partial. The maintainer refresh command reads public official pages and stages possible announcements for review in Codex. No licensed Bloomberg or Refinitiv feed or automated source refresh has been activated.</p><p>This is a public, read-only calendar. Event additions, corrections and removals are maintained in the repository through Codex. Dividends and routine corporate actions are excluded by default.</p></dialog></body></html>
