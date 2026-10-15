@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-15T06:59:44.022146+00:00",
-  "successfulSources": 18,
-  "totalSources": 27,
-  "note": "Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged.",
+  "checkedAt": "2026-10-15T13:05:46.544232+00:00",
+  "successfulSources": 50,
+  "totalSources": 51,
+  "note": "Published estimates are staged separately and remain unconfirmed. Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -10,6 +10,7 @@
         "TSM"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": [
         {
           "dateText": "October 15, 2026 (Thu)",
@@ -967,6 +968,7 @@
         "NVDA"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
@@ -975,6 +977,7 @@
         "AMD"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": [
         {
           "dateText": "Nov 3, 2026 • 2:00 pm PDT",
@@ -1032,6 +1035,7 @@
         "AVGO"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
@@ -1040,6 +1044,7 @@
         "MRVL"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": [
         {
           "dateText": "Oct 6, 2026",
@@ -1080,11 +1085,12 @@
       ]
     },
     {
-      "url": "https://investor.apple.com/investor-relations/default.aspx",
+      "url": "https://www.apple.com/investor/earnings-call/",
       "companies": [
         "AAPL"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
@@ -1093,6 +1099,7 @@
         "MSFT"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": [
         {
           "dateText": "October 28, 2026",
@@ -1114,6 +1121,7 @@
         "ORCL"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
@@ -1122,15 +1130,36 @@
         "CRM"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
-      "url": "https://investors.servicenow.com/events-and-presentations/default.aspx",
+      "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx",
       "companies": [
         "NOW"
       ],
-      "status": "connection_failed",
-      "candidates": []
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "October 7, 2026",
+          "evidence": "View All News | ServiceNow to Announce Third Quarter 2026 Financial Results on October 28 | October 7, 2026 | Download | (opens in new window) | SANTA CLARA, Calif.--(BUSINESS WIRE)-- | ServiceNow",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "(NYSE: NOW) today announced that it will release financial results for the third quarter ended September 30, 2026, following the close of market on Wednesday, October 28, 2026. ServiceNow will host a conference call and live webcast to discuss the fi",
+          "evidence": "SANTA CLARA, Calif.--(BUSINESS WIRE)-- | ServiceNow | (NYSE: NOW) today announced that it will release financial results for the third quarter ended September 30, 2026, following the close of market on Wednesday, October 28, 2026. ServiceNow will host a conference call and live webcast to discuss the financial results. | Conference Call Details | The conference call will begin at 2 p.m. Pacific Daylight Time (21:00 GMT) on October 28, 2026. Interested parties may listen to the call by dialing (833) 461-5787 (Meeting ID: 657715831), or if outside North America, by dialing (585) 542-9983 (Meeting ID: 657715831). Individuals may access the live teleconference from this | webcast | (",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "The conference call will begin at 2 p.m. Pacific Daylight Time (21:00 GMT) on October 28, 2026. Interested parties may listen to the call by dialing (833) 461-5787 (Meeting ID: 657715831), or if outside North America, by dialing (585) 542-9983 (Meeti",
+          "evidence": "(NYSE: NOW) today announced that it will release financial results for the third quarter ended September 30, 2026, following the close of market on Wednesday, October 28, 2026. ServiceNow will host a conference call and live webcast to discuss the financial results. | Conference Call Details | The conference call will begin at 2 p.m. Pacific Daylight Time (21:00 GMT) on October 28, 2026. Interested parties may listen to the call by dialing (833) 461-5787 (Meeting ID: 657715831), or if outside North America, by dialing (585) 542-9983 (Meeting ID: 657715831). Individuals may access the live teleconference from this | webcast | ( | https://events.q4inc.com/attendee/657715831 | ).",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     },
     {
       "url": "https://news.adobe.com/financial",
@@ -1138,6 +1167,7 @@
         "ADBE"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
@@ -1149,37 +1179,1055 @@
       "candidates": []
     },
     {
-      "url": "https://www.asml.com/en/investors/financial-calendar",
+      "url": "https://investor.asml.com/quarterly-results",
       "companies": [
         "ASML"
       ],
-      "status": "connection_failed",
-      "candidates": []
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "ASML Holding NV announced its 2026 third-quarter financial results on October 14, 2026.",
+          "evidence": "Quarterly results | Q3 2026 financial results | ASML Holding NV announced its 2026 third-quarter financial results on October 14, 2026. | Read the press release | Video: Q3 results | &nbsp; | Investor call webcast replay",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     },
     {
-      "url": "https://investor.lamresearch.com/events-and-presentations",
+      "url": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
       "companies": [
         "LRCX"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
-      "url": "https://news.samsung.com/global/category/press-resources/press-release",
+      "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
       "companies": [
         "005930.KS"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": [
         {
-          "dateText": "October 14, 2026",
-          "evidence": "Press Release | Samsung Health Makes Sleep Coaching Easier To Start and Tailors Weekly Guidance | October 14, 2026 | Press Release | Samsung Electronics Announces Earnings Guidance for Third Quarter 2026 | October 8, 2026 | Press Release",
+          "dateText": "October 8, 2026",
+          "evidence": "31 | 3Q26 Guidance Announcement | October 8, 2026 | 3Q26 Earnings Conference Call | October 29, 2026, 10:00 a.m. KST | Webcast | Past Events",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
-          "dateText": "October 8, 2026",
-          "evidence": "Press Release | Samsung Electronics Announces Earnings Guidance for Third Quarter 2026 | October 8, 2026 | Press Release | Samsung Introduces ‘SmartThings Now’ in New Platform Update That Brings More Intuitive User Experiences | October 6, 2026 | Press Release",
+          "dateText": "October 29, 2026, 10:00 a.m. KST",
+          "evidence": "October 8, 2026 | 3Q26 Earnings Conference Call | October 29, 2026, 10:00 a.m. KST | Webcast | Past Events | 2026 | Expand",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31 ~ August 3, 2026",
+          "evidence": "August 10 ~ 12, 2026 | 2Q26 Domestic NDR | July 31 ~ August 3, 2026 | 2Q26 Earnings Conference Call | July 30, 2026, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 30, 2026, 10:00 a.m. KST",
+          "evidence": "July 31 ~ August 3, 2026 | 2Q26 Earnings Conference Call | July 30, 2026, 10:00 a.m. KST | Webcast | PDF | 2Q26 Guidance Announcement | July 7, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 30, 2026, 10:00 a.m. KST",
+          "evidence": "May 6 ~ 7, 2026 | 1Q26 Earnings Conference Call | April 30, 2026, 10:00 a.m. KST | Webcast | PDF | 1Q26 Guidance Announcement | April 7, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 11, 2026",
+          "evidence": "March 18, 2026, 9:00 a.m. KST | UBS, APAC Tech Tour | March 11, 2026 | JP Morgan, Korea Conference | March 5, 2026 | Daiwa, Investment Conference | March 3 ~ 4, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 5, 2026",
+          "evidence": "March 11, 2026 | JP Morgan, Korea Conference | March 5, 2026 | Daiwa, Investment Conference | March 3 ~ 4, 2026 | Nomura, Tech Tour | February 10, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 29 ~ February 2, 2026",
+          "evidence": "February 3 ~ 4, 2026 | 4Q25 Domestic NDR | January 29 ~ February 2, 2026 | 4Q25 Earnings Conference Call | January 29, 2026, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 29, 2026, 10:00 a.m. KST",
+          "evidence": "January 29 ~ February 2, 2026 | 4Q25 Earnings Conference Call | January 29, 2026, 10:00 a.m. KST | Webcast | PDF | 4Q25 Guidance Announcement | January 8, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 30 ~ November 3, 2025",
+          "evidence": "November 3 ~ 6, 2025 | 3Q25 Domestic NDR | October 30 ~ November 3, 2025 | 3Q25 Earnings Conference Call | October 30, 2025, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 30, 2025, 10:00 a.m. KST",
+          "evidence": "October 30 ~ November 3, 2025 | 3Q25 Earnings Conference Call | October 30, 2025, 10:00 a.m. KST | Webcast | PDF | 3Q25 Guidance Announcement | October 14, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 5 ~ Aug 7, 2025",
+          "evidence": "Aug 18 ~ Aug 21, 2025 | 2Q25 Overseas NDR | Aug 5 ~ Aug 7, 2025 | 2Q25 Domestic NDR | Jul 31 ~ Aug 4, 2025 | 2Q25 Earnings Conference Call | July 31, 2025, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31 ~ Aug 4, 2025",
+          "evidence": "Aug 5 ~ Aug 7, 2025 | 2Q25 Domestic NDR | Jul 31 ~ Aug 4, 2025 | 2Q25 Earnings Conference Call | July 31, 2025, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31, 2025, 10:00 a.m. KST",
+          "evidence": "Jul 31 ~ Aug 4, 2025 | 2Q25 Earnings Conference Call | July 31, 2025, 10:00 a.m. KST | Webcast | PDF | 2Q25 Guidance Announcement | July 8, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 8 ~ May 13, 2025",
+          "evidence": "May 16, 2025 | 1Q25 Overseas NDR | May 8 ~ May 13, 2025 | 1Q25 Domestic NDR | Apr 30 ~ May 7, 2025 | 1Q25 Earnings Conference Call | April 30, 2025, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 30 ~ May 7, 2025",
+          "evidence": "May 8 ~ May 13, 2025 | 1Q25 Domestic NDR | Apr 30 ~ May 7, 2025 | 1Q25 Earnings Conference Call | April 30, 2025, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 30, 2025, 10:00 a.m. KST",
+          "evidence": "Apr 30 ~ May 7, 2025 | 1Q25 Earnings Conference Call | April 30, 2025, 10:00 a.m. KST | Webcast | PDF | 1Q25 Guidance Announcement | April 8, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Feb 4 - Feb 7, 2025",
+          "evidence": "Feb 11, 2025 | 4Q24 Overseas NDR | Feb 4 - Feb 7, 2025 | 4Q24 Domestic NDR | Jan 31 - Feb 4, 2025 | 4Q24 Earnings Conference Call | January 31, 2025, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 31 - Feb 4, 2025",
+          "evidence": "Feb 4 - Feb 7, 2025 | 4Q24 Domestic NDR | Jan 31 - Feb 4, 2025 | 4Q24 Earnings Conference Call | January 31, 2025, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31, 2025, 10:00 a.m. KST",
+          "evidence": "Jan 31 - Feb 4, 2025 | 4Q24 Earnings Conference Call | January 31, 2025, 10:00 a.m. KST | Webcast | PDF | 4Q24 Guidance Announcement | January 8, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Dec 4, 2024",
+          "evidence": "Dec 12, 2024​ | Jeffries, Tech Tour | Dec 4, 2024 | Yuanta Securities, 2025 Corp Day | Nov 28, 2024​ | BofA, Asia Internet & AI Conference | Nov 27, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Nov 28, 2024​",
+          "evidence": "Dec 4, 2024 | Yuanta Securities, 2025 Corp Day | Nov 28, 2024​ | BofA, Asia Internet & AI Conference | Nov 27, 2024​ | Morgan Stanley, Annual Asia Pacific Summit | Nov 20 ~ Nov 21, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Nov 27, 2024​",
+          "evidence": "Nov 28, 2024​ | BofA, Asia Internet & AI Conference | Nov 27, 2024​ | Morgan Stanley, Annual Asia Pacific Summit | Nov 20 ~ Nov 21, 2024​ | Citi, Korea Corporate Day | Nov 19, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Nov 12, 2024​",
+          "evidence": "Nov 11 ~ Nov 15, 2024​ | Korea Investment & Securities, Global Investors Conference 2024 | Nov 12, 2024​ | 3Q24 Domestic NDR | Oct 31 - Nov 4, 2024​ | 3Q24 Earnings Conference Call | October 31, 2024, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 31 - Nov 4, 2024​",
+          "evidence": "Nov 12, 2024​ | 3Q24 Domestic NDR | Oct 31 - Nov 4, 2024​ | 3Q24 Earnings Conference Call | October 31, 2024, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 31, 2024, 10:00 a.m. KST",
+          "evidence": "Oct 31 - Nov 4, 2024​ | 3Q24 Earnings Conference Call | October 31, 2024, 10:00 a.m. KST | Webcast | PDF | 3Q24 Guidance Announcement | October 8, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 5 - Aug 14, 2024​",
+          "evidence": "Aug 22, 2024​ | 2Q24 Overseas NDR | Aug 5 - Aug 14, 2024​ | 2Q24 Domestic NDR | Jul 31 - Aug 2, 2024​ | 2Q24 Earnings Conference Call | July 31, 2024, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31 - Aug 2, 2024​",
+          "evidence": "Aug 5 - Aug 14, 2024​ | 2Q24 Domestic NDR | Jul 31 - Aug 2, 2024​ | 2Q24 Earnings Conference Call | July 31, 2024, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31, 2024, 10:00 a.m. KST",
+          "evidence": "Jul 31 - Aug 2, 2024​ | 2Q24 Earnings Conference Call | July 31, 2024, 10:00 a.m. KST | Webcast | PDF | 2Q24 Guidance Announcement | July 5, 2024​",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 9, 2024",
+          "evidence": "May 22, 2024 | Samsung Securities, Global Investors Conference | May 9, 2024 | 1Q24 Domestic NDR | Apr 30 - May 2, 2024 | 1Q24 Earnings Conference Call | April 30, 2024, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 30 - May 2, 2024",
+          "evidence": "May 9, 2024 | 1Q24 Domestic NDR | Apr 30 - May 2, 2024 | 1Q24 Earnings Conference Call | April 30, 2024, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 30, 2024, 10:00 a.m. KST",
+          "evidence": "Apr 30 - May 2, 2024 | 1Q24 Earnings Conference Call | April 30, 2024, 10:00 a.m. KST | Webcast | PDF | 1Q24 Guidance Announcement | April 5, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 5 - February 16, 2024",
+          "evidence": "February 22, 2024 | 4Q23 Overseas NDR | February 5 - February 16, 2024 | 4Q23 Domestic NDR | January 31 - February 2, 2024 | 4Q23 Earnings Conference Call | January 31, 2024, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31 - February 2, 2024",
+          "evidence": "February 5 - February 16, 2024 | 4Q23 Domestic NDR | January 31 - February 2, 2024 | 4Q23 Earnings Conference Call | January 31, 2024, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31, 2024, 10:00 a.m. KST",
+          "evidence": "January 31 - February 2, 2024 | 4Q23 Earnings Conference Call | January 31, 2024, 10:00 a.m. KST | Webcast | PDF | 4Q23 Guidance Announcement | January 9, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 6 ~ November 7, 2023",
+          "evidence": "November 8 ~ November 10, 2023 | HSBC, Asia Investor Forum | November 6 ~ November 7, 2023 | 3Q23 Domestic NDR | October 31 ~ November 2, 2023 | 3Q23 Earnings Conference Call | October 31, 2023, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 31 ~ November 2, 2023",
+          "evidence": "November 6 ~ November 7, 2023 | 3Q23 Domestic NDR | October 31 ~ November 2, 2023 | 3Q23 Earnings Conference Call | October 31, 2023, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 31, 2023, 10:00 a.m. KST",
+          "evidence": "October 31 ~ November 2, 2023 | 3Q23 Earnings Conference Call | October 31, 2023, 10:00 a.m. KST | Webcast | PDF | UBS, Korea Summit 2023 | September 21, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31 - August 4, 2023",
+          "evidence": "August 22, 2023 | ESG Roadshow (Virtual) | July 31 - August 4, 2023 | 2Q23 Domestic, Overseas NDR | July 27 - August 4, 2023 | 2Q23 Earnings Conference Call | July 27, 2023, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 27 - August 4, 2023",
+          "evidence": "July 31 - August 4, 2023 | 2Q23 Domestic, Overseas NDR | July 27 - August 4, 2023 | 2Q23 Earnings Conference Call | July 27, 2023, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 27, 2023, 10:00 a.m. KST",
+          "evidence": "July 27 - August 4, 2023 | 2Q23 Earnings Conference Call | July 27, 2023, 10:00 a.m. KST | Webcast | PDF | 2Q23 Guidance Announcement | July 7, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 16, 2023",
+          "evidence": "May 18, 2023 | BofA, 2023 Korea & Global EV/EV Battery Conference | May 16, 2023 | 1Q23 Domestic NDR | April 27 - May 2, 2023 | 1Q23 Earnings Conference Call | April 27, 2023, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 27 - May 2, 2023",
+          "evidence": "May 16, 2023 | 1Q23 Domestic NDR | April 27 - May 2, 2023 | 1Q23 Earnings Conference Call | April 27, 2023, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 27, 2023, 10:00 a.m. KST",
+          "evidence": "April 27 - May 2, 2023 | 1Q23 Earnings Conference Call | April 27, 2023, 10:00 a.m. KST | Webcast | PDF | 1Q23 Guidance Announcement | April 7, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 15, 2023, 9:00 a.m. KST",
+          "evidence": "March 15 ~ March 17, 2023 | 54th Annual General Meeting | March 15, 2023, 9:00 a.m. KST | Citi, Korea Investors Conference | March 9, 2023 | Daiwa, Investment Conference Tokyo | March 2 - March 3, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 9, 2023",
+          "evidence": "March 15, 2023, 9:00 a.m. KST | Citi, Korea Investors Conference | March 9, 2023 | Daiwa, Investment Conference Tokyo | March 2 - March 3, 2023 | J.P. Morgan, Korea Conference | February 23 - 24, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 2 - March 3, 2023",
+          "evidence": "March 9, 2023 | Daiwa, Investment Conference Tokyo | March 2 - March 3, 2023 | J.P. Morgan, Korea Conference | February 23 - 24, 2023 | Goldman Sachs, Korea Conference (Virtual) | February 15, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 2 - February 10, 2023",
+          "evidence": "February 15, 2023 | 4Q22 Overseas NDR | February 2 - February 10, 2023 | 4Q22 Domestic NDR | January 31 - February 1, 2023 | 4Q22 Earnings Conference Call | January 31, 2023, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31 - February 1, 2023",
+          "evidence": "February 2 - February 10, 2023 | 4Q22 Domestic NDR | January 31 - February 1, 2023 | 4Q22 Earnings Conference Call | January 31, 2023, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31, 2023, 10:00 a.m. KST",
+          "evidence": "January 31 - February 1, 2023 | 4Q22 Earnings Conference Call | January 31, 2023, 10:00 a.m. KST | Webcast | PDF | 4Q22 Guidance Announcement | January 6, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 27, 2022, 10:00 a.m. KST",
+          "evidence": "October 27-28, 2022 | 3Q22 Earnings Conference Call | October 27, 2022, 10:00 a.m. KST | Webcast | PDF | 3Q22 Guidance Announcement | October 7, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 18, 2022",
+          "evidence": "August 23, 2022 | Samsung Securities, Samsung Global Investors Conference | August 18, 2022 | 2Q22 Domestic, Overseas NDR | July 28 ~ August 5, 2022 | 2Q22 Earnings Conference Call | July 28, 2022, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 28 ~ August 5, 2022",
+          "evidence": "August 18, 2022 | 2Q22 Domestic, Overseas NDR | July 28 ~ August 5, 2022 | 2Q22 Earnings Conference Call | July 28, 2022, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 28, 2022, 10:00 a.m. KST",
+          "evidence": "July 28 ~ August 5, 2022 | 2Q22 Earnings Conference Call | July 28, 2022, 10:00 a.m. KST | Webcast | PDF | 2Q22 Guidance Announcement | July 7, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "June 10, 2022",
+          "evidence": "June 23, 2022 | Nomura, Investment Forum Asia (Virtual) | June 10, 2022 | Citi, Tech Investor Conference | June 7-11, 2022 | Daiwa, Investment Conference | May 23-27, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 28, 2022, 10:00 a.m. KST",
+          "evidence": "April 28-29, 2022 | 1Q22 Earnings Conference Call | April 28, 2022, 10:00 a.m. KST | Webcast | PDF | 1Q22 Guidance Announcement | April 7, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 24, 2022",
+          "evidence": "March 30, 2022 | BofA, 2022 APAC TMT Conference (Virtual) | March 24, 2022 | The 53rd Annual General Meeting | March 16, 2022, 09:00a.m. KST | Daiwa, Investment Conference (Virtual) | March 8, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 16, 2022, 09:00a.m. KST",
+          "evidence": "March 24, 2022 | The 53rd Annual General Meeting | March 16, 2022, 09:00a.m. KST | Daiwa, Investment Conference (Virtual) | March 8, 2022 | Citi, Korea Investor Conference (Virtual) | March 3, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 8, 2022",
+          "evidence": "March 16, 2022, 09:00a.m. KST | Daiwa, Investment Conference (Virtual) | March 8, 2022 | Citi, Korea Investor Conference (Virtual) | March 3, 2022 | JP Morgan, Korea Conference (Virtual) | February 25, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 27, 2022, 10:00 a.m. KST",
+          "evidence": "January 27-28, 2022 | 4Q21 Earnings Conference Call | January 27, 2022, 10:00 a.m. KST | Webcast | PDF | 4Q21 Guidance Announcement | January 7, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 28, 2021, 10:00 a.m. KST",
+          "evidence": "October 28-29, 2021 | 3Q21 Earnings Conference Call | October 28, 2021, 10:00 a.m. KST | Webcast | PDF | 3Q21 Guidance Announcement | October 8, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 29, 2021, 10:00 a.m. KST",
+          "evidence": "July 29-30, 2021 | 2Q21 Earnings Conference Call | July 29, 2021, 10:00 a.m. KST | Webcast | PDF | 2Q21 Guidance Announcement | July 7, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 31 ~ June 4, 2021",
+          "evidence": "June 2-4, 2021 | Nomura, Investment Forum Asia (Virtual) | May 31 ~ June 4, 2021 | Korea Investment & Securities, Investors Conference (Virtual) | May 20~21, 2021 | Daiwa, Investment Conference (Virtual) | May 17~21, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 29, 2021, 10:00 a.m. KST",
+          "evidence": "April 29-30, 2021 | 1Q21 Earnings Conference Call | April 29, 2021, 10:00 a.m. KST | Webcast | PDF | Daiwa ESG Conference | April 15-16, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 17, 2021, 09:00a.m. KST",
+          "evidence": "March 18, 2021 | The 52nd Annual General Meeting | March 17, 2021, 09:00a.m. KST | KB Securities, Jefferies/KB Virtual Tech Trip (Virtual) | March 12, 2021 | Daiwa, Investment Conference (Virtual) | March 8, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 12, 2021",
+          "evidence": "March 17, 2021, 09:00a.m. KST | KB Securities, Jefferies/KB Virtual Tech Trip (Virtual) | March 12, 2021 | Daiwa, Investment Conference (Virtual) | March 8, 2021 | Citi, Korea Investor Conference (Virtual) | March 5, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 8, 2021",
+          "evidence": "March 12, 2021 | Daiwa, Investment Conference (Virtual) | March 8, 2021 | Citi, Korea Investor Conference (Virtual) | March 5, 2021 | Goldman Sachs, Korea Corp Day (Virtual) | February 26, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 28, 2021, 10:00 a.m. KST",
+          "evidence": "January 28-29, 2021 | 4Q20 Earnings Conference Call | January 28, 2021, 10:00 a.m. KST | Webcast | PDF | 4Q20 Guidance Announcement | January 8, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "December 8, 2020",
+          "evidence": "Expand | Hana, IT Corporate Day (Virtual) | December 8, 2020 | NH, ESG Corporate Day (Virtual) | December 8, 2020 | Daiwa, Investment Conference (Virtual) | December 1, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "December 8, 2020",
+          "evidence": "December 8, 2020 | NH, ESG Corporate Day (Virtual) | December 8, 2020 | Daiwa, Investment Conference (Virtual) | December 1, 2020 | Samsung Electronics' 2020 Investors Forum (Virtual) | November 30, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "December 1, 2020",
+          "evidence": "December 8, 2020 | Daiwa, Investment Conference (Virtual) | December 1, 2020 | Samsung Electronics' 2020 Investors Forum (Virtual) | November 30, 2020 | Webcast | Shinhan Securities, Super Corporate Day (Virtual)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 2, 2020",
+          "evidence": "November 3-6, 2020 | Goldman Sachs, Conference (Virtual) | November 2, 2020 | 3Q20 Domestic NDR (Virtual) | October 29-30, 2020 | 3Q20 Earnings Conference Call | October 29, 2020, 10:00 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 29, 2020, 10:00 a.m. KST",
+          "evidence": "October 29-30, 2020 | 3Q20 Earnings Conference Call | October 29, 2020, 10:00 a.m. KST | Webcast | PDF | 3Q20 Guidance Announcement | October 8, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 30 - August 3, 2020",
+          "evidence": "August 3-7, 2020 | 2Q20 Domestic NDR (Virtual) | July 30 - August 3, 2020 | 2Q20 Earnings Conference Call | July 30, 2020, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 30, 2020, 10:00 a.m. KST",
+          "evidence": "July 30 - August 3, 2020 | 2Q20 Earnings Conference Call | July 30, 2020, 10:00 a.m. KST | Webcast | PDF | 2Q20 Guidance Announcement | July 7, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 29 - May 7, 2020",
+          "evidence": "Seoul | 1Q20 Domestic NDR (Virtual) | April 29 - May 7, 2020 | 1Q20 Earnings Conference Call | April 29, 2020, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 29, 2020, 10:00 a.m. KST",
+          "evidence": "April 29 - May 7, 2020 | 1Q20 Earnings Conference Call | April 29, 2020, 10:00 a.m. KST | Webcast | PDF | 1Q20 Guidance Announcement | April 7, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 19, 2020",
+          "evidence": "April 7, 2020 | Merrill Lynch Tech Conference | March 19, 2020 | Seoul | 4Q19 Domestic, Overseas NDR | January 30-February 7, 2020 | 4Q19 Earnings Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 30-February 7, 2020",
+          "evidence": "Seoul | 4Q19 Domestic, Overseas NDR | January 30-February 7, 2020 | 4Q19 Earnings Conference Call | January 30, 2020, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 30, 2020, 10:00 a.m. KST",
+          "evidence": "January 30-February 7, 2020 | 4Q19 Earnings Conference Call | January 30, 2020, 10:00 a.m. KST | Webcast | PDF | 4Q19 Guidance Announcement | January 8, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 5, 2019",
+          "evidence": "New York/Boston | Samsung securities Corporate Day | November 5, 2019 | Seoul | 3Q19 Domestic NDR | October 31-November 4, 2019 | 3Q19 Earnings Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 31-November 4, 2019",
+          "evidence": "Seoul | 3Q19 Domestic NDR | October 31-November 4, 2019 | 3Q19 Earnings Conference Call | October 31, 2019, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 31, 2019, 10:00 a.m. KST",
+          "evidence": "October 31-November 4, 2019 | 3Q19 Earnings Conference Call | October 31, 2019, 10:00 a.m. KST | Webcast | PDF | 3Q19 Guidance Announcement | October 8, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31 - August 9, 2019",
+          "evidence": "Singapore/Hong Kong | 2Q19 Domestic, Overseas NDR | July 31 - August 9, 2019 | 2Q19 Earnings Conference Call | July 31, 2019, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31, 2019, 10:00 a.m. KST",
+          "evidence": "July 31 - August 9, 2019 | 2Q19 Earnings Conference Call | July 31, 2019, 10:00 a.m. KST | Webcast | PDF | 2Q19 Guidance Announcement | July 5, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 30-May 2, 2019",
+          "evidence": "Seoul | 1Q19 Domestic NDR | April 30-May 2, 2019 | 1Q19 Earnings Conference Call | April 30, 2019, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 30, 2019, 10:00 a.m. KST",
+          "evidence": "April 30-May 2, 2019 | 1Q19 Earnings Conference Call | April 30, 2019, 10:00 a.m. KST | Webcast | PDF | 1Q19 Guidance Announcement | April 5, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 7, 2019",
+          "evidence": "Reference Material | Citi, Korea Conference | March 7, 2019 | Seoul | Daiwa, Tokyo Conference | March 4-5, 2019 | Tokyo",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 21, 2019",
+          "evidence": "Tokyo | JP Morgan Korea Conference | February 21, 2019 | Seoul | 4Q18 Domestic, Overseas NDR | January 31-February 15, 2019 | 4Q18 Earnings Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31-February 15, 2019",
+          "evidence": "Seoul | 4Q18 Domestic, Overseas NDR | January 31-February 15, 2019 | 4Q18 Earnings Conference Call | January 31, 2019, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31, 2019, 10:00 a.m. KST",
+          "evidence": "January 31-February 15, 2019 | 4Q18 Earnings Conference Call | January 31, 2019, 10:00 a.m. KST | Webcast | PDF | 4Q18 Guidance Announcement | January 8, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 27, 2018",
+          "evidence": "Seoul | Daishin Tech Conference | November 27, 2018 | Seoul | Shinhan Corporate Day | November 19, 2018 | Seoul",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 31-November 2, 2018",
+          "evidence": "New York/Boston | 3Q18 Domestic NDR | October 31-November 2, 2018 | 3Q18 Earnings Conference Call | October 31, 2018, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 31, 2018, 10:00 a.m. KST",
+          "evidence": "October 31-November 2, 2018 | 3Q18 Earnings Conference Call | October 31, 2018, 10:00 a.m. KST | Webcast | PDF | 3Q18 Guidance Announcement | October 5, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31-August 10, 2018",
+          "evidence": "Singapore/Hong Kong | 2Q18 Domestic, Overseas NDR | July 31-August 10, 2018 | 2Q18 Earnings Conference Call | July 31, 2018, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31, 2018, 10:00 a.m. KST",
+          "evidence": "July 31-August 10, 2018 | 2Q18 Earnings Conference Call | July 31, 2018, 10:00 a.m. KST | Webcast | PDF | 2Q18 Guidance Announcement | July 6, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 26, 2018, 10:00 a.m. KST",
+          "evidence": "April 26-30, 2018 | 1Q18 Earnings Conference Call | April 26, 2018, 10:00 a.m. KST | Webcast | PDF | 1Q18 Guidance Announcement | April 6, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31-February 9, 2018",
+          "evidence": ") | 4Q17 Domestic, Overseas NDR | January 31-February 9, 2018 | 4Q17 Earnings Conference Call | January 31, 2018, 10:00 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 31, 2018, 10:00 a.m. KST",
+          "evidence": "January 31-February 9, 2018 | 4Q17 Earnings Conference Call | January 31, 2018, 10:00 a.m. KST | Webcast | PDF | 4Q17 Guidance Announcement | January 9, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 31, 2017, 10:00 a.m. KST",
+          "evidence": "New York/Boston | 3Q17 Earnings Conference Call | October 31, 2017, 10:00 a.m. KST | Webcast | PDF | 3Q17 Guidance Announcement | October 13",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 27, 2017, 10:00 a.m. KST",
+          "evidence": "Singapore/Hong Kong | 2Q FY2017 Earnings Conference Call | July 27, 2017, 10:00 a.m. KST | Webcast | PDF | 2Q17 Guidance Announcement | July 7",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 22, 2017",
+          "evidence": "Hong Kong | Samsung Electronics' 2017 Investors Forum | May 22, 2017 | Hong Kong | Webcast | Daiwa London Conference | May 22-24, 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 4, 2017",
+          "evidence": "Seoul | Maybank Annual Asia Leaders Conference | May 4, 2017 | London | 1Q17 Earnings Conference Call | April 27, 2017, 10:00 a.m. KST | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 27, 2017, 10:00 a.m. KST",
+          "evidence": "London | 1Q17 Earnings Conference Call | April 27, 2017, 10:00 a.m. KST | Webcast | PDF | 1Q17 Guidance Announcement | April 7, 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 24, 2017, 9:30 a.m. KST",
+          "evidence": "Seoul | 4Q16 Earnings Conference Call | January 24, 2017, 9:30 a.m. KST | Webcast | PDF | 4Q16 Guidance Announcement | January 6, 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 27, 2016, 9:30 a.m. KST",
+          "evidence": "New York/Boston | 3Q16 Earnings Conference Call | October 27, 2016, 9:30 a.m. KST | Webcast | PDF | Announces Earnings Guidance for 3rd Quarter 2016 | October 7, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 7, 2016",
+          "evidence": "PDF | Announces Earnings Guidance for 3rd Quarter 2016 | October 7, 2016 | 23rd CLSA Investors' Forum | September 19-23, 2016 | Hong Kong | Merrill Lynch 2016 Korea Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 29-September 2, 2016",
+          "evidence": "Korea Exchange, Seoul | Samsung Securities, Samsung Group Asia Conference | August 29-September 2, 2016 | Hong Kong/Singapore | 2Q16 Earnings Conference Call | July 28, 2016, 9:30 a.m. KST | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 28, 2016, 9:30 a.m. KST",
+          "evidence": "Hong Kong/Singapore | 2Q16 Earnings Conference Call | July 28, 2016, 9:30 a.m. KST | Webcast | PDF | 2Q16 Guidance Announcement | July 7, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 28, 2016, 9:30 a.m. KST",
+          "evidence": "Hong Kong | 1Q16 Earnings Conference Call | April 28, 2016, 9:30 a.m. KST | Webcast | PDF | 1Q16 Guidance Announcement | April 7, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 28, 2016, 9:30 a.m. KST",
+          "evidence": "Conrad Hotel, Seoul | 4Q15 Earnings Conference Call | January 28, 2016, 9:30 a.m. KST | Webcast | PDF | 4Q15 Guidance Announcement | January 8, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 16, 2015, 13:20 p.m. SST",
+          "evidence": "Expand | Samsung Electronics 2015 Investors Forum | November 16, 2015, 13:20 p.m. SST | Singapore, Ritz Carlton Hotel | Webcast | 3Q FY2015 Earnings Conference Call | October 29, 2015, 9:30 a.m. KST",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 29, 2015, 9:30 a.m. KST",
+          "evidence": "Webcast | 3Q FY2015 Earnings Conference Call | October 29, 2015, 9:30 a.m. KST | Webcast | PDF | Announces Earnings Guidance for 3rd Quarter 2015 | October 7, 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 7, 2015",
+          "evidence": "PDF | Announces Earnings Guidance for 3rd Quarter 2015 | October 7, 2015 | 2Q FY2015 Earnings Conference Call | July 30, 2015, 9:30 a.m. KST | Webcast | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 30, 2015, 9:30 a.m. KST",
+          "evidence": "October 7, 2015 | 2Q FY2015 Earnings Conference Call | July 30, 2015, 9:30 a.m. KST | Webcast | PDF | Announces Earnings Guidance for 2nd Quarter 2015 | July 7, 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 7, 2015",
+          "evidence": "PDF | Announces Earnings Guidance for 2nd Quarter 2015 | July 7, 2015 | Samsung Investors Forum 2015 | Yeong Bin Gwan, The Shilla Hotel, Seoul | Webcast | 1Q FY2015 Earnings Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 29, 2015",
+          "evidence": "Webcast | 1Q FY2015 Earnings Conference Call | April 29, 2015 | Webcast | PDF | Announces Earnings Guidance for 1st Quarter 2015 | April 7, 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 7, 2015",
+          "evidence": "PDF | Announces Earnings Guidance for 1st Quarter 2015 | April 7, 2015 | The 46th Annual General Meeting of Shareholders | March 13, 2015, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg. | 4Q FY2014 Earnings Conference Call",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 13, 2015, 9:00 a.m. KST",
+          "evidence": "April 7, 2015 | The 46th Annual General Meeting of Shareholders | March 13, 2015, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg. | 4Q FY2014 Earnings Conference Call | January 29, 2015 | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 29, 2015",
+          "evidence": "Multifunctional Hall (5F), Samsung Electronics Bldg. | 4Q FY2014 Earnings Conference Call | January 29, 2015 | Webcast | PDF | Announces Earnings Guidance for 4th Quarter 2014 | January 8, 2015",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 8, 2015",
+          "evidence": "PDF | Announces Earnings Guidance for 4th Quarter 2014 | January 8, 2015 | Nomura CES Conference 2015 | January 5-7, 2015 | Las Vegas | 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 4, 2014",
+          "evidence": "Seoul | Samsung Securities, Corporate Day | November 4, 2014 | Seoul | 3Q FY2014 Earnings Conference Call | October 30, 2014 | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 30, 2014",
+          "evidence": "Seoul | 3Q FY2014 Earnings Conference Call | October 30, 2014 | Webcast | PDF | Announces Earnings Guidance for 3rd Quarter 2014 | October 7, 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 7, 2014",
+          "evidence": "PDF | Announces Earnings Guidance for 3rd Quarter 2014 | October 7, 2014 | CLSA, Investors' Forum | September 15-17, 2014 | Hong Kong | Bank of America Merrill Lynch, Korea Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 31, 2014",
+          "evidence": "Seoul | 2Q FY2014 Earnings Conference Call | July 31, 2014 | Webcast | PDF | Announces Earnings Guidance for 2nd Quarter 2014 | July 8, 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 8, 2014",
+          "evidence": "PDF | Announces Earnings Guidance for 2nd Quarter 2014 | July 8, 2014 | UBS, Korea Conference | June 23-24, 2014 | Seoul | Goldman Sachs, Korea Corporate Day",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 9, 2014",
+          "evidence": "Seoul | HanaDaetoo Securities, Corporate Day | May 9, 2014 | Seoul | 1Q FY2014 Earnings Conference Call | April 29, 2014 | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 29, 2014",
+          "evidence": "Seoul | 1Q FY2014 Earnings Conference Call | April 29, 2014 | Webcast | PDF | Announces Earnings Guidance for 1st Quarter 2014 | April 8, 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 8, 2014",
+          "evidence": "PDF | Announces Earnings Guidance for 1st Quarter 2014 | April 8, 2014 | Credit Suisse, Asian Investment Conference | March 24-26, 2014 | Hong Kong | KDB Daewoo Securities, Corporate Day",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "February 21, 2014",
+          "evidence": "Seoul | JP Morgan, Korea CEO Conference | February 21, 2014 | Seoul | 4Q FY2013 Earnings Conference Call | January 24, 2014 | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 24, 2014",
+          "evidence": "Seoul | 4Q FY2013 Earnings Conference Call | January 24, 2014 | Webcast | PDF | Announces Earnings Guidance for 4th Quarter 2013 | January 7, 2014",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 7, 2014",
+          "evidence": "PDF | Announces Earnings Guidance for 4th Quarter 2013 | January 7, 2014 | 2014 CES | January 6-8, 2014 | Las Vegas | 2013",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 29, 2013",
+          "evidence": "PDF | Samsung Securities, Corporate Day | October 29, 2013 | Seoul | 3Q FY2013 Earnings Conference Call | October 25, 2013 | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 25, 2013",
+          "evidence": "Seoul | 3Q FY2013 Earnings Conference Call | October 25, 2013 | Webcast | PDF | Announces Earnings Guidance for 3rd Quarter 2013 | October 4, 2013",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 4, 2013",
+          "evidence": "PDF | Announces Earnings Guidance for 3rd Quarter 2013 | October 4, 2013 | CLSA, Investors' Forum | September 23-25, 2013 | Hong Kong | Bank of America Merrill Lynch, Korea Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 26, 2013",
+          "evidence": "London/New York | 2Q FY2013 Earnings Conference Call (Simultaneous translation provided) | July 26, 2013 | Webcast | PDF | Announces Earnings Guidance for 2nd Quarter 2013 | July 5, 2013",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 5, 2013",
+          "evidence": "PDF | Announces Earnings Guidance for 2nd Quarter 2013 | July 5, 2013 | UBS, Korea Conference 2013 | June 24-25, 2013 | Seoul | HanaDaetoo Securities, Corporate Day",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 26, 2013",
+          "evidence": "Seoul | 1Q FY2013 Earnings Conference Call (Simultaneous translation provided) | April 26, 2013 | Webcast | PDF | Announces Earnings Guidance for 1st Quarter 2013 | April 5, 2013",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 5, 2013",
+          "evidence": "PDF | Announces Earnings Guidance for 1st Quarter 2013 | April 5, 2013 | KDB Daewoo, Corporate Day | March 26-27, 2013 | Seoul | Credit Suisse, Asian Investment Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 25, 2013",
+          "evidence": "Seoul | 4Q FY2012 Earnings Conference Call | January 25, 2013 | Webcast | PDF | Announces Earnings Guidance for 4th Quarter 2012 | January 8, 2013",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 8, 2013",
+          "evidence": "PDF | Announces Earnings Guidance for 4th Quarter 2012 | January 8, 2013 | 2013 CES | January 8-9, 2013 | Las Vegas | 2012",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 26, 2012",
+          "evidence": "London | 3Q FY2012 Earnings Conference Call | October 26, 2012 | Webcast | PDF | Announces Earnings Guidance for Third Quarter 2012 | October 5, 2012",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 5, 2012",
+          "evidence": "PDF | Announces Earnings Guidance for Third Quarter 2012 | October 5, 2012 | CLSA, Investors' Forum 2012 | September 10-13, 2012 | Hong Kong | Credit Suisse, Asian Technology Conference 2012",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "August 31, 2012",
+          "evidence": "Seoul | Samsung Securities, Samsung Group Conference 2012 | August 31, 2012 | Singapore | 2Q FY2012 Earnings Conference Call | July 27, 2012 | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 27, 2012",
+          "evidence": "Singapore | 2Q FY2012 Earnings Conference Call | July 27, 2012 | Webcast | PDF | Announces Earnings Guidance for Second Quarter 2012 | July 6, 2012",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 6, 2012",
+          "evidence": "PDF | Announces Earnings Guidance for Second Quarter 2012 | July 6, 2012 | UBS, Korea Conference 2012 | June 28-29, 2012 | Seoul | BNP Paribas, Asia Pacific TMT Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 3, 2012",
+          "evidence": "Seoul | Hyundai Securities, HYUNDAI K-Tops Conference | May 3, 2012 | Seoul | Korea Investment & Securities, KIS Investors Forum | May 3-4, 2012 | Boston/New York",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 27, 2012",
+          "evidence": "Boston/New York | 1Q FY2012 Earnings Conference Call | April 27, 2012 | Webcast | PDF | Announces Earnings Guidance for First Quarter 2012 | April 6, 2012",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 6, 2012",
+          "evidence": "PDF | Announces Earnings Guidance for First Quarter 2012 | April 6, 2012 | KDB Daewoo, Korea Conference 2012 | March 26-27, 2012 | Seoul | The 43rd Annual General Shareholders' Meeting",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 27, 2012",
+          "evidence": "Seoul | 4Q FY2011 Earnings Conference Call | January 27, 2012 | Webcast | PDF | 2012 CES | January 9-12, 2012",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 6, 2012",
+          "evidence": "Las Vegas | Announces Earnings Guidance for Fourth Quarter 2011 | January 6, 2012 | 2011 | Expand | KB Investment & Securities, 2012 Top-Picks Corporate Day | December 14, 2011",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 28, 2011",
+          "evidence": "London / Boston / New York | 3Q FY2011 Earnings Conference Call | October 28, 2011 | Webcast | PDF | Announces Earnings Guidance for Third Quarter 2011 | October 7, 2011",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 7, 2011",
+          "evidence": "PDF | Announces Earnings Guidance for Third Quarter 2011 | October 7, 2011 | CLSA, Investors' Forum | September 19-22, 2011 | Hong Kong | BoA Merrill Lynch, Korea Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 29, 2011",
+          "evidence": "Seoul | 2Q FY2011 Earnings Conference Call | July 29, 2011 | Webcast | PDF | Announces Earnings Guidance for Second Quarter 2011 | July 7, 2011",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 7, 2011",
+          "evidence": "PDF | Announces Earnings Guidance for Second Quarter 2011 | July 7, 2011 | UBS, Korea Conferene 2011 | June 27-28, 2011 | Seoul | J.P. Morgan, Asia Pacific Conference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 29, 2011",
+          "evidence": "Seoul | 1Q FY2011 Earnings Conference Call | April 29, 2011 | Webcast | PDF | Credit Suisse, Asian Investment Conference | March 23-25, 2011",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 28, 2011",
+          "evidence": "Seoul | 4Q FY2010 Earnings Conference Call | January 28, 2011 | Webcast | PDF | 2010 | Expand",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 8, 2010",
+          "evidence": "Singapore | JP Morgan, Asia Technology Conference | November 8, 2010 | Hong Kong | 3Q FY2010 Earnings Conference Call | October 29, 2010 | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 29, 2010",
+          "evidence": "Hong Kong | 3Q FY2010 Earnings Conference Call | October 29, 2010 | Webcast | PDF | CLSA, Investors' Forum | September 13-16, 2010",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 30, 2009",
+          "evidence": "Seoul | 2Q FY2010 Earnings Conference Call | July 30, 2009 | Webcast | PDF | J.P.Morgan, Asia Pacific Equity Conference | June 28-30, 2010",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 30, 2010",
+          "evidence": "London / New York | 1Q FY2010 Earnings Conference Call | April 30, 2010 | Webcast | PDF | Credit Suisse, Asian Investment Conference | March 24-26, 2010",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "March 19, 2010, 9:00 a.m. KST",
+          "evidence": "Hong Kong | The 41th Annual General Shareholders' Meeting | March 19, 2010, 9:00 a.m. KST | Multifunctional Hall (5F), Samsung Electronics Bldg. | Merrill Lynch, Taiwan Tech and Beyond Conference | March 16-17, 2010 | Taipei",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 29, 2010",
+          "evidence": "New York | 4Q FY2009 Earnings Conference Call | January 29, 2010 | Webcast | PDF | 2009 | Expand",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 30-December 2, 2009",
+          "evidence": "Seoul | Nomura, Investment Forum | November 30-December 2, 2009 | Tokyo | 3Q FY2009 Earnings Conference Call | October 30, 2009 | Webcast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "October 30, 2009",
+          "evidence": "Tokyo | 3Q FY2009 Earnings Conference Call | October 30, 2009 | Webcast | PDF | Korea Investment & Securities, Investors Forum | September 17-18, 2009",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 24, 2009, 10:00 a.m. KST",
+          "evidence": "Seoul (Hotel Shilla) | 2Q FY2009 Earnings Conference Call | July 24, 2009, 10:00 a.m. KST | 2Q FY2009 Earnings Release | July 24, 2009, 16:30 p.m. KST | Woori Art Hall (4th floor), Woori Investment & Securities building | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "July 24, 2009, 16:30 p.m. KST",
+          "evidence": "July 24, 2009, 10:00 a.m. KST | 2Q FY2009 Earnings Release | July 24, 2009, 16:30 p.m. KST | Woori Art Hall (4th floor), Woori Investment & Securities building | PDF | Hyundai Securities, Asia Corporate Day | June 11-12, 2009",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 24, 2009, 10:00 a.m. KST",
+          "evidence": "Seoul | 1Q FY2009 Earnings Conference Call | April 24, 2009, 10:00 a.m. KST | 1Q FY2009 Earnings Release | April 24 2009, 16:30 p.m. KST | Woori Art Hall (4th floor), Woori Investment & Securities building | PDF",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "April 24 2009, 16:30 p.m. KST",
+          "evidence": "April 24, 2009, 10:00 a.m. KST | 1Q FY2009 Earnings Release | April 24 2009, 16:30 p.m. KST | Woori Art Hall (4th floor), Woori Investment & Securities building | PDF | Credit Suisse, Asian Investment Conference | March 24-27, 2009",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "January 23, 2009, 10:00 a.m. KST",
+          "evidence": "Seoul | 4Q FY2008 Earnings Conference Call | January 23, 2009, 10:00 a.m. KST | 4Q FY2008 Earnings Release | January 23 , 2009, 16:00 p.m. KST | International Conference Hall (1st floor), Korea Exchange | PDF",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }
@@ -1191,6 +2239,7 @@
         "000660.KS"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
@@ -1199,15 +2248,534 @@
         "MU"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
-      "url": "https://corp.mediatek.com/investor-relations",
+      "url": "https://www.mediatek.com/investor-relations/ir-events",
       "companies": [
         "2454.TW"
       ],
-      "status": "connection_failed",
-      "candidates": []
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Jul 31, 2026",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - July 2026 | Jul 31, 2026 | 03:00 PM | - 04:00 PM (GMT +8) | 2Q26 Results – Investors Conference / Language: English | Jul 31, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31, 2026",
+          "evidence": "- 04:00 PM (GMT +8) | 2Q26 Results – Investors Conference / Language: English | Jul 31, 2026 | 12:00 AM | - 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 10, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 30, 2026",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2026 | Apr 30, 2026 | 03:00 PM | - 04:00 PM (GMT +8) | 1Q26 Results – Investors Conference / Language: English | Apr 10, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 10, 2026",
+          "evidence": "- 04:00 PM (GMT +8) | 1Q26 Results – Investors Conference / Language: English | Apr 10, 2026 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - March 2026 | Mar 31, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Feb 4, 2026",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2026 | Feb 4, 2026 | 03:00 PM | - 04:00 PM (GMT +8) | 4Q25 Results – Investors Conference / Language: English | Jan 30, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 30, 2026",
+          "evidence": "- 04:00 PM (GMT +8) | 4Q25 Results – Investors Conference / Language: English | Jan 30, 2026 | 12:00 AM | - 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jan 9, 2026",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 31, 2025",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2025 | Oct 31, 2025 | 03:00 PM | - 04:00 PM (GMT +8) | 3Q25 Results – Investors Conference / Language: English | Oct 9, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 9, 2025",
+          "evidence": "- 04:00 PM (GMT +8) | 3Q25 Results – Investors Conference / Language: English | Oct 9, 2025 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2025 | Sep 10, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 30, 2025",
+          "evidence": "- 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 30, 2025 | 03:00 PM | - 04:00 PM (GMT +8) | 2Q25 Results – Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 10, 2025",
+          "evidence": "2Q25 Results – Investors Conference / Language: English | Teleconference | Jul 10, 2025 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - June 2025 | Jul 3, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 30, 2025",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2025 | Apr 30, 2025 | 03:00 PM | - 04:00 PM (GMT +8) | 1Q25 Results – Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 10, 2025",
+          "evidence": "1Q25 Results – Investors Conference / Language: English | Teleconference | Apr 10, 2025 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - March 2025 | Mar 10, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Feb 7, 2025",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2025 | Feb 7, 2025 | 03:00 PM | - 04:00 PM (GMT +8) | 4Q24 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 24, 2025",
+          "evidence": "4Q24 Results - Investors Conference / Language: English | Teleconference | Jan 24, 2025 | 12:00 AM | - 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jan 10, 2025",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 30, 2024",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2024 | Oct 30, 2024 | 03:00 PM | - 04:00 PM (GMT +8) | 3Q24 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 9, 2024",
+          "evidence": "3Q24 Results - Investors Conference / Language: English | Teleconference | Oct 9, 2024 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2024 | Sep 10, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31, 2024",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - July 2024 | Jul 31, 2024 | 03:00 PM | - 04:00 PM (GMT +8) | 2Q24 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31, 2024",
+          "evidence": "2Q24 Results - Investors Conference / Language: English | Teleconference | Jul 31, 2024 | 12:00 AM | - 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 10, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 26, 2024",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2024 | Apr 26, 2024 | 03:00 PM | - 04:00 PM (GMT +8) | 1Q24 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 10, 2024",
+          "evidence": "1Q24 Results - Investors Conference / Language: English | Teleconference | Apr 10, 2024 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - March 2024 | Mar 8, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 31, 2024",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2024 | Jan 31, 2024 | 03:00 PM | - 04:00 PM (GMT +8) | 4Q23 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 31, 2024",
+          "evidence": "4Q23 Results - Investors Conference / Language: English | Teleconference | Jan 31, 2024 | 12:00 AM | - 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jan 10, 2024",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 27, 2023",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2023 | Oct 27, 2023 | 03:00 PM | - 04:00 PM (GMT +8) | 3Q23 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 11, 2023",
+          "evidence": "3Q23 Results - Investors Conference / Language: English | Teleconference | Oct 11, 2023 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2023 | Sep 8, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 28, 2023",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - July 2023 | Jul 28, 2023 | 03:00 PM | - 04:00 PM (GMT +8) | 2Q23 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 20, 2023",
+          "evidence": "2Q23 Results - Investors Conference / Language: English | Teleconference | Jul 20, 2023 | 12:00 AM | - 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 10, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 28, 2023",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2023 | Apr 28, 2023 | 03:00 PM | - 04:00 PM (GMT +8) | 1Q23 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 10, 2023",
+          "evidence": "1Q23 Results - Investors Conference / Language: English | Teleconference | Apr 10, 2023 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - March 2023 | Apr 2, 2023",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Feb 3, 2023",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2023 | Feb 3, 2023 | 03:00 PM | - 04:00 PM (GMT +8) | 4Q22 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 10, 2023",
+          "evidence": "4Q22 Results - Investors Conference / Language: English | Teleconference | Jan 10, 2023 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - December 2022 | Dec 9, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 28, 2022",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2022 | Oct 28, 2022 | 03:00 PM | - 04:00 PM (GMT +8) | 3Q22 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 11, 2022",
+          "evidence": "3Q22 Results - Investors Conference / Language: English | Teleconference | Oct 11, 2022 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2022 | Sep 8, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 29, 2022",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - July 2022 | Jul 29, 2022 | 03:00 PM | - 04:00 PM (GMT +8) | 2Q22 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 21, 2022",
+          "evidence": "2Q22 Results - Investors Conference / Language: English | Teleconference | Jul 21, 2022 | 12:00 AM | - 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 8, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 27, 2022",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2022 | Apr 27, 2022 | 03:00 PM | - 04:00 PM (GMT +8) | 1Q22 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 11, 2022",
+          "evidence": "1Q22 Results - Investors Conference / Language: English | Teleconference | Apr 11, 2022 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - March 2022 | Apr 2, 2022",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 27, 2022",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2022 | Jan 27, 2022 | 03:00 PM | - 04:00 PM (GMT +8) | 4Q21 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 10, 2022",
+          "evidence": "4Q21 Results - Investors Conference / Language: English | Teleconference | Jan 10, 2022 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - December 2021 | Dec 10, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 26, 2021",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2021 | Oct 26, 2021 | 03:00 PM | - 04:00 PM (GMT +8) | 3Q21 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 8, 2021",
+          "evidence": "3Q21 Results - Investors Conference / Language: English | Teleconference | Oct 8, 2021 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2021 | Sep 10, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 27, 2021",
+          "evidence": "- 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 27, 2021 | 03:00 PM | - 04:00 PM (GMT +8) | 2Q21 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 9, 2021",
+          "evidence": "2Q21 Results - Investors Conference / Language: English | Teleconference | Jul 9, 2021 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - June 2021 | Jul 6, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 28, 2021",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2021 | Apr 28, 2021 | 03:00 PM | - 04:00 PM (GMT +8) | 1Q21 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 12, 2021",
+          "evidence": "1Q21 Results - Investors Conference / Language: English | Teleconference | Apr 12, 2021 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - March 2021 | Apr 12, 2021",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 27, 2021",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2021 | Jan 27, 2021 | 04:00 PM | - 05:00 PM (GMT +8) | 4Q20 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 11, 2021",
+          "evidence": "4Q20 Results - Investors Conference / Language: English | Teleconference | Jan 11, 2021 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - December 2020 | Dec 10, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 30, 2020",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2020 | Oct 30, 2020 | 04:00 PM | - 05:00 PM (GMT +8) | 3Q20 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 8, 2020",
+          "evidence": "3Q20 Results - Investors Conference / Language: English | Teleconference | Oct 8, 2020 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2020 | Sep 10, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31, 2020",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - July 2020 | Jul 31, 2020 | 04:00 PM | - 05:00 PM (GMT +8) | 2Q20 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 10, 2020",
+          "evidence": "2Q20 Results - Investors Conference / Language: English | Teleconference | Jul 10, 2020 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - June 2020 | Jun 10, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 28, 2020",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2020 | Apr 28, 2020 | 04:00 PM | - 05:00 PM (GMT +8) | 1Q20 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 10, 2020",
+          "evidence": "1Q20 Results - Investors Conference / Language: English | Teleconference | Apr 10, 2020 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - March 2020 | Mar 10, 2020",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Feb 7, 2020",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2020 | Feb 7, 2020 | 04:00 PM | - 05:00 PM (GMT +8) | 4Q19 Results - Investors Conference / Language: English | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 10, 2020",
+          "evidence": "4Q19 Results - Investors Conference / Language: English | Teleconference | Jan 10, 2020 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - December 2019 | Dec 10, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 30, 2019",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2019 | Oct 30, 2019 | 05:30 PM | - 06:30 PM (GMT +8) | 3Q19 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 9, 2019",
+          "evidence": "3Q19 Results - Investors Conference | Teleconference | Oct 9, 2019 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2019 | Sep 10, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31, 2019",
+          "evidence": "- 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 31, 2019 | 05:30 PM | - 06:30 PM (GMT +8) | 2Q19 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 10, 2019",
+          "evidence": "2Q19 Results - Investors Conference | Teleconference | Jul 10, 2019 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - June 2019 | Jul 8, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 30, 2019",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2019 | Apr 30, 2019 | 05:30 PM | - 06:30 PM (GMT +8) | 1Q19 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 16, 2019",
+          "evidence": "1Q19 Results - Investors Conference | Teleconference | Apr 16, 2019 | 12:00 AM | - 12:00 AM (GMT +8) | Shareholders・ Meeting Registration Deadline | Apr 10, 2019",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 30, 2019",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2019 | Jan 30, 2019 | 05:30 PM | - 06:30 PM (GMT +8) | 4Q18 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 10, 2019",
+          "evidence": "4Q18 Results - Investors Conference | Teleconference | Jan 10, 2019 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - December 2018 | Dec 10, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 31, 2018",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2018 | Oct 31, 2018 | 05:30 PM | - 06:30 PM (GMT +8) | 3Q18 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 9, 2018",
+          "evidence": "3Q18 Results - Investors Conference | Teleconference | Oct 9, 2018 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2018 | Sep 10, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31, 2018",
+          "evidence": "- 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 31, 2018 | 05:30 PM | - 06:30 PM (GMT +8) | 2Q18 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 10, 2018",
+          "evidence": "2Q18 Results - Investors Conference | Teleconference | Jul 10, 2018 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - June 2018 | Jul 9, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 27, 2018",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2018 | Apr 27, 2018 | 05:30 PM | - 06:30 PM (GMT +8) | 1Q18 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 17, 2018",
+          "evidence": "1Q18 Results - Investors Conference | Teleconference | Apr 17, 2018 | 12:00 AM | - 12:00 AM (GMT +8) | Shareholders・ Meeting Registration Deadline | Apr 10, 2018",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 31, 2018",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2018 | Jan 31, 2018 | 05:30 PM | - 06:30 PM (GMT +8) | 4Q17 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 8, 2018",
+          "evidence": "4Q17 Results - Investors Conference | Teleconference | Jan 8, 2018 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - December 2017 | Dec 7, 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 31, 2017",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - October 2017 | Oct 31, 2017 | 05:30 PM | - 06:30 PM (GMT +8) | 3Q17 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 6, 2017",
+          "evidence": "3Q17 Results - Investors Conference | Teleconference | Oct 6, 2017 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - September 2017 | Sep 7, 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 31, 2017",
+          "evidence": "- 12:00 AM (GMT +8) | Cash Dividend Payable Date | Jul 31, 2017 | 04:00 PM | - 05:00 PM (GMT +8) | 2Q17 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 7, 2017",
+          "evidence": "2Q17 Results - Investors Conference | Teleconference | Jul 7, 2017 | 05:00 PM | - 07:00 PM (GMT +8) | Monthly Sales - June 2017 | Jul 6, 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 28, 2017",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - April 2017 | Apr 28, 2017 | 04:00 PM | - 05:00 PM (GMT +8) | 1Q17 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 17, 2017",
+          "evidence": "1Q17 Results - Investors Conference | Teleconference | Apr 17, 2017 | 12:00 AM | - 12:00 AM (GMT +8) | Shareholders・ Meeting Registration Deadline | Apr 10, 2017",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 26, 2017",
+          "evidence": "- 06:00 PM (GMT +8) | Monthly Sales - January 2017 | Jan 26, 2017 | 04:00 PM | - 05:00 PM (GMT +8) | 4Q16 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 9, 2017",
+          "evidence": "4Q16 Results - Investors Conference | Teleconference | Jan 9, 2017 | 05:00 PM | - 06:00 PM (GMT +8) | Monthly Sales - December 2016 | Dec 7, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 28, 2016",
+          "evidence": "- 12:00 AM (GMT +8) | Monthly Sales - October 2016 | Oct 28, 2016 | 02:00 PM | - 05:00 PM (GMT +8) | 3Q16 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 7, 2016",
+          "evidence": "3Q16 Results - Investors Conference | Teleconference | Oct 7, 2016 | 12:00 AM | - 12:00 AM (GMT +8) | Monthly Sales - September 2016 | Sep 7, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Aug 3, 2016",
+          "evidence": "- 12:00 AM (GMT +8) | Monthly Sales - July 2016 | Aug 3, 2016 | 12:00 AM | - 12:00 AM (GMT +8) | 2Q16 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jul 15, 2016",
+          "evidence": "2Q16 Results - Investors Conference | Teleconference | Jul 15, 2016 | 12:00 AM | - 12:00 AM (GMT +8) | Ex-Dividend Date | Jul 7, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 29, 2016",
+          "evidence": "- 12:00 AM (GMT +8) | Monthly Sales - April 2016 | Apr 29, 2016 | 12:00 AM | - 12:00 AM (GMT +8) | 1Q16 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Apr 26, 2016",
+          "evidence": "1Q16 Results - Investors Conference | Teleconference | Apr 26, 2016 | 12:00 AM | - 12:00 AM (GMT +8) | Shareholders・ Meeting Registration Deadline | Apr 8, 2016",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Feb 1, 2016",
+          "evidence": "- 12:00 AM (GMT +8) | Monthly Sales - January 2016 | Feb 1, 2016 | 12:00 AM | - 12:00 AM (GMT +8) | 4Q15 Results - Investors Conference | Teleconference",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 8, 2016",
+          "evidence": "4Q15 Results - Investors Conference | Teleconference | Jan 8, 2016 | 12:00 AM | - 12:00 AM (GMT +8) | Monthly Sales - December 2015 | Products",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     },
     {
       "url": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
@@ -1215,23 +2783,52 @@
         "AMZN"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
-      "url": "https://abc.xyz/investor/",
+      "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
       "companies": [
         "GOOGL"
       ],
       "status": "retrieved",
-      "candidates": []
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "October 6, 2026",
+          "evidence": "View All News | Alphabet Announces Date of Third Quarter 2026 Financial Results Conference Call | October 6, 2026 | MOUNTAIN VIEW, Calif. (October 6, 2026) – Alphabet Inc. (NASDAQ: GOOG, GOOGL) will hold its quarterly conference call to discuss third quarter 2026 financial results on Wednesday, October 28, at 1:30pm Pacific Time (4:30pm Eastern Time). | The live webcast of the earnings conference call can be accessed | here | . A replay of the webcast will be available through the same link following the conference call. Please visit the Investor Relations website at",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "MOUNTAIN VIEW, Calif. (October 6, 2026) – Alphabet Inc. (NASDAQ: GOOG, GOOGL) will hold its quarterly conference call to discuss third quarter 2026 financial results on Wednesday, October 28, at 1:30pm Pacific Time (4:30pm Eastern Time).",
+          "evidence": "Alphabet Announces Date of Third Quarter 2026 Financial Results Conference Call | October 6, 2026 | MOUNTAIN VIEW, Calif. (October 6, 2026) – Alphabet Inc. (NASDAQ: GOOG, GOOGL) will hold its quarterly conference call to discuss third quarter 2026 financial results on Wednesday, October 28, at 1:30pm Pacific Time (4:30pm Eastern Time). | The live webcast of the earnings conference call can be accessed | here | . A replay of the webcast will be available through the same link following the conference call. Please visit the Investor Relations website at | abc.xyz/investor",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "on October 28, 2026 to view the earnings release before the conference call.",
+          "evidence": ". A replay of the webcast will be available through the same link following the conference call. Please visit the Investor Relations website at | abc.xyz/investor | on October 28, 2026 to view the earnings release before the conference call. | About Alphabet Inc. | Alphabet is a collection of companies, the largest of which is Google. Larry Page and Sergey Brin founded Google in September 1998 and the company is headquartered in Mountain View, Calif. Billions of people use its wide range of popular products and platforms each day, like Search, Ads, Chrome, Cloud, YouTube and Android. | Contact | Investor Relations:",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     },
     {
-      "url": "https://investor.atmeta.com/investor-events/default.aspx",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
       "companies": [
         "META"
       ],
       "status": "retrieved",
-      "candidates": []
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Oct. 12, 2026",
+          "evidence": "MENLO PARK, Calif. | , | Oct. 12, 2026 | /PRNewswire/ -- Meta Platforms, Inc. (NASDAQ: META) announced today that the company's third quarter 2026 financial results will be released after market close on Wednesday, October 21st, 2026. | Meta will host a conference call to discuss its results at 1:30 p.m. PT / 4:30 p.m. ET the same day. The live webcast of the call can be accessed at the Meta Investor Relations website at | investor.atmeta.com | , along with the company's earnings press release, financial tables, and slide presentation.",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     },
     {
       "url": "https://www.anthropic.com/news",
@@ -1239,18 +2836,353 @@
         "ANTHROPIC"
       ],
       "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
-      "url": "https://www.nvidia.com/gtc/",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
       "companies": [
         "NVDA"
       ],
-      "status": "connection_failed",
-      "candidates": []
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-18",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "NVIDIA issued Q2 2027 earnings on August 26, 2026, reporting an EPS of",
+          "evidence": "Short Interest | NVIDIA Earnings Summary | NVIDIA issued Q2 2027 earnings on August 26, 2026, reporting an EPS of | $2.22 | , which beat analysts' consensus estimates of | $2.09 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "NVIDIA's next earnings date is estimated for Wednesday, November 18, 2026, based on past reporting schedules.",
+          "evidence": "SEC Filing | NVDA Upcoming Earnings | NVIDIA's next earnings date is estimated for Wednesday, November 18, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get NVIDIA Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     },
     {
-      "url": "https://www.opencompute.org/summit/global-summit",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
+      "companies": [
+        "AVGO"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-09",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Broadcom announced Q3 2026 earnings on September 2, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Broadcom Earnings Summary | Broadcom announced Q3 2026 earnings on September 2, 2026, reporting an EPS of | $3.32 | , which topped the consensus estimate of | $3.22 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Broadcom's next earnings date is estimated for Wednesday, December 9, 2026, based on past reporting schedules.",
+          "evidence": "Quarterly Report (10-Q) | AVGO Upcoming Earnings | Broadcom's next earnings date is estimated for Wednesday, December 9, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Broadcom Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/earnings/",
+      "companies": [
+        "MRVL"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-01",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Marvell Technology posted Q2 2027 earnings on August 27, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Marvell Technology Earnings Summary | Marvell Technology posted Q2 2027 earnings on August 27, 2026, reporting an EPS of | $0.94 | , which topped the consensus estimate of | $0.93 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Marvell Technology's next earnings date is estimated for Tuesday, December 1, 2026, based on past reporting schedules.",
+          "evidence": "SEC Filing | MRVL Upcoming Earnings | Marvell Technology's next earnings date is estimated for Tuesday, December 1, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Marvell Technology Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/ORCL/earnings/",
+      "companies": [
+        "ORCL"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-14",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/ORCL/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Oracle released Q1 2027 earnings on September 10, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Oracle Earnings Summary | Oracle released Q1 2027 earnings on September 10, 2026, reporting an EPS of | $1.92 | , which topped the consensus estimate of | $1.74 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oracle's next earnings date is estimated for Monday, December 14, 2026, based on past reporting schedules.",
+          "evidence": "Quarterly Report (10-Q) | ORCL Upcoming Earnings | Oracle's next earnings date is estimated for Monday, December 14, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Oracle Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
+      "companies": [
+        "CRM"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-02",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Salesforce released Q2 2027 earnings on August 26, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Salesforce Earnings Summary | Salesforce released Q2 2027 earnings on August 26, 2026, reporting an EPS of | $5.90 | , which topped analysts' consensus estimates of | $3.27 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Salesforce's next earnings date is estimated for Wednesday, December 2, 2026, based on past reporting schedules.",
+          "evidence": "Quarterly Report (10-Q) | CRM Upcoming Earnings | Salesforce's next earnings date is estimated for Wednesday, December 2, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Salesforce Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ADBE/earnings/",
+      "companies": [
+        "ADBE"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-09",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/ADBE/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Adobe issued Q3 2026 earnings on September 10, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Adobe Earnings Summary | Adobe issued Q3 2026 earnings on September 10, 2026, reporting an EPS of | $6.13 | , which topped analysts' consensus estimates of | $6.08 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Adobe's next earnings date is estimated for Wednesday, December 9, 2026, based on past reporting schedules.",
+          "evidence": "Quarterly Report (10-Q) | ADBE Upcoming Earnings | Adobe's next earnings date is estimated for Wednesday, December 9, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Adobe Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/WDAY/earnings/",
+      "companies": [
+        "WDAY"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-24",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/WDAY/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Workday announced Q2 2027 earnings on August 27, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Workday Earnings Summary | Workday announced Q2 2027 earnings on August 27, 2026, reporting an EPS of | $2.75 | , which topped the consensus estimate of | $2.61 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Workday's next earnings date is estimated for Tuesday, November 24, 2026, based on past reporting schedules.",
+          "evidence": "Quarterly Report (10-Q) | WDAY Upcoming Earnings | Workday's next earnings date is estimated for Tuesday, November 24, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Workday Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+      "companies": [
+        "MU"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-23",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Micron Technology announced Q4 2026 earnings on September 30, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Micron Technology Earnings Summary | Micron Technology announced Q4 2026 earnings on September 30, 2026, reporting an EPS of | $33.42 | , which topped the consensus estimate of | $31.77 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Micron Technology's next earnings date is estimated for Wednesday, December 23, 2026, based on past reporting schedules.",
+          "evidence": "Annual Report (10-K) | MU Upcoming Earnings | Micron Technology's next earnings date is estimated for Wednesday, December 23, 2026, based on past reporting schedules. | Slide Deck | Full Screen Slide Deck | Powered by | Get Micron Technology Earnings Alerts",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+      "companies": [
+        "AMZN"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-10-29",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Amazon.com announced Q2 2026 earnings on July 30, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Amazon.com Earnings Summary | Amazon.com announced Q2 2026 earnings on July 30, 2026, reporting an EPS of | $5.75 | , which beat analysts' consensus estimates of | $1.82 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Amazon.com's Q3 2026 earnings is estimated for Thursday, October 29, 2026, based on past reporting schedules, with a conference call scheduled at 5:00 PM ET. Check back for transcripts, audio, and key financial metrics as they become available.",
+          "evidence": "Quarterly Report (10-Q) | AMZN Upcoming Earnings | Amazon.com's Q3 2026 earnings is estimated for Thursday, October 29, 2026, based on past reporting schedules, with a conference call scheduled at 5:00 PM ET. Check back for transcripts, audio, and key financial metrics as they become available. | Q3 2026 Earnings Report | Slide Deck | Full Screen Slide Deck | Powered by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.tipranks.com/news/company-announcements/sk-hynix-sets-october-28-conference-call-for-q3-2026-earnings",
+      "companies": [
+        "000660.KS"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "The conference call will be held on October 28, 2026, at 9:00 a.m. Seoul time and will be accessible via real-time webcast in both Korean and English through the company’s investor relations website. Earnings presentation materials and an archived au",
+          "evidence": ") just unveiled an announcement. | SK hynix Inc. has scheduled a conference call to present its third-quarter 2026 earnings results, underscoring the company’s continued emphasis on transparent communication with capital markets. The call, which will include a Q&A session for investors and press, reflects how closely the memory-chip maker’s performance is tracked as a barometer for global semiconductor demand. | The conference call will be held on October 28, 2026, at 9:00 a.m. Seoul time and will be accessible via real-time webcast in both Korean and English through the company’s investor relations website. Earnings presentation materials and an archived audio stream will also be made available online the same day, facilitating broader access for stakeholders monitoring SK hynix’s operational and financial trajectory. | Promotion | Two ETFs for long or short leverage on SKHY | The most recent analyst rating on | (SKHY)",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://markets.ft.markitdigital.com/data/equities/tearsheet/forecasts?s=2454:TAI",
+      "companies": [
+        "2454.TW"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-10-29",
+        "sourceUrl": "https://markets.ft.markitdigital.com/data/equities/tearsheet/forecasts?s=2454:TAI",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "On Jul 31, 2026,",
+          "evidence": "More ▼ | Earnings history & estimates in TWD | On Jul 31, 2026, | MediaTek Inc | reported 2nd quarter 2026 earnings of 15.25 per share. This result exceeded the 14.34 consensus of the 18 analysts covering the company and under-performed last year's 2nd quarter results by 12.71%. | The next earnings announcement is expected on Oct 29, 2026. | Average growth rate",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "The next earnings announcement is expected on Oct 29, 2026.",
+          "evidence": "MediaTek Inc | reported 2nd quarter 2026 earnings of 15.25 per share. This result exceeded the 14.34 consensus of the 18 analysts covering the company and under-performed last year's 2nd quarter results by 12.71%. | The next earnings announcement is expected on Oct 29, 2026. | Average growth rate | -3.12% | MediaTek Inc | reported annual 2025 earnings of 66.03 per share on Feb 27, 2026.",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "reported annual 2025 earnings of 66.03 per share on Feb 27, 2026.",
+          "evidence": "-3.12% | MediaTek Inc | reported annual 2025 earnings of 66.03 per share on Feb 27, 2026. | Average growth rate | +1.96% | More ▼ | Revenue history & estimates in TWD",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.tipranks.com/stocks/asml/earnings",
+      "companies": [
+        "ASML"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Jan 27, 2027",
+          "evidence": "Analyze Earnings | Report Date | Jan 27, 2027 | Before Open (Confirmed) | Period Ending | 2026 (Q4) | Consensus EPS Forecast",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "ASML Holding's next earnings date is estimated for January 27, 2027, based on past reporting schedules.",
+          "evidence": "Slide Deck | ASML Upcoming Earnings | ASML Holding's next earnings date is estimated for January 27, 2027, based on past reporting schedules. | Slide Deck | Full Screen | ASML Earnings History | Report Date",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jan 28, 2026",
+          "evidence": "$1477.41 | -2.41% | Jan 28, 2026 | $1448.66 | $1417.12 | -2.18% | Earnings announcements can affect a stock’s price. This table shows the stock's price the day before and the day after recent earnings reports, including the percentage change.",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "ASML Holding (ASML) is schdueled to report earning on Jan 27, 2027, Before Open (Confirmed).",
+          "evidence": "FAQ | When does ASML Holding (ASML) report earnings? | ASML Holding (ASML) is schdueled to report earning on Jan 27, 2027, Before Open (Confirmed). | What is ASML Holding (ASML) earnings time? | ASML Holding (ASML) earnings time is at Jan 27, 2027, Before Open (Confirmed). | Where can I see when companies are reporting earnings? | You can see which companies are reporting today on our designated",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "ASML Holding (ASML) earnings time is at Jan 27, 2027, Before Open (Confirmed).",
+          "evidence": "ASML Holding (ASML) is schdueled to report earning on Jan 27, 2027, Before Open (Confirmed). | What is ASML Holding (ASML) earnings time? | ASML Holding (ASML) earnings time is at Jan 27, 2027, Before Open (Confirmed). | Where can I see when companies are reporting earnings? | You can see which companies are reporting today on our designated | earnings calendar | .",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.microchip.com/en-us/about/events-info/ocp-global-summit",
       "companies": [
         "META",
         "MSFT",
@@ -1258,7 +3190,33 @@
         "AVGO",
         "MRVL"
       ],
-      "status": "http_404",
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "October 1, 2026",
+          "evidence": "Anthropic Reportedly Sends Investors IPO Invitations Ahead Of Potential Thanksgiving Debut | Shashank Nayar | October 1, 2026 | 3 min read | SPCX | Trade SPCX on Coinbase | Trading disclosure",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.nvidia.com/gtc/",
+      "companies": [
+        "NVDA"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
@@ -1266,24 +3224,281 @@
       "companies": [
         "AMZN"
       ],
-      "status": "connection_failed",
+      "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
-      "url": "https://ignite.microsoft.com/",
+      "url": "https://ignite.microsoft.com/en-US/get-help",
       "companies": [
         "MSFT"
       ],
-      "status": "connection_failed",
+      "status": "retrieved",
+      "publishedEstimate": null,
       "candidates": []
     },
     {
-      "url": "https://investor.marvell.com/events-and-presentations",
+      "url": "https://www.nvidia.com/en-eu/gtc/",
+      "companies": [
+        "NVDA"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
+      "url": "https://www.nvidia.com/gtc/dc/",
+      "companies": [
+        "NVDA"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "AI Conference - NVIDIA GTC Washington, D.C. | Nov 30–Dec 3, 2026",
+          "evidence": "AI Conference - NVIDIA GTC Washington, D.C. | Nov 30–Dec 3, 2026 | AI Conference & Expo | Dec. 1–3, 2026 | | | Keynote",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "November 30–December 3, 2026",
+          "evidence": "Privacy Policy | All GTC Events | November 30–December 3, 2026 | NVIDIA GTC Washington, D.C. | Join us to explore how AI is accelerating | American economic growth and | scientific discovery.",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/nvda/",
+      "companies": [
+        "NVDA"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-18",
+        "sourceUrl": "https://stockanalysis.com/stocks/nvda/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Nov 18, 2026",
+          "evidence": "328.72 (+48.54%) | Est. Earnings | Nov 18, 2026 | About NVDA | NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs fo... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/mrvl/",
       "companies": [
         "MRVL"
       ],
-      "status": "http_404",
-      "candidates": []
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-01",
+        "sourceUrl": "https://stockanalysis.com/stocks/mrvl/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Dec 1, 2026",
+          "evidence": "339.36 (+38.36%) | Est. Earnings | Dec 1, 2026 | About MRVL | Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and ... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 27, 2000",
+          "evidence": "Technology | IPO Date | Jun 27, 2000 | Employees | 7,480 | Stock Exchange | Nasdaq",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/crm/",
+      "companies": [
+        "CRM"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-12-02",
+        "sourceUrl": "https://stockanalysis.com/stocks/crm/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Dec 2, 2026",
+          "evidence": "285.68 (+21.08%) | Est. Earnings | Dec 2, 2026 | About CRM | Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Servi... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Jun 23, 2004",
+          "evidence": "Technology | IPO Date | Jun 23, 2004 | Employees | 83,334 | Stock Exchange | NYSE",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/wday/",
+      "companies": [
+        "WDAY"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-24",
+        "sourceUrl": "https://stockanalysis.com/stocks/wday/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Nov 24, 2026",
+          "evidence": "208.10 (+10.24%) | Est. Earnings | Nov 24, 2026 | About WDAY | Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, and management insights; perform financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides spend management solutions that help organizations to strea... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Oct 12, 2012",
+          "evidence": "Technology | IPO Date | Oct 12, 2012 | Employees | 21,000 | Stock Exchange | Nasdaq",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Workday has posted slides in relation to its FY 2026 quarterly earnings report, which was published on October 13, 2026.",
+          "evidence": "1 day ago - Transcripts | Workday Slides: FY 2026 | Workday has posted slides in relation to its FY 2026 quarterly earnings report, which was published on October 13, 2026. | 1 day ago - Filings | Accenture, Workday announced joint forward-deployed engineering program | The company states: “Accenture (ACN), in collaboration with Workday (WDAY) announced a joint forward deployed engineering – FDE – program to help organizations reinvent how work gets done in the… | Other symbols:",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/amzn/",
+      "companies": [
+        "AMZN"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-10-29",
+        "sourceUrl": "https://stockanalysis.com/stocks/amzn/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Oct 29, 2026",
+          "evidence": "331.46 (+30.46%) | Est. Earnings | Oct 29, 2026 | About AMZN | Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and ... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://events-delivery.apple.com/15pijbsdfvpiqhb10/js_files/event/url.json",
+      "companies": [
+        "AAPL"
+      ],
+      "status": "retrieved",
+      "format": "json",
+      "candidates": [
+        {
+          "dateText": "November 2, 2026",
+          "evidence": "Q4 2026 | November 2, 2026 | 2:00 p.m. PT / 5:00 p.m. ET",
+          "status": "needs_review",
+          "warning": "Official structured metadata; verify event type and whether this is a call time."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/quote/krx/000660/",
+      "companies": [
+        "000660.KS"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Oct 28, 2026",
+          "evidence": "3,141,024.76 (+148.89%) | Earnings Date | Oct 28, 2026 | About SK hynix | SK hynix Inc. through its subsidiaries, engages in research, develops, manufactures, distributes, and sells semiconductor devices in Korea, China, rest of Asia, the United States, Europe, and internationally. It offers DRAM, such as server memory, graphics memory, mobile memory, PC memory, consumer memory; NAND flash memory; SSD; and MCP products. It also engages in foundry business, produces non-memory semiconductors. The company serves its products for server, networking, mobile, personal computer, consumer, and automotive applications. The c... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://en.quartalszahlen.info/companies/2454",
+      "companies": [
+        "2454.TW"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Friday, October 23, 2026",
+          "evidence": "MediaTek is a leading Taiwanese company that develops innovative semiconductor solutions. As a specialized manufacturer of System-on-Chip (SoC) solutions, MediaTek provides chips for smartphones, smart TVs, IoT devices, and other smart technologies. The company focuses on advanced connectivity and multimedia technologies to enable powerful digital experiences. | Next Quarterly Earnings | Friday, October 23, 2026 | CW 43 | Pre-Market | In 8 days | Pre-market — typically early morning before trading starts (around 7–8 a.m. CET).",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "MediaTek (ticker 2454) reported its Q2 2026 financial results before the market open on July 31, 2026. The company reported an EPS of 15.28 TWD, beating the analyst estimate of 14.28 TWD by 7.0%. Revenue for the quarter reached 152183 million TWD. Fo",
+          "evidence": "Privacy Policy | Recap: the latest results | MediaTek (ticker 2454) reported its Q2 2026 financial results before the market open on July 31, 2026. The company reported an EPS of 15.28 TWD, beating the analyst estimate of 14.28 TWD by 7.0%. Revenue for the quarter reached 152183 million TWD. Following the release, the stock price reacted with an increase of 9.89%. | Generated automatically from our data — as of 08/12/2026 | Read the article → | Frequently asked questions | When will MediaTek report its next quarterly earnings?",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://marketchameleon.com/Overview/ASML/Earnings/Earnings-Dates/",
+      "companies": [
+        "ASML"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following it",
+          "evidence": "ASML last | reported | earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has not drifted away. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates).",
+          "evidence": "earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has not drifted away. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature | Login | |",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://financefeeds.com/anthropics-14-october-investor-day-nears-but-its-s-1-still-isnt-public-the-ipo-timeline-explained/",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": [
+        {
+          "dateText": "Wednesday, October 14, 2026",
+          "evidence": "Anthropic IPO: Oct 14 Investor Day, S-1 Still Not Public | Skip to content | Wednesday, October 14, 2026 | Facebook-f | Youtube | Linkedin-in | Rss",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Anthropic officially announced on June 1, 2026, that it had confidentially submitted a draft Form S-1 registration statement to the US Securities and Exchange Commission.",
+          "evidence": "US securities rules permit qualifying test-the-waters discussions with institutional investors before a registration statement becomes public. Consequently, the October 14 event would not necessarily trigger the disclosure deadline that applies to a formal roadshow. | Anthropic’s Confidential S-1 Was Submitted on June 1 | Anthropic officially announced on June 1, 2026, that it had confidentially submitted a draft Form S-1 registration statement to the US Securities and Exchange Commission. | The company said the submission would allow it to pursue an IPO following SEC review, subject to market conditions and other considerations. Neither the number of shares to be offered nor the proposed offering price had been determined. | As of October 11, a publicly accessible Anthropic S-1 could not be located in the available EDGAR records, 132 days after the original confidential submission. | That does not mean regulators have stopped reviewing the filing. Confidential submissions allow companies to address SEC comments without immediately disclosing their financial statements and risk factors to the public. | However, it leaves prospective retail investors without the complete registration statement needed to evaluate the business on the same documentary basis as institutional participants.",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
     }
   ]
 }

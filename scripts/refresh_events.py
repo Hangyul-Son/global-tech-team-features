@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
-"""Check official sources and stage event evidence for maintainer review.
+"""Check public company and calendar sources and stage event evidence for maintainer review.
 
 Never treats a news publication date as a confirmed event date. Never modifies
 reviewed events automatically. No dependencies or licensed feed credentials.
 """
 import argparse
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 MONTH = r'(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)'
@@ -54,6 +55,35 @@ def extract_candidates(html):
                                'warning': 'May be a publication date, past event, or fiscal period. Verify the actual event date before approval.'})
     return candidates
 
+def extract_published_estimate(html, url, as_of=None):
+    """Read explicitly labeled provider estimates; never infer a date or confirmation."""
+    parser = PageText()
+    parser.feed(html)
+    text = ' '.join(parser.parts)
+    host = urlsplit(url).hostname
+    match = None
+    if host == 'www.marketbeat.com':
+        match = re.search(r"(?:next earnings date is estimated for|estimated earnings date is)\s+(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+(" + MONTH + r"\.?\s+\d{1,2}(?:st|nd|rd|th)?,?\s+20\d{2})", text, re.I)
+    elif host == 'stockanalysis.com':
+        match = re.search(r'Est\. Earnings\s+(' + MONTH + r'\.?\s+\d{1,2},?\s+20\d{2})', text, re.I)
+    elif host == 'markets.ft.markitdigital.com':
+        match = re.search(r'next earnings announcement is expected on\s+(' + MONTH + r'\.?\s+\d{1,2},?\s+20\d{2})', text, re.I)
+    if not match:
+        return None
+    value = re.sub(r'(\d)(?:st|nd|rd|th)\b', r'\1', match.group(1), flags=re.I).replace(',', '').replace('.', '')
+    parsed = None
+    for fmt in ['%B %d %Y', '%b %d %Y']:
+        try:
+            parsed = datetime.strptime(value, fmt).date()
+            break
+        except ValueError:
+            pass
+    if not parsed or parsed < (as_of or date.today()):
+        return None
+    return {'date': parsed.isoformat(), 'sourceUrl': url,
+            'status': 'estimated', 'reviewStatus': 'needs_review',
+            'basis': 'Explicitly published provider estimate; not a company confirmation.'}
+
 def check_source(item):
     url, names = item
     try:
@@ -62,10 +92,21 @@ def check_source(item):
             html = response.read(5_000_001)
             if len(html) > 5_000_000:
                 return {'url': url, 'companies': names, 'status': 'too_large', 'candidates': []}
-            if 'html' not in response.headers.get('Content-Type', '').lower():
-                return {'url': url, 'companies': names, 'status': 'unsupported_format', 'candidates': []}
+            content_type = response.headers.get('Content-Type', '').lower()
             text = html.decode(response.headers.get_content_charset() or 'utf-8', errors='replace')
-        return {'url': url, 'companies': names, 'status': 'retrieved', 'candidates': extract_candidates(text)}
+            if 'json' in content_type:
+                try:
+                    payload = json.loads(text)
+                except ValueError:
+                    return {'url': url, 'companies': names, 'status': 'invalid_json', 'candidates': []}
+                event = payload.get('eventInfo', {}) if isinstance(payload, dict) else {}
+                candidates = []
+                if event.get('date'):
+                    candidates.append({'dateText': event['date'], 'evidence': ' | '.join(str(event.get(k,'')) for k in ['name','date','time']), 'status': 'needs_review', 'warning': 'Official structured metadata; verify event type and whether this is a call time.'})
+                return {'url': url, 'companies': names, 'status': 'retrieved', 'format': 'json', 'candidates': candidates}
+            if 'html' not in content_type:
+                return {'url': url, 'companies': names, 'status': 'unsupported_format', 'candidates': []}
+        return {'url': url, 'companies': names, 'status': 'retrieved', 'publishedEstimate': extract_published_estimate(text, url), 'candidates': extract_candidates(text)}
     except HTTPError as error:
         return {'url': url, 'companies': names, 'status': f'http_{error.code}', 'candidates': []}
     except (URLError, TimeoutError, OSError):
@@ -81,19 +122,25 @@ def run(output, workers=4):
             ids = sources.setdefault(event['sourceUrl'], [])
             if name not in ids:
                 ids.append(name)
+    for event in data['events']:
+        for evidence in event.get('sources', []):
+            ids = sources.setdefault(evidence['url'], [])
+            for ticker in event['companies']:
+                if ticker not in ids:
+                    ids.append(ticker)
     with ThreadPoolExecutor(max_workers=workers) as pool:
         results = list(pool.map(check_source, sources.items()))
     success = sum(r['status'] == 'retrieved' for r in results)
     report = {'checkedAt': datetime.now(timezone.utc).isoformat(),
               'successfulSources': success, 'totalSources': len(results),
-              'note': 'Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged.',
+              'note': 'Published estimates are staged separately and remain unconfirmed. Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged.',
               'sources': results}
     output.parent.mkdir(parents=True, exist_ok=True)
     temp = output.with_suffix('.tmp')
     temp.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     temp.replace(output)
     count = sum(len(r['candidates']) for r in results)
-    print(f'{success}/{len(results)} official sources retrieved; {count} evidence candidates staged in {output}.')
+    print(f'{success}/{len(results)} public sources retrieved; {count} evidence candidates staged in {output}.')
     print('No event dates were automatically confirmed or changed. Review evidence in Codex.')
     return 0 if success else 1
 

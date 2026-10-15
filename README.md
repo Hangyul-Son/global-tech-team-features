@@ -37,27 +37,36 @@ The wider universe includes ASML, Lam Research, Samsung, SK hynix, Micron, Media
 
 ## Data integrity and maintenance through Codex
 
-`data/events.json` is the sole reviewed event store. Public visitors cannot modify it. Ask Codex to add, update or delete events in that file, then validate and deploy the change.
+`data/events.json` is the reviewed event store. Public visitors cannot modify it. Ask Codex to add, update or delete events, then validate and deploy the change.
 
-- **confirmed**: explicit event date, an official source, a review timestamp and evidence in `basis`. Never infer the event date from a news article's publication date or a fiscal quarter-end. Preserve source timezone labels and distinguish a release from an earnings call.
-- **estimated**: a month-level, unverified editorial planning assumption based on customary reporting cadence, not a Bloomberg/Refinitiv consensus estimate. `window` is `YYYY-MM`; `date`, `time` and `verifiedAt` are null. An adjacent reporting month is possible. Estimates appear below the calendar, never on a fabricated day.
-- **unannounced**: an undated monitoring target, not a scheduled event. Both `date` and `window` are null. An IPO watch is not a prediction of a listing date.
+- **confirmed**: a date checked against an official company announcement, event organizer page or participant schedule. The record includes source links, a check timestamp and evidence in `basis`. Release times and conference-call times are distinguished.
+- **estimated**: an actual day-level estimate published by a named public provider, not our own reporting-month assumption. Sources include MarketBeat, Stock Analysis and FT Markets (whose page credits LSEG). A checked estimate is still unconfirmed; `sourceCheckedAt` is populated, but `verifiedAt` is null. Do not infer a precise release time from an estimated calendar date.
+- **reported**: an attributable media-reported date when primary confirmation was not verified. This includes Anthropic’s October 14 investor day, reported by Bloomberg and read through Yahoo Finance/Stocktwits. `verifiedAt` is null. A scheduled past date does not independently prove attendance.
+- **unannounced**: an undated monitoring target. A potential IPO listing remains undated until a sourced listing date is available. Do not confuse an investor day or proposed marketing week with a listing date.
 
-`date` and optional `endDate` use `YYYY-MM-DD` in the source's event calendar timezone. `time` is human-readable with the source timezone. The UI does not convert an unknown release time to the visitor's timezone. The “today” indicator uses Hong Kong time. Confirmed entries more than 14 days past verification display a recheck label; confirmation is not a guarantee that a schedule has not changed.
+Every dated entry includes `sourceCheckedAt`, `sourceUrl`, `sourceLabel`, a `sources` array and a rationale. `dateConflict`, when present, exposes discrepancies in the event brief. Official company announcements override older provider estimates. Examples found in this review include official ServiceNow after-close timing versus a vendor's before-open label; an AMD timezone label requiring verification; MediaTek calendars disagreeing; and ASML provider confirmation flags disagreeing.
 
-### Check official pages
+All 12 coverage companies have a sourced day-level next earnings date as of October 15, 2026. Unsourced January–March reporting-month placeholders were removed. Do not fill future quarters by extrapolating cadence. Check a public provider or company announcement first.
+
+Dates and optional `endDate` use `YYYY-MM-DD` in the published event calendar. Full conference ranges and separately scheduled keynotes are distinct events. Times include their source timezone; the client does not invent UTC conversions. The today indicator uses Hong Kong time. Past scheduled dates stay in their historical month and display “Past date”; they cannot appear in the undated radar. The October 14 ASML results, October 14 Anthropic investor day, October 12–15 OCP edition and October 6 Marvell investor day are dated entries. Future GTC editions, CEO keynotes, Ignite and re:Invent use published schedules.
+
+Dates checked more than 14 days ago display a recheck label. Check timestamps prove a source review, not a guarantee that the schedule cannot change. “Dates to verify” counts estimates and media-reported dates.
+
+### Check public sources
 
 ```sh
 python3 scripts/refresh_events.py
 ```
 
-This dependency-free command checks the official sources listed in the dataset with TLS verification enabled, at most four concurrent requests and 20-second timeouts. It writes `data/source-checks.json`, including per-source retrieval status and nearby event/date text for review. It returns nonzero if no sources are retrieved. A partial run is explicitly partial. HTTP 200 does not prove a JavaScript calendar was rendered; zero candidates does not prove there are no events.
+This dependency-free command checks company pages, official event metadata and cited provider calendars with TLS verification, at most four concurrent requests and 20-second timeouts. It writes `data/source-checks.json` with retrieval results, candidate evidence and explicitly published estimates in `publishedEstimate`.
 
-The command **does not automatically publish or confirm events**. Review candidates in Codex; open the official source, establish the actual event date and timezone, and update the reviewed event record. Replace the matching estimated earnings window, rather than adding a duplicate. Only set `verifiedAt` for events actually reviewed. Update `lastSuccessfulRefresh` and `verificationNote` to describe the reviewed scope; a source-check run alone must not update that field.
+The provider parser only accepts explicitly labeled next earnings estimates from supported providers. It rejects unlabeled historic earnings dates and dates already in the past. Company dates must still be checked against primary announcements: a provider can retain an estimate label after a company has announced its date. JSON event metadata is staged for review; its date may refer to an earnings call rather than a release time.
 
-The initial source check retrieved 18 of 27 sources. Six events were reviewed from TSMC, AMD, Microsoft and Marvell IR pages on October 15, 2026. Some other sites return errors or require JavaScript. Remaining estimates and watch items have not been verified. The earnings planning horizon is October 2026–March 2027; extend it through Codex as coverage rolls forward. An empty later month is not a claim that no events will happen.
+The command never automatically modifies reviewed events or promotes a publication date to an event date. Review the staged evidence in Codex, resolve conflicting sources and update the relevant record. Do not add duplicates when replacing a provider estimate with a company-confirmed date. Update review timestamps only for evidence actually checked. A partial source-check run is explicitly partial; HTTP 200 alone does not prove a JavaScript calendar was rendered.
 
-There is **no live Bloomberg or Refinitiv integration** and no scheduled background refresh. Those sources require licensed access and public redistribution rights; do not scrape their authenticated products or put keys in browser code. A future licensed feed should run server-side or in a private CI ingestion step, normalize dates into this schema and preserve provenance. No credentials are needed for the current public-source workflow.
+The source-check report is linked from the website footer. Current reviewed earnings sources and their timestamps are also included in each event brief, including multiple sources where useful. Static publisher pages can lag; vendor estimates are not promises.
+
+There is no live licensed Bloomberg or Refinitiv API connection and no scheduled automatic event editing. Bloomberg reporting is attributed through public reporting; FT Markets' public forecasts page credits LSEG for data. Neither is represented as authenticated terminal access. The public read-only website is maintained through Codex, as requested.
 
 ## Public hosting
 

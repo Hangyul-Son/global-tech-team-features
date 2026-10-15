@@ -30,10 +30,17 @@ class DatasetTests(unittest.TestCase):
                 ids.add(event['id'])
                 self.assertTrue(event['companies'])
                 self.assertTrue(set(event['companies']) <= self.companies.keys())
-                self.assertIn(event['status'], ['confirmed','estimated','unannounced'])
+                self.assertIn(event['status'], ['confirmed','estimated','reported','unannounced'])
                 self.assertTrue(event['basis'])
                 self.assertTrue(event['importance'])
                 self.assertEqual(urlsplit(event['sourceUrl']).scheme, 'https')
+                if event['date']:
+                    date.fromisoformat(event['date'])
+                    self.assertIsNone(event['window'])
+                    datetime.fromisoformat(event['sourceCheckedAt'])
+                    self.assertTrue(event['sources'])
+                    if event['endDate']:
+                        self.assertGreaterEqual(date.fromisoformat(event['endDate']),date.fromisoformat(event['date']))
                 if event['status'] == 'confirmed':
                     date.fromisoformat(event['date'])
                     self.assertIsNone(event['window'])
@@ -42,18 +49,42 @@ class DatasetTests(unittest.TestCase):
                     if event['endDate']:
                         self.assertGreaterEqual(date.fromisoformat(event['endDate']),date.fromisoformat(event['date']))
                 elif event['status'] == 'estimated':
-                    self.assertRegex(event['window'], r'^20\d{2}-(0[1-9]|1[0-2])$')
-                    self.assertIsNone(event['date'])
+                    self.assertIsNotNone(event['date'])
+                    self.assertIsNone(event['window'])
+                    self.assertTrue(any(source['kind']=='estimate' for source in event['sources']))
                     self.assertIsNone(event['verifiedAt'])
                     self.assertIsNone(event['time'])
+                elif event['status'] == 'reported':
+                    self.assertIsNotNone(event['date'])
+                    self.assertIsNone(event['verifiedAt'])
+                    self.assertTrue(any(source['kind']=='report' for source in event['sources']))
                 else:
                     self.assertIsNone(event['date'])
                     self.assertIsNone(event['window'])
 
     def test_no_duplicate_confirmed_and_estimated_month(self):
         confirmed = {(c,e['date'][:7]) for e in self.data['events'] if e['type']=='Earnings' and e['status']=='confirmed' for c in e['companies']}
-        estimated = {(c,e['window']) for e in self.data['events'] if e['type']=='Earnings' and e['status']=='estimated' for c in e['companies']}
+        estimated = {(c,(e['date'] or e['window'])[:7]) for e in self.data['events'] if e['type']=='Earnings' and e['status']=='estimated' for c in e['companies']}
         self.assertFalse(confirmed & estimated)
+
+    def test_coverage_has_sourced_day_level_earnings(self):
+        for ticker, company in self.companies.items():
+            if not company['coverage']:
+                continue
+            next_events=[e for e in self.data['events'] if e['type']=='Earnings' and ticker in e['companies'] and e['date'] and e['date'] >= self.data['asOf']]
+            self.assertTrue(next_events,ticker)
+            self.assertTrue(all(e['sourceCheckedAt'] and e['sources'] and e['window'] is None for e in next_events))
+        self.assertFalse(any(e.get('window') for e in self.data['events']), 'Unsourced month placeholders must not return')
+
+    def test_current_editions_are_not_undated_watch_items(self):
+        events={e['id']:e for e in self.data['events']}
+        self.assertEqual(events['anthropic-investor']['date'],'2026-10-14')
+        self.assertEqual(events['anthropic-investor']['status'],'reported')
+        self.assertEqual(events['ocp']['date'],'2026-10-12')
+        self.assertEqual(events['ocp']['endDate'],'2026-10-15')
+        self.assertIsNone(events['anthropic-ipo']['date'], 'Do not confuse investor day with listing')
+        self.assertEqual(events['NVDA-2026-11-earnings']['date'],'2026-11-18')
+        self.assertEqual(events['NVDA-2026-11-earnings']['status'],'estimated')
 
     def test_source_report_does_not_claim_full_verification(self):
         report = json.loads((ROOT / 'data/source-checks.json').read_text())
@@ -74,6 +105,24 @@ class ExtractionTests(unittest.TestCase):
     def test_scripts_and_irrelevant_dates_are_ignored(self):
         html = '<script>October 1, 2026 earnings</script><p>December 4, 2026</p><p>Dividend payment</p>'
         self.assertEqual(refresh.extract_candidates(html),[])
+
+class ProviderEstimateTests(unittest.TestCase):
+    def test_marketbeat_explicit_date_remains_estimated(self):
+        row=refresh.extract_published_estimate('<p>NVIDIA has not confirmed its next earnings publication date, but the company estimated earnings date is Wednesday, November 18th, 2026 based on past dates.</p>', 'https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/',date(2026,10,15))
+        self.assertEqual(row['date'],'2026-11-18')
+        self.assertEqual(row['status'],'estimated')
+        self.assertEqual(row['reviewStatus'],'needs_review')
+
+    def test_stale_or_unlabeled_dates_do_not_become_estimates(self):
+        self.assertIsNone(refresh.extract_published_estimate('<p>Earnings Date Sep 10, 2026</p>','https://stockanalysis.com/stocks/orcl/',date(2026,10,15)))
+        self.assertIsNone(refresh.extract_published_estimate('<p>Est. Earnings Sep 10, 2026</p>','https://stockanalysis.com/stocks/orcl/',date(2026,10,15)))
+        self.assertIsNone(refresh.extract_published_estimate('<p>Published Nov 18, 2026</p>','https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/',date(2026,10,15)))
+
+    def test_stockanalysis_and_ft_labeled_estimates(self):
+        row=refresh.extract_published_estimate('<p>Est. Earnings</p><p>Nov 24, 2026</p>','https://stockanalysis.com/stocks/wday/',date(2026,10,15))
+        self.assertEqual(row['date'],'2026-11-24')
+        row=refresh.extract_published_estimate('<p>The next earnings announcement is expected on Oct 29, 2026.</p>','https://markets.ft.markitdigital.com/data/equities/tearsheet/forecasts?s=2454:TAI',date(2026,10,15))
+        self.assertEqual(row['date'],'2026-10-29')
 
 class LocalLinkTests(unittest.TestCase):
     def test_all_site_assets_and_navigation_resolve(self):

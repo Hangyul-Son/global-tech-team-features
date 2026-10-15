@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "asOf": "2026-10-15",
-  "lastSuccessfulRefresh": "2026-10-15T07:00:15.729332+00:00",
-  "lastAttempt": "2026-10-15T07:00:15.729332+00:00",
-  "feedStatus": "partial",
+  "lastSuccessfulRefresh": "2026-10-15T07:46:07.615401+00:00",
+  "lastAttempt": "2026-10-15T07:46:07.615401+00:00",
+  "feedStatus": "reviewed-public-sources",
   "companies": [
     {
       "id": "TSM",
@@ -80,7 +80,7 @@
       "name": "Apple",
       "sector": "Hardware",
       "coverage": true,
-      "source": "https://investor.apple.com/investor-relations/default.aspx",
+      "source": "https://www.apple.com/investor/earnings-call/",
       "months": [
         1,
         5,
@@ -136,7 +136,7 @@
       "name": "ServiceNow",
       "sector": "Software & cloud",
       "coverage": true,
-      "source": "https://investors.servicenow.com/events-and-presentations/default.aspx",
+      "source": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx",
       "months": [
         1,
         4,
@@ -178,7 +178,7 @@
       "name": "ASML",
       "sector": "Semi equipment",
       "coverage": false,
-      "source": "https://www.asml.com/en/investors/financial-calendar",
+      "source": "https://investor.asml.com/quarterly-results",
       "months": [
         1,
         4,
@@ -192,7 +192,7 @@
       "name": "Lam Research",
       "sector": "Semi equipment",
       "coverage": false,
-      "source": "https://investor.lamresearch.com/events-and-presentations",
+      "source": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
       "months": [
         1,
         4,
@@ -206,7 +206,7 @@
       "name": "Samsung",
       "sector": "Memory",
       "coverage": false,
-      "source": "https://news.samsung.com/global/category/press-resources/press-release",
+      "source": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
       "months": [
         1,
         4,
@@ -248,7 +248,7 @@
       "name": "MediaTek",
       "sector": "Semiconductors",
       "coverage": false,
-      "source": "https://corp.mediatek.com/investor-relations",
+      "source": "https://www.mediatek.com/investor-relations/ir-events",
       "months": [
         1,
         4,
@@ -276,7 +276,7 @@
       "name": "Alphabet",
       "sector": "Hyperscalers",
       "coverage": false,
-      "source": "https://abc.xyz/investor/",
+      "source": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
       "months": [
         2,
         4,
@@ -290,7 +290,7 @@
       "name": "Meta",
       "sector": "Hyperscalers",
       "coverage": false,
-      "source": "https://investor.atmeta.com/investor-events/default.aspx",
+      "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
       "months": [
         1,
         4,
@@ -324,63 +324,18 @@
       "time": "14:00 Asia/Taipei",
       "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
       "sourceLabel": "Company investor relations",
-      "verifiedAt": "2026-10-15T07:00:15.729332+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
       "basis": "The official financial calendar lists October 15, 2026, 14:00–15:30 Asia/Taipei: TSMC 3Q’26 Results – Earnings Conference and Conference Call.",
-      "importance": "Foundry demand, advanced packaging and leading-edge capacity."
-    },
-    {
-      "id": "TSM-2027-01-earnings",
-      "companies": [
-        "TSM"
-      ],
-      "title": "TSMC earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Foundry demand, advanced packaging and leading-edge capacity."
-    },
-    {
-      "id": "NVDA-2026-11-earnings",
-      "companies": [
-        "NVDA"
-      ],
-      "title": "NVIDIA earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-11",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "AI accelerator demand, networking and data-center revenue."
-    },
-    {
-      "id": "NVDA-2027-02-earnings",
-      "companies": [
-        "NVDA"
-      ],
-      "title": "NVIDIA earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-02",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "AI accelerator demand, networking and data-center revenue."
+      "importance": "Foundry demand, advanced packaging and leading-edge capacity.",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sources": [
+        {
+          "label": "Company investor relations",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
     },
     {
       "id": "AMD-2026-11-earnings",
@@ -393,138 +348,22 @@
       "window": null,
       "date": "2026-11-03",
       "endDate": null,
-      "time": "14:00 PDT (as published)",
+      "time": "Call: 14:00 Pacific · confirm webcast timezone",
       "sourceUrl": "https://ir.amd.com/news-events/ir-calendar",
       "sourceLabel": "Company investor relations",
-      "verifiedAt": "2026-10-15T07:00:15.729332+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
       "basis": "The official AMD IR calendar lists Nov 3, 2026, 2:00 pm PDT: AMD Fiscal Third Quarter 2026 Financial Results. Timezone label is preserved as published; verify with the webcast because daylight-saving rules may differ.",
-      "importance": "Instinct adoption, server share and AI accelerator guidance."
-    },
-    {
-      "id": "AMD-2027-02-earnings",
-      "companies": [
-        "AMD"
+      "importance": "Instinct adoption, server share and AI accelerator guidance.",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sources": [
+        {
+          "label": "Company investor relations",
+          "url": "https://ir.amd.com/news-events/ir-calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
       ],
-      "title": "AMD earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-02",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://ir.amd.com/news-events/ir-calendar",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Instinct adoption, server share and AI accelerator guidance."
-    },
-    {
-      "id": "AVGO-2026-12-earnings",
-      "companies": [
-        "AVGO"
-      ],
-      "title": "Broadcom earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-12",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investors.broadcom.com/company-information/events-presentations",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Custom AI silicon, networking and VMware software demand."
-    },
-    {
-      "id": "AVGO-2027-03-earnings",
-      "companies": [
-        "AVGO"
-      ],
-      "title": "Broadcom earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-03",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investors.broadcom.com/company-information/events-presentations",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Custom AI silicon, networking and VMware software demand."
-    },
-    {
-      "id": "MRVL-2026-12-earnings",
-      "companies": [
-        "MRVL"
-      ],
-      "title": "Marvell Technology earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-12",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Custom compute ramps, optical interconnects and cloud demand."
-    },
-    {
-      "id": "MRVL-2027-03-earnings",
-      "companies": [
-        "MRVL"
-      ],
-      "title": "Marvell Technology earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-03",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Custom compute ramps, optical interconnects and cloud demand."
-    },
-    {
-      "id": "AAPL-2026-10-earnings",
-      "companies": [
-        "AAPL"
-      ],
-      "title": "Apple earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.apple.com/investor-relations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Device demand, silicon content and services growth."
-    },
-    {
-      "id": "AAPL-2027-01-earnings",
-      "companies": [
-        "AAPL"
-      ],
-      "title": "Apple earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.apple.com/investor-relations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Device demand, silicon content and services growth."
+      "dateConflict": "The IR page labels its November 3 time PDT, after the usual US daylight-saving transition. Verify the webcast timezone; no UTC conversion is asserted."
     },
     {
       "id": "MSFT-2026-10-earnings",
@@ -540,607 +379,18 @@
       "time": null,
       "sourceUrl": "https://www.microsoft.com/en-us/Investor",
       "sourceLabel": "Company investor relations",
-      "verifiedAt": "2026-10-15T07:00:15.729332+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
       "basis": "Microsoft investor relations states: “The next earnings release will be on October 28, 2026.” No release time was verified.",
-      "importance": "Azure growth, AI monetization and data-center capex."
-    },
-    {
-      "id": "MSFT-2027-01-earnings",
-      "companies": [
-        "MSFT"
-      ],
-      "title": "Microsoft earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://www.microsoft.com/en-us/Investor",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Azure growth, AI monetization and data-center capex."
-    },
-    {
-      "id": "ORCL-2026-12-earnings",
-      "companies": [
-        "ORCL"
-      ],
-      "title": "Oracle earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-12",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.oracle.com/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "OCI capacity, remaining performance obligations and AI capex."
-    },
-    {
-      "id": "ORCL-2027-03-earnings",
-      "companies": [
-        "ORCL"
-      ],
-      "title": "Oracle earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-03",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.oracle.com/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "OCI capacity, remaining performance obligations and AI capex."
-    },
-    {
-      "id": "CRM-2026-12-earnings",
-      "companies": [
-        "CRM"
-      ],
-      "title": "Salesforce earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-12",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.salesforce.com/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Agentforce adoption, bookings and enterprise AI budgets."
-    },
-    {
-      "id": "CRM-2027-02-earnings",
-      "companies": [
-        "CRM"
-      ],
-      "title": "Salesforce earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-02",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.salesforce.com/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Agentforce adoption, bookings and enterprise AI budgets."
-    },
-    {
-      "id": "NOW-2026-10-earnings",
-      "companies": [
-        "NOW"
-      ],
-      "title": "ServiceNow earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investors.servicenow.com/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "AI workflows, subscription growth and enterprise spending."
-    },
-    {
-      "id": "NOW-2027-01-earnings",
-      "companies": [
-        "NOW"
-      ],
-      "title": "ServiceNow earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investors.servicenow.com/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "AI workflows, subscription growth and enterprise spending."
-    },
-    {
-      "id": "ADBE-2026-12-earnings",
-      "companies": [
-        "ADBE"
-      ],
-      "title": "Adobe earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-12",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://news.adobe.com/financial",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Creative AI monetization, subscriptions and competitive pressure."
-    },
-    {
-      "id": "ADBE-2027-03-earnings",
-      "companies": [
-        "ADBE"
-      ],
-      "title": "Adobe earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-03",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://news.adobe.com/financial",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Creative AI monetization, subscriptions and competitive pressure."
-    },
-    {
-      "id": "WDAY-2026-11-earnings",
-      "companies": [
-        "WDAY"
-      ],
-      "title": "Workday earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-11",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.workday.com/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "HR and finance budgets, subscription backlog and AI agents."
-    },
-    {
-      "id": "WDAY-2027-02-earnings",
-      "companies": [
-        "WDAY"
-      ],
-      "title": "Workday earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-02",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.workday.com/events-and-presentations/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "HR and finance budgets, subscription backlog and AI agents."
-    },
-    {
-      "id": "ASML-2026-10-earnings",
-      "companies": [
-        "ASML"
-      ],
-      "title": "ASML earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://www.asml.com/en/investors/financial-calendar",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "EUV bookings and advanced-node capacity investment."
-    },
-    {
-      "id": "ASML-2027-01-earnings",
-      "companies": [
-        "ASML"
-      ],
-      "title": "ASML earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://www.asml.com/en/investors/financial-calendar",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "EUV bookings and advanced-node capacity investment."
-    },
-    {
-      "id": "LRCX-2026-10-earnings",
-      "companies": [
-        "LRCX"
-      ],
-      "title": "Lam Research earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.lamresearch.com/events-and-presentations",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Memory equipment spending and advanced packaging."
-    },
-    {
-      "id": "LRCX-2027-01-earnings",
-      "companies": [
-        "LRCX"
-      ],
-      "title": "Lam Research earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.lamresearch.com/events-and-presentations",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Memory equipment spending and advanced packaging."
-    },
-    {
-      "id": "005930.KS-2026-10-earnings",
-      "companies": [
-        "005930.KS"
-      ],
-      "title": "Samsung earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://news.samsung.com/global/category/press-resources/press-release",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "HBM qualification, memory pricing and foundry investment."
-    },
-    {
-      "id": "005930.KS-2027-01-earnings",
-      "companies": [
-        "005930.KS"
-      ],
-      "title": "Samsung earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://news.samsung.com/global/category/press-resources/press-release",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "HBM qualification, memory pricing and foundry investment."
-    },
-    {
-      "id": "000660.KS-2026-10-earnings",
-      "companies": [
-        "000660.KS"
-      ],
-      "title": "SK hynix earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://news.skhynix.com/",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "HBM supply, DRAM pricing and AI memory capacity."
-    },
-    {
-      "id": "000660.KS-2027-01-earnings",
-      "companies": [
-        "000660.KS"
-      ],
-      "title": "SK hynix earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://news.skhynix.com/",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "HBM supply, DRAM pricing and AI memory capacity."
-    },
-    {
-      "id": "MU-2026-12-earnings",
-      "companies": [
-        "MU"
-      ],
-      "title": "Micron earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-12",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investors.micron.com/events-and-presentations",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "HBM revenue, memory pricing and supply discipline."
-    },
-    {
-      "id": "MU-2027-03-earnings",
-      "companies": [
-        "MU"
-      ],
-      "title": "Micron earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-03",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investors.micron.com/events-and-presentations",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "HBM revenue, memory pricing and supply discipline."
-    },
-    {
-      "id": "2454.TW-2026-10-earnings",
-      "companies": [
-        "2454.TW"
-      ],
-      "title": "MediaTek earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://corp.mediatek.com/investor-relations",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Mobile chip demand, edge AI and custom silicon."
-    },
-    {
-      "id": "2454.TW-2027-01-earnings",
-      "companies": [
-        "2454.TW"
-      ],
-      "title": "MediaTek earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://corp.mediatek.com/investor-relations",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Mobile chip demand, edge AI and custom silicon."
-    },
-    {
-      "id": "AMZN-2026-10-earnings",
-      "companies": [
-        "AMZN"
-      ],
-      "title": "Amazon earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "AWS growth, Trainium adoption and infrastructure capex."
-    },
-    {
-      "id": "AMZN-2027-02-earnings",
-      "companies": [
-        "AMZN"
-      ],
-      "title": "Amazon earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-02",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "AWS growth, Trainium adoption and infrastructure capex."
-    },
-    {
-      "id": "GOOGL-2026-10-earnings",
-      "companies": [
-        "GOOGL"
-      ],
-      "title": "Alphabet earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://abc.xyz/investor/",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Google Cloud, TPU investment and AI infrastructure spending."
-    },
-    {
-      "id": "GOOGL-2027-02-earnings",
-      "companies": [
-        "GOOGL"
-      ],
-      "title": "Alphabet earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-02",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://abc.xyz/investor/",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "Google Cloud, TPU investment and AI infrastructure spending."
-    },
-    {
-      "id": "META-2026-10-earnings",
-      "companies": [
-        "META"
-      ],
-      "title": "Meta earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2026-10",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.atmeta.com/investor-events/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "AI infrastructure capex, custom silicon and server demand."
-    },
-    {
-      "id": "META-2027-01-earnings",
-      "companies": [
-        "META"
-      ],
-      "title": "Meta earnings",
-      "type": "Earnings",
-      "status": "estimated",
-      "window": "2027-01",
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://investor.atmeta.com/investor-events/default.aspx",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": null,
-      "basis": "Planning assumption based on typical quarterly reporting cadence; this month has not been checked against a current announcement. Timing can shift into an adjacent month.",
-      "importance": "AI infrastructure capex, custom silicon and server demand."
-    },
-    {
-      "id": "gtc",
-      "companies": [
-        "NVDA"
-      ],
-      "title": "NVIDIA GTC",
-      "type": "Conference",
-      "status": "unannounced",
-      "window": null,
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://www.nvidia.com/gtc/",
-      "sourceLabel": "Official event / company page",
-      "verifiedAt": null,
-      "basis": "Monitoring target. No current event date has been verified.",
-      "importance": "AI platform roadmap, new systems and networking announcements."
-    },
-    {
-      "id": "ocp",
-      "companies": [
-        "META",
-        "MSFT",
-        "NVDA",
-        "AVGO",
-        "MRVL"
-      ],
-      "title": "OCP Global Summit",
-      "type": "Conference",
-      "status": "unannounced",
-      "window": null,
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://www.opencompute.org/summit/global-summit",
-      "sourceLabel": "Official event / company page",
-      "verifiedAt": null,
-      "basis": "Monitoring target. No current event date has been verified.",
-      "importance": "Open infrastructure, rack-scale systems, optics and power architecture."
-    },
-    {
-      "id": "reinvent",
-      "companies": [
-        "AMZN"
-      ],
-      "title": "AWS re:Invent",
-      "type": "Conference",
-      "status": "unannounced",
-      "window": null,
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://reinvent.awsevents.com/",
-      "sourceLabel": "Official event / company page",
-      "verifiedAt": null,
-      "basis": "Monitoring target. No current event date has been verified.",
-      "importance": "AWS silicon, cloud infrastructure and AI services roadmap."
-    },
-    {
-      "id": "ms-ignite",
-      "companies": [
-        "MSFT"
-      ],
-      "title": "Microsoft Ignite",
-      "type": "Conference",
-      "status": "unannounced",
-      "window": null,
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://ignite.microsoft.com/",
-      "sourceLabel": "Official event / company page",
-      "verifiedAt": null,
-      "basis": "Monitoring target. No current event date has been verified.",
-      "importance": "Enterprise AI, Azure infrastructure and software demand."
+      "importance": "Azure growth, AI monetization and data-center capex.",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sources": [
+        {
+          "label": "Company investor relations",
+          "url": "https://www.microsoft.com/en-us/Investor",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
     },
     {
       "id": "marvell-investor",
@@ -1158,43 +408,16 @@
       "sourceLabel": "Official event / company page",
       "verifiedAt": "2026-10-15T07:00:15.729332+00:00",
       "basis": "The official Marvell IR calendar lists Oct 6, 2026: Marvell Investor Day 2026, under Past Events. Retained as a recent catalyst; this is not an upcoming investor day.",
-      "importance": "Custom silicon design wins and long-term AI revenue targets."
-    },
-    {
-      "id": "anthropic-investor",
-      "companies": [
-        "ANTHROPIC"
-      ],
-      "title": "Anthropic investor event",
-      "type": "Investor day",
-      "status": "unannounced",
-      "window": null,
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://www.anthropic.com/news",
-      "sourceLabel": "Official event / company page",
-      "verifiedAt": null,
-      "basis": "Monitoring target. No current event date has been verified.",
-      "importance": "Watch for an official announcement; no event is asserted."
-    },
-    {
-      "id": "anthropic-ipo",
-      "companies": [
-        "ANTHROPIC"
-      ],
-      "title": "Anthropic potential IPO",
-      "type": "IPO watch",
-      "status": "unannounced",
-      "window": null,
-      "date": null,
-      "endDate": null,
-      "time": null,
-      "sourceUrl": "https://www.anthropic.com/news",
-      "sourceLabel": "Official event / company page",
-      "verifiedAt": null,
-      "basis": "Monitoring target. No current event date has been verified.",
-      "importance": "Watch item only. No IPO or listing date has been verified."
+      "importance": "Custom silicon design wins and long-term AI revenue targets.",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sources": [
+        {
+          "label": "Official event / company page",
+          "url": "https://investor.marvell.com/news-events/ir-calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
     },
     {
       "id": "amd-ubs-2026",
@@ -1210,9 +433,18 @@
       "time": null,
       "sourceUrl": "https://ir.amd.com/news-events/ir-calendar",
       "sourceLabel": "AMD investor-relations calendar",
-      "verifiedAt": "2026-10-15T07:00:15.729332+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
       "basis": "AMD’s official IR calendar lists Dec 1, 2026: UBS Global Technology and AI Conference.",
-      "importance": "Management commentary on AI accelerators, server demand and the semiconductor outlook."
+      "importance": "Management commentary on AI accelerators, server demand and the semiconductor outlook.",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sources": [
+        {
+          "label": "AMD investor-relations calendar",
+          "url": "https://ir.amd.com/news-events/ir-calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
     },
     {
       "id": "amd-barclays-2026",
@@ -1228,10 +460,895 @@
       "time": null,
       "sourceUrl": "https://ir.amd.com/news-events/ir-calendar",
       "sourceLabel": "AMD investor-relations calendar",
-      "verifiedAt": "2026-10-15T07:00:15.729332+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
       "basis": "AMD’s official IR calendar lists Dec 9, 2026: Barclays 24th Annual Global Technology Conference.",
-      "importance": "Management commentary on AI accelerators, server demand and the semiconductor outlook."
+      "importance": "Management commentary on AI accelerators, server demand and the semiconductor outlook.",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sources": [
+        {
+          "label": "AMD investor-relations calendar",
+          "url": "https://ir.amd.com/news-events/ir-calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "NVDA-2026-11-earnings",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "NVIDIA earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-11-18",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-11-18 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "AI accelerator demand, networking and data-center revenue.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Stock Analysis",
+          "url": "https://stockanalysis.com/stocks/nvda/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "AVGO-2026-12-earnings",
+      "companies": [
+        "AVGO"
+      ],
+      "title": "Broadcom earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-12-09",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-12-09 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "Custom AI silicon, networking and VMware software demand.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "MRVL-2026-12-earnings",
+      "companies": [
+        "MRVL"
+      ],
+      "title": "Marvell Technology earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-12-01 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "Custom compute ramps, optical interconnects and cloud demand.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Stock Analysis",
+          "url": "https://stockanalysis.com/stocks/mrvl/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ORCL-2026-12-earnings",
+      "companies": [
+        "ORCL"
+      ],
+      "title": "Oracle earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-12-14",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/ORCL/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-12-14 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "OCI capacity, remaining performance obligations and AI capex.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NYSE/ORCL/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "CRM-2026-12-earnings",
+      "companies": [
+        "CRM"
+      ],
+      "title": "Salesforce earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-12-02",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-12-02 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "Agentforce adoption, bookings and enterprise AI budgets.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Stock Analysis",
+          "url": "https://stockanalysis.com/stocks/crm/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ADBE-2026-12-earnings",
+      "companies": [
+        "ADBE"
+      ],
+      "title": "Adobe earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-12-09",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/ADBE/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-12-09 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "Creative AI monetization, subscriptions and competitive pressure.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/ADBE/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "WDAY-2026-11-earnings",
+      "companies": [
+        "WDAY"
+      ],
+      "title": "Workday earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-11-24",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/WDAY/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-11-24 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "HR and finance budgets, subscription backlog and AI agents.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/WDAY/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Stock Analysis",
+          "url": "https://stockanalysis.com/stocks/wday/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "MU-2026-12-earnings",
+      "companies": [
+        "MU"
+      ],
+      "title": "Micron earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-12-23",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-12-23 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "HBM revenue, memory pricing and supply discipline.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "AMZN-2026-10-earnings",
+      "companies": [
+        "AMZN"
+      ],
+      "title": "Amazon earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-10-29",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+      "sourceLabel": "MarketBeat · historical-schedule estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-10-29 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "importance": "AWS growth, Trainium adoption and infrastructure capex.",
+      "sources": [
+        {
+          "label": "MarketBeat earnings calendar",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Stock Analysis",
+          "url": "https://stockanalysis.com/stocks/amzn/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "AAPL-2026-11-earnings",
+      "companies": [
+        "AAPL"
+      ],
+      "title": "Apple Q4 results & earnings call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-11-02",
+      "endDate": null,
+      "window": null,
+      "time": "Call: 14:00 PT / 17:00 ET",
+      "sourceUrl": "https://www.apple.com/investor/earnings-call/",
+      "sourceLabel": "Apple earnings webcast · official metadata",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "Apple’s webcast event metadata identifies Q4 2026, November 2, 2026, with the call at 2:00 p.m. PT / 5:00 p.m. ET. The metadata JSON is linked below. This time is the call, not an inferred release time.",
+      "importance": "Device demand, silicon content and services growth.",
+      "sources": [
+        {
+          "label": "Apple earnings webcast",
+          "url": "https://www.apple.com/investor/earnings-call/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Apple public webcast event metadata",
+          "url": "https://events-delivery.apple.com/15pijbsdfvpiqhb10/js_files/event/url.json",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "NOW-2026-10-earnings",
+      "companies": [
+        "NOW"
+      ],
+      "title": "ServiceNow Q3 results & earnings call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-10-28",
+      "endDate": null,
+      "window": null,
+      "time": "After US close; call: 14:00 PDT / 21:00 GMT",
+      "sourceUrl": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx",
+      "sourceLabel": "ServiceNow · October 7 company announcement",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "The company announced October 28 results after market close and a 14:00 PDT / 21:00 GMT earnings call. This overrides MarketBeat’s unconfirmed before-open timing.",
+      "importance": "AI workflows, subscription growth and enterprise spending.",
+      "sources": [
+        {
+          "label": "ServiceNow · October 7 company announcement",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "META-2026-10-earnings",
+      "companies": [
+        "META"
+      ],
+      "title": "Meta Q3 results & earnings call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-10-21",
+      "endDate": null,
+      "window": null,
+      "time": "After US close; call: 13:30 PT / 16:30 ET",
+      "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+      "sourceLabel": "Meta · company announcement",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "Meta announced third-quarter results after market close on October 21, 2026, followed by a 13:30 PT / 16:30 ET call.",
+      "importance": "AI infrastructure capex, custom silicon and server demand.",
+      "sources": [
+        {
+          "label": "Meta · company announcement",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "GOOGL-2026-10-earnings",
+      "companies": [
+        "GOOGL"
+      ],
+      "title": "Alphabet Q3 financial results call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-10-28",
+      "endDate": null,
+      "window": null,
+      "time": "Call: 13:30 PT / 16:30 ET",
+      "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
+      "sourceLabel": "Alphabet · October 6 company announcement",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "Alphabet’s company announcement specifies October 28, 2026 for its third-quarter results conference call at 13:30 Pacific / 16:30 Eastern.",
+      "importance": "Google Cloud, TPU investment and AI infrastructure spending.",
+      "sources": [
+        {
+          "label": "Alphabet · October 6 company announcement",
+          "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LRCX-2026-10-earnings",
+      "companies": [
+        "LRCX"
+      ],
+      "title": "Lam Research September-quarter results call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-10-21",
+      "endDate": null,
+      "window": null,
+      "time": "Call: 14:00 Pacific",
+      "sourceUrl": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
+      "sourceLabel": "Lam Research · September 30 company announcement",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "The company announced its quarterly financial conference call and webcast for October 21, 2026, beginning at 14:00 Pacific. This is the call time.",
+      "importance": "Memory equipment spending and advanced packaging.",
+      "sources": [
+        {
+          "label": "Lam Research · September 30 company announcement",
+          "url": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "005930.KS-2026-10-earnings",
+      "companies": [
+        "005930.KS"
+      ],
+      "title": "Samsung Q3 earnings conference call",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-10-29",
+      "endDate": null,
+      "window": null,
+      "time": "Call: 10:00 KST",
+      "sourceUrl": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+      "sourceLabel": "Samsung · official IR events calendar",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "Samsung lists its 3Q26 earnings conference call on October 29, 2026 at 10:00 KST. This is distinct from its October 8 guidance announcement.",
+      "importance": "HBM qualification, memory pricing and foundry investment.",
+      "sources": [
+        {
+          "label": "Samsung · official IR events calendar",
+          "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "000660.KS-2026-10-earnings",
+      "companies": [
+        "000660.KS"
+      ],
+      "title": "SK hynix Q3 earnings conference call",
+      "type": "Earnings",
+      "status": "reported",
+      "date": "2026-10-28",
+      "endDate": null,
+      "window": null,
+      "time": "Reported call: 09:00 KST",
+      "sourceUrl": "https://www.tipranks.com/news/company-announcements/sk-hynix-sets-october-28-conference-call-for-q3-2026-earnings",
+      "sourceLabel": "TipRanks · company-filing report",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "TipRanks reports a company filing scheduling the earnings call for October 28, 2026 at 09:00 Seoul time. The primary filing was not retrieved in this review, so this remains Reported rather than officially verified here. Stock Analysis also lists October 28; other US calendars list October 27, which may reflect the US evening date.",
+      "importance": "HBM supply, DRAM pricing and AI memory capacity.",
+      "sources": [
+        {
+          "label": "TipRanks company-filing report",
+          "url": "https://www.tipranks.com/news/company-announcements/sk-hynix-sets-october-28-conference-call-for-q3-2026-earnings",
+          "kind": "report",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Stock Analysis · Korea listing",
+          "url": "https://stockanalysis.com/quote/krx/000660/",
+          "kind": "calendar",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "2454.TW-2026-10-earnings",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-10-29",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://markets.ft.markitdigital.com/data/equities/tearsheet/forecasts?s=2454:TAI",
+      "sourceLabel": "Financial Times Markets · page credits LSEG",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "FT Markets publishes October 29, 2026 as the next expected announcement; the page credits LSEG for data. Another calendar lists October 23. The current company IR page did not establish a quarterly results date, so the estimate is disputed and not confirmed.",
+      "importance": "Mobile chip demand, edge AI and custom silicon.",
+      "sources": [
+        {
+          "label": "FT Markets forecasts · data supplied by LSEG",
+          "url": "https://markets.ft.markitdigital.com/data/equities/tearsheet/forecasts?s=2454:TAI",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "QuarterlyEarnings.info · alternate calendar",
+          "url": "https://en.quartalszahlen.info/companies/2454",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ],
+      "dateConflict": "FT: Oct 29; alternate calendar: Oct 23. Company date not verified."
+    },
+    {
+      "id": "ASML-2027-01-earnings",
+      "companies": [
+        "ASML"
+      ],
+      "title": "ASML Q4 & full-year results",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2027-01-27",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.tipranks.com/stocks/asml/earnings",
+      "sourceLabel": "TipRanks · next earnings estimate",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "TipRanks lists January 27, 2027 but its page inconsistently labels the date confirmed and estimated. MarketChameleon gives an unannounced January 27–29 range. Until the primary schedule is verified, use January 27 as an estimate with a January 27–29 uncertainty range.",
+      "importance": "EUV bookings and advanced-node capacity investment.",
+      "sources": [
+        {
+          "label": "TipRanks earnings calendar",
+          "url": "https://www.tipranks.com/stocks/asml/earnings",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "MarketChameleon · estimated Jan 27–29 window",
+          "url": "https://marketchameleon.com/Overview/ASML/Earnings/Earnings-Dates/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ],
+      "dateConflict": "Provider status differs; Jan 27–29 uncertainty range. Not company-confirmed here."
+    },
+    {
+      "id": "ASML-2026-10-earnings",
+      "companies": [
+        "ASML"
+      ],
+      "title": "ASML Q3 financial results",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-10-14",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.asml.com/quarterly-results",
+      "sourceLabel": "ASML · official quarterly results",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "ASML’s quarterly-results page states that third-quarter results were announced on October 14, 2026. This event has passed; it is retained as historical context.",
+      "importance": "EUV bookings and advanced-node capacity investment.",
+      "sources": [
+        {
+          "label": "ASML · official quarterly results",
+          "url": "https://investor.asml.com/quarterly-results",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ocp",
+      "companies": [
+        "META",
+        "MSFT",
+        "NVDA",
+        "AVGO",
+        "MRVL"
+      ],
+      "title": "OCP Global Summit 2026",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-10-12",
+      "endDate": "2026-10-15",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.microchip.com/en-us/about/events-info/ocp-global-summit",
+      "sourceLabel": "Microchip · official exhibitor event schedule",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "Microchip’s official event page publishes October 12–15, 2026. This is the current/recent 2026 edition, not an undated future summit. The full published range is retained; do not infer an exact end time.",
+      "importance": "Open infrastructure, rack-scale systems, optics and power architecture.",
+      "sources": [
+        {
+          "label": "Microchip · official exhibitor event schedule",
+          "url": "https://www.microchip.com/en-us/about/events-info/ocp-global-summit",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-investor",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "Anthropic pre-IPO investor day",
+      "type": "Investor day",
+      "status": "reported",
+      "date": "2026-10-14",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
+      "sourceLabel": "Yahoo Finance / Stocktwits · citing Bloomberg",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "The Yahoo Finance article, citing Bloomberg’s reporting on invitations, places the investor meeting at Anthropic’s San Francisco headquarters on October 14, 2026. This is a past scheduled date, not a future undated watch item. We have not independently verified attendance or a company statement.",
+      "importance": "Private-company financial disclosure, AI compute commitments and prospective IPO positioning.",
+      "sources": [
+        {
+          "label": "Yahoo Finance / Stocktwits · Bloomberg reporting",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
+          "kind": "report",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "FinanceFeeds · reported timetable",
+          "url": "https://financefeeds.com/anthropics-14-october-investor-day-nears-but-its-s-1-still-isnt-public-the-ipo-timeline-explained/",
+          "kind": "report",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gtc",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "NVIDIA GTC 2027 · San Jose",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2027-03-15",
+      "endDate": "2027-03-18",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.nvidia.com/gtc/",
+      "sourceLabel": "NVIDIA · official GTC page",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "NVIDIA’s official GTC page publishes March 15–18 for GTC 2027 in San Jose. These are the core conference dates.",
+      "importance": "AI platform roadmap, new systems, networking and physical AI.",
+      "sources": [
+        {
+          "label": "NVIDIA · official GTC page",
+          "url": "https://www.nvidia.com/gtc/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "reinvent",
+      "companies": [
+        "AMZN"
+      ],
+      "title": "AWS re:Invent 2026",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-11-30",
+      "endDate": "2026-12-04",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://reinvent.awsevents.com/",
+      "sourceLabel": "AWS · official re:Invent page",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "AWS’s event page specifies November 30–December 4, 2026 in Las Vegas.",
+      "importance": "AWS custom silicon, cloud infrastructure and AI services roadmap.",
+      "sources": [
+        {
+          "label": "AWS · official re:Invent page",
+          "url": "https://reinvent.awsevents.com/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ms-ignite",
+      "companies": [
+        "MSFT"
+      ],
+      "title": "Microsoft Ignite 2026",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-11-17",
+      "endDate": "2026-11-20",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://ignite.microsoft.com/en-US/get-help",
+      "sourceLabel": "Microsoft · official Ignite event configuration",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "basis": "Microsoft’s official event page metadata specifies November 17–20, 2026. Its embedded event configuration gives a November 17 start and November 20 end in Pacific time.",
+      "importance": "Enterprise AI, Azure infrastructure and software demand.",
+      "sources": [
+        {
+          "label": "Microsoft · official Ignite event configuration",
+          "url": "https://ignite.microsoft.com/en-US/get-help",
+          "kind": "official",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-marketing",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "Anthropic potential IPO marketing · target week",
+      "type": "IPO watch",
+      "status": "estimated",
+      "date": "2026-11-09",
+      "endDate": "2026-11-13",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
+      "sourceLabel": "Yahoo Finance / Stocktwits · Bloomberg-reported target",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "verifiedAt": null,
+      "basis": "Reporting describes potential formal marketing as early as the week of November 9. November 9–13 is the business-week window, not a confirmed roadshow or listing date. Timing may change and Anthropic declined to comment.",
+      "importance": "Potential public-market AI catalyst; watch for an official filing and timetable.",
+      "sources": [
+        {
+          "label": "Yahoo Finance / Stocktwits · Bloomberg-reported target",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "Anthropic IPO · listing date not announced",
+      "type": "IPO watch",
+      "status": "unannounced",
+      "window": null,
+      "date": null,
+      "endDate": null,
+      "time": null,
+      "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
+      "sourceLabel": "Yahoo Finance / Stocktwits · Bloomberg reporting",
+      "verifiedAt": null,
+      "basis": "Reports target a possible listing before US Thanksgiving, but no exact listing date was verified. Investor day and a potential marketing week are separate dated entries; neither is an IPO date.",
+      "importance": "Watch item only. No IPO or listing date has been verified.",
+      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sources": [
+        {
+          "label": "Yahoo Finance / Stocktwits",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
+          "kind": "report",
+          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gtc-berlin-2026",
+      "title": "NVIDIA GTC Berlin 2026",
+      "companies": [
+        "NVDA"
+      ],
+      "type": "Conference",
+      "date": "2026-10-20",
+      "endDate": "2026-10-22",
+      "window": null,
+      "time": null,
+      "status": "confirmed",
+      "sourceUrl": "https://www.nvidia.com/en-eu/gtc/",
+      "sourceLabel": "NVIDIA · official regional GTC schedule",
+      "sourceCheckedAt": "2026-10-15T13:04:39.747892+00:00",
+      "verifiedAt": "2026-10-15T13:04:39.747892+00:00",
+      "basis": "NVIDIA publishes October 20–22, 2026 for GTC Berlin, including October 20 workshops and October 21–22 conference/expo.",
+      "importance": "AI compute roadmap, regional infrastructure investment and management commentary.",
+      "sources": [
+        {
+          "label": "NVIDIA official regional GTC schedule",
+          "url": "https://www.nvidia.com/en-eu/gtc/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T13:04:39.747892+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gtc-dc-2026",
+      "title": "NVIDIA GTC Washington, D.C. 2026",
+      "companies": [
+        "NVDA"
+      ],
+      "type": "Conference",
+      "date": "2026-11-30",
+      "endDate": "2026-12-03",
+      "window": null,
+      "time": null,
+      "status": "confirmed",
+      "sourceUrl": "https://www.nvidia.com/gtc/dc/",
+      "sourceLabel": "NVIDIA · official regional GTC schedule",
+      "sourceCheckedAt": "2026-10-15T13:04:39.747892+00:00",
+      "verifiedAt": "2026-10-15T13:04:39.747892+00:00",
+      "basis": "NVIDIA publishes November 30–December 3, 2026 for the full event; the conference/expo runs December 1–3.",
+      "importance": "AI compute roadmap, regional infrastructure investment and management commentary.",
+      "sources": [
+        {
+          "label": "NVIDIA official regional GTC schedule",
+          "url": "https://www.nvidia.com/gtc/dc/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T13:04:39.747892+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gtc-berlin-keynote",
+      "title": "Jensen Huang · GTC Berlin keynote",
+      "companies": [
+        "NVDA"
+      ],
+      "type": "Keynote",
+      "date": "2026-10-21",
+      "endDate": null,
+      "window": null,
+      "time": "11:00–13:00 CEST",
+      "status": "confirmed",
+      "sourceUrl": "https://www.nvidia.com/en-eu/gtc/",
+      "sourceLabel": "NVIDIA · official regional GTC schedule",
+      "sourceCheckedAt": "2026-10-15T13:04:39.747892+00:00",
+      "verifiedAt": "2026-10-15T13:04:39.747892+00:00",
+      "basis": "NVIDIA’s official regional event page separately schedules the CEO keynote on 2026-10-21 at 11:00–13:00 CEST.",
+      "importance": "CEO announcements on AI platforms, infrastructure partnerships and the product roadmap.",
+      "sources": [
+        {
+          "label": "NVIDIA official regional GTC schedule",
+          "url": "https://www.nvidia.com/en-eu/gtc/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T13:04:39.747892+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gtc-dc-keynote",
+      "title": "Jensen Huang · GTC D.C. keynote",
+      "companies": [
+        "NVDA"
+      ],
+      "type": "Keynote",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": "14:00 ET",
+      "status": "confirmed",
+      "sourceUrl": "https://www.nvidia.com/gtc/dc/",
+      "sourceLabel": "NVIDIA · official regional GTC schedule",
+      "sourceCheckedAt": "2026-10-15T13:04:39.747892+00:00",
+      "verifiedAt": "2026-10-15T13:04:39.747892+00:00",
+      "basis": "NVIDIA’s official regional event page separately schedules the CEO keynote on 2026-12-01 at 14:00 ET.",
+      "importance": "CEO announcements on AI platforms, infrastructure partnerships and the product roadmap.",
+      "sources": [
+        {
+          "label": "NVIDIA official regional GTC schedule",
+          "url": "https://www.nvidia.com/gtc/dc/",
+          "kind": "official",
+          "checkedAt": "2026-10-15T13:04:39.747892+00:00"
+        }
+      ]
     }
   ],
-  "verificationNote": "Six events manually verified from official sources. Other estimates and watch items remain unverified. Source retrieval is partial; see source-checks.json."
+  "verificationNote": "All 12 coverage companies have a day-level next earnings date: company-confirmed where verified, otherwise a cited public-calendar estimate. Past/current OCP and Anthropic investor-day editions are dated. No unsourced future-quarter month projections retained."
 }
