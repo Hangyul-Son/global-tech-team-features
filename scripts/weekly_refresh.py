@@ -256,7 +256,7 @@ def validate_change(change, current, searched, now, fetcher=None):
         raise RefreshError('Existing event identity cannot be reassigned.')
     if old and old['status'] == 'confirmed' and event['status'] != 'confirmed':
         raise RefreshError('A confirmed event cannot be downgraded automatically; review a reschedule manually.')
-    if old and (old.get('endDate') or old.get('date') or '9999') < (today - timedelta(days=14)).isoformat():
+    if old and (old.get('endDate') or old.get('date') or (old.get('timingWindow') or {}).get('end') or '9999') < (today - timedelta(days=14)).isoformat():
         raise RefreshError('Historical records require manual review and are preserved.')
     if not all(isinstance(event.get(k), str) and event[k].strip() for k in ('title','basis','importance','sourceUrl','sourceLabel')):
         raise RefreshError('Event text and provenance are required.')
@@ -269,6 +269,8 @@ def validate_change(change, current, searched, now, fetcher=None):
             raise RefreshError('Event ends before it starts.')
     elif event.get('endDate'):
         raise RefreshError('An endDate cannot be supplied without a start date.')
+    if event['type'] == 'Earnings' and not when:
+        raise RefreshError('Earnings require a published day-level date; report a gap instead of a guessed window.')
     window = event.get('timingWindow')
     if window:
         if when or event.get('endDate') or event['status'] == 'confirmed':

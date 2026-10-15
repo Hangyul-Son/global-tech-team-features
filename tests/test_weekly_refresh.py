@@ -248,6 +248,13 @@ class WeeklyRefreshTests(unittest.TestCase):
         with self.assertRaisesRegex(weekly.RefreshError, 'approximate window'):
             self.validate(change)
 
+    def test_earnings_need_a_published_day_not_a_guessed_month(self):
+        change = deepcopy(self.change)
+        change['event'].update(status='estimated', date=None,
+                               timingWindow={'start':'2026-11-01','end':'2026-11-30','label':'November','precision':'month'})
+        with self.assertRaisesRegex(weekly.RefreshError, 'published day-level date'):
+            self.validate(change)
+
     def test_preflight_reports_missing_configuration_without_secrets(self):
         with tempfile.TemporaryDirectory() as directory:
             report_path = Path(directory) / 'report.json'
