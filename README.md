@@ -97,7 +97,41 @@ The command never automatically modifies reviewed events or promotes a publicati
 
 The source-check report is linked from the website footer. Current reviewed earnings sources and their timestamps are also included in each event brief, including multiple sources where useful. Static publisher pages can lag; vendor estimates are not promises.
 
-There is no live licensed Bloomberg or Refinitiv API connection and no scheduled automatic event editing. Bloomberg reporting is attributed through public reporting; FT Markets' public forecasts page credits LSEG for data. Neither is represented as authenticated terminal access. The public read-only website is maintained through Codex, as requested.
+There is no live licensed Bloomberg or Refinitiv API connection. Bloomberg reporting is attributed through public reporting; FT Markets' public forecasts page credits LSEG for data. Neither is represented as authenticated terminal access. Visitors cannot edit events. Manual changes remain available through Codex; the weekly workflow below is the separately authorized automated maintenance path.
+
+## Weekly overnight research and email
+
+`.github/workflows/weekly-refresh.yml` schedules research every **Sunday at 02:00 Hong Kong time**, the night from Saturday to Sunday (`0 18 * * 6` in UTC). GitHub may delay scheduled jobs; this is a scheduled start, not a guaranteed completion time. Scheduled workflows run only from the repository's default branch. GitHub may disable schedules in inactive public repositories after 60 days; check the Actions page if updates stop. Successful weekly data commits normally keep this repository active.
+
+The researcher and independent reviewer both use **GPT-6 Astra (`gpt-6-astra`) with `reasoning.effort: max`**, OpenAI's current highest-capability general model and its highest documented reasoning setting. The policy is in `config/weekly-refresh.json`; no cheaper or lower-reasoning fallback is used. Model access, token usage and live web-search calls are billed to the supplied OpenAI API account, separately from ChatGPT/Codex subscriptions. Future model upgrades should be explicit policy changes after checking availability and capabilities.
+
+The workflow is installed but **cannot research, send email or be considered operational until its credentials have been configured and a real run has succeeded**. It does not reuse this chat's authentication. Add the following in [repository Actions secrets](https://github.com/Hangyul-Son/train-me-to-be-a-better-financial-analyst/settings/secrets/actions):
+
+| Name | Value |
+| --- | --- |
+| `OPENAI_API_KEY` | An [OpenAI API key](https://platform.openai.com/api-keys) with billing and access to `gpt-6-astra`, background Responses and web search. |
+| `RESEND_API_KEY` | A [Resend sending API key](https://resend.com/api-keys). |
+| `GLOBAL_TECH_EMAIL_FROM` | A sender authorized by Resend, such as `Global Tech <calendar@your-verified-domain.com>`. This may instead be an Actions variable with the same name. Receiving email at CLSA does not authorize sending as `@clsa.com`. |
+
+Never paste keys into chat, commit them, or put them in public `data/` files. Resend requires an authorized sender; its development sender has recipient restrictions. Verify sender/domain setup in Resend. The destination is fixed in code to **hangyul.son@clsa.com** and cannot be changed by model output or a web page.
+
+After adding configuration, open [Weekly Global Tech refresh in Actions](https://github.com/Hangyul-Son/train-me-to-be-a-better-financial-analyst/actions/workflows/weekly-refresh.yml), choose **Run workflow** on the default branch, and verify all three jobs (research, publish, email) succeed. Check that the note arrives. Provider acceptance does not prove inbox delivery; spam and corporate mail filtering can affect receipt. Once this test succeeds, the same workflow runs every week without an open browser or a running cloud development machine.
+
+Each run:
+
+1. Checks all 32 tracked companies in four research groups, plus a separate industry-conference search. It searches durable IR/news/organizer indexes and public estimate providers, rather than only revisiting old press releases. Research covers the recent 14 days and next 210 days, with separately labeled longer IPO windows.
+2. Requires every proposed source to have a contextual quotation from actual web research. Code independently retrieves and matches that quotation; first-party domains are required for official confirmations. Blocked, unreadable, redirected or conflicting evidence is held for review. Web pages and the model have no git, deployment or email tools.
+3. Runs a separate maximum-reasoning review of every proposal and every tracked company. Unsupported proposals are excluded. Published estimates stay tentative; times require UTC, an IANA source timezone and explicit clock evidence. Past records, stable event identities, the company universe and the original 12 coverage flags are preserved. No date is fabricated to fill a research gap.
+4. Validates the final dataset and application, protects intervening manual changes, commits only the two public data files, and deploys directly to Pages. A `GITHUB_TOKEN` commit does not trigger another push workflow, so direct deployment is intentional. Older queued snapshots cannot replace newer repository changes.
+5. Fetches the public dataset and compares its SHA-256 to the approved artifact before reporting publication. Then it emails the actual result, new/changed events with source links, and exceptions. Failed or blocked runs send a failure/blocked note when email credentials work; they never claim a successful update. Email errors fail the notification job visibly.
+
+Research reports, reviewed proposals, usage and exceptions are retained as GitHub run artifacts for 30 days. They are not published as website files. Only evidence actually approved gets a new verification timestamp; partial reviews retain the previous full-review timestamp. No model can guarantee error-free or exhaustive coverage, so unresolved items remain visible in the report.
+
+Offline checks for this automation are part of the normal Python test command. They mock API/email/network calls and do not incur API charges. To inspect an example note without sending:
+
+```sh
+python3 scripts/send_weekly_email.py --result blocked --dry-run
+```
 
 ## Public hosting
 

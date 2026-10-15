@@ -15,10 +15,11 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
+    if: github.ref_name == github.event.repository.default_branch
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -36,6 +37,16 @@ jobs:
           python3 scripts/build_site.py
 
       - name: Setup Pages
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          remote_sha=$(git ls-remote origin "refs/heads/$DEFAULT_BRANCH" | cut -f1)
+          if [ "$(git rev-parse HEAD)" != "$remote_sha" ]; then
+            echo 'A newer version is queued; this older snapshot will not be deployed.'
+            exit 1
+          fi
+
+      - name: Configure Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
