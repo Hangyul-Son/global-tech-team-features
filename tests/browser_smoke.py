@@ -18,10 +18,12 @@ with sync_playwright() as p:
     page.clock.install(time=datetime(2026,10,15,12,0,tzinfo=timezone.utc))
     page.goto('http://127.0.0.1:8000')
     expect(page.locator('#universe-count')).to_have_text('32')
-    expect(page.locator('.coverage-company')).to_have_count(19)
-    expect(page.locator('.universe-company')).to_have_count(13)
-    for name in ['Apple','Intel','Arm','Qualcomm','Snowflake','CrowdStrike','Palo Alto Networks']:
-        expect(page.locator('#coverage-list')).to_contain_text(name)
+    expect(page.locator('.coverage-company')).to_have_count(12)
+    expect(page.locator('.universe-company')).to_have_count(20)
+    expect(page.locator('#coverage-list')).to_contain_text('Apple')
+    for name in ['Meta','Intel','Arm','Qualcomm','Snowflake','CrowdStrike','Palo Alto Networks']:
+        expect(page.locator('#ecosystem-list')).to_contain_text(name)
+        expect(page.locator('#coverage-list')).not_to_contain_text(name)
     assert page.locator('#calendar-view').bounding_box()['y']<100
     expect(page.locator('.calendar-event')).to_have_count(occurrences)
     # Certainty controls the border, not whether a date is in the future.
@@ -134,7 +136,7 @@ with sync_playwright() as p:
     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
     expect(page.locator('#next-month')).to_be_hidden()
     page.locator('#open-universe').click()
-    expect(page.locator('#coverage-list')).to_contain_text('Palo Alto Networks')
+    expect(page.locator('#ecosystem-list')).to_contain_text('Palo Alto Networks')
     expect(page.locator('#ecosystem-list')).to_contain_text('OpenAI')
     page.locator('#close-universe').click()
     page.locator('#today-button').click()

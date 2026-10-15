@@ -18,7 +18,7 @@ class DatasetTests(unittest.TestCase):
 
     def test_exact_priority_universe(self):
         self.assertEqual({c['id'] for c in self.data['companies'] if c['coverage']},
-                         {'TSM','NVDA','AMD','AVGO','MRVL','AAPL','MSFT','ORCL','CRM','NOW','ADBE','WDAY','META','INTC','ARM','QCOM','SNOW','CRWD','PANW'})
+                         {'TSM','NVDA','AMD','AVGO','MRVL','AAPL','MSFT','ORCL','CRM','NOW','ADBE','WDAY'})
         self.assertEqual(len(self.companies), len(self.data['companies']))
         self.assertTrue({'ASML','LRCX','005930.KS','000660.KS','MU','2454.TW','AMZN','GOOGL','ANTHROPIC','CRWV','NBIS'} <= self.companies.keys())
 

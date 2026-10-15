@@ -289,7 +289,7 @@
       "id": "META",
       "name": "Meta",
       "sector": "Hyperscalers",
-      "coverage": true,
+      "coverage": false,
       "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
       "months": [
         1,
@@ -330,7 +330,7 @@
       "id": "INTC",
       "name": "Intel",
       "sector": "Semiconductors",
-      "coverage": true,
+      "coverage": false,
       "source": "https://www.intc.com/news-events/ir-calendar",
       "months": [],
       "thesis": "PC and server processors, foundry progress, AI inference and manufacturing capex."
@@ -339,7 +339,7 @@
       "id": "ARM",
       "name": "Arm",
       "sector": "Semiconductors",
-      "coverage": true,
+      "coverage": false,
       "source": "https://investors.arm.com/news-events/investor-events-presentations",
       "months": [],
       "thesis": "CPU royalties, licensing, data-center adoption and edge AI."
@@ -348,7 +348,7 @@
       "id": "QCOM",
       "name": "Qualcomm",
       "sector": "Semiconductors",
-      "coverage": true,
+      "coverage": false,
       "source": "https://investor.qualcomm.com/",
       "months": [],
       "thesis": "Mobile and automotive silicon, edge AI and licensing."
@@ -357,7 +357,7 @@
       "id": "SNOW",
       "name": "Snowflake",
       "sector": "Software & cloud",
-      "coverage": true,
+      "coverage": false,
       "source": "https://investors.snowflake.com/",
       "months": [],
       "thesis": "Data-cloud consumption, AI workloads and enterprise data spending."
@@ -366,7 +366,7 @@
       "id": "CRWD",
       "name": "CrowdStrike",
       "sector": "Cybersecurity",
-      "coverage": true,
+      "coverage": false,
       "source": "https://ir.crowdstrike.com/",
       "months": [],
       "thesis": "Endpoint and cloud security, platform consolidation and AI security."
@@ -375,7 +375,7 @@
       "id": "PANW",
       "name": "Palo Alto Networks",
       "sector": "Cybersecurity",
-      "coverage": true,
+      "coverage": false,
       "source": "https://investors.paloaltonetworks.com/",
       "months": [],
       "thesis": "Network/cloud security, platform adoption and enterprise budgets."
@@ -1923,5 +1923,5 @@
       "dateConflict": "Public timing commentary differs: 2027 in the retrieved NYT-based report versus late 2026/early 2027 in Zacks. No official listing date was verified."
     }
   ],
-  "verificationNote": "19 coverage companies, 13 wider tracked companies; sourced IPO windows remain distinct from exact dates. Additional MIT, Cloudflare and Oracle event schedules verified."
+  "verificationNote": "Original 12 coverage companies only; all 20 other tracked companies are research scope. Event dates, source evidence and timing windows are unchanged."
 }
