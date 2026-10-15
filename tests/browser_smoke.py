@@ -123,7 +123,7 @@ with sync_playwright() as p:
     page.keyboard.press('Escape')
     page.unroute('**/data/events.json')
     fixture=json.loads((ROOT/'data/events.json').read_text())
-    fixture['events'].append(dict(fixture['events'][0],id='test-multiday',title='Cross-month fixture',date='2026-09-30',endDate='2026-10-02'))
+    fixture['events'].append(dict(fixture['events'][0],id='test-multiday',title='Cross-month fixture',date='2026-09-30',endDate='2026-10-02',startAt=None,endAt=None))
     page.route('**/data/events.json',lambda r:r.fulfill(json=fixture))
     page.reload()
     expect(page.locator('.calendar-entry[data-event-id="test-multiday"]')).to_have_count(2)

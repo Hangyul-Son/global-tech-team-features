@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "asOf": "2026-10-15",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
   "lastAttempt": "2026-10-15T07:46:07.615401+00:00",
@@ -425,7 +425,12 @@
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-15T06:00:00Z",
+      "sourceTimeZone": "Asia/Taipei",
+      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCertainty": "verified",
+      "endAt": "2026-10-15T07:30:00Z"
     },
     {
       "id": "AMD-2026-11-earnings",
@@ -867,7 +872,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-11-02T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "NOW-2026-10-earnings",
@@ -894,7 +903,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-28T21:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "META-2026-10-earnings",
@@ -921,7 +934,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-21T20:30:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "GOOGL-2026-10-earnings",
@@ -948,7 +965,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-28T20:30:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "LRCX-2026-10-earnings",
@@ -975,7 +996,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-21T21:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "005930.KS-2026-10-earnings",
@@ -1002,7 +1027,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-29T01:00:00Z",
+      "sourceTimeZone": "Asia/Seoul",
+      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "000660.KS-2026-10-earnings",
@@ -1035,7 +1064,11 @@
           "kind": "calendar",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-28T00:00:00Z",
+      "sourceTimeZone": "Asia/Seoul",
+      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCertainty": "reported"
     },
     {
       "id": "2454.TW-2026-10-earnings",
@@ -1424,7 +1457,12 @@
           "kind": "official",
           "checkedAt": "2026-10-15T13:04:39.747892+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-21T09:00:00Z",
+      "sourceTimeZone": "Europe/Berlin",
+      "timeCheckedAt": "2026-10-15T13:04:39.747892+00:00",
+      "timeCertainty": "verified",
+      "endAt": "2026-10-21T11:00:00Z"
     },
     {
       "id": "gtc-dc-keynote",
@@ -1451,7 +1489,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T13:04:39.747892+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-12-01T19:00:00Z",
+      "sourceTimeZone": "America/New_York",
+      "timeCheckedAt": "2026-10-15T13:04:39.747892+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "CRWV-2026-11-earnings",
@@ -1538,7 +1580,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T14:42:26.060851+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-29T21:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "ARM-2026-11-earnings",
@@ -1565,7 +1611,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T14:42:26.060851+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-11-04T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "ARM-2027-02-earnings",
@@ -1646,7 +1696,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T14:42:26.060851+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-11-04T21:45:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "SNOW-2026-12-earnings",
@@ -1772,7 +1826,11 @@
           "kind": "official",
           "checkedAt": "2026-10-15T14:42:26.060851+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-11-05T22:00:00Z",
+      "sourceTimeZone": "America/New_York",
+      "timeCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "timeCertainty": "verified"
     },
     {
       "id": "mit-ai-2026",

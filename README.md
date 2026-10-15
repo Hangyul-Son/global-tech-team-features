@@ -1,4 +1,4 @@
-# Catalyst — technology earnings & events
+# Global Tech
 
 A public, read-only research calendar for semiconductor, software and AI infrastructure catalysts. Calendar and list views share the same dataset and filters. Visitors can browse, filter and open source briefs; there are no write endpoints, event editors or credentials in the client.
 
@@ -11,11 +11,13 @@ cd /workspace/train-me-to-be-a-better-financial-analyst
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Python 3.10+ is sufficient to serve, validate, build and refresh sources. There is no npm install or application build dependency. Node.js is used only for the optional JavaScript syntax check. Serve over HTTP; opening `index.html` directly does not support dataset fetching.
+Python 3.10+ is sufficient to serve, validate, build and refresh sources. There is no npm install or application build dependency. Node.js is used for JavaScript syntax and timezone/ICS checks in CI. Serve over HTTP; opening `index.html` directly does not support dataset fetching.
 
 ```sh
 python3 -m unittest discover -s tests -v
+node --check js/calendar-utils.js
 node --check js/events.js
+node --test tests/calendar-utils.test.cjs
 python3 scripts/build_site.py
 ```
 
@@ -25,6 +27,7 @@ Optional browser checks use Python Playwright and `/usr/bin/chromium`, already a
 
 ```sh
 python3 tests/browser_smoke.py
+python3 tests/timezone_export_smoke.py
 ```
 
 These checks exercise both views, priority filtering, source details, keyboard dismissal, empty states, safe text rendering, cross-month events and the mobile layout. They freeze the browser clock to the dataset's seed month. They do not validate external websites or licensed feeds.
@@ -41,9 +44,19 @@ The calendar/list switch is at the top, without a hero banner or statistics card
 
 Color is determined only by event type: blue for earnings, teal for conferences, purple for keynotes, amber for investor days and slate for IPO watches. Coverage adds a star, not a different background. Unconfirmed dates and timing windows (estimated, media-reported or unannounced) have dotted borders. Officially confirmed events have solid borders, including events in the future. This is independent of whether an event is past or upcoming. The legend spells out these meanings.
 
-The compact calendar shows only event titles and coverage stars; earnings use ticker labels. It omits source links, status/lifecycle text and call times from the grid. Hover for the full title or open an event brief for full timing and evidence. Timing-window cards are compact too. Every list row and undated watch item exposes all its evidence links, deduplicated by URL, without opening a dialog. Provider estimates link to the provider calendar; company announcements and event schedules link to their evidence. Opening a brief still shows status, check timestamps, source discrepancies and all sources. Outbound URLs must use HTTPS and are rendered safely.
+The compact calendar shows event titles, coverage stars and short clock times when verified; earnings use ticker labels. It omits source links and repeated status/lifecycle labels from the grid. Hover for the full title or open an event brief for full timing and evidence. Timing-window cards are compact too. Every list row and undated watch item exposes all its evidence links, deduplicated by URL, without opening a dialog. Provider estimates link to the provider calendar; company announcements and event schedules link to their evidence. Opening a brief still shows status, check timestamps, source discrepancies and all sources. Outbound URLs must use HTTPS and are rendered safely.
 
 CoreWeave's November 9 and Nebius's November 10, 2026 earnings dates are public provider estimates. They are not presented as officially confirmed dates.
+
+## Timezones and Outlook export
+
+Hong Kong (`Asia/Hong_Kong`) is the initial default, even if the browser runs elsewhere. The user can choose Browser timezone or a named city; the preference is saved locally in that browser. Verified UTC `startAt`/optional `endAt` values drive the displayed date, time, calendar cell and list ordering. For example, Apple's November 2, 2026 14:00 Pacific call is November 3 at 06:00 in Hong Kong. The original source date/time remains in its event brief. Conflicting AMD time wording remains unnormalized; estimated dates with no verified clock time remain date-only.
+
+To export, click **Select events**, check several events, then click **Download .ics**. **Select shown** selects the current filtered list or calendar month; **Clear selection** resets it. Selected events remain selected across views, months, filters and timezone changes. A multi-day conference shown on several calendar dates is selected and exported once. The website remains read-only: selection/export does not edit the public dataset.
+
+The generated RFC 5545 `.ics` uses stable event UIDs, UTC timestamps for timed calls, exclusive end dates for all-day ranges, CRLF line endings, escaped text and UTF-8-aware 75-octet folding. Outlook displays timed events in Outlook's own timezone. No unannounced duration is invented. Date-only events export as all-day markers. Forecasts and reports are marked tentative; month/year timing windows explicitly say TIMING WINDOW and export as transparent all-day ranges so they do not mark the user busy. Truly unsourced timing cannot be selected. Import or open the downloaded file in Outlook; this is a downloadable snapshot, not a subscription or an ongoing sync.
+
+Pure Node tests cover DST, cross-day/month/year conversion, source-time conflicts, all-day boundaries, stable IDs, deduplication, escaping, folding and uncertain-window semantics. Browser checks download actual files, test default Hong Kong on a simulated New York browser, and exercise mobile and desktop selection. Downloaded test files were also parsed with an independent iCalendar parser; access to a running Outlook client was not available.
 
 ## Data integrity and maintenance through Codex
 
@@ -58,7 +71,7 @@ Every dated entry includes `sourceCheckedAt`, `sourceUrl`, `sourceLabel`, a `sou
 
 All 12 coverage companies have a sourced day-level next earnings date as of October 15, 2026. Unsourced January–March reporting-month placeholders were removed. Do not fill future quarters by extrapolating cadence. Check a public provider or company announcement first.
 
-Dates and optional `endDate` use `YYYY-MM-DD` in the published event calendar. Full conference ranges and separately scheduled keynotes are distinct events. Times include their source timezone; the client does not invent UTC conversions. The today indicator uses Hong Kong time. Past scheduled dates stay in their historical month and display “Past date”; they cannot appear in the undated radar. The October 14 ASML results, October 14 Anthropic investor day, October 12–15 OCP edition and October 6 Marvell investor day are dated entries. Future GTC editions, CEO keynotes, Ignite and re:Invent use published schedules.
+Dates and optional `endDate` use `YYYY-MM-DD` in the published event calendar. Full conference ranges and separately scheduled keynotes are distinct events. Published clock times are normalized to UTC instants with an IANA source timezone. The client converts those instants and their dates to the selected timezone, accounting for daylight saving. Hong Kong is the default, with an explicit Browser timezone option and common cities. Date-only entries retain their published source date; a clock time or day rollover is never invented for them. The today indicator follows the selected timezone. Past scheduled dates stay in their historical month and display “Past date”; they cannot appear in the undated radar. The October 14 ASML results, October 14 Anthropic investor day, October 12–15 OCP edition and October 6 Marvell investor day are dated entries. Future GTC editions, CEO keynotes, Ignite and re:Invent use published schedules.
 
 Dates checked more than 14 days ago display a recheck label. Check timestamps prove a source review, not a guarantee that the schedule cannot change. Status labels distinguish estimates and media-reported dates without changing event-type colors.
 

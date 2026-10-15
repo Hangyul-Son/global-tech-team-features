@@ -30,7 +30,9 @@ jobs:
       - name: Validate dataset and prepare static site
         run: |
           python3 -m unittest discover -s tests -v
+          node --check js/calendar-utils.js
           node --check js/events.js
+          node --test tests/calendar-utils.test.cjs
           python3 scripts/build_site.py
 
       - name: Setup Pages

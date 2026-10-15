@@ -88,6 +88,22 @@ class DatasetTests(unittest.TestCase):
         self.assertEqual(estimates['NBIS']['date'],'2026-11-10')
         self.assertTrue(all(e['status']=='estimated' and e['verifiedAt'] is None for e in estimates.values()))
 
+    def test_normalized_times_have_source_zones_and_real_endpoints(self):
+        from zoneinfo import ZoneInfo
+        for event in self.data['events']:
+            if not event.get('startAt'):
+                continue
+            start=datetime.fromisoformat(event['startAt'].replace('Z','+00:00'))
+            source_zone=ZoneInfo(event['sourceTimeZone'])
+            self.assertEqual(start.astimezone(source_zone).date().isoformat(),event['date'])
+            self.assertIn(event['timeCertainty'],['verified','reported'])
+            self.assertTrue(event['timeCheckedAt'])
+            if event.get('endAt'):
+                self.assertGreater(datetime.fromisoformat(event['endAt'].replace('Z','+00:00')),start)
+        events={e['id']:e for e in self.data['events']}
+        self.assertNotIn('startAt',events['AMD-2026-11-earnings'], 'Do not silently resolve the source DST-label conflict')
+        self.assertNotIn('startAt',events['NVDA-2026-11-earnings'], 'Do not invent a clock time for a date estimate')
+
     def test_windows_never_assert_exact_event_dates(self):
         events={e['id']:e for e in self.data['events']}
         for event in self.data['events']:
