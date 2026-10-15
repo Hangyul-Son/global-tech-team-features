@@ -18,9 +18,9 @@ class DatasetTests(unittest.TestCase):
 
     def test_exact_priority_universe(self):
         self.assertEqual({c['id'] for c in self.data['companies'] if c['coverage']},
-                         {'TSM','NVDA','AMD','AVGO','MRVL','AAPL','MSFT','ORCL','CRM','NOW','ADBE','WDAY'})
+                         {'TSM','NVDA','AMD','AVGO','MRVL','AAPL','MSFT','ORCL','CRM','NOW','ADBE','WDAY','META'})
         self.assertEqual(len(self.companies), len(self.data['companies']))
-        self.assertTrue({'ASML','LRCX','005930.KS','000660.KS','MU','2454.TW','AMZN','GOOGL','META','ANTHROPIC'} <= self.companies.keys())
+        self.assertTrue({'ASML','LRCX','005930.KS','000660.KS','MU','2454.TW','AMZN','GOOGL','ANTHROPIC','CRWV','NBIS'} <= self.companies.keys())
 
     def test_dates_have_honest_precision_and_provenance(self):
         ids = set()
@@ -75,6 +75,18 @@ class DatasetTests(unittest.TestCase):
             self.assertTrue(next_events,ticker)
             self.assertTrue(all(e['sourceCheckedAt'] and e['sources'] and e['window'] is None for e in next_events))
         self.assertFalse(any(e.get('window') for e in self.data['events']), 'Unsourced month placeholders must not return')
+
+    def test_each_event_exposes_valid_evidence(self):
+        for event in self.data['events']:
+            self.assertTrue(event['sourceLabel'])
+            self.assertTrue(event['sources'])
+            for evidence in event['sources']:
+                self.assertEqual(urlsplit(evidence['url']).scheme,'https')
+                self.assertTrue(evidence['label'])
+        estimates={e['companies'][0]:e for e in self.data['events'] if e['companies'][0] in ['CRWV','NBIS']}
+        self.assertEqual(estimates['CRWV']['date'],'2026-11-09')
+        self.assertEqual(estimates['NBIS']['date'],'2026-11-10')
+        self.assertTrue(all(e['status']=='estimated' and e['verifiedAt'] is None for e in estimates.values()))
 
     def test_current_editions_are_not_undated_watch_items(self):
         events={e['id']:e for e in self.data['events']}

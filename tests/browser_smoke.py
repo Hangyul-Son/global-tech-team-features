@@ -19,8 +19,14 @@ with sync_playwright() as p:
     errors=[]
     page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto('http://127.0.0.1:8000')
-    expect(page.locator('#universe-count')).to_have_text('22')
-    expect(page.locator('.coverage-company')).to_have_count(12)
+    expect(page.locator('#universe-count')).to_have_text('24')
+    expect(page.locator('.coverage-company')).to_have_count(13)
+    expect(page.locator('.universe-company')).to_have_count(11)
+    expect(page.locator('#coverage-list')).to_contain_text('Meta')
+    expect(page.locator('#ecosystem-list')).to_contain_text('CoreWeave')
+    expect(page.locator('#ecosystem-list')).to_contain_text('Nebius')
+    assert page.locator('#calendar-view').bounding_box()['y'] < 100, 'View controls must be near the top'
+    assert page.locator('.page-heading, .metrics, a[href="research.html"]').count() == 0
     # Navigate deterministically to the seed month, even on future machines.
     page.clock.install(time=__import__('datetime').datetime(2026,10,15,12,0,tzinfo=__import__('datetime').timezone.utc))
     page.reload()
@@ -52,7 +58,7 @@ with sync_playwright() as p:
     expect(page.locator('#month-label')).to_have_text('November 2026')
     expect(page.locator('.list-table')).to_contain_text('AMD Q3 financial results')
     page.locator('#search').fill('NVIDIA')
-    page.get_by_role('button',name='NVIDIA earnings',exact=True).click()
+    page.locator('.list-table tr[data-event-id="NVDA-2026-11-earnings"] .event-name').click()
     expect(page.locator('#event-detail')).to_contain_text('18 Nov 2026')
     expect(page.locator('#event-detail')).to_contain_text('Unconfirmed estimate')
     expect(page.locator('#event-detail')).to_contain_text('MarketBeat')
@@ -81,7 +87,7 @@ with sync_playwright() as p:
     page.route('**/data/events.json',lambda route:route.fulfill(json=hostile))
     page.reload()
     page.locator('#list-view').click()
-    page.get_by_role('button',name='<img src=x onerror=alert(1)>',exact=True).click()
+    page.locator(f'.list-table tr[data-event-id="{hostile["events"][0]["id"]}"] .event-name').click()
     expect(page.locator('#event-detail img')).to_have_count(0)
     expect(page.locator('#event-detail .source-link')).to_have_count(0)
     page.keyboard.press('Escape')
@@ -95,15 +101,55 @@ with sync_playwright() as p:
     expect(page.locator('.calendar-event').filter(has_text='Cross-month fixture')).to_have_count(2)
     page.unroute('**/data/events.json')
     page.reload()
+    # Every dated event and every cited link is accessible directly in list view.
+    page.locator('#list-view').click()
+    seen=set()
+    for iteration in range(6):
+        for row in page.locator('.list-table tbody tr').all():
+            event_id=row.get_attribute('data-event-id')
+            event=next(e for e in dataset['events'] if e['id']==event_id)
+            seen.add(event_id)
+            actual=row.locator('.event-sources a').evaluate_all('(links)=>links.map(a=>a.href)')
+            expected=page.evaluate('(entries)=>[...new Set(entries.map(e=>new URL(e.url).href))]',[{'url':event['sourceUrl']},*event['sources']])
+            assert set(actual)==set(expected),(event_id,actual,expected)
+            assert row.locator('.event-sources a[target="_blank"]').count()==len(actual)
+            assert row.locator('button .event-star').count()==int(priority(event))
+        page.locator('#next-month').click()
+    assert seen=={e['id'] for e in dataset['events'] if e['date']}, 'A dated event was omitted from list navigation'
+    for card in page.locator('.radar-card').all():
+        assert card.locator('.event-sources a').count()>0, 'An undated watch item has no visible evidence'
+    page.locator('#today-button').click()
+    page.locator('#calendar-view').click()
+    assert page.locator('.calendar-source').count()==occurrences
+    for entry in page.locator('.calendar-entry').all():
+        event=next(e for e in dataset['events'] if e['id']==entry.get_attribute('data-event-id'))
+        assert entry.locator('.calendar-source').get_attribute('href')==event['sourceUrl']
+        style=entry.evaluate('(el)=>getComputedStyle(el).borderTopStyle')
+        assert style==('dotted' if event['date']>'2026-10-15' else 'solid'),(event['id'],style)
+    # Type color does not change when the event belongs to coverage.
+    calendar_colors=page.locator('.calendar-entry.kind-earnings').evaluate_all('(els)=>els.map(el=>getComputedStyle(el).backgroundColor)')
+    assert len(set(calendar_colors))==1
     page.screenshot(path='/tmp/catalyst-desktop.png',full_page=True)
+    page.locator('#list-view').click()
+    page.screenshot(path='/tmp/catalyst-list.png',full_page=True)
+    page.locator('#calendar-view').click()
     page.set_viewport_size({'width':390,'height':844})
     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Mobile document overflows'
     assert page.locator('#universe').bounding_box()['width'] >= 85, 'Mobile filters are too narrow'
+    assert page.locator('#calendar-view').bounding_box()['y'] < 100
+    page.locator('#open-universe').click()
+    expect(page.locator('#sidebar')).to_be_visible()
+    expect(page.locator('#ecosystem-list')).to_contain_text('Nebius')
+    page.locator('#close-universe').click()
+    expect(page.locator('#open-universe')).to_have_attribute('aria-expanded','false')
     page.locator('#list-view').click()
     expect(page.locator('.list-table')).to_be_visible()
+    for row in page.locator('.list-table tbody tr').all():
+        expect(row.locator('.event-sources a').first).to_be_visible()
     page.locator('.event-name').first.click()
     expect(page.locator('#event-dialog')).to_be_visible()
     page.keyboard.press('Escape')
+    page.screenshot(path='/tmp/catalyst-mobile-list.png',full_page=True)
     page.locator('#calendar-view').click()
     page.screenshot(path='/tmp/catalyst-mobile.png',full_page=True)
     assert not errors,errors

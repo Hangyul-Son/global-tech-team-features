@@ -19,7 +19,7 @@ node --check js/events.js
 python3 scripts/build_site.py
 ```
 
-The build writes ignored `_site/` assets. Existing finance research is preserved in `research.html`, and the Chinese learning application remains in `chinese.html`.
+The build writes ignored `_site/` assets. Only the earnings and events application is published. The former research library, semiconductor article and Chinese-learning application have been removed. The build recreates `_site` to prevent removed pages from remaining in the public artifact.
 
 Optional browser checks use Python Playwright and `/usr/bin/chromium`, already available in the current cloud machine. With the server running:
 
@@ -31,9 +31,19 @@ These checks exercise both views, priority filtering, source details, keyboard d
 
 ## Coverage
 
-The 12 priority companies are TSMC (TSM), NVIDIA, AMD, Broadcom, Marvell Technology, Apple, Microsoft, Oracle, Salesforce, ServiceNow, Adobe and Workday. Gold stars and borders identify their events in both views and event briefs. Multi-company events are priority events if at least one covered company participates.
+The 13 priority companies are TSMC (TSM), NVIDIA, AMD, Broadcom, Marvell Technology, Apple, Microsoft, Oracle, Salesforce, ServiceNow, Adobe, Workday and Meta. Stars identify their events in both views and event briefs. Multi-company events are priority events if at least one covered company participates.
 
-The wider universe includes ASML, Lam Research, Samsung, SK hynix, Micron, MediaTek, Amazon, Alphabet, Meta and Anthropic. Hyperscaler earnings are included for capex context. GTC, OCP, re:Invent, Ignite, investor days and a potential Anthropic IPO are monitoring targets. An undated watch item does not assert that an event or IPO is scheduled. Dividends and routine corporate actions are not seeded.
+The wider universe includes ASML, Lam Research, Samsung, SK hynix, Micron, MediaTek, Amazon, Alphabet, Anthropic, CoreWeave and Nebius. Hyperscaler earnings are included for capex context. GTC, OCP, re:Invent, Ignite, investor days and a potential Anthropic IPO are monitoring targets. An undated watch item does not assert that an event or IPO is scheduled. Dividends and routine corporate actions are not seeded.
+
+## Browsing and presentation
+
+The calendar/list switch and month controls are at the top, without a hero banner or statistics cards. The sidebar lists every tracked company in two sections: 13 starred coverage companies and 11 other companies in the research universe. On mobile, the company-universe menu exposes the same lists without pushing the calendar down.
+
+Color is determined only by event type: blue for earnings, teal for conferences, purple for keynotes, amber for investor days and slate for IPO watches. Coverage adds a star, not a different background. Future-starting events have a dotted border in calendar and list views regardless of whether the date is confirmed or estimated. Past and current dates have solid borders. The legend spells out these meanings.
+
+Every calendar entry has a direct source link. Every list row and undated watch item exposes all its evidence links, deduplicated by URL, without opening a dialog. Provider estimates link to the provider calendar; company announcements and event schedules link to their evidence. Opening a brief still shows status, check timestamps, source discrepancies and all sources. Outbound URLs must use HTTPS and are rendered safely.
+
+CoreWeave's November 9 and Nebius's November 10, 2026 earnings dates are public provider estimates. They are not presented as officially confirmed dates.
 
 ## Data integrity and maintenance through Codex
 
@@ -46,11 +56,11 @@ The wider universe includes ASML, Lam Research, Samsung, SK hynix, Micron, Media
 
 Every dated entry includes `sourceCheckedAt`, `sourceUrl`, `sourceLabel`, a `sources` array and a rationale. `dateConflict`, when present, exposes discrepancies in the event brief. Official company announcements override older provider estimates. Examples found in this review include official ServiceNow after-close timing versus a vendor's before-open label; an AMD timezone label requiring verification; MediaTek calendars disagreeing; and ASML provider confirmation flags disagreeing.
 
-All 12 coverage companies have a sourced day-level next earnings date as of October 15, 2026. Unsourced January–March reporting-month placeholders were removed. Do not fill future quarters by extrapolating cadence. Check a public provider or company announcement first.
+All 13 coverage companies have a sourced day-level next earnings date as of October 15, 2026. Unsourced January–March reporting-month placeholders were removed. Do not fill future quarters by extrapolating cadence. Check a public provider or company announcement first.
 
 Dates and optional `endDate` use `YYYY-MM-DD` in the published event calendar. Full conference ranges and separately scheduled keynotes are distinct events. Times include their source timezone; the client does not invent UTC conversions. The today indicator uses Hong Kong time. Past scheduled dates stay in their historical month and display “Past date”; they cannot appear in the undated radar. The October 14 ASML results, October 14 Anthropic investor day, October 12–15 OCP edition and October 6 Marvell investor day are dated entries. Future GTC editions, CEO keynotes, Ignite and re:Invent use published schedules.
 
-Dates checked more than 14 days ago display a recheck label. Check timestamps prove a source review, not a guarantee that the schedule cannot change. “Dates to verify” counts estimates and media-reported dates.
+Dates checked more than 14 days ago display a recheck label. Check timestamps prove a source review, not a guarantee that the schedule cannot change. Status labels distinguish estimates and media-reported dates without changing event-type colors.
 
 ### Check public sources
 

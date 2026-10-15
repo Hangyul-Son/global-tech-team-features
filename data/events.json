@@ -289,7 +289,7 @@
       "id": "META",
       "name": "Meta",
       "sector": "Hyperscalers",
-      "coverage": false,
+      "coverage": true,
       "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
       "months": [
         1,
@@ -307,6 +307,24 @@
       "source": "https://www.anthropic.com/news",
       "months": [],
       "thesis": "Model economics, cloud partnerships and AI compute demand."
+    },
+    {
+      "id": "CRWV",
+      "name": "CoreWeave",
+      "sector": "AI cloud infrastructure",
+      "coverage": false,
+      "source": "https://investors.coreweave.com/events-and-presentations/default.aspx",
+      "months": [],
+      "thesis": "GPU cloud demand, contracted capacity, infrastructure capex and financing."
+    },
+    {
+      "id": "NBIS",
+      "name": "Nebius",
+      "sector": "AI cloud infrastructure",
+      "coverage": false,
+      "source": "https://nebius.com/investor-hub",
+      "months": [],
+      "thesis": "GPU cloud demand, contracted capacity, infrastructure capex and financing."
     }
   ],
   "events": [
@@ -1348,7 +1366,67 @@
           "checkedAt": "2026-10-15T13:04:39.747892+00:00"
         }
       ]
+    },
+    {
+      "id": "CRWV-2026-11-earnings",
+      "companies": [
+        "CRWV"
+      ],
+      "title": "CoreWeave earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-11-09",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://stockanalysis.com/stocks/crwv/",
+      "sourceLabel": "Stock Analysis · published estimate",
+      "sourceCheckedAt": "2026-10-15T14:02:20.217352+00:00",
+      "verifiedAt": null,
+      "basis": "Stock Analysis publishes 2026-11-09 as the next estimated earnings date. This is a provider estimate, not a company-confirmed date. The official investor page is linked for monitoring, not as evidence for this estimate.",
+      "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
+      "sources": [
+        {
+          "label": "Stock Analysis · published estimate",
+          "url": "https://stockanalysis.com/stocks/crwv/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:02:20.217352+00:00"
+        }
+      ]
+    },
+    {
+      "id": "NBIS-2026-11-earnings",
+      "companies": [
+        "NBIS"
+      ],
+      "title": "Nebius earnings",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2026-11-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+      "sourceLabel": "MarketBeat · published estimate",
+      "sourceCheckedAt": "2026-10-15T14:02:20.217352+00:00",
+      "verifiedAt": null,
+      "basis": "MarketBeat publishes 2026-11-10 as the next estimated earnings date. This is a provider estimate, not a company-confirmed date. The official investor page is linked for monitoring, not as evidence for this estimate.",
+      "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
+      "sources": [
+        {
+          "label": "MarketBeat · published estimate",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:02:20.217352+00:00"
+        },
+        {
+          "label": "Stock Analysis · estimated earnings",
+          "url": "https://stockanalysis.com/stocks/nbis/",
+          "kind": "estimate",
+          "checkedAt": "2026-10-15T14:02:20.217352+00:00"
+        }
+      ]
     }
   ],
-  "verificationNote": "All 12 coverage companies have a day-level next earnings date: company-confirmed where verified, otherwise a cited public-calendar estimate. Past/current OCP and Anthropic investor-day editions are dated. No unsourced future-quarter month projections retained."
+  "verificationNote": "13 coverage companies including Meta; CoreWeave and Nebius added to the wider tracked universe with sourced estimated earnings dates. Every event carries public evidence links."
 }

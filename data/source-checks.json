@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-15T13:05:46.544232+00:00",
-  "successfulSources": 50,
-  "totalSources": 51,
+  "checkedAt": "2026-10-15T14:06:23.437209+00:00",
+  "successfulSources": 55,
+  "totalSources": 56,
   "note": "Published estimates are staged separately and remain unconfirmed. Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged.",
   "sources": [
     {
@@ -2840,6 +2840,24 @@
       "candidates": []
     },
     {
+      "url": "https://investors.coreweave.com/events-and-presentations/default.aspx",
+      "companies": [
+        "CRWV"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
+      "url": "https://nebius.com/investor-hub",
+      "companies": [
+        "NBIS"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": null,
+      "candidates": []
+    },
+    {
       "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
       "companies": [
         "NVDA"
@@ -2855,7 +2873,7 @@
       "candidates": [
         {
           "dateText": "NVIDIA issued Q2 2027 earnings on August 26, 2026, reporting an EPS of",
-          "evidence": "Short Interest | NVIDIA Earnings Summary | NVIDIA issued Q2 2027 earnings on August 26, 2026, reporting an EPS of | $2.22 | , which beat analysts' consensus estimates of | $2.09 | by",
+          "evidence": "Short Interest | NVIDIA Earnings Summary | NVIDIA issued Q2 2027 earnings on August 26, 2026, reporting an EPS of | $2.22 | , which topped the consensus estimate of | $2.09 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2882,8 +2900,8 @@
       },
       "candidates": [
         {
-          "dateText": "Broadcom announced Q3 2026 earnings on September 2, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Broadcom Earnings Summary | Broadcom announced Q3 2026 earnings on September 2, 2026, reporting an EPS of | $3.32 | , which topped the consensus estimate of | $3.22 | by",
+          "dateText": "Broadcom posted Q3 2026 earnings on September 2, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Broadcom Earnings Summary | Broadcom posted Q3 2026 earnings on September 2, 2026, reporting an EPS of | $3.32 | , which topped analysts' consensus estimates of | $3.22 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2910,8 +2928,8 @@
       },
       "candidates": [
         {
-          "dateText": "Marvell Technology posted Q2 2027 earnings on August 27, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Marvell Technology Earnings Summary | Marvell Technology posted Q2 2027 earnings on August 27, 2026, reporting an EPS of | $0.94 | , which topped the consensus estimate of | $0.93 | by",
+          "dateText": "Marvell Technology issued Q2 2027 earnings on August 27, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Marvell Technology Earnings Summary | Marvell Technology issued Q2 2027 earnings on August 27, 2026, reporting an EPS of | $0.94 | , which beat the consensus estimate of | $0.93 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2938,8 +2956,8 @@
       },
       "candidates": [
         {
-          "dateText": "Oracle released Q1 2027 earnings on September 10, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Oracle Earnings Summary | Oracle released Q1 2027 earnings on September 10, 2026, reporting an EPS of | $1.92 | , which topped the consensus estimate of | $1.74 | by",
+          "dateText": "Oracle announced Q1 2027 earnings on September 10, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Oracle Earnings Summary | Oracle announced Q1 2027 earnings on September 10, 2026, reporting an EPS of | $1.92 | , which beat analysts' consensus estimates of | $1.74 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2966,8 +2984,8 @@
       },
       "candidates": [
         {
-          "dateText": "Salesforce released Q2 2027 earnings on August 26, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Salesforce Earnings Summary | Salesforce released Q2 2027 earnings on August 26, 2026, reporting an EPS of | $5.90 | , which topped analysts' consensus estimates of | $3.27 | by",
+          "dateText": "Salesforce posted Q2 2027 earnings on August 26, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Salesforce Earnings Summary | Salesforce posted Q2 2027 earnings on August 26, 2026, reporting an EPS of | $5.90 | , which beat the consensus estimate of | $3.27 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -2994,8 +3012,8 @@
       },
       "candidates": [
         {
-          "dateText": "Adobe issued Q3 2026 earnings on September 10, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Adobe Earnings Summary | Adobe issued Q3 2026 earnings on September 10, 2026, reporting an EPS of | $6.13 | , which topped analysts' consensus estimates of | $6.08 | by",
+          "dateText": "Adobe announced Q3 2026 earnings on September 10, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Adobe Earnings Summary | Adobe announced Q3 2026 earnings on September 10, 2026, reporting an EPS of | $6.13 | , which topped the consensus estimate of | $6.08 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3023,7 +3041,7 @@
       "candidates": [
         {
           "dateText": "Workday announced Q2 2027 earnings on August 27, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Workday Earnings Summary | Workday announced Q2 2027 earnings on August 27, 2026, reporting an EPS of | $2.75 | , which topped the consensus estimate of | $2.61 | by",
+          "evidence": "Short Interest | Workday Earnings Summary | Workday announced Q2 2027 earnings on August 27, 2026, reporting an EPS of | $2.75 | , which beat analysts' consensus estimates of | $2.61 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3050,8 +3068,8 @@
       },
       "candidates": [
         {
-          "dateText": "Micron Technology announced Q4 2026 earnings on September 30, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Micron Technology Earnings Summary | Micron Technology announced Q4 2026 earnings on September 30, 2026, reporting an EPS of | $33.42 | , which topped the consensus estimate of | $31.77 | by",
+          "dateText": "Micron Technology posted Q4 2026 earnings on September 30, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Micron Technology Earnings Summary | Micron Technology posted Q4 2026 earnings on September 30, 2026, reporting an EPS of | $33.42 | , which topped analysts' consensus estimates of | $31.77 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3078,8 +3096,8 @@
       },
       "candidates": [
         {
-          "dateText": "Amazon.com announced Q2 2026 earnings on July 30, 2026, reporting an EPS of",
-          "evidence": "Short Interest | Amazon.com Earnings Summary | Amazon.com announced Q2 2026 earnings on July 30, 2026, reporting an EPS of | $5.75 | , which beat analysts' consensus estimates of | $1.82 | by",
+          "dateText": "Amazon.com issued Q2 2026 earnings on July 30, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Amazon.com Earnings Summary | Amazon.com issued Q2 2026 earnings on July 30, 2026, reporting an EPS of | $5.75 | , which topped analysts' consensus estimates of | $1.82 | by",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3269,6 +3287,62 @@
       ]
     },
     {
+      "url": "https://stockanalysis.com/stocks/crwv/",
+      "companies": [
+        "CRWV"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-09",
+        "sourceUrl": "https://stockanalysis.com/stocks/crwv/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Nov 9, 2026",
+          "evidence": "141.47 (+133.99%) | Est. Earnings | Nov 9, 2026 | About CRWV | CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States. The company offers CoreWeave Cloud platform that comprises proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence (AI) infrastructure at scale. It also offers data and storage solutions, such as Local Object Transport Accelerator; infrastructure control solutions, including CoreWeave Kubernetes service; mission control services, including node, rack, and fleet lifecycle manageme... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Mar 28, 2025",
+          "evidence": "Technology | IPO Date | Mar 28, 2025 | Employees | 2,189 | Stock Exchange | Nasdaq",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+      "companies": [
+        "NBIS"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-10",
+        "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Nebius Group announced Q2 2026 earnings on August 13, 2026, reporting an EPS of",
+          "evidence": "Short Interest | Nebius Group Earnings Summary | Nebius Group announced Q2 2026 earnings on August 13, 2026, reporting an EPS of | -$0.12 | , which topped analysts' consensus estimates of | -$0.67 | by",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "Nebius Group's Q3 2026 earnings is estimated for Tuesday, November 10, 2026, based on past reporting schedules, with a conference call scheduled at 8:00 AM ET. Check back for transcripts, audio, and key financial metrics as they become available.",
+          "evidence": "Press Release (6-K) | NBIS Upcoming Earnings | Nebius Group's Q3 2026 earnings is estimated for Tuesday, November 10, 2026, based on past reporting schedules, with a conference call scheduled at 8:00 AM ET. Check back for transcripts, audio, and key financial metrics as they become available. | Q3 2026 Earnings Report | Powered by | Get Nebius Group Earnings Alerts | Want to stay updated on the latest earnings announcements and upcoming reports? Sign up for",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
       "url": "https://stockanalysis.com/stocks/nvda/",
       "companies": [
         "NVDA"
@@ -3284,7 +3358,7 @@
       "candidates": [
         {
           "dateText": "Nov 18, 2026",
-          "evidence": "328.72 (+48.54%) | Est. Earnings | Nov 18, 2026 | About NVDA | NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs fo... | [Read more] | Industry",
+          "evidence": "328.72 (+52.62%) | Est. Earnings | Nov 18, 2026 | About NVDA | NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs fo... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }
@@ -3306,7 +3380,7 @@
       "candidates": [
         {
           "dateText": "Dec 1, 2026",
-          "evidence": "339.36 (+38.36%) | Est. Earnings | Dec 1, 2026 | About MRVL | Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and ... | [Read more] | Industry",
+          "evidence": "339.36 (+46.76%) | Est. Earnings | Dec 1, 2026 | About MRVL | Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and ... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3334,7 +3408,7 @@
       "candidates": [
         {
           "dateText": "Dec 2, 2026",
-          "evidence": "285.68 (+21.08%) | Est. Earnings | Dec 2, 2026 | About CRM | Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Servi... | [Read more] | Industry",
+          "evidence": "285.68 (+17.25%) | Est. Earnings | Dec 2, 2026 | About CRM | Salesforce, Inc. provides customer relationship management technology services that connect companies and customers together in the United States, Europe, and the Asia Pacific. The company offers Agentforce, which enables customers to build, deploy, and manage enterprise-grade, autonomous AI agents at scale, enabling humans and agents to work together; Agentforce Sales, an integrated platform that brings together the power of humans with AI agents to help sales teams for selling, managing, and automating entire sales processes; Agentforce Servi... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3362,7 +3436,7 @@
       "candidates": [
         {
           "dateText": "Nov 24, 2026",
-          "evidence": "208.10 (+10.24%) | Est. Earnings | Nov 24, 2026 | About WDAY | Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, and management insights; perform financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides spend management solutions that help organizations to strea... | [Read more] | Industry",
+          "evidence": "208.10 (+4.44%) | Est. Earnings | Nov 24, 2026 | About WDAY | Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, and management insights; perform financial consolidation; reduce time-to-close; promote internal control and auditability; and achieve consistency across finance operations. It also provides spend management solutions that help organizations to strea... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
@@ -3396,7 +3470,7 @@
       "candidates": [
         {
           "dateText": "Oct 29, 2026",
-          "evidence": "331.46 (+30.46%) | Est. Earnings | Oct 29, 2026 | About AMZN | Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and ... | [Read more] | Industry",
+          "evidence": "331.46 (+31.62%) | Est. Earnings | Oct 29, 2026 | About AMZN | Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, International, and Amazon Web Services (AWS). It also manufactures and sells electronic devices, including Kindle, fire tablets, fire TVs, echo, ring, blink, and eero; and develops and produces media content. In addition, the company offers programs that enable sellers to sell their products in its stores; and ... | [Read more] | Industry",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }
@@ -3466,13 +3540,13 @@
       "candidates": [
         {
           "dateText": "earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following it",
-          "evidence": "ASML last | reported | earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has not drifted away. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature",
+          "evidence": "ASML last | reported | earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has drifted -2.4% lower. From the time it announced earnings, ASML traded in a range between 1594.03 and 1623.67. The last price (1609.84) is closer to the higher end of range. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
           "dateText": "ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates).",
-          "evidence": "earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has not drifted away. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature | Login | |",
+          "evidence": "earnings on October 14, 2026 before the market opened (BMO). The company held a conference call for investors at 9:00 AM eastern on the same day. ASML shares declined -3.9% the day following the earnings announcement to close at 1650.00. Following its earnings release, 1 day ago, ASML stock has drifted -2.4% lower. From the time it announced earnings, ASML traded in a range between 1594.03 and 1623.67. The last price (1609.84) is closer to the higher end of range. | Next ASML Earnings Date: | ASML is estimated to announce earnings between January 27, 2027 and January 29, 2027 (the company has not announced a date yet and the estimate is based on historical earnings dates). | Download Now | Premium Feature | Login | |",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }
@@ -3487,14 +3561,42 @@
       "publishedEstimate": null,
       "candidates": [
         {
-          "dateText": "Wednesday, October 14, 2026",
-          "evidence": "Anthropic IPO: Oct 14 Investor Day, S-1 Still Not Public | Skip to content | Wednesday, October 14, 2026 | Facebook-f | Youtube | Linkedin-in | Rss",
+          "dateText": "Thursday, October 15, 2026",
+          "evidence": "Anthropic IPO: Oct 14 Investor Day, S-1 Still Not Public | Skip to content | Thursday, October 15, 2026 | Facebook-f | Youtube | Linkedin-in | Rss",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         },
         {
           "dateText": "Anthropic officially announced on June 1, 2026, that it had confidentially submitted a draft Form S-1 registration statement to the US Securities and Exchange Commission.",
           "evidence": "US securities rules permit qualifying test-the-waters discussions with institutional investors before a registration statement becomes public. Consequently, the October 14 event would not necessarily trigger the disclosure deadline that applies to a formal roadshow. | Anthropic’s Confidential S-1 Was Submitted on June 1 | Anthropic officially announced on June 1, 2026, that it had confidentially submitted a draft Form S-1 registration statement to the US Securities and Exchange Commission. | The company said the submission would allow it to pursue an IPO following SEC review, subject to market conditions and other considerations. Neither the number of shares to be offered nor the proposed offering price had been determined. | As of October 11, a publicly accessible Anthropic S-1 could not be located in the available EDGAR records, 132 days after the original confidential submission. | That does not mean regulators have stopped reviewing the filing. Confidential submissions allow companies to address SEC comments without immediately disclosing their financial statements and risk factors to the public. | However, it leaves prospective retail investors without the complete registration statement needed to evaluate the business on the same documentary basis as institutional participants.",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        }
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/nbis/",
+      "companies": [
+        "NBIS"
+      ],
+      "status": "retrieved",
+      "publishedEstimate": {
+        "date": "2026-11-10",
+        "sourceUrl": "https://stockanalysis.com/stocks/nbis/",
+        "status": "estimated",
+        "reviewStatus": "needs_review",
+        "basis": "Explicitly published provider estimate; not a company confirmation."
+      },
+      "candidates": [
+        {
+          "dateText": "Nov 10, 2026",
+          "evidence": "283.60 (+70.13%) | Est. Earnings | Nov 10, 2026 | About NBIS | Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It h... | [Read more] | Industry",
+          "status": "needs_review",
+          "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
+        },
+        {
+          "dateText": "May 24, 2011",
+          "evidence": "Communication Services | IPO Date | May 24, 2011 | Employees | 1,543 | Stock Exchange | Nasdaq",
           "status": "needs_review",
           "warning": "May be a publication date, past event, or fiscal period. Verify the actual event date before approval."
         }

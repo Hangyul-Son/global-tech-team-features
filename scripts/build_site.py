@@ -6,8 +6,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / '_site'
 if DEST.is_symlink():
     raise SystemExit('Refusing to write through a symlink at _site')
-DEST.mkdir(exist_ok=True)
-for name in ['index.html', 'research.html', 'chinese.html', 'articles', 'css', 'js', 'data']:
+if DEST.exists():
+    shutil.rmtree(DEST)
+DEST.mkdir()
+for name in ['index.html', 'css', 'js', 'data']:
     source, target = ROOT / name, DEST / name
     if source.is_dir():
         shutil.copytree(source, target, dirs_exist_ok=True)
