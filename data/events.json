@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-10-15",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-18T17:03:00.379Z",
+  "lastAttempt": "2026-10-18T17:04:46.037Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -813,20 +813,26 @@
       "companies": [
         "AMZN"
       ],
-      "title": "Amazon earnings",
+      "title": "Amazon Q3 2026 results conference call",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-10-29",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-10-29 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "time": "Call: 14:00 Pacific / 17:00 Eastern",
+      "sourceUrl": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+      "sourceLabel": "Amazon official October 15 press release",
+      "sourceCheckedAt": "2026-10-18T17:04:46.037Z",
+      "verifiedAt": "2026-10-18T17:04:46.037Z",
+      "basis": "Amazon announced on October 15, 2026 that its third-quarter 2026 results conference call will take place Thursday October 29 at 14:00 Pacific / 17:00 Eastern. The press release confirms the call date/time, not a separate earnings release instant.",
       "importance": "AWS growth, Trainium adoption and infrastructure capex.",
       "sources": [
+        {
+          "label": "Amazon official Q3 2026 call announcement",
+          "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+          "kind": "official",
+          "checkedAt": "2026-10-18T17:04:46.037Z"
+        },
         {
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
@@ -839,7 +845,11 @@
           "kind": "estimate",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-10-29T21:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-18T17:04:46.037Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "AAPL-2026-11-earnings",
@@ -2412,6 +2422,6 @@
       ]
     }
   ],
-  "verificationNote": "2026-10-19 targeted source audit: MediaTek Oct 30 earnings and two monthly sales events verified; Arm tentative FY27 dates downgraded. Full 32-company audit remains 2026-10-15.",
-  "lastPartialReview": "2026-10-18T17:03:00.379Z"
+  "verificationNote": "Targeted 2026-10-19 source audit: MediaTek Oct 30 earnings and Nov/Dec monthly sales confirmed; Amazon Oct 29 Q3 call confirmed; Arm FY27 tentative dates corrected. Full 32-company review remains 2026-10-15.",
+  "lastPartialReview": "2026-10-18T17:04:46.037Z"
 }
