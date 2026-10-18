@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-10-15",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-18T07:27:00Z",
+  "lastAttempt": "2026-10-18T17:03:00.379Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -1075,20 +1075,26 @@
       "companies": [
         "2454.TW"
       ],
-      "title": "MediaTek earnings",
+      "title": "MediaTek 3Q26 results and investor conference",
       "type": "Earnings",
-      "status": "estimated",
-      "date": "2026-10-29",
+      "status": "confirmed",
+      "date": "2026-10-30",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://markets.ft.markitdigital.com/data/equities/tearsheet/forecasts?s=2454:TAI",
-      "sourceLabel": "Financial Times Markets · page credits LSEG",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": null,
-      "basis": "FT Markets publishes October 29, 2026 as the next expected announcement; the page credits LSEG for data. Another calendar lists October 23. The current company IR page did not establish a quarterly results date, so the estimate is disputed and not confirmed.",
+      "time": "Investor conference: 15:00–16:00 GMT+8",
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
+      "verifiedAt": "2026-10-18T17:03:00.379Z",
+      "basis": "MediaTek's official investor calendar confirms Q3 2026 results investor conference on October 30, 2026 at 15:00–16:00 GMT+8, superseding third-party October 23 and October 29 estimates.",
       "importance": "Mobile chip demand, edge AI and custom silicon.",
       "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-10-18T17:03:00.379Z"
+        },
         {
           "label": "FT Markets forecasts · data supplied by LSEG",
           "url": "https://markets.ft.markitdigital.com/data/equities/tearsheet/forecasts?s=2454:TAI",
@@ -1102,7 +1108,12 @@
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
       ],
-      "dateConflict": "FT: Oct 29; alternate calendar: Oct 23. Company date not verified."
+      "dateConflict": "Official MediaTek October 30 confirmation supersedes earlier third-party October 23 and October 29 estimates.",
+      "startAt": "2026-10-30T07:00:00Z",
+      "endAt": "2026-10-30T08:00:00Z",
+      "sourceTimeZone": "Asia/Taipei",
+      "timeCheckedAt": "2026-10-18T17:03:00.379Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "ASML-2027-01-earnings",
@@ -1600,29 +1611,25 @@
       ],
       "title": "Arm Q2 FY27 earnings",
       "type": "Earnings",
-      "status": "confirmed",
+      "status": "estimated",
       "date": "2026-11-04",
       "endDate": null,
       "window": null,
-      "time": "Call: 14:00 PST",
       "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
-      "sourceLabel": "Arm · official investor events",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
-      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
-      "basis": "Arm lists November 4, 2026 at 14:00 PST for its second-quarter fiscal 2027 results.",
+      "sourceLabel": "Arm IR tentative FY27 earnings calendar",
+      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
+      "verifiedAt": null,
+      "basis": "Arm's official IR page explicitly calls FY27 earnings dates 'Tentatively proposed earnings dates'. 2026-11-04 is not a confirmed earnings announcement and no webcast time is established.",
       "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
       "sources": [
         {
-          "label": "Arm · official investor events",
+          "label": "Arm IR tentative FY27 dates",
           "url": "https://investors.arm.com/news-events/investor-events-presentations",
-          "kind": "official",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "kind": "estimate",
+          "checkedAt": "2026-10-18T17:03:00.379Z"
         }
       ],
-      "startAt": "2026-11-04T22:00:00Z",
-      "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-10-15T14:42:26.060851+00:00",
-      "timeCertainty": "verified"
+      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement."
     },
     {
       "id": "ARM-2027-02-earnings",
@@ -1631,25 +1638,25 @@
       ],
       "title": "Arm Q3 FY27 earnings",
       "type": "Earnings",
-      "status": "confirmed",
+      "status": "estimated",
       "date": "2027-02-03",
       "endDate": null,
       "window": null,
-      "time": null,
       "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
-      "sourceLabel": "Arm · published FY27 financial calendar",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
-      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
-      "basis": "Arm’s FY27 financial calendar explicitly lists this quarterly reporting date. No call time was verified.",
+      "sourceLabel": "Arm IR tentative FY27 earnings calendar",
+      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
+      "verifiedAt": null,
+      "basis": "Arm's official IR page explicitly calls FY27 earnings dates 'Tentatively proposed earnings dates'. 2027-02-03 is not a confirmed earnings announcement and no webcast time is established.",
       "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
       "sources": [
         {
-          "label": "Arm · published FY27 financial calendar",
+          "label": "Arm IR tentative FY27 dates",
           "url": "https://investors.arm.com/news-events/investor-events-presentations",
-          "kind": "official",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "kind": "estimate",
+          "checkedAt": "2026-10-18T17:03:00.379Z"
         }
-      ]
+      ],
+      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement."
     },
     {
       "id": "ARM-2027-05-earnings",
@@ -1658,25 +1665,25 @@
       ],
       "title": "Arm Q4 FY27 earnings",
       "type": "Earnings",
-      "status": "confirmed",
+      "status": "estimated",
       "date": "2027-05-05",
       "endDate": null,
       "window": null,
-      "time": null,
       "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
-      "sourceLabel": "Arm · published FY27 financial calendar",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
-      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
-      "basis": "Arm’s FY27 financial calendar explicitly lists this quarterly reporting date. No call time was verified.",
+      "sourceLabel": "Arm IR tentative FY27 earnings calendar",
+      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
+      "verifiedAt": null,
+      "basis": "Arm's official IR page explicitly calls FY27 earnings dates 'Tentatively proposed earnings dates'. 2027-05-05 is not a confirmed earnings announcement and no webcast time is established.",
       "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
       "sources": [
         {
-          "label": "Arm · published FY27 financial calendar",
+          "label": "Arm IR tentative FY27 dates",
           "url": "https://investors.arm.com/news-events/investor-events-presentations",
-          "kind": "official",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "kind": "estimate",
+          "checkedAt": "2026-10-18T17:03:00.379Z"
         }
-      ]
+      ],
+      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement."
     },
     {
       "id": "QCOM-2026-11-earnings",
@@ -2346,8 +2353,62 @@
       "sourceTimeZone": "America/Los_Angeles",
       "timeCheckedAt": "2026-10-18T07:27:00Z",
       "timeCertainty": "verified"
+    },
+    {
+      "id": "mediatek-monthly-sales-2026-10",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek October 2026 monthly sales",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
+      "verifiedAt": "2026-10-18T17:03:00.379Z",
+      "basis": "MediaTek's official investor calendar lists monthly sales for October 2026 on 2026-11-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
+      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-10-18T17:03:00.379Z"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-monthly-sales-2026-11",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek November 2026 monthly sales",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-12-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
+      "verifiedAt": "2026-10-18T17:03:00.379Z",
+      "basis": "MediaTek's official investor calendar lists monthly sales for November 2026 on 2026-12-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
+      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-10-18T17:03:00.379Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "16 official-source events added on October 18; Workday IR source repaired; full 32-company review remains October 15.",
-  "lastPartialReview": "2026-10-18T07:27:00Z"
+  "verificationNote": "2026-10-19 targeted source audit: MediaTek Oct 30 earnings and two monthly sales events verified; Arm tentative FY27 dates downgraded. Full 32-company audit remains 2026-10-15.",
+  "lastPartialReview": "2026-10-18T17:03:00.379Z"
 }
