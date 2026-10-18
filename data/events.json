@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-10-15",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-18T07:20:26Z",
+  "lastAttempt": "2026-10-18T07:27:00Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -164,7 +164,7 @@
       "name": "Workday",
       "sector": "Software & cloud",
       "coverage": true,
-      "source": "https://investor.workday.com/events-and-presentations/default.aspx",
+      "source": "https://investor.workday.com/",
       "months": [
         2,
         5,
@@ -2390,8 +2390,39 @@
         }
       ],
       "organizer": "Consumer Technology Association (CES)"
+    },
+    {
+      "id": "workday-analyst-day-2026",
+      "companies": [
+        "WDAY"
+      ],
+      "title": "Workday Financial Analyst Day 2026",
+      "type": "Investor day",
+      "status": "confirmed",
+      "date": "2026-10-13",
+      "endDate": null,
+      "window": null,
+      "time": "2:00 p.m. Pacific / 5:00 p.m. Eastern",
+      "sourceUrl": "https://en-sg.newsroom.workday.com/2026-09-01-Workday-to-Hold-Annual-Financial-Analyst-Day-on-October-13%2C-2026",
+      "sourceLabel": "Workday official newsroom",
+      "sourceCheckedAt": "2026-10-18T07:27:00Z",
+      "verifiedAt": "2026-10-18T07:27:00Z",
+      "basis": "Workday's September 1, 2026 announcement sets its annual analyst day for October 13 in Las Vegas, at 2 p.m. Pacific / 5 p.m. Eastern, during Workday Rising.",
+      "importance": "Long-term subscription growth, AI agents, margin targets and capital allocation.",
+      "sources": [
+        {
+          "label": "Workday official newsroom",
+          "url": "https://en-sg.newsroom.workday.com/2026-09-01-Workday-to-Hold-Annual-Financial-Analyst-Day-on-October-13%2C-2026",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:27:00Z"
+        }
+      ],
+      "startAt": "2026-10-13T21:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-18T07:27:00Z",
+      "timeCertainty": "verified"
     }
   ],
-  "verificationNote": "Targeted first-party source review on 2026-10-18 added 15 verified conference, keynote and operating-update events and documented one GTC date discrepancy. The last comprehensive 32-company review remains 2026-10-15; do not interpret these additions as a new full-universe recheck.",
-  "lastPartialReview": "2026-10-18T07:20:26Z"
+  "verificationNote": "16 official-source events added on October 18; Workday IR source repaired; full 32-company review remains October 15.",
+  "lastPartialReview": "2026-10-18T07:27:00Z"
 }
