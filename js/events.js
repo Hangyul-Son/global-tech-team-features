@@ -209,7 +209,7 @@
       const companyRow=(c,covered)=>`<div class="${covered?'coverage-company':'universe-company'}"><span class="ticker">${escape(c.id)}</span><span class="company-name">${escape(c.name)}</span>${covered?'<span class="coverage-star" aria-label="Coverage">★</span>':''}</div>`;
       $('coverage-list').innerHTML=covered.map(c=>companyRow(c,true)).join('');
       $('ecosystem-list').innerHTML=wider.map(c=>companyRow(c,false)).join('');
-      $('freshness').textContent=`Dataset reviewed: ${prettyDay(data.asOf)}. ${data.lastSuccessfulRefresh?'Last source review: '+prettyDay(data.lastSuccessfulRefresh.slice(0,10))+'.':'No successful source check yet.'} Published estimates are not company-confirmed.`;
+      $('freshness').textContent=`Dataset reviewed: ${prettyDay(data.asOf)}. ${data.lastSuccessfulRefresh?'Last source review: '+prettyDay(data.lastSuccessfulRefresh.slice(0,10))+'.':'No successful source check yet.'} ${data.lastPartialReview?'Latest targeted additions checked: '+prettyDay(data.lastPartialReview.slice(0,10))+'.':''} Published estimates are not company-confirmed.`;
       render();
     } catch(error) {
       $('calendar').innerHTML='<p class="loading-error">Unable to load events. Please reload or check the public dataset link below.</p>';

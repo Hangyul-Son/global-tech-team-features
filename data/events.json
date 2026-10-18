@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-10-15",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-15T07:46:07.615401+00:00",
+  "lastAttempt": "2026-10-18T07:20:26Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -1243,9 +1243,9 @@
       "time": null,
       "sourceUrl": "https://www.nvidia.com/gtc/",
       "sourceLabel": "NVIDIA · official GTC page",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
-      "basis": "NVIDIA’s official GTC page publishes March 15–18 for GTC 2027 in San Jose. These are the core conference dates.",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "NVIDIA's GTC 2027 overview explicitly lists March 15–18 in San Jose for the core conference. Its official FAQ lists March 14–18 for the broader event; the discrepancy is preserved rather than silently changing the core event dates.",
       "importance": "AI platform roadmap, new systems, networking and physical AI.",
       "sources": [
         {
@@ -1253,8 +1253,15 @@
           "url": "https://www.nvidia.com/gtc/",
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "NVIDIA official GTC 2027 FAQ · broader March 14–18 range",
+          "url": "https://www.nvidia.com/gtc/faq/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
         }
-      ]
+      ],
+      "dateConflict": "NVIDIA's GTC 2027 overview advertises March 15–18 for the core conference, while the official FAQ states March 14–18 for the broader event. This record tracks the March 15–18 core conference; March 14 may include preconference activities."
     },
     {
       "id": "reinvent",
@@ -1979,7 +1986,412 @@
         "precision": "year"
       },
       "dateConflict": "Public timing commentary differs: 2027 in the retrieved NYT-based report versus late 2026/early 2027 in Zacks. No official listing date was verified."
+    },
+    {
+      "id": "tsm-monthly-sales-2026-10",
+      "companies": [
+        "TSM"
+      ],
+      "title": "TSMC October 2026 monthly revenue",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
+      "sourceLabel": "TSMC official financial calendar",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "The TSMC financial calendar explicitly schedules 'TSMC Monthly Sales - October 2026' for November 10, 2026. No release instant is asserted; the calendar entry is date-only.",
+      "importance": "Monthly foundry revenue run-rate, AI demand and capacity trends.",
+      "sources": [
+        {
+          "label": "TSMC official financial calendar",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "tsm-monthly-sales-2026-11",
+      "companies": [
+        "TSM"
+      ],
+      "title": "TSMC November 2026 monthly revenue",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-12-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
+      "sourceLabel": "TSMC official financial calendar",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "The TSMC financial calendar explicitly schedules 'TSMC Monthly Sales - November 2026' for December 10, 2026. No release instant is asserted; the calendar entry is date-only.",
+      "importance": "Monthly foundry revenue run-rate, AI demand and capacity trends.",
+      "sources": [
+        {
+          "label": "TSMC official financial calendar",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "tsm-monthly-sales-2026-12",
+      "companies": [
+        "TSM"
+      ],
+      "title": "TSMC December 2026 monthly revenue",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-01-08",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
+      "sourceLabel": "TSMC official financial calendar",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "The TSMC financial calendar explicitly schedules 'TSMC Monthly Sales - December 2026' for January 8, 2027. No release instant is asserted; the calendar entry is date-only.",
+      "importance": "Monthly foundry revenue run-rate and the December quarter exit rate.",
+      "sources": [
+        {
+          "label": "TSMC official financial calendar",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "adobe-max-2026",
+      "companies": [
+        "ADBE"
+      ],
+      "title": "Adobe MAX 2026 · Miami Beach",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-11-10",
+      "endDate": "2026-11-12",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://max.adobe.com/",
+      "sourceLabel": "Adobe official MAX conference site",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "Adobe's official MAX page schedules the creativity conference for November 10–12, 2026 in Miami Beach and online; November 8–9 are preconference days, not the core event.",
+      "importance": "Firefly, Photoshop, Illustrator and generative creative AI roadmap.",
+      "sources": [
+        {
+          "label": "Adobe official MAX conference site",
+          "url": "https://max.adobe.com/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "adobe-max-opening-2026",
+      "companies": [
+        "ADBE"
+      ],
+      "title": "Adobe MAX 2026 · opening keynote",
+      "type": "Keynote",
+      "status": "confirmed",
+      "date": "2026-11-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://max.adobe.com/emea/",
+      "sourceLabel": "Adobe MAX official online agenda",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "The official Adobe MAX EMEA agenda identifies an Opening Keynote on Tuesday, November 10, 2026. No cross-region clock time is normalized.",
+      "importance": "Adobe creative AI launches and monetization signals.",
+      "sources": [
+        {
+          "label": "Adobe MAX official online agenda",
+          "url": "https://max.adobe.com/emea/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "adobe-summit-2027",
+      "companies": [
+        "ADBE"
+      ],
+      "title": "Adobe Summit 2027 · Las Vegas",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2027-03-23",
+      "endDate": "2027-03-25",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://summit.adobe.com/",
+      "sourceLabel": "Adobe official Summit site",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "Adobe's official Summit site lists March 23–25, 2027 for the main Las Vegas and online conference; March 22 is preconference training.",
+      "importance": "Agentic customer experience, enterprise AI and Experience Cloud demand.",
+      "sources": [
+        {
+          "label": "Adobe official Summit site",
+          "url": "https://summit.adobe.com/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "workday-rising-us-2026",
+      "companies": [
+        "WDAY"
+      ],
+      "title": "Workday Rising 2026 · Las Vegas",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-10-12",
+      "endDate": "2026-10-15",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Rising-2026-Where-Agentic-HR-and-Agentic-Finance-Take-Center-Stage-October-12-15-in-Las-Vegas/default.aspx",
+      "sourceLabel": "Workday official investor-relations announcement",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "Workday's July 21, 2026 announcement schedules Workday Rising for October 12–15, 2026 in Las Vegas. Historical event retained inside the 14-day review window.",
+      "importance": "Workday agentic HR and finance product roadmap, platform adoption.",
+      "sources": [
+        {
+          "label": "Workday official investor-relations announcement",
+          "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-Announces-Rising-2026-Where-Agentic-HR-and-Agentic-Finance-Take-Center-Stage-October-12-15-in-Las-Vegas/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "workday-rising-emea-2026",
+      "companies": [
+        "WDAY"
+      ],
+      "title": "Workday Rising EMEA 2026 · Barcelona",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-11-17",
+      "endDate": "2026-11-19",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://rising.workday.com/emea/faq.html",
+      "sourceLabel": "Workday Rising EMEA official FAQ",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "The official Workday Rising EMEA FAQ confirms November 17–19, 2026 at Fira Gran Via Nord in Barcelona.",
+      "importance": "International enterprise demand and Workday AI-agent adoption.",
+      "sources": [
+        {
+          "label": "Workday Rising EMEA official FAQ",
+          "url": "https://rising.workday.com/emea/faq.html",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "servicenow-knowledge-2027",
+      "companies": [
+        "NOW"
+      ],
+      "title": "ServiceNow Knowledge 2027 · Las Vegas",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2027-05-04",
+      "endDate": "2027-05-06",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.servicenow.com/events/knowledge.html",
+      "sourceLabel": "ServiceNow official Knowledge event page",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "ServiceNow's own Knowledge 2027 page explicitly states May 4–6, 2027 in Las Vegas. A third-party events listing gives a different week; the first-party date is used.",
+      "importance": "Enterprise AI workflow roadmap, subscription adoption and customer spending.",
+      "sources": [
+        {
+          "label": "ServiceNow official Knowledge event page",
+          "url": "https://www.servicenow.com/events/knowledge.html",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "oracle-ai-world-2026-keynote-26",
+      "companies": [
+        "ORCL"
+      ],
+      "title": "Oracle AI World · where AI means business",
+      "type": "Keynote",
+      "status": "confirmed",
+      "date": "2026-10-26",
+      "endDate": null,
+      "window": null,
+      "time": "9:30 a.m. (event schedule; timezone not explicitly stated)",
+      "sourceUrl": "https://www.oracle.com/ai-world/keynotes/",
+      "sourceLabel": "Oracle AI World official keynote schedule",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "Oracle's keynote agenda lists 'Oracle: where AI means business' on Monday October 26 at 9:30 a.m. The agenda does not explicitly identify a timezone, so no UTC instant is assigned.",
+      "importance": "Oracle enterprise AI strategy, OCI positioning and product announcements.",
+      "sources": [
+        {
+          "label": "Oracle AI World official keynote schedule",
+          "url": "https://www.oracle.com/ai-world/keynotes/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "oracle-ai-world-2026-keynote-27",
+      "companies": [
+        "ORCL"
+      ],
+      "title": "Oracle AI World · Clay Magouyrk keynote",
+      "type": "Keynote",
+      "status": "confirmed",
+      "date": "2026-10-27",
+      "endDate": null,
+      "window": null,
+      "time": "9:00 a.m. (event schedule; timezone not explicitly stated)",
+      "sourceUrl": "https://www.oracle.com/ai-world/keynotes/",
+      "sourceLabel": "Oracle AI World official keynote schedule",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "Oracle's keynote agenda lists 'Now that AI works, what are we going to do with it?' with Clay Magouyrk on Tuesday October 27 at 9:00 a.m. Timezone is not explicitly stated.",
+      "importance": "OCI infrastructure and AI deployment economics.",
+      "sources": [
+        {
+          "label": "Oracle AI World official keynote schedule",
+          "url": "https://www.oracle.com/ai-world/keynotes/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "oracle-ai-world-2026-vision",
+      "companies": [
+        "ORCL"
+      ],
+      "title": "Oracle AI World · vision and strategy",
+      "type": "Keynote",
+      "status": "confirmed",
+      "date": "2026-10-27",
+      "endDate": null,
+      "window": null,
+      "time": "3:30 p.m. (event schedule; timezone not explicitly stated)",
+      "sourceUrl": "https://www.oracle.com/ai-world/keynotes/",
+      "sourceLabel": "Oracle AI World official keynote schedule",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "Oracle's keynote agenda lists 'Oracle Vision and Strategy' on Tuesday October 27 at 3:30 p.m. Timezone is not explicitly stated.",
+      "importance": "Oracle AI and cloud strategy, new offerings and potential customer demand.",
+      "sources": [
+        {
+          "label": "Oracle AI World official keynote schedule",
+          "url": "https://www.oracle.com/ai-world/keynotes/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "salesforce-tdx-2027",
+      "companies": [
+        "CRM"
+      ],
+      "title": "Salesforce TDX 2027 · San Francisco",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2027-03-10",
+      "endDate": "2027-03-11",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.salesforce.com/au/events/",
+      "sourceLabel": "Salesforce official events calendar",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "Salesforce's official events calendar schedules TDX for March 10–11, 2027 in San Francisco and on Salesforce+.",
+      "importance": "Agentforce developer ecosystem, enterprise adoption and platform roadmap.",
+      "sources": [
+        {
+          "label": "Salesforce official events calendar",
+          "url": "https://www.salesforce.com/au/events/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "salesforce-dreamforce-2027",
+      "companies": [
+        "CRM"
+      ],
+      "title": "Salesforce Dreamforce 2027 · San Francisco",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2027-09-21",
+      "endDate": "2027-09-23",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.salesforce.com/au/events/",
+      "sourceLabel": "Salesforce official events calendar",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "Salesforce's official events calendar lists Dreamforce 2027 for September 21–23, 2027 in San Francisco and on Salesforce+. This event is beyond the standard 210-day review horizon but is a published major conference date.",
+      "importance": "Agentforce product roadmap, customer adoption and enterprise spending.",
+      "sources": [
+        {
+          "label": "Salesforce official events calendar",
+          "url": "https://www.salesforce.com/au/events/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "ces-2027",
+      "companies": [],
+      "title": "CES 2027 · Las Vegas",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2027-01-06",
+      "endDate": "2027-01-09",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.ces.tech/about-ces/about-ces/",
+      "sourceLabel": "CES official future-show dates",
+      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "verifiedAt": "2026-10-18T07:20:26Z",
+      "basis": "CES organizer's official future-show schedule lists CES 2027 for January 6–9, 2027. No tracked company is asserted as a confirmed participant.",
+      "importance": "PC, device, automotive, robotics and edge-AI product announcements.",
+      "sources": [
+        {
+          "label": "CES official future-show dates",
+          "url": "https://www.ces.tech/about-ces/about-ces/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
+        }
+      ],
+      "organizer": "Consumer Technology Association (CES)"
     }
   ],
-  "verificationNote": "Original 12 coverage companies only; all 20 other tracked companies are research scope. Event dates, source evidence and timing windows are unchanged."
+  "verificationNote": "Targeted first-party source review on 2026-10-18 added 15 verified conference, keynote and operating-update events and documented one GTC date discrepancy. The last comprehensive 32-company review remains 2026-10-15; do not interpret these additions as a new full-universe recheck.",
+  "lastPartialReview": "2026-10-18T07:20:26Z"
 }
