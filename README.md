@@ -97,41 +97,17 @@ The command never automatically modifies reviewed events or promotes a publicati
 
 The source-check report is linked from the website footer. Current reviewed earnings sources and their timestamps are also included in each event brief, including multiple sources where useful. Static publisher pages can lag; vendor estimates are not promises.
 
-There is no live licensed Bloomberg or Refinitiv API connection. Bloomberg reporting is attributed through public reporting; FT Markets' public forecasts page credits LSEG for data. Neither is represented as authenticated terminal access. Visitors cannot edit events. Manual changes remain available through Codex; the weekly workflow below is the separately authorized automated maintenance path.
+There is no live licensed Bloomberg or Refinitiv API connection. Bloomberg reporting is attributed through public reporting; FT Markets' public forecasts page credits LSEG for data. Neither is represented as authenticated terminal access. Visitors cannot edit events. Manual changes remain available through Codex; the native scheduled task below is the intended recurring maintenance path.
 
-## Weekly overnight research and email
+## Weekly native Codex task
 
-`.github/workflows/weekly-refresh.yml` schedules research every **Sunday at 02:00 Hong Kong time**, the night from Saturday to Sunday (`0 18 * * 6` in UTC). GitHub may delay scheduled jobs; this is a scheduled start, not a guaranteed completion time. Scheduled workflows run only from the repository's default branch. GitHub may disable schedules in inactive public repositories after 60 days; check the Actions page if updates stop. Successful weekly data commits normally keep this repository active.
+The weekly work should run as a native scheduled Codex task using the platform's model and repository access. Codex researches, reviews and edits the event data, then commits and pushes it. `.github/workflows/deploy-pages.yml` publishes that push to GitHub Pages and verifies the live dataset. This flow needs no separate OpenAI API key, Resend account, or GitHub research cron.
 
-The researcher and independent reviewer both use **GPT-6 Astra (`gpt-6-astra`) with `reasoning.effort: max`**, OpenAI's current highest-capability general model and its highest documented reasoning setting. The policy is in `config/weekly-refresh.json`; no cheaper or lower-reasoning fallback is used. Model access, token usage and live web-search calls are billed to the supplied OpenAI API account, separately from ChatGPT/Codex subscriptions. Future model upgrades should be explicit policy changes after checking availability and capabilities.
+The complete task settings and copyable research/publication prompt are in [docs/weekly-codex-task.md](docs/weekly-codex-task.md). Schedule **Sunday at 02:00 Asia/Hong_Kong**, select the strongest available native Codex model and its highest reasoning setting, and use native task notifications. Email to `hangyul.son@clsa.com` depends on the platform's notification controls and configured destination; do not treat it as enabled merely because it appears in a prompt.
 
-The workflow automatically researches, commits, pushes and publishes each approved weekly update; there is no manual weekly publishing step. **Automated research and publication require `OPENAI_API_KEY` to be configured once and a successful live run.** Email delivery is independent: missing or invalid email settings cannot block website publication. This workflow does not reuse this chat's authentication. Add the following in [repository Actions secrets](https://github.com/Hangyul-Son/global-tech-team-features/settings/secrets/actions):
+**Registration is pending:** saving the task instructions in the repository does not create a platform schedule. The task must be created and confirmed active in the native Scheduled/Automations interface. The current chat exposes no native task-creation tool. Test one native run with repository read/write access, web research and command execution before relying on it. A local desktop task needs the computer and app running; use a cloud-capable task if offered for unattended overnight work.
 
-| Name | Value |
-| --- | --- |
-| `OPENAI_API_KEY` | An [OpenAI API key](https://platform.openai.com/api-keys) with billing and access to `gpt-6-astra`, background Responses and web search. |
-| `RESEND_API_KEY` | For email only: a [Resend sending API key](https://resend.com/api-keys). |
-| `GLOBAL_TECH_EMAIL_FROM` | For email only: a sender authorized by Resend, such as `Global Tech <calendar@your-verified-domain.com>`. This may instead be an Actions variable with the same name. Receiving email at CLSA does not authorize sending as `@clsa.com`. |
-
-Never paste keys into chat, commit them, or put them in public `data/` files. Resend requires an authorized sender; its development sender has recipient restrictions. Verify sender/domain setup in Resend. The destination is fixed in code to **hangyul.son@clsa.com** and cannot be changed by model output or a web page.
-
-After adding configuration, open [Weekly Global Tech refresh in Actions](https://github.com/Hangyul-Son/global-tech-team-features/actions/workflows/weekly-refresh.yml), choose **Run workflow** on the default branch, and verify research and publish succeed. If email is configured, verify the email job succeeds and the note arrives. Provider acceptance does not prove inbox delivery; spam and corporate mail filtering can affect receipt. Once tested, the same workflow researches and publishes every week without any manual commit/push/deploy, open browser or running cloud development machine. Missing email settings fail only the notification job.
-
-Each run:
-
-1. Checks all 32 tracked companies in four research groups, plus a separate industry-conference search. It searches durable IR/news/organizer indexes and public estimate providers, rather than only revisiting old press releases. Research covers the recent 14 days and next 210 days, with separately labeled longer IPO windows.
-2. Requires every proposed source to have a contextual quotation from actual web research. Code independently retrieves and matches that quotation; first-party domains are required for official confirmations. Blocked, unreadable, redirected or conflicting evidence is held for review. Web pages and the model have no git, deployment or email tools.
-3. Runs a separate maximum-reasoning review of every proposal and every tracked company. Unsupported proposals are excluded. Published estimates stay tentative; times require UTC, an IANA source timezone and explicit clock evidence. Past records, stable event identities, the company universe and the original 12 coverage flags are preserved. No date is fabricated to fill a research gap.
-4. Validates the final dataset and application, protects intervening manual changes, commits only the two public data files, and deploys directly to Pages. A `GITHUB_TOKEN` commit does not trigger another push workflow, so direct deployment is intentional. Older queued snapshots cannot replace newer repository changes.
-5. Uses the actual Pages deployment URL (including after a repository rename), fetches the public dataset and compares its SHA-256 to the approved artifact before reporting publication. Then it emails the actual result, new/changed events with source links, and exceptions. Failed or blocked runs send a failure/blocked note when email credentials work; they never claim a successful update. Email errors fail the notification job visibly without preventing website publication.
-
-Research reports, reviewed proposals, usage and exceptions are retained as GitHub run artifacts for 30 days. They are not published as website files. Only evidence actually approved gets a new verification timestamp; partial reviews retain the previous full-review timestamp. No model can guarantee error-free or exhaustive coverage, so unresolved items remain visible in the report.
-
-Offline checks for this automation are part of the normal Python test command. They mock API/email/network calls and do not incur API charges. To inspect an example note without sending:
-
-```sh
-python3 scripts/send_weekly_email.py --result blocked --dry-run
-```
+The API-based GitHub weekly workflow has been removed. Legacy `scripts/weekly_refresh.py`, `scripts/send_weekly_email.py` and their policy/tests are inactive; the native task must not invoke them. The public-source staging command, application checks and push-to-Pages deployment remain available. An uncertainty or incomplete source review must be reported honestly; no model can guarantee error-free or exhaustive coverage.
 
 ## Public hosting
 
@@ -140,4 +116,4 @@ The site can be served worldwide without an application server, database or visi
 - **GitHub Pages:** the existing `deploy-pages.yml` validates and builds the static artifact, then deploys on pushes to `main` or `claude/build-tech-finance-site-HRNbI`, or manual workflow dispatch. Configure the repository's Pages source to **GitHub Actions**. The redundant Jekyll deployment was removed because the site has no Jekyll dependency.
 - **Netlify:** connect this repository; `netlify.toml` runs the static copy build and publishes `_site`.
 
-The public calendar is deployed through GitHub Pages at https://hangyul-son.github.io/global-tech-team-features/. Source updates require a repository change and successful deployment; the weekly workflow performs both automatically. Deployments also ensure the Pages source is GitHub Actions where the token permits it, so an unrelated branch does not replace the calendar. If GitHub refuses that setting change, a repository administrator must select **Settings > Pages > Source > GitHub Actions** once. The cloud development environment's Publish action snapshots the development machine; it does not publish this website to GitHub Pages or Netlify.
+The public calendar is deployed through GitHub Pages at https://hangyul-son.github.io/global-tech-team-features/. Source updates require a repository change and successful deployment; the native scheduled Codex task is intended to perform both automatically once registered. Deployments also ensure the Pages source is GitHub Actions where the token permits it, so an unrelated branch does not replace the calendar. If GitHub refuses that setting change, a repository administrator must select **Settings > Pages > Source > GitHub Actions** once. The cloud development environment's Publish action snapshots the development machine; it does not publish this website to GitHub Pages or Netlify.
