@@ -1,7 +1,12 @@
 """End-to-end browser timezone switching and actual .ics downloads."""
 from pathlib import Path
 from datetime import datetime, timezone
+import json
 from playwright.sync_api import sync_playwright,expect
+
+ROOT=Path(__file__).resolve().parents[1]
+dataset=json.loads((ROOT/'data/events.json').read_text())
+exportable_count=sum(bool(e.get('date') or e.get('startAt') or e.get('timingWindow',{}).get('start')) for e in dataset['events'])
 
 def unfold(path):return Path(path).read_bytes().decode().replace('\r\n ','').replace('\r\n\t','')
 with sync_playwright() as p:
@@ -61,16 +66,16 @@ with sync_playwright() as p:
     expect(page.locator('#selection-count')).to_contain_text('1 selected')
     page.locator('#clear-selection').click()
     page.locator('#select-shown').click()
-    expect(page.locator('#selection-count')).to_contain_text('52 selected')
+    expect(page.locator('#selection-count')).to_contain_text(f'{exportable_count} selected')
     with page.expect_download() as dl:
         page.locator('#download-ics').click()
     dl.value.save_as('/tmp/global-tech-outlook-all.ics')
-    assert unfold('/tmp/global-tech-outlook-all.ics').count('BEGIN:VEVENT')==52
+    assert unfold('/tmp/global-tech-outlook-all.ics').count('BEGIN:VEVENT')==exportable_count
     page.locator('#clear-selection').click()
     page.locator('#timezone').select_option('Asia/Hong_Kong')
     page.locator('#calendar-view').click()
     ocp=page.locator('.calendar-entry[data-event-id="ocp"] [data-select-event]')
-    expect(ocp).to_have_count(4)
+    expect(ocp).to_have_count(1)
     ocp.first.check()
     expect(page.locator('#selection-count')).to_contain_text('1 selected')
     assert ocp.evaluate_all('(inputs)=>inputs.every(i=>i.checked)')
@@ -81,16 +86,33 @@ with sync_playwright() as p:
     assert text.count('BEGIN:VEVENT')==1
     assert 'DTSTART;VALUE=DATE:20261012' in text and 'DTEND;VALUE=DATE:20261016' in text
     page.locator('#clear-selection').click()
+    # Oracle wraps across two weeks, but both segments select one conference.
+    oracle=page.locator('.calendar-entry[data-event-id="oracle-ai-world-2026"] [data-select-event]')
+    expect(oracle).to_have_count(2)
+    oracle.first.check()
+    expect(page.locator('#selection-count')).to_contain_text('1 selected')
+    assert oracle.evaluate_all('(inputs)=>inputs.every(i=>i.checked)')
+    with page.expect_download() as dl:
+        page.locator('#download-ics').click()
+    dl.value.save_as('/tmp/global-tech-outlook-oracle.ics')
+    text=unfold('/tmp/global-tech-outlook-oracle.ics')
+    assert text.count('BEGIN:VEVENT')==1
+    assert 'DTSTART;VALUE=DATE:20261025' in text and 'DTEND;VALUE=DATE:20261029' in text
+    assert 'https://www.oracle.com/ai-world/keynotes/' in text
+    oracle.last.uncheck()
+    expect(page.locator('#download-ics')).to_be_disabled()
+    assert oracle.evaluate_all('(inputs)=>inputs.every(i=>!i.checked)')
     page.locator('#select-events').click()
     page.locator('#timezone').select_option('browser')
     samsung=page.locator('.calendar-entry[data-event-id="005930.KS-2026-10-earnings"]')
-    assert samsung.evaluate('(e)=>e.closest(".day").querySelector(".day-number").dateTime')=='2026-10-28'
+    expect(samsung).to_have_attribute('data-start-date','2026-10-28')
     expect(samsung.locator('.calendar-time')).to_have_text('21:00')
     page.locator('#timezone').select_option('Asia/Hong_Kong')
     expect(samsung.locator('.calendar-time')).to_have_text('09:00')
-    assert samsung.evaluate('(e)=>e.closest(".day").querySelector(".day-number").dateTime')=='2026-10-29'
+    expect(samsung).to_have_attribute('data-start-date','2026-10-29')
     page.screenshot(path='/tmp/global-tech-timezone-desktop.png',full_page=True)
     page.set_viewport_size({'width':390,'height':844})
+    page.locator('#sidebar').evaluate('(e)=>Promise.all(e.getAnimations().map(a=>a.finished.catch(()=>{})))')
     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
     expect(page.locator('#timezone')).to_be_visible()
     page.locator('#list-view').click()
@@ -103,4 +125,4 @@ with sync_playwright() as p:
     page.screenshot(path='/tmp/global-tech-timezone-mobile.png',full_page=True)
     assert not errors,errors
     browser.close()
-    print('PASS Global Tech title; Hong Kong default with New York browser; timezone persistence and date rollover; multi-selection across views/filters; real Outlook .ics downloads; mobile export; duplicate-day selection.')
+    print('PASS Global Tech title; Hong Kong default with New York browser; timezone persistence and date rollover; multi-selection across views/filters; real Outlook .ics downloads; mobile export; connected-event and week-continuation selection.')

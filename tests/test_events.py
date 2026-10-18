@@ -131,6 +131,18 @@ class DatasetTests(unittest.TestCase):
         self.assertEqual(events['ocp']['endDate'],'2026-10-15')
         self.assertEqual(events['anthropic-ipo']['type'],'IPO watch', 'Do not confuse investor day with listing')
 
+    def test_oracle_ai_world_sessions_remain_in_the_conference(self):
+        oracle_events=[e for e in self.data['events'] if e['id'].startswith('oracle-ai-world-')]
+        self.assertTrue(oracle_events)
+        editions=set()
+        for event in oracle_events:
+            self.assertEqual(event['type'],'Conference', 'Show keynotes in the conference brief, not separate cards')
+            self.assertNotIn(event['date'][:4],editions, 'Only one Oracle AI World event per edition')
+            editions.add(event['date'][:4])
+        current=next(e for e in oracle_events if e['id']=='oracle-ai-world-2026')
+        self.assertIn('Clay Magouyrk',current['basis'])
+        self.assertEqual(sum(s['url']=='https://www.oracle.com/ai-world/keynotes/' for s in current['sources']),1)
+
     def test_source_report_does_not_claim_full_verification(self):
         report = json.loads((ROOT / 'data/source-checks.json').read_text())
         self.assertEqual(report['successfulSources'],sum(s['status']=='retrieved' for s in report['sources']))

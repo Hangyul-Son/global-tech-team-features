@@ -1908,14 +1908,20 @@
       "sourceLabel": "Oracle · official AI World schedule",
       "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
       "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
-      "basis": "Oracle publishes October 25–28, 2026 in Las Vegas. The official FAQ confirms this range.",
-      "importance": "OCI capacity, remaining performance obligations and AI capex.",
+      "basis": "Oracle publishes October 25–28, 2026 in Las Vegas. The official FAQ confirms this range. The official keynote agenda includes October 26 at 9:30 a.m., “Oracle: where AI means business”; October 27 at 9:00 a.m., “Now that AI works, what are we going to do with it?” with Clay Magouyrk; and October 27 at 3:30 p.m., “Oracle Vision and Strategy”. These sessions are included in this single conference entry. The keynote page does not explicitly state a timezone, so these are published source-clock times and no UTC instants are assigned.",
+      "importance": "OCI capacity, remaining performance obligations and AI capex, including enterprise AI strategy, OCI positioning and deployment economics discussed in the conference keynotes.",
       "sources": [
         {
           "label": "Oracle · official AI World schedule",
           "url": "https://www.oracle.com/ai-world/",
           "kind": "official",
           "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        },
+        {
+          "label": "Oracle AI World official keynote schedule",
+          "url": "https://www.oracle.com/ai-world/keynotes/",
+          "kind": "official",
+          "checkedAt": "2026-10-18T07:20:26Z"
         }
       ]
     },
@@ -2225,87 +2231,6 @@
         {
           "label": "ServiceNow official Knowledge event page",
           "url": "https://www.servicenow.com/events/knowledge.html",
-          "kind": "official",
-          "checkedAt": "2026-10-18T07:20:26Z"
-        }
-      ]
-    },
-    {
-      "id": "oracle-ai-world-2026-keynote-26",
-      "companies": [
-        "ORCL"
-      ],
-      "title": "Oracle AI World · where AI means business",
-      "type": "Keynote",
-      "status": "confirmed",
-      "date": "2026-10-26",
-      "endDate": null,
-      "window": null,
-      "time": "9:30 a.m. (event schedule; timezone not explicitly stated)",
-      "sourceUrl": "https://www.oracle.com/ai-world/keynotes/",
-      "sourceLabel": "Oracle AI World official keynote schedule",
-      "sourceCheckedAt": "2026-10-18T07:20:26Z",
-      "verifiedAt": "2026-10-18T07:20:26Z",
-      "basis": "Oracle's keynote agenda lists 'Oracle: where AI means business' on Monday October 26 at 9:30 a.m. The agenda does not explicitly identify a timezone, so no UTC instant is assigned.",
-      "importance": "Oracle enterprise AI strategy, OCI positioning and product announcements.",
-      "sources": [
-        {
-          "label": "Oracle AI World official keynote schedule",
-          "url": "https://www.oracle.com/ai-world/keynotes/",
-          "kind": "official",
-          "checkedAt": "2026-10-18T07:20:26Z"
-        }
-      ]
-    },
-    {
-      "id": "oracle-ai-world-2026-keynote-27",
-      "companies": [
-        "ORCL"
-      ],
-      "title": "Oracle AI World · Clay Magouyrk keynote",
-      "type": "Keynote",
-      "status": "confirmed",
-      "date": "2026-10-27",
-      "endDate": null,
-      "window": null,
-      "time": "9:00 a.m. (event schedule; timezone not explicitly stated)",
-      "sourceUrl": "https://www.oracle.com/ai-world/keynotes/",
-      "sourceLabel": "Oracle AI World official keynote schedule",
-      "sourceCheckedAt": "2026-10-18T07:20:26Z",
-      "verifiedAt": "2026-10-18T07:20:26Z",
-      "basis": "Oracle's keynote agenda lists 'Now that AI works, what are we going to do with it?' with Clay Magouyrk on Tuesday October 27 at 9:00 a.m. Timezone is not explicitly stated.",
-      "importance": "OCI infrastructure and AI deployment economics.",
-      "sources": [
-        {
-          "label": "Oracle AI World official keynote schedule",
-          "url": "https://www.oracle.com/ai-world/keynotes/",
-          "kind": "official",
-          "checkedAt": "2026-10-18T07:20:26Z"
-        }
-      ]
-    },
-    {
-      "id": "oracle-ai-world-2026-vision",
-      "companies": [
-        "ORCL"
-      ],
-      "title": "Oracle AI World · vision and strategy",
-      "type": "Keynote",
-      "status": "confirmed",
-      "date": "2026-10-27",
-      "endDate": null,
-      "window": null,
-      "time": "3:30 p.m. (event schedule; timezone not explicitly stated)",
-      "sourceUrl": "https://www.oracle.com/ai-world/keynotes/",
-      "sourceLabel": "Oracle AI World official keynote schedule",
-      "sourceCheckedAt": "2026-10-18T07:20:26Z",
-      "verifiedAt": "2026-10-18T07:20:26Z",
-      "basis": "Oracle's keynote agenda lists 'Oracle Vision and Strategy' on Tuesday October 27 at 3:30 p.m. Timezone is not explicitly stated.",
-      "importance": "Oracle AI and cloud strategy, new offerings and potential customer demand.",
-      "sources": [
-        {
-          "label": "Oracle AI World official keynote schedule",
-          "url": "https://www.oracle.com/ai-world/keynotes/",
           "kind": "official",
           "checkedAt": "2026-10-18T07:20:26Z"
         }

@@ -103,15 +103,35 @@
     const offset = (month.getUTCDay()+6)%7;
     const days = new Date(Date.UTC(month.getUTCFullYear(),month.getUTCMonth()+1,0)).getUTCDate();
     const cells = Math.ceil((offset+days)/7)*7;
-    for (let i=0; i<cells; i++) {
-      const d = new Date(Date.UTC(month.getUTCFullYear(),month.getUTCMonth(),1-offset+i));
-      const key = dayKey(d), outside = monthKey(d) !== monthKey(month);
-      const items = outside ? [] : events.filter(e => !e.timingWindow && rangeStart(e) && rangeStart(e) <= key && rangeEnd(e) >= key);
-      html += `<div class="day ${outside?'outside':''} ${key===today?'today':''} ${i%7>=5?'weekend':''}"><time class="day-number" datetime="${key}" ${key===today?'aria-current="date"':''}>${d.getUTCDate()}</time>${items.map(e=>{
+    const monthStart=dayKey(month), monthEnd=dayKey(new Date(Date.UTC(month.getUTCFullYear(),month.getUTCMonth()+1,0)));
+    for (let week=0; week<cells/7; week++) {
+      const dates=Array.from({length:7},(_,column)=>new Date(Date.UTC(month.getUTCFullYear(),month.getUTCMonth(),1-offset+week*7+column)));
+      const keys=dates.map(dayKey), first=keys[0]>monthStart?keys[0]:monthStart, last=keys[6]<monthEnd?keys[6]:monthEnd;
+      const segments=events.filter(e=>!e.timingWindow && rangeStart(e)<=last && rangeEnd(e)>=first).map(e=>{
+        const start=rangeStart(e)>first?rangeStart(e):first, end=rangeEnd(e)<last?rangeEnd(e):last;
+        return {event:e,start,end,column:keys.indexOf(start),span:keys.indexOf(end)-keys.indexOf(start)+1,multiday:rangeStart(e)!==rangeEnd(e)};
+      }).sort((a,b)=>Number(b.multiday)-Number(a.multiday) || a.start.localeCompare(b.start) || Cal.orderKey(a.event,zone).localeCompare(Cal.orderKey(b.event,zone)) || a.event.title.localeCompare(b.event.title));
+      const lanes=[];
+      for (const segment of segments) {
+        const mask=((1<<segment.span)-1)<<segment.column;
+        let lane=lanes.findIndex(used=>(used & mask)===0);
+        if(lane===-1)lane=lanes.length;
+        lanes[lane]=(lanes[lane] || 0) | mask;
+        segment.lane=lane;
+      }
+      html+=`<div class="calendar-week" role="group" aria-label="Week of ${escape(prettyDay(keys[0]))}" style="--event-rows:${Math.max(1,lanes.length)}">`;
+      html+=dates.map((d,column)=>{
+        const key=keys[column], outside=monthKey(d)!==monthKey(month);
+        return `<div class="day ${outside?'outside':''} ${key===today?'today':''} ${column>=5?'weekend':''}" style="grid-column:${column+1}" data-date="${key}"><time class="day-number" datetime="${key}" ${key===today?'aria-current="date"':''}>${d.getUTCDate()}</time></div>`;
+      }).join('');
+      html+=segments.map(({event:e,start,end,column,span,lane,multiday})=>{
+        const before=rangeStart(e)<start, after=rangeEnd(e)>end;
         const title=e.type==='Earnings'?`${e.companies.join(' / ')} earnings`:e.title;
-        const description=`${priority(e)?'Coverage: ':''}${e.title}. ${dateStatus(e)}${e.startAt?'. '+Cal.eventTime(e,zone)+' · '+timingLabel(e):'. Time not verified'}. Open event details.`;
-        return `<div class="calendar-entry ${eventKind(e)} ${temporalClass(e)} ${certaintyClass(e)} ${selecting?'selecting':''}" data-event-id="${escape(e.id)}">${selectionControl(e)}<button class="calendar-event ${escape(e.status)}" data-event="${escape(e.id)}" title="${escape(e.title)}" aria-label="${escape(description)}">${priority(e)?'<b class="event-star" aria-hidden="true">★</b> ':''}${e.startAt?`<time class="calendar-time" datetime="${escape(e.startAt)}">${escape(Cal.shortTime(e,zone))}</time> `:''}${escape(title)}</button></div>`;
-      }).join('')}</div>`;
+        const continuation=(before?' Continued from the previous week or month.':'')+(after?' Continues into the next week or month.':'');
+        const description=`${priority(e)?'Coverage: ':''}${e.title}. ${timingLabel(e)}. ${dateStatus(e)}.${e.startAt?' '+Cal.eventTime(e,zone):' Time not verified.'}${continuation} Open event details.`;
+        return `<div class="calendar-entry ${eventKind(e)} ${temporalClass(e)} ${certaintyClass(e)} ${multiday?'multi-day':''} ${before?'continues-before':''} ${after?'continues-after':''} ${selecting?'selecting':''}" data-event-id="${escape(e.id)}" data-start-date="${start}" data-end-date="${end}" style="grid-column:${column+1} / span ${span};grid-row:${lane+2}">${selectionControl(e)}<button class="calendar-event ${escape(e.status)}" data-event="${escape(e.id)}" title="${escape(e.title)}" aria-label="${escape(description)}">${before?'<span class="continuation-arrow" aria-hidden="true">←</span>':''}<span class="calendar-event-label">${priority(e)?'<b class="event-star" aria-hidden="true">★</b> ':''}${e.startAt?`<time class="calendar-time" datetime="${escape(e.startAt)}">${escape(Cal.shortTime(e,zone))}</time> `:''}${escape(title)}</span>${after?'<span class="continuation-arrow" aria-hidden="true">→</span>':''}</button></div>`;
+      }).join('');
+      html+='</div>';
     }
     $('calendar').innerHTML = html;
     const windows=events.filter(e=>e.timingWindow);

@@ -1,15 +1,35 @@
 """Real-browser checks. Serve this checkout on port 8000 first."""
 import json
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
+from zoneinfo import ZoneInfo
 ROOT=Path(__file__).resolve().parents[1]
 dataset=json.loads((ROOT/'data/events.json').read_text())
 by_id={e['id']:e for e in dataset['events']}
 company_map={c['id']:c for c in dataset['companies']}
 priority=lambda e:any(company_map[c]['coverage'] for c in e['companies'])
-october=[e for e in dataset['events'] if e.get('date') and e['date']<='2026-10-31' and (e.get('endDate') or e['date'])>='2026-10-01']
-occurrences=sum((min(date.fromisoformat(e.get('endDate') or e['date']),date(2026,10,31))-max(date.fromisoformat(e['date']),date(2026,10,1))).days+1 for e in october)
+def displayed_range(event):
+    if event.get('startAt'):
+        start=datetime.fromisoformat(event['startAt'].replace('Z','+00:00')).astimezone(ZoneInfo('Asia/Hong_Kong')).date()
+        end=(datetime.fromisoformat(event['endAt'].replace('Z','+00:00'))-timedelta(milliseconds=1)).astimezone(ZoneInfo('Asia/Hong_Kong')).date() if event.get('endAt') else start
+        return start,end
+    start=event.get('date') or event.get('timingWindow',{}).get('start')
+    end=event.get('endDate') or event.get('timingWindow',{}).get('end') or start
+    return (date.fromisoformat(start),date.fromisoformat(end)) if start else (None,None)
+
+def calendar_segments(event, month_start=date(2026,10,1), month_end=date(2026,10,31)):
+    if event.get('timingWindow'):
+        return 0
+    start,end=displayed_range(event)
+    if not start or start>month_end or end<month_start:
+        return 0
+    start,end=max(start,month_start),min(end,month_end)
+    first_monday=start-timedelta(days=start.weekday())
+    last_monday=end-timedelta(days=end.weekday())
+    return (last_monday-first_monday).days//7+1
+
+occurrences=sum(calendar_segments(e) for e in dataset['events'])
 with sync_playwright() as p:
     browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox','--disable-dev-shm-usage','--no-proxy-server','--single-process','--no-zygote'])
     page=browser.new_page(viewport={'width':1440,'height':1000})
@@ -21,11 +41,15 @@ with sync_playwright() as p:
     expect(page.locator('.coverage-company')).to_have_count(12)
     expect(page.locator('.universe-company')).to_have_count(20)
     expect(page.locator('#coverage-list')).to_contain_text('Apple')
+    assert page.locator('body').evaluate('(e)=>getComputedStyle(e).fontSize')=='15px'
+    expect(page.locator('.brand')).to_have_text('Global Tech')
+    expect(page.locator('.brand-mark, .brand svg, .brand img')).to_have_count(0)
     for name in ['Meta','Intel','Arm','Qualcomm','Snowflake','CrowdStrike','Palo Alto Networks']:
         expect(page.locator('#ecosystem-list')).to_contain_text(name)
         expect(page.locator('#coverage-list')).not_to_contain_text(name)
     assert page.locator('#calendar-view').bounding_box()['y']<100
     expect(page.locator('.calendar-event')).to_have_count(occurrences)
+    assert page.locator('.calendar-event').evaluate_all('(els)=>els.every(e=>parseFloat(getComputedStyle(e).fontSize)>=12)')
     # Certainty controls the border, not whether a date is in the future.
     for entry in page.locator('.calendar-entry').all():
         event=by_id[entry.get_attribute('data-event-id')]
@@ -38,10 +62,47 @@ with sync_playwright() as p:
         assert page.locator(f'.calendar-entry[data-event-id="{event_id}"]').evaluate('(e)=>getComputedStyle(e).borderTopStyle')==style
     expect(page.locator('.calendar-entry[data-event-id="ASML-2026-10-earnings"]')).to_have_count(1)
     expect(page.locator('.calendar-entry[data-event-id="mit-ai-2026"]')).to_have_count(1)
-    expect(page.locator('.calendar-entry[data-event-id="cloudflare-connect-2026"]')).to_have_count(3)
+    cloudflare=page.locator('.calendar-entry[data-event-id="cloudflare-connect-2026"]')
+    expect(cloudflare).to_have_count(1)
+    expect(cloudflare).to_have_attribute('data-start-date','2026-10-19')
+    expect(cloudflare).to_have_attribute('data-end-date','2026-10-21')
+    first_day=page.locator('.day[data-date="2026-10-19"]').bounding_box()
+    last_day=page.locator('.day[data-date="2026-10-21"]').bounding_box()
+    band=cloudflare.bounding_box()
+    assert first_day['x']<=band['x']<=first_day['x']+8
+    assert last_day['x']+last_day['width']-8<=band['x']+band['width']<=last_day['x']+last_day['width']
+    assert band['width']>first_day['width']*2.85, 'One connected bar must cover all three conference dates'
+    oracle=page.locator('.calendar-entry[data-event-id="oracle-ai-world-2026"]')
+    expect(oracle).to_have_count(2)
+    expect(oracle.nth(0)).to_have_attribute('data-start-date','2026-10-25')
+    expect(oracle.nth(0)).to_have_attribute('data-end-date','2026-10-25')
+    expect(oracle.nth(1)).to_have_attribute('data-start-date','2026-10-26')
+    expect(oracle.nth(1)).to_have_attribute('data-end-date','2026-10-28')
+    assert 'continues-after' in oracle.nth(0).get_attribute('class')
+    assert 'continues-before' not in oracle.nth(0).get_attribute('class')
+    assert 'continues-before' in oracle.nth(1).get_attribute('class')
+    assert 'continues-after' not in oracle.nth(1).get_attribute('class')
+    expect(oracle.nth(0).locator('.continuation-arrow')).to_have_text('→')
+    expect(oracle.nth(1).locator('.continuation-arrow')).to_have_text('←')
+    expect(page.locator('.calendar-entry[data-event-id^="oracle-ai-world-2026-"]')).to_have_count(0)
+    oracle.nth(0).locator('.calendar-event').click()
+    expect(page.locator('#event-detail h2')).to_have_text('Oracle AI World 2026')
+    expect(page.locator('#event-detail')).to_contain_text('Clay Magouyrk')
+    expect(page.locator('#event-detail')).to_contain_text('9:00 a.m.')
+    expect(page.locator('#event-detail')).to_contain_text('3:30 p.m.')
+    expect(page.locator('#event-detail .source-list a[href="https://www.oracle.com/ai-world/keynotes/"]')).to_have_count(1)
+    page.keyboard.press('Escape')
+    # Events sharing the same date columns need separate visible rows.
+    ocp_band=page.locator('.calendar-entry[data-event-id="ocp"]').bounding_box()
+    workday_band=page.locator('.calendar-entry[data-event-id="workday-rising-us-2026"]').bounding_box()
+    assert abs(ocp_band['x']-workday_band['x'])<1
+    assert abs(ocp_band['width']-workday_band['width'])<1
+    assert ocp_band['y']+ocp_band['height']<=workday_band['y'] or workday_band['y']+workday_band['height']<=ocp_band['y'], 'Overlapping conference dates must occupy separate rows'
     earnings_colors=page.locator('.calendar-entry.kind-earnings').evaluate_all('(els)=>els.map(e=>getComputedStyle(e).backgroundColor)')
     assert len(set(earnings_colors))==1
-    assert page.locator('#calendar').bounding_box()['height']<650, 'Calendar should stay compact at desktop width'
+    # Larger default type and the expanded event set need room for readable
+    # overlapping rows while still keeping October within the desktop viewport.
+    assert page.locator('#calendar').bounding_box()['height']<700, 'Calendar should stay compact at desktop width'
     page.locator('.calendar-entry[data-event-id="005930.KS-2026-10-earnings"] .calendar-event').click()
     expect(page.locator('#event-detail .source-link')).to_have_attribute('href',by_id['005930.KS-2026-10-earnings']['sourceUrl'])
     expect(page.locator('#event-detail')).to_contain_text('10:00 KST')
@@ -49,6 +110,9 @@ with sync_playwright() as p:
     page.locator('#list-view').click()
     rows=page.locator('.list-table tbody tr[data-event-id]')
     expect(rows).to_have_count(len(dataset['events']))
+    expect(rows.filter(has=page.locator('[data-event="oracle-ai-world-2026"]'))).to_have_count(1)
+    expect(page.locator('.list-table tr[data-event-id^="oracle-ai-world-2026-"]')).to_have_count(0)
+    assert not any('Clay Magouyrk' in title for title in rows.locator('.event-name').all_text_contents())
     expect(page.locator('#month-label')).to_have_text('All events')
     expect(page.locator('#prev-month')).to_be_hidden()
     expect(page.locator('#next-month')).to_be_hidden()
@@ -58,7 +122,7 @@ with sync_playwright() as p:
     # All history and future events exist simultaneously, without month paging.
     ids=rows.evaluate_all('(els)=>els.map(e=>e.dataset.eventId)')
     assert set(ids)==set(by_id), 'Every event must exist in the single list'
-    starts=[by_id[id].get('date') or by_id[id].get('timingWindow',{}).get('start') or '9999-12-31' for id in ids]
+    starts=[displayed_range(by_id[id])[0] or date.max for id in ids]
     assert starts==sorted(starts), 'Dates and window starts must remain chronological'
     for row in rows.all():
         event=by_id[row.get_attribute('data-event-id')]
@@ -126,13 +190,17 @@ with sync_playwright() as p:
     fixture['events'].append(dict(fixture['events'][0],id='test-multiday',title='Cross-month fixture',date='2026-09-30',endDate='2026-10-02',startAt=None,endAt=None))
     page.route('**/data/events.json',lambda r:r.fulfill(json=fixture))
     page.reload()
-    expect(page.locator('.calendar-entry[data-event-id="test-multiday"]')).to_have_count(2)
+    expect(page.locator('.calendar-entry[data-event-id="test-multiday"]')).to_have_count(1)
+    expect(page.locator('.calendar-entry[data-event-id="test-multiday"]')).to_have_attribute('data-start-date','2026-10-01')
+    expect(page.locator('.calendar-entry[data-event-id="test-multiday"]')).to_have_attribute('data-end-date','2026-10-02')
+    assert 'continues-before' in page.locator('.calendar-entry[data-event-id="test-multiday"]').get_attribute('class')
     page.unroute('**/data/events.json')
     page.reload()
     page.screenshot(path='/tmp/catalyst-desktop.png',full_page=True)
     page.locator('#list-view').click()
     page.screenshot(path='/tmp/catalyst-list.png',full_page=True)
     page.set_viewport_size({'width':390,'height':844})
+    page.locator('#sidebar').evaluate('(e)=>Promise.all(e.getAnimations().map(a=>a.finished.catch(()=>{})))')
     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
     expect(page.locator('#next-month')).to_be_hidden()
     page.locator('#open-universe').click()
@@ -146,10 +214,11 @@ with sync_playwright() as p:
     row.locator('.event-name').click()
     expect(page.locator('#event-dialog')).to_be_visible()
     page.keyboard.press('Escape')
+    page.locator('#sidebar').evaluate('(e)=>Promise.all(e.getAnimations().map(a=>a.finished.catch(()=>{})))')
     page.screenshot(path='/tmp/catalyst-mobile-list.png',full_page=True)
     page.locator('#calendar-view').click()
     assert page.locator('#calendar-view').bounding_box()['y']<100
     page.screenshot(path='/tmp/catalyst-mobile.png',full_page=True)
     assert not errors,errors
     browser.close()
-    print('PASS certainty borders; single chronological timeline centered on today; all sources; historic and future scrolling; IPO precision windows; industry events; filters; safe rendering; desktop/mobile.')
+    print('PASS connected multi-day bands and week continuations; separate overlapping rows; merged Oracle keynote details; larger font and text-only brand; certainty borders; full timeline and sources; IPO windows; filters; safe rendering; desktop/mobile.')
