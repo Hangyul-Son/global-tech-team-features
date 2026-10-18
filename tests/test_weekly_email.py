@@ -146,6 +146,17 @@ class WeeklyEmailTests(unittest.TestCase):
         request.assert_not_called()
         self.assertIn('To: hangyul.son@clsa.com', output.getvalue())
         self.assertIn('Result: BLOCKED', output.getvalue())
+        self.assertIn('https://hangyul-son.github.io/global-tech-team-features/', output.getvalue())
+        self.assertNotIn('/train-me-to-be-a-better-financial-analyst/', output.getvalue())
+
+    def test_cli_uses_actual_deployed_site_url_in_email(self):
+        deployed_url = 'https://hangyul-son.github.io/future-project-name/'
+        output = io.StringIO()
+        with patch.object(email, 'urlopen') as request, contextlib.redirect_stdout(output):
+            self.assertEqual(email.main(['--result', 'published', '--site-url', deployed_url, '--dry-run'], {}), 0)
+        request.assert_not_called()
+        self.assertIn('Website: ' + deployed_url, output.getvalue())
+        self.assertNotIn(email.DEFAULT_SITE, output.getvalue())
 
     def test_report_text_is_capped_and_links_reject_injection(self):
         report = {**self.report, 'warnings': ['bad\nheader\r' + ('word ' * 1000)] * 1000,

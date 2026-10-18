@@ -30,11 +30,9 @@ jobs:
       - name: Record reviewed repository version
         id: base
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-      - name: Check model and email configuration
+      - name: Check research model configuration
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          GLOBAL_TECH_EMAIL_FROM: ${{ vars.GLOBAL_TECH_EMAIL_FROM || secrets.GLOBAL_TECH_EMAIL_FROM }}
         run: python3 scripts/weekly_refresh.py --preflight
       - name: Research with GPT-6 Astra and independently review with maximum reasoning
         env:
@@ -90,6 +88,8 @@ jobs:
     needs: research
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     permissions:
       contents: write
       pages: write
@@ -143,6 +143,19 @@ jobs:
             echo 'A newer change exists; this older snapshot will not be deployed.'
             exit 1
           fi
+      - name: Keep Pages publishing through Actions
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          build_type=$(gh api "repos/$REPOSITORY/pages" --jq .build_type)
+          if [ "$build_type" != 'workflow' ]; then
+            if gh api --method PUT "repos/$REPOSITORY/pages" -f build_type=workflow >/dev/null; then
+              echo 'Pages now publishes through Actions.'
+            else
+              echo '::warning::Set Settings > Pages > Source to GitHub Actions to prevent an unrelated branch from replacing this site.'
+            fi
+          fi
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -151,7 +164,9 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Verify the actual public event dataset before reporting success
-        run: python3 scripts/verify_deployment.py
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python3 scripts/verify_deployment.py --site-url "$PAGE_URL"
 
   email:
     needs: [research, publish]
@@ -174,6 +189,7 @@ jobs:
           GLOBAL_TECH_EMAIL_FROM: ${{ vars.GLOBAL_TECH_EMAIL_FROM || secrets.GLOBAL_TECH_EMAIL_FROM }}
           PUBLICATION_RESULT: ${{ needs.publish.result }}
           RESEARCH_RESULT: ${{ needs.research.result }}
+          SITE_URL: ${{ needs.publish.outputs.page_url || format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           result=$(python3 - <<'PY'
@@ -199,4 +215,4 @@ jobs:
           print(result)
           PY
           )
-          python3 scripts/send_weekly_email.py --result "$result" --report .weekly-refresh/research/report.json --run-url "$RUN_URL" --site-url https://hangyul-son.github.io/train-me-to-be-a-better-financial-analyst/
+          python3 scripts/send_weekly_email.py --result "$result" --report .weekly-refresh/research/report.json --run-url "$RUN_URL" --site-url "$SITE_URL"

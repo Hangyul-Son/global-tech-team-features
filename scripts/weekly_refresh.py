@@ -543,14 +543,9 @@ def run(report_path):
 
 
 def preflight(report_path):
-    required = ('OPENAI_API_KEY','RESEND_API_KEY','GLOBAL_TECH_EMAIL_FROM')
+    # Delivery is a separate job. Email setup must never gate a valid publication.
+    required = ('OPENAI_API_KEY',)
     missing = [name for name in required if not os.environ.get(name, '').strip()]
-    if not missing:
-        from send_weekly_email import NotificationError, validate_sender
-        try:
-            validate_sender(os.environ['GLOBAL_TECH_EMAIL_FROM'])
-        except NotificationError:
-            missing.append('valid single GLOBAL_TECH_EMAIL_FROM sender')
     if MODEL != 'gpt-6-astra' or EFFORT != 'max':
         missing.append('required GPT-6 Astra / max policy')
     if missing:
@@ -559,7 +554,7 @@ def preflight(report_path):
                                 'warnings': ['Missing configuration: ' + ', '.join(missing) + '. No update was attempted.']})
         print('Weekly refresh is blocked. Missing configuration: ' + ', '.join(missing))
         return 1
-    print('Required configuration is present. Credentials and delivery will be checked by the real run.')
+    print('Research configuration is present. The real run will check model access. Email setup does not block publishing.')
     return 0
 
 

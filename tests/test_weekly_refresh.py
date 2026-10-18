@@ -259,13 +259,13 @@ class WeeklyRefreshTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             report_path = Path(directory) / 'report.json'
             output = io.StringIO()
-            with patch.dict(weekly.os.environ, {'OPENAI_API_KEY': 'sensitive-key-never-log'}, clear=True), contextlib.redirect_stdout(output):
+            with patch.dict(weekly.os.environ, {'RESEND_API_KEY': 'sensitive-key-never-log'}, clear=True), contextlib.redirect_stdout(output):
                 self.assertEqual(weekly.preflight(report_path), 1)
             report = json.loads(report_path.read_text())
             text = output.getvalue() + report_path.read_text()
             self.assertEqual(report['result'], 'blocked')
-            self.assertIn('RESEND_API_KEY', text)
-            self.assertIn('GLOBAL_TECH_EMAIL_FROM', text)
+            self.assertIn('OPENAI_API_KEY', text)
+            self.assertNotIn('GLOBAL_TECH_EMAIL_FROM', text)
             self.assertNotIn('sensitive-key-never-log', text)
 
     def test_preflight_rejects_weaker_model_or_reasoning_policy(self):
@@ -274,22 +274,25 @@ class WeeklyRefreshTests(unittest.TestCase):
                 with patch.object(weekly, 'MODEL', model), patch.object(weekly, 'EFFORT', effort), patch.dict(weekly.os.environ, {'OPENAI_API_KEY': 'test', 'RESEND_API_KEY': 'test', 'GLOBAL_TECH_EMAIL_FROM': 'calendar@example.com'}, clear=True), contextlib.redirect_stdout(io.StringIO()):
                     self.assertEqual(weekly.preflight(Path(directory) / 'report.json'), 1)
 
-    def test_preflight_rejects_invalid_sender_before_any_api_call(self):
+    def test_email_configuration_does_not_block_automatic_publication(self):
         for sender in ['not-an-email', 'sender@example.com\nBcc: attacker@example.com', 'one@example.com, two@example.com']:
             with self.subTest(sender=sender), tempfile.TemporaryDirectory() as directory:
                 output = io.StringIO()
                 report_path = Path(directory) / 'report.json'
                 environment = {'OPENAI_API_KEY': 'secret-model-token', 'RESEND_API_KEY': 'secret-mail-token', 'GLOBAL_TECH_EMAIL_FROM': sender}
                 with patch.dict(weekly.os.environ, environment, clear=True), patch.object(weekly, 'api_request') as api, contextlib.redirect_stdout(output):
-                    self.assertEqual(weekly.preflight(report_path), 1)
+                    self.assertEqual(weekly.preflight(report_path), 0)
                 api.assert_not_called()
-                report = json.loads(report_path.read_text())
-                self.assertEqual(report['result'], 'blocked')
-                combined = report_path.read_text() + output.getvalue()
-                self.assertIn('valid single GLOBAL_TECH_EMAIL_FROM sender', combined)
+                self.assertFalse(report_path.exists(), 'Email settings cannot produce a research-blocked report')
+                combined = output.getvalue()
                 self.assertNotIn('secret-model-token', combined)
                 self.assertNotIn('secret-mail-token', combined)
                 self.assertNotIn(sender, combined)
+
+    def test_openai_key_alone_enables_the_research_job(self):
+        with tempfile.TemporaryDirectory() as directory:
+            with patch.dict(weekly.os.environ, {'OPENAI_API_KEY':'secret-model-token'}, clear=True), contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(weekly.preflight(Path(directory) / 'report.json'), 0)
 
     def test_independent_review_must_account_for_every_proposal_and_company(self):
         for issue in ['missing-proposal', 'duplicate-approval', 'missing-company']:

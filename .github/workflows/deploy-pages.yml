@@ -46,6 +46,20 @@ jobs:
             exit 1
           fi
 
+      - name: Keep Pages publishing through Actions
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          build_type=$(gh api "repos/$REPOSITORY/pages" --jq .build_type)
+          if [ "$build_type" != 'workflow' ]; then
+            if gh api --method PUT "repos/$REPOSITORY/pages" -f build_type=workflow >/dev/null; then
+              echo 'Pages now publishes through Actions.'
+            else
+              echo '::warning::Set Settings > Pages > Source to GitHub Actions to prevent an unrelated branch from replacing this site.'
+            fi
+          fi
+
       - name: Configure Pages
         uses: actions/configure-pages@v4
 
@@ -57,3 +71,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify the published calendar
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python3 scripts/verify_deployment.py --site-url "$PAGE_URL"

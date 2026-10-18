@@ -23,7 +23,7 @@ from urllib.request import Request, urlopen
 
 RECIPIENT = 'hangyul.son@clsa.com'
 ENDPOINT = 'https://api.resend.com/emails'
-DEFAULT_SITE = 'https://hangyul-son.github.io/train-me-to-be-a-better-financial-analyst/'
+DEFAULT_SITE = 'https://hangyul-son.github.io/global-tech-team-features/'
 RESULTS = {
     'published': ('Published', 'The calendar update was published.'),
     'unchanged': ('No calendar changes', 'The research run completed without calendar changes.'),
