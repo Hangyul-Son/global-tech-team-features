@@ -1629,7 +1629,8 @@
           "checkedAt": "2026-10-18T17:03:00.379Z"
         }
       ],
-      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement."
+      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement.",
+      "time": null
     },
     {
       "id": "ARM-2027-02-earnings",
@@ -1656,7 +1657,8 @@
           "checkedAt": "2026-10-18T17:03:00.379Z"
         }
       ],
-      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement."
+      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement.",
+      "time": null
     },
     {
       "id": "ARM-2027-05-earnings",
@@ -1683,7 +1685,8 @@
           "checkedAt": "2026-10-18T17:03:00.379Z"
         }
       ],
-      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement."
+      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement.",
+      "time": null
     },
     {
       "id": "QCOM-2026-11-earnings",
