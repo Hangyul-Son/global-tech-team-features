@@ -397,6 +397,15 @@
       "source": "https://openai.com/news/",
       "months": [],
       "thesis": "AI model economics, compute demand, cloud partnerships and possible public-market financing."
+    },
+    {
+      "id": "SPACEX",
+      "name": "SpaceX",
+      "sector": "Space & satellite communications",
+      "coverage": false,
+      "source": "https://www.spacex.com/",
+      "months": [],
+      "thesis": "Starlink subscriber growth, satellite broadband economics, launch cadence, Starship milestones, government contracts and potential capital-market activity."
     }
   ],
   "events": [
@@ -2488,6 +2497,6 @@
       ]
     }
   ],
-  "verificationNote": "Targeted ASML official-calendar verification on October 23; not a comprehensive 32-company refresh.",
+  "verificationNote": "SpaceX added to research scope on October 23, 2026. Specific launch dates and private-company events require official verification; no speculative dates added.",
   "lastPartialReview": "2026-10-23T01:38:00Z"
 }
