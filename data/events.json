@@ -2821,9 +2821,9 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX 800 MHz spectrum acquisition · H1 2027 closing target",
+      "title": "SpaceX 800 MHz spectrum deal · H1 2027 target (date unannounced)",
       "type": "Operating update",
-      "status": "estimated",
+      "status": "unannounced",
       "date": null,
       "endDate": null,
       "window": null,
@@ -2832,7 +2832,7 @@
       "sourceLabel": "SpaceX Q3 SEC earnings release",
       "sourceCheckedAt": "2026-10-23T17:04:38Z",
       "verifiedAt": null,
-      "basis": "SpaceX's October 20 Q3 release says it signed an agreement on October 8 to acquire up to 14 MHz of paired nationwide 800 MHz spectrum, with closing expected in the first half of 2027 subject to regulatory approval. This is a company target window, not a confirmed closing date.",
+      "basis": "SpaceX's October 20 Q3 SEC filing confirms the October 8 spectrum acquisition agreement and management's H1 2027 expected closing period, subject to regulatory approvals. No exact closing day is announced. Tracked as an undated watch item rather than an unsupported calendar date.",
       "importance": "Starlink Mobile direct-to-device capacity, competitive mobile economics, regulatory approvals and spectrum capex.",
       "sources": [
         {
@@ -2841,14 +2841,7 @@
           "kind": "official",
           "checkedAt": "2026-10-23T17:04:38Z"
         }
-      ],
-      "estimateKind": "company-target",
-      "timingWindow": {
-        "start": "2027-01-01",
-        "end": "2027-06-30",
-        "label": "H1 2027 · company-target closing window",
-        "precision": "half-year"
-      }
+      ]
     }
   ],
   "verificationNote": "Oct 24 targeted refresh: corrected SpaceX Nasdaq:SPCX and published Q2/Q3 earnings/IPO from IR and SEC; upgraded SK hynix Oct 28 to confirmed from Oct 21 company invitation; corrected AMD Nov 3 call to 5pm ET/2pm PT standard time. Not a complete 33-company source sweep.",
