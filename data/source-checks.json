@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Published estimates are staged separately and remain unconfirmed. Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged.",
+  "note": "Published estimates are staged separately and remain unconfirmed. Retrieval is not date verification. JavaScript-only pages may return no candidates. Reviewed events remain unchanged. Targeted October 24, 2026 review is recorded separately under lastTargetedReview; previous full source sweep is still October 15.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5338,5 +5338,133 @@
         }
       ]
     }
-  ]
+  ],
+  "lastTargetedReview": {
+    "checkedAt": "2026-10-23T17:04:38Z",
+    "scope": "Targeted official-source audit of highest-priority earnings, launch and conference catalysts; not an exhaustive sweep of all 33 companies.",
+    "companiesChecked": [
+      "SPACEX",
+      "000660.KS",
+      "AMD",
+      "TSM",
+      "ASML",
+      "MSFT",
+      "AAPL",
+      "AMZN",
+      "ORCL"
+    ],
+    "companiesNotFullyReviewed": [
+      "NVDA",
+      "AVGO",
+      "MRVL",
+      "CRM",
+      "NOW",
+      "ADBE",
+      "WDAY",
+      "LRCX",
+      "005930.KS",
+      "MU",
+      "2454.TW",
+      "GOOGL",
+      "META",
+      "ANTHROPIC",
+      "CRWV",
+      "NBIS",
+      "INTC",
+      "ARM",
+      "QCOM",
+      "SNOW",
+      "CRWD",
+      "PANW",
+      "NET",
+      "OPENAI"
+    ],
+    "primarySources": [
+      {
+        "company": "SPACEX",
+        "description": "SpaceX Q3 earnings IR",
+        "url": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "SPACEX",
+        "description": "SpaceX Q3 SEC 8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "SPACEX",
+        "description": "SpaceX Q2 earnings IR",
+        "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "SPACEX",
+        "description": "SpaceX completed IPO announcement",
+        "url": "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Closing-of-Initial-Public-Offering-Including-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-2026-RgoR-Y1Vwh/",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "SPACEX",
+        "description": "SpaceX official launch manifest",
+        "url": "https://www.spacex.com/launches/starlink-launch",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "000660.KS",
+        "description": "SK hynix Q3 earnings invitation",
+        "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "AMD",
+        "description": "AMD Q3 earnings announcement",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "TSM",
+        "description": "TSMC financial calendar",
+        "url": "https://investor.tsmc.com/english/financial-calendar",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "ASML",
+        "description": "ASML investor calendar",
+        "url": "https://www.investor.asml.com/",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "MSFT",
+        "description": "Microsoft investor calendar",
+        "url": "https://www.microsoft.com/en-us/investor/",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "AAPL",
+        "description": "Apple investor results schedule",
+        "url": "https://investor.apple.com/investor-relations/",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "AMZN",
+        "description": "Amazon investor events",
+        "url": "https://ir.aboutamazon.com/overview/default.aspx",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      },
+      {
+        "company": "ORCL",
+        "description": "Oracle AI World 2026",
+        "url": "https://www.oracle.com/ai-world/",
+        "checkedAt": "2026-10-23T17:04:38Z"
+      }
+    ],
+    "verifiedChanges": [
+      "SPACEX is Nasdaq:SPCX following June 12, 2026 IPO, not private",
+      "SPACEX Q3 2026 earnings occurred Oct 20; Q2 occurred Aug 4",
+      "SPACEX next earnings date unannounced; do not fabricate",
+      "SK hynix Oct 28 Q3 call 09:00 KST confirmed",
+      "AMD Nov 3 Q3 call 14:00 PT / 17:00 ET; 06:00 HKT Nov 4"
+    ]
+  }
 }
