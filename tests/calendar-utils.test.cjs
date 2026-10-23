@@ -23,12 +23,17 @@ test('DST and calendar month/year rollover use IANA rules',()=>{
  assert.equal(Cal.eventDate({startAt:'2026-10-31T23:30:00Z',date:'2026-10-31'}),'2026-11-01');
  assert.equal(Cal.validZone('Not/AZone'),false);
 });
-test('unknown and conflicting times remain date-only in all zones',()=>{
+test('unannounced times remain date-only; newly verified AMD call converts across zones',()=>{
+ const nvda=event('NVDA-2026-11-earnings');
+ assert.equal(nvda.startAt,undefined);
+ assert.equal(Cal.eventDate(nvda,'Asia/Hong_Kong'),'2026-11-18');
+ assert.equal(Cal.eventDate(nvda,'America/Los_Angeles'),'2026-11-18');
+ assert.equal(Cal.eventTime(nvda),'Time not announced');
  const amd=event('AMD-2026-11-earnings');
- assert.equal(amd.startAt,undefined);
- assert.equal(Cal.eventDate(amd,'Asia/Hong_Kong'),'2026-11-03');
- assert.equal(Cal.eventDate(amd,'America/Los_Angeles'),'2026-11-03');
- assert.equal(Cal.eventTime(amd),'Time needs verification');
+ assert.equal(amd.startAt,'2026-11-03T22:00:00Z');
+ assert.equal(Cal.eventDate(amd,'Asia/Hong_Kong'),'2026-11-04');
+ assert.equal(Cal.shortTime(amd,'Asia/Hong_Kong'),'06:00');
+ assert.equal(Cal.shortTime(amd,'America/Los_Angeles'),'14:00');
 });
 test('UTC ICS events keep real times, stable UIDs, and deduplicate multiday selections',()=>{
  const apple=event('AAPL-2026-11-earnings');
@@ -73,11 +78,14 @@ test('RFC 5545 UTF-8 folding, escaping, CRLF and injection protection',()=>{
  assert.throws(()=>Cal.toICS([]),/Select at least/);
  assert.throws(()=>Cal.toICS([{id:'unknown',date:null}]),/no sourced date/);
 });
-test('every current event can serialize without fabricating missing times',()=>{
- const out=Cal.toICS(data.events,new Date('2026-10-15T12:00:00Z'));
- assert.equal((out.match(/BEGIN:VEVENT/g)||[]).length,data.events.length);
- for(const e of data.events){
+test('all scheduled events serialize; undated watch items never become fictitious appointments',()=>{
+ const scheduled=data.events.filter(Cal.canExport);
+ const undated=data.events.filter(e=>!Cal.canExport(e));
+ const out=Cal.toICS(scheduled,new Date('2026-10-15T12:00:00Z'));
+ assert.equal((out.match(/BEGIN:VEVENT/g)||[]).length,scheduled.length);
+ for(const e of scheduled){
   const block=unfold(Cal.toICS([e]));
   assert.ok(block.includes(e.startAt?'DTSTART:':'DTSTART;VALUE=DATE:'));
  }
+ for(const e of undated)assert.throws(()=>Cal.toICS([e]),/no sourced date/);
 });
