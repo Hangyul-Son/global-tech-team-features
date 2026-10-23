@@ -2495,8 +2495,224 @@
           "checkedAt": "2026-10-23T01:38:00Z"
         }
       ]
+    },
+    {
+      "id": "spacex-starlink-launch-2026-10-24",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Starlink Falcon 9 launch · 2026-10-24",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-24",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
+      "sourceLabel": "SpaceX official launch manifest",
+      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "verifiedAt": "2026-10-23T02:00:00Z",
+      "basis": "SpaceX's official launch manifest lists this as an upcoming Starlink mission on the specified date. This is an officially published schedule, not a guarantee of launch; subject to weather, range and technical changes. No launch time is asserted.",
+      "importance": "Starlink constellation deployment cadence, Falcon 9 reuse and satellite/network capex.",
+      "sources": [
+        {
+          "label": "SpaceX launch manifest",
+          "url": "https://www.spacex.com/launches/starlink-launch",
+          "kind": "official",
+          "checkedAt": "2026-10-23T02:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starlink-launch-2026-10-28",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Starlink Falcon 9 launch · 2026-10-28",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-28",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
+      "sourceLabel": "SpaceX official launch manifest",
+      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "verifiedAt": "2026-10-23T02:00:00Z",
+      "basis": "SpaceX's official launch manifest lists this as an upcoming Starlink mission on the specified date. This is an officially published schedule, not a guarantee of launch; subject to weather, range and technical changes. No launch time is asserted.",
+      "importance": "Starlink constellation deployment cadence, Falcon 9 reuse and satellite/network capex.",
+      "sources": [
+        {
+          "label": "SpaceX launch manifest",
+          "url": "https://www.spacex.com/launches/starlink-launch",
+          "kind": "official",
+          "checkedAt": "2026-10-23T02:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starlink-launch-2026-11-01",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Starlink Falcon 9 launch · 2026-11-01",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-01",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
+      "sourceLabel": "SpaceX official launch manifest",
+      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "verifiedAt": "2026-10-23T02:00:00Z",
+      "basis": "SpaceX's official launch manifest lists this as an upcoming Starlink mission on the specified date. This is an officially published schedule, not a guarantee of launch; subject to weather, range and technical changes. No launch time is asserted.",
+      "importance": "Starlink constellation deployment cadence, Falcon 9 reuse and satellite/network capex.",
+      "sources": [
+        {
+          "label": "SpaceX launch manifest",
+          "url": "https://www.spacex.com/launches/starlink-launch",
+          "kind": "official",
+          "checkedAt": "2026-10-23T02:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starship-next-flight-watch",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "Starship next flight / V3 test campaign",
+      "type": "Keynote",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/",
+      "sourceLabel": "SpaceX official updates",
+      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "verifiedAt": null,
+      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "importance": "Starship V3 capability, reusable launch economics and next-generation Starlink deployment.",
+      "sources": [
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/launches/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T02:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starlink-v3-deployment-watch",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "Starlink V3 satellite deployment milestone",
+      "type": "Operating update",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/",
+      "sourceLabel": "SpaceX official updates",
+      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "verifiedAt": null,
+      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "importance": "Satellite semiconductor content, phased-array payloads, throughput and Starship launch economics.",
+      "sources": [
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/launches/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T02:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starlink-commercial-watch",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "Starlink subscribers, Direct-to-Cell and commercial milestones",
+      "type": "Operating update",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
+      "sourceLabel": "SpaceX official updates",
+      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "verifiedAt": null,
+      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "importance": "Subscriber and ARPU growth, mobile partnerships and satellite connectivity demand.",
+      "sources": [
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/launches/starlink-launch",
+          "kind": "official",
+          "checkedAt": "2026-10-23T02:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-nasa-defense-contract-watch",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX NASA / defense mission and contract milestones",
+      "type": "Conference",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
+      "sourceLabel": "NASA mission updates",
+      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "verifiedAt": null,
+      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "importance": "Government backlog, launch and spacecraft revenue, contract awards.",
+      "sources": [
+        {
+          "label": "NASA",
+          "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T02:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-financial-disclosure-watch",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX / Starlink financial and funding disclosures",
+      "type": "Investor day",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/",
+      "sourceLabel": "SpaceX official updates",
+      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "verifiedAt": null,
+      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "importance": "Private-company revenue, cash flow, valuation, capital raising and potential IPO developments.",
+      "sources": [
+        {
+          "label": "SpaceX",
+          "url": "https://www.spacex.com/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T02:00:00Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "SpaceX added to research scope on October 23, 2026. Specific launch dates and private-company events require official verification; no speculative dates added.",
-  "lastPartialReview": "2026-10-23T01:38:00Z"
+  "verificationNote": "SpaceX added with three officially scheduled launch dates and five undated monitoring topics on October 23. No public quarterly earnings date exists. This was a targeted SpaceX review, not a full 33-company refresh.",
+  "lastPartialReview": "2026-10-23T02:00:00Z"
 }
