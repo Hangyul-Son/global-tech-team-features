@@ -452,22 +452,31 @@
       "window": null,
       "date": "2026-11-03",
       "endDate": null,
-      "time": "Call: 14:00 Pacific · confirm webcast timezone",
-      "sourceUrl": "https://ir.amd.com/news-events/ir-calendar",
-      "sourceLabel": "Company investor relations",
-      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
-      "basis": "The official AMD IR calendar lists Nov 3, 2026, 2:00 pm PDT: AMD Fiscal Third Quarter 2026 Financial Results. Timezone label is preserved as published; verify with the webcast because daylight-saving rules may differ.",
+      "time": "14:00 PT / 17:00 ET (Nov 4, 06:00 HKT)",
+      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "sourceLabel": "AMD official October 6 earnings announcement",
+      "verifiedAt": "2026-10-23T17:04:38Z",
+      "basis": "AMD's official October 6, 2026 release confirms results after market close November 3 and a 5:00 p.m. Eastern / 2:00 p.m. Pacific webcast. On November 3 US standard time applies (EST/PST), despite the generic IR calendar's outdated PDT label.",
       "importance": "Instinct adoption, server share and AI accelerator guidance.",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
       "sources": [
         {
-          "label": "Company investor relations",
+          "label": "AMD official Q3 earnings release announcement",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+          "kind": "official",
+          "checkedAt": "2026-10-23T17:04:38Z"
+        },
+        {
+          "label": "AMD IR calendar",
           "url": "https://ir.amd.com/news-events/ir-calendar",
           "kind": "official",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-23T17:04:38Z"
         }
       ],
-      "dateConflict": "The IR page labels its November 3 time PDT, after the usual US daylight-saving transition. Verify the webcast timezone; no UTC conversion is asserted."
+      "startAt": "2026-11-03T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-23T17:04:38Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "MSFT-2026-10-earnings",
@@ -1059,35 +1068,29 @@
       ],
       "title": "SK hynix Q3 earnings conference call",
       "type": "Earnings",
-      "status": "reported",
+      "status": "confirmed",
       "date": "2026-10-28",
       "endDate": null,
       "window": null,
-      "time": "Reported call: 09:00 KST",
-      "sourceUrl": "https://www.tipranks.com/news/company-announcements/sk-hynix-sets-october-28-conference-call-for-q3-2026-earnings",
-      "sourceLabel": "TipRanks · company-filing report",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": null,
-      "basis": "TipRanks reports a company filing scheduling the earnings call for October 28, 2026 at 09:00 Seoul time. The primary filing was not retrieved in this review, so this remains Reported rather than officially verified here. Stock Analysis also lists October 28; other US calendars list October 27, which may reflect the US evening date.",
+      "time": "09:00 KST (09:00 HKT)",
+      "sourceUrl": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+      "sourceLabel": "SK hynix official Q3 2026 conference-call invitation",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "verifiedAt": "2026-10-23T17:04:38Z",
+      "basis": "SK hynix's official October 21, 2026 invitation confirms Q3 earnings press release before 09:00 Seoul time on Wednesday, October 28, and a Korean-English conference call at 09:00 KST.",
       "importance": "HBM supply, DRAM pricing and AI memory capacity.",
       "sources": [
         {
-          "label": "TipRanks company-filing report",
-          "url": "https://www.tipranks.com/news/company-announcements/sk-hynix-sets-october-28-conference-call-for-q3-2026-earnings",
-          "kind": "report",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
-        },
-        {
-          "label": "Stock Analysis · Korea listing",
-          "url": "https://stockanalysis.com/quote/krx/000660/",
-          "kind": "calendar",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "label": "SK hynix official newsroom",
+          "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T17:04:38Z"
         }
       ],
       "startAt": "2026-10-28T00:00:00Z",
       "sourceTimeZone": "Asia/Seoul",
-      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "timeCertainty": "reported"
+      "timeCheckedAt": "2026-10-23T17:04:38Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "2454.TW-2026-10-earnings",
@@ -2848,6 +2851,6 @@
       }
     }
   ],
-  "verificationNote": "October 24 correction: SpaceX is publicly traded Nasdaq:SPCX following June 12, 2026 IPO; Q2 and Q3 2026 earnings dates verified from SpaceX IR and SEC filings. Prior private-company assumption was incorrect. Targeted review; full 33-company review remains pending.",
+  "verificationNote": "Oct 24 targeted refresh: corrected SpaceX Nasdaq:SPCX and published Q2/Q3 earnings/IPO from IR and SEC; upgraded SK hynix Oct 28 to confirmed from Oct 21 company invitation; corrected AMD Nov 3 call to 5pm ET/2pm PT standard time. Not a complete 33-company source sweep.",
   "lastPartialReview": "2026-10-23T17:04:38Z"
 }
