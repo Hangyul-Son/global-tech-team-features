@@ -400,12 +400,12 @@
     },
     {
       "id": "SPACEX",
-      "name": "SpaceX",
-      "sector": "Space & satellite communications",
+      "name": "SpaceX (SPCX)",
+      "sector": "Space, satellite connectivity & AI infrastructure",
       "coverage": false,
-      "source": "https://www.spacex.com/",
+      "source": "https://ir.spacex.com/",
       "months": [],
-      "thesis": "Starlink subscriber growth, satellite broadband economics, launch cadence, Starship milestones, government contracts and potential capital-market activity."
+      "thesis": "Nasdaq-listed SpaceX (SPCX, since June 12, 2026): track quarterly earnings and SEC filings, Starlink subscriber/ARPU growth, SI compute and capex, launch cadence, Starship V3, Direct-to-Cell, spectrum and NASA/defense contracts."
     }
   ],
   "events": [
@@ -2583,24 +2583,24 @@
         "SPACEX"
       ],
       "title": "Starship next flight / V3 test campaign",
-      "type": "Keynote",
+      "type": "Operating update",
       "status": "unannounced",
       "date": null,
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/launches/",
-      "sourceLabel": "SpaceX official updates",
-      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+      "sourceLabel": "SpaceX Q3 SEC earnings release",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
       "verifiedAt": null,
-      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "basis": "Monitor Starship's next test flight, orbital refueling and full reusability milestones. The Q3 2026 SEC filing confirms Flight 14's V3 deployment but provides no exact next flight date.",
       "importance": "Starship V3 capability, reusable launch economics and next-generation Starlink deployment.",
       "sources": [
         {
-          "label": "SpaceX",
-          "url": "https://www.spacex.com/launches/",
+          "label": "SEC Q3 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
-          "checkedAt": "2026-10-23T02:00:00Z"
+          "checkedAt": "2026-10-23T17:04:38Z"
         }
       ]
     },
@@ -2609,25 +2609,25 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "Starlink V3 satellite deployment milestone",
+      "title": "Starlink V3 constellation expansion · next deployment",
       "type": "Operating update",
       "status": "unannounced",
       "date": null,
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/launches/",
-      "sourceLabel": "SpaceX official updates",
-      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+      "sourceLabel": "SpaceX Q3 SEC earnings release",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
       "verifiedAt": null,
-      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "basis": "SpaceX's Q3 2026 SEC release confirms Starship Flight 14 already deployed 26 V3 Starlink satellites. Track subsequent V3 deployments; no further official date confirmed.",
       "importance": "Satellite semiconductor content, phased-array payloads, throughput and Starship launch economics.",
       "sources": [
         {
-          "label": "SpaceX",
-          "url": "https://www.spacex.com/launches/",
+          "label": "SEC Q3 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
-          "checkedAt": "2026-10-23T02:00:00Z"
+          "checkedAt": "2026-10-23T17:04:38Z"
         }
       ]
     },
@@ -2664,7 +2664,7 @@
         "SPACEX"
       ],
       "title": "SpaceX NASA / defense mission and contract milestones",
-      "type": "Conference",
+      "type": "Operating update",
       "status": "unannounced",
       "date": null,
       "endDate": null,
@@ -2690,29 +2690,164 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX / Starlink financial and funding disclosures",
-      "type": "Investor day",
+      "title": "SpaceX (SPCX) Q4/FY2026 earnings · date not announced",
+      "type": "Earnings",
       "status": "unannounced",
       "date": null,
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/",
-      "sourceLabel": "SpaceX official updates",
-      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "sourceUrl": "https://ir.spacex.com/events/default.aspx",
+      "sourceLabel": "SpaceX official IR events",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
       "verifiedAt": null,
-      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
-      "importance": "Private-company revenue, cash flow, valuation, capital raising and potential IPO developments.",
+      "basis": "SpaceX is Nasdaq-listed (SPCX) and publishes quarterly financial results. No confirmed Q4/FY2026 earnings date was found in the official investor events calendar as of October 24, 2026. Do not infer the next date from the prior quarter.",
+      "importance": "Q4 Starlink/Connectivity and SI revenue, capex, cash flow, guidance and Starship milestones.",
       "sources": [
         {
-          "label": "SpaceX",
-          "url": "https://www.spacex.com/",
+          "label": "SpaceX IR events",
+          "url": "https://ir.spacex.com/events/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-10-23T02:00:00Z"
+          "checkedAt": "2026-10-23T17:04:38Z"
+        },
+        {
+          "label": "SEC Q3 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-23T17:04:38Z"
         }
       ]
+    },
+    {
+      "id": "spacex-q3-2026-earnings",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX (SPCX) Q3 2026 results & earnings webcast",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-10-20",
+      "endDate": null,
+      "window": null,
+      "time": "3:30 p.m. CT / 4:30 p.m. ET (October 21, 04:30 HKT)",
+      "sourceUrl": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx",
+      "sourceLabel": "SpaceX investor relations · Q3 earnings",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "verifiedAt": "2026-10-23T17:04:38Z",
+      "basis": "SpaceX, a Nasdaq-listed company since June 12, 2026, reported Q3 2026 results on October 20 and hosted its earnings webcast at 3:30 p.m. CT / 4:30 p.m. ET. SEC Exhibit 99.1 reports $14.575bn revenue, $4.4bn net income, $5.248bn Connectivity revenue, $7.560bn Super Intelligence revenue and $19.593bn capex. Historical confirmed event, not an upcoming forecast.",
+      "importance": "Starlink subscribers (13.6m), $69 consumer ARPU, SI/AI compute economics, capex, Starship V3 deployment, guidance and cash generation.",
+      "sources": [
+        {
+          "label": "SpaceX Q3 earnings webcast",
+          "url": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-23T17:04:38Z"
+        },
+        {
+          "label": "SEC Q3 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-23T17:04:38Z"
+        }
+      ],
+      "startAt": "2026-10-20T20:30:00Z",
+      "sourceTimeZone": "America/Chicago",
+      "timeCheckedAt": "2026-10-23T17:04:38Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "spacex-q2-2026-earnings",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX (SPCX) Q2 2026 results & earnings webcast",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2026-08-04",
+      "endDate": null,
+      "window": null,
+      "time": "3:30 p.m. CT / 4:30 p.m. ET",
+      "sourceUrl": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx",
+      "sourceLabel": "SpaceX investor relations · Q2 announcement",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "verifiedAt": "2026-10-23T17:04:38Z",
+      "basis": "SpaceX's July 20 official release announced second-quarter results and webcast for August 4, 2026. Historical confirmed event.",
+      "importance": "Baseline Starlink and SI revenue, margins and capex ahead of Q3.",
+      "sources": [
+        {
+          "label": "SpaceX Q2 results announcement",
+          "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-23T17:04:38Z"
+        }
+      ],
+      "startAt": "2026-08-04T20:30:00Z",
+      "sourceTimeZone": "America/Chicago",
+      "timeCheckedAt": "2026-10-23T17:04:38Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "spacex-ipo-nasdaq-2026",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX (SPCX) Nasdaq trading debut",
+      "type": "IPO watch",
+      "status": "confirmed",
+      "date": "2026-06-12",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Closing-of-Initial-Public-Offering-Including-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-2026-RgoR-Y1Vwh/",
+      "sourceLabel": "SpaceX official IPO closing announcement",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "verifiedAt": "2026-10-23T17:04:38Z",
+      "basis": "SpaceX's June 15, 2026 official announcement confirms Class A common shares began trading on Nasdaq on June 12 under SPCX. The offering closed June 15, with approximately $85.7bn gross proceeds. Historical completed IPO; SpaceX is not private.",
+      "importance": "SPCX public equity coverage, shareholder disclosures and quarterly earnings cadence.",
+      "sources": [
+        {
+          "label": "SpaceX IPO closing release",
+          "url": "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Closing-of-Initial-Public-Offering-Including-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-2026-RgoR-Y1Vwh/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T17:04:38Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-800mhz-spectrum-close-2027-h1",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX 800 MHz spectrum acquisition · H1 2027 closing target",
+      "type": "Operating update",
+      "status": "estimated",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+      "sourceLabel": "SpaceX Q3 SEC earnings release",
+      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "verifiedAt": null,
+      "basis": "SpaceX's October 20 Q3 release says it signed an agreement on October 8 to acquire up to 14 MHz of paired nationwide 800 MHz spectrum, with closing expected in the first half of 2027 subject to regulatory approval. This is a company target window, not a confirmed closing date.",
+      "importance": "Starlink Mobile direct-to-device capacity, competitive mobile economics, regulatory approvals and spectrum capex.",
+      "sources": [
+        {
+          "label": "SEC Q3 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-23T17:04:38Z"
+        }
+      ],
+      "estimateKind": "company-target",
+      "timingWindow": {
+        "start": "2027-01-01",
+        "end": "2027-06-30",
+        "label": "H1 2027 · company-target closing window",
+        "precision": "half-year"
+      }
     }
   ],
-  "verificationNote": "SpaceX added with three officially scheduled launch dates and five undated monitoring topics on October 23. No public quarterly earnings date exists. This was a targeted SpaceX review, not a full 33-company refresh.",
-  "lastPartialReview": "2026-10-23T02:00:00Z"
+  "verificationNote": "October 24 correction: SpaceX is publicly traded Nasdaq:SPCX following June 12, 2026 IPO; Q2 and Q3 2026 earnings dates verified from SpaceX IR and SEC filings. Prior private-company assumption was incorrect. Targeted review; full 33-company review remains pending.",
+  "lastPartialReview": "2026-10-23T17:04:38Z"
 }
