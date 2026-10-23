@@ -1130,31 +1130,31 @@
       "companies": [
         "ASML"
       ],
-      "title": "ASML Q4 & full-year results",
+      "title": "ASML Q4 and FY2026 results",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2027-01-27",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.tipranks.com/stocks/asml/earnings",
-      "sourceLabel": "TipRanks · next earnings estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": null,
-      "basis": "TipRanks lists January 27, 2027 but its page inconsistently labels the date confirmed and estimated. MarketChameleon gives an unannounced January 27–29 range. Until the primary schedule is verified, use January 27 as an estimate with a January 27–29 uncertainty range.",
-      "importance": "EUV bookings and advanced-node capacity investment.",
+      "sourceUrl": "https://investor.asml.com/",
+      "sourceLabel": "ASML official investor relations",
+      "sourceCheckedAt": "2026-10-23T01:38:00Z",
+      "verifiedAt": "2026-10-23T01:38:00Z",
+      "basis": "ASML's official investor calendar and 2026 statutory interim report confirm this date. No event start time is assumed.",
+      "importance": "EUV/DUV demand, bookings, customer capex and outlook.",
       "sources": [
         {
-          "label": "TipRanks earnings calendar",
-          "url": "https://www.tipranks.com/stocks/asml/earnings",
-          "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "label": "ASML investor relations",
+          "url": "https://investor.asml.com/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T01:38:00Z"
         },
         {
-          "label": "MarketChameleon · estimated Jan 27–29 window",
-          "url": "https://marketchameleon.com/Overview/ASML/Earnings/Earnings-Dates/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "label": "ASML statutory interim report 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-23T01:38:00Z"
         }
       ],
       "dateConflict": "Provider status differs; Jan 27–29 uncertainty range. Not company-confirmed here."
@@ -2420,8 +2420,74 @@
           "checkedAt": "2026-10-18T17:03:00.379Z"
         }
       ]
+    },
+    {
+      "id": "asml-q1-2027",
+      "companies": [
+        "ASML"
+      ],
+      "title": "ASML Q1 2027 results",
+      "type": "Earnings",
+      "status": "confirmed",
+      "date": "2027-04-28",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.asml.com/",
+      "sourceLabel": "ASML official investor relations",
+      "sourceCheckedAt": "2026-10-23T01:38:00Z",
+      "verifiedAt": "2026-10-23T01:38:00Z",
+      "basis": "ASML's official investor calendar and 2026 statutory interim report confirm this date. No event start time is assumed.",
+      "importance": "EUV/DUV demand, bookings, customer capex and outlook.",
+      "sources": [
+        {
+          "label": "ASML investor relations",
+          "url": "https://investor.asml.com/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T01:38:00Z"
+        },
+        {
+          "label": "ASML statutory interim report 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-23T01:38:00Z"
+        }
+      ]
+    },
+    {
+      "id": "asml-capital-markets-day-2027",
+      "companies": [
+        "ASML"
+      ],
+      "title": "ASML Capital Markets Day 2027",
+      "type": "Investor day",
+      "status": "confirmed",
+      "date": "2027-06-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.asml.com/",
+      "sourceLabel": "ASML official investor relations",
+      "sourceCheckedAt": "2026-10-23T01:38:00Z",
+      "verifiedAt": "2026-10-23T01:38:00Z",
+      "basis": "ASML's official investor calendar and 2026 statutory interim report confirm this date. No event start time is assumed.",
+      "importance": "Long-term lithography demand, EUV roadmap and financial targets.",
+      "sources": [
+        {
+          "label": "ASML investor relations",
+          "url": "https://investor.asml.com/",
+          "kind": "official",
+          "checkedAt": "2026-10-23T01:38:00Z"
+        },
+        {
+          "label": "ASML statutory interim report 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-23T01:38:00Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Targeted 2026-10-19 source audit: MediaTek Oct 30 earnings and Nov/Dec monthly sales confirmed; Amazon Oct 29 Q3 call confirmed; Arm FY27 tentative dates corrected. Full 32-company review remains 2026-10-15.",
-  "lastPartialReview": "2026-10-18T17:04:46.037Z"
+  "verificationNote": "Targeted ASML official-calendar verification on October 23; not a comprehensive 32-company refresh.",
+  "lastPartialReview": "2026-10-23T01:38:00Z"
 }
