@@ -2554,31 +2554,38 @@
       ]
     },
     {
-      "id": "spacex-starlink-launch-2026-11-01",
+      "id": "spacex-starlink-launch-early-nov-2026",
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Starlink Falcon 9 launch · 2026-11-01",
+      "title": "SpaceX Starlink launch · early November schedule under review",
       "type": "Operating update",
-      "status": "confirmed",
-      "date": "2026-11-01",
+      "status": "estimated",
+      "date": null,
       "endDate": null,
       "window": null,
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
-      "sourceLabel": "SpaceX official launch manifest",
-      "sourceCheckedAt": "2026-10-23T02:00:00Z",
-      "verifiedAt": "2026-10-23T02:00:00Z",
-      "basis": "SpaceX's official launch manifest lists this as an upcoming Starlink mission on the specified date. This is an officially published schedule, not a guarantee of launch; subject to weather, range and technical changes. No launch time is asserted.",
-      "importance": "Starlink constellation deployment cadence, Falcon 9 reuse and satellite/network capex.",
+      "sourceLabel": "SpaceX official launch manifest · changing schedule",
+      "sourceCheckedAt": "2026-10-24T16:58:26Z",
+      "verifiedAt": null,
+      "basis": "Different indexed snapshots of SpaceX's official launch manifest show November 1 and November 5 for an upcoming Starlink launch. The exact launch day is not reliably reconciled; this is a provisional monitoring window, not a confirmed launch date.",
+      "importance": "Falcon 9 launch cadence and Starlink constellation growth; verify the exact date against the live mission page before trading on it.",
       "sources": [
         {
-          "label": "SpaceX launch manifest",
+          "label": "SpaceX official manifest (date in flux)",
           "url": "https://www.spacex.com/launches/starlink-launch",
-          "kind": "official",
-          "checkedAt": "2026-10-23T02:00:00Z"
+          "kind": "estimate",
+          "checkedAt": "2026-10-24T16:58:26Z"
         }
-      ]
+      ],
+      "estimateKind": "manifest-revision",
+      "timingWindow": {
+        "start": "2026-11-01",
+        "end": "2026-11-05",
+        "label": "1–5 November 2026 · conflicting official manifest snapshots",
+        "precision": "week"
+      }
     },
     {
       "id": "spacex-starship-next-flight-watch",
@@ -2735,10 +2742,10 @@
       "time": "3:30 p.m. CT / 4:30 p.m. ET (October 21, 04:30 HKT)",
       "sourceUrl": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx",
       "sourceLabel": "SpaceX investor relations · Q3 earnings",
-      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "sourceCheckedAt": "2026-10-24T16:58:26Z",
       "verifiedAt": "2026-10-23T17:04:38Z",
       "basis": "SpaceX, a Nasdaq-listed company since June 12, 2026, reported Q3 2026 results on October 20 and hosted its earnings webcast at 3:30 p.m. CT / 4:30 p.m. ET. SEC Exhibit 99.1 reports $14.575bn revenue, $4.4bn net income, $5.248bn Connectivity revenue, $7.560bn Super Intelligence revenue and $19.593bn capex. Historical confirmed event, not an upcoming forecast.",
-      "importance": "Starlink subscribers (13.6m), $69 consumer ARPU, SI/AI compute economics, capex, Starship V3 deployment, guidance and cash generation.",
+      "importance": "Q3 $14.575bn revenue, $4.404bn net income; Connectivity $5.248bn, Super Intelligence $7.560bn; Q3 capex $19.593bn. Monitor subscriber growth, AI compute economics and Q4 spending.",
       "sources": [
         {
           "label": "SpaceX Q3 earnings webcast",
@@ -2751,6 +2758,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
           "checkedAt": "2026-10-23T17:04:38Z"
+        },
+        {
+          "label": "SpaceX Q3 2026 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-24T16:58:26Z"
         }
       ],
       "startAt": "2026-10-20T20:30:00Z",
@@ -2842,8 +2855,68 @@
           "checkedAt": "2026-10-23T17:04:38Z"
         }
       ]
+    },
+    {
+      "id": "spacex-q3-2026-10q",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX (SPCX) Q3 2026 Form 10-Q filed",
+      "type": "Filing",
+      "status": "confirmed",
+      "date": "2026-10-22",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+      "sourceLabel": "SEC EDGAR Form 10-Q",
+      "sourceCheckedAt": "2026-10-24T16:58:26Z",
+      "verifiedAt": "2026-10-24T16:58:26Z",
+      "basis": "SEC EDGAR confirms Space Exploration Technologies Corp. (Nasdaq: SPCX) filed its Form 10-Q on October 22, 2026 for the quarter ended September 30, 2026. Q3 revenue $14.575bn, net income $4.404bn; nine-month operating cash flow $13.097bn versus capex $48.069bn. Historical filing event.",
+      "importance": "AI/Super Intelligence capex intensity, funding and cash conversion; Connectivity margins, Starlink subscriber economics, and related-party/financing disclosures.",
+      "sources": [
+        {
+          "label": "SEC EDGAR Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-24T16:58:26Z"
+        },
+        {
+          "label": "SEC filing index",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/0001628280-26-066880-index.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-24T16:58:26Z"
+        }
+      ]
+    },
+    {
+      "id": "lrcx-2026-annual-shareholder-meeting",
+      "companies": [
+        "LRCX"
+      ],
+      "title": "Lam Research 2026 annual meeting of stockholders",
+      "type": "Shareholder meeting",
+      "status": "confirmed",
+      "date": "2026-11-03",
+      "endDate": null,
+      "window": null,
+      "time": "9:30 a.m. PST (company IR wording; timezone should be checked)",
+      "sourceUrl": "https://investor.lamresearch.com/events",
+      "sourceLabel": "Lam Research official investor relations",
+      "sourceCheckedAt": "2026-10-24T16:58:26Z",
+      "verifiedAt": "2026-10-24T16:58:26Z",
+      "basis": "Lam Research's official investor events page lists its 2026 annual stockholders meeting for Tuesday, November 3, 2026 at 9:30 a.m. PST. The time label is reproduced as published, without asserting a UTC conversion.",
+      "importance": "Shareholder votes, board/governance matters and capital-allocation signals.",
+      "sources": [
+        {
+          "label": "Lam Research IR events",
+          "url": "https://investor.lamresearch.com/events",
+          "kind": "official",
+          "checkedAt": "2026-10-24T16:58:26Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Oct 24 targeted refresh: corrected SpaceX Nasdaq:SPCX and published Q2/Q3 earnings/IPO from IR and SEC; upgraded SK hynix Oct 28 to confirmed from Oct 21 company invitation; corrected AMD Nov 3 call to 5pm ET/2pm PT standard time. Not a complete 33-company source sweep.",
-  "lastPartialReview": "2026-10-23T17:04:38Z"
+  "verificationNote": "October 25 targeted 33-company calendar integrity audit; confirmed SpaceX SEC Q3 Form 10-Q, Lam annual meeting and conflicting early-November SpaceX launch dates. Not an exhaustive re-verification of all 33 official calendars; October 15 remains last complete source sweep.",
+  "lastPartialReview": "2026-10-24T16:58:26Z"
 }
