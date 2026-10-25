@@ -1631,28 +1631,37 @@
       "companies": [
         "ARM"
       ],
-      "title": "Arm Q2 FY27 earnings",
+      "title": "Arm Q2 FY27 results & earnings webcast",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-11-04",
       "endDate": null,
       "window": null,
-      "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
-      "sourceLabel": "Arm IR tentative FY27 earnings calendar",
-      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
-      "verifiedAt": null,
-      "basis": "Arm's official IR page explicitly calls FY27 earnings dates 'Tentatively proposed earnings dates'. 2026-11-04 is not a confirmed earnings announcement and no webcast time is established.",
+      "sourceUrl": "https://investors.arm.com/financials/quarterly-annual-results",
+      "sourceLabel": "Arm official quarterly results and investor events",
+      "sourceCheckedAt": "2026-10-25T17:12:00Z",
+      "verifiedAt": "2026-10-25T17:12:00Z",
+      "basis": "Arm's current quarterly-results page and upcoming-events calendar explicitly confirm November 4, 2026, at 14:00 PST (17:00 EST, 22:00 GMT). This supersedes the earlier tentatively proposed FY27 calendar date.",
       "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
       "sources": [
         {
-          "label": "Arm IR tentative FY27 dates",
+          "label": "Arm official quarterly results",
+          "url": "https://investors.arm.com/financials/quarterly-annual-results",
+          "kind": "official",
+          "checkedAt": "2026-10-25T17:12:00Z"
+        },
+        {
+          "label": "Arm upcoming events",
           "url": "https://investors.arm.com/news-events/investor-events-presentations",
-          "kind": "estimate",
-          "checkedAt": "2026-10-18T17:03:00.379Z"
+          "kind": "official",
+          "checkedAt": "2026-10-25T17:12:00Z"
         }
       ],
-      "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement.",
-      "time": null
+      "time": "14:00 PST / 17:00 EST · 06:00 HKT Nov 5",
+      "startAt": "2026-11-04T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-25T17:12:00Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "ARM-2027-02-earnings",
@@ -2531,27 +2540,40 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Starlink Falcon 9 launch · 2026-10-28",
+      "title": "SpaceX Starlink Falcon 9 launch · late October schedule under review",
       "type": "Operating update",
-      "status": "confirmed",
-      "date": "2026-10-28",
+      "status": "estimated",
+      "date": null,
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
-      "sourceLabel": "SpaceX official launch manifest",
-      "sourceCheckedAt": "2026-10-23T02:00:00Z",
-      "verifiedAt": "2026-10-23T02:00:00Z",
-      "basis": "SpaceX's official launch manifest lists this as an upcoming Starlink mission on the specified date. This is an officially published schedule, not a guarantee of launch; subject to weather, range and technical changes. No launch time is asserted.",
+      "sourceUrl": "https://www.spacex.com/launches",
+      "sourceLabel": "SpaceX official launch manifest · conflicting dated snapshots",
+      "sourceCheckedAt": "2026-10-25T17:12:00Z",
+      "verifiedAt": null,
+      "basis": "Indexed snapshots of SpaceX's own launch-manifest pages disagree on an upcoming Starlink mission: October 28 (04:31–08:31 UTC) versus October 29 (04:17–08:17 UTC), while another manifest version lists October 26. Mission identity and schedule cannot be reconciled reliably from available primary snapshots. Display as a provisional October 26–29 watch window, not a confirmed launch date or time.",
       "importance": "Starlink constellation deployment cadence, Falcon 9 reuse and satellite/network capex.",
       "sources": [
         {
-          "label": "SpaceX launch manifest",
-          "url": "https://www.spacex.com/launches/starlink-launch",
-          "kind": "official",
-          "checkedAt": "2026-10-23T02:00:00Z"
+          "label": "SpaceX official manifest snapshot (Oct 28)",
+          "url": "https://www.spacex.com/launches/mission/?missionId=starship-3",
+          "kind": "estimate",
+          "checkedAt": "2026-10-25T17:12:00Z"
+        },
+        {
+          "label": "SpaceX official manifest snapshot (Oct 29)",
+          "url": "https://www.spacex.com/launches/mission/?missionId=falcon-9-block-5-starlink-group-15-15",
+          "kind": "estimate",
+          "checkedAt": "2026-10-25T17:12:00Z"
         }
-      ]
+      ],
+      "estimateKind": "manifest-revision",
+      "timingWindow": {
+        "start": "2026-10-26",
+        "end": "2026-10-29",
+        "label": "26–29 October 2026 · conflicting official manifest snapshots",
+        "precision": "week"
+      }
     },
     {
       "id": "spacex-starlink-launch-early-nov-2026",
@@ -2917,6 +2939,6 @@
       ]
     }
   ],
-  "verificationNote": "October 25 targeted 33-company calendar integrity audit; confirmed SpaceX SEC Q3 Form 10-Q, Lam annual meeting and conflicting early-November SpaceX launch dates. Not an exhaustive re-verification of all 33 official calendars; October 15 remains last complete source sweep.",
-  "lastPartialReview": "2026-10-24T16:58:26Z"
+  "verificationNote": "October 26 targeted review: Arm Q2 FY27 November 4 earnings upgraded from tentative to official confirmed, including webcast time; late-October SpaceX Starlink launch downgraded to provisional window due to conflicting official manifest snapshots. SpaceX Q3 earnings and SEC 10-Q remain tracked. Not a complete 33-company source refresh; October 15 remains last full sweep.",
+  "lastPartialReview": "2026-10-25T17:12:00Z"
 }
