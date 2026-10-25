@@ -5340,21 +5340,19 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-10-24T16:58:26Z",
-    "scope": "All 33 company/event mappings audited for dataset integrity; targeted public primary-source review for ten companies. NOT a complete re-fetch of all 79 tracked sources.",
+    "checkedAt": "2026-10-25T17:12:00Z",
+    "scope": "Targeted official-calendar review, not a comprehensive 33-company sweep. ARM and SPACEX had substantive status changes; AMD, NVDA, AMZN and CRWD spot-checked for newly announced dates.",
     "companiesChecked": [
-      "SPACEX",
-      "LRCX",
-      "AMD",
-      "TSM",
-      "2454.TW",
-      "005930.KS",
-      "INTC",
-      "NVDA",
       "ARM",
-      "AVGO"
+      "SPACEX",
+      "AMD",
+      "NVDA",
+      "AMZN",
+      "CRWD"
     ],
     "companiesNotFullyReviewed": [
+      "TSM",
+      "AVGO",
       "MRVL",
       "AAPL",
       "MSFT",
@@ -5364,106 +5362,94 @@
       "ADBE",
       "WDAY",
       "ASML",
+      "LRCX",
+      "005930.KS",
       "000660.KS",
       "MU",
-      "AMZN",
+      "2454.TW",
       "GOOGL",
       "META",
       "ANTHROPIC",
       "CRWV",
       "NBIS",
+      "INTC",
       "QCOM",
       "SNOW",
-      "CRWD",
       "PANW",
       "NET",
       "OPENAI"
     ],
     "primarySources": [
       {
-        "company": "SPACEX",
-        "description": "SpaceX Q3 2026 Form 10-Q (filed Oct 22)",
-        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "SPACEX",
-        "description": "SpaceX earnings IR",
-        "url": "https://ir.spacex.com/updates/",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "SPACEX",
-        "description": "SpaceX launch manifest; early November date inconsistent across snapshots",
-        "url": "https://www.spacex.com/launches/starlink-launch",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "LRCX",
-        "description": "Lam annual meeting Nov 3",
-        "url": "https://investor.lamresearch.com/events",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "AMD",
-        "description": "AMD IR calendar; Nov 3 earnings, Dec 1 and Dec 9 conferences",
-        "url": "https://ir.amd.com/news-events/ir-calendar",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "TSM",
-        "description": "TSMC financial calendar Nov 10, Dec 10 and Jan 8",
-        "url": "https://investor.tsmc.com/english/financial-calendar",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "2454.TW",
-        "description": "MediaTek Oct 30 Q3 investor conference",
-        "url": "https://www.mediatek.com/investor-relations/ir-events",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "005930.KS",
-        "description": "Samsung Oct 29 Q3 call",
-        "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "INTC",
-        "description": "Intel Oct 29 Q3 call",
-        "url": "https://www.intc.com/news-events",
-        "checkedAt": "2026-10-24T16:58:26Z"
-      },
-      {
-        "company": "NVDA",
-        "description": "Nvidia IR upcoming events; no confirmed next earnings date seen",
-        "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
-        "checkedAt": "2026-10-24T16:58:26Z"
+        "company": "ARM",
+        "description": "November 4 2026 earnings webcast confirmed at 14:00 PST",
+        "url": "https://investors.arm.com/financials/quarterly-annual-results",
+        "checkedAt": "2026-10-25T17:12:00Z"
       },
       {
         "company": "ARM",
-        "description": "Arm FY27 dates remain tentatively proposed",
-        "url": "https://investors.arm.com/news-events/investor-events-presentations/",
-        "checkedAt": "2026-10-24T16:58:26Z"
+        "description": "November 4 removed from tentative list and listed as upcoming event",
+        "url": "https://investors.arm.com/news-events/investor-events-presentations",
+        "checkedAt": "2026-10-25T17:12:00Z"
       },
       {
-        "company": "AVGO",
-        "description": "Broadcom IR event history; no new confirmed next earnings date seen",
-        "url": "https://investors.broadcom.com/company-information/past-events",
-        "checkedAt": "2026-10-24T16:58:26Z"
+        "company": "SPACEX",
+        "description": "Official launch manifest dated snapshots disagree for late October",
+        "url": "https://www.spacex.com/launches/mission/?missionId=starship-3",
+        "checkedAt": "2026-10-25T17:12:00Z"
+      },
+      {
+        "company": "SPACEX",
+        "description": "Another official launch manifest snapshot lists October 29",
+        "url": "https://www.spacex.com/launches/mission/?missionId=falcon-9-block-5-starlink-group-15-15",
+        "checkedAt": "2026-10-25T17:12:00Z"
+      },
+      {
+        "company": "SPACEX",
+        "description": "Investor updates confirm October 20 Q3 earnings, no newly announced Q4 date",
+        "url": "https://ir.spacex.com/updates/",
+        "checkedAt": "2026-10-25T17:12:00Z"
+      },
+      {
+        "company": "AMD",
+        "description": "November 3 earnings and December 1/9 conferences unchanged",
+        "url": "https://ir.amd.com/news-events/ir-calendar",
+        "checkedAt": "2026-10-25T17:12:00Z"
+      },
+      {
+        "company": "NVDA",
+        "description": "No new confirmed next earnings date on events page",
+        "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+        "checkedAt": "2026-10-25T17:12:00Z"
+      },
+      {
+        "company": "AMZN",
+        "description": "October 29 Q3 earnings unchanged",
+        "url": "https://ir.aboutamazon.com/overview/default.aspx",
+        "checkedAt": "2026-10-25T17:12:00Z"
+      },
+      {
+        "company": "CRWD",
+        "description": "No new confirmed Q3 FY27 date visible on events page",
+        "url": "https://ir.crowdstrike.com/events-and-presentations",
+        "checkedAt": "2026-10-25T17:12:00Z"
       }
     ],
     "verifiedChanges": [
-      "SpaceX (SPCX) SEC Q3 2026 Form 10-Q filed October 22 added to calendar",
-      "SpaceX Q3 earnings entry enriched with SEC 10-Q primary evidence and cash-flow/capex figures",
-      "Early November Starlink launch changed from falsely certain November 1 to a provisional November 1–5 window because official launch-manifest snapshots disagree",
-      "Lam Research November 3, 2026 annual shareholder meeting added",
-      "Existing AMD, TSMC, Samsung, MediaTek, Intel and Arm dates cross-checked; no change required"
+      "Arm November 4, 2026 earnings upgraded from estimated to confirmed, 14:00 PST / November 5 06:00 HKT",
+      "SpaceX late-October Starlink launch downgraded from confirmed October 28 to provisional October 26–29 due to conflicting official manifest snapshots",
+      "SpaceX earnings and 10-Q remain tracked; no Q4 earnings date invented"
+    ],
+    "coverageGaps": [
+      "27 companies not freshly reverified this run",
+      "SpaceX exact late-October and early-November Starlink dates cannot be reconciled from official indexed snapshots",
+      "SpaceX Q4 earnings date unannounced",
+      "NVIDIA next earnings date not yet confirmed on current IR calendar"
     ]
   },
   "coverageAudit": {
-    "checkedAt": "2026-10-24T16:58:26Z",
-    "scope": "All 33 company IDs checked against calendar events and event-source metadata; not all 33 IR pages independently re-verified.",
+    "checkedAt": "2026-10-25T17:12:00Z",
+    "scope": "All 33 company IDs checked for presence and source integrity; six companies' official calendars spot-checked; not full source sweep.",
     "companies": 33,
     "events": 83,
     "companiesWithEvents": 33,
@@ -5472,5 +5458,18 @@
     "estimatedEvents": 20,
     "confirmedMissingVerifiedAt": [],
     "eventsWithoutSource": []
-  }
+  },
+  "reviewHistory": [
+    {
+      "checkedAt": "2026-10-24T16:58:26Z",
+      "scope": "All 33 company/event mappings audited for dataset integrity; targeted public primary-source review for ten companies. NOT a complete re-fetch of all 79 tracked sources.",
+      "verifiedChanges": [
+        "SpaceX (SPCX) SEC Q3 2026 Form 10-Q filed October 22 added to calendar",
+        "SpaceX Q3 earnings entry enriched with SEC 10-Q primary evidence and cash-flow/capex figures",
+        "Early November Starlink launch changed from falsely certain November 1 to a provisional November 1–5 window because official launch-manifest snapshots disagree",
+        "Lam Research November 3, 2026 annual shareholder meeting added",
+        "Existing AMD, TSMC, Samsung, MediaTek, Intel and Arm dates cross-checked; no change required"
+      ]
+    }
+  ]
 }
