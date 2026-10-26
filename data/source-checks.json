@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical full source sweep remains October 15, 2026. The October 25 audit checks dataset completeness for all 33 companies and separately records primary-source spot checks. Retrieval alone does not confirm an event date; official launch manifests may change.",
+  "note": "Historical full source sweep remains October 15, 2026 (78/79 retrieved). October 27 targeted official-source checks included SpaceX launch manifests and IR, SEC EDGAR Q3 disclosures, AMD IR, Apple IR, TSMC financial calendar, MediaTek IR, and SK hynix newsroom. Conflicting SpaceX manifests remain provisional; a retrieved source does not prove a future event date. Other companies were not fully rechecked this run. See data/events.json lastPartialReview for targeted review timestamp.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
