@@ -2547,31 +2547,37 @@
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/launches",
-      "sourceLabel": "SpaceX official launch manifest · conflicting dated snapshots",
-      "sourceCheckedAt": "2026-10-25T17:12:00Z",
+      "sourceUrl": "https://www.spacex.com/launches/mission/?missionId=sl-v-1",
+      "sourceLabel": "SpaceX official launch manifests · conflicting snapshots",
+      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
       "verifiedAt": null,
-      "basis": "Indexed snapshots of SpaceX's own launch-manifest pages disagree on an upcoming Starlink mission: October 28 (04:31–08:31 UTC) versus October 29 (04:17–08:17 UTC), while another manifest version lists October 26. Mission identity and schedule cannot be reconciled reliably from available primary snapshots. Display as a provisional October 26–29 watch window, not a confirmed launch date or time.",
+      "basis": "SpaceX official launch-manifest snapshots accessed on October 27 disagree on late-October Starlink scheduling, showing October 27, October 28, October 29 or October 30, with some pages also showing October 26. The pages do not consistently identify missions; the entries could represent schedule revisions or distinct launches. This is a provisional watch window, not a confirmed launch date/time. Do not interpret the entire window as a single identified mission.",
       "importance": "Starlink constellation deployment cadence, Falcon 9 reuse and satellite/network capex.",
       "sources": [
         {
-          "label": "SpaceX official manifest snapshot (Oct 28)",
-          "url": "https://www.spacex.com/launches/mission/?missionId=starship-3",
+          "label": "SpaceX official manifest (Oct 27 and Oct 30)",
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-v-1",
           "kind": "estimate",
-          "checkedAt": "2026-10-25T17:12:00Z"
+          "checkedAt": "2026-10-26T17:03:25.738Z"
         },
         {
-          "label": "SpaceX official manifest snapshot (Oct 29)",
-          "url": "https://www.spacex.com/launches/mission/?missionId=falcon-9-block-5-starlink-group-15-15",
+          "label": "SpaceX official manifest (Oct 28)",
+          "url": "https://www.spacex.com/launches/mission/?missionId=starship-3",
           "kind": "estimate",
-          "checkedAt": "2026-10-25T17:12:00Z"
+          "checkedAt": "2026-10-26T17:03:25.738Z"
+        },
+        {
+          "label": "SpaceX official manifest (Oct 27 UTC time window)",
+          "url": "https://www.spacex.com/launches/sl-11-17",
+          "kind": "estimate",
+          "checkedAt": "2026-10-26T17:03:25.738Z"
         }
       ],
       "estimateKind": "manifest-revision",
       "timingWindow": {
         "start": "2026-10-26",
-        "end": "2026-10-29",
-        "label": "26–29 October 2026 · conflicting official manifest snapshots",
+        "end": "2026-10-30",
+        "label": "26–30 October 2026 · changing official launch manifests",
         "precision": "week"
       }
     },
@@ -2589,16 +2595,28 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
       "sourceLabel": "SpaceX official launch manifest · changing schedule",
-      "sourceCheckedAt": "2026-10-24T16:58:26Z",
+      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
       "verifiedAt": null,
-      "basis": "Different indexed snapshots of SpaceX's official launch manifest show November 1 and November 5 for an upcoming Starlink launch. The exact launch day is not reliably reconciled; this is a provisional monitoring window, not a confirmed launch date.",
+      "basis": "SpaceX's official launch-manifest snapshots show different early-November Starlink dates (November 1 and November 5), while another indexed snapshot shows a November 10 mission. Mission identity is not sufficiently stable to merge these into a single confirmed launch. Keep the early-November watch window unconfirmed; November 10 remains an additional possible manifest date requiring identification.",
       "importance": "Falcon 9 launch cadence and Starlink constellation growth; verify the exact date against the live mission page before trading on it.",
       "sources": [
         {
-          "label": "SpaceX official manifest (date in flux)",
+          "label": "SpaceX manifest (November 1)",
           "url": "https://www.spacex.com/launches/starlink-launch",
           "kind": "estimate",
-          "checkedAt": "2026-10-24T16:58:26Z"
+          "checkedAt": "2026-10-26T17:03:25.738Z"
+        },
+        {
+          "label": "SpaceX manifest (November 5)",
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl-v-1",
+          "kind": "estimate",
+          "checkedAt": "2026-10-26T17:03:25.738Z"
+        },
+        {
+          "label": "SpaceX manifest (November 10)",
+          "url": "https://www.spacex.com/launches/mission/?missionId=starship-3",
+          "kind": "estimate",
+          "checkedAt": "2026-10-26T17:03:25.738Z"
         }
       ],
       "estimateKind": "manifest-revision",
@@ -2677,9 +2695,9 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
       "sourceLabel": "SpaceX official updates",
-      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
       "verifiedAt": null,
-      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "basis": "Monitor Starlink Connectivity subscribers, pricing, Direct-to-Cell carrier agreements and operating metrics in SpaceX's investor updates and SEC disclosures. SpaceX is Nasdaq-listed (SPCX). No specific future announcement date has been confirmed.",
       "importance": "Subscriber and ARPU growth, mobile partnerships and satellite connectivity demand.",
       "sources": [
         {
@@ -2704,9 +2722,9 @@
       "time": null,
       "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
       "sourceLabel": "NASA mission updates",
-      "sourceCheckedAt": "2026-10-23T02:00:00Z",
+      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
       "verifiedAt": null,
-      "basis": "Monitoring topic only. No specific officially verified future date is asserted; SpaceX is private and does not maintain a public quarterly earnings calendar. Watch for primary-source announcements.",
+      "basis": "Monitor NASA and U.S. defense launch, Starship and satellite contract awards and mission milestones using SpaceX, NASA and government announcements. SpaceX is Nasdaq-listed (SPCX). No specific future date has been confirmed.",
       "importance": "Government backlog, launch and spacecraft revenue, contract awards.",
       "sources": [
         {
@@ -2731,9 +2749,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
       "verifiedAt": null,
-      "basis": "SpaceX is Nasdaq-listed (SPCX) and publishes quarterly financial results. No confirmed Q4/FY2026 earnings date was found in the official investor events calendar as of October 24, 2026. Do not infer the next date from the prior quarter.",
+      "basis": "SpaceX is Nasdaq-listed (SPCX) and publishes quarterly financial results. Its investor events page was checked October 27, 2026; no official Q4/FY2026 earnings date was independently visible. The official events page renders some content dynamically, so absence from accessible text is not definitive. Do not infer a date from prior quarters.",
       "importance": "Q4 Starlink/Connectivity and SI revenue, capex, cash flow, guidance and Starship milestones.",
       "sources": [
         {
@@ -2937,8 +2955,41 @@
           "checkedAt": "2026-10-24T16:58:26Z"
         }
       ]
+    },
+    {
+      "id": "spacex-superintelligence-capex-financing-watch",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX (SPCX) Super Intelligence AI compute, capex and financing disclosures",
+      "type": "Operating update",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://ir.spacex.com/",
+      "sourceLabel": "SpaceX investor relations and SEC filings",
+      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
+      "verifiedAt": null,
+      "basis": "Undated monitoring target for Super Intelligence segment revenue and backlog, AI compute infrastructure spending, financing and capital commitments, and quarterly cash-flow disclosures. Check official SpaceX investor materials and SEC EDGAR; no event date is announced.",
+      "importance": "AI data-center and compute capex, funding needs, cash generation and read-through to GPUs, networking and power infrastructure.",
+      "sources": [
+        {
+          "label": "SpaceX investor relations",
+          "url": "https://ir.spacex.com/",
+          "kind": "official",
+          "checkedAt": "2026-10-26T17:03:25.738Z"
+        },
+        {
+          "label": "SpaceX Q3 2026 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-26T17:03:25.738Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "October 26 targeted review: Arm Q2 FY27 November 4 earnings upgraded from tentative to official confirmed, including webcast time; late-October SpaceX Starlink launch downgraded to provisional window due to conflicting official manifest snapshots. SpaceX Q3 earnings and SEC 10-Q remain tracked. Not a complete 33-company source refresh; October 15 remains last full sweep.",
-  "lastPartialReview": "2026-10-25T17:12:00Z"
+  "verificationNote": "October 27 targeted primary-source review: SpaceX late-October Starlink provisional watch window widened to October 26–30 because conflicting official manifest snapshots show October 27, 28, 29 and 30; early-November ambiguity retained; added undated SI compute/capex/financing monitoring; corrected stale private-company wording. AMD, Apple, TSMC, MediaTek and SK hynix official IR schedules also rechecked with no date changes. Not a complete 33-company primary-source refresh; October 15 remains last full sweep.",
+  "lastPartialReview": "2026-10-26T17:03:25.738Z"
 }
