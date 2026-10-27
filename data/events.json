@@ -489,21 +489,31 @@
       "window": null,
       "date": "2026-10-28",
       "endDate": null,
-      "time": null,
+      "time": "Call: 14:30 Pacific / 17:30 Eastern (Oct 28)",
       "sourceUrl": "https://www.microsoft.com/en-us/Investor",
       "sourceLabel": "Company investor relations",
       "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
-      "basis": "Microsoft investor relations states: “The next earnings release will be on October 28, 2026.” No release time was verified.",
+      "basis": "Microsoft's October 7, 2026 company-issued earnings advisory states FY27 Q1 results after U.S. market close October 28 and webcast at 2:30 p.m. Pacific Time (October 29 05:30 Hong Kong). This is the earnings-call time, not the exact earnings-release instant.",
       "importance": "Azure growth, AI monetization and data-center capex.",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-27T16:57:42Z",
       "sources": [
         {
           "label": "Company investor relations",
           "url": "https://www.microsoft.com/en-us/Investor",
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Microsoft company earnings advisory via Nasdaq",
+          "url": "https://www.nasdaq.com/press-release/microsoft-announces-quarterly-earnings-release-date-2026-10-07",
+          "kind": "official",
+          "checkedAt": "2026-10-27T16:57:42Z"
         }
-      ]
+      ],
+      "startAt": "2026-10-28T21:30:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-27T16:57:42Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "marvell-investor",
@@ -3035,6 +3045,6 @@
       ]
     }
   ],
-  "verificationNote": "October 28 Hong Kong targeted review: added SpaceX October 26 SEC 8-K / $40bn Apollo-managed GPU finance-lease commitment (not a completed lease) and enriched undated follow-up. Checked all 33 company primary-source endpoints for accessibility, but many returned cached August data, JS-only pages, or errors. The last comprehensive fresh source sweep remains October 15. SpaceX Starlink October 26–30 and November 1–5 remain provisional due to conflicting manifest snapshots; no precise launch date asserted.",
+  "verificationNote": "October 28 Hong Kong targeted review: added SpaceX October 26 SEC 8-K / $40bn Apollo-managed GPU finance-lease commitment (not a completed lease) and enriched undated follow-up. Checked all 33 company primary-source endpoints for accessibility, but many returned cached August data, JS-only pages, or errors. The last comprehensive fresh source sweep remains October 15. SpaceX Starlink October 26–30 and November 1–5 remain provisional due to conflicting manifest snapshots; no precise launch date asserted. Microsoft FY27 Q1 earnings call time verified at 2:30 p.m. PT October 28.",
   "lastPartialReview": "2026-10-27T16:57:42Z"
 }
