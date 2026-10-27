@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical full source sweep remains October 15, 2026 (78/79 retrieved). October 27 targeted official-source checks included SpaceX launch manifests and IR, SEC EDGAR Q3 disclosures, AMD IR, Apple IR, TSMC financial calendar, MediaTek IR, and SK hynix newsroom. Conflicting SpaceX manifests remain provisional; a retrieved source does not prove a future event date. Other companies were not fully rechecked this run. See data/events.json lastPartialReview for targeted review timestamp.",
+  "note": "Historical full 79-source sweep remains October 15, 2026 (78/79 retrieved). October 28 Hong Kong targeted review attempted official-source pages for all 33 tracked companies, but many responses were stale (August snapshots), dynamic/JS-only or inaccessible; only ten named companies received specific corroboration, not a full fresh re-verification. Two changes published: SpaceX October 26 $40bn GPU finance-lease commitment/8-K and Microsoft October 28 earnings-call time. No false confirmed launch times or lease closing dates.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,121 +5340,121 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-10-25T17:12:00Z",
-    "scope": "Targeted official-calendar review, not a comprehensive 33-company sweep. ARM and SPACEX had substantive status changes; AMD, NVDA, AMZN and CRWD spot-checked for newly announced dates.",
+    "checkedAt": "2026-10-27T16:57:42Z",
+    "scope": "All 33 company IR/newsroom entry points attempted; primary-source corroboration of selected material events. NOT a full live refresh of all 79 sources; many pages returned cached August snapshots, JS-only markup or HTTP errors.",
     "companiesChecked": [
-      "ARM",
       "SPACEX",
-      "AMD",
-      "NVDA",
-      "AMZN",
-      "CRWD"
+      "MSFT",
+      "NOW",
+      "GOOGL",
+      "000660.KS",
+      "005930.KS",
+      "TSM",
+      "2454.TW",
+      "ARM",
+      "NBIS"
     ],
     "companiesNotFullyReviewed": [
-      "TSM",
+      "NVDA",
+      "AMD",
       "AVGO",
       "MRVL",
       "AAPL",
-      "MSFT",
       "ORCL",
       "CRM",
-      "NOW",
       "ADBE",
       "WDAY",
       "ASML",
       "LRCX",
-      "005930.KS",
-      "000660.KS",
       "MU",
-      "2454.TW",
-      "GOOGL",
+      "AMZN",
       "META",
       "ANTHROPIC",
       "CRWV",
-      "NBIS",
       "INTC",
       "QCOM",
       "SNOW",
+      "CRWD",
       "PANW",
       "NET",
       "OPENAI"
     ],
+    "sourceAccessLimitations": [
+      "Official company IR homepages for many tickers were cached from August 2026, not October",
+      "Several Q4Inc dynamic event feeds expose headings but not event dates",
+      "Some primary links returned 403/cache-miss; no conclusion drawn from missing results",
+      "SpaceX late-October/early-November launch manifests conflict across indexed official snapshots; no fixed launch date asserted"
+    ],
     "primarySources": [
       {
-        "company": "ARM",
-        "description": "November 4 2026 earnings webcast confirmed at 14:00 PST",
-        "url": "https://investors.arm.com/financials/quarterly-annual-results",
-        "checkedAt": "2026-10-25T17:12:00Z"
-      },
-      {
-        "company": "ARM",
-        "description": "November 4 removed from tentative list and listed as upcoming event",
-        "url": "https://investors.arm.com/news-events/investor-events-presentations",
-        "checkedAt": "2026-10-25T17:12:00Z"
+        "company": "SPACEX",
+        "description": "October 26 Form 8-K discloses October 24 binding commitment letter for ~$40bn Apollo-managed GPU lease; not closed",
+        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+        "checkedAt": "2026-10-27T16:57:42Z"
       },
       {
         "company": "SPACEX",
-        "description": "Official launch manifest dated snapshots disagree for late October",
-        "url": "https://www.spacex.com/launches/mission/?missionId=starship-3",
-        "checkedAt": "2026-10-25T17:12:00Z"
+        "description": "Company confirms NVIDIA Vera Rubin GPU financing, conditional year-end closing, H1 2027 deliveries",
+        "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
+        "checkedAt": "2026-10-27T16:57:42Z"
       },
       {
-        "company": "SPACEX",
-        "description": "Another official launch manifest snapshot lists October 29",
-        "url": "https://www.spacex.com/launches/mission/?missionId=falcon-9-block-5-starlink-group-15-15",
-        "checkedAt": "2026-10-25T17:12:00Z"
+        "company": "MSFT",
+        "description": "FY27 Q1 October 28 results, 14:30 Pacific earnings webcast",
+        "url": "https://www.nasdaq.com/press-release/microsoft-announces-quarterly-earnings-release-date-2026-10-07",
+        "checkedAt": "2026-10-27T16:57:42Z"
       },
       {
-        "company": "SPACEX",
-        "description": "Investor updates confirm October 20 Q3 earnings, no newly announced Q4 date",
-        "url": "https://ir.spacex.com/updates/",
-        "checkedAt": "2026-10-25T17:12:00Z"
+        "company": "NOW",
+        "description": "October 28 Q3 call at 14:00 PDT",
+        "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx",
+        "checkedAt": "2026-10-27T16:57:42Z"
       },
       {
-        "company": "AMD",
-        "description": "November 3 earnings and December 1/9 conferences unchanged",
-        "url": "https://ir.amd.com/news-events/ir-calendar",
-        "checkedAt": "2026-10-25T17:12:00Z"
+        "company": "000660.KS",
+        "description": "October 28 Q3 call at 09:00 KST",
+        "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+        "checkedAt": "2026-10-27T16:57:42Z"
       },
       {
-        "company": "NVDA",
-        "description": "No new confirmed next earnings date on events page",
-        "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
-        "checkedAt": "2026-10-25T17:12:00Z"
+        "company": "005930.KS",
+        "description": "October 29 Q3 call at 10:00 KST",
+        "url": "https://www.samsung.com/global/ir/",
+        "checkedAt": "2026-10-27T16:57:42Z"
       },
       {
-        "company": "AMZN",
-        "description": "October 29 Q3 earnings unchanged",
-        "url": "https://ir.aboutamazon.com/overview/default.aspx",
-        "checkedAt": "2026-10-25T17:12:00Z"
+        "company": "GOOGL",
+        "description": "October 28 Q3 call at 13:30 Pacific",
+        "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
+        "checkedAt": "2026-10-27T16:57:42Z"
       },
       {
-        "company": "CRWD",
-        "description": "No new confirmed Q3 FY27 date visible on events page",
-        "url": "https://ir.crowdstrike.com/events-and-presentations",
-        "checkedAt": "2026-10-25T17:12:00Z"
+        "company": "NBIS",
+        "description": "Investor events page shows no confirmed upcoming events, so November 10 remains estimated",
+        "url": "https://nebius.com/investor-events",
+        "checkedAt": "2026-10-27T16:57:42Z"
       }
     ],
     "verifiedChanges": [
-      "Arm November 4, 2026 earnings upgraded from estimated to confirmed, 14:00 PST / November 5 06:00 HKT",
-      "SpaceX late-October Starlink launch downgraded from confirmed October 28 to provisional October 26–29 due to conflicting official manifest snapshots",
-      "SpaceX earnings and 10-Q remain tracked; no Q4 earnings date invented"
+      "SpaceX $40bn Apollo-managed GPU finance-lease commitment announced October 26 (8-K) added as dated historical filing event; lease closing remains undated",
+      "SpaceX SI capex/financing watchlist clarified: expected H1 2027 GPU deliveries are a broad reported period, not a confirmed date",
+      "Microsoft FY27 Q1 October 28 earnings webcast time verified at 14:30 Pacific; event startAt updated to 21:30 UTC"
     ],
     "coverageGaps": [
-      "27 companies not freshly reverified this run",
-      "SpaceX exact late-October and early-November Starlink dates cannot be reconciled from official indexed snapshots",
-      "SpaceX Q4 earnings date unannounced",
-      "NVIDIA next earnings date not yet confirmed on current IR calendar"
+      "No comprehensive fresh verification for all 33 companies; October 15 remains last full 79-source sweep",
+      "NVIDIA/Meta $3bn deal reported by Reuters October 27, but no primary company announcement independently confirmed in this review; not added as a confirmed calendar event",
+      "SpaceX exact Starlink late-October and early-November launch dates remain unresolved",
+      "No officially announced SpaceX Q4/FY2026 earnings date identified"
     ]
   },
   "coverageAudit": {
-    "checkedAt": "2026-10-25T17:12:00Z",
-    "scope": "All 33 company IDs checked for presence and source integrity; six companies' official calendars spot-checked; not full source sweep.",
+    "checkedAt": "2026-10-27T16:57:42Z",
+    "scope": "33 company IDs and event-source mappings audited; 33 company source entry points attempted with mixed freshness; ten companies corroborated on specific primary materials. Not a full refresh.",
     "companies": 33,
-    "events": 83,
+    "events": 85,
     "companiesWithEvents": 33,
-    "confirmedEvents": 56,
-    "undatedEvents": 6,
+    "confirmedEvents": 57,
+    "undatedEvents": 7,
     "estimatedEvents": 20,
     "confirmedMissingVerifiedAt": [],
     "eventsWithoutSource": []
@@ -5469,6 +5469,15 @@
         "Early November Starlink launch changed from falsely certain November 1 to a provisional November 1–5 window because official launch-manifest snapshots disagree",
         "Lam Research November 3, 2026 annual shareholder meeting added",
         "Existing AMD, TSMC, Samsung, MediaTek, Intel and Arm dates cross-checked; no change required"
+      ]
+    },
+    {
+      "checkedAt": "2026-10-27T16:57:42Z",
+      "scope": "All 33 company IR/newsroom entry points attempted; primary-source corroboration of selected material events. NOT a full live refresh of all 79 sources; many pages returned cached August snapshots, JS-only markup or HTTP errors.",
+      "verifiedChanges": [
+        "SpaceX $40bn Apollo-managed GPU finance-lease commitment announced October 26 (8-K) added as dated historical filing event; lease closing remains undated",
+        "SpaceX SI capex/financing watchlist clarified: expected H1 2027 GPU deliveries are a broad reported period, not a confirmed date",
+        "Microsoft FY27 Q1 October 28 earnings webcast time verified at 14:30 Pacific; event startAt updated to 21:30 UTC"
       ]
     }
   ]
