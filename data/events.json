@@ -3014,7 +3014,8 @@
     {
       "id": "spacex-2026-10-26-40b-gpu-finance-lease-commitment",
       "companies": [
-        "SPACEX"
+        "SPACEX",
+        "NVDA"
       ],
       "title": "SpaceX (SPCX) $40bn GPU finance-lease commitment disclosed",
       "type": "Filing",
@@ -3045,6 +3046,6 @@
       ]
     }
   ],
-  "verificationNote": "October 28 Hong Kong targeted review: added SpaceX October 26 SEC 8-K / $40bn Apollo-managed GPU finance-lease commitment (not a completed lease) and enriched undated follow-up. Checked all 33 company primary-source endpoints for accessibility, but many returned cached August data, JS-only pages, or errors. The last comprehensive fresh source sweep remains October 15. SpaceX Starlink October 26–30 and November 1–5 remain provisional due to conflicting manifest snapshots; no precise launch date asserted. Microsoft FY27 Q1 earnings call time verified at 2:30 p.m. PT October 28.",
+  "verificationNote": "October 28 Hong Kong targeted review: added SpaceX October 26 SEC 8-K / $40bn Apollo-managed GPU finance-lease commitment (not a completed lease) and enriched undated follow-up. Checked all 33 company primary-source endpoints for accessibility, but many returned cached August data, JS-only pages, or errors. The last comprehensive fresh source sweep remains October 15. SpaceX Starlink October 26–30 and November 1–5 remain provisional due to conflicting manifest snapshots; no precise launch date asserted. Microsoft FY27 Q1 earnings call time verified at 2:30 p.m. PT October 28. SpaceX $40bn GPU commitment tagged to NVIDIA as supplier read-through.",
   "lastPartialReview": "2026-10-27T16:57:42Z"
 }
