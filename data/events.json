@@ -2970,10 +2970,10 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/",
       "sourceLabel": "SpaceX investor relations and SEC filings",
-      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
+      "sourceCheckedAt": "2026-10-27T16:57:42Z",
       "verifiedAt": null,
-      "basis": "Undated monitoring target for Super Intelligence segment revenue and backlog, AI compute infrastructure spending, financing and capital commitments, and quarterly cash-flow disclosures. Check official SpaceX investor materials and SEC EDGAR; no event date is announced.",
-      "importance": "AI data-center and compute capex, funding needs, cash generation and read-through to GPUs, networking and power infrastructure.",
+      "basis": "Undated future monitoring: the October 26, 2026 $40bn Apollo-managed GPU finance-lease commitment is separately recorded as a confirmed historical disclosure, but the master lease has NOT yet closed. SpaceX expects closing before year-end 2026 (conditional) and GPU deliveries/lease schedules in H1 2027 (reported period, not fixed dates). Monitor SEC 8-Ks, SI segment revenue, capex, cash flow and financing; no exact future date is confirmed.",
+      "importance": "Track lease closing/delivery and funding needs, Vera Rubin GPU and AI-networking demand, SI infrastructure utilization and returns.",
       "sources": [
         {
           "label": "SpaceX investor relations",
@@ -2986,10 +2986,55 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
           "kind": "official",
           "checkedAt": "2026-10-26T17:03:25.738Z"
+        },
+        {
+          "label": "SpaceX October 26 GPU finance-lease announcement",
+          "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-27T16:57:42Z"
+        },
+        {
+          "label": "SpaceX October 26 SEC Form 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-27T16:57:42Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-2026-10-26-40b-gpu-finance-lease-commitment",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX (SPCX) $40bn GPU finance-lease commitment disclosed",
+      "type": "Filing",
+      "status": "confirmed",
+      "date": "2026-10-26",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+      "sourceLabel": "SEC Form 8-K filed October 26, 2026",
+      "sourceCheckedAt": "2026-10-27T16:57:42Z",
+      "verifiedAt": "2026-10-27T16:57:42Z",
+      "basis": "SpaceX disclosed on October 26 a binding commitment letter dated October 24 to enter a roughly $40bn master finance lease with an Apollo-managed entity for NVIDIA Vera Rubin GPU pods and related equipment. The master lease is NOT yet closed; subject to conditions, closing expected before year-end 2026 and delivery/lease schedules anticipated in H1 2027. No exact closing/delivery date confirmed. October 26 is disclosure date, not lease closing.",
+      "importance": "Major financing and GPU demand catalyst: Vera Rubin equipment, Super Intelligence data-center capex, financing costs and liquidity; NVIDIA supply read-through.",
+      "sources": [
+        {
+          "label": "SEC Form 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-27T16:57:42Z"
+        },
+        {
+          "label": "SpaceX investor press release",
+          "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-27T16:57:42Z"
         }
       ]
     }
   ],
-  "verificationNote": "October 27 targeted primary-source review: SpaceX late-October Starlink provisional watch window widened to October 26–30 because conflicting official manifest snapshots show October 27, 28, 29 and 30; early-November ambiguity retained; added undated SI compute/capex/financing monitoring; corrected stale private-company wording. AMD, Apple, TSMC, MediaTek and SK hynix official IR schedules also rechecked with no date changes. Not a complete 33-company primary-source refresh; October 15 remains last full sweep.",
-  "lastPartialReview": "2026-10-26T17:03:25.738Z"
+  "verificationNote": "October 28 Hong Kong targeted review: added SpaceX October 26 SEC 8-K / $40bn Apollo-managed GPU finance-lease commitment (not a completed lease) and enriched undated follow-up. Checked all 33 company primary-source endpoints for accessibility, but many returned cached August data, JS-only pages, or errors. The last comprehensive fresh source sweep remains October 15. SpaceX Starlink October 26–30 and November 1–5 remain provisional due to conflicting manifest snapshots; no precise launch date asserted.",
+  "lastPartialReview": "2026-10-27T16:57:42Z"
 }
