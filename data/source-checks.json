@@ -5427,7 +5427,7 @@
       "INTC-2026-10-earnings",
       "QCOM-2026-11-earnings",
       "ARM-2026-11-earnings",
-      "TSM-2026-11-monthly-revenue",
+      "tsm-monthly-sales-2026-10",
       "oracle-investor-day-2026"
     ],
     "evidence": [
@@ -5485,7 +5485,8 @@
     "undatedEvents": 8,
     "estimatedEvents": 20,
     "confirmedMissingVerifiedAt": [],
-    "eventsWithoutSource": []
+    "eventsWithoutSource": [],
+    "reportedEvents": 1
   },
   "reviewHistory": [
     {
