@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-10-15",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-28T03:04:31.746796+00:00",
+  "lastAttempt": "2026-10-28T17:07:05.387Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -3382,8 +3382,89 @@
           "checkedAt": "2026-10-28T03:07:53.127695+00:00"
         }
       ]
+    },
+    {
+      "id": "adbe-ceo-succession-effective-2026-12-01",
+      "companies": [
+        "ADBE"
+      ],
+      "title": "Adobe CEO transition · Anil Chakravarthy succeeds Shantanu Narayen",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://news.adobe.com/news/2026/09/adobe-announces-anil-chakravarthy-to-become-president-and-ceo",
+      "sourceLabel": "Adobe official September 3 leadership announcement",
+      "sourceCheckedAt": "2026-10-28T17:07:05.387Z",
+      "verifiedAt": "2026-10-28T17:07:05.387Z",
+      "basis": "Adobe's September 3, 2026 board announcement names December 1, 2026 as the effective date for Anil Chakravarthy to become president, CEO and director, while Shantanu Narayen becomes executive chair. This is the effective date, not the announcement date; no time of day has been published.",
+      "importance": "Leadership transition ahead of FY2026 results; creative and enterprise AI strategy, margins and go-to-market execution.",
+      "sources": [
+        {
+          "label": "Adobe corporate newsroom",
+          "url": "https://news.adobe.com/news/2026/09/adobe-announces-anil-chakravarthy-to-become-president-and-ceo",
+          "kind": "official",
+          "checkedAt": "2026-10-28T17:07:05.387Z"
+        }
+      ]
+    },
+    {
+      "id": "sk-hynix-2026-10-28-shareholder-returns",
+      "companies": [
+        "000660.KS"
+      ],
+      "title": "SK hynix announces ~KRW100tn 2026 shareholder-return plan",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-28",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "sourceLabel": "SK hynix official Q3 results release",
+      "sourceCheckedAt": "2026-10-28T17:07:05.387Z",
+      "verifiedAt": "2026-10-28T17:07:05.387Z",
+      "basis": "At its October 28, 2026 Q3 results, SK hynix announced a plan for approximately KRW100tn of shareholder returns during 2026, including gains from its Kioxia investment via a special dividend, and said it discontinued review of a Solidigm IPO. This dated event is the announcement, NOT a confirmed ex-dividend, payout or buyback execution date.",
+      "importance": "Capital allocation and dividend/buyback yield; HBM4 scale-up and 2027–28 memory capacity agreements.",
+      "sources": [
+        {
+          "label": "SK hynix official Q3 2026 results",
+          "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+          "kind": "official",
+          "checkedAt": "2026-10-28T17:07:05.387Z"
+        }
+      ]
+    },
+    {
+      "id": "nebius-2026-10-22-citi-3p5b-financing",
+      "companies": [
+        "NBIS"
+      ],
+      "title": "Nebius signs $3.5bn Citi financing facility",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-22",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi",
+      "sourceLabel": "Nebius official newsroom",
+      "sourceCheckedAt": "2026-10-28T17:07:05.387Z",
+      "verifiedAt": "2026-10-28T17:07:05.387Z",
+      "basis": "Nebius announced on October 22, 2026 that it had entered into a $3.5bn 364-day senior secured facility arranged by Citi, initially priced at Term SOFR + 2.75%, for data-center development, GPU procurement and general corporate uses. This is the financing announcement date, not a dated future GPU delivery milestone.",
+      "importance": "AI cloud balance-sheet funding, GPU purchasing power and data-center construction capacity; contrast SpaceX's GPU lease commitments.",
+      "sources": [
+        {
+          "label": "Nebius newsroom",
+          "url": "https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi",
+          "kind": "official",
+          "checkedAt": "2026-10-28T17:07:05.387Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "October 28 company-balanced review: NVIDIA November 17, Adobe December 9 and CoreWeave November 10 now confirmed from primary sources; added dedicated Oracle Investor Day and fresh Anthropic S-1, software-conference and acquisition milestones. Asian semiconductor schedules rechecked; new next-quarter provider estimates are explicitly tentative and Micron provider disagreement is exposed. All 33 company entry points were surveyed with source-access limitations; this is not an exhaustive re-verification of every historical event. October 15 remains the last complete historical source sweep. Undated topics now use one equal-sized card per company; SpaceX receives no special research-scope priority.",
-  "lastPartialReview": "2026-10-28T03:04:31.746796+00:00"
+  "verificationNote": "October 29 targeted official-source review across the 33-company universe: SK hynix's October 28 shareholder-return announcement, Nebius's October 22 funding facility, and Adobe's December 1 CEO transition added with source-verified dates. SpaceX SPCX earnings/SEC filings and launch source conflicts rechecked; no unsupported next earnings or launch dates asserted. October 15 remains the last complete historical source sweep; this is a targeted update, not a full audit of every source.",
+  "lastPartialReview": "2026-10-28T17:07:05.387Z"
 }
