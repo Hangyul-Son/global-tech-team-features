@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical full source audit remains October 15. October 29 targeted review identifies 3 new source-verified event records and documents access gaps in lastTargetedReview. Counts of historical successfulSources/totalSources are not recast as a fresh all-source sweep. SpaceX SPCX remains publicly listed with Q3 earnings and SEC filings tracked.",
+  "note": "Historical full source audit remains October 15. October 29 targeted review added 3 verified dated records and downgraded an unresolved SpaceX late-October launch; lastTargetedReview records limitations. Historical successfulSources/totalSources retained unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,7 +5340,7 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-10-28T17:07:40.852Z",
+    "checkedAt": "2026-10-28T17:09:57.404Z",
     "scope": "October 29 targeted public-source sweep across all 33 companies: relevant primary investor/event pages reviewed for a subset, broader public discovery for the others. Three dated announcements added after verifying company newsrooms. Existing historical events NOT comprehensively reverified; the historical 79-source audit remains October 15.",
     "companiesSurveyed": [
       "TSM",
@@ -5428,7 +5428,8 @@
       "QCOM-2026-11-earnings",
       "ARM-2026-11-earnings",
       "tsm-monthly-sales-2026-10",
-      "oracle-investor-day-2026"
+      "oracle-investor-day-2026",
+      "spacex-starlink-launch-2026-10-24"
     ],
     "evidence": [
       {
@@ -5465,6 +5466,13 @@
         "checkedAt": "2026-10-28T17:07:40.852Z",
         "quote": "Indexed official snapshots show October 26 and October 29, 2026 for Starlink missions; distinct launch manifest snapshots show October 28 and November 1 or November 5.",
         "reviewOutcome": "retain-provisional-schedule"
+      },
+      {
+        "eventId": "spacex-starlink-launch-2026-10-24",
+        "url": "https://www.spacex.com/launches/falcon-9-block-5-ussf-153",
+        "checkedAt": "2026-10-28T17:09:57.404Z",
+        "quote": "Official SpaceX launch index snapshots conflict: October 24 upcoming versus October 23 completed generic Starlink entry; mission identity unresolved.",
+        "reviewOutcome": "downgraded-confirmed-date-to-provisional-window"
       }
     ],
     "limitations": [
@@ -5472,18 +5480,19 @@
       "SpaceX FY2026 Q4 earnings date has not been publicly verified on the accessible IR pages; remains unannounced.",
       "Some IR portals expose cached content or require JavaScript; search-only status cannot establish that no announcement exists.",
       "The broad event list is not a full historical recertification of all 79 catalogued sources.",
-      "No changes to mobile UI code or source styling."
+      "No changes to mobile UI code or source styling.",
+      "Generic SpaceX Starlink launch previously shown October 24 confirmed is now provisional October 23–24 due official snapshot conflict."
     ]
   },
   "coverageAudit": {
-    "checkedAt": "2026-10-28T17:07:40.852Z",
+    "checkedAt": "2026-10-28T17:09:57.404Z",
     "scope": "Event data integrity and 33-company universe completeness; not a full source re-verification.",
     "companies": 33,
     "events": 97,
     "companiesWithEvents": 33,
-    "confirmedEvents": 68,
+    "confirmedEvents": 67,
     "undatedEvents": 8,
-    "estimatedEvents": 20,
+    "estimatedEvents": 21,
     "confirmedMissingVerifiedAt": [],
     "eventsWithoutSource": [],
     "reportedEvents": 1
@@ -5668,6 +5677,19 @@
         "Some IR portals expose cached content or require JavaScript; search-only status cannot establish that no announcement exists.",
         "The broad event list is not a full historical recertification of all 79 catalogued sources.",
         "No changes to mobile UI code or source styling."
+      ]
+    },
+    {
+      "checkedAt": "2026-10-28T17:09:57.404Z",
+      "scope": "SpaceX manifest consistency correction after October 29 source audit",
+      "companiesChecked": [
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "spacex-starlink-launch-2026-10-24 downgraded to estimated Oct 23–24 window"
+      ],
+      "coverageGaps": [
+        "SpaceX generic launch snapshots lack a stable matching mission identifier"
       ]
     }
   ]
