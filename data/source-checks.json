@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical full source sweep remains October 15. October 28 named event changes and current provider estimates are documented in lastTargetedReview with source evidence; no blanket claim that every historical event was reverified. All research-scope companies retain equal presentation and original coverage flags are preserved.",
+  "note": "Historical full source audit remains October 15. October 29 targeted review identifies 3 new source-verified event records and documents access gaps in lastTargetedReview. Counts of historical successfulSources/totalSources are not recast as a fresh all-source sweep. SpaceX SPCX remains publicly listed with Q3 earnings and SEC filings tracked.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,8 +5340,8 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-    "scope": "October 28 survey of all 33 tracked company entry points, with detailed review of the named earnings/event changes. Historical source sweep fields remain unchanged; not a claim of complete primary-source access.",
+    "checkedAt": "2026-10-28T17:07:40.852Z",
+    "scope": "October 29 targeted public-source sweep across all 33 companies: relevant primary investor/event pages reviewed for a subset, broader public discovery for the others. Three dated announcements added after verifying company newsrooms. Existing historical events NOT comprehensively reverified; the historical 79-source audit remains October 15.",
     "companiesSurveyed": [
       "TSM",
       "NVDA",
@@ -5377,278 +5377,111 @@
       "OPENAI",
       "SPACEX"
     ],
+    "companyAccess": {
+      "TSM": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "NVDA": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "AMD": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "AVGO": "Public search attempted; no exhaustive current IR validation",
+      "MRVL": "Public search attempted; no exhaustive current IR validation",
+      "AAPL": "Public search attempted; no exhaustive current IR validation",
+      "MSFT": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "ORCL": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "CRM": "Public search attempted; no exhaustive current IR validation",
+      "NOW": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "ADBE": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "WDAY": "Public search attempted; no exhaustive current IR validation",
+      "ASML": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "LRCX": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "005930.KS": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "000660.KS": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "MU": "Public search attempted; no exhaustive current IR validation",
+      "2454.TW": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "AMZN": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "GOOGL": "Public search attempted; no exhaustive current IR validation",
+      "META": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "ANTHROPIC": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "CRWV": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "NBIS": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "INTC": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "ARM": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "QCOM": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "SNOW": "Public search attempted; no exhaustive current IR validation",
+      "CRWD": "Public search attempted; no exhaustive current IR validation",
+      "PANW": "Public search attempted; no exhaustive current IR validation",
+      "NET": "Primary IR/newsroom or SEC source reviewed for relevant events",
+      "OPENAI": "Public search attempted; no exhaustive current IR validation",
+      "SPACEX": "Primary IR/newsroom or SEC source reviewed for relevant events"
+    },
     "reviewedEvents": [
+      "adbe-ceo-succession-effective-2026-12-01",
+      "sk-hynix-2026-10-28-shareholder-returns",
+      "nebius-2026-10-22-citi-3p5b-financing",
+      "spacex-q3-2026-earnings",
+      "spacex-q3-2026-10q",
+      "spacex-2026-10-26-40b-gpu-finance-lease-commitment",
+      "spacex-starlink-launch-2026-10-28",
+      "spacex-starlink-launch-early-nov-2026",
       "005930.KS-2026-10-earnings",
-      "000660.KS-2026-10-earnings",
       "2454.TW-2026-10-earnings",
+      "AMD-2026-11-earnings",
       "INTC-2026-10-earnings",
-      "ARM-2026-11-earnings",
-      "ARM-2027-02-earnings",
-      "ARM-2027-05-earnings",
       "QCOM-2026-11-earnings",
-      "mediatek-monthly-sales-2026-10",
-      "mediatek-monthly-sales-2026-11",
-      "NVDA-2026-11-earnings",
-      "ADBE-2026-12-earnings",
-      "CRWV-2026-11-earnings",
-      "oracle-investor-day-2026",
-      "anthropic-s1-2026",
-      "anthropic-ipo",
-      "anthropic-ipo-marketing",
-      "openai-ipo",
-      "crowdstrike-falcon-europe-2026",
-      "snowflake-expedition-2026",
-      "salesforce-braze-investor-webcast-2026",
-      "adobe-max-opening-2026",
-      "TSM-2027-01-earnings",
-      "LRCX-2027-01-earnings",
-      "META-2027-01-earnings",
-      "MU-2026-12-earnings",
-      "AVGO-2026-12-earnings",
-      "MRVL-2026-12-earnings",
-      "ORCL-2026-12-earnings",
-      "CRM-2026-12-earnings",
-      "WDAY-2026-11-earnings",
-      "SNOW-2026-12-earnings",
-      "CRWD-2026-12-earnings",
-      "PANW-2026-11-earnings",
-      "NBIS-2026-11-earnings",
-      "sk-hynix-next-results-watch"
+      "ARM-2026-11-earnings",
+      "TSM-2026-11-monthly-revenue",
+      "oracle-investor-day-2026"
     ],
     "evidence": [
       {
-        "eventId": "005930.KS-2026-10-earnings",
-        "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "3Q26 Earnings Conference Call\nOctober 29, 2026, 10:00 a.m. KST",
-        "reviewOutcome": "manually-reviewed"
+        "eventId": "adbe-ceo-succession-effective-2026-12-01",
+        "url": "https://news.adobe.com/news/2026/09/adobe-announces-anil-chakravarthy-to-become-president-and-ceo",
+        "checkedAt": "2026-10-28T17:07:40.852Z",
+        "quote": "Anil Chakravarthy ... effective December 1, 2026. Shantanu Narayen will transition to executive chair.",
+        "reviewOutcome": "confirmed-effective-date-not-announcement-date"
       },
       {
-        "eventId": "000660.KS-2026-10-earnings",
-        "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Third quarter earnings of 2026 on October. 28th, 2026 (Wed.).\nAnnouncement of the earnings in a press release will be made before 9:00 a.m. of the day.\nThe conference call will be held live in Korean-English consecutive interpretation at 9:00 a.m. on the same date.\nPlease refer to the following invitation letter for further details.\n* I have attached the conference call invitation for your reference.\n** All above are Seoul time.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "000660.KS-2026-10-earnings",
+        "eventId": "sk-hynix-2026-10-28-shareholder-returns",
         "url": "https://news.skhynix.com/en/q3-2026-business-results/",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "SK hynix Announces 3Q26 Financial Results",
-        "reviewOutcome": "manually-reviewed"
+        "checkedAt": "2026-10-28T17:07:40.852Z",
+        "quote": "October 28, 2026 ... approximately 100 trillion won in shareholder returns to be executed this year",
+        "reviewOutcome": "confirmed-announcement-no-payment-date"
       },
       {
-        "eventId": "2454.TW-2026-10-earnings",
-        "url": "https://www.mediatek.com/investor-relations/ir-events",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Oct 30, 2026\n03:00 PM\n- 04:00 PM (GMT +8)\n3Q26 Results – Investors Conference / Language: English",
-        "reviewOutcome": "manually-reviewed"
+        "eventId": "nebius-2026-10-22-citi-3p5b-financing",
+        "url": "https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi",
+        "checkedAt": "2026-10-28T17:07:40.852Z",
+        "quote": "October 22, 2026 ... entered into a $3.5 billion senior secured facility provided by Citi.",
+        "reviewOutcome": "confirmed-financing-announcement"
       },
       {
-        "eventId": "INTC-2026-10-earnings",
-        "url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Q3 2026 Intel Corporation Earnings Conference Call\nOct 29, 2026  • 2:00 PM PDT",
-        "reviewOutcome": "manually-reviewed"
+        "eventId": "spacex-financial-disclosure-watch",
+        "url": "https://ir.spacex.com/updates/",
+        "checkedAt": "2026-10-28T17:07:40.852Z",
+        "quote": "Most recent earnings announcement in accessible official update results: Oct 16, 2026; Oct 20 Q3 webcast.",
+        "reviewOutcome": "no-new-confirmed-q4-date"
       },
       {
-        "eventId": "INTC-2026-10-earnings",
-        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Intel Corporation today announced that it will report third-quarter financial results on Thursday, October 29, 2026, promptly after close of market. Intel will then hold an earnings conference call at 2 p.m. PDT that day to discuss the results.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "ARM-2026-11-earnings",
-        "url": "https://investors.arm.com/financials/quarterly-annual-results",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "On November 4, 2026, at 14:00 PT (17:00 ET, 22:00 GMT) there will be a webcast with management regarding financial results for the second quarter of fiscal year 2027.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "ARM-2026-11-earnings",
-        "url": "https://investors.arm.com/news-events/investor-events-presentations",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Tentatively proposed earnings dates:\nFYE27\nQ3 - February 3, 2027\nQ4 - May 5, 2027\nUpcoming Events\nNov 4, 2026\n2:00 PM PST\nArm Second Quarter Fiscal Year 2027",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "ARM-2026-11-earnings",
-        "url": "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Arm Holdings plc (NASDAQ: ARM) will report financial results for the second quarter of fiscal year 2027 on Wednesday, Nov. 4, 2026, after market close. The company will host a conference call via audio webcast at 14:00 Pacific Time (17:00 Eastern Time / 22:00 Greenwich Mean Time) to review its financial results and business outlook.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "ARM-2027-02-earnings",
-        "url": "https://investors.arm.com/news-events/investor-events-presentations",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Tentatively proposed earnings dates:\nFYE27\nQ3 - February 3, 2027\nQ4 - May 5, 2027\nUpcoming Events\nNov 4, 2026\n2:00 PM PST\nArm Second Quarter Fiscal Year 2027",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "ARM-2027-05-earnings",
-        "url": "https://investors.arm.com/news-events/investor-events-presentations",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Tentatively proposed earnings dates:\nFYE27\nQ3 - February 3, 2027\nQ4 - May 5, 2027\nUpcoming Events\nNov 4, 2026\n2:00 PM PST\nArm Second Quarter Fiscal Year 2027",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "QCOM-2026-11-earnings",
-        "url": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Q4 FY26 Earnings Conference Call\nNovember 4, 2026\n01:45 PM PT",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "QCOM-2026-11-earnings",
-        "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Schedules-Fourth-Quarter-and-Fiscal-2026-Earnings-Release-and-Conference-Call/default.aspx",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Qualcomm will host a conference call to discuss its fourth quarter and fiscal 2026 results which will be broadcast live on November 4, 2026, beginning at 1:45 p.m. Pacific Time (PT) at",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "mediatek-monthly-sales-2026-10",
-        "url": "https://www.mediatek.com/investor-relations/ir-events",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Nov 10, 2026\n05:00 PM\n- 06:00 PM (GMT +8)\nMonthly Sales - October 2026",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "mediatek-monthly-sales-2026-11",
-        "url": "https://www.mediatek.com/investor-relations/ir-events",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Dec 10, 2026\n05:00 PM\n- 06:00 PM (GMT +8)\nMonthly Sales - November 2026",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "NVDA-2026-11-earnings",
-        "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "NVIDIA 3rd Quarter FY27 Financial Results — from November 17, 2026 to November 17, 2026",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "ADBE-2026-12-earnings",
-        "url": "https://www.adobe.com/investor-relations.html",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Wednesday, December 9, 2026 | Q4 & FY2026 earnings call | 2:00pm Pacific Time",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "CRWV-2026-11-earnings",
-        "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "October 27, 2026: quarterly conference call to discuss third quarter 2026 financial results on Tuesday, November 10, 2026 at 5:00 PM Eastern Time.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "oracle-investor-day-2026",
-        "url": "https://investor.oracle.com/investor-news/news-details/2026/ORACLE-INVESTOR-DAY-MEETING-TO-BE-HELD-OCTOBER-28-2026/default.aspx",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Investor Day Meeting at Oracle AI World, Wednesday, October 28, 2026. Oracle's Investor Day Meeting will be live at 10:55 a.m. Central Time via the Investor Relations homepage.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "anthropic-s1-2026",
-        "url": "https://www.anthropic.com/news/s1-sec",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Oct 26, 2026. Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering. The number of shares and price range have not yet been determined.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "openai-ipo",
-        "url": "https://smartasset.com/investing/openai-stock-ipo",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "In September 2026, CEO Sam Altman said the company would not go public in 2026 and indicated that an IPO would not take place until at least 2027.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "crowdstrike-falcon-europe-2026",
-        "url": "https://www.crowdstrike.com/en-us/events/fal-con/europe/",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Fal.Con 2026 Europe | Securing the AI Revolution | 2 – 4 November | Fira Gran Via | Barcelona",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "snowflake-expedition-2026",
-        "url": "https://investors.snowflake.com/news/news-details/2026/Snowflake-to-Showcase-Enterprise-Wide-Agentic-Transformation-at-EXPEDITION-2026-with-Industry-Speakers-Including-Satya-Nadella/default.aspx",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Streaming live Nov. 3-5, 2026 in the Americas and Nov. 4-6 globally. Day One Luminary fireside chat with Sridhar Ramaswamy and Microsoft Chairman and CEO Satya Nadella; Luminary Talk – pre-recorded.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "salesforce-braze-investor-webcast-2026",
-        "url": "https://investor.salesforce.com/events-and-presentations/events/event-details/2026/IR-Webinar/default.aspx",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Salesforce Signs Definitive Agreement to Acquire Braze | October 20, 2026 5:30 AM PT",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "adobe-max-opening-2026",
-        "url": "https://max.adobe.com/emea/",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Tuesday, Nov 10 | 9–11am EST | Opening Keynote; Tuesday, 10 Nov | 2–4pm GMT | Opening Keynote",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "TSM-2027-01-earnings",
-        "url": "https://www.zacks.com/stock/research/TSM/earnings-calendar",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Look out for TSM's next earnings release expected on January 21, 2027. Explicit estimated-date disclaimer.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "LRCX-2027-01-earnings",
-        "url": "https://www.zacks.com/stock/research/LRCX/earnings-calendar",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Look out for LRCX's next earnings release expected on January 27, 2027. Explicit estimated-date disclaimer.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "META-2027-01-earnings",
-        "url": "https://www.zacks.com/stock/research/META/earnings-calendar",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Look out for META's next earnings release expected on January 27, 2027. Explicit estimated-date disclaimer.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "MU-2026-12-earnings",
-        "url": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Micron next earnings date is estimated for Wednesday, December 23, 2026.",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "MU-2026-12-earnings",
-        "url": "https://stockanalysis.com/stocks/mu/",
-        "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-        "quote": "Est. Earnings | Dec 16, 2026",
-        "reviewOutcome": "manually-reviewed"
-      },
-      {
-        "eventId": "sk-hynix-next-results-watch",
-        "url": "https://news.skhynix.com/en/q3-2026-business-results/",
-        "checkedAt": "2026-10-28T03:07:53.127695+00:00",
-        "quote": "SK hynix Announces 3Q26 Financial Results | October 28, 2026",
-        "reviewOutcome": "Completed Q3 event reviewed; no future date inferred. Next-date gap documented in the Asian-company review."
+        "eventId": "spacex-starlink-launch-2026-10-28",
+        "url": "https://www.spacex.com/launches/mission/?missionId=falcon-9-block-5-starlink-group-15-15",
+        "checkedAt": "2026-10-28T17:07:40.852Z",
+        "quote": "Indexed official snapshots show October 26 and October 29, 2026 for Starlink missions; distinct launch manifest snapshots show October 28 and November 1 or November 5.",
+        "reviewOutcome": "retain-provisional-schedule"
       }
     ],
     "limitations": [
-      "Some official calendars are JavaScript shells or return HTTP errors; absence of an event is not definitive.",
-      "Micron next-earnings providers disagree; date remains estimated.",
-      "IPO timing is reported, not a company-confirmed trading date.",
-      "No later SK hynix next-quarter earnings date was sourced.",
-      "No additional exact SpaceX launch or financing-close dates are inferred."
+      "Individual SpaceX Starlink missions are not fully reconciled across changing official manifest snapshots; no date upgraded to confirmed.",
+      "SpaceX FY2026 Q4 earnings date has not been publicly verified on the accessible IR pages; remains unannounced.",
+      "Some IR portals expose cached content or require JavaScript; search-only status cannot establish that no announcement exists.",
+      "The broad event list is not a full historical recertification of all 79 catalogued sources.",
+      "No changes to mobile UI code or source styling."
     ]
   },
   "coverageAudit": {
-    "checkedAt": "2026-10-28T03:04:31.746796+00:00",
-    "scope": "Event provenance and universe integrity plus balanced per-company undated presentation; not an exhaustive historical source re-verification.",
+    "checkedAt": "2026-10-28T17:07:40.852Z",
+    "scope": "Event data integrity and 33-company universe completeness; not a full source re-verification.",
     "companies": 33,
-    "events": 94,
+    "events": 97,
     "companiesWithEvents": 33,
-    "confirmedEvents": 65,
+    "confirmedEvents": 68,
     "undatedEvents": 8,
     "estimatedEvents": 20,
     "confirmedMissingVerifiedAt": [],
@@ -5781,6 +5614,59 @@
         "NVIDIA/Meta $3bn deal reported by Reuters October 27, but no primary company announcement independently confirmed in this review; not added as a confirmed calendar event",
         "SpaceX exact Starlink late-October and early-November launch dates remain unresolved",
         "No officially announced SpaceX Q4/FY2026 earnings date identified"
+      ]
+    },
+    {
+      "checkedAt": "2026-10-28T17:07:40.852Z",
+      "scope": "33-company cross-sector discovery, targeted verification of 3 material announcements and near-term earnings, SpaceX investor/SEC/launch checks",
+      "companiesChecked": [
+        "SPACEX",
+        "TSM",
+        "NVDA",
+        "AMD",
+        "ORCL",
+        "NOW",
+        "ADBE",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "2454.TW",
+        "AMZN",
+        "META",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "NET",
+        "CRWV",
+        "MSFT",
+        "ANTHROPIC"
+      ],
+      "companiesNotFullyReviewed": [
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "CRM",
+        "WDAY",
+        "MU",
+        "GOOGL",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "OPENAI"
+      ],
+      "verifiedChanges": [
+        "adbe-ceo-succession-effective-2026-12-01",
+        "sk-hynix-2026-10-28-shareholder-returns",
+        "nebius-2026-10-22-citi-3p5b-financing"
+      ],
+      "coverageGaps": [
+        "Individual SpaceX Starlink missions are not fully reconciled across changing official manifest snapshots; no date upgraded to confirmed.",
+        "SpaceX FY2026 Q4 earnings date has not been publicly verified on the accessible IR pages; remains unannounced.",
+        "Some IR portals expose cached content or require JavaScript; search-only status cannot establish that no announcement exists.",
+        "The broad event list is not a full historical recertification of all 79 catalogued sources.",
+        "No changes to mobile UI code or source styling."
       ]
     }
   ]
