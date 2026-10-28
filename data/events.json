@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-10-15",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-18T17:04:46.037Z",
+  "lastAttempt": "2026-10-28T03:04:31.746796+00:00",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -603,18 +603,24 @@
       ],
       "title": "NVIDIA earnings",
       "type": "Earnings",
-      "status": "estimated",
-      "date": "2026-11-18",
+      "status": "confirmed",
+      "date": "2026-11-17",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-11-18 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
+      "sourceLabel": "NVIDIA official Q3 FY27 event calendar",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "NVIDIA's official event page explicitly schedules Q3 FY27 financial results on November 17, 2026. This replaces the older November 18 provider estimate. The page does not publish a call clock time, so no UTC instant or assumed release time is assigned.",
       "importance": "AI accelerator demand, networking and data-center revenue.",
       "sources": [
+        {
+          "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
+          "label": "NVIDIA official Q3 FY27 event calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        },
         {
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
@@ -627,7 +633,8 @@
           "kind": "estimate",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "dateConflict": "Official NVIDIA November 17 date supersedes the previously recorded November 18 provider estimate. No call time is published on the reviewed official event page."
     },
     {
       "id": "AVGO-2026-12-earnings",
@@ -643,7 +650,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
       "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat publishes 2026-12-09 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
       "importance": "Custom AI silicon, networking and VMware software demand.",
@@ -652,7 +659,7 @@
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
       ]
     },
@@ -670,7 +677,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/earnings/",
       "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat publishes 2026-12-01 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
       "importance": "Custom compute ramps, optical interconnects and cloud demand.",
@@ -679,7 +686,7 @@
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         },
         {
           "label": "Stock Analysis",
@@ -703,7 +710,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/ORCL/earnings/",
       "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat publishes 2026-12-14 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
       "importance": "OCI capacity, remaining performance obligations and AI capex.",
@@ -712,7 +719,7 @@
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NYSE/ORCL/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
       ]
     },
@@ -730,7 +737,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
       "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat publishes 2026-12-02 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
       "importance": "Agentforce adoption, bookings and enterprise AI budgets.",
@@ -739,7 +746,7 @@
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         },
         {
           "label": "Stock Analysis",
@@ -756,25 +763,29 @@
       ],
       "title": "Adobe earnings",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-12-09",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/ADBE/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-12-09 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "time": "Earnings call: 14:00 Pacific Time (PST)",
+      "sourceUrl": "https://www.adobe.com/investor-relations.html",
+      "sourceLabel": "Adobe official investor-relations calendar",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Adobe's official investor-relations page lists Wednesday, December 9, 2026: Q4 & FY2026 earnings call at 2:00 p.m. Pacific Time. This confirms the previously estimated date; December uses PST, so the call is 22:00 UTC, December 10 at 06:00 in Hong Kong. No release clock time or call duration is inferred.",
       "importance": "Creative AI monetization, subscriptions and competitive pressure.",
       "sources": [
         {
-          "label": "MarketBeat earnings calendar",
-          "url": "https://www.marketbeat.com/stocks/NASDAQ/ADBE/earnings/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "url": "https://www.adobe.com/investor-relations.html",
+          "label": "Adobe official investor-relations calendar",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-12-09T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCertainty": "verified",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00"
     },
     {
       "id": "WDAY-2026-11-earnings",
@@ -790,7 +801,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/WDAY/earnings/",
       "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat publishes 2026-11-24 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
       "importance": "HR and finance budgets, subscription backlog and AI agents.",
@@ -799,7 +810,7 @@
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/WDAY/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         },
         {
           "label": "Stock Analysis",
@@ -823,18 +834,25 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
       "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-12-23 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "basis": "MarketBeat still explicitly estimates December 23, 2026; Stock Analysis now displays an estimated December 16. No official next-earnings announcement was found in the reviewed Micron event feed. Retain the existing December 23 provider estimate, flag the disagreement, and do not infer a time.",
       "importance": "HBM revenue, memory pricing and supply discipline.",
       "sources": [
         {
-          "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+          "label": "MarketBeat next earnings estimate",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        },
+        {
+          "url": "https://stockanalysis.com/stocks/mu/",
+          "label": "Stock Analysis next earnings estimate",
+          "kind": "estimate",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
-      ]
+      ],
+      "dateConflict": "MarketBeat estimates December 23 versus Stock Analysis December 16. No company-confirmed date was established."
     },
     {
       "id": "AMZN-2026-10-earnings",
@@ -1054,8 +1072,8 @@
       "time": "Call: 10:00 KST",
       "sourceUrl": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
       "sourceLabel": "Samsung · official IR events calendar",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "Samsung lists its 3Q26 earnings conference call on October 29, 2026 at 10:00 KST. This is distinct from its October 8 guidance announcement.",
       "importance": "HBM qualification, memory pricing and foundry investment.",
       "sources": [
@@ -1063,12 +1081,12 @@
           "label": "Samsung · official IR events calendar",
           "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
           "kind": "official",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-28T02:31:00.848006+00:00"
         }
       ],
       "startAt": "2026-10-29T01:00:00Z",
       "sourceTimeZone": "Asia/Seoul",
-      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "timeCertainty": "verified"
     },
     {
@@ -1085,21 +1103,27 @@
       "time": "09:00 KST / 08:00 HKT",
       "sourceUrl": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
       "sourceLabel": "SK hynix official Q3 2026 conference-call invitation",
-      "sourceCheckedAt": "2026-10-23T17:04:38Z",
-      "verifiedAt": "2026-10-23T17:04:38Z",
-      "basis": "SK hynix's official October 21, 2026 invitation confirms Q3 earnings press release before 09:00 Seoul time on Wednesday, October 28, and a Korean-English conference call at 09:00 KST.",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "SK hynix's official invitation schedules Q3 2026 results on October 28, with the press release before 09:00 Seoul time and the conference call at 09:00 KST (00:00 UTC). Its official newsroom published the Q3 results on October 28. At the October 28 review time, the scheduled call start is already past. No later earnings date was established in the reviewed sources.",
       "importance": "HBM supply, DRAM pricing and AI memory capacity.",
       "sources": [
         {
           "label": "SK hynix official newsroom",
           "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
           "kind": "official",
-          "checkedAt": "2026-10-23T17:04:38Z"
+          "checkedAt": "2026-10-28T02:31:00.510297+00:00"
+        },
+        {
+          "label": "SK hynix official Q3 2026 results release",
+          "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+          "kind": "official",
+          "checkedAt": "2026-10-28T02:32:08.889854+00:00"
         }
       ],
       "startAt": "2026-10-28T00:00:00Z",
       "sourceTimeZone": "Asia/Seoul",
-      "timeCheckedAt": "2026-10-23T17:04:38Z",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "timeCertainty": "verified"
     },
     {
@@ -1116,8 +1140,8 @@
       "time": "Investor conference: 15:00–16:00 GMT+8",
       "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
       "sourceLabel": "MediaTek official investor events",
-      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
-      "verifiedAt": "2026-10-18T17:03:00.379Z",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "MediaTek's official investor calendar confirms Q3 2026 results investor conference on October 30, 2026 at 15:00–16:00 GMT+8, superseding third-party October 23 and October 29 estimates.",
       "importance": "Mobile chip demand, edge AI and custom silicon.",
       "sources": [
@@ -1125,7 +1149,7 @@
           "label": "MediaTek investor events",
           "url": "https://www.mediatek.com/investor-relations/ir-events",
           "kind": "official",
-          "checkedAt": "2026-10-18T17:03:00.379Z"
+          "checkedAt": "2026-10-28T02:31:00.876992+00:00"
         },
         {
           "label": "FT Markets forecasts · data supplied by LSEG",
@@ -1144,7 +1168,7 @@
       "startAt": "2026-10-30T07:00:00Z",
       "endAt": "2026-10-30T08:00:00Z",
       "sourceTimeZone": "Asia/Taipei",
-      "timeCheckedAt": "2026-10-18T17:03:00.379Z",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "timeCertainty": "verified"
     },
     {
@@ -1372,18 +1396,24 @@
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
-      "sourceLabel": "Yahoo Finance / Stocktwits · Bloomberg-reported target",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceUrl": "https://www.zacks.com/featured-articles/761/anthropic-ipo",
+      "sourceLabel": "Public reporting on proposed Anthropic roadshow",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
-      "basis": "Reporting describes potential formal marketing as early as the week of November 9. November 9–13 is the business-week window, not a confirmed roadshow or listing date. Timing may change and Anthropic declined to comment.",
+      "basis": "Public reporting attributed to Bloomberg continues to describe a possible IPO marketing roadshow in the week of November 9. The October 26 S-1 filing does not independently confirm a roadshow or listing day. This remains a tentative week window and is distinct from the listing target.",
       "importance": "Potential public-market AI catalyst; watch for an official filing and timetable.",
       "sources": [
         {
-          "label": "Yahoo Finance / Stocktwits · Bloomberg-reported target",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
-          "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "url": "https://www.zacks.com/featured-articles/761/anthropic-ipo",
+          "label": "Zacks public IPO guide citing Bloomberg",
+          "kind": "report",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        },
+        {
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "label": "Anthropic official S-1 announcement",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
       ],
       "estimateKind": "reported-target",
@@ -1406,18 +1436,24 @@
       "date": null,
       "endDate": null,
       "time": null,
-      "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
-      "sourceLabel": "Yahoo Finance / Stocktwits · Bloomberg reporting",
+      "sourceUrl": "https://www.anthropic.com/news/s1-sec",
+      "sourceLabel": "Anthropic S-1 announcement and attributable public IPO reporting",
       "verifiedAt": null,
-      "basis": "Public reporting citing Bloomberg targets a potential November 2026 listing before US Thanksgiving. This is a reported month-level target, not a confirmed IPO date. The full month is displayed as an uncertainty window; November 1 is not an asserted listing day.",
+      "basis": "Anthropic's October 26 official S-1 announcement confirms the proposed IPO and planned ANT ticker but does not announce a listing date. CNN's October 26 report says trading could begin as soon as November 16; other public reporting describes late November. November remains a reported target window, never a company-confirmed listing day.",
       "importance": "Watch item only. No IPO or listing date has been verified.",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "sources": [
         {
-          "label": "Yahoo Finance / Stocktwits",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-reportedly-sends-investors-ipo-234834463.html",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "label": "Anthropic official S-1 announcement",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        },
+        {
+          "url": "https://www.cnn.com/2026/10/26/tech/anthropic-files-ipo",
+          "label": "CNN October 26 IPO report",
           "kind": "report",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
       ],
       "estimateKind": "reported-target",
@@ -1426,7 +1462,8 @@
         "end": "2026-11-30",
         "label": "November 2026 · reported target",
         "precision": "month"
-      }
+      },
+      "dateConflict": "Public reporting describes November 16 as an earliest possibility versus a late-November target. Anthropic has not confirmed a trading date."
     },
     {
       "id": "gtc-berlin-2026",
@@ -1552,25 +1589,30 @@
       ],
       "title": "CoreWeave earnings",
       "type": "Earnings",
-      "status": "estimated",
-      "date": "2026-11-09",
+      "status": "confirmed",
+      "date": "2026-11-10",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://stockanalysis.com/stocks/crwv/",
-      "sourceLabel": "Stock Analysis · published estimate",
-      "sourceCheckedAt": "2026-10-15T14:02:20.217352+00:00",
-      "verifiedAt": null,
-      "basis": "Stock Analysis publishes 2026-11-09 as the next estimated earnings date. This is a provider estimate, not a company-confirmed date. The official investor page is linked for monitoring, not as evidence for this estimate.",
+      "time": "Conference call: 17:00 Eastern Time (EST)",
+      "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+      "sourceLabel": "CoreWeave official October 27 earnings announcement",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "CoreWeave announced on October 27 that its Q3 2026 financial-results conference call will be Tuesday, November 10, 2026 at 5:00 p.m. Eastern Time. This supersedes the earlier November 9 estimate. The call is 22:00 UTC, November 11 at 06:00 in Hong Kong; no separate release instant or duration is invented.",
       "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
       "sources": [
         {
-          "label": "Stock Analysis · published estimate",
-          "url": "https://stockanalysis.com/stocks/crwv/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-15T14:02:20.217352+00:00"
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+          "label": "CoreWeave official October 27 earnings announcement",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
-      ]
+      ],
+      "dateConflict": "Official November 10 call replaces the previous November 9 provider estimate.",
+      "startAt": "2026-11-10T22:00:00Z",
+      "sourceTimeZone": "America/New_York",
+      "timeCertainty": "verified",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00"
     },
     {
       "id": "NBIS-2026-11-earnings",
@@ -1586,7 +1628,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
       "sourceLabel": "MarketBeat · published estimate",
-      "sourceCheckedAt": "2026-10-15T14:02:20.217352+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat publishes 2026-11-10 as the next estimated earnings date. This is a provider estimate, not a company-confirmed date. The official investor page is linked for monitoring, not as evidence for this estimate.",
       "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
@@ -1595,7 +1637,7 @@
           "label": "MarketBeat · published estimate",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T14:02:20.217352+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         },
         {
           "label": "Stock Analysis · estimated earnings",
@@ -1619,21 +1661,27 @@
       "time": "Call: 14:00 PDT",
       "sourceUrl": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
       "sourceLabel": "Intel · official earnings event",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
-      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
-      "basis": "Intel’s official event page schedules its Q3 earnings call for October 29, 2026 at 14:00 PDT.",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Intel's official event page and earnings announcement confirm the October 29, 2026 conference call at 14:00 PDT (21:00 UTC). The results release is separately described as promptly after market close; the call time is not the release time.",
       "importance": "PC and server processors, foundry progress, AI inference and manufacturing capex.",
       "sources": [
         {
           "label": "Intel · official earnings event",
           "url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
           "kind": "official",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "checkedAt": "2026-10-28T02:31:00.718172+00:00"
+        },
+        {
+          "label": "Intel official Q3 2026 earnings announcement",
+          "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+          "kind": "official",
+          "checkedAt": "2026-10-28T02:32:52.731636+00:00"
         }
       ],
       "startAt": "2026-10-29T21:00:00Z",
       "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "timeCertainty": "verified"
     },
     {
@@ -1649,28 +1697,34 @@
       "window": null,
       "sourceUrl": "https://investors.arm.com/financials/quarterly-annual-results",
       "sourceLabel": "Arm official quarterly results and investor events",
-      "sourceCheckedAt": "2026-10-25T17:12:00Z",
-      "verifiedAt": "2026-10-25T17:12:00Z",
-      "basis": "Arm's current quarterly-results page and upcoming-events calendar explicitly confirm November 4, 2026, at 14:00 PST (17:00 EST, 22:00 GMT). This supersedes the earlier tentatively proposed FY27 calendar date.",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Arm's official quarterly-results page, investor calendar and earnings announcement confirm November 4, 2026, at 14:00 PST (17:00 EST, 22:00 GMT) for the earnings webcast. Results are separately scheduled after market close. This supersedes the earlier tentatively proposed FY27 calendar date.",
       "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
       "sources": [
         {
           "label": "Arm official quarterly results",
           "url": "https://investors.arm.com/financials/quarterly-annual-results",
           "kind": "official",
-          "checkedAt": "2026-10-25T17:12:00Z"
+          "checkedAt": "2026-10-28T02:31:00.253477+00:00"
         },
         {
           "label": "Arm upcoming events",
           "url": "https://investors.arm.com/news-events/investor-events-presentations",
           "kind": "official",
-          "checkedAt": "2026-10-25T17:12:00Z"
+          "checkedAt": "2026-10-28T02:31:00.237758+00:00"
+        },
+        {
+          "label": "Arm official Q2 FY27 earnings announcement",
+          "url": "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
+          "kind": "official",
+          "checkedAt": "2026-10-28T02:34:23.226542+00:00"
         }
       ],
       "time": "14:00 PST / 17:00 EST · 06:00 HKT Nov 5",
       "startAt": "2026-11-04T22:00:00Z",
       "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-10-25T17:12:00Z",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "timeCertainty": "verified"
     },
     {
@@ -1686,7 +1740,7 @@
       "window": null,
       "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
       "sourceLabel": "Arm IR tentative FY27 earnings calendar",
-      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "Arm's official IR page explicitly calls FY27 earnings dates 'Tentatively proposed earnings dates'. 2027-02-03 is not a confirmed earnings announcement and no webcast time is established.",
       "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
@@ -1695,7 +1749,7 @@
           "label": "Arm IR tentative FY27 dates",
           "url": "https://investors.arm.com/news-events/investor-events-presentations",
           "kind": "estimate",
-          "checkedAt": "2026-10-18T17:03:00.379Z"
+          "checkedAt": "2026-10-28T02:31:00.237758+00:00"
         }
       ],
       "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement.",
@@ -1714,7 +1768,7 @@
       "window": null,
       "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
       "sourceLabel": "Arm IR tentative FY27 earnings calendar",
-      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "Arm's official IR page explicitly calls FY27 earnings dates 'Tentatively proposed earnings dates'. 2027-05-05 is not a confirmed earnings announcement and no webcast time is established.",
       "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
@@ -1723,7 +1777,7 @@
           "label": "Arm IR tentative FY27 dates",
           "url": "https://investors.arm.com/news-events/investor-events-presentations",
           "kind": "estimate",
-          "checkedAt": "2026-10-18T17:03:00.379Z"
+          "checkedAt": "2026-10-28T02:31:00.237758+00:00"
         }
       ],
       "dateConflict": "Tentatively proposed company date; awaiting formal earnings announcement.",
@@ -1743,21 +1797,27 @@
       "time": "Call: 13:45 PT",
       "sourceUrl": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
       "sourceLabel": "Qualcomm · official earnings event",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
-      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
-      "basis": "Qualcomm’s official Q4 FY26 event page lists November 4, 2026 at 13:45 PT. This is the call time.",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Qualcomm's official Q4 FY26 event page and October 22 announcement confirm November 4, 2026 at 13:45 PT (PST, 21:45 UTC) for the conference call. The results release is separately scheduled after market close; the call time is not the release time.",
       "importance": "Mobile and automotive silicon, edge AI and licensing.",
       "sources": [
         {
           "label": "Qualcomm · official earnings event",
           "url": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "checkedAt": "2026-10-28T02:31:00.565276+00:00"
+        },
+        {
+          "label": "Qualcomm official Q4 and FY2026 earnings announcement",
+          "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Schedules-Fourth-Quarter-and-Fiscal-2026-Earnings-Release-and-Conference-Call/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-28T02:33:32.209954+00:00"
         }
       ],
       "startAt": "2026-11-04T21:45:00Z",
       "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "timeCertainty": "verified"
     },
     {
@@ -1774,7 +1834,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
       "sourceLabel": "MarketBeat · published earnings estimate",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
       "importance": "Data-cloud consumption, AI workloads and enterprise data spending.",
@@ -1783,7 +1843,7 @@
           "label": "MarketBeat · published earnings estimate",
           "url": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         },
         {
           "label": "Stock Analysis · published earnings estimate",
@@ -1807,7 +1867,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings/",
       "sourceLabel": "MarketBeat · published earnings estimate",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
       "importance": "Endpoint and cloud security, platform consolidation and AI security.",
@@ -1816,7 +1876,7 @@
           "label": "MarketBeat · published earnings estimate",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         },
         {
           "label": "Stock Analysis · published earnings estimate",
@@ -1840,7 +1900,7 @@
       "time": null,
       "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings/",
       "sourceLabel": "MarketBeat · published earnings estimate",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
       "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
       "importance": "Network/cloud security, platform adoption and enterprise budgets.",
@@ -1849,7 +1909,7 @@
           "label": "MarketBeat · published earnings estimate",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         },
         {
           "label": "Stock Analysis · published earnings estimate",
@@ -2015,24 +2075,24 @@
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/openai-pushes-ipo-2027-172405429.html",
-      "sourceLabel": "Yahoo Finance · report citing The New York Times",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "sourceUrl": "https://smartasset.com/investing/openai-stock-ipo",
+      "sourceLabel": "SmartAsset October 20 public IPO timeline review",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
       "verifiedAt": null,
-      "basis": "The retrieved report discusses a possible 2027 IPO, without a confirmed month or quarter. More recent public commentary also discusses late 2026/early 2027. The calendar uses a broad 2027 scenario window rather than inventing an early-year date. This is a conditional scenario, not a company commitment.",
+      "basis": "SmartAsset's October 20 review reports that Sam Altman said in September that OpenAI would not go public in 2026 and that 2027 is the earliest publicly discussed timeline. No official listing day, quarter, price or exchange was announced. The broad 2027 entry remains an unconfirmed scenario, not a promised listing window.",
       "importance": "AI model economics, compute demand, cloud partnerships and possible public-market financing.",
       "sources": [
         {
-          "label": "Yahoo Finance · NYT-reported 2027 scenario",
-          "url": "https://finance.yahoo.com/technology/ai/articles/openai-pushes-ipo-2027-172405429.html",
+          "url": "https://smartasset.com/investing/openai-stock-ipo",
+          "label": "SmartAsset public review updated October 20",
           "kind": "report",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         },
         {
-          "label": "Zacks · late 2026 / early 2027 commentary",
-          "url": "https://www.zacks.com/featured-articles/781/openai-ipo",
+          "url": "https://www.cnn.com/2026/10/26/tech/anthropic-files-ipo",
+          "label": "CNN October 26 report discusses OpenAI delay",
           "kind": "report",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
       ],
       "estimateKind": "reported-target",
@@ -2042,7 +2102,7 @@
         "label": "2027 · reported scenario; quarter unconfirmed",
         "precision": "year"
       },
-      "dateConflict": "Public timing commentary differs: 2027 in the retrieved NYT-based report versus late 2026/early 2027 in Zacks. No official listing date was verified."
+      "dateConflict": "Updated public reporting indicates no 2026 listing and at least 2027, superseding older late-2026/early-2027 speculation. Timing beyond that remains uncertain."
     },
     {
       "id": "tsm-monthly-sales-2026-10",
@@ -2163,21 +2223,26 @@
       "date": "2026-11-10",
       "endDate": null,
       "window": null,
-      "time": null,
+      "time": "Opening keynote: November 10, 09:00–11:00 EST / 14:00–16:00 GMT",
       "sourceUrl": "https://max.adobe.com/emea/",
-      "sourceLabel": "Adobe MAX official online agenda",
-      "sourceCheckedAt": "2026-10-18T07:20:26Z",
-      "verifiedAt": "2026-10-18T07:20:26Z",
-      "basis": "The official Adobe MAX EMEA agenda identifies an Opening Keynote on Tuesday, November 10, 2026. No cross-region clock time is normalized.",
+      "sourceLabel": "Adobe MAX official 2026 regional agenda",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Adobe MAX 2026 regional agenda explicitly lists the Tuesday November 10 opening keynote at 9–11 a.m. EST, also shown as 2–4 p.m. GMT. This is 14:00–16:00 UTC, 22:00 November 10–00:00 November 11 Hong Kong; replay slots in other regions are separate.",
       "importance": "Adobe creative AI launches and monetization signals.",
       "sources": [
         {
-          "label": "Adobe MAX official online agenda",
           "url": "https://max.adobe.com/emea/",
+          "label": "Adobe MAX official 2026 regional agenda",
           "kind": "official",
-          "checkedAt": "2026-10-18T07:20:26Z"
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-11-10T14:00:00Z",
+      "sourceTimeZone": "America/New_York",
+      "timeCertainty": "verified",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "endAt": "2026-11-10T16:00:00Z"
     },
     {
       "id": "adobe-summit-2027",
@@ -2412,8 +2477,8 @@
       "time": null,
       "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
       "sourceLabel": "MediaTek official investor events",
-      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
-      "verifiedAt": "2026-10-18T17:03:00.379Z",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "MediaTek's official investor calendar lists monthly sales for October 2026 on 2026-11-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
       "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
       "sources": [
@@ -2421,7 +2486,7 @@
           "label": "MediaTek investor events",
           "url": "https://www.mediatek.com/investor-relations/ir-events",
           "kind": "official",
-          "checkedAt": "2026-10-18T17:03:00.379Z"
+          "checkedAt": "2026-10-28T02:31:00.876992+00:00"
         }
       ]
     },
@@ -2439,8 +2504,8 @@
       "time": null,
       "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
       "sourceLabel": "MediaTek official investor events",
-      "sourceCheckedAt": "2026-10-18T17:03:00.379Z",
-      "verifiedAt": "2026-10-18T17:03:00.379Z",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "MediaTek's official investor calendar lists monthly sales for November 2026 on 2026-12-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
       "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
       "sources": [
@@ -2448,7 +2513,7 @@
           "label": "MediaTek investor events",
           "url": "https://www.mediatek.com/investor-relations/ir-events",
           "kind": "official",
-          "checkedAt": "2026-10-18T17:03:00.379Z"
+          "checkedAt": "2026-10-28T02:31:00.876992+00:00"
         }
       ]
     },
@@ -3044,8 +3109,281 @@
           "checkedAt": "2026-10-27T16:57:42Z"
         }
       ]
+    },
+    {
+      "id": "oracle-investor-day-2026",
+      "companies": [
+        "ORCL"
+      ],
+      "title": "Oracle Investor Day Meeting",
+      "type": "Investor day",
+      "status": "confirmed",
+      "date": "2026-10-28",
+      "endDate": null,
+      "window": null,
+      "time": "Investor Day webcast opens: 10:55 Central Time (CDT)",
+      "sourceUrl": "https://investor.oracle.com/investor-news/news-details/2026/ORACLE-INVESTOR-DAY-MEETING-TO-BE-HELD-OCTOBER-28-2026/default.aspx",
+      "sourceLabel": "Oracle official October 23 Investor Day announcement",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Oracle announces a dedicated Investor Day Meeting at Oracle AI World on October 28, 2026, with its webcast live at 10:55 a.m. Central Time. This is the separately announced financial-investor meeting, not another conference keynote card. The published webcast start uses America/Chicago (CDT), corresponding to 15:55 UTC / 23:55 Hong Kong. The AI World conference remains one parent event.",
+      "importance": "OCI growth, capital investment, financial strategy and management outlook.",
+      "sources": [
+        {
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/ORACLE-INVESTOR-DAY-MEETING-TO-BE-HELD-OCTOBER-28-2026/default.aspx",
+          "label": "Oracle official October 23 Investor Day announcement",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        },
+        {
+          "url": "https://investor.oracle.com/Financial-Analyst-Meeting-2026/default.aspx",
+          "label": "Oracle dedicated Investor Day meeting page",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        }
+      ],
+      "startAt": "2026-10-28T15:55:00Z",
+      "sourceTimeZone": "America/Chicago",
+      "timeCertainty": "verified",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00"
+    },
+    {
+      "id": "anthropic-s1-2026",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "Anthropic files S-1 for proposed IPO",
+      "type": "Filing",
+      "status": "confirmed",
+      "date": "2026-10-26",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.anthropic.com/news/s1-sec",
+      "sourceLabel": "Anthropic official S-1 announcement",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Anthropic announced on October 26, 2026 that it filed a Form S-1 for a proposed IPO and intends to list on Nasdaq as ANT. The filing had not become effective; offering size and price range were not determined. The filing date is confirmed, while a listing date remains unconfirmed. No filing clock time is inferred.",
+      "importance": "Public financial disclosures and AI infrastructure investment; a confirmed filing milestone, not a confirmed trading debut.",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "label": "Anthropic official S-1 announcement",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike-falcon-europe-2026",
+      "companies": [
+        "CRWD"
+      ],
+      "title": "CrowdStrike Fal.Con Europe 2026",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-11-02",
+      "endDate": "2026-11-04",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.crowdstrike.com/en-us/events/fal-con/europe/",
+      "sourceLabel": "CrowdStrike official Fal.Con Europe schedule",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "The official Fal.Con 2026 Europe page schedules November 2–4 at Fira Gran Via, Barcelona. The conference date range is confirmed; no session clock time is assigned.",
+      "importance": "Cybersecurity platform and AI-agent security announcements, customers and ecosystem demand.",
+      "sources": [
+        {
+          "url": "https://www.crowdstrike.com/en-us/events/fal-con/europe/",
+          "label": "CrowdStrike official Fal.Con Europe schedule",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake-expedition-2026",
+      "companies": [
+        "SNOW",
+        "MSFT"
+      ],
+      "title": "Snowflake Expedition 2026 · regional virtual editions",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-11-03",
+      "endDate": "2026-11-06",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investors.snowflake.com/news/news-details/2026/Snowflake-to-Showcase-Enterprise-Wide-Agentic-Transformation-at-EXPEDITION-2026-with-Industry-Speakers-Including-Satya-Nadella/default.aspx",
+      "sourceLabel": "Snowflake official Expedition announcement",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Snowflake announces Expedition streaming November 3–5 in the Americas and November 4–6 across global regions. This single conference card covers the combined regional dates, November 3–6, rather than asserting a four-day local agenda. The Luminary conversation with Snowflake CEO Sridhar Ramaswamy and Microsoft CEO Satya Nadella is pre-recorded. No session clock times are inferred.",
+      "importance": "Enterprise agentic-AI adoption, data-platform demand and Microsoft/Snowflake ecosystem integration.",
+      "sources": [
+        {
+          "url": "https://investors.snowflake.com/news/news-details/2026/Snowflake-to-Showcase-Enterprise-Wide-Agentic-Transformation-at-EXPEDITION-2026-with-Industry-Speakers-Including-Satya-Nadella/default.aspx",
+          "label": "Snowflake official Expedition announcement",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce-braze-investor-webcast-2026",
+      "companies": [
+        "CRM"
+      ],
+      "title": "Salesforce–Braze acquisition investor webcast",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-20",
+      "endDate": null,
+      "window": null,
+      "time": "Investor webcast: 05:30 Pacific Time (PDT)",
+      "sourceUrl": "https://investor.salesforce.com/events-and-presentations/events/event-details/2026/IR-Webinar/default.aspx",
+      "sourceLabel": "Salesforce official acquisition investor webcast",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
+      "basis": "Salesforce's official event page schedules its investor webcast about the definitive agreement to acquire Braze on October 20, 2026 at 5:30 a.m. Pacific Time. This dates the announcement webcast, not transaction closing; the acquisition remains conditional. The separate press release says expected closing is fiscal 2028, without an exact closing day.",
+      "importance": "Marketing Cloud and agentic-AI strategy, transaction economics and financial outlook.",
+      "sources": [
+        {
+          "url": "https://investor.salesforce.com/events-and-presentations/events/event-details/2026/IR-Webinar/default.aspx",
+          "label": "Salesforce official acquisition investor webcast",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        },
+        {
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Signs-Definitive-Agreement-to-Acquire-Braze/default.aspx",
+          "label": "Salesforce definitive-agreement announcement",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        }
+      ],
+      "startAt": "2026-10-20T12:30:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCertainty": "verified",
+      "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00"
+    },
+    {
+      "id": "TSM-2027-01-earnings",
+      "companies": [
+        "TSM"
+      ],
+      "title": "TSMC Q4 & full-year results · provider estimate",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2027-01-21",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.zacks.com/stock/research/TSM/earnings-calendar",
+      "sourceLabel": "Zacks explicitly published next-earnings estimate",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": null,
+      "basis": "Zacks' current earnings calendar explicitly says the next TSM earnings release is expected on 2027-01-21. Its estimate disclaimer applies; this is not first-party confirmation. Other reviewed public calendars still show the completed October quarter. No release or call time is inferred.",
+      "importance": "Next-quarter results, guidance, capital spending and technology demand.",
+      "sources": [
+        {
+          "url": "https://www.zacks.com/stock/research/TSM/earnings-calendar",
+          "label": "Zacks explicitly published next-earnings estimate",
+          "kind": "estimate",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        }
+      ],
+      "dateConflict": "Provider estimate only. Generic FAQ wording about an announced date is not treated as company confirmation."
+    },
+    {
+      "id": "LRCX-2027-01-earnings",
+      "companies": [
+        "LRCX"
+      ],
+      "title": "Lam Research December-quarter results · provider estimate",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2027-01-27",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.zacks.com/stock/research/LRCX/earnings-calendar",
+      "sourceLabel": "Zacks explicitly published next-earnings estimate",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": null,
+      "basis": "Zacks' current earnings calendar explicitly says the next LRCX earnings release is expected on 2027-01-27. Its estimate disclaimer applies; this is not first-party confirmation. Other reviewed public calendars still show the completed October quarter. No release or call time is inferred.",
+      "importance": "Next-quarter results, guidance, capital spending and technology demand.",
+      "sources": [
+        {
+          "url": "https://www.zacks.com/stock/research/LRCX/earnings-calendar",
+          "label": "Zacks explicitly published next-earnings estimate",
+          "kind": "estimate",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        }
+      ],
+      "dateConflict": "Provider estimate only. Generic FAQ wording about an announced date is not treated as company confirmation."
+    },
+    {
+      "id": "META-2027-01-earnings",
+      "companies": [
+        "META"
+      ],
+      "title": "Meta Q4 results · provider estimate",
+      "type": "Earnings",
+      "status": "estimated",
+      "date": "2027-01-27",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.zacks.com/stock/research/META/earnings-calendar",
+      "sourceLabel": "Zacks explicitly published next-earnings estimate",
+      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "verifiedAt": null,
+      "basis": "Zacks' current earnings calendar explicitly says the next META earnings release is expected on 2027-01-27. Its estimate disclaimer applies; this is not first-party confirmation. Other reviewed public calendars still show the completed October quarter. No release or call time is inferred.",
+      "importance": "Next-quarter results, guidance, capital spending and technology demand.",
+      "sources": [
+        {
+          "url": "https://www.zacks.com/stock/research/META/earnings-calendar",
+          "label": "Zacks explicitly published next-earnings estimate",
+          "kind": "estimate",
+          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        }
+      ],
+      "dateConflict": "Provider estimate only. Generic FAQ wording about an announced date is not treated as company confirmation."
+    },
+    {
+      "id": "sk-hynix-next-results-watch",
+      "companies": [
+        "000660.KS"
+      ],
+      "title": "SK hynix next earnings date · awaiting announcement",
+      "type": "Earnings",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://news.skhynix.com/en/category/ir/",
+      "sourceLabel": "SK hynix official investor-relations newsroom",
+      "sourceCheckedAt": "2026-10-28T03:07:53.127695+00:00",
+      "verifiedAt": null,
+      "basis": "SK hynix published its Q3 results on October 28. The next quarterly earnings date was not established from the reviewed official IR pages or public calendars; some accessible provider pages still show the completed October event. This is an undated monitoring target, not a forecast date, and a JavaScript-only page cannot prove that no announcement exists.",
+      "importance": "Next memory/HBM results, capacity investment, pricing and guidance.",
+      "sources": [
+        {
+          "label": "SK hynix official IR newsroom",
+          "url": "https://news.skhynix.com/en/category/ir/",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:07:53.127695+00:00"
+        },
+        {
+          "label": "SK hynix October 28 results",
+          "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+          "kind": "official",
+          "checkedAt": "2026-10-28T03:07:53.127695+00:00"
+        }
+      ]
     }
   ],
-  "verificationNote": "October 28 Hong Kong targeted review: added SpaceX October 26 SEC 8-K / $40bn Apollo-managed GPU finance-lease commitment (not a completed lease) and enriched undated follow-up. Checked all 33 company primary-source endpoints for accessibility, but many returned cached August data, JS-only pages, or errors. The last comprehensive fresh source sweep remains October 15. SpaceX Starlink October 26–30 and November 1–5 remain provisional due to conflicting manifest snapshots; no precise launch date asserted. Microsoft FY27 Q1 earnings call time verified at 2:30 p.m. PT October 28. SpaceX $40bn GPU commitment tagged to NVIDIA as supplier read-through.",
-  "lastPartialReview": "2026-10-27T16:57:42Z"
+  "verificationNote": "October 28 company-balanced review: NVIDIA November 17, Adobe December 9 and CoreWeave November 10 now confirmed from primary sources; added dedicated Oracle Investor Day and fresh Anthropic S-1, software-conference and acquisition milestones. Asian semiconductor schedules rechecked; new next-quarter provider estimates are explicitly tentative and Micron provider disagreement is exposed. All 33 company entry points were surveyed with source-access limitations; this is not an exhaustive re-verification of every historical event. October 15 remains the last complete historical source sweep. Undated topics now use one equal-sized card per company; SpaceX receives no special research-scope priority.",
+  "lastPartialReview": "2026-10-28T03:04:31.746796+00:00"
 }

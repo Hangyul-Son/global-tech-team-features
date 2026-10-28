@@ -250,6 +250,7 @@ class WeeklyRefreshTests(unittest.TestCase):
 
     def test_earnings_need_a_published_day_not_a_guessed_month(self):
         change = deepcopy(self.change)
+        change['event']['id'] = 'NVDA-day-precision-fixture'
         change['event'].update(status='estimated', date=None,
                                timingWindow={'start':'2026-11-01','end':'2026-11-30','label':'November','precision':'month'})
         with self.assertRaisesRegex(weekly.RefreshError, 'published day-level date'):

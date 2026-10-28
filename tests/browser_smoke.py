@@ -37,9 +37,9 @@ with sync_playwright() as p:
     page.on('pageerror',lambda e:errors.append(str(e)))
     page.clock.install(time=datetime(2026,10,15,12,0,tzinfo=timezone.utc))
     page.goto('http://127.0.0.1:8000')
-    expect(page.locator('#universe-count')).to_have_text('32')
-    expect(page.locator('.coverage-company')).to_have_count(12)
-    expect(page.locator('.universe-company')).to_have_count(20)
+    expect(page.locator('#universe-count')).to_have_text(str(len(dataset['companies'])))
+    expect(page.locator('.coverage-company')).to_have_count(sum(c['coverage'] for c in dataset['companies']))
+    expect(page.locator('.universe-company')).to_have_count(sum(not c['coverage'] for c in dataset['companies']))
     expect(page.locator('#coverage-list')).to_contain_text('Apple')
     assert page.locator('body').evaluate('(e)=>getComputedStyle(e).fontSize')=='15px'
     expect(page.locator('.brand')).to_have_text('Global Tech')
@@ -58,7 +58,8 @@ with sync_playwright() as p:
         assert entry.locator('a, .badge').count()==0
         assert entry.locator('.calendar-event').get_attribute('title')==event['title']
         assert 'Confirmed' not in entry.inner_text() and 'Upcoming' not in entry.inner_text()
-    for event_id,style in [('005930.KS-2026-10-earnings','solid'),('AMZN-2026-10-earnings','dotted'),('2454.TW-2026-10-earnings','dotted')]:
+    for event_id in ['005930.KS-2026-10-earnings','AMZN-2026-10-earnings','2454.TW-2026-10-earnings']:
+        style='solid' if by_id[event_id]['status']=='confirmed' else 'dotted'
         assert page.locator(f'.calendar-entry[data-event-id="{event_id}"]').evaluate('(e)=>getComputedStyle(e).borderTopStyle')==style
     expect(page.locator('.calendar-entry[data-event-id="ASML-2026-10-earnings"]')).to_have_count(1)
     expect(page.locator('.calendar-entry[data-event-id="mit-ai-2026"]')).to_have_count(1)
@@ -134,7 +135,7 @@ with sync_playwright() as p:
     page.locator('#list-panel').evaluate('(p)=>p.scrollTop=0')
     expect(page.locator('.list-table tr[data-event-id="oracle-ai-world-2025"] .event-name')).to_be_visible()
     page.locator('#list-panel').evaluate('(p)=>p.scrollTop=p.scrollHeight')
-    expect(page.locator('.list-table tr[data-event-id="ARM-2027-05-earnings"] .event-name')).to_be_visible()
+    expect(page.locator(f'.list-table tr[data-event-id="{ids[-1]}"] .event-name')).to_be_visible()
     page.locator('#today-button').click()
     assert page.locator('#list-panel').evaluate('(p)=>p.scrollTop')>0
     # IPOs show their actual sourced precision, not the first day of a period.
@@ -149,11 +150,15 @@ with sync_playwright() as p:
     expect(page.locator('#event-detail')).to_contain_text('Unconfirmed timing window')
     expect(page.locator('#event-detail')).to_contain_text('quarter unconfirmed')
     page.keyboard.press('Escape')
-    page.locator('#search').fill('NVIDIA earnings')
+    page.locator('#search').fill('NVIDIA')
+    page.locator('#type').select_option('Earnings')
     expect(rows).to_have_count(1)
     rows.locator('.event-name').click()
-    expect(page.locator('#event-detail')).to_contain_text('18 Nov 2026')
-    expect(page.locator('#event-detail')).to_contain_text('Unconfirmed estimate')
+    nvidia=by_id['NVDA-2026-11-earnings']
+    nvidia_day=displayed_range(nvidia)[0]
+    expect(page.locator('#event-detail')).to_contain_text(f'{nvidia_day.day} {nvidia_day.strftime("%b %Y")}')
+    expect(page.locator('#event-detail .badge')).to_contain_text({'confirmed':'Confirmed','estimated':'Estimated date','reported':'Reported date','unannounced':'Date unannounced'}[nvidia['status']])
+    expect(page.locator('#event-detail .source-link')).to_have_attribute('href',nvidia['sourceUrl'])
     page.keyboard.press('Escape')
     page.locator('#search').fill('no such event xyz')
     expect(page.locator('#list-panel')).to_contain_text('No events match')
@@ -196,6 +201,39 @@ with sync_playwright() as p:
     assert 'continues-before' in page.locator('.calendar-entry[data-event-id="test-multiday"]').get_attribute('class')
     page.unroute('**/data/events.json')
     page.reload()
+    # Unequal topic counts must not give one research company more watchlist cards
+    # or a larger initial footprint. Shared coverage links do not star its card.
+    watch_fixture=json.loads((ROOT/'data/events.json').read_text())
+    watch_fixture['events']=[]
+    for company,count in [('AMZN',1),('ASML',2),('SPACEX',5)]:
+        for number in range(count):
+            watch_fixture['events'].append(dict(dataset['events'][0],id=f'watch-fixture-{company}-{number}',companies=[company],title=f'Fixture {company} topic {number}',date=None,endDate=None,window=None,timingWindow=None,status='unannounced',time=None,startAt=None,endAt=None,verifiedAt=None))
+    watch_fixture['events'].append(dict(watch_fixture['events'][0],id='watch-fixture-shared',companies=['SPACEX','NVDA'],title='Fixture shared coverage topic'))
+    page.route('**/data/events.json',lambda r:r.fulfill(json=watch_fixture))
+    page.reload()
+    cards=page.locator('#radar [data-watch-company]')
+    expect(cards).to_have_count(4)
+    expect(page.locator('#radar-count')).to_have_text('4 companies')
+    assert cards.evaluate_all('(els)=>els.map(e=>e.dataset.watchCompany)')==['AMZN','ASML','NVDA','SPACEX']
+    spacex=page.locator('#radar [data-watch-company="SPACEX"]')
+    expect(spacex.locator('summary')).to_contain_text('6 topics')
+    assert not spacex.locator('details').evaluate('(e)=>e.open')
+    expect(spacex.locator('.coverage-tag')).to_have_count(0)
+    expect(page.locator('#radar [data-watch-company="NVDA"] .coverage-tag')).to_have_count(1)
+    heights=[page.locator(f'#radar [data-watch-company="{company}"]').bounding_box()['height'] for company in ['AMZN','ASML','SPACEX']]
+    assert max(heights)-min(heights)<2, 'Research companies get the same collapsed card size regardless of topic count'
+    spacex.locator('summary').click()
+    expect(spacex.locator('.watch-topic')).to_have_count(6)
+    expect(spacex.locator('.watch-topic .event-sources a').first).to_be_visible()
+    spacex.locator('.watch-topic .event-name').first.click()
+    expect(page.locator('#event-dialog')).to_be_visible()
+    expect(page.locator('#event-detail .source-list a').first).to_be_visible()
+    page.keyboard.press('Escape')
+    page.locator('#search').fill('Fixture ASML')
+    expect(page.locator('#radar [data-watch-company]')).to_have_count(1)
+    expect(page.locator('#radar [data-watch-company="ASML"] summary')).to_contain_text('2 topics')
+    page.unroute('**/data/events.json')
+    page.reload()
     page.screenshot(path='/tmp/catalyst-desktop.png',full_page=True)
     page.locator('#list-view').click()
     page.screenshot(path='/tmp/catalyst-list.png',full_page=True)
@@ -210,9 +248,10 @@ with sync_playwright() as p:
     page.locator('#today-button').click()
     assert page.locator('#timeline-today').bounding_box()['y']<page.locator('#list-panel').bounding_box()['y']+80
     row=page.locator('.list-table tr[data-event-id="TSM-2026-10-earnings"]')
-    expect(row.locator('.event-sources a').first).to_be_visible()
+    expect(row.locator('.event-sources a').first).to_be_attached()
     row.locator('.event-name').click()
     expect(page.locator('#event-dialog')).to_be_visible()
+    expect(page.locator('#event-detail .source-list a').first).to_be_visible()
     page.keyboard.press('Escape')
     page.locator('#sidebar').evaluate('(e)=>Promise.all(e.getAnimations().map(a=>a.finished.catch(()=>{})))')
     page.screenshot(path='/tmp/catalyst-mobile-list.png',full_page=True)

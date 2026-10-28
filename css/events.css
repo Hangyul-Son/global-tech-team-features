@@ -36,6 +36,7 @@ dialog{max-width:calc(100% - 28px);width:570px;padding:25px;border:1px solid var
 @media(max-width:800px){.brand{font-size:24px}.timezone-control select{max-width:160px}}@media(max-width:560px){.toolbar .search{width:100%;max-width:none}.timezone-control{margin-left:auto;min-width:0;flex:1;justify-content:flex-end;font-size:11px}.timezone-control select{min-width:0;max-width:135px;font-size:11px;padding-inline:3px}.export-actions{margin-left:auto}.export-actions button{font-size:11px;padding:5px 7px}#selection-bar{padding:8px 11px;gap:7px}#selection-bar small{width:100%;margin:0}.event-select input,.detail-export input{width:17px;height:17px}.list-table tr.selected{background:#f2f6ff}}
 
 .kind-operating-update{--event-color:#286679;--event-bg:#eaf6f8;--event-border:#a3ced6}
+.kind-filing,.kind-shareholder-meeting{--event-color:#4e6077;--event-bg:#f0f3f7;--event-border:#b9c4d2}
 
 /* One uninterrupted event bar per week, with arrows when the range wraps. */
 .calendar-week{grid-column:1 / -1;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));grid-template-rows:22px repeat(var(--event-rows),minmax(24px,auto)) 2px;row-gap:2px;isolation:isolate;border-bottom:1px solid var(--line)}
@@ -49,6 +50,18 @@ dialog{max-width:calc(100% - 28px);width:570px;padding:25px;border:1px solid var
 .calendar-entry.continues-after{border-top-right-radius:0;border-bottom-right-radius:0;margin-right:1px}
 .continuation-arrow{font-weight:700;flex:none}
 .close-dialog{display:inline-flex;align-items:center;justify-content:center;line-height:1}
+
+/* Undated topics get one equal-sized, alphabetically ordered card per company. */
+.radar-grid{align-items:start}
+.company-watch{min-height:94px}
+.watch-company-name{font-size:15px;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.watch-topics summary{cursor:pointer;color:#546b8c;font-size:12px;line-height:1.5}
+.watch-topics summary:focus-visible{outline:3px solid #6695f7;outline-offset:3px}
+.watch-topic-list{display:flex;flex-direction:column;gap:13px;margin-top:14px}
+.watch-topic{padding-top:12px;border-top:1px solid var(--line)}
+.watch-topic .event-name{font-size:13px;line-height:1.5}
+.watch-topic-type{display:block;font-size:11px;color:var(--muted);margin:3px 0 6px}
+.watch-topic .event-sources a{font-size:12px}
 
 /* Compact mobile list: event details and sources remain accessible on tap. */
 @media(max-width:560px){#list-panel{max-height:calc(100dvh - 215px);min-height:340px}#timeline-hint{display:none}.list-table tbody{padding:0 5px}.list-table tr:not(.timeline-today){display:grid;grid-template-columns:86px minmax(0,1fr) auto;align-items:center;gap:2px 7px;margin:0;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:7px 5px;min-height:56px}.list-table tr:not(.timeline-today).unconfirmed{border:0;border-bottom:1px dotted #8b9eb8}.list-table tr:not(.timeline-today) td{grid-row:auto;grid-column:auto;min-width:0;padding:0!important;border:0!important}.list-table tr:not(.timeline-today) td:nth-child(1){grid-column:1;grid-row:1/span 2;font-size:11px;line-height:1.3}.list-table tr:not(.timeline-today) td:nth-child(2){grid-column:2/-1;grid-row:1;line-height:1.3}.list-table tr:not(.timeline-today) td:nth-child(3){grid-column:2;grid-row:2}.list-table tr:not(.timeline-today) td:nth-child(4){grid-column:3;grid-row:2;justify-self:end}.list-table tr:not(.timeline-today) td:nth-child(5),.list-table tr:not(.timeline-today) td:nth-child(1) small{display:none}.list-table tr:not(.timeline-today) td:nth-child(2) small{font-size:10px;margin-top:1px;line-height:1.2}.list-table .event-name{font-size:12px;line-height:1.3}.list-table .type-tag,.list-table .badge{font-size:10px;padding:1px 4px;line-height:1.3}.timeline-today td{padding:6px 8px!important;font-size:11px!important}.timeline-today span{display:none}.toolbar{padding:7px 9px;gap:6px}.filters{gap:5px;padding:0 9px 6px}.month-toolbar{padding:6px 9px}}

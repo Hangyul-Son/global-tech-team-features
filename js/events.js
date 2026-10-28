@@ -36,6 +36,19 @@
     return entries.filter(item => {const url=sourceURL(item.url);if(!url || seen.has(url))return false;seen.add(url);return true;});
   }
   const sourceLinks = e => `<div class="event-sources">${evidence(e).map(item=>`<a href="${escape(sourceURL(item.url))}" target="_blank" rel="noopener noreferrer">${escape(item.label)} ↗</a>`).join('')}</div>`;
+  function renderWatchlist(events) {
+    const grouped=new Map();
+    for(const event of events) {
+      const owners=event.companies.length ? [...new Set(event.companies)].map(id=>companies.get(id)).filter(Boolean) : [{id:`organizer:${event.organizer || 'Industry events'}`,name:event.organizer || 'Industry events',coverage:false}];
+      for(const owner of owners) {
+        if(!grouped.has(owner.id))grouped.set(owner.id,{owner,events:[]});
+        grouped.get(owner.id).events.push(event);
+      }
+    }
+    const groups=[...grouped.values()].sort((a,b)=>a.owner.name.localeCompare(b.owner.name) || a.owner.id.localeCompare(b.owner.id));
+    $('radar-count').textContent=`${groups.length} ${groups.length===1?'company':'companies'}`;
+    $('radar').innerHTML=groups.map(({owner,events:topics})=>`<article class="radar-card company-watch unconfirmed" data-watch-company="${escape(owner.id)}"><div class="radar-top"><h3 class="watch-company-name">${escape(owner.name)}</h3>${owner.coverage?'<span class="coverage-tag" role="img" aria-label="Coverage company" title="Coverage company">★</span>':''}</div><details class="watch-topics"><summary>${topics.length} ${topics.length===1?'topic':'topics'} · details & sources</summary><div class="watch-topic-list">${topics.sort((a,b)=>a.title.localeCompare(b.title)).map(e=>`<div class="watch-topic ${eventKind(e)}" data-event-id="${escape(e.id)}"><button class="event-name" data-event="${escape(e.id)}">${escape(e.title)}</button><span class="watch-topic-type">${escape(e.type)}</span>${sourceLinks(e)}</div>`).join('')}</div></details></article>`).join('');
+  }
   function selectionControl(e,detail=false) {
     if(!selecting && !detail)return '';
     return `<label class="${detail?'detail-export':'event-select'}"><input type="checkbox" data-select-event="${escape(e.id)}" aria-label="Select ${escape(e.title)}" ${selected.has(e.id)?'checked':''} ${Cal.canExport(e)?'':'disabled title="No sourced date or timing window"'}>${detail?' Select for Outlook export':''}</label>`;
@@ -91,9 +104,8 @@
     $('list-view').setAttribute('aria-pressed', String(view === 'list'));
     renderCalendar(scheduled);
     renderList(filtered);
-    $('radar-count').textContent = `${undated.length} watch items`;
     document.querySelector('.watch-section').hidden=view==='list' || undated.length===0;
-    $('radar').innerHTML = undated.length ? undated.map(e => `<article class="radar-card ${eventKind(e)} ${certaintyClass(e)} ${selecting?'selecting':''}" data-event-id="${escape(e.id)}"><div class="radar-top"><span class="type-tag">${escape(e.type)}</span>${coverage(e)}</div><button class="event-name" data-event="${escape(e.id)}">${escape(e.title)}</button><p>${escape(e.importance)}</p><div class="radar-bottom"><span>Timing not yet sourced</span></div>${sourceLinks(e)}</article>`).join('') : '';
+    renderWatchlist(undated);
     updateSelection();
     if(centerTimeline && view==='list') requestAnimationFrame(jumpToToday);
     else if(view==='list') $('list-panel').scrollTop=previousScroll;

@@ -6,6 +6,7 @@ from playwright.sync_api import sync_playwright,expect
 
 ROOT=Path(__file__).resolve().parents[1]
 dataset=json.loads((ROOT/'data/events.json').read_text())
+by_id={e['id']:e for e in dataset['events']}
 exportable_count=sum(bool(e.get('date') or e.get('startAt') or e.get('timingWindow',{}).get('start')) for e in dataset['events'])
 
 def unfold(path):return Path(path).read_bytes().decode().replace('\r\n ','').replace('\r\n\t','')
@@ -20,7 +21,7 @@ with sync_playwright() as p:
     expect(page.locator('.brand')).to_contain_text('Global Tech')
     expect(page.locator('#timezone')).to_have_value('Asia/Hong_Kong')
     expect(page.locator('#coverage-count')).to_have_text('12')
-    expect(page.locator('#ecosystem-count')).to_have_text('20')
+    expect(page.locator('#ecosystem-count')).to_have_text(str(sum(not c['coverage'] for c in dataset['companies'])))
     expect(page.locator('#download-ics')).to_be_disabled()
     page.locator('#list-view').click()
     apple=page.locator('.list-table tr[data-event-id="AAPL-2026-11-earnings"]')
@@ -47,9 +48,9 @@ with sync_playwright() as p:
     text=unfold('/tmp/global-tech-outlook-selected.ics')
     assert text.count('BEGIN:VEVENT')==3
     assert 'DTSTART:20261102T220000Z' in text
-    assert 'DTSTART;VALUE=DATE:20261118' in text
+    assert 'DTSTART;VALUE=DATE:'+by_id['NVDA-2026-11-earnings']['date'].replace('-','') in text
     assert 'DTSTART;VALUE=DATE:20261101' in text and 'DTEND;VALUE=DATE:20261201' in text
-    assert text.count('STATUS:TENTATIVE')==2
+    assert text.count('STATUS:TENTATIVE')==sum(by_id[id]['status']!='confirmed' for id in ['AAPL-2026-11-earnings','NVDA-2026-11-earnings','anthropic-ipo'])
     assert text.count('TRANSP:TRANSPARENT')==3
     page.locator('#timezone').select_option('America/Los_Angeles')
     expect(page.locator('#selection-count')).to_contain_text('3 selected')

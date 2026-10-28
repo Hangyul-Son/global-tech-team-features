@@ -26,8 +26,8 @@ test('DST and calendar month/year rollover use IANA rules',()=>{
 test('unannounced times remain date-only; newly verified AMD call converts across zones',()=>{
  const nvda=event('NVDA-2026-11-earnings');
  assert.equal(nvda.startAt,undefined);
- assert.equal(Cal.eventDate(nvda,'Asia/Hong_Kong'),'2026-11-18');
- assert.equal(Cal.eventDate(nvda,'America/Los_Angeles'),'2026-11-18');
+ assert.equal(Cal.eventDate(nvda,'Asia/Hong_Kong'),nvda.date);
+ assert.equal(Cal.eventDate(nvda,'America/Los_Angeles'),nvda.date);
  assert.equal(Cal.eventTime(nvda),'Time not announced');
  const amd=event('AMD-2026-11-earnings');
  assert.equal(amd.startAt,'2026-11-03T22:00:00Z');
@@ -49,13 +49,14 @@ test('UTC ICS events keep real times, stable UIDs, and deduplicate multiday sele
  assert.match(tsm,/DTEND:20261015T073000Z/);
 });
 test('all-day end dates are exclusive; estimates are tentative',()=>{
- const out=unfold(Cal.toICS([event('ocp'),event('NVDA-2026-11-earnings')]));
+ const forecast={...event('NVDA-2026-11-earnings'),id:'forecast-fixture',title:'Forecast fixture',date:'2026-11-18',status:'estimated',verifiedAt:null};
+ const out=unfold(Cal.toICS([event('ocp'),forecast]));
  assert.match(out,/DTSTART;VALUE=DATE:20261012/);
  assert.match(out,/DTEND;VALUE=DATE:20261016/);
  assert.match(out,/DTSTART;VALUE=DATE:20261118/);
  assert.match(out,/DTEND;VALUE=DATE:20261119/);
  assert.match(out,/STATUS:TENTATIVE/);
- assert.match(out,/SUMMARY:\[Tentative\] NVIDIA earnings/);
+ assert.match(out,/SUMMARY:\[Tentative\] Forecast fixture/);
 });
 test('IPO windows are explicitly tentative transparent ranges, never point appointments',()=>{
  const out=unfold(Cal.toICS([event('anthropic-ipo'),event('openai-ipo')]));
