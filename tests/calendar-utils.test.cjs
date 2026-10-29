@@ -58,15 +58,15 @@ test('all-day end dates are exclusive; estimates are tentative',()=>{
  assert.match(out,/STATUS:TENTATIVE/);
  assert.match(out,/SUMMARY:\[Tentative\] Forecast fixture/);
 });
-test('IPO windows are explicitly tentative transparent ranges, never point appointments',()=>{
- const out=unfold(Cal.toICS([event('anthropic-ipo'),event('openai-ipo')]));
+test('Reported IPO windows are tentative; undated IPO watch items cannot be exported',()=>{
+ const out=unfold(Cal.toICS([event('anthropic-ipo')]));
  assert.match(out,/TIMING WINDOW/);
  assert.match(out,/DTSTART;VALUE=DATE:20261101/);
  assert.match(out,/DTEND;VALUE=DATE:20261201/);
- assert.match(out,/DTSTART;VALUE=DATE:20270101/);
- assert.match(out,/DTEND;VALUE=DATE:20280101/);
- assert.equal((out.match(/TRANSP:TRANSPARENT/g)||[]).length,2);
- assert.equal((out.match(/STATUS:TENTATIVE/g)||[]).length,2);
+ assert.equal((out.match(/TRANSP:TRANSPARENT/g)||[]).length,1);
+ assert.equal((out.match(/STATUS:TENTATIVE/g)||[]).length,1);
+ assert.equal(Cal.canExport(event('openai-ipo')),false);
+ assert.throws(()=>Cal.toICS([event('openai-ipo')]),/no sourced date/);
 });
 test('RFC 5545 UTF-8 folding, escaping, CRLF and injection protection',()=>{
  const e={...event('TSM-2026-10-earnings'),title:'測試,;\\\nBEGIN:VALARM '+ '한글'.repeat(80)};
