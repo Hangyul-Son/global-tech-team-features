@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-30",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-28T17:09:42.959Z",
+  "lastAttempt": "2026-10-29T17:06:45.349Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -701,27 +701,29 @@
       "companies": [
         "ORCL"
       ],
-      "title": "Oracle earnings",
+      "title": "Oracle Q2 FY2027 earnings · release date confirmed",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-12-14",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/ORCL/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-12-14 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
-      "importance": "OCI capacity, remaining performance obligations and AI capex.",
+      "sourceUrl": "https://investor.oracle.com/faq/default.aspx",
+      "sourceLabel": "Oracle investor relations FAQ · next earnings release",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
+      "verifiedAt": "2026-10-29T17:06:45.349Z",
+      "basis": "Oracle's official investor-relations FAQ explicitly states that second-quarter FY2027 results will be announced on December 14, 2026. The date is company-confirmed; no specific release or webcast clock time is published in the accessible announcement.",
+      "importance": "OCI growth, AI data-center capex, RPO conversion, margins and funding requirements.",
       "sources": [
         {
-          "label": "MarketBeat earnings calendar",
-          "url": "https://www.marketbeat.com/stocks/NYSE/ORCL/earnings/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+          "label": "Oracle IR FAQ · December 14 next release",
+          "url": "https://investor.oracle.com/faq/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-29T17:06:45.349Z"
         }
-      ]
+      ],
+      "timingWindow": null,
+      "estimateKind": null
     },
     {
       "id": "CRM-2026-12-earnings",
@@ -1072,16 +1074,22 @@
       "time": "Call: 10:00 KST",
       "sourceUrl": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
       "sourceLabel": "Samsung · official IR events calendar",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
       "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
-      "basis": "Samsung lists its 3Q26 earnings conference call on October 29, 2026 at 10:00 KST. This is distinct from its October 8 guidance announcement.",
-      "importance": "HBM qualification, memory pricing and foundry investment.",
+      "basis": "Samsung's official Q3 2026 earnings call was held October 29 at 10:00 KST. Actual Q3 results reported October 29: KRW195.3tn revenue, KRW107.4tn operating profit, with DS KRW147.1tn revenue and KRW106.5tn operating profit; FY2026 capex outlook approximately KRW84.4tn. The report also refers to a board meeting in late January 2027 for the next shareholder-return policy, but does not confirm an exact board/publication day.",
+      "importance": "Record memory/HBM4 performance and server DRAM/SSD pricing; 2026 capex approximately KRW84.4tn, shareholder returns KRW90–110tn indicative; assess demand durability and foundry conversion.",
       "sources": [
         {
           "label": "Samsung · official IR events calendar",
           "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
           "kind": "official",
           "checkedAt": "2026-10-28T02:31:00.848006+00:00"
+        },
+        {
+          "label": "Samsung Global Newsroom · Q3 2026 actual results",
+          "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+          "kind": "official",
+          "checkedAt": "2026-10-29T17:06:45.349Z"
         }
       ],
       "startAt": "2026-10-29T01:00:00Z",
@@ -2068,40 +2076,29 @@
       "companies": [
         "OPENAI"
       ],
-      "title": "OpenAI potential IPO · 2027 scenario",
+      "title": "OpenAI potential public-market financing / IPO · no official date",
       "type": "IPO watch",
-      "status": "estimated",
+      "status": "unannounced",
       "date": null,
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://smartasset.com/investing/openai-stock-ipo",
-      "sourceLabel": "SmartAsset October 20 public IPO timeline review",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceUrl": "https://openai.com/news/",
+      "sourceLabel": "OpenAI official news · undated monitoring",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
       "verifiedAt": null,
-      "basis": "SmartAsset's October 20 review reports that Sam Altman said in September that OpenAI would not go public in 2026 and that 2027 is the earliest publicly discussed timeline. No official listing day, quarter, price or exchange was announced. The broad 2027 entry remains an unconfirmed scenario, not a promised listing window.",
-      "importance": "AI model economics, compute demand, cloud partnerships and possible public-market financing.",
+      "basis": "Monitor any official OpenAI SEC registration, financing or listing announcement. Public commentary about 2027 is not an issuer-confirmed IPO timetable and must not be rendered as a dated or year-specific calendar scenario. No official listing date was established in the accessible October 29 newsroom review.",
+      "importance": "Possible capital-market access for AI compute spending, ownership/dilution, financing risk; no dated catalyst should be inferred.",
       "sources": [
         {
-          "url": "https://smartasset.com/investing/openai-stock-ipo",
-          "label": "SmartAsset public review updated October 20",
-          "kind": "report",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
-        },
-        {
-          "url": "https://www.cnn.com/2026/10/26/tech/anthropic-files-ipo",
-          "label": "CNN October 26 report discusses OpenAI delay",
-          "kind": "report",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+          "label": "OpenAI newsroom",
+          "url": "https://openai.com/news/",
+          "kind": "official",
+          "checkedAt": "2026-10-29T17:06:45.349Z"
         }
       ],
-      "estimateKind": "reported-target",
-      "timingWindow": {
-        "start": "2027-01-01",
-        "end": "2027-12-31",
-        "label": "2027 · reported scenario; quarter unconfirmed",
-        "precision": "year"
-      },
+      "estimateKind": null,
+      "timingWindow": null,
       "dateConflict": "Updated public reporting indicates no 2026 listing and at least 2027, superseding older late-2026/early-2027 speculation. Timing beyond that remains uncertain."
     },
     {
@@ -2637,9 +2634,9 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/mission/?missionId=sl-v-1",
       "sourceLabel": "SpaceX official launch manifests · conflicting snapshots",
-      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
       "verifiedAt": null,
-      "basis": "SpaceX official launch-manifest snapshots accessed on October 27 disagree on late-October Starlink scheduling, showing October 27, October 28, October 29 or October 30, with some pages also showing October 26. The pages do not consistently identify missions; the entries could represent schedule revisions or distinct launches. This is a provisional watch window, not a confirmed launch date/time. Do not interpret the entire window as a single identified mission.",
+      "basis": "SpaceX launch manifest snapshots indexed around October 29 show an Oct 30 Starlink launch window (04:02–08:02 UTC) and other snapshots showed Oct 26–29 dates; generic mission identity is not reliably matched across revisions. Preserve Oct 26–30 as an estimated window only, not a confirmed mission launch day/time. Site content dynamically loads and conflicting snapshots may refer to multiple flights.",
       "importance": "Starlink constellation deployment cadence, Falcon 9 reuse and satellite/network capex.",
       "sources": [
         {
@@ -2659,6 +2656,12 @@
           "url": "https://www.spacex.com/launches/sl-11-17",
           "kind": "estimate",
           "checkedAt": "2026-10-26T17:03:25.738Z"
+        },
+        {
+          "label": "SpaceX official launch index snapshot · October 30 listing",
+          "url": "https://www.spacex.com/launches/mission/?missionId=falcon-9-block-5-cygnus-crs-2-ng-25",
+          "kind": "estimate",
+          "checkedAt": "2026-10-29T17:06:45.349Z"
         }
       ],
       "estimateKind": "manifest-revision",
@@ -2683,9 +2686,9 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
       "sourceLabel": "SpaceX official launch manifest · changing schedule",
-      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
       "verifiedAt": null,
-      "basis": "SpaceX's official launch-manifest snapshots show different early-November Starlink dates (November 1 and November 5), while another indexed snapshot shows a November 10 mission. Mission identity is not sufficiently stable to merge these into a single confirmed launch. Keep the early-November watch window unconfirmed; November 10 remains an additional possible manifest date requiring identification.",
+      "basis": "A SpaceX indexed launch-manifest snapshot checked October 29 lists a November 5 Starlink Falcon 9 mission, while other snapshots suggest November 1 or November 10. Without reliably matching an identifiable flight across those snapshots, November 1–5 remains a provisional window; November 10 may be a distinct mission and cannot be collapsed into this card. No exact launch or launch time is asserted.",
       "importance": "Falcon 9 launch cadence and Starlink constellation growth; verify the exact date against the live mission page before trading on it.",
       "sources": [
         {
@@ -2705,6 +2708,12 @@
           "url": "https://www.spacex.com/launches/mission/?missionId=starship-3",
           "kind": "estimate",
           "checkedAt": "2026-10-26T17:03:25.738Z"
+        },
+        {
+          "label": "SpaceX official launch index snapshot · November 5 listing",
+          "url": "https://www.spacex.com/launches/sl4-2",
+          "kind": "estimate",
+          "checkedAt": "2026-10-29T17:06:45.349Z"
         }
       ],
       "estimateKind": "manifest-revision",
@@ -2837,9 +2846,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
       "verifiedAt": null,
-      "basis": "SpaceX is Nasdaq-listed (SPCX) and publishes quarterly financial results. Its investor events page was checked October 27, 2026; no official Q4/FY2026 earnings date was independently visible. The official events page renders some content dynamically, so absence from accessible text is not definitive. Do not infer a date from prior quarters.",
+      "basis": "SpaceX is publicly listed Nasdaq:SPCX following its June 12, 2026 IPO. Its October 20 Q3 earnings webcast and October 22 Form 10-Q are separately recorded as historical confirmed events. Its current investor events page rendered no upcoming event text in the accessible snapshot on October 29 (dynamic content), so Q4/FY2026 earnings date remains unannounced, NOT proof that none exists. Recheck SpaceX IR and SEC for any issuer-confirmed date; never infer from prior-quarter cadence.",
       "importance": "Q4 Starlink/Connectivity and SI revenue, capex, cash flow, guidance and Starship milestones.",
       "sources": [
         {
@@ -3058,9 +3067,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/",
       "sourceLabel": "SpaceX investor relations and SEC filings",
-      "sourceCheckedAt": "2026-10-27T16:57:42Z",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
       "verifiedAt": null,
-      "basis": "Undated future monitoring: the October 26, 2026 $40bn Apollo-managed GPU finance-lease commitment is separately recorded as a confirmed historical disclosure, but the master lease has NOT yet closed. SpaceX expects closing before year-end 2026 (conditional) and GPU deliveries/lease schedules in H1 2027 (reported period, not fixed dates). Monitor SEC 8-Ks, SI segment revenue, capex, cash flow and financing; no exact future date is confirmed.",
+      "basis": "SpaceX October 26 SEC Form 8-K confirms an October 24 binding commitment letter for an approximately $40bn Apollo-managed GPU finance lease, not a closed $40bn cash-funded purchase. It expects signing/closing before year-end 2026 subject to conditions and delivery/lease schedules in H1 2027. No future exact day published. Monitor SI revenue, capex cash conversion, lease execution, NVIDIA Vera Rubin delivery and follow-up 8-Ks.",
       "importance": "Track lease closing/delivery and funding needs, Vera Rubin GPU and AI-networking demand, SI infrastructure utilization and returns.",
       "sources": [
         {
@@ -3476,8 +3485,94 @@
           "checkedAt": "2026-10-28T17:07:05.387Z"
         }
       ]
+    },
+    {
+      "id": "samsung-2027-01-shareholder-returns-policy-watch",
+      "companies": [
+        "005930.KS"
+      ],
+      "title": "Samsung next shareholder-return policy · late Jan 2027 board watch",
+      "type": "Operating update",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "timingWindow": null,
+      "time": null,
+      "sourceUrl": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+      "sourceLabel": "Samsung official Q3 2026 results",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
+      "verifiedAt": null,
+      "basis": "Samsung said at its October 29 Q3 results that its next shareholder-return policy, the final 2026 return amount and execution details are expected to be finalized at a board meeting scheduled for late January 2027, with an announcement afterward. It did not publish an exact board or announcement date; do not assign one. Total 2026 returns are estimated at KRW90–110tn, of which KRW35tn has been planned or completed and KRW55–75tn remains.",
+      "importance": "Buyback cancellation versus cash dividend mix and timing; preferred/common share spread; potential buy-side shareholder-return catalyst.",
+      "sources": [
+        {
+          "label": "Samsung Q3 shareholder-return section",
+          "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+          "kind": "official",
+          "checkedAt": "2026-10-29T17:06:45.349Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-servicenow-2026-10-28-enterprise-partnership",
+      "companies": [
+        "OPENAI",
+        "NOW"
+      ],
+      "title": "OpenAI and ServiceNow expand workflow-agent partnership",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-28",
+      "endDate": null,
+      "window": null,
+      "timingWindow": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+      "sourceLabel": "OpenAI official announcement · October 28",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
+      "verifiedAt": "2026-10-29T17:06:45.349Z",
+      "basis": "OpenAI announced October 28 that it and ServiceNow are extending models and agents across workflow development, IT operations and cybersecurity. ServiceNow MCP plugin is available; enhanced features targeted by end-2026, security early access expected January 2027 and GA in Q2 2027, voice Q1 2027 and Codex integration during 2027. These product launch periods are management expectations, NOT confirmed calendar days.",
+      "importance": "Agentic workflow distribution and competitive positioning for ServiceNow, OpenAI enterprise monetization, security automation and SaaS add-on attach.",
+      "sources": [
+        {
+          "label": "OpenAI · October 28 partnership expansion",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+          "kind": "official",
+          "checkedAt": "2026-10-29T17:06:45.349Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-oracle-2026-10-27-app-integration",
+      "companies": [
+        "OPENAI",
+        "ORCL"
+      ],
+      "title": "OpenAI and Oracle expand applications, ChatGPT and Codex partnership",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-27",
+      "endDate": null,
+      "window": null,
+      "timingWindow": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/oracle-apps-in-chatgpt/",
+      "sourceLabel": "OpenAI official announcement · October 27",
+      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
+      "verifiedAt": "2026-10-29T17:06:45.349Z",
+      "basis": "OpenAI's October 27 official announcement describes Oracle AI Workspace to connect Oracle applications and data with ChatGPT, AI Security Mesh, SMB Bundle, and App Composer plus OpenAI API, ChatGPT Work and Codex availability via Oracle Marketplace. These are product/partnership disclosures, NOT evidence of a confirmed launch date for all mentioned products.",
+      "importance": "Oracle application attach and OCI monetization; OpenAI distribution through enterprise application workflows, versus competing enterprise agents.",
+      "sources": [
+        {
+          "label": "OpenAI · October 27 Oracle partnership",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+          "kind": "official",
+          "checkedAt": "2026-10-29T17:06:45.349Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "October 29 targeted 33-company source review added three verified dated events (Adobe CEO effective Dec 1; SK hynix returns announced Oct 28; Nebius Citi facility announced Oct 22) and downgraded the unresolved Oct 23/24 generic SpaceX Starlink launch entry to a provisional window. SpaceX SPCX Q3 SEC filings/earnings remain tracked, Q4 unannounced. Oct 15 remains the last complete historical source sweep.",
-  "lastPartialReview": "2026-10-28T17:09:42.959Z"
+  "verificationNote": "October 30 Hong Kong targeted review: visited source entry points for all 33 companies (3 inaccessible and several JavaScript-dependent); confirmed Oracle Dec 14 earnings from issuer FAQ, captured Samsung Q3 actual earnings and undated shareholder-policy watch, added Oct 27/28 OpenAI app partnerships, removed speculative OpenAI 2027 IPO window. SpaceX remains Nasdaq SPCX with Q3 earnings and SEC filings; near-term launch snapshots are provisional, Q4 date not confirmed. This was NOT a full refresh of the historical 79-source audit (last October 15).",
+  "lastPartialReview": "2026-10-29T17:06:45.349Z"
 }
