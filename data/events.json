@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-29T17:06:45.349Z",
+  "lastAttempt": "2026-10-30T17:06:53.597Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -601,20 +601,26 @@
       "companies": [
         "NVDA"
       ],
-      "title": "NVIDIA earnings",
+      "title": "NVIDIA Q3 FY2027 results & conference call",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-17",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
-      "sourceLabel": "NVIDIA official Q3 FY27 event calendar",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
-      "basis": "NVIDIA's official event page explicitly schedules Q3 FY27 financial results on November 17, 2026. This replaces the older November 18 provider estimate. The page does not publish a call clock time, so no UTC instant or assumed release time is assigned.",
+      "time": "CFO written commentary / results ~13:20 PT; conference call 14:00 PT (17:00 ET)",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+      "sourceLabel": "NVIDIA · October 28 earnings-call announcement",
+      "sourceCheckedAt": "2026-10-30T17:06:53.597Z",
+      "verifiedAt": "2026-10-30T17:06:53.597Z",
+      "basis": "NVIDIA's October 28 official release schedules its Q3 FY2027 results call for November 17 at 14:00 Pacific (22:00 UTC / November 18 06:00 Hong Kong). Written CFO commentary is expected immediately after results are announced around 13:20 Pacific. The commentary/release timing is approximate; the call start is explicitly scheduled.",
       "importance": "AI accelerator demand, networking and data-center revenue.",
       "sources": [
+        {
+          "label": "NVIDIA · official earnings call announcement",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-30T17:06:53.597Z"
+        },
         {
           "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
           "label": "NVIDIA official Q3 FY27 event calendar",
@@ -634,7 +640,11 @@
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
       ],
-      "dateConflict": "Official NVIDIA November 17 date supersedes the previously recorded November 18 provider estimate. No call time is published on the reviewed official event page."
+      "dateConflict": "The official November 17 event and 14:00 PT call supersede an older November 18 provider estimate; the October 28 issuer press release supplies the time.",
+      "startAt": "2026-11-17T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-10-30T17:06:53.597Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "AVGO-2026-12-earnings",
@@ -870,11 +880,17 @@
       "time": "Call: 14:00 Pacific / 17:00 Eastern",
       "sourceUrl": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
       "sourceLabel": "Amazon official October 15 press release",
-      "sourceCheckedAt": "2026-10-18T17:04:46.037Z",
+      "sourceCheckedAt": "2026-10-30T17:06:53.597Z",
       "verifiedAt": "2026-10-18T17:04:46.037Z",
-      "basis": "Amazon announced on October 15, 2026 that its third-quarter 2026 results conference call will take place Thursday October 29 at 14:00 Pacific / 17:00 Eastern. The press release confirms the call date/time, not a separate earnings release instant.",
-      "importance": "AWS growth, Trainium adoption and infrastructure capex.",
+      "basis": "Amazon announced on October 15, 2026 that its third-quarter 2026 results conference call will take place Thursday October 29 at 14:00 Pacific / 17:00 Eastern. The press release confirms the call date/time, not a separate earnings release instant. Amazon's October 29 results release reported Q3 AWS revenue of $46.0bn (+39% YoY) and trailing-twelve-month free cash flow of negative $42.4bn amid elevated AI infrastructure investments. Release-day results are separate evidence from the previously confirmed call schedule.",
+      "importance": "AWS +39% YoY to $46.0bn and TTM FCF -$42.4bn; scrutinize AI capex intensity, financing and returns on deployed capacity.",
       "sources": [
+        {
+          "label": "Amazon · official Q3 2026 results release",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-30T17:06:53.597Z"
+        },
         {
           "label": "Amazon official Q3 2026 call announcement",
           "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
@@ -1627,20 +1643,26 @@
       "companies": [
         "NBIS"
       ],
-      "title": "Nebius earnings",
+      "title": "Nebius Q3 2026 results & earnings call",
       "type": "Earnings",
-      "status": "estimated",
-      "date": "2026-11-10",
+      "status": "confirmed",
+      "date": "2026-11-12",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
-      "sourceLabel": "MarketBeat · published estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-11-10 as the next estimated earnings date. This is a provider estimate, not a company-confirmed date. The official investor page is linked for monitoring, not as evidence for this estimate.",
+      "time": "Results before U.S. market open (time unspecified); earnings call 08:00 Eastern / 14:00 CET",
+      "sourceUrl": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call",
+      "sourceLabel": "Nebius · official October 30 results announcement",
+      "sourceCheckedAt": "2026-10-30T17:06:53.597Z",
+      "verifiedAt": "2026-10-30T17:06:53.597Z",
+      "basis": "Nebius announced October 30 that Q3 2026 financial results will be released Thursday November 12 before U.S. market open, followed by an 08:00 ET / 14:00 CET investor call. Official Nov 12 replaces previously recorded provider-estimated Nov 10; release time itself is not specified.",
       "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
       "sources": [
+        {
+          "label": "Nebius · Q3 2026 results date and call",
+          "url": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call",
+          "kind": "official",
+          "checkedAt": "2026-10-30T17:06:53.597Z"
+        },
         {
           "label": "MarketBeat · published estimate",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
@@ -1653,7 +1675,12 @@
           "kind": "estimate",
           "checkedAt": "2026-10-15T14:02:20.217352+00:00"
         }
-      ]
+      ],
+      "dateConflict": "The October 28 provider estimate of November 10 has been superseded by the company's October 30 announcement confirming November 12.",
+      "startAt": "2026-11-12T13:00:00Z",
+      "sourceTimeZone": "America/New_York",
+      "timeCheckedAt": "2026-10-30T17:06:53.597Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "INTC-2026-10-earnings",
@@ -1669,11 +1696,17 @@
       "time": "Call: 14:00 PDT",
       "sourceUrl": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
       "sourceLabel": "Intel · official earnings event",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-10-30T17:06:53.597Z",
       "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
-      "basis": "Intel's official event page and earnings announcement confirm the October 29, 2026 conference call at 14:00 PDT (21:00 UTC). The results release is separately described as promptly after market close; the call time is not the release time.",
-      "importance": "PC and server processors, foundry progress, AI inference and manufacturing capex.",
+      "basis": "Intel's official event page and earnings announcement confirm the October 29, 2026 conference call at 14:00 PDT (21:00 UTC). The results release is separately described as promptly after market close; the call time is not the release time. Intel subsequently reported Q3 revenue of $16.5bn (+21% YoY) on October 29 and guided Q4 2026 revenue to $15.0bn–$16.0bn. The earnings release is linked as an additional verified primary source; it does not alter the original conference-call date.",
+      "importance": "Intel Q4 revenue outlook $15.0bn–$16.0bn, PC demand pressure, Xeon server CPU trajectory, foundry yields and capex.",
       "sources": [
+        {
+          "label": "Intel · official Q3 2026 earnings release",
+          "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-30T17:06:53.597Z"
+        },
         {
           "label": "Intel · official earnings event",
           "url": "https://www.intc.com/news-events/ir-calendar/detail/20261029-q3-2026-intel-corporation-earnings-conference-call",
@@ -3573,6 +3606,6 @@
       ]
     }
   ],
-  "verificationNote": "October 30 Hong Kong targeted review: visited source entry points for all 33 companies (3 inaccessible and several JavaScript-dependent); confirmed Oracle Dec 14 earnings from issuer FAQ, captured Samsung Q3 actual earnings and undated shareholder-policy watch, added Oct 27/28 OpenAI app partnerships, removed speculative OpenAI 2027 IPO window. SpaceX remains Nasdaq SPCX with Q3 earnings and SEC filings; near-term launch snapshots are provisional, Q4 date not confirmed. This was NOT a full refresh of the historical 79-source audit (last October 15).",
-  "lastPartialReview": "2026-10-29T17:06:45.349Z"
+  "verificationNote": "31 Oct Hong Kong: all 33 official entry-point URLs attempted, with 6 inaccessible/403 and several JS-only. Four issuer-backed event revisions made: Nebius Nov 12 confirmed replacing Nov 10 estimate; NVIDIA Nov 17 call time verified; Intel and Amazon Oct 29 actual results enriched. SpaceX SPCX IR, 10-Q, 8-K, FAA and manifest sources reviewed; Q4 earnings undated and conflicting Starlink schedules remain provisional. Not a full 79-source historical refresh; historical full-audit timestamp remains Oct 15.",
+  "lastPartialReview": "2026-10-30T17:06:53.597Z"
 }
