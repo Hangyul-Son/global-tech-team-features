@@ -23,12 +23,17 @@ test('DST and calendar month/year rollover use IANA rules',()=>{
  assert.equal(Cal.eventDate({startAt:'2026-10-31T23:30:00Z',date:'2026-10-31'}),'2026-11-01');
  assert.equal(Cal.validZone('Not/AZone'),false);
 });
-test('unannounced times remain date-only; newly verified AMD call converts across zones',()=>{
+test('unannounced times remain date-only; verified NVIDIA and AMD calls convert across zones',()=>{
+ const workday=event('WDAY-2026-11-earnings');
+ assert.equal(workday.startAt,undefined);
+ assert.equal(Cal.eventDate(workday,'Asia/Hong_Kong'),workday.date);
+ assert.equal(Cal.eventTime(workday),'Time not announced');
  const nvda=event('NVDA-2026-11-earnings');
- assert.equal(nvda.startAt,undefined);
- assert.equal(Cal.eventDate(nvda,'Asia/Hong_Kong'),nvda.date);
- assert.equal(Cal.eventDate(nvda,'America/Los_Angeles'),nvda.date);
- assert.equal(Cal.eventTime(nvda),'Time not announced');
+ assert.equal(nvda.startAt,'2026-11-17T22:00:00Z');
+ assert.equal(Cal.eventDate(nvda,'Asia/Hong_Kong'),'2026-11-18');
+ assert.equal(Cal.shortTime(nvda,'Asia/Hong_Kong'),'06:00');
+ assert.equal(Cal.eventDate(nvda,'America/Los_Angeles'),'2026-11-17');
+ assert.equal(Cal.shortTime(nvda,'America/Los_Angeles'),'14:00');
  const amd=event('AMD-2026-11-earnings');
  assert.equal(amd.startAt,'2026-11-03T22:00:00Z');
  assert.equal(Cal.eventDate(amd,'Asia/Hong_Kong'),'2026-11-04');
@@ -49,7 +54,7 @@ test('UTC ICS events keep real times, stable UIDs, and deduplicate multiday sele
  assert.match(tsm,/DTEND:20261015T073000Z/);
 });
 test('all-day end dates are exclusive; estimates are tentative',()=>{
- const forecast={...event('NVDA-2026-11-earnings'),id:'forecast-fixture',title:'Forecast fixture',date:'2026-11-18',status:'estimated',verifiedAt:null};
+ const forecast={...event('NVDA-2026-11-earnings'),id:'forecast-fixture',title:'Forecast fixture',date:'2026-11-18',status:'estimated',verifiedAt:null,startAt:undefined,endAt:undefined,time:null,sourceTimeZone:undefined,timeCertainty:undefined,timeCheckedAt:undefined};
  const out=unfold(Cal.toICS([event('ocp'),forecast]));
  assert.match(out,/DTSTART;VALUE=DATE:20261012/);
  assert.match(out,/DTEND;VALUE=DATE:20261016/);

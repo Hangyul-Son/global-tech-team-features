@@ -50,7 +50,7 @@ The compact calendar shows event titles, coverage stars and short clock times wh
 
 Multi-day conferences appear as connected bands across consecutive calendar days, with a continuation when they cross a week boundary. The band opens one event brief and represents one selectable/exportable event. Oracle AI World 2026 combines its keynote sessions, including Clay Magouyrk’s keynote, into the conference entry. Their source links and published session times remain in the brief, without separate session cards. The 2025 conference remains a separate historical edition.
 
-CoreWeave's November 9 and Nebius's November 10, 2026 earnings dates are public provider estimates. They are not presented as officially confirmed dates.
+CoreWeave's November 10 and Nebius's November 12, 2026 earnings calls are now **company-confirmed**, replacing earlier provider estimates of November 9 and November 10 respectively. CoreWeave's call is at 17:00 Eastern; Nebius will release results before the U.S. market opens November 12 and holds its call at 08:00 Eastern. NVIDIA's November 17 call at 14:00 Pacific was likewise verified from its October 28 issuer announcement. Historical provider discrepancies remain in the event briefs.
 
 ## Timezones and Outlook export
 
