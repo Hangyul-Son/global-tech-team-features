@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-01",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-30T17:06:53.597Z",
+  "lastAttempt": "2026-10-31T17:02:18.674Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -458,7 +458,7 @@
       "verifiedAt": "2026-10-23T17:04:38Z",
       "basis": "AMD's official October 6, 2026 release confirms results after market close November 3 and a 5:00 p.m. Eastern / 2:00 p.m. Pacific webcast. On November 3 US standard time applies (EST/PST), despite the generic IR calendar's outdated PDT label.",
       "importance": "Instinct adoption, server share and AI accelerator guidance.",
-      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "sources": [
         {
           "label": "AMD official Q3 earnings release announcement",
@@ -559,7 +559,7 @@
       "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
       "basis": "AMD’s official IR calendar lists Dec 1, 2026: UBS Global Technology and AI Conference.",
       "importance": "Management commentary on AI accelerators, server demand and the semiconductor outlook.",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "sources": [
         {
           "label": "AMD investor-relations calendar",
@@ -586,7 +586,7 @@
       "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
       "basis": "AMD’s official IR calendar lists Dec 9, 2026: Barclays 24th Annual Global Technology Conference.",
       "importance": "Management commentary on AI accelerators, server demand and the semiconductor outlook.",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "sources": [
         {
           "label": "AMD investor-relations calendar",
@@ -610,7 +610,7 @@
       "time": "CFO written commentary / results ~13:20 PT; conference call 14:00 PT (17:00 ET)",
       "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
       "sourceLabel": "NVIDIA · October 28 earnings-call announcement",
-      "sourceCheckedAt": "2026-10-30T17:06:53.597Z",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": "2026-10-30T17:06:53.597Z",
       "basis": "NVIDIA's October 28 official release schedules its Q3 FY2027 results call for November 17 at 14:00 Pacific (22:00 UTC / November 18 06:00 Hong Kong). Written CFO commentary is expected immediately after results are announced around 13:20 Pacific. The commentary/release timing is approximate; the call start is explicitly scheduled.",
       "importance": "AI accelerator demand, networking and data-center revenue.",
@@ -1620,7 +1620,7 @@
       "time": "Conference call: 17:00 Eastern Time (EST)",
       "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
       "sourceLabel": "CoreWeave official October 27 earnings announcement",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "CoreWeave announced on October 27 that its Q3 2026 financial-results conference call will be Tuesday, November 10, 2026 at 5:00 p.m. Eastern Time. This supersedes the earlier November 9 estimate. The call is 22:00 UTC, November 11 at 06:00 in Hong Kong; no separate release instant or duration is invented.",
       "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
@@ -1652,7 +1652,7 @@
       "time": "Results before U.S. market open (time unspecified); earnings call 08:00 Eastern / 14:00 CET",
       "sourceUrl": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call",
       "sourceLabel": "Nebius · official October 30 results announcement",
-      "sourceCheckedAt": "2026-10-30T17:06:53.597Z",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": "2026-10-30T17:06:53.597Z",
       "basis": "Nebius announced October 30 that Q3 2026 financial results will be released Thursday November 12 before U.S. market open, followed by an 08:00 ET / 14:00 CET investor call. Official Nov 12 replaces previously recorded provider-estimated Nov 10; release time itself is not specified.",
       "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
@@ -1738,7 +1738,7 @@
       "window": null,
       "sourceUrl": "https://investors.arm.com/financials/quarterly-annual-results",
       "sourceLabel": "Arm official quarterly results and investor events",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "Arm's official quarterly-results page, investor calendar and earnings announcement confirm November 4, 2026, at 14:00 PST (17:00 EST, 22:00 GMT) for the earnings webcast. Results are separately scheduled after market close. This supersedes the earlier tentatively proposed FY27 calendar date.",
       "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
@@ -1974,7 +1974,7 @@
       "time": "After US close; call: 17:00 ET",
       "sourceUrl": "https://cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
       "sourceLabel": "Cloudflare · company announcement",
-      "sourceCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
       "basis": "Cloudflare’s company announcement schedules November 5, 2026 third-quarter financial results after US market close and a 17:00 Eastern earnings call.",
       "importance": "Edge computing, connectivity, security and agentic AI infrastructure.",
@@ -2507,7 +2507,7 @@
       "time": null,
       "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
       "sourceLabel": "MediaTek official investor events",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "MediaTek's official investor calendar lists monthly sales for October 2026 on 2026-11-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
       "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
@@ -2534,7 +2534,7 @@
       "time": null,
       "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
       "sourceLabel": "MediaTek official investor events",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "MediaTek's official investor calendar lists monthly sales for November 2026 on 2026-12-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
       "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
@@ -2879,9 +2879,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": null,
-      "basis": "SpaceX is publicly listed Nasdaq:SPCX following its June 12, 2026 IPO. Its October 20 Q3 earnings webcast and October 22 Form 10-Q are separately recorded as historical confirmed events. Its current investor events page rendered no upcoming event text in the accessible snapshot on October 29 (dynamic content), so Q4/FY2026 earnings date remains unannounced, NOT proof that none exists. Recheck SpaceX IR and SEC for any issuer-confirmed date; never infer from prior-quarter cadence.",
+      "basis": "SpaceX is publicly traded as Nasdaq:SPCX following its June 12, 2026 IPO. October 20 Q3 earnings, October 22 Form 10-Q and October 26 financing 8-K are separately tracked. The Nov 1 review of SpaceX IR events returned headings without an accessible upcoming schedule; no issuer-confirmed Q4/FY2026 earnings date was established. This is limited dynamic-site visibility, not evidence that the company has not announced one. Continue checking issuer IR and SEC, never extrapolate a date.",
       "importance": "Q4 Starlink/Connectivity and SI revenue, capex, cash flow, guidance and Starship milestones.",
       "sources": [
         {
@@ -2895,6 +2895,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
           "checkedAt": "2026-10-23T17:04:38Z"
+        },
+        {
+          "label": "SpaceX investor events · dynamic listing",
+          "url": "https://ir.spacex.com/events/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-10-31T17:02:18.674Z"
         }
       ]
     },
@@ -3073,7 +3079,7 @@
       "time": "9:30 a.m. PST (company IR wording; timezone should be checked)",
       "sourceUrl": "https://investor.lamresearch.com/events",
       "sourceLabel": "Lam Research official investor relations",
-      "sourceCheckedAt": "2026-10-24T16:58:26Z",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
       "verifiedAt": "2026-10-24T16:58:26Z",
       "basis": "Lam Research's official investor events page lists its 2026 annual stockholders meeting for Tuesday, November 3, 2026 at 9:30 a.m. PST. The time label is reproduced as published, without asserting a UTC conversion.",
       "importance": "Shareholder votes, board/governance matters and capital-allocation signals.",
@@ -3604,8 +3610,176 @@
           "checkedAt": "2026-10-29T17:06:45.349Z"
         }
       ]
+    },
+    {
+      "id": "anthropic-2026-10-26-public-s1",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "Anthropic public Form S-1 filing · proposed Nasdaq ANT IPO",
+      "type": "IPO watch",
+      "status": "confirmed",
+      "date": "2026-10-26",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+      "sourceLabel": "SEC EDGAR S-1 · 26 October 2026",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "verifiedAt": "2026-10-31T17:02:18.674Z",
+      "basis": "Anthropic filed its public Form S-1 on October 26, 2026 (SEC accession 0001628280-26-067168); its company announcement confirms proposed Nasdaq ticker ANT. Neither the IPO price range, number of shares, roadshow date nor trading debut has been confirmed by this filing. The event date is the S-1 filing, NOT an IPO or roadshow date.",
+      "importance": "AI capital-markets catalyst: public disclosure of growth, compute commitments, cash consumption and prospective IPO mechanics.",
+      "sources": [
+        {
+          "label": "SEC filing detail",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+          "kind": "official",
+          "checkedAt": "2026-10-31T17:02:18.674Z"
+        },
+        {
+          "label": "Anthropic S-1 announcement",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "kind": "official",
+          "checkedAt": "2026-10-31T17:02:18.674Z"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-2027-01-05-ex-dividend",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek ex-dividend date",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-01-05",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek investor calendar",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "verifiedAt": "2026-10-31T17:02:18.674Z",
+      "basis": "The issuer's official IR Events page lists Jan 5, 2027 as an ex-dividend date. No specific clock time or dividend cash amount is asserted by this card.",
+      "importance": "Cash shareholder returns; adjust yield calculations and Taiwan share price for the ex-dividend date.",
+      "sources": [
+        {
+          "label": "MediaTek investor calendar",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-10-31T17:02:18.674Z"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-2027-01-29-dividend-payable",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek dividend payment date",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-01-29",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek investor calendar",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "verifiedAt": "2026-10-31T17:02:18.674Z",
+      "basis": "The issuer's official IR Events page lists Jan 29, 2027 as the cash-dividend payable date. The 00:00–00:00 calendar placeholder is NOT treated as a real release or payment time.",
+      "importance": "Actual shareholder cash return versus planned distributions.",
+      "sources": [
+        {
+          "label": "MediaTek investor calendar",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-10-31T17:02:18.674Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-faa-starship-peis-scoping-2026-11",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "FAA Starship environmental review · public scoping sessions",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-17",
+      "endDate": "2026-11-19",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
+      "sourceLabel": "FAA Starship project official notice",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "verifiedAt": "2026-10-31T17:02:18.674Z",
+      "basis": "FAA confirms in-person scoping meetings in Brownsville on Nov 17, 2026 and Port Isabel on Nov 19, and a virtual meeting Nov 18. Its proposed programmatic environmental review considers phase 1 up to 100 annual launches and phase 2 up to 456, but these are PROPOSALS for environmental review, not approved operations or licensed launch commitments. Site says virtual registration link was revised; check current details before attendance.",
+      "importance": "Key long-term Starship/Starlink V3 throughput and FAA regulatory capacity gating; distinguish proposed flight rates from permitted flight cadence.",
+      "sources": [
+        {
+          "label": "FAA Starship project official notice",
+          "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
+          "kind": "official",
+          "checkedAt": "2026-10-31T17:02:18.674Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-faa-starship-peis-comments-2026-11-30",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "FAA Starship PEIS public-comment deadline",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-30",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
+      "sourceLabel": "FAA Starship project official notice",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "verifiedAt": "2026-10-31T17:02:18.674Z",
+      "basis": "FAA lists November 30, 2026 as the public comment deadline for Starship-Super Heavy launch/landing expansion scoping under docket FAA-2026-12808. This is a regulatory comment deadline, NOT an FAA license decision or a Starship launch date.",
+      "importance": "Monitors approval timeline, launch-site capacity, environmental constraints and schedule risk for V3 satellite deployments.",
+      "sources": [
+        {
+          "label": "FAA Starship project official notice",
+          "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
+          "kind": "official",
+          "checkedAt": "2026-10-31T17:02:18.674Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-nasa-crs35-launch-2026-10-13",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "NASA SpaceX CRS-35 resupply mission launched",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-13",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
+      "sourceLabel": "NASA official launch photo and mission report",
+      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "verifiedAt": "2026-10-31T17:02:18.674Z",
+      "basis": "NASA confirms SpaceX Falcon 9/Dragon CRS-35 launched October 13, 2026 from SLC-40 at 6:33 a.m. EDT; date is an actual completed launch, independently evidenced by NASA's October 14 postflight image report. Not a forecast for a future launch.",
+      "importance": "Government launch-and-services operating cadence and NASA contract execution.",
+      "sources": [
+        {
+          "label": "NASA official launch photo and mission report",
+          "url": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
+          "kind": "official",
+          "checkedAt": "2026-10-31T17:02:18.674Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "31 Oct Hong Kong: all 33 official entry-point URLs attempted, with 6 inaccessible/403 and several JS-only. Four issuer-backed event revisions made: Nebius Nov 12 confirmed replacing Nov 10 estimate; NVIDIA Nov 17 call time verified; Intel and Amazon Oct 29 actual results enriched. SpaceX SPCX IR, 10-Q, 8-K, FAA and manifest sources reviewed; Q4 earnings undated and conflicting Starlink schedules remain provisional. Not a full 79-source historical refresh; historical full-audit timestamp remains Oct 15.",
-  "lastPartialReview": "2026-10-30T17:06:53.597Z"
+  "verificationNote": "Nov 1, 2026 HKT targeted review: all 33 issuer/newsroom/IR entry points attempted (3 returned 403/inaccessible; multiple listings JS-only). Added confirmed Anthropic Oct 26 public S-1; MediaTek Jan 5 ex-dividend and Jan 29 payable; FAA Starship Nov 17–19 scoping and Nov 30 public-comment deadline (proposed NOT approved flight rates); NASA completed CRS-35 Oct 13. No SpaceX Q4 earnings date, Starlink launch day or IPO scenario fabricated. SpaceX remains Nasdaq:SPCX. This is NOT a full 79-source historical re-audit; last complete audit remains Oct 15.",
+  "lastPartialReview": "2026-10-31T17:02:18.674Z"
 }

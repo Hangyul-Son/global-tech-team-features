@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical full 79-source audit stays October 15; October 31 HKT targeted daily review attempted all 33 company entry points, with six inaccessible. Nebius earnings date promoted to confirmed November 12; NVIDIA webcast time confirmed; Intel and Amazon earnings actuals enriched. SpaceX SEC, IR, launch and FAA sources monitored. This was not 79-source recertification.",
+  "note": "Nov 1, 2026 HKT targeted review: all 33 issuer/newsroom/IR entry points attempted (3 returned 403/inaccessible; multiple listings JS-only). Added confirmed Anthropic Oct 26 public S-1; MediaTek Jan 5 ex-dividend and Jan 29 payable; FAA Starship Nov 17–19 scoping and Nov 30 public-comment deadline (proposed NOT approved flight rates); NASA completed CRS-35 Oct 13. No SpaceX Q4 earnings date, Starlink launch day or IPO scenario fabricated. SpaceX remains Nasdaq:SPCX. This is NOT a full 79-source historical re-audit; last complete audit remains Oct 15.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,154 +5340,148 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-10-30T17:06:53.597Z",
-    "scope": "October 31 Hong Kong daily survey: all 33 company official IR/news entry points attempted, with 6 access failures, several dynamic listings; primary-source verification of Nebius, NVIDIA, Intel, Amazon and SpaceX filings/manifest. Not the full historic 79-source audit.",
-    "companiesSurveyed": [
-      "TSM",
-      "NVDA",
-      "AMD",
-      "AVGO",
-      "MRVL",
-      "AAPL",
-      "MSFT",
-      "ORCL",
-      "CRM",
-      "NOW",
-      "ADBE",
-      "WDAY",
-      "ASML",
-      "LRCX",
-      "005930.KS",
-      "000660.KS",
-      "MU",
-      "2454.TW",
-      "AMZN",
-      "GOOGL",
-      "META",
-      "ANTHROPIC",
-      "CRWV",
-      "NBIS",
-      "INTC",
-      "ARM",
-      "QCOM",
-      "SNOW",
-      "CRWD",
-      "PANW",
-      "NET",
-      "OPENAI",
-      "SPACEX"
-    ],
-    "companyAccess": {
-      "TSM": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "NVDA": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events",
-      "AMD": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "AVGO": "403 / access denied for stored investor-event entry point",
-      "MRVL": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "AAPL": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "MSFT": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "ORCL": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events",
-      "CRM": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events",
-      "NOW": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "ADBE": "stored financial-news URL inaccessible",
-      "WDAY": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "ASML": "403 / access denied for quarterly-results portal",
-      "LRCX": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "005930.KS": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "000660.KS": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "MU": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events",
-      "2454.TW": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "AMZN": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events",
-      "GOOGL": "stored Alphabet results announcement URL inaccessible",
-      "META": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "ANTHROPIC": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "CRWV": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events",
-      "NBIS": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "INTC": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "ARM": "403 / access denied for investor-events portal",
-      "QCOM": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events",
-      "SNOW": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events",
-      "CRWD": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "PANW": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "NET": "403 / access denied for Cloudflare IR entry point",
-      "OPENAI": "Official IR/newsroom entry page reached; historical records not exhaustively revalidated",
-      "SPACEX": "Entry page reached; event listings partly dynamic; no negative conclusion about missing events"
-    },
-    "reviewedEvents": [
-      "NBIS-2026-11-earnings",
-      "NVDA-2026-11-earnings",
-      "INTC-2026-10-earnings",
-      "AMZN-2026-10-earnings",
-      "spacex-financial-disclosure-watch",
-      "spacex-q3-2026-10q",
-      "spacex-2026-10-26-40b-gpu-finance-lease-commitment",
-      "spacex-starlink-launch-2026-10-28"
-    ],
-    "evidence": [
+    "checkedAt": "2026-10-31T17:02:18.674Z",
+    "localDate": "2026-11-01",
+    "timezone": "Asia/Hong_Kong",
+    "companyEntryPointsAttempted": 33,
+    "entryPointsAccessibleOrPartiallyRendered": 30,
+    "entryPointsBlocked": 3,
+    "historicalFullAuditRefresh": false,
+    "companies": [
       {
-        "eventId": "NBIS-2026-11-earnings",
-        "url": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call",
-        "checkedAt": "2026-10-30T17:06:53.597Z",
-        "quote": "results on Thursday, November 12, 2026, before market open; call 8:00 a.m. Eastern",
-        "reviewOutcome": "moved estimate Nov 10 to official confirmed Nov 12; 08 ET call converted to 13:00 UTC"
+        "id": "TSM",
+        "status": "accessible"
       },
       {
-        "eventId": "NVDA-2026-11-earnings",
-        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
-        "checkedAt": "2026-10-30T17:06:53.597Z",
-        "quote": "Tuesday, November 17, at 2 p.m. PT; CFO commentary approximately 1:20 p.m. PT",
-        "reviewOutcome": "confirmed call time; result commentary approximate and explicitly separated"
+        "id": "NVDA",
+        "status": "limited"
       },
       {
-        "eventId": "INTC-2026-10-earnings",
-        "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm",
-        "checkedAt": "2026-10-30T17:06:53.597Z",
-        "quote": "Q3 revenue $16.5 billion; Q4 2026 revenue guidance $15.0 billion–$16.0 billion",
-        "reviewOutcome": "enriched already confirmed historical earnings with official actuals and Q4 guide"
+        "id": "AMD",
+        "status": "accessible"
       },
       {
-        "eventId": "AMZN-2026-10-earnings",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
-        "checkedAt": "2026-10-30T17:06:53.597Z",
-        "quote": "AWS segment sales $46.0 billion; trailing-twelve-month free cash flow outflow $42.4 billion",
-        "reviewOutcome": "enriched already confirmed historical earnings with official actuals and cash-flow context"
+        "id": "AVGO",
+        "status": "accessible"
       },
       {
-        "eventId": "spacex-financial-disclosure-watch",
-        "url": "https://ir.spacex.com/events/default.aspx",
-        "checkedAt": "2026-10-30T17:06:53.597Z",
-        "quote": "Accessible investor events page shows no Q4 date in static markup",
-        "reviewOutcome": "Q4/FY2026 earnings stays undated; no conclusion of non-announcement from JS-only page"
+        "id": "MRVL",
+        "status": "limited"
       },
       {
-        "eventId": "spacex-q3-2026-10q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
-        "checkedAt": "2026-10-30T17:06:53.597Z",
-        "quote": "Form 10-Q quarter ended September 30, 2026",
-        "reviewOutcome": "checked existing filing entry, no new exact date"
+        "id": "AAPL",
+        "status": "limited"
       },
       {
-        "eventId": "spacex-2026-10-26-40b-gpu-finance-lease-commitment",
-        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
-        "checkedAt": "2026-10-30T17:06:53.597Z",
-        "quote": "Finance lease master agreement remains subject to specified closing conditions",
-        "reviewOutcome": "rechecked existing filing; no unsupported transaction closing date"
+        "id": "MSFT",
+        "status": "accessible"
       },
       {
-        "eventId": "spacex-starlink-launch-2026-10-28",
-        "url": "https://www.spacex.com/launches/sl4-2",
-        "checkedAt": "2026-10-30T17:06:53.597Z",
-        "quote": "Official indexed manifests show Oct 27/28/30 and November 1/5 in differing snapshots",
-        "reviewOutcome": "retained provisional windows because mission identity and current schedule not independently reconciled"
+        "id": "ORCL",
+        "status": "limited"
+      },
+      {
+        "id": "CRM",
+        "status": "limited"
+      },
+      {
+        "id": "NOW",
+        "status": "accessible"
+      },
+      {
+        "id": "ADBE",
+        "status": "blocked"
+      },
+      {
+        "id": "WDAY",
+        "status": "accessible"
+      },
+      {
+        "id": "ASML",
+        "status": "accessible"
+      },
+      {
+        "id": "LRCX",
+        "status": "accessible"
+      },
+      {
+        "id": "005930.KS",
+        "status": "accessible"
+      },
+      {
+        "id": "000660.KS",
+        "status": "accessible"
+      },
+      {
+        "id": "MU",
+        "status": "limited"
+      },
+      {
+        "id": "2454.TW",
+        "status": "accessible"
+      },
+      {
+        "id": "AMZN",
+        "status": "limited"
+      },
+      {
+        "id": "GOOGL",
+        "status": "limited"
+      },
+      {
+        "id": "META",
+        "status": "limited"
+      },
+      {
+        "id": "ANTHROPIC",
+        "status": "accessible"
+      },
+      {
+        "id": "CRWV",
+        "status": "limited"
+      },
+      {
+        "id": "NBIS",
+        "status": "accessible"
+      },
+      {
+        "id": "INTC",
+        "status": "accessible"
+      },
+      {
+        "id": "ARM",
+        "status": "accessible"
+      },
+      {
+        "id": "QCOM",
+        "status": "limited"
+      },
+      {
+        "id": "SNOW",
+        "status": "limited"
+      },
+      {
+        "id": "CRWD",
+        "status": "blocked"
+      },
+      {
+        "id": "PANW",
+        "status": "accessible"
+      },
+      {
+        "id": "NET",
+        "status": "blocked"
+      },
+      {
+        "id": "OPENAI",
+        "status": "accessible"
+      },
+      {
+        "id": "SPACEX",
+        "status": "limited"
       }
     ],
-    "limitations": [
-      "Six of 33 stored entry-point URLs returned access errors: AVGO, ADBE, ASML, GOOGL, ARM, NET; alternative filings/newsrooms can partly compensate.",
-      "Investor event pages for multiple companies load dates dynamically; reachable URL alone is not proof a future date is unannounced.",
-      "SpaceX IR Q4/FY2026 earnings date not independently readable in static event listings; keep undated watch.",
-      "Official SpaceX launch index and multiple indexed launch page snapshots conflict; do not assert an exact future launch day/time without stable mission identity.",
-      "This is not a fresh re-certification of all 79 historical source pages; original source audit checkedAt, counts preserved.",
-      "Mobile List CSS and JavaScript untouched."
-    ]
+    "notes": "Accessible does not imply complete verification of dynamically rendered calendars. Cloudflare secondary official press releases and Adobe other official newsroom pages were searchable; their listed entry points were blocked. SpaceX IR events is dynamic; SEC, NASA and FAA primary pages independently checked."
   },
   "coverageAudit": {
     "checkedAt": "2026-10-30T17:06:53.597Z",
