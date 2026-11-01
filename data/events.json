@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-02",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-10-31T17:02:18.674Z",
+  "lastAttempt": "2026-11-01T17:09:21.069Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -3209,33 +3209,6 @@
       "timeCheckedAt": "2026-10-28T03:04:31.746796+00:00"
     },
     {
-      "id": "anthropic-s1-2026",
-      "companies": [
-        "ANTHROPIC"
-      ],
-      "title": "Anthropic files S-1 for proposed IPO",
-      "type": "Filing",
-      "status": "confirmed",
-      "date": "2026-10-26",
-      "endDate": null,
-      "window": null,
-      "time": null,
-      "sourceUrl": "https://www.anthropic.com/news/s1-sec",
-      "sourceLabel": "Anthropic official S-1 announcement",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
-      "basis": "Anthropic announced on October 26, 2026 that it filed a Form S-1 for a proposed IPO and intends to list on Nasdaq as ANT. The filing had not become effective; offering size and price range were not determined. The filing date is confirmed, while a listing date remains unconfirmed. No filing clock time is inferred.",
-      "importance": "Public financial disclosures and AI infrastructure investment; a confirmed filing milestone, not a confirmed trading debut.",
-      "sources": [
-        {
-          "url": "https://www.anthropic.com/news/s1-sec",
-          "label": "Anthropic official S-1 announcement",
-          "kind": "official",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
-        }
-      ]
-    },
-    {
       "id": "crowdstrike-falcon-europe-2026",
       "companies": [
         "CRWD"
@@ -3776,6 +3749,106 @@
           "url": "https://www.nasa.gov/image-article/nasas-space-x-crs-35-launch-jellyfish/",
           "kind": "official",
           "checkedAt": "2026-10-31T17:02:18.674Z"
+        }
+      ]
+    },
+    {
+      "id": "broadcom-anthropic-63b-xpu-spv-financing-2026-10-26",
+      "companies": [
+        "AVGO",
+        "ANTHROPIC"
+      ],
+      "title": "Broadcom–Anthropic $63bn XPU/SPV financing announced",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-10-26",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce",
+      "sourceLabel": "Broadcom primary-source financing announcement · October 26",
+      "sourceCheckedAt": "2026-11-01T17:09:21.069Z",
+      "verifiedAt": "2026-11-01T17:09:21.069Z",
+      "basis": "October 26, 2026 press release by Broadcom and lead financiers announces a $63bn special-purpose-vehicle financing structure to purchase Broadcom XPUs and AI networking for lease to Anthropic. Bank of America, Citi and Morgan Stanley arrange the first-lien financing, Blackstone anchors the committed second lien, and Broadcom offers residual-value support on the first-lien portion. Broadcom's investor infographic illustrates peak RVS exposure of about $43bn declining over five years; this is illustrative potential value support, not $43bn of current cash spending or an immediately funded guarantee. Equipment deliveries are EXPECTED to start during calendar 2027, not a confirmed delivery date.",
+      "importance": "High-priority AI infrastructure funding and custom-XPU demand catalyst; monitor credit risk and residual-value exposure for Broadcom, Anthropic capex, 2027 chip shipment timing and financing leverage.",
+      "sources": [
+        {
+          "label": "Broadcom / lead banks primary announcement",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce",
+          "kind": "official",
+          "checkedAt": "2026-11-01T17:09:21.069Z"
+        },
+        {
+          "label": "Broadcom financing structure infographic",
+          "url": "https://investors.broadcom.com/static-files/f4bda79d-cc66-4748-919b-40d08c658f2d",
+          "kind": "official",
+          "checkedAt": "2026-11-01T17:09:21.069Z"
+        }
+      ]
+    },
+    {
+      "id": "broadcom-vmware-explore-london-2026",
+      "companies": [
+        "AVGO"
+      ],
+      "title": "VMware Explore on Tour 2026 · London",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-11-18",
+      "endDate": "2026-11-19",
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investors.broadcom.com/news-releases/news-release-details/vmware-explore-empowers-it-practitioners-drive-modern-private",
+      "sourceLabel": "Broadcom VMware Explore 2026 announcement",
+      "sourceCheckedAt": "2026-11-01T17:09:21.069Z",
+      "verifiedAt": "2026-11-01T17:09:21.069Z",
+      "basis": "Broadcom's official VMware Explore 2026 calendar explicitly lists this event and date(s). No event clock time is asserted. This is a VMware product/ecosystem event, not Broadcom earnings or a financial-results event.",
+      "importance": "VMware Cloud Foundation adoption, enterprise private AI infrastructure and licensing ecosystem catalyst.",
+      "sources": [
+        {
+          "label": "Broadcom official VMware Explore calendar",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/vmware-explore-empowers-it-practitioners-drive-modern-private",
+          "kind": "official",
+          "checkedAt": "2026-11-01T17:09:21.069Z"
+        },
+        {
+          "label": "Broadcom second VMware Explore 2026 calendar",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/vmware-explore-2026-brings-technical-sessions-labs-and-certs-it",
+          "kind": "official",
+          "checkedAt": "2026-11-01T17:09:21.069Z"
+        }
+      ]
+    },
+    {
+      "id": "broadcom-vmware-explore-washington-2026",
+      "companies": [
+        "AVGO"
+      ],
+      "title": "VMware Explore on Tour 2026 · Washington, D.C.",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-08",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investors.broadcom.com/news-releases/news-release-details/vmware-explore-empowers-it-practitioners-drive-modern-private",
+      "sourceLabel": "Broadcom VMware Explore 2026 announcement",
+      "sourceCheckedAt": "2026-11-01T17:09:21.069Z",
+      "verifiedAt": "2026-11-01T17:09:21.069Z",
+      "basis": "Broadcom's official VMware Explore 2026 calendar explicitly lists this event and date(s). No event clock time is asserted. This is a VMware product/ecosystem event, not Broadcom earnings or a financial-results event.",
+      "importance": "VMware Cloud Foundation adoption, enterprise private AI infrastructure and licensing ecosystem catalyst.",
+      "sources": [
+        {
+          "label": "Broadcom official VMware Explore calendar",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/vmware-explore-empowers-it-practitioners-drive-modern-private",
+          "kind": "official",
+          "checkedAt": "2026-11-01T17:09:21.069Z"
+        },
+        {
+          "label": "Broadcom second VMware Explore 2026 calendar",
+          "url": "https://investors.broadcom.com/news-releases/news-release-details/vmware-explore-2026-brings-technical-sessions-labs-and-certs-it",
+          "kind": "official",
+          "checkedAt": "2026-11-01T17:09:21.069Z"
         }
       ]
     }
