@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 1, 2026 HKT targeted review: all 33 issuer/newsroom/IR entry points attempted (3 returned 403/inaccessible; multiple listings JS-only). Added confirmed Anthropic Oct 26 public S-1; MediaTek Jan 5 ex-dividend and Jan 29 payable; FAA Starship Nov 17–19 scoping and Nov 30 public-comment deadline (proposed NOT approved flight rates); NASA completed CRS-35 Oct 13. No SpaceX Q4 earnings date, Starlink launch day or IPO scenario fabricated. SpaceX remains Nasdaq:SPCX. This is NOT a full 79-source historical re-audit; last complete audit remains Oct 15.",
+  "note": "Nov 2, 2026 HKT targeted 33-company entry-point review (3 blocked; multiple partial/JS-only). Added official Broadcom–Anthropic $63bn XPU/SPV financing disclosed Oct 26, VMware Explore Nov 18–19 London and Dec 8 D.C.; removed duplicate Anthropic S-1 event. SpaceX Nasdaq:SPCX quarterly earnings, filings, 2026 GPU financing and FAA regulatory dates retained; Q4 earnings and early-Nov Starlink exact mission date remain unconfirmed. Historic complete 79-source sweep remains Oct 15.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,8 +5340,8 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-10-31T17:02:18.674Z",
-    "localDate": "2026-11-01",
+    "checkedAt": "2026-11-01T17:11:01.225Z",
+    "localDate": "2026-11-02",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
     "entryPointsAccessibleOrPartiallyRendered": 30,
@@ -5350,7 +5350,7 @@
     "companies": [
       {
         "id": "TSM",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "NVDA",
@@ -5386,7 +5386,7 @@
       },
       {
         "id": "NOW",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "ADBE",
@@ -5462,7 +5462,7 @@
       },
       {
         "id": "CRWD",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "PANW",
@@ -5481,15 +5481,15 @@
         "status": "limited"
       }
     ],
-    "notes": "Accessible does not imply complete verification of dynamically rendered calendars. Cloudflare secondary official press releases and Adobe other official newsroom pages were searchable; their listed entry points were blocked. SpaceX IR events is dynamic; SEC, NASA and FAA primary pages independently checked."
+    "notes": "Attempted official IR/newsroom entry points for all 33 companies; TSMC endpoint timed out, Adobe financial page inaccessible and Cloudflare IR returned HTTP 403. Accessible does not imply complete review: many calendars are JavaScript-rendered or have stale indexed pages. Primary Broadcom investor press releases, SpaceX IR and SEC filings, FAA/NASA launch and environmental-review materials were separately reviewed. No newly verified SpaceX Q4/FY2026 earnings date or identifiable exact Starlink launch date. Broadcom/Anthropic's Oct 26 $63bn XPU financing and Nov/Dec VMware dates added; duplicate Anthropic S-1 event removed. Not a re-audit of the Oct 15 full 79-source catalog."
   },
   "coverageAudit": {
-    "checkedAt": "2026-10-30T17:06:53.597Z",
-    "scope": "33 company event mapping and source integrity audit plus 33 official entry point attempts; NOT comprehensive 79-source recheck.",
+    "checkedAt": "2026-11-01T17:11:01.225Z",
+    "scope": "33-company event mapping, official IR/newsroom entry-point attempts, source/date precision review. This is NOT a complete 79-source historical refresh.",
     "companies": 33,
-    "events": 100,
+    "events": 108,
     "companiesWithEvents": 33,
-    "confirmedEvents": 71,
+    "confirmedEvents": 79,
     "undatedEvents": 10,
     "estimatedEvents": 18,
     "reportedEvents": 1,
@@ -5831,6 +5831,75 @@
         "Official SpaceX launch index and multiple indexed launch page snapshots conflict; do not assert an exact future launch day/time without stable mission identity.",
         "This is not a fresh re-certification of all 79 historical source pages; original source audit checkedAt, counts preserved.",
         "Mobile List CSS and JavaScript untouched."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-01T17:11:01.225Z",
+      "scope": "November 2 targeted issuer/source audit (33 official entry points; 3 blocked) and verified event changes. Historical full 79-source audit remains October 15.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "TSM",
+        "NVDA",
+        "MRVL",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "QCOM",
+        "SNOW",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "Added Broadcom–Anthropic Oct 26 $63bn custom-XPU financing with explicit SPV and residual-value support distinctions; 2027 expected delivery is not a confirmed date.",
+        "Added Broadcom VMware Explore Nov 18–19 London and Dec 8 Washington events, both from official announcements.",
+        "Deduplicated Oct 26 Anthropic S-1 milestone while preserving SEC-linked event."
+      ],
+      "coverageGaps": [
+        "SpaceX Q4 earnings date is undated; official IR event calendar dynamically rendered.",
+        "SpaceX early-November Starlink exact mission/date not independently reconciled to a primary official launch announcement; keep provisional window.",
+        "TSMC IR timed out, Adobe financial page blocked, Cloudflare IR HTTP 403; numerous issuer pages dynamically rendered.",
+        "Historical 79-source systematic verification last completed Oct 15; no claim of full fresh review."
       ]
     }
   ]
