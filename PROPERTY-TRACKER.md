@@ -26,3 +26,7 @@ The original 90-day estate summaries and example unit observations retain their 
 Frontend syntax checks plus Chromium desktop/mobile checks cover currency and area display, focus maps, five-year history selection, listing filtering/pagination, and saved source ads. Data checks cover complete source pagination, unique source IDs, target-fit flags, exact asking price/area ratios, partial quarters, weak endpoint samples, source dates, and refresh retention.
 
 Leaflet is locally hosted under `vendor/`, with its license. Street tiles require external OpenStreetMap access; the local public-domain Natural Earth coastline remains available if tiles fail. Attribution and coordinate sources are shown in the dashboard.
+
+### Observed automated access limit
+
+The first GitHub-hosted refresh on 2 November 2026 successfully fetched ECB and RVD data, but 28Hse returned HTTP403 for sale search pages and 23 of the24 estate trend pages. The writer retained the verified initial observations and their dates; the public status is partial, not a fresh source check. The dashboard surfaces this limitation prominently. Weekly runs and the separate ChatGPT alert continue to report source status. Do not bypass restrictions, forge source freshness, or infer zero/new/missing ads from failed coverage. A reliable whole-market live inventory would require an authorised provider feed; source advertisements never prove physical-flat availability.
