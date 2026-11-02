@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 2, 2026 HKT targeted 33-company entry-point review (3 blocked; multiple partial/JS-only). Added official Broadcom–Anthropic $63bn XPU/SPV financing disclosed Oct 26, VMware Explore Nov 18–19 London and Dec 8 D.C.; removed duplicate Anthropic S-1 event. SpaceX Nasdaq:SPCX quarterly earnings, filings, 2026 GPU financing and FAA regulatory dates retained; Q4 earnings and early-Nov Starlink exact mission date remain unconfirmed. Historic complete 79-source sweep remains Oct 15.",
+  "note": "Nov 3, 2026 HKT targeted issuer-calendar/SEC/news review: attempted all 33 company official entry points (Adobe, Workday and Cloudflare blocked; others may be partial/dynamically rendered). Added Nov 2 Marvell–Lumentum $115bn EV all-stock agreement, Anthropic Form S-1/A, OpenAI Grid Protectors Georgia up-to-1,000-MW demand-response framework, and reported Oracle $20bn and Alphabet €6bn financing launches. All closing/listing/settlement dates remain unconfirmed. SpaceX Nasdaq:SPCX SEC Q3 earnings/10-Q and Oct 26 8-K rechecked; no newly confirmed Q4 earnings date or mission-specific Starlink launch date. This was NOT a fresh full 79-source audit; historical full sweep remains Oct 15.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,8 +5340,8 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-01T17:11:01.225Z",
-    "localDate": "2026-11-02",
+    "checkedAt": "2026-11-02T17:02:26Z",
+    "localDate": "2026-11-03",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
     "entryPointsAccessibleOrPartiallyRendered": 30,
@@ -5350,7 +5350,7 @@
     "companies": [
       {
         "id": "TSM",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "NVDA",
@@ -5366,7 +5366,7 @@
       },
       {
         "id": "MRVL",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "AAPL",
@@ -5394,7 +5394,7 @@
       },
       {
         "id": "WDAY",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "ASML",
@@ -5481,18 +5481,18 @@
         "status": "limited"
       }
     ],
-    "notes": "Attempted official IR/newsroom entry points for all 33 companies; TSMC endpoint timed out, Adobe financial page inaccessible and Cloudflare IR returned HTTP 403. Accessible does not imply complete review: many calendars are JavaScript-rendered or have stale indexed pages. Primary Broadcom investor press releases, SpaceX IR and SEC filings, FAA/NASA launch and environmental-review materials were separately reviewed. No newly verified SpaceX Q4/FY2026 earnings date or identifiable exact Starlink launch date. Broadcom/Anthropic's Oct 26 $63bn XPU financing and Nov/Dec VMware dates added; duplicate Anthropic S-1 event removed. Not a re-audit of the Oct 15 full 79-source catalog."
+    "notes": "All 33 official issuer entry points checked: Adobe financial, Workday IR events and Cloudflare main IR were blocked; numerous pages were limited or JavaScript rendered. Targeted SEC filings confirmed Marvell–Lumentum and Anthropic S-1/A; OpenAI primary release verified Grid Protectors. Nov 2 Oracle and Alphabet financing launches reported by Reuters, with pricing/settlement not verified. SpaceX official investor calendar remains dynamic, SEC EDGAR last substantive filing Oct 26 8-K; Q4 earnings and early-Nov Falcon 9 exact launch unconfirmed. Historical 79-source sweep stays dated Oct 15."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-01T17:11:01.225Z",
-    "scope": "33-company event mapping, official IR/newsroom entry-point attempts, source/date precision review. This is NOT a complete 79-source historical refresh.",
+    "checkedAt": "2026-11-02T17:02:26Z",
+    "scope": "Targeted 33-issuer IR/newsroom entry-point review and individual SEC/primary/news verifications; NOT a complete repeat of the historical 79-source sweep.",
     "companies": 33,
-    "events": 108,
+    "events": 113,
     "companiesWithEvents": 33,
-    "confirmedEvents": 79,
+    "confirmedEvents": 82,
     "undatedEvents": 10,
     "estimatedEvents": 18,
-    "reportedEvents": 1,
+    "reportedEvents": 3,
     "confirmedMissingVerifiedAt": [],
     "eventsWithoutSource": []
   },
@@ -5900,6 +5900,75 @@
         "SpaceX early-November Starlink exact mission/date not independently reconciled to a primary official launch announcement; keep provisional window.",
         "TSMC IR timed out, Adobe financial page blocked, Cloudflare IR HTTP 403; numerous issuer pages dynamically rendered.",
         "Historical 79-source systematic verification last completed Oct 15; no claim of full fresh review."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-02T17:02:26Z",
+      "scope": "Nov 3 HKT: 33 issuer entry points, five material Nov 2 changes; targeted SEC/IR/source check, not a full 79-source refresh.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "QCOM",
+        "SNOW",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "MRVL: Nov 2 definitive all-stock Marvell/Lumentum $115bn implied EV merger; conditional H1 2028 close remains an expected window, not an event date.",
+        "ANTHROPIC: Nov 2 SEC S-1/A filing; no IPO/listing day asserted.",
+        "OPENAI: Nov 2 Grid Protectors with Georgia Power agreement for up to 1,000 MW of flexible demand response; campus remains under development.",
+        "ORCL: Nov 2 Reuters-reported launch of $10bn bond and $10bn equity plans; terms not finalized.",
+        "GOOGL: Nov 2 Reuters-reported €6bn seven-tranche bond marketing; no completed issuance asserted."
+      ],
+      "coverageGaps": [
+        "Adobe, Workday and Cloudflare official entry points inaccessible; multiple issuer IR events pages dynamic/limited.",
+        "SpaceX (Nasdaq SPCX) Q4/FY26 earnings date not posted in accessible IR; SEC latest filing Oct 26; upcoming mission-identifiable Starlink launch date not verified by primary SpaceX/FAA/NASA.",
+        "Historic complete 79-source catalog remains checked Oct 15; this run is a targeted 33-company review."
       ]
     }
   ]

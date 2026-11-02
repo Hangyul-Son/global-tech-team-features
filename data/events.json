@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-01T17:09:21.069Z",
+  "lastAttempt": "2026-11-02T17:02:26Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -3851,8 +3851,149 @@
           "checkedAt": "2026-11-01T17:09:21.069Z"
         }
       ]
+    },
+    {
+      "id": "mrvl-lumentum-merger-agreement-2026-11-02",
+      "companies": [
+        "MRVL"
+      ],
+      "title": "Marvell and Lumentum announce $115bn EV all-stock acquisition agreement",
+      "type": "M&A",
+      "status": "confirmed",
+      "date": "2026-11-02",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001193125-26-442714/0001193125-26-442714.pdf",
+      "sourceLabel": "Marvell SEC Form 8-K / Exhibit 99.1",
+      "sourceCheckedAt": "2026-11-02T17:02:26Z",
+      "verifiedAt": "2026-11-02T17:02:26Z",
+      "basis": "Marvell and Lumentum jointly announced a definitive all-stock merger agreement on Nov 2, 2026. Fixed exchange ratio: 4.500 Marvell shares per Lumentum share; $115bn implied Lumentum enterprise value (not cash consideration or revenue); target ~33% ownership by Lumentum holders. Expected close H1 calendar 2028 subject to approvals, NOT an exact confirmed close date. Management projects >$1bn annual run-rate cost synergies and ~$550bn combined TAM (forward-looking, not realized). Marvell narrowed preliminary Q3 FY27 revenue guidance range to ±2% around unchanged midpoint. A Nov 2 08:00 ET deal webcast was announced.",
+      "importance": "AI optical networking and custom silicon integration; significant all-stock dilution, expected synergies, regulator/shareholder approval and deal-close risk.",
+      "sources": [
+        {
+          "label": "Marvell Nov 2 SEC 8-K with joint release",
+          "url": "https://investor.marvell.com/sec-filings/all-sec-filings/content/0001193125-26-442714/0001193125-26-442714.pdf",
+          "kind": "official",
+          "checkedAt": "2026-11-02T17:02:26Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-s1a-filed-2026-11-02",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "Anthropic publicly files amended S-1/A IPO registration statement",
+      "type": "SEC filing",
+      "status": "confirmed",
+      "date": "2026-11-02",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "sourceLabel": "SEC EDGAR issuer submissions",
+      "sourceCheckedAt": "2026-11-02T17:02:26Z",
+      "verifiedAt": "2026-11-02T17:02:26Z",
+      "basis": "SEC EDGAR for Anthropic, PBC (CIK 2130357) confirms Form S-1/A accession 0001628280-26-068676 accepted November 2, 2026 at 14:24:24 UTC, amending the October 26 S-1. This is a registration amendment and does not establish any IPO pricing, roadshow or trading/listing date.",
+      "importance": "Updated AI-provider financial and risk disclosure; monitor amendments, audited revenue and compute commitments without inventing listing dates.",
+      "sources": [
+        {
+          "label": "SEC EDGAR Anthropic issuer submissions",
+          "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+          "kind": "official",
+          "checkedAt": "2026-11-02T17:02:26Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-grid-protectors-2026-11-02",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI announces Grid Protectors power-flexibility program",
+      "type": "AI infrastructure",
+      "status": "confirmed",
+      "date": "2026-11-02",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/grid-protectors-program/",
+      "sourceLabel": "OpenAI official newsroom",
+      "sourceCheckedAt": "2026-11-02T17:02:26Z",
+      "verifiedAt": "2026-11-02T17:02:26Z",
+      "basis": "OpenAI announced Nov 2 its Grid Protectors Program for future AI campuses. Its Georgia Power agreement for the planned Effingham County campus allows UP TO 1,000 MW of flexible demand response after the campus operates, not 1 GW of presently online compute capacity or approved grid capacity. OpenAI says it will bear infrastructure and electric-service costs; campus remains in development, with no commissioning date confirmed.",
+      "importance": "Potential demand-response flexibility, peak-power curtailment and incremental grid-connection economics in hyperscale AI power models.",
+      "sources": [
+        {
+          "label": "OpenAI Grid Protectors announcement",
+          "url": "https://openai.com/index/grid-protectors-program/",
+          "kind": "official",
+          "checkedAt": "2026-11-02T17:02:26Z"
+        }
+      ]
+    },
+    {
+      "id": "orcl-debt-equity-financing-launch-2026-11-02",
+      "companies": [
+        "ORCL"
+      ],
+      "title": "Oracle begins proposed $20bn debt-and-equity funding process",
+      "type": "Financing",
+      "status": "reported",
+      "date": "2026-11-02",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/",
+      "sourceLabel": "Reuters Nov 2 financing report",
+      "sourceCheckedAt": "2026-11-02T17:02:26Z",
+      "verifiedAt": null,
+      "basis": "Reuters reported Nov 2 that Oracle was marketing approximately $10bn of bonds in six tranches plus a planned $10bn equity raise to finance AI/cloud expansion and general corporate needs. Bond pricing, completed issuance, common-stock quantity and proceeds were NOT yet finalized. Distinct from Oracle's Oct 28 SEC-exhibited plan to limit additional capital-market funding through FY2030 to $20bn; do not double count with past FY27 ATM issuance.",
+      "importance": "AI capex funding and liquidity: interest expense, equity dilution, rising leverage/credit spreads and future free-cash-flow conversion.",
+      "sources": [
+        {
+          "label": "Reuters Nov 2 bond/equity launch",
+          "url": "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/",
+          "kind": "report",
+          "checkedAt": "2026-11-02T17:02:26Z"
+        },
+        {
+          "label": "Oracle Oct 28 SEC investor-day materials",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-02T17:02:26Z"
+        }
+      ]
+    },
+    {
+      "id": "googl-eur6bn-bond-offering-2026-11-02",
+      "companies": [
+        "GOOGL"
+      ],
+      "title": "Alphabet markets approximately €6bn seven-tranche euro bond offering",
+      "type": "Financing",
+      "status": "reported",
+      "date": "2026-11-02",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.reuters.com/business/finance/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-tech-debt-2026-11-02/",
+      "sourceLabel": "Reuters Nov 2 bond-market report",
+      "sourceCheckedAt": "2026-11-02T17:02:26Z",
+      "verifiedAt": null,
+      "basis": "Reuters reported Nov 2 that Alphabet launched a roughly €6bn seven-tranche EUR-denominated bond offering, with investor orders reported above €17bn. Marketing/order-book demand is NOT evidence that all tranches have priced, settled or raised cash; no precise settlement date verified. The reported maturities span approximately 2–19 years.",
+      "importance": "Funding and bond-investor appetite for AI infrastructure; compare hyperscaler capital-market issuance, lease liabilities and FCF.",
+      "sources": [
+        {
+          "label": "Reuters Nov 2 euro-bond offering",
+          "url": "https://www.reuters.com/business/finance/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-tech-debt-2026-11-02/",
+          "kind": "report",
+          "checkedAt": "2026-11-02T17:02:26Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 1, 2026 HKT targeted review: all 33 issuer/newsroom/IR entry points attempted (3 returned 403/inaccessible; multiple listings JS-only). Added confirmed Anthropic Oct 26 public S-1; MediaTek Jan 5 ex-dividend and Jan 29 payable; FAA Starship Nov 17–19 scoping and Nov 30 public-comment deadline (proposed NOT approved flight rates); NASA completed CRS-35 Oct 13. No SpaceX Q4 earnings date, Starlink launch day or IPO scenario fabricated. SpaceX remains Nasdaq:SPCX. This is NOT a full 79-source historical re-audit; last complete audit remains Oct 15.",
-  "lastPartialReview": "2026-10-31T17:02:18.674Z"
+  "verificationNote": "Nov 3, 2026 HKT targeted issuer-calendar/SEC/news review: attempted all 33 company official entry points (Adobe, Workday and Cloudflare blocked; others may be partial/dynamically rendered). Added Nov 2 Marvell–Lumentum $115bn EV all-stock agreement, Anthropic Form S-1/A, OpenAI Grid Protectors Georgia up-to-1,000-MW demand-response framework, and reported Oracle $20bn and Alphabet €6bn financing launches. All closing/listing/settlement dates remain unconfirmed. SpaceX Nasdaq:SPCX SEC Q3 earnings/10-Q and Oct 26 8-K rechecked; no newly confirmed Q4 earnings date or mission-specific Starlink launch date. This was NOT a fresh full 79-source audit; historical full sweep remains Oct 15.",
+  "lastPartialReview": "2026-11-02T17:02:26Z"
 }
