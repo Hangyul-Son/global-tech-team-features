@@ -6,10 +6,20 @@ on:
       - claude/build-tech-finance-site-HRNbI
       - main
 
+  schedule:
+    # Mondays at 08:15 Asia/Hong_Kong (UTC+8).
+    - cron: '15 0 * * 1'
+
   workflow_dispatch:
+    inputs:
+      refresh_property:
+        description: Refresh Hong Kong property observations before publishing
+        required: false
+        default: false
+        type: boolean
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -27,6 +37,48 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Refresh Hong Kong property observations
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_property) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[refresh-property]'))
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/refresh_property.py --site-dir hong-kong-property
+          property_data=(
+            hong-kong-property/data.json
+            hong-kong-property/trends.json
+            hong-kong-property/listings.json
+            hong-kong-property/refresh-status.json
+          )
+          git add -- "${property_data[@]}"
+          if ! git diff --cached --quiet -- "${property_data[@]}"; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Update Hong Kong property observations'
+            pushed=false
+            for attempt in 1 2 3; do
+              git fetch origin "$DEFAULT_BRANCH"
+              if ! git rebase "origin/$DEFAULT_BRANCH"; then
+                git rebase --abort
+                echo '::error::Concurrent property-data changes require review; no remote changes were overwritten.'
+                exit 1
+              fi
+              if git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"; then
+                pushed=true
+                break
+              fi
+            done
+            if [ "$pushed" != true ]; then
+              echo '::error::Could not publish property observations after three safe push attempts.'
+              exit 1
+            fi
+          fi
+          # The same run validates/builds the updated HEAD. GITHUB_TOKEN pushes
+          # do not need to trigger a second workflow to publish these assets.
 
       - name: Validate dataset and prepare static site
         run: |
@@ -34,6 +86,9 @@ jobs:
           node --check js/calendar-utils.js
           node --check js/events.js
           node --test tests/calendar-utils.test.cjs
+          for script in hong-kong-property/*.js; do
+            node --check "$script"
+          done
           python3 scripts/build_site.py
 
       - name: Setup Pages
@@ -76,3 +131,9 @@ jobs:
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: python3 scripts/verify_deployment.py --site-url "$PAGE_URL"
+
+
+      - name: Verify the published Hong Kong property dataset
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python3 scripts/verify_property.py --site-url "$PAGE_URL" --site-dir hong-kong-property

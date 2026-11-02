@@ -9,10 +9,11 @@ if DEST.is_symlink():
 if DEST.exists():
     shutil.rmtree(DEST)
 DEST.mkdir()
-for name in ['index.html', 'css', 'js', 'data']:
+for name in ['index.html', 'css', 'js', 'data', 'hong-kong-property']:
     source, target = ROOT / name, DEST / name
     if source.is_dir():
         shutil.copytree(source, target, dirs_exist_ok=True)
     else:
         shutil.copy2(source, target)
 print('Static site prepared in _site; no external dependencies or build toolchain required.')
+
