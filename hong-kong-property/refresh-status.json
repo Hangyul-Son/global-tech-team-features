@@ -1,1 +1,518 @@
-{"attemptedAt":"2026-11-02T02:58:47+00:00","timezone":"Asia/Hong_Kong","successes":[{"component":"fx","referenceDate":"2026-10-30","source":"https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"},{"component":"rvd_price","latestPeriod":"2026-09","observations":81,"source":"https://www.rvd.gov.hk/datagovhk/1.4M.csv"},{"component":"rvd_rent","latestPeriod":"2026-09","observations":81,"source":"https://www.rvd.gov.hk/datagovhk/1.3M.csv"},{"component":"trends","estates":24}],"errors":[],"components":{"fx":{"status":"updated","lastSuccessfulAt":"2026-11-02T02:58:47+00:00","referenceDate":"2026-10-30","source":"https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"},"rvd_price":{"status":"updated","lastSuccessfulAt":"2026-11-02T02:58:47+00:00","latestPeriod":"2026-09","observations":81,"source":"https://www.rvd.gov.hk/datagovhk/1.4M.csv"},"rvd_rent":{"status":"updated","lastSuccessfulAt":"2026-11-02T02:58:47+00:00","latestPeriod":"2026-09","observations":81,"source":"https://www.rvd.gov.hk/datagovhk/1.3M.csv"},"trends":{"status":"updated","lastSuccessfulAt":"2026-11-02T02:58:47+00:00","estates":24},"listings":{"status":"skipped","lastSuccessfulAt":"2026-11-02T02:54:07+00:00"},"estateSnapshots":{"status":"retained_original_observations","oldestObservationDate":"2026-11-02","latestObservationDate":"2026-11-02","estates":24,"note":"Estate-wide 90-day sale/rent snapshots and illustrative unit examples are not silently refreshed. Their original observation/source dates remain authoritative. Quarterly history, advertised sale inventory, FX and official monthly indices have separate refresh status."}},"runStatus":"success","inventory":{"totalAdvertisedRows":2040,"observedRows":2040,"inventoryKnown":true,"targetFitCount":754,"provider":"28Hse","deduplication":"Provider advertisement id, not necessarily unique physical flats.","byRegion":[{"id":"taikoo","label":"Tai Koo / Taikoo Shing","count":188,"targetFitCount":74,"checkedAt":"2026-11-02T02:54:07+00:00","lastSuccessfulCheckAt":"2026-11-02T02:54:07+00:00","refreshStatus":"complete-source-pagination","allExpectedPagesFetched":true,"reportedAdvertCount":188},{"id":"olympic","label":"Olympic","count":509,"targetFitCount":203,"checkedAt":"2026-11-02T02:54:07+00:00","lastSuccessfulCheckAt":"2026-11-02T02:54:07+00:00","refreshStatus":"complete-source-pagination","allExpectedPagesFetched":true,"reportedAdvertCount":509},{"id":"tko","label":"Tseung Kwan O","count":1343,"targetFitCount":477,"checkedAt":"2026-11-02T02:54:07+00:00","lastSuccessfulCheckAt":"2026-11-02T02:54:07+00:00","refreshStatus":"complete-source-pagination","allExpectedPagesFetched":true,"reportedAdvertCount":1343}]},"listingChanges":{"baselineAvailable":true,"comparedRegions":[],"newIdsCount":0,"removedIdsCount":0,"priceChangedIdsCount":0,"new":[],"removed":[],"priceChanges":[],"interpretation":"Changes compare provider advertisement ids only after complete source pagination. Removed means no longer observed on this provider, not proof sold, withdrawn, or unavailable. Duplicate agent ads may represent the same physical flat."},"finishedAt":"2026-11-02T02:58:54+00:00","lastFullSuccessfulAt":null}
+{
+  "attemptedAt": "2026-11-02T03:02:39+00:00",
+  "timezone": "Asia/Hong_Kong",
+  "successes": [
+    {
+      "component": "fx",
+      "referenceDate": "2026-10-30",
+      "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+    },
+    {
+      "component": "rvd_price",
+      "latestPeriod": "2026-09",
+      "observations": 81,
+      "source": "https://www.rvd.gov.hk/datagovhk/1.4M.csv"
+    },
+    {
+      "component": "rvd_rent",
+      "latestPeriod": "2026-09",
+      "observations": 81,
+      "source": "https://www.rvd.gov.hk/datagovhk/1.3M.csv"
+    }
+  ],
+  "errors": [
+    {
+      "component": "trends",
+      "error": {
+        "id": "wong-chuk-hang",
+        "source": "https://www.28hse.com/en/estate/detail/the-southside-27919/south-land-23648",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "olympic",
+        "source": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "north-point",
+        "source": "https://www.28hse.com/en/estate/detail/city-garden-1070",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "taikoo-quarry-bay",
+        "source": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "nam-cheong",
+        "source": "https://www.28hse.com/en/estate/detail/cullinan-west-27511",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "tung-chung",
+        "source": "https://www.28hse.com/en/estate/detail/caribbean-coast-4710",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "tin-shui-wai",
+        "source": "https://www.28hse.com/en/estate/detail/kingswood-villas-4390",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "tsuen-wan",
+        "source": "https://www.28hse.com/en/estate/detail/tsuen-wan-centre-4571",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "tai-po",
+        "source": "https://www.28hse.com/en/estate/detail/tai-po-centre-4131",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "tuen-mun",
+        "source": "https://www.28hse.com/en/estate/detail/tuen-mun-town-plaza-4433",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "whampoa-hung-hom",
+        "source": "https://www.28hse.com/en/estate/detail/whampoa-garden-3060",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "mei-foo",
+        "source": "https://www.28hse.com/en/estate/detail/mei-foo-sun-chuen-2520",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "yuen-long",
+        "source": "https://www.28hse.com/en/estate/detail/yoho-town-4250",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "kennedy-town",
+        "source": "https://www.28hse.com/en/estate/detail/the-merton-550",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "sai-ying-pun",
+        "source": "https://www.28hse.com/en/estate/detail/island-crest-5444",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "lam-tin",
+        "source": "https://www.28hse.com/en/estate/detail/laguna-city-2000",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "wan-chai",
+        "source": "https://www.28hse.com/en/estate/detail/the-avenue-7958",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "kai-tak",
+        "source": "https://www.28hse.com/en/estate/detail/oasis-kai-tak-22370",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "kowloon-bay",
+        "source": "https://www.28hse.com/en/estate/detail/telford-gardens-2080",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "wu-kai-sha-ma-on-shan",
+        "source": "https://www.28hse.com/en/estate/detail/double-cove-7508",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "wong-tai-sin",
+        "source": "https://www.28hse.com/en/estate/detail/lionsrise-6255",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "tsing-yi",
+        "source": "https://www.28hse.com/en/estate/detail/tierra-verde-4650",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "trends",
+      "error": {
+        "id": "fanling-belair",
+        "source": "https://www.28hse.com/en/estate/detail/belair-monte-4175",
+        "error": "HTTP Error 403: Forbidden",
+        "attemptedAt": "2026-11-02T11:02:43+08:00"
+      }
+    },
+    {
+      "component": "listings",
+      "error": {
+        "region": "taikoo",
+        "error": "HTTP Error 403: Forbidden",
+        "retainedCheckedAt": "2026-11-02T02:54:07+00:00"
+      }
+    },
+    {
+      "component": "listings",
+      "error": {
+        "region": "olympic",
+        "error": "HTTP Error 403: Forbidden",
+        "retainedCheckedAt": "2026-11-02T02:54:07+00:00"
+      }
+    },
+    {
+      "component": "listings",
+      "error": {
+        "region": "tko",
+        "error": "HTTP Error 403: Forbidden",
+        "retainedCheckedAt": "2026-11-02T02:54:07+00:00"
+      }
+    },
+    {
+      "component": "listing_collector_process",
+      "error": "Collector exited 2; validated output used with region-level guards."
+    }
+  ],
+  "components": {
+    "fx": {
+      "status": "updated",
+      "lastSuccessfulAt": "2026-11-02T03:02:39+00:00",
+      "referenceDate": "2026-10-30",
+      "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+    },
+    "rvd_price": {
+      "status": "updated",
+      "lastSuccessfulAt": "2026-11-02T03:02:39+00:00",
+      "latestPeriod": "2026-09",
+      "observations": 81,
+      "source": "https://www.rvd.gov.hk/datagovhk/1.4M.csv"
+    },
+    "rvd_rent": {
+      "status": "updated",
+      "lastSuccessfulAt": "2026-11-02T03:02:39+00:00",
+      "latestPeriod": "2026-09",
+      "observations": 81,
+      "source": "https://www.rvd.gov.hk/datagovhk/1.3M.csv"
+    },
+    "trends": {
+      "status": "partial",
+      "lastSuccessfulAt": "2026-11-02T02:58:47+00:00",
+      "estates": 24,
+      "perEstateErrors": [
+        {
+          "id": "wong-chuk-hang",
+          "source": "https://www.28hse.com/en/estate/detail/the-southside-27919/south-land-23648",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "olympic",
+          "source": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "north-point",
+          "source": "https://www.28hse.com/en/estate/detail/city-garden-1070",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "taikoo-quarry-bay",
+          "source": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "nam-cheong",
+          "source": "https://www.28hse.com/en/estate/detail/cullinan-west-27511",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "tung-chung",
+          "source": "https://www.28hse.com/en/estate/detail/caribbean-coast-4710",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "tin-shui-wai",
+          "source": "https://www.28hse.com/en/estate/detail/kingswood-villas-4390",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "tsuen-wan",
+          "source": "https://www.28hse.com/en/estate/detail/tsuen-wan-centre-4571",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "tai-po",
+          "source": "https://www.28hse.com/en/estate/detail/tai-po-centre-4131",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "tuen-mun",
+          "source": "https://www.28hse.com/en/estate/detail/tuen-mun-town-plaza-4433",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "whampoa-hung-hom",
+          "source": "https://www.28hse.com/en/estate/detail/whampoa-garden-3060",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "mei-foo",
+          "source": "https://www.28hse.com/en/estate/detail/mei-foo-sun-chuen-2520",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "yuen-long",
+          "source": "https://www.28hse.com/en/estate/detail/yoho-town-4250",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "kennedy-town",
+          "source": "https://www.28hse.com/en/estate/detail/the-merton-550",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "sai-ying-pun",
+          "source": "https://www.28hse.com/en/estate/detail/island-crest-5444",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "lam-tin",
+          "source": "https://www.28hse.com/en/estate/detail/laguna-city-2000",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "wan-chai",
+          "source": "https://www.28hse.com/en/estate/detail/the-avenue-7958",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "kai-tak",
+          "source": "https://www.28hse.com/en/estate/detail/oasis-kai-tak-22370",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "kowloon-bay",
+          "source": "https://www.28hse.com/en/estate/detail/telford-gardens-2080",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "wu-kai-sha-ma-on-shan",
+          "source": "https://www.28hse.com/en/estate/detail/double-cove-7508",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "wong-tai-sin",
+          "source": "https://www.28hse.com/en/estate/detail/lionsrise-6255",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "tsing-yi",
+          "source": "https://www.28hse.com/en/estate/detail/tierra-verde-4650",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        },
+        {
+          "id": "fanling-belair",
+          "source": "https://www.28hse.com/en/estate/detail/belair-monte-4175",
+          "error": "HTTP Error 403: Forbidden",
+          "attemptedAt": "2026-11-02T11:02:43+08:00"
+        }
+      ]
+    },
+    "listings": {
+      "status": "partial",
+      "lastSuccessfulAt": "2026-11-02T02:54:07+00:00",
+      "acceptedRegions": [],
+      "retainedRegions": [
+        "taikoo",
+        "olympic",
+        "tko"
+      ],
+      "perRegionErrors": [
+        {
+          "region": "taikoo",
+          "error": "HTTP Error 403: Forbidden",
+          "retainedCheckedAt": "2026-11-02T02:54:07+00:00"
+        },
+        {
+          "region": "olympic",
+          "error": "HTTP Error 403: Forbidden",
+          "retainedCheckedAt": "2026-11-02T02:54:07+00:00"
+        },
+        {
+          "region": "tko",
+          "error": "HTTP Error 403: Forbidden",
+          "retainedCheckedAt": "2026-11-02T02:54:07+00:00"
+        }
+      ]
+    },
+    "estateSnapshots": {
+      "status": "retained_original_observations",
+      "oldestObservationDate": "2026-11-02",
+      "latestObservationDate": "2026-11-02",
+      "estates": 24,
+      "note": "Estate-wide 90-day sale/rent snapshots and illustrative unit examples are not silently refreshed. Their original observation/source dates remain authoritative. Quarterly history, advertised sale inventory, FX and official monthly indices have separate refresh status."
+    }
+  },
+  "runStatus": "partial",
+  "inventory": {
+    "totalAdvertisedRows": 2040,
+    "observedRows": 2040,
+    "inventoryKnown": true,
+    "targetFitCount": 754,
+    "provider": "28Hse",
+    "deduplication": "Provider advertisement id, not necessarily unique physical flats.",
+    "byRegion": [
+      {
+        "id": "taikoo",
+        "label": "Tai Koo / Taikoo Shing",
+        "count": 188,
+        "targetFitCount": 74,
+        "checkedAt": "2026-11-02T02:54:07+00:00",
+        "lastSuccessfulCheckAt": "2026-11-02T02:54:07+00:00",
+        "refreshStatus": "retained_after_incomplete_refresh",
+        "allExpectedPagesFetched": false,
+        "reportedAdvertCount": 188
+      },
+      {
+        "id": "olympic",
+        "label": "Olympic",
+        "count": 509,
+        "targetFitCount": 203,
+        "checkedAt": "2026-11-02T02:54:07+00:00",
+        "lastSuccessfulCheckAt": "2026-11-02T02:54:07+00:00",
+        "refreshStatus": "retained_after_incomplete_refresh",
+        "allExpectedPagesFetched": false,
+        "reportedAdvertCount": 509
+      },
+      {
+        "id": "tko",
+        "label": "Tseung Kwan O",
+        "count": 1343,
+        "targetFitCount": 477,
+        "checkedAt": "2026-11-02T02:54:07+00:00",
+        "lastSuccessfulCheckAt": "2026-11-02T02:54:07+00:00",
+        "refreshStatus": "retained_after_incomplete_refresh",
+        "allExpectedPagesFetched": false,
+        "reportedAdvertCount": 1343
+      }
+    ]
+  },
+  "listingChanges": {
+    "baselineAvailable": true,
+    "comparedRegions": [],
+    "newIdsCount": 0,
+    "removedIdsCount": 0,
+    "priceChangedIdsCount": 0,
+    "new": [],
+    "removed": [],
+    "priceChanges": [],
+    "interpretation": "Changes compare provider advertisement ids only after complete source pagination. Removed means no longer observed on this provider, not proof sold, withdrawn, or unavailable. Duplicate agent ads may represent the same physical flat."
+  },
+  "finishedAt": "2026-11-02T03:02:46+00:00",
+  "lastFullSuccessfulAt": null
+}
