@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 3, 2026 HKT targeted issuer-calendar/SEC/news review: attempted all 33 company official entry points (Adobe, Workday and Cloudflare blocked; others may be partial/dynamically rendered). Added Nov 2 Marvell–Lumentum $115bn EV all-stock agreement, Anthropic Form S-1/A, OpenAI Grid Protectors Georgia up-to-1,000-MW demand-response framework, and reported Oracle $20bn and Alphabet €6bn financing launches. All closing/listing/settlement dates remain unconfirmed. SpaceX Nasdaq:SPCX SEC Q3 earnings/10-Q and Oct 26 8-K rechecked; no newly confirmed Q4 earnings date or mission-specific Starlink launch date. This was NOT a fresh full 79-source audit; historical full sweep remains Oct 15.",
+  "note": "Nov 4, 2026 HKT targeted review of official IR/news sources for all 33 tracked companies, plus selective SEC filings. Updated Apple Nov 2 actual Q4 results; Oracle priced $20bn debt/equity (not settled); Alphabet priced €6bn euro notes (not settled); Palo Alto Networks Nov 18 Q1 FY2027 call upgraded from estimated to confirmed at 13:30 PST. SpaceX Nasdaq:SPCX issuer IR/SEC and SpaceX/FAA/NASA launches and permits rechecked; Q4 earnings date and individual upcoming Starlink launch times remain unconfirmed. Adobe, Workday and Cloudflare entrypoints blocked, some IR pages dynamic. NOT a fresh audit of all 79 historical sources; last full audit remains Oct 15.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,8 +5340,8 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-02T17:02:26Z",
-    "localDate": "2026-11-03",
+    "checkedAt": "2026-11-03T17:03:57.251Z",
+    "localDate": "2026-11-04",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
     "entryPointsAccessibleOrPartiallyRendered": 30,
@@ -5481,20 +5481,20 @@
         "status": "limited"
       }
     ],
-    "notes": "All 33 official issuer entry points checked: Adobe financial, Workday IR events and Cloudflare main IR were blocked; numerous pages were limited or JavaScript rendered. Targeted SEC filings confirmed Marvell–Lumentum and Anthropic S-1/A; OpenAI primary release verified Grid Protectors. Nov 2 Oracle and Alphabet financing launches reported by Reuters, with pricing/settlement not verified. SpaceX official investor calendar remains dynamic, SEC EDGAR last substantive filing Oct 26 8-K; Q4 earnings and early-Nov Falcon 9 exact launch unconfirmed. Historical 79-source sweep stays dated Oct 15."
+    "notes": "Attempted official source entrypoints for all 33. Adobe financial, Workday IR events, Cloudflare IR gave access errors; several sites need JS/rendering. Verified Apple Q4 results, Oracle/Alphabet completed PRICING but not settlement and PANW earnings call date/time. Checked SpaceX public Nasdaq:SPCX IR, SEC submissions, launches, FAA and NASA; no new confirmed Q4 or mission launch date. The October 15 historical full 79-source sweep timestamp is unchanged."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-02T17:02:26Z",
+    "checkedAt": "2026-11-03T17:03:57.251Z",
     "scope": "Targeted 33-issuer IR/newsroom entry-point review and individual SEC/primary/news verifications; NOT a complete repeat of the historical 79-source sweep.",
     "companies": 33,
     "events": 113,
     "companiesWithEvents": 33,
-    "confirmedEvents": 82,
+    "confirmedEvents": 85,
     "undatedEvents": 10,
-    "estimatedEvents": 18,
-    "reportedEvents": 3,
-    "confirmedMissingVerifiedAt": [],
-    "eventsWithoutSource": []
+    "estimatedEvents": 17,
+    "reportedEvents": 1,
+    "confirmedMissingVerifiedAt": 0,
+    "eventsWithoutSource": 0
   },
   "reviewHistory": [
     {
@@ -5969,6 +5969,74 @@
         "Adobe, Workday and Cloudflare official entry points inaccessible; multiple issuer IR events pages dynamic/limited.",
         "SpaceX (Nasdaq SPCX) Q4/FY26 earnings date not posted in accessible IR; SEC latest filing Oct 26; upcoming mission-identifiable Starlink launch date not verified by primary SpaceX/FAA/NASA.",
         "Historic complete 79-source catalog remains checked Oct 15; this run is a targeted 33-company review."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-03T17:03:57.251Z",
+      "scope": "Nov 4 HKT: targeted review of 33 issuer entrypoints and material SEC/IR updates; not a full historical 79-source audit.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "QCOM",
+        "SNOW",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "AAPL: November 2 FY2026 Q4 actual results $114.5bn revenue, 47.9% gross margin, $2.10 EPS, $28bn quarterly OCF; original earnings webcast date retained.",
+        "ORCL: November 2 $20bn priced concurrent $10bn common-stock + $10bn notes, five tranches, 7.000%-8.650% coupons; November 4 closing expected but not completed.",
+        "GOOGL: November 2 official SEC pricing €6bn seven-tranche euro notes; November 5 settlement prospective, not yet completed.",
+        "PANW: November 18 Q1 FY2027 official 1:30 p.m. PST earnings call confirmed, replaces MarketBeat estimate."
+      ],
+      "coverageGaps": [
+        "Adobe, Workday and Cloudflare official pages blocked; some remaining IR pages dynamically rendered or partial.",
+        "SpaceX Nasdaq:SPCX Q4/FY2026 earnings date and specific forthcoming Starlink mission launch date not confirmed; watchpoints retained, no fabricated exact dates.",
+        "Historical 79-source catalog full review last conducted October 15; current round is targeted."
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-02T17:02:26Z",
+  "lastAttempt": "2026-11-03T17:03:57.251Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -920,20 +920,26 @@
       "companies": [
         "AAPL"
       ],
-      "title": "Apple Q4 results & earnings call",
+      "title": "Apple FY2026 Q4 results and earnings webcast",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-02",
       "endDate": null,
       "window": null,
       "time": "Call: 14:00 PT / 17:00 ET",
-      "sourceUrl": "https://www.apple.com/investor/earnings-call/",
-      "sourceLabel": "Apple earnings webcast · official metadata",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
-      "basis": "Apple’s webcast event metadata identifies Q4 2026, November 2, 2026, with the call at 2:00 p.m. PT / 5:00 p.m. ET. The metadata JSON is linked below. This time is the call, not an inferred release time.",
-      "importance": "Device demand, silicon content and services growth.",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+      "sourceLabel": "Apple official fiscal Q4 earnings release",
+      "sourceCheckedAt": "2026-11-03T17:03:57.251Z",
+      "verifiedAt": "2026-11-03T17:03:57.251Z",
+      "basis": "Apple's November 2, 2026 fiscal Q4 results confirmed revenue $114.5bn (+12% YoY), gross margin 47.9% (including ~1 percentage-point favorable tariff refunds), diluted EPS $2.10 (+14% YoY, including $0.05 from tariff refunds), and operating cash flow $28bn. FY2026 revenue reached $479bn. The earnings webcast was explicitly scheduled for Nov 2 at 2:00 p.m. PT. These are actual quarterly results, not FY2027 guidance.",
+      "importance": "iPhone demand and mix, services, Apple silicon, AI-enabled device upgrade cycle, gross margin normalization after tariff refunds and operating cash generation.",
       "sources": [
+        {
+          "label": "Apple November 2 FY2026 Q4 earnings release",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+          "kind": "official",
+          "checkedAt": "2026-11-03T17:03:57.251Z"
+        },
         {
           "label": "Apple earnings webcast",
           "url": "https://www.apple.com/investor/earnings-call/",
@@ -949,7 +955,7 @@
       ],
       "startAt": "2026-11-02T22:00:00Z",
       "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-10-15T07:46:07.615401+00:00",
+      "timeCheckedAt": "2026-11-03T17:03:57.251Z",
       "timeCertainty": "verified"
     },
     {
@@ -1932,33 +1938,31 @@
       "companies": [
         "PANW"
       ],
-      "title": "Palo Alto Networks earnings",
+      "title": "Palo Alto Networks Q1 FY2027 results and earnings call",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-11-18",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings/",
-      "sourceLabel": "MarketBeat · published earnings estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
-      "importance": "Network/cloud security, platform adoption and enterprise budgets.",
+      "time": "Earnings call: Nov 18, 13:30 PST (Nov 19, 05:30 HKT)",
+      "sourceUrl": "https://investors.paloaltonetworks.com/events/event-details/q1-fy2027-palo-alto-networks-inc-earnings-call",
+      "sourceLabel": "Palo Alto Networks official investor earnings event",
+      "sourceCheckedAt": "2026-11-03T17:03:57.251Z",
+      "verifiedAt": "2026-11-03T17:03:57.251Z",
+      "basis": "Palo Alto Networks' official investor event identifies Q1 FY2027 earnings call on November 18, 2026 at 1:30 p.m. PST. This verifies the earnings call date/time; the precise release time is not separately specified. Prior provider estimate for the reporting date has been superseded by this first-party event listing.",
+      "importance": "Platformization, enterprise cybersecurity budgets, AI security adoption and revenue guidance; verified earnings-call time.",
       "sources": [
         {
-          "label": "MarketBeat · published earnings estimate",
-          "url": "https://www.marketbeat.com/stocks/NASDAQ/PANW/earnings/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
-        },
-        {
-          "label": "Stock Analysis · published earnings estimate",
-          "url": "https://stockanalysis.com/stocks/panw/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "label": "Palo Alto Networks Q1 FY2027 official earnings call",
+          "url": "https://investors.paloaltonetworks.com/events/event-details/q1-fy2027-palo-alto-networks-inc-earnings-call",
+          "kind": "official",
+          "checkedAt": "2026-11-03T17:03:57.251Z"
         }
-      ]
+      ],
+      "startAt": "2026-11-18T21:30:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-03T17:03:57.251Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "NET-2026-11-earnings",
@@ -3938,20 +3942,32 @@
       "companies": [
         "ORCL"
       ],
-      "title": "Oracle begins proposed $20bn debt-and-equity funding process",
+      "title": "Oracle prices $20bn concurrent common-stock and five-tranche senior-note offerings",
       "type": "Financing",
-      "status": "reported",
+      "status": "confirmed",
       "date": "2026-11-02",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/",
-      "sourceLabel": "Reuters Nov 2 financing report",
-      "sourceCheckedAt": "2026-11-02T17:02:26Z",
-      "verifiedAt": null,
-      "basis": "Reuters reported Nov 2 that Oracle was marketing approximately $10bn of bonds in six tranches plus a planned $10bn equity raise to finance AI/cloud expansion and general corporate needs. Bond pricing, completed issuance, common-stock quantity and proceeds were NOT yet finalized. Distinct from Oracle's Oct 28 SEC-exhibited plan to limit additional capital-market funding through FY2030 to $20bn; do not double count with past FY27 ATM issuance.",
-      "importance": "AI capex funding and liquidity: interest expense, equity dilution, rising leverage/credit spreads and future free-cash-flow conversion.",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/oracle-announces-pricing-of-20-billion-of-common-stock-and-senior-notes-302927244.html",
+      "sourceLabel": "Oracle November 2 pricing announcement and SEC final pricing term sheet",
+      "sourceCheckedAt": "2026-11-03T17:03:57.251Z",
+      "verifiedAt": "2026-11-03T17:03:57.251Z",
+      "basis": "Oracle formally priced on November 2, 2026 a $10bn underwritten common-stock offering of 86,206,897 shares at $116 and a separate $10bn five-tranche senior-note offering: $2bn 7.000% due 2029, $1.75bn 7.450% due 2031, $2.25bn 7.850% due 2033, $2.5bn 8.000% due 2037 and $1.5bn 8.650% due 2046. Oracle's official issuer release says each offering is EXPECTED to close November 4, subject to customary conditions; pricing does not establish completed settlement or cash receipt. Earlier Reuters reporting was preliminary marketing, not final terms; avoid counting this twice against previously announced capital-raising plans.",
+      "importance": "AI infrastructure funding, common-stock dilution and financing costs: high 7.0–8.65% note coupons and an expected, not completed, November 4 settlement.",
       "sources": [
+        {
+          "label": "Oracle official pricing announcement Nov 2",
+          "url": "https://www.prnewswire.com/news-releases/oracle-announces-pricing-of-20-billion-of-common-stock-and-senior-notes-302927244.html",
+          "kind": "official",
+          "checkedAt": "2026-11-03T17:03:57.251Z"
+        },
+        {
+          "label": "Oracle SEC final note pricing terms",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526443918/d87441dfwp.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-03T17:03:57.251Z"
+        },
         {
           "label": "Reuters Nov 2 bond/equity launch",
           "url": "https://www.reuters.com/business/oracle-offer-10-billion-bonds-2026-11-02/",
@@ -3971,20 +3987,26 @@
       "companies": [
         "GOOGL"
       ],
-      "title": "Alphabet markets approximately €6bn seven-tranche euro bond offering",
+      "title": "Alphabet prices €6bn seven-tranche euro senior-note offering",
       "type": "Financing",
-      "status": "reported",
+      "status": "confirmed",
       "date": "2026-11-02",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.reuters.com/business/finance/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-tech-debt-2026-11-02/",
-      "sourceLabel": "Reuters Nov 2 bond-market report",
-      "sourceCheckedAt": "2026-11-02T17:02:26Z",
-      "verifiedAt": null,
-      "basis": "Reuters reported Nov 2 that Alphabet launched a roughly €6bn seven-tranche EUR-denominated bond offering, with investor orders reported above €17bn. Marketing/order-book demand is NOT evidence that all tranches have priced, settled or raised cash; no precise settlement date verified. The reported maturities span approximately 2–19 years.",
-      "importance": "Funding and bond-investor appetite for AI infrastructure; compare hyperscaler capital-market issuance, lease liabilities and FCF.",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526443857/d134038dfwp.htm",
+      "sourceLabel": "Alphabet SEC final euro-note pricing term sheet",
+      "sourceCheckedAt": "2026-11-03T17:03:57.251Z",
+      "verifiedAt": "2026-11-03T17:03:57.251Z",
+      "basis": "Alphabet's November 2, 2026 SEC-filed final pricing term sheet confirms €6bn of euro-denominated SEC-registered senior unsecured notes across seven tranches (six fixed-rate series at 3.700%–5.250%, plus €750m floating-rate notes at 3-month EURIBOR + 0.50%). Trade date is November 2. The term sheet specifies T+3 settlement date November 5, which is a future scheduled settlement, NOT evidence the transaction has already closed or cash been received. Supersedes November 2 Reuters reports of an offering in marketing.",
+      "importance": "AI data-center financing in non-USD capital markets, funding spreads, maturity profile and operating free-cash-flow conversion.",
       "sources": [
+        {
+          "label": "Alphabet SEC November 2 final euro-note pricing terms",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526443857/d134038dfwp.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-03T17:03:57.251Z"
+        },
         {
           "label": "Reuters Nov 2 euro-bond offering",
           "url": "https://www.reuters.com/business/finance/alphabet-kicks-off-6-billion-bond-sale-tests-appetite-tech-debt-2026-11-02/",
@@ -3994,6 +4016,6 @@
       ]
     }
   ],
-  "verificationNote": "Nov 3, 2026 HKT targeted issuer-calendar/SEC/news review: attempted all 33 company official entry points (Adobe, Workday and Cloudflare blocked; others may be partial/dynamically rendered). Added Nov 2 Marvell–Lumentum $115bn EV all-stock agreement, Anthropic Form S-1/A, OpenAI Grid Protectors Georgia up-to-1,000-MW demand-response framework, and reported Oracle $20bn and Alphabet €6bn financing launches. All closing/listing/settlement dates remain unconfirmed. SpaceX Nasdaq:SPCX SEC Q3 earnings/10-Q and Oct 26 8-K rechecked; no newly confirmed Q4 earnings date or mission-specific Starlink launch date. This was NOT a fresh full 79-source audit; historical full sweep remains Oct 15.",
-  "lastPartialReview": "2026-11-02T17:02:26Z"
+  "verificationNote": "Nov 4, 2026 HKT targeted review of official IR/news sources for all 33 tracked companies, plus selective SEC filings. Updated Apple Nov 2 actual Q4 results; Oracle priced $20bn debt/equity (not settled); Alphabet priced €6bn euro notes (not settled); Palo Alto Networks Nov 18 Q1 FY2027 call upgraded from estimated to confirmed at 13:30 PST. SpaceX Nasdaq:SPCX issuer IR/SEC and SpaceX/FAA/NASA launches and permits rechecked; Q4 earnings date and individual upcoming Starlink launch times remain unconfirmed. Adobe, Workday and Cloudflare entrypoints blocked, some IR pages dynamic. NOT a fresh audit of all 79 historical sources; last full audit remains Oct 15.",
+  "lastPartialReview": "2026-11-03T17:03:57.251Z"
 }
