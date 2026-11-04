@@ -5340,7 +5340,7 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-04T17:07:48.597Z",
+    "checkedAt": "2026-11-04T17:15:44.625Z",
     "localDate": "2026-11-05",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
@@ -5481,15 +5481,15 @@
         "status": "limited"
       }
     ],
-    "notes": "All 33 issuer entrypoints attempted; Adobe and Cloudflare blocked; Arm investor-events blocked but official earnings-results page accessible. Reviewed SpaceX public Nasdaq:SPCX SEC filings, company IR, Starlink Mobile Qualcomm deal, FAA/NASA; no unsupported next earnings or launch time. Reviewed AMD results, CrowdStrike schedule, Google/Anthropic financing and OpenAI acquisition using dated first-party disclosures."
+    "notes": "All 33 issuer entrypoints attempted; Adobe and Cloudflare blocked; Arm investor-events blocked but official earnings-results page accessible. Reviewed SpaceX public Nasdaq:SPCX SEC filings, company IR, Starlink Mobile Qualcomm deal, FAA/NASA; no unsupported next earnings or launch time. Reviewed AMD results, CrowdStrike schedule, Google/Anthropic financing and OpenAI acquisition using dated first-party disclosures. Incremental targeted primary-source backfill on AMD/Meta October 27, AMD/World Labs September 28, and NVIDIA board repurchase authorization September 28; agreements/testing/authorizations explicitly distinguished from closing, production rollouts or cash executions."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-04T17:07:48.597Z",
+    "checkedAt": "2026-11-04T17:15:44.625Z",
     "scope": "Targeted 33-issuer official IR/newsroom entrypoint review and select dated primary-source SEC/official announcements; not an exhaustive historical 79-source refresh.",
     "companies": 33,
-    "events": 116,
+    "events": 119,
     "companiesWithEvents": 33,
-    "confirmedEvents": 89,
+    "confirmedEvents": 92,
     "undatedEvents": 10,
     "estimatedEvents": 16,
     "reportedEvents": 1,
@@ -6106,6 +6106,25 @@
         "Adobe financial and Cloudflare IR entrypoints blocked; Arm event landing page 403 but official quarterly-results alternative accessible; several other IR event listings were JS-dependent or limited.",
         "SpaceX Nasdaq:SPCX Q4/FY26 earnings date and independently mission-matched future Starship/Starlink launch date are unconfirmed after checking issuer IR/SEC and official launch/FAA/NASA context; retained undated/provisional.",
         "Company-level entrypoints reviewed for all 33, but full 79-source historical audit NOT rerun. Historical Oct 15 lastSuccessfulRefresh/checkedAt intentionally retained."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-04T17:15:44.625Z",
+      "scope": "Nov 5 HKT incremental issuer-source backfill following 33-company morning review; no historical 79-source audit reset.",
+      "companiesChecked": [
+        "AMD",
+        "META",
+        "NVDA"
+      ],
+      "companiesNotFullyReviewed": [],
+      "verifiedChanges": [
+        "AMD/META Oct 27 official release: initial Helios systems installed FOR TESTING, broader gigawatt-scale production not completed; $1bn AMD Meta equity investment announced as planned, not closed.",
+        "AMD Sep 28 definitive agreement to buy World Labs for ~$8.2bn all stock; company expects deal closing by end-2026 subject to conditions, no exact future day.",
+        "NVDA Sep 28 board authorization to add $150bn repurchases ($235bn remaining); not executed repurchases."
+      ],
+      "coverageGaps": [
+        "Incremental review only; earlier Nov 5 33-company entrypoint results and historical full-audit Oct 15 date retained.",
+        "SpaceX Nasdaq:SPCX earnings/launch uncertainties remain undated or estimated; no newly confirmed mission-specific date found in this spot review."
       ]
     }
   ]

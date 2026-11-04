@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-11-05",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-04T17:07:48.597Z",
+  "lastAttempt": "2026-11-04T17:15:44.625Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -4113,8 +4113,96 @@
           "checkedAt": "2026-11-04T17:07:48.597Z"
         }
       ]
+    },
+    {
+      "id": "amd-meta-helios-testing-2026-10-27",
+      "companies": [
+        "AMD",
+        "META"
+      ],
+      "title": "AMD and Meta confirm initial Helios rackscale systems installed for testing; AMD plans $1bn equity investment",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-10-27",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+      "sourceLabel": "AMD official October 27 2026 partnership progress announcement",
+      "sourceCheckedAt": "2026-11-04T17:15:44.625Z",
+      "verifiedAt": "2026-11-04T17:15:44.625Z",
+      "basis": "AMD's October 27 announcement confirms that initial Helios rackscale solutions are installed AND BEING TESTED at Meta; wider production deployment and gigawatt-scale capacity remain planned, not installed or converted to sales. AMD also says it WILL invest $1 billion in Meta's equity offering, not that cash investment has closed. Meta reports millions of previously deployed AMD EPYC CPUs and production Instinct GPU usage. This release is distinct from the earlier multi-year up-to-6-GW framework; do not count all 6 GW as installed power.",
+      "importance": "Material AMD MI450/Helios customer qualification, Meta AI accelerator sourcing diversification and reciprocal financing/exposure; test units versus production gigawatts.",
+      "sources": [
+        {
+          "label": "AMD official Oct 27 Helios/Meta strategic-partnership release",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:15:44.625Z"
+        },
+        {
+          "label": "AMD Newsroom Oct 27 announcement",
+          "url": "https://newsroom.amd.com/news/amd-meta-advance-strategic-partnership-power-metas-ai-infrastructure/",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:15:44.625Z"
+        }
+      ]
+    },
+    {
+      "id": "amd-worldlabs-8b2-agreement-2026-09-28",
+      "companies": [
+        "AMD"
+      ],
+      "title": "AMD agrees to $8.2bn all-stock World Labs acquisition; closing expected by year-end",
+      "type": "M&A",
+      "status": "confirmed",
+      "date": "2026-09-28",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://newsroom.amd.com/news/amd-acquire-world-labs/",
+      "sourceLabel": "AMD official September 28 2026 definitive acquisition agreement",
+      "sourceCheckedAt": "2026-11-04T17:15:44.625Z",
+      "verifiedAt": "2026-11-04T17:15:44.625Z",
+      "basis": "AMD announced on September 28 a DEFINITIVE AGREEMENT to acquire Fei-Fei Li's spatial-intelligence/world-models startup World Labs for approximately $8.2 billion in AMD shares. Regulatory approvals and customary conditions remain; AMD EXPECTS closing by the end of 2026 but has not confirmed a closing date or completion. The September 28 date is the announcement date, not the deal's completion date.",
+      "importance": "AMD move upstream into model research to guide AI GPU/system roadmap for spatial intelligence, robotics and physical AI; all-stock consideration/dilution risk and unclosed M&A.",
+      "sources": [
+        {
+          "label": "AMD Newsroom Sep 28 definitive World Labs acquisition agreement",
+          "url": "https://newsroom.amd.com/news/amd-acquire-world-labs/",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:15:44.625Z"
+        }
+      ]
+    },
+    {
+      "id": "nvda-150bn-repurchase-authorization-2026-09-28",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "NVIDIA board adds $150bn share-repurchase authorization; $235bn remaining",
+      "type": "Financing",
+      "status": "confirmed",
+      "date": "2026-09-28",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-a-150-Billion-Share-Repurchase-Authorization-Increase/default.aspx",
+      "sourceLabel": "NVIDIA September 28 2026 board repurchase-authorization press release",
+      "sourceCheckedAt": "2026-11-04T17:15:44.625Z",
+      "verifiedAt": "2026-11-04T17:15:44.625Z",
+      "basis": "NVIDIA announced a board-authorized ADDITIONAL $150 billion repurchase-program capacity on September 28, raising the remaining authorization to $235 billion. Management EXPECTS to execute the remaining program through FY2028; neither $150bn nor $235bn has been repurchased as of the announcement. This event is a confirmed board authorization, not completed cash outflow, announced buyback execution, dividend, or exact future purchase day.",
+      "importance": "NVDA shareholder returns, free-cash-flow allocation, net cash versus strategic AI investments, and future share-count dilution-offset economics.",
+      "sources": [
+        {
+          "label": "NVIDIA official Sep 28 repurchase authorization increase",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-a-150-Billion-Share-Repurchase-Authorization-Increase/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:15:44.625Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 5, 2026 HKT targeted issuer IR/newsroom review across all 33 companies (not an exhaustive repeat of the historical 79-source audit). AMD Nov 3 Q3 actual results/guidance added to existing earnings; CrowdStrike Dec 1 Q3 FY2027 promoted from estimated to confirmed 14:00 PST call; official Nov 4 announcements added: SpaceX/QCOM Starlink Mobile 5G equipment, Alphabet/Anthropic/TeraWulf project credit support, OpenAI proposed Pierre acquisition. SpaceX Nasdaq:SPCX IR/SEC and FAA/NASA launch sources rechecked: no exact upcoming Q4 earnings or reliably identified Starship/Starlink launch day. Adobe and Cloudflare entrypoints blocked; Arm's event page blocked but quarterly alternate accessible, other sites partially dynamic. Full 79-source audit remains October 15.",
-  "lastPartialReview": "2026-11-04T17:07:48.597Z"
+  "verificationNote": "Nov 5, 2026 HKT targeted issuer IR/newsroom review across all 33 companies (not an exhaustive repeat of the historical 79-source audit). AMD Nov 3 Q3 actual results/guidance added to existing earnings; CrowdStrike Dec 1 Q3 FY2027 promoted from estimated to confirmed 14:00 PST call; official Nov 4 announcements added: SpaceX/QCOM Starlink Mobile 5G equipment, Alphabet/Anthropic/TeraWulf project credit support, OpenAI proposed Pierre acquisition. SpaceX Nasdaq:SPCX IR/SEC and FAA/NASA launch sources rechecked: no exact upcoming Q4 earnings or reliably identified Starship/Starlink launch day. Adobe and Cloudflare entrypoints blocked; Arm's event page blocked but quarterly alternate accessible, other sites partially dynamic. Full 79-source audit remains October 15. Incremental Nov 5 HKT official-source backfill: October 27 AMD/Meta Helios test-stage deployment and proposed $1bn AMD equity investment, September 28 AMD $8.2bn World Labs definitive deal (unclosed), and NVIDIA $150bn incremental/$235bn remaining repurchase authorization (not executed). Historical announcement dates only; no future close or buyback day invented.",
+  "lastPartialReview": "2026-11-04T17:15:44.625Z"
 }
