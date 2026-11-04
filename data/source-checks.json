@@ -5340,12 +5340,12 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-03T17:03:57.251Z",
-    "localDate": "2026-11-04",
+    "checkedAt": "2026-11-04T17:07:48.597Z",
+    "localDate": "2026-11-05",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 30,
-    "entryPointsBlocked": 3,
+    "entryPointsAccessibleOrPartiallyRendered": 31,
+    "entryPointsBlocked": 2,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
@@ -5394,7 +5394,7 @@
       },
       {
         "id": "WDAY",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "ASML",
@@ -5450,7 +5450,7 @@
       },
       {
         "id": "ARM",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "QCOM",
@@ -5481,17 +5481,17 @@
         "status": "limited"
       }
     ],
-    "notes": "Attempted official source entrypoints for all 33. Adobe financial, Workday IR events, Cloudflare IR gave access errors; several sites need JS/rendering. Verified Apple Q4 results, Oracle/Alphabet completed PRICING but not settlement and PANW earnings call date/time. Checked SpaceX public Nasdaq:SPCX IR, SEC submissions, launches, FAA and NASA; no new confirmed Q4 or mission launch date. The October 15 historical full 79-source sweep timestamp is unchanged."
+    "notes": "All 33 issuer entrypoints attempted; Adobe and Cloudflare blocked; Arm investor-events blocked but official earnings-results page accessible. Reviewed SpaceX public Nasdaq:SPCX SEC filings, company IR, Starlink Mobile Qualcomm deal, FAA/NASA; no unsupported next earnings or launch time. Reviewed AMD results, CrowdStrike schedule, Google/Anthropic financing and OpenAI acquisition using dated first-party disclosures."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-03T17:03:57.251Z",
-    "scope": "Targeted 33-issuer IR/newsroom entry-point review and individual SEC/primary/news verifications; NOT a complete repeat of the historical 79-source sweep.",
+    "checkedAt": "2026-11-04T17:07:48.597Z",
+    "scope": "Targeted 33-issuer official IR/newsroom entrypoint review and select dated primary-source SEC/official announcements; not an exhaustive historical 79-source refresh.",
     "companies": 33,
-    "events": 113,
+    "events": 116,
     "companiesWithEvents": 33,
-    "confirmedEvents": 85,
+    "confirmedEvents": 89,
     "undatedEvents": 10,
-    "estimatedEvents": 17,
+    "estimatedEvents": 16,
     "reportedEvents": 1,
     "confirmedMissingVerifiedAt": 0,
     "eventsWithoutSource": 0
@@ -6037,6 +6037,75 @@
         "Adobe, Workday and Cloudflare official pages blocked; some remaining IR pages dynamically rendered or partial.",
         "SpaceX Nasdaq:SPCX Q4/FY2026 earnings date and specific forthcoming Starlink mission launch date not confirmed; watchpoints retained, no fabricated exact dates.",
         "Historical 79-source catalog full review last conducted October 15; current round is targeted."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-04T17:07:48.597Z",
+      "scope": "Nov 5 HKT: attempted all 33 official issuer entrypoints; five material updates using official IR, company/SEC sources, with distinct SpaceX public-company review; no full 79-source rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "AMD: November 3 official Q3 2026 earnings actual $13.377bn revenue, Data Center +97% YoY, non-GAAP EPS $2.09; Q4 revenue outlook ~$17bn +/-3% and 55% non-GAAP gross margin. Updated existing confirmed event.",
+        "CRWD: November 4 official issuer statement fixes December 1 Q3 FY2027 release and 14:00 PST call; upgraded existing estimated earnings event to confirmed.",
+        "SPACEX/QCOM: November 4 Qualcomm official announcement of QRU100/QDU100/Layer 1 selection for Starlink Mobile planned terrestrial 5G; 2027 deployment start only an expected year, no day.",
+        "GOOGL/ANTHROPIC: November 4 TeraWulf credit-support agreement with Google concerning debt financing against approximately $19bn Anthropic lease, and Fluor EPC; no project-loan closing or online megawatts inferred.",
+        "OPENAI: November 4 proposed Pierre Computer Company acquisition to expand Codex Git tooling; no completion/closing day claimed."
+      ],
+      "coverageGaps": [
+        "Adobe financial and Cloudflare IR entrypoints blocked; Arm event landing page 403 but official quarterly-results alternative accessible; several other IR event listings were JS-dependent or limited.",
+        "SpaceX Nasdaq:SPCX Q4/FY26 earnings date and independently mission-matched future Starship/Starlink launch date are unconfirmed after checking issuer IR/SEC and official launch/FAA/NASA context; retained undated/provisional.",
+        "Company-level entrypoints reviewed for all 33, but full 79-source historical audit NOT rerun. Historical Oct 15 lastSuccessfulRefresh/checkedAt intentionally retained."
       ]
     }
   ]

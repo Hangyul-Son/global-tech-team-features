@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-03T17:03:57.251Z",
+  "lastAttempt": "2026-11-04T17:07:48.597Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -446,19 +446,19 @@
       "companies": [
         "AMD"
       ],
-      "title": "AMD Q3 financial results",
+      "title": "AMD Q3 2026 results: $13.38bn revenue, Data Center +97%; Q4 $17bn outlook",
       "type": "Earnings",
       "status": "confirmed",
       "window": null,
       "date": "2026-11-03",
       "endDate": null,
       "time": "14:00 PT / 17:00 ET (Nov 4, 06:00 HKT)",
-      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
-      "sourceLabel": "AMD official October 6 earnings announcement",
-      "verifiedAt": "2026-10-23T17:04:38Z",
-      "basis": "AMD's official October 6, 2026 release confirms results after market close November 3 and a 5:00 p.m. Eastern / 2:00 p.m. Pacific webcast. On November 3 US standard time applies (EST/PST), despite the generic IR calendar's outdated PDT label.",
-      "importance": "Instinct adoption, server share and AI accelerator guidance.",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "sourceLabel": "AMD official November 3 Q3 2026 earnings release and updated outlook",
+      "verifiedAt": "2026-11-04T17:07:48.597Z",
+      "basis": "AMD reported Q3 2026 revenue of $13.377bn (+45% YoY), GAAP diluted EPS of $1.46, non-GAAP EPS of $2.09 and Data Center revenue approximately $8.5bn (+97% YoY) on November 3. Management guided Q4 revenue to approximately $17bn, plus/minus 3%, and non-GAAP gross margin to approximately 55%. The previously confirmed Nov 3 2:00 p.m. PST earnings call is unchanged; these Q3 results are actual, while the Q4 figures are forward guidance, not realized revenues.",
+      "importance": "AI accelerator / EPYC server share and revenue conversion; Helios / MI450 supply ramp, plus management's $17bn (+/-3%) Q4 revenue guidance and 55% non-GAAP gross-margin outlook.",
+      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
       "sources": [
         {
           "label": "AMD official Q3 earnings release announcement",
@@ -471,11 +471,17 @@
           "url": "https://ir.amd.com/news-events/ir-calendar",
           "kind": "official",
           "checkedAt": "2026-10-23T17:04:38Z"
+        },
+        {
+          "label": "AMD November 3 2026 reported results and outlook",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:07:48.597Z"
         }
       ],
       "startAt": "2026-11-03T22:00:00Z",
       "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-10-23T17:04:38Z",
+      "timeCheckedAt": "2026-11-04T17:07:48.597Z",
       "timeCertainty": "verified"
     },
     {
@@ -1905,33 +1911,31 @@
       "companies": [
         "CRWD"
       ],
-      "title": "CrowdStrike earnings",
+      "title": "CrowdStrike Q3 FY2027 earnings release and call",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-12-01",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings/",
-      "sourceLabel": "MarketBeat · published earnings estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
-      "importance": "Endpoint and cloud security, platform consolidation and AI security.",
+      "time": "Earnings after U.S. market close; conference call 2:00 p.m. PST / 5:00 p.m. EST (Dec 2, 06:00 HKT)",
+      "sourceUrl": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-announces-date-fiscal-third-quarter-2027-financial",
+      "sourceLabel": "CrowdStrike November 4 official Q3 FY2027 earnings-call announcement",
+      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
+      "verifiedAt": "2026-11-04T17:07:48.597Z",
+      "basis": "CrowdStrike's Nov 4, 2026 issuer press release explicitly confirms Q3 FY2027 earnings results after U.S. market close on Tuesday Dec 1, with the conference call at 2:00 p.m. Pacific (PST, 22:00 UTC) / 5:00 p.m. Eastern. This replaces the earlier MarketBeat date estimate. The earnings-release time itself is not separately announced; only the call time is normalized.",
+      "importance": "Cybersecurity ARR, Falcon Flex adoption, operating leverage and AI security demand; company-confirmed earnings day and conference-call time.",
       "sources": [
         {
-          "label": "MarketBeat · published earnings estimate",
-          "url": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/earnings/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
-        },
-        {
-          "label": "Stock Analysis · published earnings estimate",
-          "url": "https://stockanalysis.com/stocks/crwd/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "label": "CrowdStrike official November 4 earnings announcement",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-announces-date-fiscal-third-quarter-2027-financial",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:07:48.597Z"
         }
-      ]
+      ],
+      "startAt": "2026-12-01T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCertainty": "verified",
+      "timeCheckedAt": "2026-11-04T17:07:48.597Z"
     },
     {
       "id": "PANW-2026-11-earnings",
@@ -2829,9 +2833,9 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
       "sourceLabel": "SpaceX official updates",
-      "sourceCheckedAt": "2026-10-26T17:03:25.738Z",
+      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
       "verifiedAt": null,
-      "basis": "Monitor Starlink Connectivity subscribers, pricing, Direct-to-Cell carrier agreements and operating metrics in SpaceX's investor updates and SEC disclosures. SpaceX is Nasdaq-listed (SPCX). No specific future announcement date has been confirmed.",
+      "basis": "Monitor publicly listed Nasdaq:SPCX Starlink/Connectivity subscriber counts, pricing, Direct-to-Cell, spectrum/FCC and terrestrial network capex. The Nov 4 Qualcomm Dragonwing supply selection is tracked as a SEPARATE dated event; its planned 2027 site rollout is not an exact future event date. No further dated commercial milestone verified.",
       "importance": "Subscriber and ARPU growth, mobile partnerships and satellite connectivity demand.",
       "sources": [
         {
@@ -2883,9 +2887,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
       "verifiedAt": null,
-      "basis": "SpaceX is publicly traded as Nasdaq:SPCX following its June 12, 2026 IPO. October 20 Q3 earnings, October 22 Form 10-Q and October 26 financing 8-K are separately tracked. The Nov 1 review of SpaceX IR events returned headings without an accessible upcoming schedule; no issuer-confirmed Q4/FY2026 earnings date was established. This is limited dynamic-site visibility, not evidence that the company has not announced one. Continue checking issuer IR and SEC, never extrapolate a date.",
+      "basis": "SpaceX is publicly traded on Nasdaq as SPCX since June 12, 2026. Q3 results on Oct 20, its Oct 22 Form 10-Q and the Oct 26 $40bn GPU finance-lease commitment filing remain separately recorded. The November 5 HKT spot review of SpaceX IR/SEC records did not establish a company-confirmed Q4/FY2026 earnings call date. Keep this entry undated until SpaceX publishes one.",
       "importance": "Q4 Starlink/Connectivity and SI revenue, capex, cash flow, guidance and Starship milestones.",
       "sources": [
         {
@@ -4014,8 +4018,103 @@
           "checkedAt": "2026-11-02T17:02:26Z"
         }
       ]
+    },
+    {
+      "id": "spacex-qcom-starlink-mobile-5g-2026-11-04",
+      "companies": [
+        "SPACEX",
+        "QCOM"
+      ],
+      "title": "SpaceX selects Qualcomm Dragonwing for Starlink Mobile terrestrial 5G rollout",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-04",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.qualcomm.com/news/releases/2026/11/spacex-selects-qualcomm-to-accelerate-starlink-mobile-s-nationwi",
+      "sourceLabel": "Qualcomm official November 4 Starlink Mobile infrastructure announcement",
+      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
+      "verifiedAt": "2026-11-04T17:07:48.597Z",
+      "basis": "On Nov 4 Qualcomm Technologies announced SpaceX selected Dragonwing QRU100 radios and QDU100 baseband platforms plus Layer 1 software for Starlink Mobile's planned U.S. terrestrial 5G network. The multi-year arrangement envisions tens of thousands of cell sites; deployment is planned to START in 2027, without a confirmed day or subscriber/service-launch date. Financial terms and rollout completion are not disclosed. This is infrastructure/Direct-to-Cell adjacency, not a completed national network or booked Qualcomm revenue.",
+      "importance": "Public Nasdaq:SPCX Starlink/Connectivity capex, network buildout and spectrum monetization; material QCOM diversification beyond smartphones and opportunity for competing wireless infrastructure silicon.",
+      "sources": [
+        {
+          "label": "Qualcomm official Nov 4 release",
+          "url": "https://www.qualcomm.com/news/releases/2026/11/spacex-selects-qualcomm-to-accelerate-starlink-mobile-s-nationwi",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:07:48.597Z"
+        },
+        {
+          "label": "Reuters reporting Nov 4",
+          "url": "https://www.reuters.com/business/media-telecom/qualcomm-signs-major-5g-infrastructure-deal-with-spacex-starlink-mobile-network-2026-11-04/",
+          "kind": "report",
+          "checkedAt": "2026-11-04T17:07:48.597Z"
+        }
+      ]
+    },
+    {
+      "id": "googl-anthropic-terawulf-hawesville-credit-support-2026-11-04",
+      "companies": [
+        "GOOGL",
+        "ANTHROPIC"
+      ],
+      "title": "Google credit supports financing for TeraWulf's $19bn Anthropic data-center lease",
+      "type": "Financing",
+      "status": "confirmed",
+      "date": "2026-11-04",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investors.terawulf.com/news-events/press-releases/detail/148/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement",
+      "sourceLabel": "TeraWulf official November 4 credit-support and EPC announcement",
+      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
+      "verifiedAt": "2026-11-04T17:07:48.597Z",
+      "basis": "TeraWulf disclosed executed credit support agreements with Alphabet subsidiary Google LLC for ANTICIPATED project debt financing tied to approximately $19bn in long-term Anthropic LEASE commitments for the Justified/Hawesville AI campus. This is contractual credit support, not $19bn of new Google capital invested or a closed project loan. Separately, TeraWulf executed a definitive Fluor EPC contract for three data-center buildings. Phased ready-for-service targets begin in late 2027 and continue into Q2 2028; these periods are forward-looking windows, not exact completion dates.",
+      "importance": "Google's balance-sheet/credit exposure to third-party AI infrastructure, Anthropic's long-duration compute leasing, cost of project debt, EPC execution and power-to-compute deployment lag.",
+      "sources": [
+        {
+          "label": "TeraWulf official November 4 release",
+          "url": "https://investors.terawulf.com/news-events/press-releases/detail/148/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:07:48.597Z"
+        },
+        {
+          "label": "TeraWulf SEC-filed November 4 supporting 8-K",
+          "url": "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001628280-26-069810/wulfhawesvillecsaandepcmpr.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:07:48.597Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-pierre-git-devtools-acquisition-announced-2026-11-04",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI announces planned Pierre Computer Company acquisition for Codex Git tooling",
+      "type": "Acquisition",
+      "status": "confirmed",
+      "date": "2026-11-04",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-pierre/",
+      "sourceLabel": "OpenAI official November 4 planned acquisition announcement",
+      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
+      "verifiedAt": "2026-11-04T17:07:48.597Z",
+      "basis": "OpenAI announced on Nov 4, 2026 that it intends to acquire Pierre Computer Company, maker of Git-oriented Trees, Diffs, Highlights and Code Storage tooling. Transaction closing is conditional on customary terms and regulatory approvals; OpenAI and Pierre remain separate until closing. Consideration and an exact closing date were not disclosed. This is an announcement, not a completed acquisition or an IPO event.",
+      "importance": "Codex agentic software development, in-house source-control workflow and competitive positioning vs GitHub/Copilot; purchase price and closing timing undisclosed.",
+      "sources": [
+        {
+          "label": "OpenAI official Nov 4 planned acquisition release",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/",
+          "kind": "official",
+          "checkedAt": "2026-11-04T17:07:48.597Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 4, 2026 HKT targeted review of official IR/news sources for all 33 tracked companies, plus selective SEC filings. Updated Apple Nov 2 actual Q4 results; Oracle priced $20bn debt/equity (not settled); Alphabet priced €6bn euro notes (not settled); Palo Alto Networks Nov 18 Q1 FY2027 call upgraded from estimated to confirmed at 13:30 PST. SpaceX Nasdaq:SPCX issuer IR/SEC and SpaceX/FAA/NASA launches and permits rechecked; Q4 earnings date and individual upcoming Starlink launch times remain unconfirmed. Adobe, Workday and Cloudflare entrypoints blocked, some IR pages dynamic. NOT a fresh audit of all 79 historical sources; last full audit remains Oct 15.",
-  "lastPartialReview": "2026-11-03T17:03:57.251Z"
+  "verificationNote": "Nov 5, 2026 HKT targeted issuer IR/newsroom review across all 33 companies (not an exhaustive repeat of the historical 79-source audit). AMD Nov 3 Q3 actual results/guidance added to existing earnings; CrowdStrike Dec 1 Q3 FY2027 promoted from estimated to confirmed 14:00 PST call; official Nov 4 announcements added: SpaceX/QCOM Starlink Mobile 5G equipment, Alphabet/Anthropic/TeraWulf project credit support, OpenAI proposed Pierre acquisition. SpaceX Nasdaq:SPCX IR/SEC and FAA/NASA launch sources rechecked: no exact upcoming Q4 earnings or reliably identified Starship/Starlink launch day. Adobe and Cloudflare entrypoints blocked; Arm's event page blocked but quarterly alternate accessible, other sites partially dynamic. Full 79-source audit remains October 15.",
+  "lastPartialReview": "2026-11-04T17:07:48.597Z"
 }
