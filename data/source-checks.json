@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 6 HKT targeted official IR/newsroom entrypoint review across all 33 Global Tech companies (not a complete repeat of historical Oct 15 79-source audit). Updated FAA: five Nov 17–19 Starship public meetings ALL VIRTUAL, public comments extended Nov 30 to Dec 7; neither event is a launch or approval. Upgraded Nov 24 Workday FY27 Q3 from estimated to confirmed with 13:30 PST call. Added actual Nov 4 Arm and Qualcomm earnings figures and guidance versus realized results. Backfilled Sept 8 Qualcomm–Amazon AI custom silicon/optics collaboration. SpaceX remains listed Nasdaq SPCX, Q4 earnings undated and Starlink launch window provisional. Adobe entrypoint blocked; several others limited/dynamic. Original mobile List layout unchanged.",
+  "note": "Nov 6 HKT targeted official IR/newsroom entrypoint review across all 33 Global Tech companies (not a complete repeat of historical Oct 15 79-source audit). Updated FAA: five Nov 17–19 Starship public meetings ALL VIRTUAL, public comments extended Nov 30 to Dec 7; neither event is a launch or approval. Upgraded Nov 24 Workday FY27 Q3 from estimated to confirmed with 13:30 PST call. Added actual Nov 4 Arm and Qualcomm earnings figures and guidance versus realized results. Backfilled Sept 8 Qualcomm–Amazon AI custom silicon/optics collaboration. SpaceX remains listed Nasdaq SPCX, Q4 earnings undated and Starlink launch window provisional. Adobe entrypoint blocked; several others limited/dynamic. Original mobile List layout unchanged. Supplemental Nov 6 HKT filing discovery: Meta Nov 3 $15bn five-tranche USD senior-note pricing confirmed from reproduced 424B5 prospectus and Reuters; expected Nov 5 settlement NOT confirmed, potential euro financing not treated as issued.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,7 +5340,7 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-05T17:07:56.396Z",
+    "checkedAt": "2026-11-05T17:11:16.411Z",
     "localDate": "2026-11-06",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
@@ -5481,15 +5481,15 @@
         "status": "limited"
       }
     ],
-    "notes": "Official issuer IR/newsroom entrypoint checks attempted for each of 33. Adobe news.adobe.com/financial did not load; ASML quarterly endpoint and Cloudflare root were blocked but alternate issuer investor/results source pages worked (marked limited). Dynamic IR pages do not independently verify absence of new filings/events. SpaceX public Nasdaq SPCX issuer IR/SEC, official FAA Starship and NASA context reviewed. Q4 earnings date and unique future mission launch times remain unconfirmed. FAA corrected virtual meetings and Dec 7 deadline. Not a repeat of Oct 15 historical 79-source audit."
+    "notes": "Official issuer IR/newsroom entrypoint checks attempted for each of 33. Adobe news.adobe.com/financial did not load; ASML quarterly endpoint and Cloudflare root were blocked but alternate issuer investor/results source pages worked (marked limited). Dynamic IR pages do not independently verify absence of new filings/events. SpaceX public Nasdaq SPCX issuer IR/SEC, official FAA Starship and NASA context reviewed. Q4 earnings date and unique future mission launch times remain unconfirmed. FAA corrected virtual meetings and Dec 7 deadline. Not a repeat of Oct 15 historical 79-source audit. Incremental META Nov3 SEC Form 424B5 and Reuters cross-check: $15bn five-tranche USD bond pricing; settlement not confirmed; SEC primary index inaccessible so filing-text mirror used."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-05T17:07:56.396Z",
+    "checkedAt": "2026-11-05T17:11:16.411Z",
     "scope": "Targeted Nov 6 primary issuer, SEC filing and FAA updates across all 33 issuer entrypoints, NOT complete 79-source historical refresh.",
     "companies": 33,
-    "events": 120,
+    "events": 121,
     "companiesWithEvents": 33,
-    "confirmedEvents": 94,
+    "confirmedEvents": 95,
     "undatedEvents": 15,
     "estimatedEvents": 15,
     "reportedEvents": 1,
@@ -6191,6 +6191,23 @@
         "Adobe's IR/financial entrypoint was inaccessible; ASML and Cloudflare required alternative official source pages; several company calendars are dynamically rendered.",
         "SpaceX Nasdaq:SPCX next Q4 earnings call has no verified day/time; conflicting anonymous Starlink manifest dates remain provisional and undated.",
         "Historical October 15 79-source audit retained; this is a fresh 33-issuer entrypoint review and selective primary-source filing verification."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-05T17:11:16.411Z",
+      "scope": "Nov 6 HKT incremental Meta securities-filing cross-check after 33-company entrypoint and FAA/earnings updates. Historical 79-source audit unchanged.",
+      "companiesChecked": [
+        "META"
+      ],
+      "companiesNotFullyReviewed": [
+        "META"
+      ],
+      "verifiedChanges": [
+        "META: November 3, 2026 Form 424B5 $15bn USD senior notes priced with coupons 5.850%–7.500%, confirmed in full reproduced issuer prospectus and Reuters; November 5 settlement expected but not verified as completed; planned euro tranches NOT added as priced."
+      ],
+      "coverageGaps": [
+        "SEC accession verified via reputable filing index and mirrored full 424B5 text; SEC original index did not load in automated retriever, so link/provenance is labeled transparently.",
+        "This incremental check is not a repeat of historical October 15 79-source audit."
       ]
     }
   ]

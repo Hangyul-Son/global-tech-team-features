@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-11-06",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-05T17:07:56.396Z",
+  "lastAttempt": "2026-11-05T17:11:16.411Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -4251,8 +4251,47 @@
           "checkedAt": "2026-11-05T17:07:56.396Z"
         }
       ]
+    },
+    {
+      "id": "meta-15bn-usd-notes-priced-2026-11-03",
+      "companies": [
+        "META"
+      ],
+      "title": "Meta prices $15bn five-tranche USD notes at 5.85–7.50% coupons",
+      "type": "Financing",
+      "status": "confirmed",
+      "date": "2026-11-03",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.stocktitan.net/sec-filings/META/424b5-meta-platforms-inc-prospectus-supplement-debt-securities-28dad7ea2a12.html",
+      "sourceLabel": "Meta filed November 3 prospectus supplement Form 424B5; SEC filing text reproduced by StockTitan, corroborated by Reuters",
+      "sourceCheckedAt": "2026-11-05T17:11:16.411Z",
+      "verifiedAt": "2026-11-05T17:11:16.411Z",
+      "basis": "Meta priced and disclosed a $15bn US-dollar bond offering in a November 3, 2026 prospectus supplement (Form 424B5, SEC accession 0001193125-26-444440). Five tranches: $3.25bn at 5.850% due 2031; $3.25bn at 6.250% due 2033; $4.0bn at 6.550% due 2036; $1.75bn at 7.350% due 2046; $2.75bn at 7.500% due 2056. Estimated net proceeds ~$14.9bn after fees. November 5 is the prospectus's expected settlement date, NOT independently confirmed closing; separate euro debt was only contemplated, not included in the $15bn. SEC primary index was inaccessible to automated retrieval, so the exact original Form 424B5 text was cross-checked using a faithful reproduction and Reuters.",
+      "importance": "Hyperscaler AI capex funding and credit spreads: Meta's 2036 notes carry 6.55% coupon and 2056 notes 7.50%; distinguish $15bn priced USD senior notes from completed settlement or proposed euro tranche.",
+      "sources": [
+        {
+          "label": "SEC EDGAR 424B5 accession 0001193125-26-444440 (primary index; access limited)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526444440/0001193125-26-444440-index.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-05T17:11:16.411Z"
+        },
+        {
+          "label": "Full Form 424B5 prospectus text mirror",
+          "url": "https://www.stocktitan.net/sec-filings/META/424b5-meta-platforms-inc-prospectus-supplement-debt-securities-28dad7ea2a12.html",
+          "kind": "report",
+          "checkedAt": "2026-11-05T17:11:16.411Z"
+        },
+        {
+          "label": "Reuters November 3 bond-pricing report",
+          "url": "https://www.reuters.com/technology/meta-raises-15-billion-in-five-part-us-bond-sale-2026-11-03/",
+          "kind": "report",
+          "checkedAt": "2026-11-05T17:11:16.411Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 6 HKT targeted official IR/newsroom entrypoint review across all 33 Global Tech companies (not a complete repeat of historical Oct 15 79-source audit). Updated FAA: five Nov 17–19 Starship public meetings ALL VIRTUAL, public comments extended Nov 30 to Dec 7; neither event is a launch or approval. Upgraded Nov 24 Workday FY27 Q3 from estimated to confirmed with 13:30 PST call. Added actual Nov 4 Arm and Qualcomm earnings figures and guidance versus realized results. Backfilled Sept 8 Qualcomm–Amazon AI custom silicon/optics collaboration. SpaceX remains listed Nasdaq SPCX, Q4 earnings undated and Starlink launch window provisional. Adobe entrypoint blocked; several others limited/dynamic. Original mobile List layout unchanged.",
-  "lastPartialReview": "2026-11-05T17:07:56.396Z"
+  "verificationNote": "Nov 6 HKT targeted official IR/newsroom entrypoint review across all 33 Global Tech companies (not a complete repeat of historical Oct 15 79-source audit). Updated FAA: five Nov 17–19 Starship public meetings ALL VIRTUAL, public comments extended Nov 30 to Dec 7; neither event is a launch or approval. Upgraded Nov 24 Workday FY27 Q3 from estimated to confirmed with 13:30 PST call. Added actual Nov 4 Arm and Qualcomm earnings figures and guidance versus realized results. Backfilled Sept 8 Qualcomm–Amazon AI custom silicon/optics collaboration. SpaceX remains listed Nasdaq SPCX, Q4 earnings undated and Starlink launch window provisional. Adobe entrypoint blocked; several others limited/dynamic. Original mobile List layout unchanged. Supplemental Nov 6 HKT filing discovery: Meta Nov 3 $15bn five-tranche USD senior-note pricing confirmed from reproduced 424B5 prospectus and Reuters; expected Nov 5 settlement NOT confirmed, potential euro financing not treated as issued.",
+  "lastPartialReview": "2026-11-05T17:11:16.411Z"
 }
