@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 4, 2026 HKT targeted review of official IR/news sources for all 33 tracked companies, plus selective SEC filings. Updated Apple Nov 2 actual Q4 results; Oracle priced $20bn debt/equity (not settled); Alphabet priced €6bn euro notes (not settled); Palo Alto Networks Nov 18 Q1 FY2027 call upgraded from estimated to confirmed at 13:30 PST. SpaceX Nasdaq:SPCX issuer IR/SEC and SpaceX/FAA/NASA launches and permits rechecked; Q4 earnings date and individual upcoming Starlink launch times remain unconfirmed. Adobe, Workday and Cloudflare entrypoints blocked, some IR pages dynamic. NOT a fresh audit of all 79 historical sources; last full audit remains Oct 15.",
+  "note": "Nov 6 HKT targeted official IR/newsroom entrypoint review across all 33 Global Tech companies (not a complete repeat of historical Oct 15 79-source audit). Updated FAA: five Nov 17–19 Starship public meetings ALL VIRTUAL, public comments extended Nov 30 to Dec 7; neither event is a launch or approval. Upgraded Nov 24 Workday FY27 Q3 from estimated to confirmed with 13:30 PST call. Added actual Nov 4 Arm and Qualcomm earnings figures and guidance versus realized results. Backfilled Sept 8 Qualcomm–Amazon AI custom silicon/optics collaboration. SpaceX remains listed Nasdaq SPCX, Q4 earnings undated and Starlink launch window provisional. Adobe entrypoint blocked; several others limited/dynamic. Original mobile List layout unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,12 +5340,12 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-04T17:15:44.625Z",
-    "localDate": "2026-11-05",
+    "checkedAt": "2026-11-05T17:07:56.396Z",
+    "localDate": "2026-11-06",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 31,
-    "entryPointsBlocked": 2,
+    "entryPointsAccessibleOrPartiallyRendered": 32,
+    "entryPointsBlocked": 1,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
@@ -5358,7 +5358,7 @@
       },
       {
         "id": "AMD",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "AVGO",
@@ -5386,7 +5386,7 @@
       },
       {
         "id": "NOW",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "ADBE",
@@ -5398,7 +5398,7 @@
       },
       {
         "id": "ASML",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "LRCX",
@@ -5426,11 +5426,11 @@
       },
       {
         "id": "GOOGL",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "META",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "ANTHROPIC",
@@ -5454,11 +5454,11 @@
       },
       {
         "id": "QCOM",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "SNOW",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "CRWD",
@@ -5470,7 +5470,7 @@
       },
       {
         "id": "NET",
-        "status": "blocked"
+        "status": "limited"
       },
       {
         "id": "OPENAI",
@@ -5481,17 +5481,17 @@
         "status": "limited"
       }
     ],
-    "notes": "All 33 issuer entrypoints attempted; Adobe and Cloudflare blocked; Arm investor-events blocked but official earnings-results page accessible. Reviewed SpaceX public Nasdaq:SPCX SEC filings, company IR, Starlink Mobile Qualcomm deal, FAA/NASA; no unsupported next earnings or launch time. Reviewed AMD results, CrowdStrike schedule, Google/Anthropic financing and OpenAI acquisition using dated first-party disclosures. Incremental targeted primary-source backfill on AMD/Meta October 27, AMD/World Labs September 28, and NVIDIA board repurchase authorization September 28; agreements/testing/authorizations explicitly distinguished from closing, production rollouts or cash executions."
+    "notes": "Official issuer IR/newsroom entrypoint checks attempted for each of 33. Adobe news.adobe.com/financial did not load; ASML quarterly endpoint and Cloudflare root were blocked but alternate issuer investor/results source pages worked (marked limited). Dynamic IR pages do not independently verify absence of new filings/events. SpaceX public Nasdaq SPCX issuer IR/SEC, official FAA Starship and NASA context reviewed. Q4 earnings date and unique future mission launch times remain unconfirmed. FAA corrected virtual meetings and Dec 7 deadline. Not a repeat of Oct 15 historical 79-source audit."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-04T17:15:44.625Z",
-    "scope": "Targeted 33-issuer official IR/newsroom entrypoint review and select dated primary-source SEC/official announcements; not an exhaustive historical 79-source refresh.",
+    "checkedAt": "2026-11-05T17:07:56.396Z",
+    "scope": "Targeted Nov 6 primary issuer, SEC filing and FAA updates across all 33 issuer entrypoints, NOT complete 79-source historical refresh.",
     "companies": 33,
-    "events": 119,
+    "events": 120,
     "companiesWithEvents": 33,
-    "confirmedEvents": 92,
-    "undatedEvents": 10,
-    "estimatedEvents": 16,
+    "confirmedEvents": 94,
+    "undatedEvents": 15,
+    "estimatedEvents": 15,
     "reportedEvents": 1,
     "confirmedMissingVerifiedAt": 0,
     "eventsWithoutSource": 0
@@ -6125,6 +6125,72 @@
       "coverageGaps": [
         "Incremental review only; earlier Nov 5 33-company entrypoint results and historical full-audit Oct 15 date retained.",
         "SpaceX Nasdaq:SPCX earnings/launch uncertainties remain undated or estimated; no newly confirmed mission-specific date found in this spot review."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-05T17:07:56.396Z",
+      "scope": "Nov 6 HKT targeted 33-company issuer entrypoints + issuer results, SEC and FAA Starship regulatory cross-check; 79-source full audit not rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AMD",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "ADBE",
+        "ASML",
+        "MU",
+        "AMZN",
+        "CRWV",
+        "ARM",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "SPACEX/FAA: Nov 17–19 Starship PEIS scoping meetings are ALL virtual across five sessions, not in-person; FAA extended comment deadline Nov 30 to Dec 7, 2026. These are not launch dates or license decisions.",
+        "WDAY: November 2 official release confirms November 24 FY27 Q3 results after close and 13:30 PST webcast (November 25 05:30 HKT); upgraded provider estimate to confirmed.",
+        "ARM: Nov 4 SEC Form 6-K actual FY27 Q2 $1.443bn revenue (+27%), licenses $773m (+50%), royalties $670m (+8%) and datacenter royalties double; kept FY27 future projections as guidance.",
+        "QCOM: Nov 4 FY26 Q4 actual GAAP $10.322bn (-8%), nonGAAP EPS $2.17; automotive +89% and FY27 datacenter $5bn target forward-looking.",
+        "QCOM/AMZN: backfilled Sep 8 official AWS custom silicon/optical 1.6T multigeneration collaboration announcement, not shipments."
+      ],
+      "coverageGaps": [
+        "Adobe's IR/financial entrypoint was inaccessible; ASML and Cloudflare required alternative official source pages; several company calendars are dynamically rendered.",
+        "SpaceX Nasdaq:SPCX next Q4 earnings call has no verified day/time; conflicting anonymous Starlink manifest dates remain provisional and undated.",
+        "Historical October 15 79-source audit retained; this is a fresh 33-issuer entrypoint review and selective primary-source filing verification."
       ]
     }
   ]

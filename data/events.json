@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-06",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-04T17:15:44.625Z",
+  "lastAttempt": "2026-11-05T17:07:56.396Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -810,18 +810,18 @@
       "companies": [
         "WDAY"
       ],
-      "title": "Workday earnings",
+      "title": "Workday Q3 FY2027 earnings & webcast",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-11-24",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/WDAY/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-11-24 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "time": "13:30 PST / 16:30 EST (Nov 25 05:30 HKT)",
+      "sourceUrl": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
+      "sourceLabel": "Workday official November 2 earnings-date announcement",
+      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
+      "verifiedAt": "2026-11-05T17:07:56.396Z",
+      "basis": "Workday officially announced on November 2 that it will release fiscal Q3 2027 results after U.S. market close on Tuesday, November 24, 2026, with conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). This company-confirmed date supersedes third-party historical-schedule estimates; the webcast time is distinct from the as-yet-unspecified earnings-release time.",
       "importance": "HR and finance budgets, subscription backlog and AI agents.",
       "sources": [
         {
@@ -835,8 +835,18 @@
           "url": "https://stockanalysis.com/stocks/wday/",
           "kind": "estimate",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Workday November 2 official results date & webcast time",
+          "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-05T17:07:56.396Z"
         }
-      ]
+      ],
+      "startAt": "2026-11-24T21:30:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-05T17:07:56.396Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "MU-2026-12-earnings",
@@ -1742,18 +1752,18 @@
       "companies": [
         "ARM"
       ],
-      "title": "Arm Q2 FY27 results & earnings webcast",
+      "title": "Arm Q2 FY2027 actual: $1.44bn revenue (+27% YoY); licenses +50%",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-04",
       "endDate": null,
       "window": null,
-      "sourceUrl": "https://investors.arm.com/financials/quarterly-annual-results",
-      "sourceLabel": "Arm official quarterly results and investor events",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
-      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
-      "basis": "Arm's official quarterly-results page, investor calendar and earnings announcement confirm November 4, 2026, at 14:00 PST (17:00 EST, 22:00 GMT) for the earnings webcast. Results are separately scheduled after market close. This supersedes the earlier tentatively proposed FY27 calendar date.",
-      "importance": "CPU royalties, licensing, data-center adoption and edge AI.",
+      "sourceUrl": "https://investors.arm.com/node/8506/html",
+      "sourceLabel": "Arm November 4 Form 6-K and FY27 Q2 shareholder letter",
+      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
+      "verifiedAt": "2026-11-05T17:07:56.396Z",
+      "basis": "Arm reported fiscal Q2 2027 results November 4 (quarter ended September 30): revenue $1.443bn, +27% YoY; license/other revenue $773m, +50%; royalties $670m, +8%; non-GAAP EPS $0.52, +33%; data-center royalties doubled YoY. Management expects Arm-based server share at leading hyperscalers to exceed 60% by end-calendar-2026, which is a forecast, not observed current share. Existing November 4 14:00 PST earnings webcast time is unchanged.",
+      "importance": "Arm adoption and power-efficient CPU infrastructure; licensing leading future royalties; data-center royalty acceleration; FY27–28 Arm AGI CPU revenue outlook is guidance, not shipped chips.",
       "sources": [
         {
           "label": "Arm official quarterly results",
@@ -1772,6 +1782,12 @@
           "url": "https://newsroom.arm.com/news/arm-announces-earnings-release-date-for-second-quarter-fiscal-year-ending-2027",
           "kind": "official",
           "checkedAt": "2026-10-28T02:34:23.226542+00:00"
+        },
+        {
+          "label": "Arm SEC Form 6-K November 4 Q2 FY27 results",
+          "url": "https://investors.arm.com/node/8506/html",
+          "kind": "official",
+          "checkedAt": "2026-11-05T17:07:56.396Z"
         }
       ],
       "time": "14:00 PST / 17:00 EST · 06:00 HKT Nov 5",
@@ -1841,18 +1857,18 @@
       "companies": [
         "QCOM"
       ],
-      "title": "Qualcomm Q4 FY26 earnings call",
+      "title": "Qualcomm FY26 Q4: $10.32bn GAAP revenue (-8%); automotive +89%; FY27 DC target $5bn",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-04",
       "endDate": null,
       "window": null,
       "time": "Call: 13:45 PT",
-      "sourceUrl": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
-      "sourceLabel": "Qualcomm · official earnings event",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
-      "basis": "Qualcomm's official Q4 FY26 event page and October 22 announcement confirm November 4, 2026 at 13:45 PT (PST, 21:45 UTC) for the conference call. The results release is separately scheduled after market close; the call time is not the release time.",
+      "sourceUrl": "https://investor.qualcomm.com/files/content_files/FY2026-4th-Quarter-Earnings-Release.pdf",
+      "sourceLabel": "Qualcomm official FY2026 Q4 results November 4",
+      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
+      "verifiedAt": "2026-11-05T17:07:56.396Z",
+      "basis": "Qualcomm reported November 4 FY26 Q4 GAAP revenue $10.322bn (-8% YoY), non-GAAP revenue $10.442bn (-7%), non-GAAP EPS $2.17 (-28%); QCT automotive revenue $1.990bn (+89%), handset $5.137bn (-26%). FY27 Q1 revenue guidance $10.4bn–$11.2bn; reiterates fiscal 2027 data-center revenue TARGET $5bn (not a realized result). Existing Nov 4 13:45 PST earnings-call time is unchanged. Qualcomm's multigenerational AWS/custom silicon and optical partnership is separately tracked.",
       "importance": "Mobile and automotive silicon, edge AI and licensing.",
       "sources": [
         {
@@ -1866,6 +1882,12 @@
           "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Schedules-Fourth-Quarter-and-Fiscal-2026-Earnings-Release-and-Conference-Call/default.aspx",
           "kind": "official",
           "checkedAt": "2026-10-28T02:33:32.209954+00:00"
+        },
+        {
+          "label": "Qualcomm FY26 Q4 official results PDF",
+          "url": "https://investor.qualcomm.com/files/content_files/FY2026-4th-Quarter-Earnings-Release.pdf",
+          "kind": "official",
+          "checkedAt": "2026-11-05T17:07:56.396Z"
         }
       ],
       "startAt": "2026-11-04T21:45:00Z",
@@ -2727,9 +2749,9 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/starlink-launch",
       "sourceLabel": "SpaceX official launch manifest · changing schedule",
-      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
+      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
       "verifiedAt": null,
-      "basis": "A SpaceX indexed launch-manifest snapshot checked October 29 lists a November 5 Starlink Falcon 9 mission, while other snapshots suggest November 1 or November 10. Without reliably matching an identifiable flight across those snapshots, November 1–5 remains a provisional window; November 10 may be a distinct mission and cannot be collapsed into this card. No exact launch or launch time is asserted.",
+      "basis": "A SpaceX indexed launch-manifest snapshot checked October 29 lists a November 5 Starlink Falcon 9 mission, while other snapshots suggest November 1 or November 10. Without reliably matching an identifiable flight across those snapshots, November 1–5 remains a provisional window; November 10 may be a distinct mission and cannot be collapsed into this card. No exact launch or launch time is asserted. November 6 HKT review did not resolve mission IDs and no definitive flight-specific date was promoted.",
       "importance": "Falcon 9 launch cadence and Starlink constellation growth; verify the exact date against the live mission page before trading on it.",
       "sources": [
         {
@@ -2887,9 +2909,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
+      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
       "verifiedAt": null,
-      "basis": "SpaceX is publicly traded on Nasdaq as SPCX since June 12, 2026. Q3 results on Oct 20, its Oct 22 Form 10-Q and the Oct 26 $40bn GPU finance-lease commitment filing remain separately recorded. The November 5 HKT spot review of SpaceX IR/SEC records did not establish a company-confirmed Q4/FY2026 earnings call date. Keep this entry undated until SpaceX publishes one.",
+      "basis": "SpaceX is publicly traded on Nasdaq as SPCX following its June 12, 2026 listing. The historical October 20 Q3 earnings, October 22 Form 10-Q and October 26 GPU finance-lease commitment are separately tracked. A November 6 HKT spot check of the issuer's IR and public SEC sources did not establish a confirmed Q4/FY2026 earnings call date, so this remains UNDated. Do not interpret conflicting or undifferentiated launch-manifest snapshots as mission-specific confirmed Starship/Starlink launch dates.",
       "importance": "Q4 Starlink/Connectivity and SI revenue, capex, cash flow, guidance and Starship milestones.",
       "sources": [
         {
@@ -3684,7 +3706,7 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "FAA Starship environmental review · public scoping sessions",
+      "title": "FAA Starship environmental review · five virtual scoping meetings",
       "type": "Operating update",
       "status": "confirmed",
       "date": "2026-11-17",
@@ -3693,43 +3715,43 @@
       "time": null,
       "sourceUrl": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
       "sourceLabel": "FAA Starship project official notice",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
-      "verifiedAt": "2026-10-31T17:02:18.674Z",
-      "basis": "FAA confirms in-person scoping meetings in Brownsville on Nov 17, 2026 and Port Isabel on Nov 19, and a virtual meeting Nov 18. Its proposed programmatic environmental review considers phase 1 up to 100 annual launches and phase 2 up to 456, but these are PROPOSALS for environmental review, not approved operations or licensed launch commitments. Site says virtual registration link was revised; check current details before attendance.",
-      "importance": "Key long-term Starship/Starlink V3 throughput and FAA regulatory capacity gating; distinguish proposed flight rates from permitted flight cadence.",
+      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
+      "verifiedAt": "2026-11-05T17:07:56.396Z",
+      "basis": "The FAA has changed its previously advertised in-person Starship Programmatic Environmental Impact Statement scoping meetings to FIVE ALL-VIRTUAL sessions, November 17–19, 2026. Central Time meetings: Nov 17 at 13:00–15:00 and 17:30–19:30; Nov 18 at 17:30–19:30; Nov 19 at 13:00–15:00 and 17:30–19:30. Online advance registration is required. These are environmental scoping meetings, not launches or license grants. Proposed phase 1 ceiling 100 annual launches, phase 2 up to 456 annual launches, neither authorized merely by the notice.",
+      "importance": "FAA public engagement affects Starship permitted cadence and Starlink V3 deployment capacity; five virtual November 17–19 meetings replace in-person sessions.",
       "sources": [
         {
           "label": "FAA Starship project official notice",
           "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
           "kind": "official",
-          "checkedAt": "2026-10-31T17:02:18.674Z"
+          "checkedAt": "2026-11-05T17:07:56.396Z"
         }
       ]
     },
     {
-      "id": "spacex-faa-starship-peis-comments-2026-11-30",
+      "id": "spacex-faa-starship-peis-comments-2026-12-07",
       "companies": [
         "SPACEX"
       ],
-      "title": "FAA Starship PEIS public-comment deadline",
+      "title": "FAA Starship PEIS · revised public-comment deadline",
       "type": "Operating update",
       "status": "confirmed",
-      "date": "2026-11-30",
+      "date": "2026-12-07",
       "endDate": null,
       "window": null,
       "time": null,
       "sourceUrl": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
       "sourceLabel": "FAA Starship project official notice",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
-      "verifiedAt": "2026-10-31T17:02:18.674Z",
-      "basis": "FAA lists November 30, 2026 as the public comment deadline for Starship-Super Heavy launch/landing expansion scoping under docket FAA-2026-12808. This is a regulatory comment deadline, NOT an FAA license decision or a Starship launch date.",
-      "importance": "Monitors approval timeline, launch-site capacity, environmental constraints and schedule risk for V3 satellite deployments.",
+      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
+      "verifiedAt": "2026-11-05T17:07:56.396Z",
+      "basis": "The FAA's updated official Starship Boca Chica programmatic environmental review notice extends the public comment period to December 7, 2026 (previously November 30) after converting the November 17–19 meetings to virtual. Comments can be submitted via regulations.gov, docket FAA-2026-12808. December 7 is a comment deadline, NOT an FAA license decision, approved launch frequency or exact launch date.",
+      "importance": "Extended environmental-review scoping deadline; monitor regulatory approval and constraints on Starship launch capacity.",
       "sources": [
         {
           "label": "FAA Starship project official notice",
           "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
           "kind": "official",
-          "checkedAt": "2026-10-31T17:02:18.674Z"
+          "checkedAt": "2026-11-05T17:07:56.396Z"
         }
       ]
     },
@@ -4201,8 +4223,36 @@
           "checkedAt": "2026-11-04T17:15:44.625Z"
         }
       ]
+    },
+    {
+      "id": "qualcomm-amazon-custom-silicon-optics-2026-09-08",
+      "companies": [
+        "QCOM",
+        "AMZN"
+      ],
+      "title": "Qualcomm–Amazon announce multigeneration AWS custom AI silicon and 1.6T optics collaboration",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-09-08",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Announces-Multi-Generational-Product-Collaboration-with-Amazon-to-Build-Next-Generation-AI-Data-Center-Infrastructure/default.aspx",
+      "sourceLabel": "Qualcomm official September 8 AWS AI data-center collaboration announcement",
+      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
+      "verifiedAt": "2026-11-05T17:07:56.396Z",
+      "basis": "Qualcomm Technologies and Amazon announced on September 8, 2026 a multigeneration collaboration on AWS custom AI-inference silicon and optical connectivity using Qualcomm SerDes and optical DSP technology, including designs extending up to 1.6T. This is an announced collaboration, NOT verified delivered hardware, contracted volumes, booked revenues or a dated production ramp.",
+      "importance": "AWS custom inference silicon opportunity for Qualcomm; optical interconnect and data-center bandwidth roadmaps; distinguish potential future commercial production from announcement.",
+      "sources": [
+        {
+          "label": "Qualcomm September 8 2026 official AWS collaboration release",
+          "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Announces-Multi-Generational-Product-Collaboration-with-Amazon-to-Build-Next-Generation-AI-Data-Center-Infrastructure/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-05T17:07:56.396Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 5, 2026 HKT targeted issuer IR/newsroom review across all 33 companies (not an exhaustive repeat of the historical 79-source audit). AMD Nov 3 Q3 actual results/guidance added to existing earnings; CrowdStrike Dec 1 Q3 FY2027 promoted from estimated to confirmed 14:00 PST call; official Nov 4 announcements added: SpaceX/QCOM Starlink Mobile 5G equipment, Alphabet/Anthropic/TeraWulf project credit support, OpenAI proposed Pierre acquisition. SpaceX Nasdaq:SPCX IR/SEC and FAA/NASA launch sources rechecked: no exact upcoming Q4 earnings or reliably identified Starship/Starlink launch day. Adobe and Cloudflare entrypoints blocked; Arm's event page blocked but quarterly alternate accessible, other sites partially dynamic. Full 79-source audit remains October 15. Incremental Nov 5 HKT official-source backfill: October 27 AMD/Meta Helios test-stage deployment and proposed $1bn AMD equity investment, September 28 AMD $8.2bn World Labs definitive deal (unclosed), and NVIDIA $150bn incremental/$235bn remaining repurchase authorization (not executed). Historical announcement dates only; no future close or buyback day invented.",
-  "lastPartialReview": "2026-11-04T17:15:44.625Z"
+  "verificationNote": "Nov 6 HKT targeted official IR/newsroom entrypoint review across all 33 Global Tech companies (not a complete repeat of historical Oct 15 79-source audit). Updated FAA: five Nov 17–19 Starship public meetings ALL VIRTUAL, public comments extended Nov 30 to Dec 7; neither event is a launch or approval. Upgraded Nov 24 Workday FY27 Q3 from estimated to confirmed with 13:30 PST call. Added actual Nov 4 Arm and Qualcomm earnings figures and guidance versus realized results. Backfilled Sept 8 Qualcomm–Amazon AI custom silicon/optics collaboration. SpaceX remains listed Nasdaq SPCX, Q4 earnings undated and Starlink launch window provisional. Adobe entrypoint blocked; several others limited/dynamic. Original mobile List layout unchanged.",
+  "lastPartialReview": "2026-11-05T17:07:56.396Z"
 }

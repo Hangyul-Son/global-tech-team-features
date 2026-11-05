@@ -23,11 +23,13 @@ test('DST and calendar month/year rollover use IANA rules',()=>{
  assert.equal(Cal.eventDate({startAt:'2026-10-31T23:30:00Z',date:'2026-10-31'}),'2026-11-01');
  assert.equal(Cal.validZone('Not/AZone'),false);
 });
-test('unannounced times remain date-only; verified NVIDIA and AMD calls convert across zones',()=>{
+test('confirmed Workday, NVIDIA and AMD calls convert across zones',()=>{
  const workday=event('WDAY-2026-11-earnings');
- assert.equal(workday.startAt,undefined);
- assert.equal(Cal.eventDate(workday,'Asia/Hong_Kong'),workday.date);
- assert.equal(Cal.eventTime(workday),'Time not announced');
+ assert.equal(workday.startAt,'2026-11-24T21:30:00Z');
+ assert.equal(Cal.eventDate(workday,'Asia/Hong_Kong'),'2026-11-25');
+ assert.equal(Cal.shortTime(workday,'Asia/Hong_Kong'),'05:30');
+ assert.equal(Cal.eventDate(workday,'America/Los_Angeles'),'2026-11-24');
+ assert.equal(Cal.shortTime(workday,'America/Los_Angeles'),'13:30');
  const nvda=event('NVDA-2026-11-earnings');
  assert.equal(nvda.startAt,'2026-11-17T22:00:00Z');
  assert.equal(Cal.eventDate(nvda,'Asia/Hong_Kong'),'2026-11-18');
