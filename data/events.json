@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-05T17:11:16.411Z",
+  "lastAttempt": "2026-11-06T17:09:30.417Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -1995,30 +1995,36 @@
       "companies": [
         "NET"
       ],
-      "title": "Cloudflare Q3 results & earnings call",
+      "title": "Cloudflare Q3 2026: $782.5m revenue (+39%), $82.1m FCF; Q4 $845–846m guide",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-05",
       "endDate": null,
       "window": null,
       "time": "After US close; call: 17:00 ET",
-      "sourceUrl": "https://cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
-      "sourceLabel": "Cloudflare · company announcement",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
-      "verifiedAt": "2026-10-15T14:42:26.060851+00:00",
-      "basis": "Cloudflare’s company announcement schedules November 5, 2026 third-quarter financial results after US market close and a 17:00 Eastern earnings call.",
-      "importance": "Edge computing, connectivity, security and agentic AI infrastructure.",
+      "sourceUrl": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+      "sourceLabel": "Cloudflare official November 5 2026 earnings release",
+      "sourceCheckedAt": "2026-11-06T17:09:30.417Z",
+      "verifiedAt": "2026-11-06T17:09:30.417Z",
+      "basis": "Cloudflare announced November 5 Q3 2026 ACTUAL revenue of $782.5m (+39% YoY), GAAP operating loss $67.9m, non-GAAP operating profit $137.1m, operating cash flow $215.4m, free cash flow $82.1m, and current RPO growth of 37%. Company Q4 2026 revenue outlook of $845m–$846m and FY2026 $2.963bn–$2.964bn are GUIDANCE, NOT reported revenue. Results release was November 5 after US market close; earnings call at 2:00pm Pacific/5:00pm Eastern, which is 22:00 UTC November 5 (Nov 6 06:00 HKT).",
+      "importance": "Connectivity cloud AI/developer traffic, new customer commitments, margin/FCF conversion and Q4 revenue guidance; separate actuals from outlook.",
       "sources": [
         {
           "label": "Cloudflare · company announcement",
           "url": "https://cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
           "kind": "official",
           "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+        },
+        {
+          "label": "Cloudflare November 5 2026 official Q3 results and Q4 guidance",
+          "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+          "kind": "official",
+          "checkedAt": "2026-11-06T17:09:30.417Z"
         }
       ],
       "startAt": "2026-11-05T22:00:00Z",
       "sourceTimeZone": "America/New_York",
-      "timeCheckedAt": "2026-10-15T14:42:26.060851+00:00",
+      "timeCheckedAt": "2026-11-06T17:09:30.417Z",
       "timeCertainty": "verified"
     },
     {
@@ -4290,8 +4296,62 @@
           "checkedAt": "2026-11-05T17:11:16.411Z"
         }
       ]
+    },
+    {
+      "id": "openai-gpt6-cyber-launch-2026-11-05",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI unveils GPT-6 Cyber for approved defenders; ExploitGym 48.5%",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-05",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "sourceLabel": "OpenAI November 5 official GPT-6 Cyber announcement",
+      "sourceCheckedAt": "2026-11-06T17:09:30.417Z",
+      "verifiedAt": "2026-11-06T17:09:30.417Z",
+      "basis": "OpenAI announced GPT-6 Cyber on November 5, 2026, reporting 48.5% ExploitGym score versus 32.1% for GPT-5.6 Cyber and an initial restricted release through API/Codex for select approved Daybreak Red customers. Expanded access is planned but not scheduled. This is a confirmed ANNOUNCEMENT, NOT general availability, contracted revenue or a future product launch date.",
+      "importance": "Frontier agentic cybersecurity capability, enterprise AI adoption, competition/collaboration with security vendors; differentiate approval-gated access from general release.",
+      "sources": [
+        {
+          "label": "OpenAI GPT-6 Cyber announcement and initial availability",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "kind": "official",
+          "checkedAt": "2026-11-06T17:09:30.417Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-compute-campus-community-compact-2026-11-05",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI publishes community compact and policy blueprint for AI compute campuses",
+      "type": "AI infrastructure",
+      "status": "confirmed",
+      "date": "2026-11-05",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+      "sourceLabel": "OpenAI November 5 compute campus policy announcement",
+      "sourceCheckedAt": "2026-11-06T17:09:30.417Z",
+      "verifiedAt": "2026-11-06T17:09:30.417Z",
+      "basis": "On November 5, OpenAI published its National Community Compact and Compute Campus Policy Blueprint. It says future campuses that OpenAI owns and operates will have local compacts addressing community input, resource use, energy cost allocation, reporting and accountability; the policy blueprint consists of proposals, not enacted federal rules. The Nov 5 date is the POLICY ANNOUNCEMENT, not a datacenter commissioning, power connection, regulatory authorization or installed capacity milestone.",
+      "importance": "AI datacenter buildout social license, community electricity bills, water and local permits; policy constraints versus claimed GW deployment.",
+      "sources": [
+        {
+          "label": "OpenAI official responsible AI infrastructure commitments and proposals",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+          "kind": "official",
+          "checkedAt": "2026-11-06T17:09:30.417Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 6 HKT targeted official IR/newsroom entrypoint review across all 33 Global Tech companies (not a complete repeat of historical Oct 15 79-source audit). Updated FAA: five Nov 17–19 Starship public meetings ALL VIRTUAL, public comments extended Nov 30 to Dec 7; neither event is a launch or approval. Upgraded Nov 24 Workday FY27 Q3 from estimated to confirmed with 13:30 PST call. Added actual Nov 4 Arm and Qualcomm earnings figures and guidance versus realized results. Backfilled Sept 8 Qualcomm–Amazon AI custom silicon/optics collaboration. SpaceX remains listed Nasdaq SPCX, Q4 earnings undated and Starlink launch window provisional. Adobe entrypoint blocked; several others limited/dynamic. Original mobile List layout unchanged. Supplemental Nov 6 HKT filing discovery: Meta Nov 3 $15bn five-tranche USD senior-note pricing confirmed from reproduced 424B5 prospectus and Reuters; expected Nov 5 settlement NOT confirmed, potential euro financing not treated as issued.",
-  "lastPartialReview": "2026-11-05T17:11:16.411Z"
+  "verificationNote": "Nov 7 HKT targeted 33-issuer official calendar/newsroom review, with primary-source new material: Cloudflare Nov 5 Q3 actual results (+39% revenue, $82.1m FCF) and Q4 GUIDANCE; OpenAI Nov 5 restricted GPT-6 Cyber release and separate AI-compute community-policy compact. No exact SpaceX Q4/FY26 earnings date or mission-identified Starlink/Starship launch time verified; retain SPCX listed status and provisional launch watches. FAA virtual Nov 17–19 meetings and Dec 7 comment deadline rechecked, NOT launch approvals. Source entrypoints partially inaccessible/dynamic (Adobe, Workday, Palo Alto Networks root blocked; Cloudflare investor root blocked but official press release verified). 79-source comprehensive audit remains Oct 15. Added missing SPACEX to weekly research group/domain configuration. Mobile List/UI untouched.",
+  "lastPartialReview": "2026-11-06T17:09:30.417Z"
 }
