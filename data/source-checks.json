@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 7 HKT targeted 33-issuer official calendar/newsroom review, with primary-source new material: Cloudflare Nov 5 Q3 actual results (+39% revenue, $82.1m FCF) and Q4 GUIDANCE; OpenAI Nov 5 restricted GPT-6 Cyber release and separate AI-compute community-policy compact. No exact SpaceX Q4/FY26 earnings date or mission-identified Starlink/Starship launch time verified; retain SPCX listed status and provisional launch watches. FAA virtual Nov 17–19 meetings and Dec 7 comment deadline rechecked, NOT launch approvals. Source entrypoints partially inaccessible/dynamic (Adobe, Workday, Palo Alto Networks root blocked; Cloudflare investor root blocked but official press release verified). 79-source comprehensive audit remains Oct 15. Added missing SPACEX to weekly research group/domain configuration. Mobile List/UI untouched.",
+  "note": "Nov 8 HKT 33/33 targeted issuer-entrypoint review and select primary releases/SEC. Four news/disclosure calendar additions: SpaceX board change Nov 6 IR/SEC (effective Nov 4), AMD Nov 4 10-Q warrant liability and AI infrastructure commitments, Reuters Nov 6 OpenAI partial financing reported (not issuer confirmed), and Reuters/Bloomberg Nov 6 Microsoft-Oracle older capacity wind-down reported (not issuer confirmed). SpaceX still Nasdaq SPCX, Q4 date unannounced, no verified exact Starship/Starlink mission time. FAA Nov 17-19 virtual meetings and Dec 7 comment deadline rechecked. IR roots of AVGO/ADBE/CRWD/NET blocked; historical full 79-source audit remains Oct 15. Compact mobile list unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,12 +5340,12 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-06T17:09:30.417Z",
-    "localDate": "2026-11-07",
+    "checkedAt": "2026-11-07T16:56:48Z",
+    "localDate": "2026-11-08",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 30,
-    "entryPointsBlocked": 3,
+    "entryPointsAccessibleOrPartiallyRendered": 29,
+    "entryPointsBlocked": 4,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
@@ -5362,7 +5362,7 @@
       },
       {
         "id": "AVGO",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "MRVL",
@@ -5394,7 +5394,7 @@
       },
       {
         "id": "WDAY",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "ASML",
@@ -5426,11 +5426,11 @@
       },
       {
         "id": "GOOGL",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "META",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "ANTHROPIC",
@@ -5450,7 +5450,7 @@
       },
       {
         "id": "ARM",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "QCOM",
@@ -5462,15 +5462,15 @@
       },
       {
         "id": "CRWD",
-        "status": "accessible"
-      },
-      {
-        "id": "PANW",
         "status": "blocked"
       },
       {
+        "id": "PANW",
+        "status": "accessible"
+      },
+      {
         "id": "NET",
-        "status": "limited"
+        "status": "blocked"
       },
       {
         "id": "OPENAI",
@@ -5481,7 +5481,7 @@
         "status": "limited"
       }
     ],
-    "notes": "Targeted review of issuer calendar/newsroom entrypoints plus official Cloudflare Q3, OpenAI GPT-6 Cyber and AI compute campus policy, and FAA/SpaceX IR sources. No claim of complete October 15 79-source re-audit; dynamically rendered and blocked sources not used for negative availability claims. SPACEX publicly listed Nasdaq SPCX; next earnings and unique future launch dates unconfirmed."
+    "notes": "Fresh 33 official issuer source entry points checked on Nov 8 HKT; supplemented Reuters reports with precise source status, primary SpaceX IR/SEC, AMD Form 10-Q and FAA. No date invented."
   },
   "coverageAudit": {
     "checkedAt": "2026-11-06T17:09:30.417Z",
@@ -6273,6 +6273,76 @@
         "Adobe financial IR, Workday investor event root and Palo Alto Networks IR root blocked; Cloudflare investor root blocked but official financial press release accessible. Other IR calendars partially JavaScript-only.",
         "SpaceX Q4/FY2026 next earnings date and unique future Starlink/Starship launch times not established from official issuer/FAA/NASA sources; no dates added.",
         "Historical 79-source audit remains October 15; today only 33 issuer entrypoints and selected primary disclosures were cross-checked."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-07T16:56:48Z",
+      "scope": "Nov 8 HKT targeted 33/33 company IR/calendar entry points; verified official SpaceX IR/8-K, AMD 10-Q and FAA; reported Reuters OpenAI and MSFT/ORCL. 79-source historic full audit not rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "ADBE",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "ARM",
+        "CRWD",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "SPACEX: November 6 official investor release and SEC Form 8-K (accession 0001628280-26-071689) record Donald Harrison's board resignation effective November 4; no disagreement reported. Added confirmed disclosure/filing event (Nov 6), not Nov 4 as announcement date.",
+        "AMD: November 4 company-hosted 10-Q documents $1.2bn Q3 noncash customer warrant liability remeasurement, $4.5bn future unrecognized grant-date warrant value, $48.8bn operating commitments, $6.2bn cloud compute commitments, $13.3bn uncommenced data-center lease payments and $8.5bn maximum guarantees; separate exposures with no additive capex total.",
+        "OPENAI: Reuters November 6 source-based reported $11bn initial funding at $1.25tn valuation; marked reported (NOT issuer-confirmed, no IPO or future listing date).",
+        "MSFT/ORCL: Reuters November 6 relays Bloomberg source-based report of Microsoft winding down older Oracle AI GPU rental; marked reported, NOT confirmed termination of all OCI arrangements."
+      ],
+      "coverageGaps": [
+        "4 of 33 primary issuer entry point roots blocked (Broadcom 403, Adobe inaccessible, CrowdStrike 403, Cloudflare 403); alternate official indexed releases and reliable reports used where available, so blocked cannot support claims of no new disclosure.",
+        "12 accessible official pages expose limited/event JavaScript rendering or previously dated releases; no claim of exhaustive verification of all issuer SEC filing sequences. Reviewed targeted fresh disclosures and existing 33 company source roots.",
+        "SpaceX events/quarterly result pages dynamically rendered. No verified Q4/FY2026 earnings date or unique future launch mission date/time; FAA Nov 17-19 virtual scoping meetings and Dec 7 comment deadline are regulatory dates, not launch approvals. Launch conflicts retained as provisional.",
+        "OpenAI $11bn funding and Microsoft/Oracle rental report remain third-party reports awaiting issuer disclosures.",
+        "Historical 79-source full audit still October 15, 2026; do not advance global checkedAt/successfulSources merely because of today's targeted issuer check."
       ]
     }
   ]
