@@ -4468,6 +4468,39 @@
           "checkedAt": "2026-11-07T16:56:48Z"
         }
       ]
+    },
+    {
+      "id": "spacex-ussf-627-falcon9-net-2026-11-10",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Falcon 9 USSF-627 mission · NET Nov 10 UTC (03:03–07:03 window)",
+      "type": "Launch",
+      "status": "estimated",
+      "date": "2026-11-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/",
+      "sourceLabel": "SpaceX official homepage upcoming launch feed · mission USSF-627; independently corroborated by launch manifest",
+      "sourceCheckedAt": "2026-11-07T16:56:48Z",
+      "verifiedAt": null,
+      "basis": "SpaceX's official homepage, as indexed November 7/8, identifies its upcoming Falcon 9 USSF-627 mission with launch WINDOW November 10, 2026, 03:03–07:03 UTC (SpaceX publisher feed). Mission identity corroborated by independent current launch tracking, with recent November 2–3 reschedules from November 9. This is a TARGET / no-earlier-than launch window, NOT an actual flown launch, immutable exact time, completed contract, or company guarantee of liftoff. SpaceX live JavaScript launch manifest can be stale or change without notice; reconfirm before upgrading status. Do not confuse with generic Starlink launches or reported November 13 Starship Flight 15.",
+      "importance": "Upcoming U.S. national-security launch and cadence indicator for SpaceX launch business; mission-identifiable official forward launch window versus earlier conflicting generic Starlink manifests.",
+      "sources": [
+        {
+          "label": "SpaceX official homepage upcoming launch preview (Nov 10 USSF-627)",
+          "url": "https://www.spacex.com/",
+          "kind": "estimate",
+          "checkedAt": "2026-11-07T16:56:48Z"
+        },
+        {
+          "label": "Cross-check independent current USSF-627 launch tracker",
+          "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-627/",
+          "kind": "report",
+          "checkedAt": "2026-11-07T16:56:48Z"
+        }
+      ]
     }
   ],
   "verificationNote": "Nov 8 HKT targeted 33-issuer check. Four material items added: SpaceX Nov 6 board resignation (effective Nov 4; official IR/SEC 8-K), AMD Nov 4 Form 10-Q warrant liability and AI commitments (primary filing), and two distinct Nov 6 Reuters reports explicitly media-reported (OpenAI initial $11bn capital raise; Microsoft winding down old Oracle rental). All 33 issuer entry points attempted; Broadcom, Adobe, CrowdStrike and Cloudflare IR roots blocked. FAA future meetings Nov 17-19 and comment deadline Dec 7 remain regulatory, not launches. SpaceX Nasdaq SPCX Q4 earnings and unique future Starlink/Starship launch dates unannounced. 79-source historical full audit unchanged since Oct 15. Compact mobile UI untouched.",
