@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 8 HKT 33/33 targeted issuer-entrypoint review and select primary releases/SEC. Four news/disclosure calendar additions: SpaceX board change Nov 6 IR/SEC (effective Nov 4), AMD Nov 4 10-Q warrant liability and AI infrastructure commitments, Reuters Nov 6 OpenAI partial financing reported (not issuer confirmed), and Reuters/Bloomberg Nov 6 Microsoft-Oracle older capacity wind-down reported (not issuer confirmed). SpaceX still Nasdaq SPCX, Q4 date unannounced, no verified exact Starship/Starlink mission time. FAA Nov 17-19 virtual meetings and Dec 7 comment deadline rechecked. IR roots of AVGO/ADBE/CRWD/NET blocked; historical full 79-source audit remains Oct 15. Compact mobile list unchanged.",
+  "note": "Nov 8 HKT 33/33 targeted issuer-entrypoint review and select primary releases/SEC. Four news/disclosure calendar additions: SpaceX board change Nov 6 IR/SEC (effective Nov 4), AMD Nov 4 10-Q warrant liability and AI infrastructure commitments, Reuters Nov 6 OpenAI partial financing reported (not issuer confirmed), and Reuters/Bloomberg Nov 6 Microsoft-Oracle older capacity wind-down reported (not issuer confirmed). SpaceX still Nasdaq SPCX, Q4 date unannounced, USSF-627 mission-identified Nov 10 NET launch window marked estimated; Starship/Starlink next dates unconfirmed. FAA Nov 17-19 virtual meetings and Dec 7 comment deadline rechecked. IR roots of AVGO/ADBE/CRWD/NET blocked; historical full 79-source audit remains Oct 15. Compact mobile list unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5481,7 +5481,7 @@
         "status": "limited"
       }
     ],
-    "notes": "Fresh 33 official issuer source entry points checked on Nov 8 HKT; supplemented Reuters reports with precise source status, primary SpaceX IR/SEC, AMD Form 10-Q and FAA. No date invented."
+    "notes": "Fresh 33 official issuer source entry points checked on Nov 8 HKT; supplemented Reuters reports with precise source status, primary SpaceX IR/SEC, AMD Form 10-Q and FAA. No date invented. SPACE X launch update: SpaceX official homepage shows mission-identified USSF-627 Falcon 9 NET Nov 10, 2026, 03:03–07:03 UTC launch window; independent tracker corroborates and documents slips. Added as ESTIMATED target (not flown or immutable exact time); no verified Starlink/Starship exact dates."
   },
   "coverageAudit": {
     "checkedAt": "2026-11-06T17:09:30.417Z",
@@ -6335,14 +6335,16 @@
         "SPACEX: November 6 official investor release and SEC Form 8-K (accession 0001628280-26-071689) record Donald Harrison's board resignation effective November 4; no disagreement reported. Added confirmed disclosure/filing event (Nov 6), not Nov 4 as announcement date.",
         "AMD: November 4 company-hosted 10-Q documents $1.2bn Q3 noncash customer warrant liability remeasurement, $4.5bn future unrecognized grant-date warrant value, $48.8bn operating commitments, $6.2bn cloud compute commitments, $13.3bn uncommenced data-center lease payments and $8.5bn maximum guarantees; separate exposures with no additive capex total.",
         "OPENAI: Reuters November 6 source-based reported $11bn initial funding at $1.25tn valuation; marked reported (NOT issuer-confirmed, no IPO or future listing date).",
-        "MSFT/ORCL: Reuters November 6 relays Bloomberg source-based report of Microsoft winding down older Oracle AI GPU rental; marked reported, NOT confirmed termination of all OCI arrangements."
+        "MSFT/ORCL: Reuters November 6 relays Bloomberg source-based report of Microsoft winding down older Oracle AI GPU rental; marked reported, NOT confirmed termination of all OCI arrangements.",
+        "SPACE X launch update: SpaceX official homepage shows mission-identified USSF-627 Falcon 9 NET Nov 10, 2026, 03:03–07:03 UTC launch window; independent tracker corroborates and documents slips. Added as ESTIMATED target (not flown or immutable exact time); no verified Starlink/Starship exact dates."
       ],
       "coverageGaps": [
         "4 of 33 primary issuer entry point roots blocked (Broadcom 403, Adobe inaccessible, CrowdStrike 403, Cloudflare 403); alternate official indexed releases and reliable reports used where available, so blocked cannot support claims of no new disclosure.",
         "12 accessible official pages expose limited/event JavaScript rendering or previously dated releases; no claim of exhaustive verification of all issuer SEC filing sequences. Reviewed targeted fresh disclosures and existing 33 company source roots.",
         "SpaceX events/quarterly result pages dynamically rendered. No verified Q4/FY2026 earnings date or unique future launch mission date/time; FAA Nov 17-19 virtual scoping meetings and Dec 7 comment deadline are regulatory dates, not launch approvals. Launch conflicts retained as provisional.",
         "OpenAI $11bn funding and Microsoft/Oracle rental report remain third-party reports awaiting issuer disclosures.",
-        "Historical 79-source full audit still October 15, 2026; do not advance global checkedAt/successfulSources merely because of today's targeted issuer check."
+        "Historical 79-source full audit still October 15, 2026; do not advance global checkedAt/successfulSources merely because of today's targeted issuer check.",
+        "Official SpaceX homepage launch feed is dynamic; USSF-627 was independently corroborated but remains only a scheduled window (NET Nov 10), not a completed launch or FAA flight authorization claim."
       ]
     }
   ]
