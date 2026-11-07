@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-07",
+  "asOf": "2026-11-08",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-06T17:09:30.417Z",
+  "lastAttempt": "2026-11-07T16:56:48Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -4350,8 +4350,126 @@
           "checkedAt": "2026-11-06T17:09:30.417Z"
         }
       ]
+    },
+    {
+      "id": "spacex-donald-harrison-board-departure-2026-11-06",
+      "companies": [
+        "SPACEX",
+        "GOOGL"
+      ],
+      "title": "SpaceX reports Google executive Donald Harrison's resignation from board, effective Nov 4",
+      "type": "Governance",
+      "status": "confirmed",
+      "date": "2026-11-06",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-Thanks-Don-Harrison-for-His-Service-on-the-Board--2026-Si4CNaX_y_/default.aspx",
+      "sourceLabel": "SpaceX investor update Nov 6, corroborated by SEC Form 8-K",
+      "sourceCheckedAt": "2026-11-07T16:56:48Z",
+      "verifiedAt": "2026-11-07T16:56:48Z",
+      "basis": "SpaceX announced on November 6 that Donald (Don) Harrison, Google LLC's President of Global Partnerships and Corporate Development and a SpaceX director since February 2015, had stepped down from the board EFFECTIVE November 4. SpaceX's Nov 6 SEC Form 8-K (Item 5.02, accession 0001628280-26-071689) states he resigned immediately and the departure was NOT due to disagreement over operations, policies or practices. Treat November 6 as disclosure/filing date, not effective date. No successor announced; do not infer dispute or change in strategic commercial contracts.",
+      "importance": "Board oversight and Alphabet-SpaceX governance connectivity; meaningful disclosure for publicly listed Nasdaq: SPCX, not a financing or launch milestone.",
+      "sources": [
+        {
+          "label": "SpaceX official investor-relations board update",
+          "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-Thanks-Don-Harrison-for-His-Service-on-the-Board--2026-Si4CNaX_y_/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-07T16:56:48Z"
+        },
+        {
+          "label": "SEC EDGAR Form 8-K November 6 filing index",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026071689/0001628280-26-071689-index.html",
+          "kind": "official",
+          "checkedAt": "2026-11-07T16:56:48Z"
+        }
+      ]
+    },
+    {
+      "id": "amd-2026-11-04-q3-10q-warrants-ai-commitments",
+      "companies": [
+        "AMD",
+        "OPENAI",
+        "META"
+      ],
+      "title": "AMD 10-Q: $1.2bn noncash customer-warrant charge and $48.8bn operating commitments",
+      "type": "Financing",
+      "status": "confirmed",
+      "date": "2026-11-04",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm",
+      "sourceLabel": "AMD official Form 10-Q filed November 4, 2026",
+      "sourceCheckedAt": "2026-11-07T16:56:48Z",
+      "verifiedAt": "2026-11-07T16:56:48Z",
+      "basis": "AMD's November 4 Form 10-Q reports a $1.2bn Q3 noncash remeasurement charge from warrant liabilities tied to OpenAI and Meta customer purchase arrangements and a $1.2bn warrant liability as of September 26. Neither customer's warrants had vested/exercised at quarter-end. Remaining unrecognized grant-date fair value was $4.5bn, recognized as reduction to future qualifying revenue. The filing separately discloses $48.8bn unconditional operating commitments, $6.2bn of cloud compute capacity commitments, $13.3bn future payments for not-yet-commenced data-center leases intended for assignment/sublease, and $8.5bn maximum future guarantee exposure. These categories differ and should NOT be simply summed or characterized as installed hardware or current cash expenditure. The 10-Q says AMD invested $1bn in an equity offering of an unnamed public company in October.",
+      "importance": "AMD AI customer economics: warrant-driven GAAP volatility and future revenue offsets, off-balance commitments/guarantees, cloud capacity funding and potential equity dilution. Financial filing detail, not a new quarterly earnings-call date.",
+      "sources": [
+        {
+          "label": "AMD Nov 4 official 10-Q (financial and warrant commitments)",
+          "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-07T16:56:48Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-2026-11-06-reported-11bn-funding",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "Reuters: OpenAI reportedly closes initial $11bn financing at $1.25tn valuation",
+      "type": "Financing",
+      "status": "reported",
+      "date": "2026-11-06",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/",
+      "sourceLabel": "Reuters Nov 6 sourcing unnamed investor/source; not company-confirmed",
+      "sourceCheckedAt": "2026-11-07T16:56:48Z",
+      "verifiedAt": null,
+      "basis": "Reuters reported November 6, citing a source familiar with the matter, that OpenAI closed an INITIAL $11bn portion of a broader financing round, at an implied $1.25tn valuation. SoftBank and MGX participated according to unnamed investors. The originally considered total raise was up to $30bn, NOT an amount confirmed funded. OpenAI's newsroom and a regulatory primary filing were not found confirming pricing/close in this review. Treat as MEDIA-REPORTED, not officially confirmed company financing, and do NOT imply IPO or listing date.",
+      "importance": "AI funding liquidity, valuation mark and capacity for training/inference spend; conditional on subsequent primary-source disclosure.",
+      "sources": [
+        {
+          "label": "Reuters Nov 6, 2026 funding report",
+          "url": "https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/",
+          "kind": "report",
+          "checkedAt": "2026-11-07T16:56:48Z"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-oracle-2026-11-06-reported-ai-cloud-winddown",
+      "companies": [
+        "MSFT",
+        "ORCL"
+      ],
+      "title": "Bloomberg via Reuters: Microsoft winding down older Nvidia GPU rental from Oracle",
+      "type": "Partnership",
+      "status": "reported",
+      "date": "2026-11-06",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-reports-2026-11-06/",
+      "sourceLabel": "Reuters Nov 6 citing Bloomberg unnamed-source report; Oracle reply",
+      "sourceCheckedAt": "2026-11-07T16:56:48Z",
+      "verifiedAt": null,
+      "basis": "On November 6 Reuters relayed a Bloomberg News report that Microsoft had declined to renew and was winding down capacity rented from Oracle under an older 2023 AI compute arrangement. This reportedly involved older-generation NVIDIA GPUs and does NOT establish cancellation of all Microsoft-Oracle AI arrangements or overall loss of Oracle cloud demand. Oracle's spokesperson said OCI demand, including for earlier-generation GPUs, remained strong; Microsoft did not provide an immediate comment. Not issuer-confirmed contract termination, GPU count, dollar amount or specific capacity cutoff date.",
+      "importance": "Customer churn and asset-obsolescence sensitivity for Oracle/OCI, capacity sourcing strategy for Azure/Microsoft; reported development distinct from confirmed event dates.",
+      "sources": [
+        {
+          "label": "Reuters Nov 6 Bloomberg-sourced Oracle/Microsoft capacity report",
+          "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-reports-2026-11-06/",
+          "kind": "report",
+          "checkedAt": "2026-11-07T16:56:48Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 7 HKT targeted 33-issuer official calendar/newsroom review, with primary-source new material: Cloudflare Nov 5 Q3 actual results (+39% revenue, $82.1m FCF) and Q4 GUIDANCE; OpenAI Nov 5 restricted GPT-6 Cyber release and separate AI-compute community-policy compact. No exact SpaceX Q4/FY26 earnings date or mission-identified Starlink/Starship launch time verified; retain SPCX listed status and provisional launch watches. FAA virtual Nov 17–19 meetings and Dec 7 comment deadline rechecked, NOT launch approvals. Source entrypoints partially inaccessible/dynamic (Adobe, Workday, Palo Alto Networks root blocked; Cloudflare investor root blocked but official press release verified). 79-source comprehensive audit remains Oct 15. Added missing SPACEX to weekly research group/domain configuration. Mobile List/UI untouched.",
-  "lastPartialReview": "2026-11-06T17:09:30.417Z"
+  "verificationNote": "Nov 8 HKT targeted 33-issuer check. Four material items added: SpaceX Nov 6 board resignation (effective Nov 4; official IR/SEC 8-K), AMD Nov 4 Form 10-Q warrant liability and AI commitments (primary filing), and two distinct Nov 6 Reuters reports explicitly media-reported (OpenAI initial $11bn capital raise; Microsoft winding down old Oracle rental). All 33 issuer entry points attempted; Broadcom, Adobe, CrowdStrike and Cloudflare IR roots blocked. FAA future meetings Nov 17-19 and comment deadline Dec 7 remain regulatory, not launches. SpaceX Nasdaq SPCX Q4 earnings and unique future Starlink/Starship launch dates unannounced. 79-source historical full audit unchanged since Oct 15. Compact mobile UI untouched.",
+  "lastPartialReview": "2026-11-07T16:56:48Z"
 }
