@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-09",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-07T16:56:48Z",
+  "lastAttempt": "2026-11-08T16:57:50Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -4501,8 +4501,86 @@
           "checkedAt": "2026-11-07T16:56:48Z"
         }
       ]
+    },
+    {
+      "id": "anthropic-onepwr-3p4bn-1p7gw-generators-reported-2026-11-08",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "FT/Reuters: Anthropic reportedly secures $3.4bn commitments for 1.7 GW of gas generators",
+      "type": "AI infrastructure",
+      "status": "reported",
+      "date": "2026-11-08",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/",
+      "sourceLabel": "November 8 Reuters summary of Financial Times reporting; Anthropic/OnePWR have not confirmed the arrangement",
+      "sourceCheckedAt": "2026-11-08T16:57:50Z",
+      "verifiedAt": null,
+      "basis": "Reuters on November 8 cited Financial Times reporting that Anthropic took over approximately $3.4bn in equipment purchase commitments for roughly 1.7 GW of gas-fired generators from OnePWR Solutions, reportedly agreed in late September 2026. This is a November 8 MEDIA REPORT of an earlier possible transaction, not a November 8 purchase/closing date. FT reported transfer of generator orders plus installation engineering/construction capabilities, NOT acquisition of OnePWR or its employees. Reuters explicitly said it could not independently verify and received no comment from Anthropic or OnePWR. The 1.7 GW is ordered generator nameplate capacity, NOT commissioned power, operational data-center IT load or GPU compute capacity; installation dates, locations, delivered MW, economics and permits are not disclosed. No issuer-confirmed capital-spending schedule.",
+      "importance": "Important potential change in Anthropic's power procurement / onsite generation strategy: $3.4bn commitment, 1.7 GW prospective electricity generation; do not include ordered power as live data-center compute in GW capacity models.",
+      "sources": [
+        {
+          "label": "Reuters November 8 FT-sourced generator commitments report; explicitly unverified",
+          "url": "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/",
+          "kind": "report",
+          "checkedAt": "2026-11-08T16:57:50Z"
+        },
+        {
+          "label": "Financial Times November 8 original report (subscription; title accessible)",
+          "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+          "kind": "report",
+          "checkedAt": "2026-11-08T16:57:50Z"
+        },
+        {
+          "label": "Anthropic official newsroom (no issuer confirmation located)",
+          "url": "https://www.anthropic.com/news",
+          "kind": "official",
+          "checkedAt": "2026-11-08T16:57:50Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-ussf-432-falcon9-reported-launch-2026-11-06",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Falcon 9 USSF-432 national-security flight reportedly launches Nov 6 Pacific",
+      "type": "Launch",
+      "status": "reported",
+      "date": "2026-11-06",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://spaceflightnow.com/2026/11/06/falcon-9-to-launch-from-california-on-classified-mission-for-u-s-space-force/",
+      "sourceLabel": "November 6 Spaceflight Now on-site report; Vandenberg Space Force public release URL inaccessible (403) on recheck",
+      "sourceCheckedAt": "2026-11-08T16:57:50Z",
+      "verifiedAt": null,
+      "basis": "Spaceflight Now and Space.com both reported that a SpaceX Falcon 9 carrying USSF-432 launched from Vandenberg SLC-4E on Friday November 6, 2026 at approximately 4:48 p.m. Pacific, equivalent to November 7 00:48 UTC. Space Force's November 6 release 'Vandenberg Supports 74th Launch of 2026' was identified but its primary site returned 403 to this review, and the SpaceX launch archive did not expose live mission details. Accordingly the database uses the PACIFIC LOCAL mission date November 6 and status REPORTED, not primary-verified 'confirmed' or an exact clock field; revisit official SpaceX / US Space Force archives before upgrading. Payload identities, orbit details and a suspected Starshield connection were not publicly confirmed and must not be presented as facts.",
+      "importance": "Completed national-security mission tracked for Nasdaq: SPCX launch cadence and Space Force contractual activity; avoids conflating launch local day November 6 with UTC calendar day November 7 or speculating about classified payloads.",
+      "sources": [
+        {
+          "label": "U.S. Space Force Vandenberg official Nov 6 release (403 on automated retrieval)",
+          "url": "https://www.vandenberg.spaceforce.mil/News/Article-Display/Article/4644221/vandenberg-supports-74th-launch-of-2026/",
+          "kind": "official",
+          "checkedAt": "2026-11-08T16:57:50Z"
+        },
+        {
+          "label": "Spaceflight Now Nov 6 independent launch eyewitness report",
+          "url": "https://spaceflightnow.com/2026/11/06/falcon-9-to-launch-from-california-on-classified-mission-for-u-s-space-force/",
+          "kind": "report",
+          "checkedAt": "2026-11-08T16:57:50Z"
+        },
+        {
+          "label": "Space.com Nov 7 report of Nov 6 local launch",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432",
+          "kind": "report",
+          "checkedAt": "2026-11-08T16:57:50Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 8 HKT targeted 33-issuer check. Four material items added: SpaceX Nov 6 board resignation (effective Nov 4; official IR/SEC 8-K), AMD Nov 4 Form 10-Q warrant liability and AI commitments (primary filing), and two distinct Nov 6 Reuters reports explicitly media-reported (OpenAI initial $11bn capital raise; Microsoft winding down old Oracle rental). All 33 issuer entry points attempted; Broadcom, Adobe, CrowdStrike and Cloudflare IR roots blocked. FAA future meetings Nov 17-19 and comment deadline Dec 7 remain regulatory, not launches. SpaceX Nasdaq SPCX Q4 earnings and unique future Starlink/Starship launch dates unannounced. 79-source historical full audit unchanged since Oct 15. Compact mobile UI untouched.",
-  "lastPartialReview": "2026-11-07T16:56:48Z"
+  "verificationNote": "Nov 9 HKT targeted review of all 33 company IR/newsroom entrypoints and selective official SEC, FAA and SpaceX sources. Added Anthropic $3.4bn / 1.7GW generator commitment as third-party REPORTED (transaction said to be late September, no installed GW); backfilled USSF-432 Nov 6 Pacific launch only as REPORTED because official Space Force article blocked. SPCX remains Nasdaq listed with existing earnings and financing. No new verified Q4 earnings or Starship launch date. The 79-source comprehensive audit remains Oct 15; mobile List view unchanged.",
+  "lastPartialReview": "2026-11-08T16:57:50Z"
 }
