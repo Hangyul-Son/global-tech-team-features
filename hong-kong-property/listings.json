@@ -45,7 +45,7 @@
       "unknownAskingCount": 1,
       "unknownAreaCount": 3,
       "unknownBedroomCount": 14,
-      "lastAttemptAt": "2026-11-02T03:02:39+00:00",
+      "lastAttemptAt": "2026-11-09T02:10:14+00:00",
       "lastAttemptError": "HTTP Error 403: Forbidden"
     },
     {
@@ -110,7 +110,7 @@
       "unknownAskingCount": 3,
       "unknownAreaCount": 9,
       "unknownBedroomCount": 28,
-      "lastAttemptAt": "2026-11-02T03:02:39+00:00",
+      "lastAttemptAt": "2026-11-09T02:10:14+00:00",
       "lastAttemptError": "HTTP Error 403: Forbidden"
     },
     {
@@ -231,7 +231,7 @@
       "unknownAskingCount": 12,
       "unknownAreaCount": 43,
       "unknownBedroomCount": 124,
-      "lastAttemptAt": "2026-11-02T03:02:39+00:00",
+      "lastAttemptAt": "2026-11-09T02:10:14+00:00",
       "lastAttemptError": "HTTP Error 403: Forbidden"
     }
   ],
@@ -71129,7 +71129,7 @@
       "retainedCheckedAt": "2026-11-02T02:54:07+00:00"
     }
   ],
-  "attemptedAt": "2026-11-02T03:02:39+00:00",
+  "attemptedAt": "2026-11-09T02:10:14+00:00",
   "refreshStatus": "partial-previous-data-retained",
   "lastFullSuccessfulAt": "2026-11-02T02:54:07+00:00"
 }

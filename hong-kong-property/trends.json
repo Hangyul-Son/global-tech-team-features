@@ -1,5 +1,5 @@
 {
-  "retrievedAt": "2026-11-02T11:02:43+08:00",
+  "retrievedAt": "2026-11-09T10:10:18+08:00",
   "provider": "28Hse",
   "frequency": "quarterly",
   "methodology": [
@@ -409,7 +409,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "wong-chuk-hang",
@@ -742,7 +742,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "olympic",
@@ -1140,7 +1140,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tseung-kwan-o",
@@ -1535,8 +1535,10 @@
         "httpDate": "Mon, 02 Nov 2026 03:02:44 GMT",
         "lastModified": null
       },
-      "fetchStatus": "ok",
-      "lastSuccessfulAt": "2026-11-02T11:02:43+08:00"
+      "fetchStatus": "retained_after_fetch_failure",
+      "lastSuccessfulAt": "2026-11-02T11:02:43+08:00",
+      "refreshError": "HTTP Error 403: Forbidden",
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "taikoo-quarry-bay",
@@ -1934,7 +1936,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "nam-cheong",
@@ -2332,7 +2334,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tung-chung",
@@ -2730,7 +2732,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tin-shui-wai",
@@ -3128,7 +3130,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tsuen-wan",
@@ -3526,7 +3528,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tai-po",
@@ -3924,7 +3926,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tuen-mun",
@@ -4322,7 +4324,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "whampoa-hung-hom",
@@ -4720,7 +4722,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "mei-foo",
@@ -5118,7 +5120,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "yuen-long",
@@ -5516,7 +5518,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "lam-tin",
@@ -5914,7 +5916,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "kennedy-town",
@@ -6312,7 +6314,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "sai-ying-pun",
@@ -6710,7 +6712,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "wan-chai",
@@ -7108,7 +7110,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "kai-tak",
@@ -7506,7 +7508,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "kowloon-bay",
@@ -7904,7 +7906,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "wu-kai-sha-ma-on-shan",
@@ -8302,7 +8304,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tsing-yi",
@@ -8700,7 +8702,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "wong-tai-sin",
@@ -9098,7 +9100,7 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "fanling-belair",
@@ -9496,147 +9498,153 @@
       "fetchStatus": "retained_after_fetch_failure",
       "lastSuccessfulAt": "2026-11-02T10:58:50+08:00",
       "refreshError": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-02T11:02:43+08:00"
+      "lastAttemptAt": "2026-11-09T10:10:18+08:00"
     }
   ],
   "errors": [
     {
-      "id": "wong-chuk-hang",
-      "source": "https://www.28hse.com/en/estate/detail/the-southside-27919/south-land-23648",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
       "id": "olympic",
       "source": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "wong-chuk-hang",
+      "source": "https://www.28hse.com/en/estate/detail/the-southside-27919/south-land-23648",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "tseung-kwan-o",
+      "source": "https://www.28hse.com/en/estate/detail/park-central-4007",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "north-point",
       "source": "https://www.28hse.com/en/estate/detail/city-garden-1070",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
-      "id": "taikoo-quarry-bay",
-      "source": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
-      "id": "nam-cheong",
-      "source": "https://www.28hse.com/en/estate/detail/cullinan-west-27511",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tung-chung",
       "source": "https://www.28hse.com/en/estate/detail/caribbean-coast-4710",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "nam-cheong",
+      "source": "https://www.28hse.com/en/estate/detail/cullinan-west-27511",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "taikoo-quarry-bay",
+      "source": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tin-shui-wai",
       "source": "https://www.28hse.com/en/estate/detail/kingswood-villas-4390",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tsuen-wan",
       "source": "https://www.28hse.com/en/estate/detail/tsuen-wan-centre-4571",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tai-po",
       "source": "https://www.28hse.com/en/estate/detail/tai-po-centre-4131",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "tuen-mun",
       "source": "https://www.28hse.com/en/estate/detail/tuen-mun-town-plaza-4433",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "whampoa-hung-hom",
       "source": "https://www.28hse.com/en/estate/detail/whampoa-garden-3060",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
-      "id": "mei-foo",
-      "source": "https://www.28hse.com/en/estate/detail/mei-foo-sun-chuen-2520",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
-      "id": "yuen-long",
-      "source": "https://www.28hse.com/en/estate/detail/yoho-town-4250",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
-      "id": "kennedy-town",
-      "source": "https://www.28hse.com/en/estate/detail/the-merton-550",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
-      "id": "sai-ying-pun",
-      "source": "https://www.28hse.com/en/estate/detail/island-crest-5444",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "lam-tin",
       "source": "https://www.28hse.com/en/estate/detail/laguna-city-2000",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
-      "id": "wan-chai",
-      "source": "https://www.28hse.com/en/estate/detail/the-avenue-7958",
+      "id": "yuen-long",
+      "source": "https://www.28hse.com/en/estate/detail/yoho-town-4250",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "mei-foo",
+      "source": "https://www.28hse.com/en/estate/detail/mei-foo-sun-chuen-2520",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "kennedy-town",
+      "source": "https://www.28hse.com/en/estate/detail/the-merton-550",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "kai-tak",
       "source": "https://www.28hse.com/en/estate/detail/oasis-kai-tak-22370",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "sai-ying-pun",
+      "source": "https://www.28hse.com/en/estate/detail/island-crest-5444",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "kowloon-bay",
       "source": "https://www.28hse.com/en/estate/detail/telford-gardens-2080",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
-      "id": "wu-kai-sha-ma-on-shan",
-      "source": "https://www.28hse.com/en/estate/detail/double-cove-7508",
+      "id": "wan-chai",
+      "source": "https://www.28hse.com/en/estate/detail/the-avenue-7958",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
-      "id": "wong-tai-sin",
-      "source": "https://www.28hse.com/en/estate/detail/lionsrise-6255",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
-    },
-    {
-      "id": "tsing-yi",
-      "source": "https://www.28hse.com/en/estate/detail/tierra-verde-4650",
-      "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     },
     {
       "id": "fanling-belair",
       "source": "https://www.28hse.com/en/estate/detail/belair-monte-4175",
       "error": "HTTP Error 403: Forbidden",
-      "attemptedAt": "2026-11-02T11:02:43+08:00"
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "tsing-yi",
+      "source": "https://www.28hse.com/en/estate/detail/tierra-verde-4650",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "wu-kai-sha-ma-on-shan",
+      "source": "https://www.28hse.com/en/estate/detail/double-cove-7508",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
+    },
+    {
+      "id": "wong-tai-sin",
+      "source": "https://www.28hse.com/en/estate/detail/lionsrise-6255",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-09T10:10:18+08:00"
     }
   ]
 }
