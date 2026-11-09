@@ -984,7 +984,7 @@
   ],
   "indices": {
     "provider": "Rating and Valuation Department, HKSAR Government",
-    "retrievedAt": "2026-11-09T02:10:14+00:00",
+    "retrievedAt": "2026-11-09T06:32:09+00:00",
     "sourceUpdatedAt": "2026-10-28",
     "indexBase": "1999 = 100",
     "latestIndexPeriod": "2026-09",
@@ -4024,12 +4024,12 @@
     },
     "retrievalBySource": {
       "priceMonthly": {
-        "retrievedAt": "2026-11-09T02:10:14+00:00",
+        "retrievedAt": "2026-11-09T06:32:09+00:00",
         "source": "https://www.rvd.gov.hk/datagovhk/1.4M.csv",
         "latestPeriod": "2026-09"
       },
       "rentMonthly": {
-        "retrievedAt": "2026-11-09T02:10:14+00:00",
+        "retrievedAt": "2026-11-09T06:32:09+00:00",
         "source": "https://www.rvd.gov.hk/datagovhk/1.3M.csv",
         "latestPeriod": "2026-09"
       }
@@ -4143,7 +4143,7 @@
     "quote": "KRW",
     "hkdToKrw": 173.3638077824124,
     "date": "2026-11-06",
-    "retrievedAt": "2026-11-09T02:10:14+00:00",
+    "retrievedAt": "2026-11-09T06:32:09+00:00",
     "sourceName": "ECB reference rate",
     "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
     "referencePage": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
@@ -4164,7 +4164,7 @@
     "tseung-kwan-o"
   ],
   "refreshMetadata": {
-    "attemptedAt": "2026-11-09T02:10:14+00:00",
+    "attemptedAt": "2026-11-09T06:32:09+00:00",
     "statusFile": "refresh-status.json",
     "runStatus": "partial",
     "note": "Read per-component and per-region dates; an attempted run is not proof every dataset refreshed."
