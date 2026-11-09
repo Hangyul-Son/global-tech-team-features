@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 9 HKT: targeted 33/33 source-entrypoint review (2 blocked: Adobe and Cloudflare; several dynamically rendered). New Anthropic ~$3.4bn / 1.7GW generator agreement attributed by Reuters to FT on Nov 8, reported only; late-September commitment date unverified by issuer and ordered generation is NOT installed compute. SpaceX USSF-432 Nov 6 Pacific flight eyewitness reports; official Space Force archive 403, status reported pending direct primary retrieval. SPCX remains public and Q3 earnings / SEC financing retained; Q4 earnings and future Starship launches undated without primary. FAA virtual scoping Nov 17-19 and Dec 7 comment deadline confirmed. Historical 79-source audit remains Oct 15; compact mobile List unchanged.",
+  "note": "Nov 10 HKT targeted 33/33 issuer entrypoint review with SEC SpaceX, SpaceX mission archive, FAA, NASA, FCC access attempt. Upgraded AVGO Dec 9 Q4 call from provider estimate to issuer-confirmed 17:00 EST. Added Nov 9 official AMD/Alphabet TPU 8tx/8i Max + AMD EPYC host role; added SpaceX USSF-317 Nov 13 04:23–08:23 UTC ESTIMATED launch window (not flown) and refreshed USSF-627 target. SPCX publicly listed, quarterly earnings retained; Q4 date not announced. Four entrypoints blocked (ADBE/ASML/CRWD/NET), several JS-limited; old 79-source full audit remains Oct 15. Mobile List code unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,12 +5340,12 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-08T16:57:50Z",
-    "localDate": "2026-11-09",
+    "checkedAt": "2026-11-09T17:03:46.793Z",
+    "localDate": "2026-11-10",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 31,
-    "entryPointsBlocked": 2,
+    "entryPointsAccessibleOrPartiallyRendered": 29,
+    "entryPointsBlocked": 4,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
@@ -5362,11 +5362,11 @@
       },
       {
         "id": "AVGO",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "MRVL",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "AAPL",
@@ -5398,7 +5398,7 @@
       },
       {
         "id": "ASML",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "LRCX",
@@ -5454,7 +5454,7 @@
       },
       {
         "id": "QCOM",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "SNOW",
@@ -5462,7 +5462,7 @@
       },
       {
         "id": "CRWD",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "PANW",
@@ -5481,16 +5481,16 @@
         "status": "limited"
       }
     ],
-    "notes": "Nov 9 HKT: targeted 33/33 source-entrypoint review (2 blocked: Adobe and Cloudflare; several dynamically rendered). New Anthropic ~$3.4bn / 1.7GW generator agreement attributed by Reuters to FT on Nov 8, reported only; late-September commitment date unverified by issuer and ordered generation is NOT installed compute. SpaceX USSF-432 Nov 6 Pacific flight eyewitness reports; official Space Force archive 403, status reported pending direct primary retrieval. SPCX remains public and Q3 earnings / SEC financing retained; Q4 earnings and future Starship launches undated without primary. FAA virtual scoping Nov 17-19 and Dec 7 comment deadline confirmed. Historical 79-source audit remains Oct 15; compact mobile List unchanged."
+    "notes": "Blocked Adobe financial, ASML IR 403, CrowdStrike IR 403, Cloudflare IR 403. Several issuer calendar grids render only partial/dynamic content. SEC indexed filings for SPCX accessible through Nov 6 Form 8-K, no issuer-confirmed Q4 earnings call found; FAA Boca Chica virtual meetings Nov 17-19 and Dec 7 comment deadline unchanged. FCC homepage also denied 403. Source-specific notes are in reviewHistory."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-08T16:57:50Z",
-    "scope": "Nov 9 targeted 33-company scan, two media-reported additions; 79-source deep sweep unchanged since Oct 15",
+    "checkedAt": "2026-11-09T17:03:46.793Z",
+    "scope": "Nov 10 targeted 33-company scan; two mission/product events added and one Q4 earnings status upgraded; historic 79-source audit NOT rerun",
     "companies": 33,
-    "events": 130,
+    "events": 132,
     "companiesWithEvents": 33,
-    "confirmedEvents": 99,
-    "undatedEvents": 15,
+    "confirmedEvents": 101,
+    "undatedEvents": 10,
     "estimatedEvents": 16,
     "reportedEvents": 5,
     "confirmedMissingVerifiedAt": 0,
@@ -6411,6 +6411,78 @@
         "Space Force primary announcement for USSF-432 returned 403, so recorded as reported despite two independent launch accounts; avoid precise time and classified payload inference.",
         "Anthropic/OnePWR reportedly purchased generation equipment commitments in late September, but neither issuer has publicly confirmed; don't add 1.7 GW to live compute or power inventories.",
         "No comprehensive 79-source refresh, which retains checkedAt October 15; selective SpaceX SEC, FAA and 33 IR/newsroom checks do not exhaustively enumerate all SEC filings at each issuer."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-09T17:03:46.793Z",
+      "scope": "Nov 10 HKT targeted 33/33 issuer entry point plus fresh semiconductor product, SEC SpaceX, SpaceX official launch feed, NASA/FAA/FCC; no rerun of 79-source Oct 15 history",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AMD",
+        "MRVL",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "ADBE",
+        "ASML",
+        "MU",
+        "AMZN",
+        "CRWV",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "CRWD",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "AVGO: Broadcom IR directly confirms Q4 FY2026 earnings conference call December 9 2026, 5 p.m. EST (December 10, 6 a.m. HKT); replaced matching October 28 MarketBeat ESTIMATE with CONFIRMED and verified UTC time.",
+        "AMD/GOOGL: Google and AMD official Nov 9 announcements verify TPU 8tx (AMD EPYC host security) and TPU 8i Max introduction; recorded one multi-company confirmed November 9 announcement, no inferred units/GW or financial terms.",
+        "SPACEX: Official SpaceX indexed mission archive now shows distinct USSF-317 Falcon 9 launch TARGET Nov 13, 04:23–08:23 UTC; added as ESTIMATED future launch window (NOT completed).",
+        "SPACEX: Official USSF-627 Nov 10 03:03–07:03 UTC schedule rechecked; independent feed indicates 03:07 T0 change, so retained ESTIMATED window with discrepancy and no exact verified launch event.",
+        "SPACEX: Official investor IR and SEC Q3 10-Q / Nov 6 8-K remain covered; no confirmed next Q4 FY2026 earnings date. FAA Boca Chica virtual meetings Nov 17–19 and Dec 7 comments confirmed but NOT launch approvals."
+      ],
+      "coverageGaps": [
+        "All 33 issuer primary URLs attempted: ADBE financial unreachable, ASML 403, CRWD 403, NET 403. Other accessible issuer sites have JavaScript-only or partial investor event data, especially SPCX quarterly results.",
+        "SpaceX IR public landing page is dynamic; latest individually indexed SEC filing verified Nov 6, but dynamically loaded SEC browse listing did not expose a definitive exhaustive filing sequence. No claim of no further filings or firm Q4 earnings timing.",
+        "FCC homepage 403; Starlink Direct-to-Cell/spectrum regulatory docket review incomplete. NASA missions hub and FAA official Starship pages accessible; no new specific Starship, V3 or NASA contract milestone confirmed in this pass.",
+        "SpaceX USSF-317 and USSF-627 are planned targets: public launch windows may shift. SpaceX issuer manifest and secondary launch tracker differ by several minutes for USSF-627, retain provisional precision.",
+        "The 79-source historical full audit checkedAt, successfulSources and totalSources remain unchanged since October 15, 2026; current refresh is targeted, not a comprehensive re-scrape."
       ]
     }
   ]

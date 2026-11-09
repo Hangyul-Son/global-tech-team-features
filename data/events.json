@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-10",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-08T16:57:50Z",
+  "lastAttempt": "2026-11-09T17:03:46.793Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -657,27 +657,37 @@
       "companies": [
         "AVGO"
       ],
-      "title": "Broadcom earnings",
+      "title": "Broadcom Q4 FY2026 earnings conference call",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-12-09",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-12-09 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
-      "importance": "Custom AI silicon, networking and VMware software demand.",
+      "time": "17:00 EST · 06:00 HKT Dec 10",
+      "sourceUrl": "https://investors.broadcom.com/company-information/events-presentations",
+      "sourceLabel": "Broadcom official IR events calendar · Q4 2026 call Dec 9 at 5:00 p.m. EST",
+      "sourceCheckedAt": "2026-11-09T17:03:46.793Z",
+      "verifiedAt": "2026-11-09T17:03:46.793Z",
+      "basis": "Broadcom's official Events & Presentations calendar now explicitly lists its Q4 2026 earnings conference call on December 9, 2026 at 5:00 PM EST (December 10, 06:00 Hong Kong). This replaces the October 28 MarketBeat provider estimate that coincidentally matched the official date. Call/webcast date and time are company-confirmed; no actual results or guidance for the quarter are assumed ahead of release.",
+      "importance": "Near-term custom AI accelerator, hyperscaler networking, VMware and AI semiconductor outlook; issuer-confirmed call timing supersedes third-party estimate.",
       "sources": [
+        {
+          "label": "Broadcom Q4 2026 earnings call · official December 9 5:00 PM EST",
+          "url": "https://investors.broadcom.com/company-information/events-presentations",
+          "kind": "official",
+          "checkedAt": "2026-11-09T17:03:46.793Z"
+        },
         {
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/AVGO/earnings/",
           "kind": "estimate",
           "checkedAt": "2026-10-28T03:04:31.746796+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-12-09T22:00:00Z",
+      "sourceTimeZone": "America/New_York",
+      "timeCheckedAt": "2026-11-09T17:03:46.793Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "MRVL-2026-12-earnings",
@@ -4481,13 +4491,19 @@
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/",
-      "sourceLabel": "SpaceX official homepage upcoming launch feed · mission USSF-627; independently corroborated by launch manifest",
-      "sourceCheckedAt": "2026-11-07T16:56:48Z",
+      "sourceUrl": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
+      "sourceLabel": "SpaceX mission-identified official upcoming launches (rechecked); future launch TARGET only",
+      "sourceCheckedAt": "2026-11-09T17:03:46.793Z",
       "verifiedAt": null,
-      "basis": "SpaceX's official homepage, as indexed November 7/8, identifies its upcoming Falcon 9 USSF-627 mission with launch WINDOW November 10, 2026, 03:03–07:03 UTC (SpaceX publisher feed). Mission identity corroborated by independent current launch tracking, with recent November 2–3 reschedules from November 9. This is a TARGET / no-earlier-than launch window, NOT an actual flown launch, immutable exact time, completed contract, or company guarantee of liftoff. SpaceX live JavaScript launch manifest can be stale or change without notice; reconfirm before upgrading status. Do not confuse with generic Starlink launches or reported November 13 Starship Flight 15.",
+      "basis": "SpaceX's official homepage, as indexed November 7/8, identifies its upcoming Falcon 9 USSF-627 mission with launch WINDOW November 10, 2026, 03:03–07:03 UTC (SpaceX publisher feed). Mission identity corroborated by independent current launch tracking, with recent November 2–3 reschedules from November 9. This is a TARGET / no-earlier-than launch window, NOT an actual flown launch, immutable exact time, completed contract, or company guarantee of liftoff. SpaceX live JavaScript launch manifest can be stale or change without notice; reconfirm before upgrading status. Do not confuse with generic Starlink launches or reported November 13 Starship Flight 15. Rechecked November 10 03:03–07:03 UTC TARGET on SpaceX indexed official launch page during November 10 HKT research run. A third-party real-time tracker has shown an updated 03:07 UTC T-0; do not assume minute-precision certainty or mark flight completed.",
       "importance": "Upcoming U.S. national-security launch and cadence indicator for SpaceX launch business; mission-identifiable official forward launch window versus earlier conflicting generic Starlink manifests.",
       "sources": [
+        {
+          "label": "SpaceX mission-specific official launch listing rechecked November 10 HKT",
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
+          "kind": "estimate",
+          "checkedAt": "2026-11-09T17:03:46.793Z"
+        },
         {
           "label": "SpaceX official homepage upcoming launch preview (Nov 10 USSF-627)",
           "url": "https://www.spacex.com/",
@@ -4579,8 +4595,75 @@
           "checkedAt": "2026-11-08T16:57:50Z"
         }
       ]
+    },
+    {
+      "id": "amd-google-cloud-tpu-8tx-8imax-2026-11-09",
+      "companies": [
+        "AMD",
+        "GOOGL"
+      ],
+      "title": "Google TPU 8tx / 8i Max introduced; AMD EPYC hosts secure TPU 8tx",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-09",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "sourceLabel": "Google official November 9 TPU 8tx/8i Max introduction; AMD November 9 EPYC announcement",
+      "sourceCheckedAt": "2026-11-09T17:03:46.793Z",
+      "verifiedAt": "2026-11-09T17:03:46.793Z",
+      "basis": "Google formally introduced TPU 8tx, optimized for confidential inference/small-scale training and built on 8t-generation silicon with 5th Gen AMD EPYC host CPUs, and TPU 8i Max, which combines two 8i chips in one package for 2x compute, SRAM and HBM bandwidth versus TPU 8i (Google-reported claims). AMD separately confirmed EPYC host orchestration, data preparation and secure communications for Google Cloud TPU 8tx using AMD SEV. Google said its TPU business has nearly 100 customers. November 9 is the ANNOUNCEMENT date, not a completed global fleet deployment date. Neither issuer disclosed contract value, AMD CPU unit shipments or newly energized MW for this program.",
+      "importance": "Independent evidence of AMD server CPU content in non-AMD custom AI accelerator systems and Google's expanded in-house TPU portfolio; track TPU rack deployments, utilization and chip mix separately from announcement.",
+      "sources": [
+        {
+          "label": "Google official Nov 9: Introducing TPU 8tx and TPU 8i Max",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "kind": "official",
+          "checkedAt": "2026-11-09T17:03:46.793Z"
+        },
+        {
+          "label": "AMD investor release Nov 9: 5th Gen EPYC host infrastructure for TPU 8tx",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
+          "kind": "official",
+          "checkedAt": "2026-11-09T17:03:46.793Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-ussf-317-falcon9-net-2026-11-13",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Falcon 9 USSF-317 · NET Nov 13 UTC (04:23–08:23 window)",
+      "type": "Launch",
+      "status": "estimated",
+      "date": "2026-11-13",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
+      "sourceLabel": "SpaceX official upcoming-launch archive, mission-identified Falcon 9 USSF-317 Nov 13 UTC window",
+      "sourceCheckedAt": "2026-11-09T17:03:46.793Z",
+      "verifiedAt": null,
+      "basis": "SpaceX's indexed launch archive lists USSF-317, Falcon 9 from Vandenberg SLC-4E, targeting November 13, 2026 with a 04:23–08:23 UTC launch window. This is a published future TARGET/launch WINDOW, not a guaranteed exact liftoff time or completed flight. Launch manifests can change dynamically; no FAA/Space Force clearance or classified payload details have been inferred. Compared against the separate USSF-627 Nov 10 listing to avoid mixing missions. Refresh directly from SpaceX/FAA prior to flight.",
+      "importance": "A second mission-identified near-term SpaceX national-security launch target; captures planned cadence without treating estimated launch window as flight completion.",
+      "sources": [
+        {
+          "label": "SpaceX official upcoming missions archive · USSF-317 target",
+          "url": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
+          "kind": "estimate",
+          "checkedAt": "2026-11-09T17:03:46.793Z"
+        },
+        {
+          "label": "Mission manifest cross-check (independent; provisional)",
+          "url": "https://spacenexus.us/launches/spacex/2026-11",
+          "kind": "report",
+          "checkedAt": "2026-11-09T17:03:46.793Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 9 HKT targeted review of all 33 company IR/newsroom entrypoints and selective official SEC, FAA and SpaceX sources. Added Anthropic $3.4bn / 1.7GW generator commitment as third-party REPORTED (transaction said to be late September, no installed GW); backfilled USSF-432 Nov 6 Pacific launch only as REPORTED because official Space Force article blocked. SPCX remains Nasdaq listed with existing earnings and financing. No new verified Q4 earnings or Starship launch date. The 79-source comprehensive audit remains Oct 15; mobile List view unchanged.",
-  "lastPartialReview": "2026-11-08T16:57:50Z"
+  "verificationNote": "Nov 10 HKT targeted 33/33 issuer entrypoint review with SEC SpaceX, SpaceX mission archive, FAA, NASA, FCC access attempt. Upgraded AVGO Dec 9 Q4 call from provider estimate to issuer-confirmed 17:00 EST. Added Nov 9 official AMD/Alphabet TPU 8tx/8i Max + AMD EPYC host role; added SpaceX USSF-317 Nov 13 04:23–08:23 UTC ESTIMATED launch window (not flown) and refreshed USSF-627 target. SPCX publicly listed, quarterly earnings retained; Q4 date not announced. Four entrypoints blocked (ADBE/ASML/CRWD/NET), several JS-limited; old 79-source full audit remains Oct 15. Mobile List code unchanged.",
+  "lastPartialReview": "2026-11-09T17:03:46.793Z"
 }
