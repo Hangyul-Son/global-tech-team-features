@@ -96,16 +96,16 @@
       "region": "Kowloon",
       "estate": "Park Avenue",
       "street": "18 Hoi Ting Road",
-      "salePsf": 22305,
+      "salePsf": 22240,
       "rentPsf": 55,
-      "saleYearAgoPsf": 18238,
+      "saleYearAgoPsf": 18866,
       "saleCount": 18,
-      "rentCount": 27,
+      "rentCount": 14,
       "source": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
-      "sourceCrawl": "3 weeks before retrieval",
-      "date": "2026-11-02",
+      "sourceCrawl": "Cached page crawled 6 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
+      "date": "2026-11-09",
       "targetNote": "466 sq ft 2-bedroom examples fit.",
-      "notes": "Source aggregate includes both phases and all sizes. Sale/rent examples are different towers.",
+      "notes": "Source aggregate includes both phases and all sizes. Sale/rent examples are different towers. Summary re-observed 9 Nov 2026 from a cached page (6 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements.",
       "rentAskingRange": null,
       "saleExample": {
         "kind": "asking listing",
@@ -131,7 +131,23 @@
       "lat": 22.31677,
       "lng": 114.16331,
       "coordinateSource": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
-      "coordinateNote": "Approximate estate location for map orientation; coordinates identify an estate map marker, not a surveyed building entrance or individual flat. Rounded to 5 decimals."
+      "coordinateNote": "Approximate estate location for map orientation; coordinates identify an estate map marker, not a surveyed building entrance or individual flat. Rounded to 5 decimals.",
+      "summaryObservationHistory": [
+        {
+          "date": "2026-11-02",
+          "source": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
+          "sourceCrawl": "3 weeks before retrieval",
+          "salePsf": 22305,
+          "rentPsf": 55,
+          "saleCount": 18,
+          "rentCount": 27,
+          "saleYearAgoPsf": 18238
+        }
+      ],
+      "summaryCheckedAt": "2026-11-09T02:10:01Z",
+      "metricAsOf": null,
+      "summaryFreshness": "cached source observation; not certified current on review date",
+      "summaryWindowDays": 90
     },
     {
       "id": "tseung-kwan-o",
@@ -144,12 +160,12 @@
       "rentPsf": 44,
       "saleYearAgoPsf": 14321,
       "saleCount": 25,
-      "rentCount": 78,
-      "source": "https://www.28hse.com.cn/en/estate/detail/park-central-4007",
-      "sourceCrawl": "day of retrieval",
-      "date": "2026-11-02",
+      "rentCount": 82,
+      "source": "https://www.28hse.com/en/estate/detail/park-central-4007",
+      "sourceCrawl": "Cached page crawled 4 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
+      "date": "2026-11-09",
       "targetNote": "406–465 sq ft 2-bedroom examples fit.",
-      "notes": "Sale/rent examples have different sizes. Some portal listings at HK$4,000 likely room/sublet rather than whole unit; exclude from target comps.",
+      "notes": "Sale/rent examples have different sizes. Some portal listings at HK$4,000 likely room/sublet rather than whole unit; exclude from target comps. Summary re-observed 9 Nov 2026 from a cached page (4 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements.",
       "rentAskingRange": null,
       "saleExample": {
         "kind": "Land Registry transaction via 28Hse",
@@ -175,7 +191,23 @@
       "lat": 22.30724,
       "lng": 114.25711,
       "coordinateSource": "https://www.28hse.com/en/estate/detail/park-central-4007",
-      "coordinateNote": "Approximate estate location for map orientation; coordinates identify an estate map marker, not a surveyed building entrance or individual flat. Rounded to 5 decimals."
+      "coordinateNote": "Approximate estate location for map orientation; coordinates identify an estate map marker, not a surveyed building entrance or individual flat. Rounded to 5 decimals.",
+      "summaryObservationHistory": [
+        {
+          "date": "2026-11-02",
+          "source": "https://www.28hse.com.cn/en/estate/detail/park-central-4007",
+          "sourceCrawl": "day of retrieval",
+          "salePsf": 16263,
+          "rentPsf": 44,
+          "saleCount": 25,
+          "rentCount": 78,
+          "saleYearAgoPsf": 14321
+        }
+      ],
+      "summaryCheckedAt": "2026-11-09T02:10:01Z",
+      "metricAsOf": null,
+      "summaryFreshness": "cached source observation; not certified current on review date",
+      "summaryWindowDays": 90
     },
     {
       "id": "taikoo-quarry-bay",
@@ -184,16 +216,16 @@
       "region": "Hong Kong Island",
       "estate": "Taikoo Shing",
       "street": "Taikoo Wan Road",
-      "salePsf": 17351,
+      "salePsf": 17387,
       "rentPsf": 47,
-      "saleYearAgoPsf": 14304,
-      "saleCount": 64,
-      "rentCount": 170,
+      "saleYearAgoPsf": 14325,
+      "saleCount": 55,
+      "rentCount": 151,
       "source": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
-      "sourceCrawl": "2 weeks ago",
-      "date": "2026-11-02",
+      "sourceCrawl": "Cached page crawled 4 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
+      "date": "2026-11-09",
       "targetNote": "530 sqft two-bed transaction fits target.",
-      "notes": "",
+      "notes": " Summary re-observed 9 Nov 2026 from a cached page (4 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements.",
       "rentAskingRange": [
         25800,
         36500
@@ -218,7 +250,23 @@
         "Taikoo Shing",
         "Quarry Bay",
         "Tai Koo Shing"
-      ]
+      ],
+      "summaryObservationHistory": [
+        {
+          "date": "2026-11-02",
+          "source": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
+          "sourceCrawl": "2 weeks ago",
+          "salePsf": 17351,
+          "rentPsf": 47,
+          "saleCount": 64,
+          "rentCount": 170,
+          "saleYearAgoPsf": 14304
+        }
+      ],
+      "summaryCheckedAt": "2026-11-09T02:10:01Z",
+      "metricAsOf": null,
+      "summaryFreshness": "cached source observation; not certified current on review date",
+      "summaryWindowDays": 90
     },
     {
       "id": "nam-cheong",
@@ -969,7 +1017,7 @@
         "price": 373.4,
         "priceA": 413.7,
         "priceB": 357.2,
-        "rent": 185.0,
+        "rent": 185,
         "rentA": 203.3,
         "rentB": 185.3,
         "provisional": false,
@@ -982,7 +1030,7 @@
         "priceA": 420.4,
         "priceB": 360.4,
         "rent": 181.7,
-        "rentA": 200.0,
+        "rentA": 200,
         "rentB": 181.3,
         "provisional": false,
         "priceProvisional": false,
@@ -1038,7 +1086,7 @@
       },
       {
         "date": "2020-08",
-        "price": 382.0,
+        "price": 382,
         "priceA": 423.9,
         "priceB": 365.6,
         "rent": 181.2,
@@ -1075,7 +1123,7 @@
       {
         "date": "2020-11",
         "price": 380.6,
-        "priceA": 423.0,
+        "priceA": 423,
         "priceB": 365.4,
         "rent": 178.5,
         "rentA": 194.9,
@@ -1134,9 +1182,9 @@
       },
       {
         "date": "2021-04",
-        "price": 391.0,
+        "price": 391,
         "priceA": 434.6,
-        "priceB": 376.0,
+        "priceB": 376,
         "rent": 177.5,
         "rentA": 194.2,
         "rentB": 178.9,
@@ -1158,8 +1206,8 @@
       },
       {
         "date": "2021-06",
-        "price": 394.0,
-        "priceA": 435.0,
+        "price": 394,
+        "priceA": 435,
         "priceB": 381.2,
         "rent": 179.3,
         "rentA": 196.2,
@@ -1170,7 +1218,7 @@
       },
       {
         "date": "2021-07",
-        "price": 398.0,
+        "price": 398,
         "priceA": 439.2,
         "priceB": 385.6,
         "rent": 180.3,
@@ -1206,7 +1254,7 @@
       },
       {
         "date": "2021-10",
-        "price": 396.0,
+        "price": 396,
         "priceA": 440.9,
         "priceB": 381.2,
         "rent": 184.3,
@@ -1222,7 +1270,7 @@
         "priceA": 437.1,
         "priceB": 379.7,
         "rent": 182.9,
-        "rentA": 200.0,
+        "rentA": 200,
         "rentB": 183.4,
         "provisional": false,
         "priceProvisional": false,
@@ -1235,7 +1283,7 @@
         "priceB": 381.3,
         "rent": 182.7,
         "rentA": 200.1,
-        "rentB": 182.0,
+        "rentB": 182,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1271,14 +1319,14 @@
         "priceB": 370.6,
         "rent": 178.5,
         "rentA": 195.6,
-        "rentB": 177.0,
+        "rentB": 177,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
       },
       {
         "date": "2022-04",
-        "price": 385.0,
+        "price": 385,
         "priceA": 425.5,
         "priceB": 372.7,
         "rent": 177.3,
@@ -1303,9 +1351,9 @@
       {
         "date": "2022-06",
         "price": 381.8,
-        "priceA": 419.0,
+        "priceA": 419,
         "priceB": 371.1,
-        "rent": 178.0,
+        "rent": 178,
         "rentA": 193.9,
         "rentB": 177.4,
         "provisional": false,
@@ -1341,7 +1389,7 @@
         "price": 360.3,
         "priceA": 396.3,
         "priceB": 347.9,
-        "rent": 179.0,
+        "rent": 179,
         "rentA": 197.9,
         "rentB": 177.4,
         "provisional": false,
@@ -1353,7 +1401,7 @@
         "price": 350.2,
         "priceA": 385.2,
         "priceB": 337.3,
-        "rent": 178.0,
+        "rent": 178,
         "rentA": 197.4,
         "rentB": 175.5,
         "provisional": false,
@@ -1367,7 +1415,7 @@
         "priceB": 325.4,
         "rent": 176.4,
         "rentA": 195.3,
-        "rentB": 174.0,
+        "rentB": 174,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1376,7 +1424,7 @@
         "date": "2022-12",
         "price": 334.7,
         "priceA": 368.9,
-        "priceB": 322.0,
+        "priceB": 322,
         "rent": 175.5,
         "rentA": 194.6,
         "rentB": 173.1,
@@ -1403,7 +1451,7 @@
         "priceB": 335.4,
         "rent": 175.1,
         "rentA": 194.1,
-        "rentB": 173.0,
+        "rentB": 173,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1438,7 +1486,7 @@
         "priceA": 382.2,
         "priceB": 340.4,
         "rent": 179.9,
-        "rentA": 199.0,
+        "rentA": 199,
         "rentB": 177.7,
         "provisional": false,
         "priceProvisional": false,
@@ -1458,10 +1506,10 @@
       },
       {
         "date": "2023-07",
-        "price": 344.0,
+        "price": 344,
         "priceA": 372.1,
         "priceB": 335.4,
-        "rent": 182.0,
+        "rent": 182,
         "rentA": 201.4,
         "rentB": 180.4,
         "provisional": false,
@@ -1470,7 +1518,7 @@
       },
       {
         "date": "2023-08",
-        "price": 337.0,
+        "price": 337,
         "priceA": 364.1,
         "priceB": 328.2,
         "rent": 184.9,
@@ -1494,7 +1542,7 @@
       },
       {
         "date": "2023-10",
-        "price": 322.0,
+        "price": 322,
         "priceA": 346.9,
         "priceB": 314.2,
         "rent": 185.4,
@@ -1507,7 +1555,7 @@
       {
         "date": "2023-11",
         "price": 315.6,
-        "priceA": 340.0,
+        "priceA": 340,
         "priceB": 307.7,
         "rent": 185.5,
         "rentA": 206.4,
@@ -1521,7 +1569,7 @@
         "price": 311.3,
         "priceA": 336.8,
         "priceB": 302.5,
-        "rent": 186.0,
+        "rent": 186,
         "rentA": 206.9,
         "rentB": 184.1,
         "provisional": false,
@@ -1534,7 +1582,7 @@
         "priceA": 330.7,
         "priceB": 299.6,
         "rent": 185.5,
-        "rentA": 206.0,
+        "rentA": 206,
         "rentB": 183.9,
         "provisional": false,
         "priceProvisional": false,
@@ -1547,7 +1595,7 @@
         "priceB": 294.4,
         "rent": 184.4,
         "rentA": 204.7,
-        "rentB": 183.0,
+        "rentB": 183,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1559,7 +1607,7 @@
         "priceB": 300.1,
         "rent": 184.9,
         "rentA": 205.7,
-        "rentB": 183.0,
+        "rentB": 183,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1570,7 +1618,7 @@
         "priceA": 331.5,
         "priceB": 301.6,
         "rent": 186.9,
-        "rentA": 207.0,
+        "rentA": 207,
         "rentB": 185.9,
         "provisional": false,
         "priceProvisional": false,
@@ -1579,9 +1627,9 @@
       {
         "date": "2024-05",
         "price": 305.5,
-        "priceA": 326.0,
+        "priceA": 326,
         "priceB": 297.8,
-        "rent": 190.0,
+        "rent": 190,
         "rentA": 209.8,
         "rentB": 189.7,
         "provisional": false,
@@ -1614,7 +1662,7 @@
       },
       {
         "date": "2024-08",
-        "price": 292.0,
+        "price": 292,
         "priceA": 310.5,
         "priceB": 285.2,
         "rent": 195.1,
@@ -1630,7 +1678,7 @@
         "priceA": 307.9,
         "priceB": 280.3,
         "rent": 195.3,
-        "rentA": 216.0,
+        "rentA": 216,
         "rentB": 193.7,
         "provisional": false,
         "priceProvisional": false,
@@ -1638,7 +1686,7 @@
       },
       {
         "date": "2024-10",
-        "price": 291.0,
+        "price": 291,
         "priceA": 309.2,
         "priceB": 284.9,
         "rent": 192.7,
@@ -1654,7 +1702,7 @@
         "priceA": 309.3,
         "priceB": 285.3,
         "rent": 191.9,
-        "rentA": 212.0,
+        "rentA": 212,
         "rentB": 190.6,
         "provisional": false,
         "priceProvisional": false,
@@ -1689,7 +1737,7 @@
         "price": 285.6,
         "priceA": 304.8,
         "priceB": 278.7,
-        "rent": 193.0,
+        "rent": 193,
         "rentA": 212.5,
         "rentB": 191.9,
         "provisional": false,
@@ -1715,7 +1763,7 @@
         "priceB": 279.4,
         "rent": 193.9,
         "rentA": 212.7,
-        "rentB": 193.0,
+        "rentB": 193,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1751,7 +1799,7 @@
         "priceB": 280.9,
         "rent": 197.4,
         "rentA": 215.5,
-        "rentB": 197.0,
+        "rentB": 197,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1759,7 +1807,7 @@
       {
         "date": "2025-08",
         "price": 288.8,
-        "priceA": 309.0,
+        "priceA": 309,
         "priceB": 281.1,
         "rent": 199.8,
         "rentA": 219.8,
@@ -1771,7 +1819,7 @@
       {
         "date": "2025-09",
         "price": 293.4,
-        "priceA": 314.0,
+        "priceA": 314,
         "priceB": 286.4,
         "rent": 199.9,
         "rentA": 219.8,
@@ -1808,7 +1856,7 @@
         "date": "2025-12",
         "price": 299.6,
         "priceA": 317.9,
-        "priceB": 293.0,
+        "priceB": 293,
         "rent": 200.5,
         "rentA": 219.8,
         "rentB": 199.1,
@@ -1842,7 +1890,7 @@
       },
       {
         "date": "2026-03",
-        "price": 314.0,
+        "price": 314,
         "priceA": 332.4,
         "priceB": 308.1,
         "rent": 201.9,
@@ -1880,7 +1928,7 @@
         "date": "2026-06",
         "price": 323.4,
         "priceA": 343.3,
-        "priceB": 316.0,
+        "priceB": 316,
         "rent": 205.8,
         "rentA": 221.8,
         "rentB": 205.5,
@@ -1892,7 +1940,7 @@
         "date": "2026-07",
         "price": 320.1,
         "priceA": 340.4,
-        "priceB": 312.0,
+        "priceB": 312,
         "rent": 207.4,
         "rentA": 223.6,
         "rentB": 207.3,
@@ -1904,7 +1952,7 @@
         "date": "2026-08",
         "price": 320.2,
         "priceA": 340.4,
-        "priceB": 312.0,
+        "priceB": 312,
         "rent": 211.2,
         "rentA": 227.9,
         "rentB": 211.3,
@@ -1941,7 +1989,7 @@
         "date": "2021",
         "Class A": 436.2,
         "Class B": 378.2,
-        "Class C": 344.0,
+        "Class C": 344,
         "Class D": 331.5,
         "Class E": 319.2,
         "Classes A, B & C": 395.3,
@@ -1963,11 +2011,11 @@
         "date": "2023",
         "Class A": 366.7,
         "Class B": 327.8,
-        "Class C": 310.0,
+        "Class C": 310,
         "Class D": 299.3,
         "Class E": 297.6,
         "Classes A, B & C": 338.8,
-        "Classes D & E": 299.0,
+        "Classes D & E": 299,
         "All Classes": 337.4
       },
       {
@@ -1975,9 +2023,9 @@
         "Class A": 318.8,
         "Class B": 291.5,
         "Class C": 282.4,
-        "Class D": 274.0,
+        "Class D": 274,
         "Class E": 270.2,
-        "Classes A, B & C": 300.0,
+        "Classes A, B & C": 300,
         "Classes D & E": 273.2,
         "All Classes": 298.7
       },
@@ -2013,14 +2061,14 @@
         "Class D": 148.1,
         "Class E": 136.5,
         "Classes A, B & C": 183.8,
-        "Classes D & E": 144.0,
+        "Classes D & E": 144,
         "All Classes": 179.8
       },
       {
         "date": "2022",
         "Class A": 195.7,
-        "Class B": 177.0,
-        "Class C": 153.0,
+        "Class B": 177,
+        "Class C": 153,
         "Class D": 147.7,
         "Class E": 137.1,
         "Classes A, B & C": 181.4,
@@ -2051,7 +2099,7 @@
       },
       {
         "date": "2025",
-        "Class A": 216.0,
+        "Class A": 216,
         "Class B": 195.5,
         "Class C": 165.4,
         "Class D": 153.6,
@@ -2070,7 +2118,7 @@
       },
       "priceA": {
         "latest": 340.4,
-        "mom": 0.0,
+        "mom": 0,
         "yoy": 8.408,
         "ytd": 7.078
       },
@@ -2105,7 +2153,7 @@
         "Domestic Class A": 2.5,
         "Domestic Class B": 2.3,
         "Domestic Class C": 2.2,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 2.1
       },
       {
@@ -2114,7 +2162,7 @@
         "Domestic Class B": 2.3,
         "Domestic Class C": 2.3,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2020-03",
@@ -2122,7 +2170,7 @@
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.2,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2020-04",
@@ -2130,14 +2178,14 @@
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.2,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2020-05",
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2145,7 +2193,7 @@
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2153,7 +2201,7 @@
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2161,7 +2209,7 @@
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.2,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2169,7 +2217,7 @@
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2178,7 +2226,7 @@
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2020-11",
@@ -2186,14 +2234,14 @@
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.2,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2020-12",
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2209,14 +2257,14 @@
         "Domestic Class A": 2.3,
         "Domestic Class B": 2.1,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.8
       },
       {
         "date": "2021-03",
         "Domestic Class A": 2.3,
         "Domestic Class B": 2.1,
-        "Domestic Class C": 2.0,
+        "Domestic Class C": 2,
         "Domestic Class D": 1.9,
         "Domestic Class E": 1.8
       },
@@ -2225,7 +2273,7 @@
         "Domestic Class A": 2.3,
         "Domestic Class B": 2.1,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2233,7 +2281,7 @@
         "Domestic Class A": 2.3,
         "Domestic Class B": 2.1,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2241,7 +2289,7 @@
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.1,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2249,7 +2297,7 @@
         "Domestic Class A": 2.3,
         "Domestic Class B": 2.1,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2257,7 +2305,7 @@
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 1.9
       },
       {
@@ -2266,22 +2314,22 @@
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
         "Domestic Class D": 1.9,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2021-10",
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
-        "Domestic Class E": 2.0
+        "Domestic Class D": 2,
+        "Domestic Class E": 2
       },
       {
         "date": "2021-11",
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 2.1
       },
       {
@@ -2289,7 +2337,7 @@
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
-        "Domestic Class D": 2.0,
+        "Domestic Class D": 2,
         "Domestic Class E": 2.1
       },
       {
@@ -2298,7 +2346,7 @@
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2022-02",
@@ -2328,9 +2376,9 @@
         "date": "2022-05",
         "Domestic Class A": 2.4,
         "Domestic Class B": 2.2,
-        "Domestic Class C": 2.0,
+        "Domestic Class C": 2,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2022-06",
@@ -2338,7 +2386,7 @@
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2022-07",
@@ -2346,15 +2394,15 @@
         "Domestic Class B": 2.2,
         "Domestic Class C": 2.1,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2022-08",
         "Domestic Class A": 2.6,
         "Domestic Class B": 2.3,
         "Domestic Class C": 2.2,
-        "Domestic Class D": 2.0,
-        "Domestic Class E": 2.0
+        "Domestic Class D": 2,
+        "Domestic Class E": 2
       },
       {
         "date": "2022-09",
@@ -2362,7 +2410,7 @@
         "Domestic Class B": 2.3,
         "Domestic Class C": 2.1,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2022-10",
@@ -2386,7 +2434,7 @@
         "Domestic Class B": 2.4,
         "Domestic Class C": 2.3,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2023-01",
@@ -2394,7 +2442,7 @@
         "Domestic Class B": 2.4,
         "Domestic Class C": 2.2,
         "Domestic Class D": 2.1,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2023-02",
@@ -2426,7 +2474,7 @@
         "Domestic Class B": 2.4,
         "Domestic Class C": 2.2,
         "Domestic Class D": 2.2,
-        "Domestic Class E": 2.0
+        "Domestic Class E": 2
       },
       {
         "date": "2023-06",
@@ -2446,7 +2494,7 @@
       },
       {
         "date": "2023-08",
-        "Domestic Class A": 3.0,
+        "Domestic Class A": 3,
         "Domestic Class B": 2.6,
         "Domestic Class C": 2.3,
         "Domestic Class D": 2.2,
@@ -2527,7 +2575,7 @@
       {
         "date": "2024-06",
         "Domestic Class A": 3.5,
-        "Domestic Class B": 3.0,
+        "Domestic Class B": 3,
         "Domestic Class C": 2.6,
         "Domestic Class D": 2.4,
         "Domestic Class E": 2.3
@@ -2535,7 +2583,7 @@
       {
         "date": "2024-07",
         "Domestic Class A": 3.6,
-        "Domestic Class B": 3.0,
+        "Domestic Class B": 3,
         "Domestic Class C": 2.7,
         "Domestic Class D": 2.5,
         "Domestic Class E": 2.3
@@ -2687,7 +2735,7 @@
       {
         "date": "2026-02",
         "Domestic Class A": 3.5,
-        "Domestic Class B": 3.0,
+        "Domestic Class B": 3,
         "Domestic Class C": 2.7,
         "Domestic Class D": 2.5,
         "Domestic Class E": 2.3
@@ -2695,7 +2743,7 @@
       {
         "date": "2026-03",
         "Domestic Class A": 3.5,
-        "Domestic Class B": 3.0,
+        "Domestic Class B": 3,
         "Domestic Class C": 2.7,
         "Domestic Class D": 2.6,
         "Domestic Class E": 2.3
@@ -2720,7 +2768,7 @@
         "date": "2026-06",
         "Domestic Class A": 3.4,
         "Domestic Class A Remarks": "P",
-        "Domestic Class B": 3.0,
+        "Domestic Class B": 3,
         "Domestic Class B Remarks": "P",
         "Domestic Class C": 2.7,
         "Domestic Class C Remarks": "P",
@@ -2733,7 +2781,7 @@
         "date": "2026-07",
         "Domestic Class A": 3.4,
         "Domestic Class A Remarks": "P",
-        "Domestic Class B": 3.0,
+        "Domestic Class B": 3,
         "Domestic Class B Remarks": "P",
         "Domestic Class C": 2.7,
         "Domestic Class C Remarks": "P",
@@ -2761,8 +2809,8 @@
         "region": "Hong Kong",
         "class": "A",
         "date": "2026-09",
-        "rentHkdPerSqmMonthly": 546.0,
-        "saleHkdPerSqm": 144419.0,
+        "rentHkdPerSqmMonthly": 546,
+        "saleHkdPerSqm": 144419,
         "rentHkdPerSqftMonthly": 50.73,
         "saleHkdPerSqft": 13416.96,
         "annualRentToPriceRatioPct": 4.54,
@@ -2772,8 +2820,8 @@
         "region": "Hong Kong",
         "class": "B",
         "date": "2026-09",
-        "rentHkdPerSqmMonthly": 438.0,
-        "saleHkdPerSqm": 157538.0,
+        "rentHkdPerSqmMonthly": 438,
+        "saleHkdPerSqm": 157538,
         "rentHkdPerSqftMonthly": 40.69,
         "saleHkdPerSqft": 14635.76,
         "annualRentToPriceRatioPct": 3.34,
@@ -2783,8 +2831,8 @@
         "region": "Kowloon",
         "class": "A",
         "date": "2026-09",
-        "rentHkdPerSqmMonthly": 493.0,
-        "saleHkdPerSqm": 134337.0,
+        "rentHkdPerSqmMonthly": 493,
+        "saleHkdPerSqm": 134337,
         "rentHkdPerSqftMonthly": 45.8,
         "saleHkdPerSqft": 12480.32,
         "annualRentToPriceRatioPct": 4.4,
@@ -2794,8 +2842,8 @@
         "region": "Kowloon",
         "class": "B",
         "date": "2026-09",
-        "rentHkdPerSqmMonthly": 429.0,
-        "saleHkdPerSqm": 136529.0,
+        "rentHkdPerSqmMonthly": 429,
+        "saleHkdPerSqm": 136529,
         "rentHkdPerSqftMonthly": 39.86,
         "saleHkdPerSqft": 12683.96,
         "annualRentToPriceRatioPct": 3.77,
@@ -2805,8 +2853,8 @@
         "region": "New Territories",
         "class": "A",
         "date": "2026-09",
-        "rentHkdPerSqmMonthly": 382.0,
-        "saleHkdPerSqm": 121237.0,
+        "rentHkdPerSqmMonthly": 382,
+        "saleHkdPerSqm": 121237,
         "rentHkdPerSqftMonthly": 35.49,
         "saleHkdPerSqft": 11263.29,
         "annualRentToPriceRatioPct": 3.78,
@@ -2816,8 +2864,8 @@
         "region": "New Territories",
         "class": "B",
         "date": "2026-09",
-        "rentHkdPerSqmMonthly": 295.0,
-        "saleHkdPerSqm": 109898.0,
+        "rentHkdPerSqmMonthly": 295,
+        "saleHkdPerSqm": 109898,
         "rentHkdPerSqftMonthly": 27.41,
         "saleHkdPerSqft": 10209.86,
         "annualRentToPriceRatioPct": 3.22,
@@ -2887,7 +2935,7 @@
         },
         {
           "date": "2020-08",
-          "price": 382.0,
+          "price": 382,
           "priceA": 423.9,
           "priceB": 365.6,
           "provisional": false
@@ -2909,7 +2957,7 @@
         {
           "date": "2020-11",
           "price": 380.6,
-          "priceA": 423.0,
+          "priceA": 423,
           "priceB": 365.4,
           "provisional": false
         },
@@ -2943,9 +2991,9 @@
         },
         {
           "date": "2021-04",
-          "price": 391.0,
+          "price": 391,
           "priceA": 434.6,
-          "priceB": 376.0,
+          "priceB": 376,
           "provisional": false
         },
         {
@@ -2957,14 +3005,14 @@
         },
         {
           "date": "2021-06",
-          "price": 394.0,
-          "priceA": 435.0,
+          "price": 394,
+          "priceA": 435,
           "priceB": 381.2,
           "provisional": false
         },
         {
           "date": "2021-07",
-          "price": 398.0,
+          "price": 398,
           "priceA": 439.2,
           "priceB": 385.6,
           "provisional": false
@@ -2985,7 +3033,7 @@
         },
         {
           "date": "2021-10",
-          "price": 396.0,
+          "price": 396,
           "priceA": 440.9,
           "priceB": 381.2,
           "provisional": false
@@ -3027,7 +3075,7 @@
         },
         {
           "date": "2022-04",
-          "price": 385.0,
+          "price": 385,
           "priceA": 425.5,
           "priceB": 372.7,
           "provisional": false
@@ -3042,7 +3090,7 @@
         {
           "date": "2022-06",
           "price": 381.8,
-          "priceA": 419.0,
+          "priceA": 419,
           "priceB": 371.1,
           "provisional": false
         },
@@ -3085,7 +3133,7 @@
           "date": "2022-12",
           "price": 334.7,
           "priceA": 368.9,
-          "priceB": 322.0,
+          "priceB": 322,
           "provisional": false
         },
         {
@@ -3132,14 +3180,14 @@
         },
         {
           "date": "2023-07",
-          "price": 344.0,
+          "price": 344,
           "priceA": 372.1,
           "priceB": 335.4,
           "provisional": false
         },
         {
           "date": "2023-08",
-          "price": 337.0,
+          "price": 337,
           "priceA": 364.1,
           "priceB": 328.2,
           "provisional": false
@@ -3153,7 +3201,7 @@
         },
         {
           "date": "2023-10",
-          "price": 322.0,
+          "price": 322,
           "priceA": 346.9,
           "priceB": 314.2,
           "provisional": false
@@ -3161,7 +3209,7 @@
         {
           "date": "2023-11",
           "price": 315.6,
-          "priceA": 340.0,
+          "priceA": 340,
           "priceB": 307.7,
           "provisional": false
         },
@@ -3203,7 +3251,7 @@
         {
           "date": "2024-05",
           "price": 305.5,
-          "priceA": 326.0,
+          "priceA": 326,
           "priceB": 297.8,
           "provisional": false
         },
@@ -3223,7 +3271,7 @@
         },
         {
           "date": "2024-08",
-          "price": 292.0,
+          "price": 292,
           "priceA": 310.5,
           "priceB": 285.2,
           "provisional": false
@@ -3237,7 +3285,7 @@
         },
         {
           "date": "2024-10",
-          "price": 291.0,
+          "price": 291,
           "priceA": 309.2,
           "priceB": 284.9,
           "provisional": false
@@ -3308,14 +3356,14 @@
         {
           "date": "2025-08",
           "price": 288.8,
-          "priceA": 309.0,
+          "priceA": 309,
           "priceB": 281.1,
           "provisional": false
         },
         {
           "date": "2025-09",
           "price": 293.4,
-          "priceA": 314.0,
+          "priceA": 314,
           "priceB": 286.4,
           "provisional": false
         },
@@ -3337,7 +3385,7 @@
           "date": "2025-12",
           "price": 299.6,
           "priceA": 317.9,
-          "priceB": 293.0,
+          "priceB": 293,
           "provisional": false
         },
         {
@@ -3356,7 +3404,7 @@
         },
         {
           "date": "2026-03",
-          "price": 314.0,
+          "price": 314,
           "priceA": 332.4,
           "priceB": 308.1,
           "provisional": false
@@ -3379,21 +3427,21 @@
           "date": "2026-06",
           "price": 323.4,
           "priceA": 343.3,
-          "priceB": 316.0,
+          "priceB": 316,
           "provisional": false
         },
         {
           "date": "2026-07",
           "price": 320.1,
           "priceA": 340.4,
-          "priceB": 312.0,
+          "priceB": 312,
           "provisional": true
         },
         {
           "date": "2026-08",
           "price": 320.2,
           "priceA": 340.4,
-          "priceB": 312.0,
+          "priceB": 312,
           "provisional": true
         },
         {
@@ -3414,7 +3462,7 @@
         },
         {
           "date": "2020-02",
-          "rent": 185.0,
+          "rent": 185,
           "rentA": 203.3,
           "rentB": 185.3,
           "provisional": false
@@ -3422,7 +3470,7 @@
         {
           "date": "2020-03",
           "rent": 181.7,
-          "rentA": 200.0,
+          "rentA": 200,
           "rentB": 181.3,
           "provisional": false
         },
@@ -3562,7 +3610,7 @@
         {
           "date": "2021-11",
           "rent": 182.9,
-          "rentA": 200.0,
+          "rentA": 200,
           "rentB": 183.4,
           "provisional": false
         },
@@ -3570,7 +3618,7 @@
           "date": "2021-12",
           "rent": 182.7,
           "rentA": 200.1,
-          "rentB": 182.0,
+          "rentB": 182,
           "provisional": false
         },
         {
@@ -3591,7 +3639,7 @@
           "date": "2022-03",
           "rent": 178.5,
           "rentA": 195.6,
-          "rentB": 177.0,
+          "rentB": 177,
           "provisional": false
         },
         {
@@ -3610,7 +3658,7 @@
         },
         {
           "date": "2022-06",
-          "rent": 178.0,
+          "rent": 178,
           "rentA": 193.9,
           "rentB": 177.4,
           "provisional": false
@@ -3631,14 +3679,14 @@
         },
         {
           "date": "2022-09",
-          "rent": 179.0,
+          "rent": 179,
           "rentA": 197.9,
           "rentB": 177.4,
           "provisional": false
         },
         {
           "date": "2022-10",
-          "rent": 178.0,
+          "rent": 178,
           "rentA": 197.4,
           "rentB": 175.5,
           "provisional": false
@@ -3647,7 +3695,7 @@
           "date": "2022-11",
           "rent": 176.4,
           "rentA": 195.3,
-          "rentB": 174.0,
+          "rentB": 174,
           "provisional": false
         },
         {
@@ -3668,7 +3716,7 @@
           "date": "2023-02",
           "rent": 175.1,
           "rentA": 194.1,
-          "rentB": 173.0,
+          "rentB": 173,
           "provisional": false
         },
         {
@@ -3688,7 +3736,7 @@
         {
           "date": "2023-05",
           "rent": 179.9,
-          "rentA": 199.0,
+          "rentA": 199,
           "rentB": 177.7,
           "provisional": false
         },
@@ -3701,7 +3749,7 @@
         },
         {
           "date": "2023-07",
-          "rent": 182.0,
+          "rent": 182,
           "rentA": 201.4,
           "rentB": 180.4,
           "provisional": false
@@ -3736,7 +3784,7 @@
         },
         {
           "date": "2023-12",
-          "rent": 186.0,
+          "rent": 186,
           "rentA": 206.9,
           "rentB": 184.1,
           "provisional": false
@@ -3744,7 +3792,7 @@
         {
           "date": "2024-01",
           "rent": 185.5,
-          "rentA": 206.0,
+          "rentA": 206,
           "rentB": 183.9,
           "provisional": false
         },
@@ -3752,26 +3800,26 @@
           "date": "2024-02",
           "rent": 184.4,
           "rentA": 204.7,
-          "rentB": 183.0,
+          "rentB": 183,
           "provisional": false
         },
         {
           "date": "2024-03",
           "rent": 184.9,
           "rentA": 205.7,
-          "rentB": 183.0,
+          "rentB": 183,
           "provisional": false
         },
         {
           "date": "2024-04",
           "rent": 186.9,
-          "rentA": 207.0,
+          "rentA": 207,
           "rentB": 185.9,
           "provisional": false
         },
         {
           "date": "2024-05",
-          "rent": 190.0,
+          "rent": 190,
           "rentA": 209.8,
           "rentB": 189.7,
           "provisional": false
@@ -3800,7 +3848,7 @@
         {
           "date": "2024-09",
           "rent": 195.3,
-          "rentA": 216.0,
+          "rentA": 216,
           "rentB": 193.7,
           "provisional": false
         },
@@ -3814,7 +3862,7 @@
         {
           "date": "2024-11",
           "rent": 191.9,
-          "rentA": 212.0,
+          "rentA": 212,
           "rentB": 190.6,
           "provisional": false
         },
@@ -3834,7 +3882,7 @@
         },
         {
           "date": "2025-02",
-          "rent": 193.0,
+          "rent": 193,
           "rentA": 212.5,
           "rentB": 191.9,
           "provisional": false
@@ -3850,7 +3898,7 @@
           "date": "2025-04",
           "rent": 193.9,
           "rentA": 212.7,
-          "rentB": 193.0,
+          "rentB": 193,
           "provisional": false
         },
         {
@@ -3871,7 +3919,7 @@
           "date": "2025-07",
           "rent": 197.4,
           "rentA": 215.5,
-          "rentB": 197.0,
+          "rentB": 197,
           "provisional": false
         },
         {
