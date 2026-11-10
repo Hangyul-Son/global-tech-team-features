@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-09T17:03:46.793Z",
+  "lastAttempt": "2026-11-10T17:07:17.494Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -1445,71 +1445,58 @@
       "companies": [
         "ANTHROPIC"
       ],
-      "title": "Anthropic potential IPO marketing · target week",
+      "title": "Anthropic launches IPO roadshow · $70–78 indicative range (ANT)",
       "type": "IPO watch",
-      "status": "estimated",
-      "date": null,
+      "status": "confirmed",
+      "date": "2026-11-10",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.zacks.com/featured-articles/761/anthropic-ipo",
-      "sourceLabel": "Public reporting on proposed Anthropic roadshow",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "Public reporting attributed to Bloomberg continues to describe a possible IPO marketing roadshow in the week of November 9. The October 26 S-1 filing does not independently confirm a roadshow or listing day. This remains a tentative week window and is distinct from the listing target.",
-      "importance": "Potential public-market AI catalyst; watch for an official filing and timetable.",
+      "sourceUrl": "https://www.anthropic.com/news/roadshow-launch",
+      "sourceLabel": "Anthropic official November 10, 2026 announcement",
+      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
+      "verifiedAt": "2026-11-10T17:07:17.494Z",
+      "basis": "Anthropic formally announced on November 10, 2026 that its Class A IPO roadshow HAS BEGUN. Proposed offering 825,000,000 shares: 801,351,354 primary shares and 23,648,646 shareholder shares, plus an expected underwriter option for up to 123,750,000 additional shares. Preliminary expected price RANGE $70–78, Nasdaq ticker ANT applied for. SEC registration statement NOT yet effective; neither final offer price, pricing day nor trading debut has been announced. November 10 is the confirmed ROADSHOW announcement/launch date, NOT the IPO date.",
+      "importance": "Major AI equity capital-markets catalyst; preliminary valuation/issuance sensitivity, primary-versus-secondary proceeds and no issuer-confirmed first trading day.",
       "sources": [
         {
-          "url": "https://www.zacks.com/featured-articles/761/anthropic-ipo",
-          "label": "Zacks public IPO guide citing Bloomberg",
-          "kind": "report",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
-        },
-        {
-          "url": "https://www.anthropic.com/news/s1-sec",
-          "label": "Anthropic official S-1 announcement",
+          "label": "Anthropic issuer announcement Nov 10: IPO roadshow launch",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
           "kind": "official",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+          "checkedAt": "2026-11-10T17:07:17.494Z"
         }
-      ],
-      "estimateKind": "reported-target",
-      "timingWindow": {
-        "start": "2026-11-09",
-        "end": "2026-11-13",
-        "label": "Week of 9 November 2026 · possible marketing",
-        "precision": "week"
-      }
+      ]
     },
     {
       "id": "anthropic-ipo",
       "companies": [
         "ANTHROPIC"
       ],
-      "title": "Anthropic potential IPO · November target",
+      "title": "Anthropic proposed Nasdaq ANT IPO · exact listing date unannounced",
       "type": "IPO watch",
       "status": "estimated",
       "window": null,
       "date": null,
       "endDate": null,
       "time": null,
-      "sourceUrl": "https://www.anthropic.com/news/s1-sec",
-      "sourceLabel": "Anthropic S-1 announcement and attributable public IPO reporting",
+      "sourceUrl": "https://www.anthropic.com/news/roadshow-launch",
+      "sourceLabel": "Anthropic official Nov 10 IPO roadshow; listing day not confirmed",
       "verifiedAt": null,
-      "basis": "Anthropic's October 26 official S-1 announcement confirms the proposed IPO and planned ANT ticker but does not announce a listing date. CNN's October 26 report says trading could begin as soon as November 16; other public reporting describes late November. November remains a reported target window, never a company-confirmed listing day.",
+      "basis": "Anthropic launched the IPO roadshow Nov 10 for a proposed 825m-share offering with an INDICATIVE $70–78 price range; registration statement remains NOT effective. Anthropic has applied for Nasdaq ANT. No exact pricing or first trading date has been announced. Earlier press speculation about November 16 or late November remains a reported timing indication only, not a company confirmation or completed IPO.",
       "importance": "Watch item only. No IPO or listing date has been verified.",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
       "sources": [
         {
-          "url": "https://www.anthropic.com/news/s1-sec",
-          "label": "Anthropic official S-1 announcement",
+          "label": "Anthropic Nov 10 roadshow announcement (no listing date)",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
           "kind": "official",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+          "checkedAt": "2026-11-10T17:07:17.494Z"
         },
         {
+          "label": "CNN Oct 26 speculative timing (historical)",
           "url": "https://www.cnn.com/2026/10/26/tech/anthropic-files-ipo",
-          "label": "CNN October 26 IPO report",
           "kind": "report",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+          "checkedAt": "2026-11-10T17:07:17.494Z"
         }
       ],
       "estimateKind": "reported-target",
@@ -1519,7 +1506,7 @@
         "label": "November 2026 · reported target",
         "precision": "month"
       },
-      "dateConflict": "Public reporting describes November 16 as an earliest possibility versus a late-November target. Anthropic has not confirmed a trading date."
+      "dateConflict": "Nov 10 issuer-confirmed roadshow is not an IPO debut. Earlier November 16 versus late-November timing speculation is unconfirmed; no verified listing day."
     },
     {
       "id": "gtc-berlin-2026",
@@ -2185,25 +2172,31 @@
       "companies": [
         "TSM"
       ],
-      "title": "TSMC October 2026 monthly revenue",
+      "title": "TSMC October revenue actual NT$586.89bn (+59.7% YoY, +14.7% MoM)",
       "type": "Operating update",
       "status": "confirmed",
       "date": "2026-11-10",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
-      "sourceLabel": "TSMC official financial calendar",
-      "sourceCheckedAt": "2026-10-18T07:20:26Z",
-      "verifiedAt": "2026-10-18T07:20:26Z",
-      "basis": "The TSMC financial calendar explicitly schedules 'TSMC Monthly Sales - October 2026' for November 10, 2026. No release instant is asserted; the calendar entry is date-only.",
-      "importance": "Monthly foundry revenue run-rate, AI demand and capacity trends.",
+      "sourceUrl": "https://pr.tsmc.com/english/news/3349",
+      "sourceLabel": "TSMC official November 10, 2026 monthly revenue release",
+      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
+      "verifiedAt": "2026-11-10T17:07:17.494Z",
+      "basis": "On November 10, 2026 TSMC officially reported October consolidated net revenue of NT$586.89 billion, +59.7% year over year and +14.7% month over month; January–October 2026 revenue NT$4,485.62 billion (+43.3% YoY). This updates the already confirmed Nov 10 monthly-sales calendar date with ACTUAL results, not an estimated release date. No exact announcement time was supplied; remains date-only.",
+      "importance": "Major foundry/AI supply-chain demand barometer; NT$586.89bn is October monthly revenue, not Q4 revenue or incremental AI-only sales.",
       "sources": [
         {
-          "label": "TSMC official financial calendar",
+          "label": "TSMC official Oct 2026 revenue report released Nov 10",
+          "url": "https://pr.tsmc.com/english/news/3349",
+          "kind": "official",
+          "checkedAt": "2026-11-10T17:07:17.494Z"
+        },
+        {
+          "label": "TSMC financial calendar — Oct sales scheduled Nov 10",
           "url": "https://investor.tsmc.com/english/financial-calendar",
           "kind": "official",
-          "checkedAt": "2026-10-18T07:20:26Z"
+          "checkedAt": "2026-11-10T17:07:17.494Z"
         }
       ]
     },
@@ -4484,39 +4477,46 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Falcon 9 USSF-627 mission · NET Nov 10 UTC (03:03–07:03 window)",
+      "title": "SpaceX Falcon 9 USSF-627 · revised launch target disputed (Nov 10–11 UTC)",
       "type": "Launch",
       "status": "estimated",
-      "date": "2026-11-10",
+      "date": null,
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
-      "sourceLabel": "SpaceX mission-identified official upcoming launches (rechecked); future launch TARGET only",
-      "sourceCheckedAt": "2026-11-09T17:03:46.793Z",
+      "sourceUrl": "https://www.spacex.com/launches/ussf627",
+      "sourceLabel": "Official SpaceX launch page (dynamic/stale indexed data), conflicting independent update",
+      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
       "verifiedAt": null,
-      "basis": "SpaceX's official homepage, as indexed November 7/8, identifies its upcoming Falcon 9 USSF-627 mission with launch WINDOW November 10, 2026, 03:03–07:03 UTC (SpaceX publisher feed). Mission identity corroborated by independent current launch tracking, with recent November 2–3 reschedules from November 9. This is a TARGET / no-earlier-than launch window, NOT an actual flown launch, immutable exact time, completed contract, or company guarantee of liftoff. SpaceX live JavaScript launch manifest can be stale or change without notice; reconfirm before upgrading status. Do not confuse with generic Starlink launches or reported November 13 Starship Flight 15. Rechecked November 10 03:03–07:03 UTC TARGET on SpaceX indexed official launch page during November 10 HKT research run. A third-party real-time tracker has shown an updated 03:07 UTC T-0; do not assume minute-precision certainty or mark flight completed.",
-      "importance": "Upcoming U.S. national-security launch and cadence indicator for SpaceX launch business; mission-identifiable official forward launch window versus earlier conflicting generic Starlink manifests.",
+      "basis": "SpaceX official indexed launch archive previously identified November 10, 2026 03:03–07:03 UTC as a USSF-627 TARGET window. However, on November 10, third-party launch trackers drawing on Launch Library 2 reported the target shifted to November 11, 2026 at 02:49 UTC, with a 02:49–06:49 UTC window (November 10 evening California time). The latest mission-specific SpaceX page is dynamically rendered and did not independently expose the updated time to this review. These are competing SCHEDULE snapshots, not verified actual liftoff. Date deliberately set NULL rather than assert either exact UTC day or T-0; confirm in SpaceX/Space Force official mission archive before restoring a dated card. SpaceX remains publicly traded Nasdaq:SPCX.",
+      "importance": "Space Force launch cadence watch for public Nasdaq:SPCX; preserve mission identity without mislabeling a changing target as a completed or fixed-date launch.",
       "sources": [
         {
-          "label": "SpaceX mission-specific official launch listing rechecked November 10 HKT",
+          "label": "SpaceX mission-specific USSF-627 page (dynamic)",
+          "url": "https://www.spacex.com/launches/ussf627",
+          "kind": "official",
+          "checkedAt": "2026-11-10T17:07:17.494Z"
+        },
+        {
+          "label": "SpaceX official upcoming launches (earlier stale Nov 10 indexed snapshot)",
           "url": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
-          "kind": "estimate",
-          "checkedAt": "2026-11-09T17:03:46.793Z"
+          "kind": "official",
+          "checkedAt": "2026-11-10T17:07:17.494Z"
         },
         {
-          "label": "SpaceX official homepage upcoming launch preview (Nov 10 USSF-627)",
-          "url": "https://www.spacex.com/",
-          "kind": "estimate",
-          "checkedAt": "2026-11-07T16:56:48Z"
-        },
-        {
-          "label": "Cross-check independent current USSF-627 launch tracker",
+          "label": "Space Launch Live launch schedule history, Nov 11 revised target",
           "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-627/",
           "kind": "report",
-          "checkedAt": "2026-11-07T16:56:48Z"
+          "checkedAt": "2026-11-10T17:07:17.494Z"
+        },
+        {
+          "label": "Local Nov 10 launch-window revision report",
+          "url": "https://www.edhat.com/news/spacex-ussf-627-launch-postponed-vandenberg-new-target-date/",
+          "kind": "report",
+          "checkedAt": "2026-11-10T17:07:17.494Z"
         }
-      ]
+      ],
+      "dateConflict": "Earlier official indexed target Nov 10 03:03–07:03 UTC versus updated third-party Nov 11 02:49–06:49 UTC (Nov 10 Pacific); current first-party verified target unavailable. Do not mark flight completed."
     },
     {
       "id": "anthropic-onepwr-3p4bn-1p7gw-generators-reported-2026-11-08",
@@ -4662,8 +4662,97 @@
           "checkedAt": "2026-11-09T17:03:46.793Z"
         }
       ]
+    },
+    {
+      "id": "tsm-board-40p93bn-capital-appropriations-2026-11-10",
+      "companies": [
+        "TSM"
+      ],
+      "title": "TSMC board authorizes US$40.93bn capital appropriations for fabs, packaging and R&D",
+      "type": "Financing",
+      "status": "confirmed",
+      "date": "2026-11-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://pr.tsmc.com/schinese/news/3352",
+      "sourceLabel": "TSMC official November 10 board resolutions",
+      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
+      "verifiedAt": "2026-11-10T17:07:17.494Z",
+      "basis": "TSMC's board on November 10, 2026 APPROVED approximately US$40,926.70 million in capital appropriations for installation/upgrades of advanced and other technology capacity, advanced packaging, fab construction and fab facility systems, 2027 R&D capital, sustaining capital spending and capitalized leased assets. This is a board spending AUTHORIZATION for multiple purposes, not cash already spent, a 2026 capex expense amount, an order backlog or installed output capacity. Do not add it mechanically to TSMC's forecast annual capex.",
+      "importance": "Substantial foundry and advanced packaging expansion-capacity approval; distinguish spending authorization, actual cash capex and future installed capacity.",
+      "sources": [
+        {
+          "label": "TSMC board resolutions Nov 10, capital appropriations item 3",
+          "url": "https://pr.tsmc.com/schinese/news/3352",
+          "kind": "official",
+          "checkedAt": "2026-11-10T17:07:17.494Z"
+        }
+      ]
+    },
+    {
+      "id": "tsm-anthropic-openai-1bn-investment-approvals-2026-11-10",
+      "companies": [
+        "TSM",
+        "ANTHROPIC",
+        "OPENAI"
+      ],
+      "title": "TSMC authorizes up to $500m Anthropic IPO shares and $500m OpenAI preferred stock",
+      "type": "Financing",
+      "status": "confirmed",
+      "date": "2026-11-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://pr.tsmc.com/schinese/news/3352",
+      "sourceLabel": "TSMC official November 10 board resolutions (approval, not closing)",
+      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
+      "verifiedAt": "2026-11-10T17:07:17.494Z",
+      "basis": "At its November 10, 2026 meeting, TSMC board approved INVESTMENT AUTHORITY up to US$500m to purchase Anthropic common stock at its eventual IPO per-share price and up to US$500m of OpenAI Group PBC preferred stock. These are approvals, NOT evidence of completed cash purchases, final Anthropic IPO pricing, listing date or closing of either financing. Separately the board approved up to US$500m investment in a semiconductor ecosystem investment company; that amount is NOT part of the two AI equity allocations.",
+      "importance": "Potential direct AI ecosystem equity exposure by foundry leader; separate authorized maximum $1bn from actual invested capital, IPO settlement and financial-statement impact.",
+      "sources": [
+        {
+          "label": "TSMC board resolutions Nov 10, strategic investments item 5",
+          "url": "https://pr.tsmc.com/schinese/news/3352",
+          "kind": "official",
+          "checkedAt": "2026-11-10T17:07:17.494Z"
+        },
+        {
+          "label": "Anthropic official Nov 10 IPO roadshow, registration still not effective",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "kind": "official",
+          "checkedAt": "2026-11-10T17:07:17.494Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-claude-fable-mythos-5p2-2026-11-09",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "Anthropic releases Claude Fable 5.2 and restricted-access Mythos 5.2",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-09",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "sourceLabel": "Anthropic official November 9 model release",
+      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
+      "verifiedAt": "2026-11-10T17:07:17.494Z",
+      "basis": "Anthropic's November 9, 2026 product announcement introduces Claude Fable 5.2 broadly and Mythos 5.2 through verified cyber/life-sciences programs. Anthropic says outputs are up to 30% faster versus 5.1 and lists base price US$8/million input tokens and US$40/million output tokens, with optional fast mode at US$16/US$80. These are issuer performance/price claims, not independently audited benchmarks or a revenue forecast. Mythos is not unrestricted public access.",
+      "importance": "AI model product pricing, access controls and inference monetization signals; distinguishes available products from financial results.",
+      "sources": [
+        {
+          "label": "Anthropic Nov 9 release: Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "kind": "official",
+          "checkedAt": "2026-11-10T17:07:17.494Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 10 HKT targeted 33/33 issuer entrypoint review with SEC SpaceX, SpaceX mission archive, FAA, NASA, FCC access attempt. Upgraded AVGO Dec 9 Q4 call from provider estimate to issuer-confirmed 17:00 EST. Added Nov 9 official AMD/Alphabet TPU 8tx/8i Max + AMD EPYC host role; added SpaceX USSF-317 Nov 13 04:23–08:23 UTC ESTIMATED launch window (not flown) and refreshed USSF-627 target. SPCX publicly listed, quarterly earnings retained; Q4 date not announced. Four entrypoints blocked (ADBE/ASML/CRWD/NET), several JS-limited; old 79-source full audit remains Oct 15. Mobile List code unchanged.",
-  "lastPartialReview": "2026-11-09T17:03:46.793Z"
+  "verificationNote": "Nov 11 HKT targeted review: 33/33 issuer entrypoints attempted, five direct endpoints blocked or inaccessible; remaining sites partly dynamic. Verified TSMC Oct revenue actual NT$586.89bn and Nov 10 board US$40.93bn capital authorization + up to $500m each Anthropic/OpenAI investment approvals. Anthropic officially launched IPO ROADSHOW Nov 10, $70–78 indicative range; IPO trading date still unconfirmed. Added Anthropic Nov 9 Fable/Mythos 5.2 release. SpaceX Nasdaq:SPCX USSF-627 Nov 10 indexed target conflicts with updated Nov 11 secondary target: removed exact event date pending primary verification; Q4 earnings still undated. Full 79-source audit remains October 15; mobile List code unchanged.",
+  "lastPartialReview": "2026-11-10T17:07:17.494Z"
 }

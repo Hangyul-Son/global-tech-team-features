@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 10 HKT targeted 33/33 issuer entrypoint review with SEC SpaceX, SpaceX mission archive, FAA, NASA, FCC access attempt. Upgraded AVGO Dec 9 Q4 call from provider estimate to issuer-confirmed 17:00 EST. Added Nov 9 official AMD/Alphabet TPU 8tx/8i Max + AMD EPYC host role; added SpaceX USSF-317 Nov 13 04:23–08:23 UTC ESTIMATED launch window (not flown) and refreshed USSF-627 target. SPCX publicly listed, quarterly earnings retained; Q4 date not announced. Four entrypoints blocked (ADBE/ASML/CRWD/NET), several JS-limited; old 79-source full audit remains Oct 15. Mobile List code unchanged.",
+  "note": "Nov 11 HKT targeted review: 33/33 issuer entrypoints attempted, five direct endpoints blocked or inaccessible; remaining sites partly dynamic. Verified TSMC Oct revenue actual NT$586.89bn and Nov 10 board US$40.93bn capital authorization + up to $500m each Anthropic/OpenAI investment approvals. Anthropic officially launched IPO ROADSHOW Nov 10, $70–78 indicative range; IPO trading date still unconfirmed. Added Anthropic Nov 9 Fable/Mythos 5.2 release. SpaceX Nasdaq:SPCX USSF-627 Nov 10 indexed target conflicts with updated Nov 11 secondary target: removed exact event date pending primary verification; Q4 earnings still undated. Full 79-source audit remains October 15; mobile List code unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,12 +5340,12 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-09T17:03:46.793Z",
-    "localDate": "2026-11-10",
+    "checkedAt": "2026-11-10T17:07:17.494Z",
+    "localDate": "2026-11-11",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 29,
-    "entryPointsBlocked": 4,
+    "entryPointsAccessibleOrPartiallyRendered": 28,
+    "entryPointsBlocked": 5,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
@@ -5358,15 +5358,15 @@
       },
       {
         "id": "AMD",
-        "status": "limited"
-      },
-      {
-        "id": "AVGO",
         "status": "accessible"
       },
       {
+        "id": "AVGO",
+        "status": "blocked"
+      },
+      {
         "id": "MRVL",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "AAPL",
@@ -5394,11 +5394,11 @@
       },
       {
         "id": "WDAY",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "ASML",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "LRCX",
@@ -5426,7 +5426,7 @@
       },
       {
         "id": "GOOGL",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "META",
@@ -5458,15 +5458,15 @@
       },
       {
         "id": "SNOW",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "CRWD",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "PANW",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "NET",
@@ -5481,7 +5481,7 @@
         "status": "limited"
       }
     ],
-    "notes": "Blocked Adobe financial, ASML IR 403, CrowdStrike IR 403, Cloudflare IR 403. Several issuer calendar grids render only partial/dynamic content. SEC indexed filings for SPCX accessible through Nov 6 Form 8-K, no issuer-confirmed Q4 earnings call found; FAA Boca Chica virtual meetings Nov 17-19 and Dec 7 comment deadline unchanged. FCC homepage also denied 403. Source-specific notes are in reviewHistory."
+    "notes": "Official company entrypoint spot check for all 33. 5 blocked; 13 limited/dynamic. Separate primary press release and issuer-news verification of Nov 9–10 catalysts, SEC/FAA/SpaceX launch checks; historical 79-source full audit unchanged."
   },
   "coverageAudit": {
     "checkedAt": "2026-11-09T17:03:46.793Z",
@@ -6483,6 +6483,82 @@
         "FCC homepage 403; Starlink Direct-to-Cell/spectrum regulatory docket review incomplete. NASA missions hub and FAA official Starship pages accessible; no new specific Starship, V3 or NASA contract milestone confirmed in this pass.",
         "SpaceX USSF-317 and USSF-627 are planned targets: public launch windows may shift. SpaceX issuer manifest and secondary launch tracker differ by several minutes for USSF-627, retain provisional precision.",
         "The 79-source historical full audit checkedAt, successfulSources and totalSources remain unchanged since October 15, 2026; current refresh is targeted, not a comprehensive re-scrape."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-10T17:07:17.494Z",
+      "scope": "Nov 11 HKT targeted 33/33 issuer entrypoint spot check; TSMC/Anthropic official release verification; SpaceX SEC/IR, launch manifests, FAA/NASA/FCC review; NOT full 79-source audit",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "AVGO",
+        "ADBE",
+        "WDAY",
+        "PANW",
+        "NET",
+        "NVDA",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "CRWV",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "TSM: official Nov 10 monthly revenue actual NT$586.89bn, +59.7% YoY, +14.7% MoM; updated existing Nov 10 confirmed monthly-sales event.",
+        "TSM: official Nov 10 board approved US$40,926.70m capital appropriations; added confirmed resolution event, expenditure NOT yet spent.",
+        "TSM/ANTHROPIC/OPENAI: official Nov 10 board approved investment authority up to $500m Anthropic IPO equity and $500m OpenAI preferred; NOT completed subscriptions, no Anthropic IPO pricing/debut day.",
+        "ANTHROPIC: upgraded existing IPO roadshow from reported Nov 9 week estimate to company-confirmed Nov 10 ROADSHOW launch, preliminary $70–78 price range; separate IPO listing timing stays undated/unconfirmed.",
+        "ANTHROPIC: backfilled company-confirmed Nov 9 Claude Fable/Mythos 5.2 model release, with issuer-reported token pricing and restricted Mythos access.",
+        "SPACEX: USSF-627 previously indexed official Nov 10 launch target disagrees with fresh reported Nov 11 02:49 UTC target; removed exact date to undated ESTIMATED watch, no inferred flown launch. Other SPCX Q3 earnings/SEC, FAA and 2027 V3/Starlink watch coverage retained.",
+        "ARM: Q3/Q4 FY27 issuer-listed Feb 3/May 5 2027 dates explicitly tentative; existing estimated entries retained without promotion."
+      ],
+      "coverageGaps": [
+        "Direct issuer entrypoints unavailable this run: AVGO, ADBE, WDAY, PANW, NET (5/33); alternative indexed official sources available for some, but no full IR calendar coverage inferred.",
+        "Other IR pages are JavaScript-driven or partially rendered; this is a 33-entrypoint TARGETED review, NOT a comprehensive filing-by-filing review or a 79-source re-scrape.",
+        "SpaceX IR issuer portal is dynamic. Q4/FY2026 earnings call date NOT confirmed; do not manufacture date. SEC filings/revenue/capex/finance watches retained.",
+        "USSF-627 flight exact timing not issuer-verified after updated third-party schedule; date deliberately cleared. USSF-317 remains future estimated; FAA scoping Nov 17–19 and Dec 7 regulatory comments are NOT launches or approvals.",
+        "FCC spectrum docket access remains incomplete; cannot assert new Starlink Direct-to-Cell authorizations or specific NASA/defense contract dates.",
+        "Full audit checkedAt October 15, 2026 and 78/79 source success figures intentionally not advanced."
       ]
     }
   ]
