@@ -4516,7 +4516,14 @@
           "checkedAt": "2026-11-10T17:07:17.494Z"
         }
       ],
-      "dateConflict": "Earlier official indexed target Nov 10 03:03–07:03 UTC versus updated third-party Nov 11 02:49–06:49 UTC (Nov 10 Pacific); current first-party verified target unavailable. Do not mark flight completed."
+      "dateConflict": "Earlier official indexed target Nov 10 03:03–07:03 UTC versus updated third-party Nov 11 02:49–06:49 UTC (Nov 10 Pacific); current first-party verified target unavailable. Do not mark flight completed.",
+      "timingWindow": {
+        "start": "2026-11-09",
+        "end": "2026-11-15",
+        "label": "Week of 9 November 2026 — conflicting Nov 10–11 UTC launch targets",
+        "precision": "week"
+      },
+      "estimateKind": "reported-target"
     },
     {
       "id": "anthropic-onepwr-3p4bn-1p7gw-generators-reported-2026-11-08",
