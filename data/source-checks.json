@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 11 HKT targeted review: 33/33 issuer entrypoints attempted, five direct endpoints blocked or inaccessible; remaining sites partly dynamic. Verified TSMC Oct revenue actual NT$586.89bn and Nov 10 board US$40.93bn capital authorization + up to $500m each Anthropic/OpenAI investment approvals. Anthropic officially launched IPO ROADSHOW Nov 10, $70–78 indicative range; IPO trading date still unconfirmed. Added Anthropic Nov 9 Fable/Mythos 5.2 release. SpaceX Nasdaq:SPCX USSF-627 Nov 10 indexed target conflicts with updated Nov 11 secondary target: removed exact event date pending primary verification; Q4 earnings still undated. Full 79-source audit remains October 15; mobile List code unchanged.",
+  "note": "Nov 12 HKT targeted 33/33 issuer spot check, not a 79-source audit. CoreWeave official Q3 actual revenue US$3.661bn and revenue/capex guidance, MediaTek Oct consolidated monthly revenue NT$55.026bn, NASA Nov 7 CLPS2 eligibility and separate Starship cislunar telecom 2028 task-order selection, OpenAI Nov 9 ChatGPT Enterprise AWS Marketplace launch. Starship Flight 15 Nov 13 target is ESTIMATED/reported, official launch site dynamic and FAA exact license unverified. No Q4 FY26 SpaceX earnings date inferred. TSMC calendar endpoint timed out, Adobe financial endpoint inaccessible, Cloudflare IR 403; other issuer IR pages partly dynamic. Historical Oct 15 79-source results retained; no mobile UI changes.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,21 +5340,21 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-10T17:07:17.494Z",
-    "localDate": "2026-11-11",
+    "checkedAt": "2026-11-11T17:05:50.075Z",
+    "localDate": "2026-11-12",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 28,
-    "entryPointsBlocked": 5,
+    "entryPointsAccessibleOrPartiallyRendered": 30,
+    "entryPointsBlocked": 3,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
         "id": "TSM",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "NVDA",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "AMD",
@@ -5362,7 +5362,7 @@
       },
       {
         "id": "AVGO",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "MRVL",
@@ -5394,7 +5394,7 @@
       },
       {
         "id": "WDAY",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "ASML",
@@ -5454,7 +5454,7 @@
       },
       {
         "id": "QCOM",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "SNOW",
@@ -5466,7 +5466,7 @@
       },
       {
         "id": "PANW",
-        "status": "blocked"
+        "status": "limited"
       },
       {
         "id": "NET",
@@ -5481,16 +5481,16 @@
         "status": "limited"
       }
     ],
-    "notes": "Official company entrypoint spot check for all 33. 5 blocked; 13 limited/dynamic. Separate primary press release and issuer-news verification of Nov 9–10 catalysts, SEC/FAA/SpaceX launch checks; historical 79-source full audit unchanged."
+    "notes": "Targeted official URL reachability and issuer newsroom/SEC spot check for 33 companies. Blocked original financial calendar TSM, Adobe financial news and Cloudflare IR; secondary first-party disclosures checked where available. Full SEC/FCC docket audit not completed, SpaceX issuer quarterly-events API dynamically rendered. Recent first-party CoreWeave SEC/IR, MediaTek investor monthly sales, OpenAI official, NASA and FAA regulatory documentation independently spot checked."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-09T17:03:46.793Z",
-    "scope": "Nov 10 targeted 33-company scan; two mission/product events added and one Q4 earnings status upgraded; historic 79-source audit NOT rerun",
+    "checkedAt": "2026-11-11T17:05:50.075Z",
+    "scope": "Nov 12 targeted 33-company issuer scan; 4 new events (two NASA SpaceX, OpenAI/Amazon, estimated SpaceX Starship), 2 actual-result upgrades; no 79-source full audit.",
     "companies": 33,
-    "events": 132,
+    "events": 139,
     "companiesWithEvents": 33,
-    "confirmedEvents": 101,
-    "undatedEvents": 10,
+    "confirmedEvents": 108,
+    "undatedEvents": 15,
     "estimatedEvents": 16,
     "reportedEvents": 5,
     "confirmedMissingVerifiedAt": 0,
@@ -6559,6 +6559,79 @@
         "USSF-627 flight exact timing not issuer-verified after updated third-party schedule; date deliberately cleared. USSF-317 remains future estimated; FAA scoping Nov 17–19 and Dec 7 regulatory comments are NOT launches or approvals.",
         "FCC spectrum docket access remains incomplete; cannot assert new Starlink Direct-to-Cell authorizations or specific NASA/defense contract dates.",
         "Full audit checkedAt October 15, 2026 and 78/79 source success figures intentionally not advanced."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-11T17:05:50.075Z",
+      "scope": "Nov 12 HKT targeted 33/33 official company IR/news URL spot check plus material press/SEC/NASA/FAA/SpaceX lookups; historical 79-source Oct 15 audit NOT rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "TSM",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "ADBE",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "CRWV",
+        "INTC",
+        "ARM",
+        "SNOW",
+        "PANW",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "CRWV: Nov 10 company Q3 2026 actual revenue $3.661bn (+168% YoY), GAAP operating income $207m, net loss $709m, backlog $132.5bn. Active power >1.7GW versus contracted >4.6GW; FY2026 revenue guidance $13-13.3bn, capex outlook $37-39bn. Updated existing confirmed earnings record, not duplicate.",
+        "2454.TW: MediaTek Nov 10 official October 2026 monthly consolidated revenue NT$55.026bn, +5.77% YoY, and Jan-Oct NT$524.417bn (+5.35% YoY). Updated existing confirmed event; unaudited.",
+        "SPACEX: NASA Nov 7 release selects SpaceX as one of 8 eligible CLPS 2 competitors; $10bn is maximum ceiling across all, not an award or revenue to SpaceX.",
+        "SPACEX: NASA Nov 7 confirms separately awarded task order using Starship for 2028 cislunar communications satellite deployment; 2028 only, exact day and contract value NOT disclosed.",
+        "OPENAI/AMZN: Nov 9 issuer confirms ChatGPT Enterprise availability through AWS Marketplace; no claimed booking volume, GPUs or cloud capacity.",
+        "SPACEX: Space.com Nov 10 reports Starship Flight 15 NET Friday Nov 13 at 17:45 EST for 75-minute window; issuer mission page inaccessible in plain text and no independent FAA go/no-go approval. Added ESTIMATED target, not completed launch. Potential dual catches and 26 V3 satellite deployments are NOT achieved results.",
+        "SPACEX: Investor relations and indexed SEC records remain tracked under Nasdaq:SPCX, internal ID SPACEX; Q4/FY2026 earnings unannounced. USSF-627 Nov10–11 contradictory manifest continues undated estimated week watch. Existing FAA Nov17–19 meetings/Dec7 comment cutoff unchanged."
+      ],
+      "coverageGaps": [
+        "Direct company entrypoint blocked/timeouts: TSM financial calendar, Adobe financial news and Cloudflare investor site (3/33). Twelve other landing pages accessible but limited or dynamically rendered; blocked does not imply no news.",
+        "Complete SpaceX issuer earnings date/calendar crawl and every SEC filing could not be reconciled due dynamic IR; last independently identifiable SEC 8-K from Nov6. No date assigned to Q4 earnings.",
+        "Exact SpaceX Starship Flight 15 target is secondary report sourced: issuer mission page no readable lines; FAA license status not established. Keep NET target estimated and monitor first-party sources. USSF-627 target remains disputed, not marked flown.",
+        "Starlink Direct-to-Cell/FCC spectrum docket review incomplete. No unverified regulatory grants, mission launch dates, AI compute power or capex converted to firm dates.",
+        "Full historical source inventory checkedAt 2026-10-15, totalSources 79, successfulSources 78 intentionally unchanged; no complete 79-source audit attempted.",
+        "Mobile compact List view code untouched."
       ]
     }
   ]
