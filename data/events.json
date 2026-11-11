@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-10T17:07:17.494Z",
+  "lastAttempt": "2026-11-11T17:04:57.928Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -1630,20 +1630,32 @@
       "companies": [
         "CRWV"
       ],
-      "title": "CoreWeave earnings",
+      "title": "CoreWeave Q3 2026 actual: $3.66bn revenue (+168%), >1.7GW active; FY26 capex $37–39bn guide",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-10",
       "endDate": null,
       "window": null,
       "time": "Conference call: 17:00 Eastern Time (EST)",
-      "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
-      "sourceLabel": "CoreWeave official October 27 earnings announcement",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
-      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
-      "basis": "CoreWeave announced on October 27 that its Q3 2026 financial-results conference call will be Tuesday, November 10, 2026 at 5:00 p.m. Eastern Time. This supersedes the earlier November 9 estimate. The call is 22:00 UTC, November 11 at 06:00 in Hong Kong; no separate release instant or duration is invented.",
-      "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
+      "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+      "sourceLabel": "CoreWeave official November 10 Q3 results and financial outlook",
+      "sourceCheckedAt": "2026-11-11T17:04:57.928Z",
+      "verifiedAt": "2026-11-11T17:04:57.928Z",
+      "basis": "Company Q3 2026 results dated November 10: revenue US$3.661bn (2025 US$1.365bn, +168% YoY); GAAP operating income US$207m; net loss US$709m, including net interest expense US$846m. Backlog US$132.5bn; active power >1.7GW and contracted power >4.6GW. FY2026 revenue guidance raised to US$13.0-13.3bn and forecast full-year 2026 capex US$37-39bn. Q4 interest expense outlook US$1.05-1.15bn. The >4.6GW contracted is NOT active or energized compute, and forward capex range is not actual cash spent. Earnings conference call at 17:00 EST November 10 (22:00 UTC; November 11 06:00 HKT).",
+      "importance": "Highest-priority neocloud read-through: rapid revenue scaling against financing burden, capital expenditure, GPU deployment, backlog delivery risk and the 2.9GW+ contracted-vs-active power gap.",
       "sources": [
+        {
+          "label": "CoreWeave Q3 financial results and FY2026 guidance",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        },
+        {
+          "label": "CoreWeave November 10 SEC Form 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/crwv-20261110.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        },
         {
           "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
           "label": "CoreWeave official October 27 earnings announcement",
@@ -2537,20 +2549,26 @@
       "companies": [
         "2454.TW"
       ],
-      "title": "MediaTek October 2026 monthly sales",
+      "title": "MediaTek October 2026 revenue actual NT$55.026bn (+5.77% YoY; −0.67% MoM)",
       "type": "Operating update",
       "status": "confirmed",
       "date": "2026-11-10",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
-      "sourceLabel": "MediaTek official investor events",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
-      "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
-      "basis": "MediaTek's official investor calendar lists monthly sales for October 2026 on 2026-11-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
-      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sourceUrl": "https://www.mediatek.com/investor-relations/financial-information",
+      "sourceLabel": "MediaTek official unaudited October 2026 monthly consolidated sales",
+      "sourceCheckedAt": "2026-11-11T17:04:57.928Z",
+      "verifiedAt": "2026-11-11T17:04:57.928Z",
+      "basis": "MediaTek official October 2026 unaudited monthly consolidated revenue published November 10: NT$55,026m (+5.77% YoY); previous September NT$55,399m (about -0.67% MoM). January-October NT$524,417m (+5.35% YoY). Amounts are group revenue, not handset or AI segment revenue. Release publication date verified, exact posting hour not inferred.",
+      "importance": "Monthly chip-sales trend; avoids treating financial-calendar entry as only a future announcement after actual results published.",
       "sources": [
+        {
+          "label": "MediaTek October 2026 consolidated monthly sales",
+          "url": "https://www.mediatek.com/investor-relations/financial-information",
+          "kind": "official",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        },
         {
           "label": "MediaTek investor events",
           "url": "https://www.mediatek.com/investor-relations/ir-events",
@@ -4758,8 +4776,130 @@
           "checkedAt": "2026-11-10T17:07:17.494Z"
         }
       ]
+    },
+    {
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceCheckedAt": "2026-11-11T17:04:57.928Z",
+      "verifiedAt": "2026-11-11T17:04:57.928Z",
+      "id": "spacex-nasa-clps2-eligible-2026-11-07",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "NASA selects SpaceX as one of 8 CLPS 2 lunar-delivery framework bidders (combined $10bn ceiling)",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-07",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+      "sourceLabel": "NASA official November 7, 2026 release 26-095",
+      "basis": "NASA's Nov 7 announcement names SpaceX as one of eight suppliers ELIGIBLE TO COMPETE for future CLPS 2 lunar delivery task orders. The 10-year multiple-award IDIQ framework's US$10bn is a combined maximum ceiling across all participants, NOT a US$10bn awarded contract, bookings, or revenue for SpaceX. Individual delivery dates not specified.",
+      "importance": "Moon Base logistics market opportunity and possible long-term government launch/lander contracts; contingent bidding eligibility is not booked backlog.",
+      "sources": [
+        {
+          "label": "NASA official November 7 Moon Base and CLPS 2 announcement",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+          "kind": "official",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        }
+      ]
+    },
+    {
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceCheckedAt": "2026-11-11T17:04:57.928Z",
+      "verifiedAt": "2026-11-11T17:04:57.928Z",
+      "id": "spacex-nasa-starship-cislunar-comms-task-order-2026-11-07",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "NASA selects SpaceX Starship for 2028 cislunar communications demonstration task order",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-07",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+      "sourceLabel": "NASA November 7 task-order announcement",
+      "basis": "NASA officially selected SpaceX for a Cislunar Communications Deployment Demonstration under an existing lunar logistics contract via Specialized Delivery Mission task order. NASA says Starship will deploy communications satellites to cislunar space IN 2028; no month/day, task-order dollar amount or guaranteed launch date disclosed. This is distinct from the CLPS 2 competition eligibility announced the same day.",
+      "importance": "Confirmed Starship government task-order program; supports 2028 lunar telecommunications revenue watch but contract economics and exact flight timing are undated.",
+      "sources": [
+        {
+          "label": "NASA official task-order selection: cislunar communications demo",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+          "kind": "official",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        }
+      ]
+    },
+    {
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceCheckedAt": "2026-11-11T17:04:57.928Z",
+      "verifiedAt": "2026-11-11T17:04:57.928Z",
+      "id": "openai-aws-chatgpt-enterprise-marketplace-2026-11-09",
+      "companies": [
+        "OPENAI",
+        "AMZN"
+      ],
+      "title": "OpenAI makes ChatGPT Enterprise available in AWS Marketplace",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-09",
+      "sourceUrl": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+      "sourceLabel": "OpenAI official November 9 Marketplace availability announcement",
+      "basis": "OpenAI's November 9, 2026 statement confirms ChatGPT Enterprise listing in AWS Marketplace, enabling enterprise procurement and AWS commitment-eligible spending through established AWS billing. This is a distribution/procurement launch, not an announced AWS contract minimum, revenue amount or dedicated compute capacity. Separate from OpenAI models already available through Amazon Bedrock.",
+      "importance": "Enterprise AI distribution and cloud-channel cooperation for Amazon and OpenAI; monitor bookings, attach rates and software spending commitments.",
+      "sources": [
+        {
+          "label": "OpenAI official AWS Marketplace launch announcement",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+          "kind": "official",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        }
+      ]
+    },
+    {
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceCheckedAt": "2026-11-11T17:04:57.928Z",
+      "verifiedAt": null,
+      "id": "spacex-starship-flight15-nov13-2026-net",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Starship Flight 15 · Nov 13 reported NET double-catch and V3 test target (not flown)",
+      "type": "Launch",
+      "status": "estimated",
+      "date": "2026-11-13",
+      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
+      "sourceLabel": "Space.com November 10 reports SpaceX targeted Nov 13 75-min window; official mission page JS-only",
+      "basis": "As reported Nov 10 by Space.com, SpaceX is targeting Friday November 13, 2026, 17:45 EST (22:45 UTC) for the 75-minute Starship Flight 15 launch window from Starbase; window crosses into November 14 UTC. Reported objectives include potential Super Heavy and Ship tower captures and 26 Starlink V3 satellite deployments. All outcomes are CONDITIONAL; exact first-party launch-page text was dynamically inaccessible during the review, FAA clearance was not independently confirmed, and neither exact liftoff nor successful orbit/catches/deployment are established. This is an ESTIMATED/NET launch target, not a confirmed launch date or completed flight.",
+      "importance": "Major upcoming operational test for listed Nasdaq:SPCX, reusable Starship launch cadence, V3 Starlink constellation economics; maintain high-priority verification against official mission/FAA feeds.",
+      "sources": [
+        {
+          "label": "Space.com Nov 10 reported SpaceX Flight 15 NET window",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
+          "kind": "estimate",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        },
+        {
+          "label": "SpaceX Flight 15 mission page dynamically rendered",
+          "url": "https://www.spacex.com/launches/starship-flight-15",
+          "kind": "official",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        },
+        {
+          "label": "FAA official Starship regulatory and license information",
+          "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
+          "kind": "official",
+          "checkedAt": "2026-11-11T17:04:57.928Z"
+        }
+      ],
+      "estimateKind": "reported-target"
     }
   ],
-  "verificationNote": "Nov 11 HKT targeted review: 33/33 issuer entrypoints attempted, five direct endpoints blocked or inaccessible; remaining sites partly dynamic. Verified TSMC Oct revenue actual NT$586.89bn and Nov 10 board US$40.93bn capital authorization + up to $500m each Anthropic/OpenAI investment approvals. Anthropic officially launched IPO ROADSHOW Nov 10, $70–78 indicative range; IPO trading date still unconfirmed. Added Anthropic Nov 9 Fable/Mythos 5.2 release. SpaceX Nasdaq:SPCX USSF-627 Nov 10 indexed target conflicts with updated Nov 11 secondary target: removed exact event date pending primary verification; Q4 earnings still undated. Full 79-source audit remains October 15; mobile List code unchanged.",
-  "lastPartialReview": "2026-11-10T17:07:17.494Z"
+  "verificationNote": "Nov 12 HKT targeted review of all 33 issuer entrypoints (3 directly blocked; dynamic pages partly visible). CoreWeave Q3 Nov 10 earnings actual ($3.661bn revenue; >1.7GW active versus >4.6GW contracted) with 2026 capex $37-39bn guidance; MediaTek Oct sales NT$55.026bn actual; Nov 7 NASA selects SpaceX as CLPS 2 framework bidder AND for separate Starship 2028 cislunar communication demonstration task order, values/date not invented; Nov 9 OpenAI ChatGPT Enterprise launches in AWS Marketplace; Starship Flight 15 Nov 13 represented only as estimated reported target pending SpaceX/FAA exact verification. SpaceX publicly traded Nasdaq:SPCX, earnings Q4 FY2026 still undated, USSF-627 disputed remains unconfirmed. Historical 79-source October 15 audit unchanged, mobile List layout unchanged.",
+  "lastPartialReview": "2026-11-11T17:04:57.928Z"
 }
