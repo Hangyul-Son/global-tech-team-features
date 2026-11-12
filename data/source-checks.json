@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 12 HKT targeted 33/33 issuer spot check, not a 79-source audit. CoreWeave official Q3 actual revenue US$3.661bn and revenue/capex guidance, MediaTek Oct consolidated monthly revenue NT$55.026bn, NASA Nov 7 CLPS2 eligibility and separate Starship cislunar telecom 2028 task-order selection, OpenAI Nov 9 ChatGPT Enterprise AWS Marketplace launch. Starship Flight 15 Nov 13 target is ESTIMATED/reported, official launch site dynamic and FAA exact license unverified. No Q4 FY26 SpaceX earnings date inferred. TSMC calendar endpoint timed out, Adobe financial endpoint inaccessible, Cloudflare IR 403; other issuer IR pages partly dynamic. Historical Oct 15 79-source results retained; no mobile UI changes.",
+  "note": "Nov 13 HKT 33/33 targeted source checks: NVDA Nov12 CEO succession, Nov8 Korea NVLink Fusion, NBIS Nov12 SEC Q3 actuals and delayed New Jersey capacity/2027 capex outlook. GTC DC keynote December1 confirmed date/time, speaker not reconfirmed after CEO departure. SPCX remains listed Nasdaq:SPCX, Q4 earnings unannounced, Nov13 Starship target provisional. Four official entrypoints blocked; numerous dynamic. Historical Oct15 79-source audit unchanged; mobile UI untouched.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,17 +5340,17 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-11T17:05:50.075Z",
-    "localDate": "2026-11-12",
+    "checkedAt": "2026-11-12T17:09:25.315Z",
+    "localDate": "2026-11-13",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 30,
-    "entryPointsBlocked": 3,
+    "entryPointsAccessibleOrPartiallyRendered": 29,
+    "entryPointsBlocked": 4,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
         "id": "TSM",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "NVDA",
@@ -5386,7 +5386,7 @@
       },
       {
         "id": "NOW",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "ADBE",
@@ -5394,7 +5394,7 @@
       },
       {
         "id": "WDAY",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "ASML",
@@ -5418,7 +5418,7 @@
       },
       {
         "id": "2454.TW",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "AMZN",
@@ -5450,7 +5450,7 @@
       },
       {
         "id": "ARM",
-        "status": "limited"
+        "status": "blocked"
       },
       {
         "id": "QCOM",
@@ -5462,7 +5462,7 @@
       },
       {
         "id": "CRWD",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "PANW",
@@ -5481,15 +5481,15 @@
         "status": "limited"
       }
     ],
-    "notes": "Targeted official URL reachability and issuer newsroom/SEC spot check for 33 companies. Blocked original financial calendar TSM, Adobe financial news and Cloudflare IR; secondary first-party disclosures checked where available. Full SEC/FCC docket audit not completed, SpaceX issuer quarterly-events API dynamically rendered. Recent first-party CoreWeave SEC/IR, MediaTek investor monthly sales, OpenAI official, NASA and FAA regulatory documentation independently spot checked."
+    "notes": "All 33 official entrypoints attempted. Adobe/Workday/Arm/Cloudflare blocked; several others dynamic. NVDA CEO Nov12 / sovereign AI Nov8 NVIDIA official; NBIS Nov12 SEC 6-K exhibits. SPCX public issuer IR and EDGAR checked, earnings Q4 unannounced, Flight15 Nov13 only secondary-reported target. Full 79-source October15 audit not rerun."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-11T17:05:50.075Z",
-    "scope": "Nov 12 targeted 33-company issuer scan; 4 new events (two NASA SpaceX, OpenAI/Amazon, estimated SpaceX Starship), 2 actual-result upgrades; no 79-source full audit.",
+    "checkedAt": "2026-11-12T17:09:25.315Z",
+    "scope": "Nov13 targeted 33/33 issuer review; 2 NVDA new official announcements, 1 NBIS actual earnings update, 1 GTC speaker caveat; not full 79-source audit",
     "companies": 33,
-    "events": 139,
+    "events": 141,
     "companiesWithEvents": 33,
-    "confirmedEvents": 108,
+    "confirmedEvents": 110,
     "undatedEvents": 15,
     "estimatedEvents": 16,
     "reportedEvents": 5,
@@ -6632,6 +6632,79 @@
         "Starlink Direct-to-Cell/FCC spectrum docket review incomplete. No unverified regulatory grants, mission launch dates, AI compute power or capex converted to firm dates.",
         "Full historical source inventory checkedAt 2026-10-15, totalSources 79, successfulSources 78 intentionally unchanged; no complete 79-source audit attempted.",
         "Mobile compact List view code untouched."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-12T17:09:25.315Z",
+      "scope": "Nov 13 HKT targeted all 33 issuer entrypoints plus NVIDIA newsroom, Nebius EDGAR, SpaceX IR/SEC and FAA/NASA; NOT 79-source full re-audit",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "ADBE",
+        "WDAY",
+        "ARM",
+        "NET",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "CRWV",
+        "INTC",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "NVDA: November 12 issuer officially confirms Jensen Huang resignation, interim CEO/CFO Colette Kress, new board chair Harvey C. Jones. Q3 earnings date November17 intact.",
+        "NVDA: December1 GTC D.C. keynote 14:00 ET time official but website STILL lists Jensen as CEO after resignation; changed title to speaker pending reconfirmation, not a date downgrade or cancellation.",
+        "NVDA: November8 issuer-confirmed Rebellions R200 / SK Telecom NVLink Fusion sovereign AI collaboration, target systems 2028 not yet deployed.",
+        "NBIS: November12 SEC Q3 2026 $980.8m revenue, ~$7.3bn capex actual, $465.8m adjusted EBITDA; 2026 revenue low end $3-3.4bn, forecast 2027 $40-45bn capex and >1GW per year capacity; Microsoft NJ ramp moved into 2Q27, Feb ARR target not completed.",
+        "SPACEX: public Nasdaq:SPCX earnings and financing/SEC watch retained; no Q4 earnings official date; November13 Flight15 still estimated third-party launch target, no issuer/FAA confirmation of exact timing or completed launch."
+      ],
+      "coverageGaps": [
+        "Four attempted issuer primary endpoints inaccessible ADBE WDAY ARM NET; several other sites partially/dynamically readable. Targeted scan is not an exhaustive filing review.",
+        "SpaceX IR earnings/events portal JavaScript-only; no confirmed next Q4 earnings, no complete FCC Direct-to-Cell docket scan or exhaustively verified new NASA/defense award.",
+        "Flight15 reported Nov13 timing cannot be promoted without exact SpaceX/FAA primary publication/license; conflicting USSF-627 dates remain undated.",
+        "GTC D.C. site still calls Jensen CEO although NVIDIA Nov12 says he resigned; speaker remains unresolved.",
+        "Full historical 79-source audit October15 timestamp/statistics preserved, mobile site frontend untouched."
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-11T17:04:57.928Z",
+  "lastAttempt": "2026-11-12T17:09:25.315Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -1596,7 +1596,7 @@
     },
     {
       "id": "gtc-dc-keynote",
-      "title": "Jensen Huang · GTC D.C. keynote",
+      "title": "NVIDIA GTC Washington D.C. keynote · speaker needs reconfirmation",
       "companies": [
         "NVDA"
       ],
@@ -1608,16 +1608,22 @@
       "status": "confirmed",
       "sourceUrl": "https://www.nvidia.com/gtc/dc/",
       "sourceLabel": "NVIDIA · official regional GTC schedule",
-      "sourceCheckedAt": "2026-10-15T13:04:39.747892+00:00",
-      "verifiedAt": "2026-10-15T13:04:39.747892+00:00",
-      "basis": "NVIDIA’s official regional event page separately schedules the CEO keynote on 2026-12-01 at 14:00 ET.",
-      "importance": "CEO announcements on AI platforms, infrastructure partnerships and the product roadmap.",
+      "sourceCheckedAt": "2026-11-12T17:09:25.315Z",
+      "verifiedAt": "2026-11-12T17:09:25.315Z",
+      "basis": "NVIDIA's official GTC D.C. website still confirms keynote DECEMBER 1 at 14:00 Eastern (19:00 UTC) and still describes Jensen Huang as CEO and keynote speaker, but NVIDIA officially announced his resignation as CEO and board member NOVEMBER 12. The event DATE/TIME remain confirmed; the named SPEAKER must be independently reverified after the succession, with no assumption that the keynote is canceled, postponed or still presented by Jensen.",
+      "importance": "Scheduled AI platform roadmap keynote; speaker/agenda uncertainty following CEO transition merits monitoring without downgrading confirmed event time.",
       "sources": [
         {
           "label": "NVIDIA official regional GTC schedule",
           "url": "https://www.nvidia.com/gtc/dc/",
           "kind": "official",
-          "checkedAt": "2026-10-15T13:04:39.747892+00:00"
+          "checkedAt": "2026-11-12T17:09:25.315Z"
+        },
+        {
+          "label": "NVIDIA Nov 12 official CEO transition supersedes stale GTC CEO title",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+          "kind": "official",
+          "checkedAt": "2026-11-12T17:09:25.315Z"
         }
       ],
       "startAt": "2026-12-01T19:00:00Z",
@@ -1674,19 +1680,19 @@
       "companies": [
         "NBIS"
       ],
-      "title": "Nebius Q3 2026 results & earnings call",
+      "title": "Nebius Q3 2026 actuals; capacity delays and 2027 capex outlook",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-12",
       "endDate": null,
       "window": null,
       "time": "Results before U.S. market open (time unspecified); earnings call 08:00 Eastern / 14:00 CET",
-      "sourceUrl": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call",
-      "sourceLabel": "Nebius · official October 30 results announcement",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
-      "verifiedAt": "2026-10-30T17:06:53.597Z",
-      "basis": "Nebius announced October 30 that Q3 2026 financial results will be released Thursday November 12 before U.S. market open, followed by an 08:00 ET / 14:00 CET investor call. Official Nov 12 replaces previously recorded provider-estimated Nov 10; release time itself is not specified.",
-      "importance": "AI cloud capacity buildout, GPU utilization, capex funding and contracted demand.",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm",
+      "sourceLabel": "Nebius November 12 SEC-furnished Q3 results and shareholder letter",
+      "sourceCheckedAt": "2026-11-12T17:09:25.315Z",
+      "verifiedAt": "2026-11-12T17:09:25.315Z",
+      "basis": "Nebius officially reported Q3 2026 financial results November 12, with an 08:00 Eastern earnings call (14:00 CET). SEC Exhibit 99.1: revenue $980.8m (+571% YoY), adjusted EBITDA $465.8m (non-GAAP), continuing-operations net LOSS $37.5m, approximately $7.3bn Q3 purchases of PP&E/intangibles. Exhibit 99.2: 2026 revenue NOW expected at LOW END of existing $3.0-3.4bn RANGE due to 3rd-party colocation delays, including Microsoft New Jersey remaining tranches now planned 2Q27; 2026 capex outlook RAISED to ~$27bn versus $20-25bn; $7-9bn end-December ARR objective shifted to February 2027 (> $7bn), not achieved. Initial 2027 OUTLOOK: revenue $12-13bn, capex $40-45bn, and >1 GW new online capacity each year. Company expects 75-85% of 2027 capex to be covered by customer prepayments and asset-backed borrowing; NOT completed financing. Differentiate actual Q3 spending, annual capex guidance, contracted vs energized GW, ARR target and third-party site delay.",
+      "importance": "AI compute deployment bottlenecks, significant investment ramp, cash-generation quality and third-party power delays; key for GPU/GW reconciliation and 2027 neocloud financing requirements.",
       "sources": [
         {
           "label": "Nebius · Q3 2026 results date and call",
@@ -1705,6 +1711,18 @@
           "url": "https://stockanalysis.com/stocks/nbis/",
           "kind": "estimate",
           "checkedAt": "2026-10-15T14:02:20.217352+00:00"
+        },
+        {
+          "label": "SEC Nov 12 Nebius Q3 financial results Exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-12T17:09:25.315Z"
+        },
+        {
+          "label": "SEC Nov 12 Nebius shareholder letter Exhibit 99.2 — capacity delays and 2027 outlook",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-12T17:09:25.315Z"
         }
       ],
       "dateConflict": "The October 28 provider estimate of November 10 has been superseded by the company's October 30 announcement confirming November 12.",
@@ -4898,8 +4916,62 @@
         }
       ],
       "estimateKind": "reported-target"
+    },
+    {
+      "id": "nvda-ceo-transition-2026-11-12",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "NVIDIA announces Jensen Huang resignation; Colette Kress named interim CEO",
+      "type": "Governance",
+      "status": "confirmed",
+      "date": "2026-11-12",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "sourceLabel": "NVIDIA official November 12, 2026 CEO transition release",
+      "sourceCheckedAt": "2026-11-12T17:09:25.315Z",
+      "verifiedAt": "2026-11-12T17:09:25.315Z",
+      "basis": "NVIDIA officially announced on November 12 that Jensen Huang resigned as CEO, president and director, effective immediately. CFO Colette Kress became interim CEO while retaining the CFO post; Harvey C. Jones became board chair. A permanent CEO search has begun. This is the official announcement date, not an inferred successor appointment or postponed earnings. The same release reconfirms November 17 Q3 FY2027 results around 1:20 p.m. PT and earnings call at 2 p.m. PT. Speaker at the December 1 GTC D.C. keynote needs reconfirmation following the leadership change.",
+      "importance": "Unscheduled major CEO and governance transition ahead of Q3 earnings; monitor operations, customer commitments, product roadmap and export-control strategy without assuming interruption.",
+      "sources": [
+        {
+          "label": "NVIDIA official November 12 CEO transition press release",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+          "kind": "official",
+          "checkedAt": "2026-11-12T17:09:25.315Z"
+        }
+      ]
+    },
+    {
+      "id": "nvda-rebellions-skt-nvlink-fusion-2026-11-08",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "NVIDIA, Rebellions and SK Telecom announce sovereign-AI NVLink Fusion collaboration",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-08",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+      "sourceLabel": "NVIDIA official Nov 8 Rebellions / SK Telecom collaboration",
+      "sourceCheckedAt": "2026-11-12T17:09:25.315Z",
+      "verifiedAt": "2026-11-12T17:09:25.315Z",
+      "basis": "NVIDIA, Rebellions and SK Telecom officially ANNOUNCED a collaboration November 8. Rebellions plans to use NVLink Fusion and MGX rack architecture to integrate its future R200 NPUs; SK Telecom plans integration in Korea sovereign-AI data centers. Proposed heterogeneous inference design uses NVIDIA GPUs for prefill and Rebellions NPUs for decode. R200 systems are EXPECTED ready for deployment in 2028; no month/day, shipments, contract value or installed GW were disclosed. Announcement is not completed deployment.",
+      "importance": "NVIDIA NVLink Fusion interoperability with Korean custom inference silicon and sovereign-AI infrastructure; future rack deployments must be distinguished from present compute capacity.",
+      "sources": [
+        {
+          "label": "NVIDIA Nov 8 official NVLink Fusion Rebellions / SK Telecom announcement",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+          "kind": "official",
+          "checkedAt": "2026-11-12T17:09:25.315Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 12 HKT targeted review of all 33 issuer entrypoints (3 directly blocked; dynamic pages partly visible). CoreWeave Q3 Nov 10 earnings actual ($3.661bn revenue; >1.7GW active versus >4.6GW contracted) with 2026 capex $37-39bn guidance; MediaTek Oct sales NT$55.026bn actual; Nov 7 NASA selects SpaceX as CLPS 2 framework bidder AND for separate Starship 2028 cislunar communication demonstration task order, values/date not invented; Nov 9 OpenAI ChatGPT Enterprise launches in AWS Marketplace; Starship Flight 15 Nov 13 represented only as estimated reported target pending SpaceX/FAA exact verification. SpaceX publicly traded Nasdaq:SPCX, earnings Q4 FY2026 still undated, USSF-627 disputed remains unconfirmed. Historical 79-source October 15 audit unchanged, mobile List layout unchanged.",
-  "lastPartialReview": "2026-11-11T17:04:57.928Z"
+  "verificationNote": "Nov 13 HKT targeted 33-company entrypoint review. NVIDIA Nov 12 official CEO resignation with interim CEO/CFO Colette Kress and chair Harvey Jones; Dec 1 GTC D.C. date/time confirmed but keynote speaker conflicting/stale on website. Backfilled NVIDIA/Rebellions/SK Telecom Nov 8 announced NVLink Fusion partnership, planned 2028 R200 not shipped. Nebius Nov 12 SEC Q3 actual $980.8m revenue and ~$7.3bn capex, delays, 2027 capex outlook $40-45bn. SpaceX retains Nasdaq:SPCX public coverage, earnings and SEC; Q4 date unannounced; Nov 13 Starship Flight 15 secondary-reported target estimated and FAA license not independently verified. Full Oct 15 79-source audit unchanged, mobile List unchanged.",
+  "lastPartialReview": "2026-11-12T17:09:25.315Z"
 }
