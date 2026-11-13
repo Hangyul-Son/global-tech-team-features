@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-12T17:09:25.315Z",
+  "lastAttempt": "2026-11-13T16:55:34.000Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -4513,7 +4513,7 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Falcon 9 USSF-627 · revised launch target disputed (Nov 10–11 UTC)",
+      "title": "SpaceX USSF-627 · secondary Nov 11 PT launch report, official record unresolved",
       "type": "Launch",
       "status": "estimated",
       "date": null,
@@ -4522,9 +4522,9 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/ussf627",
       "sourceLabel": "Official SpaceX launch page (dynamic/stale indexed data), conflicting independent update",
-      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
+      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
       "verifiedAt": null,
-      "basis": "SpaceX official indexed launch archive previously identified November 10, 2026 03:03–07:03 UTC as a USSF-627 TARGET window. However, on November 10, third-party launch trackers drawing on Launch Library 2 reported the target shifted to November 11, 2026 at 02:49 UTC, with a 02:49–06:49 UTC window (November 10 evening California time). The latest mission-specific SpaceX page is dynamically rendered and did not independently expose the updated time to this review. These are competing SCHEDULE snapshots, not verified actual liftoff. Date deliberately set NULL rather than assert either exact UTC day or T-0; confirm in SpaceX/Space Force official mission archive before restoring a dated card. SpaceX remains publicly traded Nasdaq:SPCX.",
+      "basis": "SpaceX official indexed launch archive previously identified November 10, 2026 03:03–07:03 UTC as a USSF-627 TARGET window. However, on November 10, third-party launch trackers drawing on Launch Library 2 reported the target shifted to November 11, 2026 at 02:49 UTC, with a 02:49–06:49 UTC window (November 10 evening California time). The latest mission-specific SpaceX page is dynamically rendered and did not independently expose the updated time to this review. These are competing SCHEDULE snapshots, not verified actual liftoff. Date deliberately set NULL rather than assert either exact UTC day or T-0; confirm in SpaceX/Space Force official mission archive before restoring a dated card. SpaceX remains publicly traded Nasdaq:SPCX. New November 12 Space.com reporting says Falcon 9 USSF-627 lifted off November 11 at 11:36 p.m. EST (November 12 at 04:36 UTC) and landed booster; however current crawled SpaceX mission archive continues displaying obsolete Nov 10 target. This secondary REPORTED outcome is not first-party confirmed by SpaceX/Space Force here, so the entry remains an undated provisional review rather than asserting a primary-confirmed precise flight.",
       "importance": "Space Force launch cadence watch for public Nasdaq:SPCX; preserve mission identity without mislabeling a changing target as a completed or fixed-date launch.",
       "sources": [
         {
@@ -4550,6 +4550,12 @@
           "url": "https://www.edhat.com/news/spacex-ussf-627-launch-postponed-vandenberg-new-target-date/",
           "kind": "report",
           "checkedAt": "2026-11-10T17:07:17.494Z"
+        },
+        {
+          "label": "Space.com Nov 12 report: USSF-627 liftoff Nov 11 ET; primary confirmation pending",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos",
+          "kind": "report",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
         }
       ],
       "dateConflict": "Earlier official indexed target Nov 10 03:03–07:03 UTC versus updated third-party Nov 11 02:49–06:49 UTC (Nov 10 Pacific); current first-party verified target unavailable. Do not mark flight completed.",
@@ -4678,33 +4684,47 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Falcon 9 USSF-317 · NET Nov 13 UTC (04:23–08:23 window)",
+      "title": "SpaceX Falcon 9 USSF-317 · Nov 13–18 changing launch targets (not flown/verified)",
       "type": "Launch",
       "status": "estimated",
-      "date": "2026-11-13",
+      "date": null,
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
-      "sourceLabel": "SpaceX official upcoming-launch archive, mission-identified Falcon 9 USSF-317 Nov 13 UTC window",
-      "sourceCheckedAt": "2026-11-09T17:03:46.793Z",
+      "sourceUrl": "https://www.spacex.com/launches/ussf317",
+      "sourceLabel": "SpaceX USSF-317 mission page (older November 13 UTC target); independent launch feeds revised to Nov 18",
+      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
       "verifiedAt": null,
-      "basis": "SpaceX's indexed launch archive lists USSF-317, Falcon 9 from Vandenberg SLC-4E, targeting November 13, 2026 with a 04:23–08:23 UTC launch window. This is a published future TARGET/launch WINDOW, not a guaranteed exact liftoff time or completed flight. Launch manifests can change dynamically; no FAA/Space Force clearance or classified payload details have been inferred. Compared against the separate USSF-627 Nov 10 listing to avoid mixing missions. Refresh directly from SpaceX/FAA prior to flight.",
+      "basis": "As checked November 13, SpaceX's indexed USSF-317 mission page continued to show a November 12 20:23 PST / November 13 04:23 UTC target window. Independent launch-feed histories subsequently showed NOV 14, NOV 15, then NOV 18 03:14 UTC (November 17 Pacific). These are materially conflicting target snapshots; the indexed SpaceX page may lag current planning. The date is deliberately REMOVED and a provisional November 13–18 window retained until a current SpaceX/US Space Force primary notice verifies the target. No flight completion, clearance, payload contents or outcome is asserted.",
       "importance": "A second mission-identified near-term SpaceX national-security launch target; captures planned cadence without treating estimated launch window as flight completion.",
       "sources": [
         {
-          "label": "SpaceX official upcoming missions archive · USSF-317 target",
-          "url": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
-          "kind": "estimate",
-          "checkedAt": "2026-11-09T17:03:46.793Z"
+          "label": "SpaceX official mission-specific USSF-317 launch target (original Nov 13 UTC)",
+          "url": "https://www.spacex.com/launches/ussf317",
+          "kind": "official",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
         },
         {
-          "label": "Mission manifest cross-check (independent; provisional)",
-          "url": "https://spacenexus.us/launches/spacex/2026-11",
+          "label": "Space Launch Live/Launch Library 2 target-change history to Nov 18",
+          "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-317/",
           "kind": "report",
-          "checkedAt": "2026-11-09T17:03:46.793Z"
+          "checkedAt": "2026-11-13T16:55:34.000Z"
+        },
+        {
+          "label": "KosmosHub third-party schedule revision log",
+          "url": "https://kosmoshub.space/launches/spacex/falcon-9-block-5-ussf-317",
+          "kind": "report",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
         }
-      ]
+      ],
+      "timingWindow": {
+        "start": "2026-11-13",
+        "end": "2026-11-18",
+        "label": "13–18 November 2026 · conflicting USSF-317 target dates",
+        "precision": "week"
+      },
+      "dateConflict": "SpaceX original mission-specific Nov 13 04:23–08:23 UTC target versus Launch Library 2-linked updates through Nov 18 03:14 UTC. Not reconcilable to a single first-party launch date as of review.",
+      "estimateKind": "manifest-revision"
     },
     {
       "id": "tsm-board-40p93bn-capital-appropriations-2026-11-10",
@@ -4881,7 +4901,7 @@
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceCheckedAt": "2026-11-11T17:04:57.928Z",
+      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
       "verifiedAt": null,
       "id": "spacex-starship-flight15-nov13-2026-net",
       "companies": [
@@ -4893,7 +4913,7 @@
       "date": "2026-11-13",
       "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
       "sourceLabel": "Space.com November 10 reports SpaceX targeted Nov 13 75-min window; official mission page JS-only",
-      "basis": "As reported Nov 10 by Space.com, SpaceX is targeting Friday November 13, 2026, 17:45 EST (22:45 UTC) for the 75-minute Starship Flight 15 launch window from Starbase; window crosses into November 14 UTC. Reported objectives include potential Super Heavy and Ship tower captures and 26 Starlink V3 satellite deployments. All outcomes are CONDITIONAL; exact first-party launch-page text was dynamically inaccessible during the review, FAA clearance was not independently confirmed, and neither exact liftoff nor successful orbit/catches/deployment are established. This is an ESTIMATED/NET launch target, not a confirmed launch date or completed flight.",
+      "basis": "As reported Nov 10 by Space.com, SpaceX is targeting Friday November 13, 2026, 17:45 EST (22:45 UTC) for the 75-minute Starship Flight 15 launch window from Starbase; window crosses into November 14 UTC. Reported objectives include potential Super Heavy and Ship tower captures and 26 Starlink V3 satellite deployments. All outcomes are CONDITIONAL; exact first-party launch-page text was dynamically inaccessible during the review, FAA clearance was not independently confirmed, and neither exact liftoff nor successful orbit/catches/deployment are established. This is an ESTIMATED/NET launch target, not a confirmed launch date or completed flight. November 13 review (before the stated NET window): Reuters reported that the FAA license had NOT YET BEEN ISSUED as of Friday morning; SpaceX's mission-specific page still exposed no readable date/authorization. The November 13 22:45 UTC target therefore remains estimated, conditional on approval and weather; do not mark launch/catch/V3 deployment as achieved without new primary confirmation.",
       "importance": "Major upcoming operational test for listed Nasdaq:SPCX, reusable Starship launch cadence, V3 Starlink constellation economics; maintain high-priority verification against official mission/FAA feeds.",
       "sources": [
         {
@@ -4913,6 +4933,12 @@
           "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
           "kind": "official",
           "checkedAt": "2026-11-11T17:04:57.928Z"
+        },
+        {
+          "label": "Reuters Nov 13 Flight 15 prelaunch report; FAA license not yet issued as of Friday morning",
+          "url": "https://www.reuters.com/science/spacex-attempt-first-starship-spacecraft-recovery-land-15th-flight-2026-11-13/",
+          "kind": "report",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
         }
       ],
       "estimateKind": "reported-target"
@@ -4970,8 +4996,115 @@
           "checkedAt": "2026-11-12T17:09:25.315Z"
         }
       ]
+    },
+    {
+      "id": "msft-m365-global-outage-2026-11-12",
+      "companies": [
+        "MSFT"
+      ],
+      "title": "Microsoft 365 global Outlook/Teams/Copilot outage begins Nov 12; recovery ongoing Nov 13",
+      "type": "Operating update",
+      "status": "reported",
+      "date": "2026-11-12",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://apnews.com/article/d92547a821930290db2964388016979a",
+      "sourceLabel": "Associated Press Nov 13 global Microsoft 365 outage report",
+      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
+      "verifiedAt": null,
+      "basis": "A major Microsoft 365 disruption began on Thursday, November 12, 2026 (service health dashboard start around 16:17 UTC per Computerworld) and continued through Friday Nov 13. AP and Reuters report widespread disruptions to Exchange/Outlook, Teams, Copilot and associated enterprise tools; Microsoft reported progress in restoring access, but intermittent email-delivery and sign-in issues persisted and FULL recovery had NOT been established at review. Microsoft's public service health page displayed degradation, while detailed incident timestamps were dynamic. Microsoft says no evidence of a cyberattack; root-cause analysis remains provisional. Event date is reported INCIDENT START, not a company-announced future catalyst, and no unsupported outage impact dollar amount is claimed.",
+      "importance": "Cloud and enterprise productivity platform reliability, SLA/enterprise retention, mission-critical dependency and cloud resilience; distinguish reported outage start from full-service restoration.",
+      "sources": [
+        {
+          "label": "Microsoft official public service-health status (dynamic)",
+          "url": "https://sdf.status.cloud.microsoft/",
+          "kind": "official",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
+        },
+        {
+          "label": "Associated Press Nov 13 report",
+          "url": "https://apnews.com/article/d92547a821930290db2964388016979a",
+          "kind": "report",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
+        },
+        {
+          "label": "Reuters Nov 13 outage reporting",
+          "url": "https://www.boursorama.com/bourse/actualites/microsoft-une-panne-mondiale-affecte-outlook-teams-et-copilot-d314ce7ad99f2234fb8154097bc1c32e",
+          "kind": "report",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
+        },
+        {
+          "label": "Computerworld dashboard-based start time",
+          "url": "https://www.computerworld.com/article/4248253/microsoft-struggles-to-get-m365-services-back-online-after-widespread-outage-2.html",
+          "kind": "report",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-wallet-agentic-payments-2026-11-13",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI launches ChatGPT Wallet for agentic checkout with Amex, Mastercard and Visa",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-13",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "sourceLabel": "OpenAI official November 13 announcement",
+      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
+      "verifiedAt": "2026-11-13T16:55:34.000Z",
+      "basis": "OpenAI's dated November 13 official announcement introduces ChatGPT Wallet payment tokenization and purchase-by-purchase user verification for agent-led payments, in collaboration with American Express, Mastercard and Visa. Initial rollout is limited to dots for eligible U.S. ChatGPT Pro subscribers aged 18+ with eligible U.S.-issued cards, not all ChatGPT users, not full hands-off checkout, and not a disclosed payments volume/revenue forecast. The announcement also includes guidance for merchants, payment providers and anti-fraud networks.",
+      "importance": "AI-native consumer commerce and payment infrastructure monetization opportunity. Initial product availability is restricted; no unreported transactions, fees or revenue are assumed.",
+      "sources": [
+        {
+          "label": "OpenAI official November 13 ChatGPT Wallet release",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "kind": "official",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-nscale-financing-risk-ft-2026-11-13",
+      "companies": [
+        "ANTHROPIC",
+        "NVDA",
+        "MSFT"
+      ],
+      "title": "FT reports Nscale funding gap for prior $45bn Anthropic compute contract; Microsoft capacity reductions",
+      "type": "Financing",
+      "status": "reported",
+      "date": "2026-11-13",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47",
+      "sourceLabel": "Financial Times November 13 report (not primary-verified)",
+      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
+      "verifiedAt": null,
+      "basis": "On NOVEMBER 13, the Financial Times reported Nvidia-backed Nscale must raise new financing to support increased 2027 compute commitments, citing an earlier Anthropic $45bn multiyear compute arrangement and major NVIDIA chip orders. According to FT, funding for the first West Virginia building was not secured, with a stated six-month financing window, and a second building depended on an agreement by end-November. FT also reported previously lost Microsoft commitments, including a $3.2bn London site delayed by grid access. The $45bn Anthropic arrangement itself was reported August 26, NOT signed November 13; this card dates the NEW financing-risk report. Neither Nscale financing, a new IPO date, GPU shipments nor energized capacity is confirmed by a fresh issuer filing here.",
+      "importance": "Counterparty funding and grid risk in AI infrastructure backlog; avoid treating $45bn long-term cloud contract, Nvidia orders or Nscale prospective IPO as cash-funded installed compute.",
+      "sources": [
+        {
+          "label": "Financial Times Nov 13 Nscale funding warning",
+          "url": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47",
+          "kind": "report",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
+        },
+        {
+          "label": "August 26 Bloomberg arrangement reported through Investing.com/Yahoo",
+          "url": "https://sg.finance.yahoo.com/news/anthropic-agrees-45bn-cloud-computing-174930340.html",
+          "kind": "report",
+          "checkedAt": "2026-11-13T16:55:34.000Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 13 HKT targeted 33-company entrypoint review. NVIDIA Nov 12 official CEO resignation with interim CEO/CFO Colette Kress and chair Harvey Jones; Dec 1 GTC D.C. date/time confirmed but keynote speaker conflicting/stale on website. Backfilled NVIDIA/Rebellions/SK Telecom Nov 8 announced NVLink Fusion partnership, planned 2028 R200 not shipped. Nebius Nov 12 SEC Q3 actual $980.8m revenue and ~$7.3bn capex, delays, 2027 capex outlook $40-45bn. SpaceX retains Nasdaq:SPCX public coverage, earnings and SEC; Q4 date unannounced; Nov 13 Starship Flight 15 secondary-reported target estimated and FAA license not independently verified. Full Oct 15 79-source audit unchanged, mobile List unchanged.",
-  "lastPartialReview": "2026-11-12T17:09:25.315Z"
+  "verificationNote": "Nov 14 HKT targeted 33/33 issuer/source check. Added Nov 12 global MSFT M365 outage (reported onset, restoration not yet established), Nov 13 official OpenAI ChatGPT Wallet limited U.S. rollout, Nov 13 FT-reported Nscale funding risk around earlier Anthropic $45bn compute deal. SPCX remains Nasdaq:SPCX and all 26 entries retained. USSF-317 Nov 13 official indexed target conflicts with evolving independent Nov 18 feed: downgraded to undated timing window; USSF-627 secondary reported flight unconfirmed by first party; Flight15 Nov 13 NET remains conditional pending primary FAA clearance. SpaceX EDGAR CIK1181412 most recent directory filing Nov6; Q4 earnings unannounced. Historical 79-source Oct15 audit not refreshed; compact mobile frontend unchanged.",
+  "lastPartialReview": "2026-11-13T16:55:34.000Z"
 }
