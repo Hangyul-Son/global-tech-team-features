@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 13 HKT 33/33 targeted source checks: NVDA Nov12 CEO succession, Nov8 Korea NVLink Fusion, NBIS Nov12 SEC Q3 actuals and delayed New Jersey capacity/2027 capex outlook. GTC DC keynote December1 confirmed date/time, speaker not reconfirmed after CEO departure. SPCX remains listed Nasdaq:SPCX, Q4 earnings unannounced, Nov13 Starship target provisional. Four official entrypoints blocked; numerous dynamic. Historical Oct15 79-source audit unchanged; mobile UI untouched.",
+  "note": "Nov 14 HKT: 33/33 targeted official issuer entrypoint checks, 31 accessible/partial, Adobe+Cloudflare blocked. MSFT global M365 outage Nov12, OpenAI Nov13 ChatGPT Wallet, FT Nov13 Nscale Anthropic financing risk added. SPCX publicly listed earnings/SEC/launch monitoring intact; USSF-317 exact Nov13 UTC target downgraded after changing Nov18 feed, USSF-627/Flight15 primary confirmation pending. 79-source full audit Oct15 unchanged; mobile List unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,12 +5340,12 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-12T17:09:25.315Z",
-    "localDate": "2026-11-13",
+    "checkedAt": "2026-11-13T16:55:34.000Z",
+    "localDate": "2026-11-14",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 29,
-    "entryPointsBlocked": 4,
+    "entryPointsAccessibleOrPartiallyRendered": 31,
+    "entryPointsBlocked": 2,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
@@ -5394,7 +5394,7 @@
       },
       {
         "id": "WDAY",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "ASML",
@@ -5402,7 +5402,7 @@
       },
       {
         "id": "LRCX",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "005930.KS",
@@ -5418,7 +5418,7 @@
       },
       {
         "id": "2454.TW",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "AMZN",
@@ -5430,7 +5430,7 @@
       },
       {
         "id": "META",
-        "status": "accessible"
+        "status": "limited"
       },
       {
         "id": "ANTHROPIC",
@@ -5446,11 +5446,11 @@
       },
       {
         "id": "INTC",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "ARM",
-        "status": "blocked"
+        "status": "limited"
       },
       {
         "id": "QCOM",
@@ -5462,11 +5462,11 @@
       },
       {
         "id": "CRWD",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "PANW",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "NET",
@@ -5481,18 +5481,18 @@
         "status": "limited"
       }
     ],
-    "notes": "All 33 official entrypoints attempted. Adobe/Workday/Arm/Cloudflare blocked; several others dynamic. NVDA CEO Nov12 / sovereign AI Nov8 NVIDIA official; NBIS Nov12 SEC 6-K exhibits. SPCX public issuer IR and EDGAR checked, earnings Q4 unannounced, Flight15 Nov13 only secondary-reported target. Full 79-source October15 audit not rerun."
+    "notes": "All 33 sources opened; inaccessible ADBE and NET (2). Many IR calendars JS-limited. SpaceX Q4 no confirmed earnings date; EDGAR CIK1181412 last accession Nov6; USSF-317/USSF-627/Flight15 status conservative. MSFT outage, OpenAI Wallet, FT Nscale report entered. Historical 79-source audit unchanged."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-12T17:09:25.315Z",
-    "scope": "Nov13 targeted 33/33 issuer review; 2 NVDA new official announcements, 1 NBIS actual earnings update, 1 GTC speaker caveat; not full 79-source audit",
+    "checkedAt": "2026-11-13T16:55:34.000Z",
+    "scope": "Nov14 targeted 33/33 issuer review, SEC/SpaceX/FAA/NASA/Reuters/AP/FT cross-check; 3 new events, 3 SpaceX launch verification updates; NOT full 79-source audit",
     "companies": 33,
-    "events": 141,
+    "events": 144,
     "companiesWithEvents": 33,
-    "confirmedEvents": 110,
-    "undatedEvents": 15,
+    "confirmedEvents": 111,
+    "undatedEvents": 16,
     "estimatedEvents": 16,
-    "reportedEvents": 5,
+    "reportedEvents": 7,
     "confirmedMissingVerifiedAt": 0,
     "eventsWithoutSource": 0
   },
@@ -6705,6 +6705,79 @@
         "Flight15 reported Nov13 timing cannot be promoted without exact SpaceX/FAA primary publication/license; conflicting USSF-627 dates remain undated.",
         "GTC D.C. site still calls Jensen CEO although NVIDIA Nov12 says he resigned; speaker remains unresolved.",
         "Full historical 79-source audit October15 timestamp/statistics preserved, mobile site frontend untouched."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-13T16:55:34.000Z",
+      "scope": "Nov14 HKT 33/33 issuer landing/IR checks and targeted current SEC/FAA/SpaceX/news; historical 79-source Oct15 audit NOT rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "LRCX",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "ARM",
+        "SNOW",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "MSFT: Nov12 global Microsoft 365 / Outlook / Teams / Copilot outage, continued into Nov13 with progress but unverified full restoration; AP, Reuters and official public status. New reported operating event (not earnings).",
+        "OPENAI: Nov13 company official ChatGPT Wallet launch with Amex, Mastercard and Visa; initial access U.S. eligible Pro adults through dots with per-purchase confirmation, not universal rollout. New confirmed event.",
+        "ANTHROPIC/NVDA/MSFT: Nov13 FT funding warning for Nscale's pre-existing $45bn Anthropic compute commitment, major NVIDIA chip orders and Microsoft site deferrals. New reported event uses Nov13 news publication, NOT August contract date or future IPO pricing.",
+        "SPACEX: Official indexed USSF-317 Nov13 UTC target conflicts with independent launch feed revised to Nov18 UTC; downgraded exact date to Nov13–18 provisional timing window, NOT flown/confirmed.",
+        "SPACEX: Secondary Space.com Nov12 report says USSF-627 launched Nov11 ET (Nov12 UTC) but SpaceX indexed archive remains stale; prior undated provisional card not promoted to exact primary-confirmed time.",
+        "SPACEX: Nov13 Flight15 NET launch remains provisional; Reuters said license absent earlier on Nov13, SpaceX mission page date unreadable, FAA approval and results not asserted.",
+        "SPACEX: SEC EDGAR CIK 1181412 index has most recent filing Nov6, IR financials/events dynamic; Q4/FY2026 earnings date unannounced; financing, Starlink, Super Intelligence, spectrum, FAA/NASA and defense watch retained."
+      ],
+      "coverageGaps": [
+        "All 33 issuer source entry points attempted; Adobe financial news and Cloudflare investor URLs blocked (2/33). Other 16 accessible only partially or as static/dynamic landing pages; such checks cannot rule out new releases.",
+        "SpaceX IR financial/events content dynamically rendered; EDGAR company accession directory reviewed through Nov6 only, no independently confirmed later Q4/FY2026 earnings announcement.",
+        "Starship Flight15 exact first-party launch schedule and license not readable on official SpaceX/FAA pages at check time; Nov13 22:45 UTC remains secondary reported NET, not authorized/completed. Recheck after approval/launch.",
+        "USSF-317 SpaceX Nov13 indexed target conflicts with Nov18 third-party updates. USSF-627 secondary flight report not yet backed by authoritative SpaceX/Space Force report; both conservatively held without definitive official times.",
+        "Full FCC Direct-to-Cell spectrum dockets, NASA awards and all 33 issuers' complete SEC filing sequences not exhaustively retrieved. No unverified regulatory approvals or new material issuer claims entered as confirmed.",
+        "Last 79-source full audit remains 2026-10-15; asOf/targetedReview updated without changing historical full-audit counters. Frontend compact mobile List code untouched."
       ]
     }
   ]
