@@ -4692,7 +4692,7 @@
       "window": null,
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/ussf317",
-      "sourceLabel": "SpaceX USSF-317 mission page (older November 13 UTC target); independent launch feeds revised to Nov 18",
+      "sourceLabel": "Original SpaceX USSF-317 launch target (estimated), now conflicting with newer third-party revisions",
       "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
       "verifiedAt": null,
       "basis": "As checked November 13, SpaceX's indexed USSF-317 mission page continued to show a November 12 20:23 PST / November 13 04:23 UTC target window. Independent launch-feed histories subsequently showed NOV 14, NOV 15, then NOV 18 03:14 UTC (November 17 Pacific). These are materially conflicting target snapshots; the indexed SpaceX page may lag current planning. The date is deliberately REMOVED and a provisional November 13–18 window retained until a current SpaceX/US Space Force primary notice verifies the target. No flight completion, clearance, payload contents or outcome is asserted.",
@@ -4701,7 +4701,7 @@
         {
           "label": "SpaceX official mission-specific USSF-317 launch target (original Nov 13 UTC)",
           "url": "https://www.spacex.com/launches/ussf317",
-          "kind": "official",
+          "kind": "estimate",
           "checkedAt": "2026-11-13T16:55:34.000Z"
         },
         {
