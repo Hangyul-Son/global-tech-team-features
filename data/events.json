@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-14",
+  "asOf": "2026-11-15",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-13T16:55:34.000Z",
+  "lastAttempt": "2026-11-14T17:01:33.000Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -4693,9 +4693,9 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/ussf317",
       "sourceLabel": "Original SpaceX USSF-317 launch target (estimated), now conflicting with newer third-party revisions",
-      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
+      "sourceCheckedAt": "2026-11-14T17:01:33.000Z",
       "verifiedAt": null,
-      "basis": "As checked November 13, SpaceX's indexed USSF-317 mission page continued to show a November 12 20:23 PST / November 13 04:23 UTC target window. Independent launch-feed histories subsequently showed NOV 14, NOV 15, then NOV 18 03:14 UTC (November 17 Pacific). These are materially conflicting target snapshots; the indexed SpaceX page may lag current planning. The date is deliberately REMOVED and a provisional November 13–18 window retained until a current SpaceX/US Space Force primary notice verifies the target. No flight completion, clearance, payload contents or outcome is asserted.",
+      "basis": "As checked November 13, SpaceX's indexed USSF-317 mission page continued to show a November 12 20:23 PST / November 13 04:23 UTC target window. Independent launch-feed histories subsequently showed NOV 14, NOV 15, then NOV 18 03:14 UTC (November 17 Pacific). These are materially conflicting target snapshots; the indexed SpaceX page may lag current planning. The date is deliberately REMOVED and a provisional November 13–18 window retained until a current SpaceX/US Space Force primary notice verifies the target. No flight completion, clearance, payload contents or outcome is asserted. Nov 15 HKT follow-up: SpaceX's readable mission page still shows its original Thursday Nov12 PT / Friday Nov13 UTC targeting and a Nov13 backup; this conflicts with a later third-party Nov18 schedule snapshot. These are not verified actual launch outcomes, so keep date NULL with provisional week window rather than asserting a specific launch.",
       "importance": "A second mission-identified near-term SpaceX national-security launch target; captures planned cadence without treating estimated launch window as flight completion.",
       "sources": [
         {
@@ -4901,47 +4901,52 @@
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
+      "sourceCheckedAt": "2026-11-14T17:01:33.000Z",
       "verifiedAt": null,
       "id": "spacex-starship-flight15-nov13-2026-net",
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Starship Flight 15 · Nov 13 reported NET double-catch and V3 test target (not flown)",
+      "title": "SpaceX Starship Flight 15 launches Nov 13, deploys 26 V3 satellites; booster catch aborted",
       "type": "Launch",
-      "status": "estimated",
+      "status": "reported",
       "date": "2026-11-13",
-      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
-      "sourceLabel": "Space.com November 10 reports SpaceX targeted Nov 13 75-min window; official mission page JS-only",
-      "basis": "As reported Nov 10 by Space.com, SpaceX is targeting Friday November 13, 2026, 17:45 EST (22:45 UTC) for the 75-minute Starship Flight 15 launch window from Starbase; window crosses into November 14 UTC. Reported objectives include potential Super Heavy and Ship tower captures and 26 Starlink V3 satellite deployments. All outcomes are CONDITIONAL; exact first-party launch-page text was dynamically inaccessible during the review, FAA clearance was not independently confirmed, and neither exact liftoff nor successful orbit/catches/deployment are established. This is an ESTIMATED/NET launch target, not a confirmed launch date or completed flight. November 13 review (before the stated NET window): Reuters reported that the FAA license had NOT YET BEEN ISSUED as of Friday morning; SpaceX's mission-specific page still exposed no readable date/authorization. The November 13 22:45 UTC target therefore remains estimated, conditional on approval and weather; do not mark launch/catch/V3 deployment as achieved without new primary confirmation.",
-      "importance": "Major upcoming operational test for listed Nasdaq:SPCX, reusable Starship launch cadence, V3 Starlink constellation economics; maintain high-priority verification against official mission/FAA feeds.",
+      "sourceUrl": "https://www.reuters.com/science/spacex-attempt-first-starship-spacecraft-recovery-land-15th-flight-2026-11-13/",
+      "sourceLabel": "Reuters November 13 actual-flight report, supported by AP and official SpaceX preflight mission page",
+      "basis": "ACTUAL Nov 13 launch: Reuters and AP independently report Flight 15 launched from Starbase on Friday Nov 13, reached orbit, and deployed 26 Starlink V3 satellites. Space.com on-site reports approximate liftoff 22:47 UTC (16:47 CST), but the crawled official SpaceX mission page still presents a preflight target of 16:45 Central and does NOT establish an official exact T-0, so no precise time is stored. Booster 22 diverted to the Gulf after aborting the planned tower catch, with a suspected guidance/navigation issue reported from SpaceX's webcast; the booster was NOT caught. Ship 42 remained in orbit for a proposed ~22-hour mission; as of this review at Nov 14 17:01 UTC its return-to-Starbase catch had not yet been independently verified (later Nov 14 US afternoon), and no success of upper-stage recovery is asserted. This card is REPORTED completed launch and partial mission outcome, not an officially verified entire double-catch outcome. SpaceX remains publicly listed Nasdaq:SPCX; Q4/FY2026 earnings date remains unannounced.",
+      "importance": "Starship V3 launch cadence and ~26 Starlink V3 satellite deployment materially advance Starlink capacity, while aborted Super Heavy catch is a reusability/operational execution risk; upper-stage catch outcome remains pending.",
       "sources": [
         {
-          "label": "Space.com Nov 10 reported SpaceX Flight 15 NET window",
-          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
-          "kind": "estimate",
-          "checkedAt": "2026-11-11T17:04:57.928Z"
-        },
-        {
-          "label": "SpaceX Flight 15 mission page dynamically rendered",
+          "label": "SpaceX primary mission description: Nov 13 window and 26 V3 payload plan (page still preflight)",
           "url": "https://www.spacex.com/launches/starship-flight-15",
           "kind": "official",
-          "checkedAt": "2026-11-11T17:04:57.928Z"
+          "checkedAt": "2026-11-14T17:01:33.000Z"
         },
         {
-          "label": "FAA official Starship regulatory and license information",
-          "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
-          "kind": "official",
-          "checkedAt": "2026-11-11T17:04:57.928Z"
-        },
-        {
-          "label": "Reuters Nov 13 Flight 15 prelaunch report; FAA license not yet issued as of Friday morning",
+          "label": "Reuters Nov 13 completed launch, orbit, 26 V3 satellites, aborted booster catch",
           "url": "https://www.reuters.com/science/spacex-attempt-first-starship-spacecraft-recovery-land-15th-flight-2026-11-13/",
           "kind": "report",
-          "checkedAt": "2026-11-13T16:55:34.000Z"
+          "checkedAt": "2026-11-14T17:01:33.000Z"
+        },
+        {
+          "label": "AP Nov 14 reported launch outcome and still-planned Ship catch",
+          "url": "https://apnews.com/article/f9452dd86770dda36828a35bb27d65ee",
+          "kind": "report",
+          "checkedAt": "2026-11-14T17:01:33.000Z"
+        },
+        {
+          "label": "Space.com on-site Nov 13 report, 22:47 UTC approximate liftoff and upper-stage flight still in progress",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
+          "kind": "report",
+          "checkedAt": "2026-11-14T17:01:33.000Z"
+        },
+        {
+          "label": "FAA official Boca Chica environmental review and future regulatory meetings; not proof of Flight 15 catch",
+          "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
+          "kind": "official",
+          "checkedAt": "2026-11-14T17:01:33.000Z"
         }
-      ],
-      "estimateKind": "reported-target"
+      ]
     },
     {
       "id": "nvda-ceo-transition-2026-11-12",
@@ -5103,8 +5108,68 @@
           "checkedAt": "2026-11-13T16:55:34.000Z"
         }
       ]
+    },
+    {
+      "id": "amzn-fermi-600mw-reported-compute-2026-11-14",
+      "companies": [
+        "AMZN"
+      ],
+      "title": "FT reports Amazon agreement for 600 MW Fermi Texas compute capacity",
+      "type": "Partnership",
+      "status": "reported",
+      "date": "2026-11-14",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb",
+      "sourceLabel": "Financial Times November 14 report; no Amazon issuer confirmation",
+      "sourceCheckedAt": "2026-11-14T17:01:33.000Z",
+      "verifiedAt": null,
+      "basis": "The Financial Times reported on November 14, 2026 that Amazon agreed to purchase a reported 600 MW of compute capacity from Fermi's Texas project, reversing earlier failed discussions. The article describes a prospective 2027 start, $200m prepayment, $15m preconstruction arrangement and another $90m for materials, as well as financing and 99-year land lease conditions. This calendar date is the publication/disclosure date, NOT a contract execution, power-energization or GPU-shipment date. Neither Amazon nor Fermi official disclosure was independently located confirming completion or commissioning. 600 MW is reported commercial capacity, not verified active IT load. Financial amounts should not be treated as settled cash flows without filings.",
+      "importance": "Potential Amazon AI-cloud expansion and counterparty financing risk; 600 MW contracted prospective capacity should not enter energized GW or 2026 GPU shipment estimates.",
+      "sources": [
+        {
+          "label": "Financial Times Nov 14 Amazon–Fermi 600 MW reported deal",
+          "url": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb",
+          "kind": "report",
+          "checkedAt": "2026-11-14T17:01:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "msft-cerebras-q3-new-inference-deal-reported-2026-11-12",
+      "companies": [
+        "MSFT"
+      ],
+      "title": "Cerebras Q3 disclosure: Reuters reports new Microsoft inference cloud deal",
+      "type": "Partnership",
+      "status": "reported",
+      "date": "2026-11-12",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.reuters.com/business/cerebras-raises-annual-sales-forecast-strong-ai-linked-demand-2026-11-12/",
+      "sourceLabel": "Reuters November 12 earnings report names Microsoft; Cerebras primary Q3 release unnamed hyperscalers",
+      "sourceCheckedAt": "2026-11-14T17:01:33.000Z",
+      "verifiedAt": null,
+      "basis": "Cerebras reported Q3 CY2026 results on November 12, with $210.8m GAAP revenue, $230.9m Core (non-GAAP) revenue, $26.1bn RPO and 700 MW data-center capacity under contract across its ENTIRE business. Cerebras official release mentioned two new hyperscaler commercial wins but did not identify Microsoft by name; Reuters November 12 reported a new cloud deal with Microsoft. Accordingly the Microsoft relationship is REPORTED, not a signed/closed contract amount, and 700 MW/26.1bn RPO must NOT be attributed wholly to Microsoft. Date refers to the issuer disclosure, not the unannounced contract signing. 2026 Core guidance of $940–960m is adjusted, not GAAP.",
+      "importance": "New inference accelerator sourcing/competitive signal for Microsoft and NVIDIA/AMD; maintain separation between Cerebras total contracted power, RPO, client-level commitments and live capacity.",
+      "sources": [
+        {
+          "label": "Cerebras official November 12 Q3 results (GAAP/Core and 700 MW company-level contracted)",
+          "url": "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026",
+          "kind": "official",
+          "checkedAt": "2026-11-14T17:01:33.000Z"
+        },
+        {
+          "label": "Reuters Nov 12 Microsoft cloud contract reporting",
+          "url": "https://www.reuters.com/business/cerebras-raises-annual-sales-forecast-strong-ai-linked-demand-2026-11-12/",
+          "kind": "report",
+          "checkedAt": "2026-11-14T17:01:33.000Z"
+        }
+      ]
     }
   ],
   "verificationNote": "Nov 14 HKT targeted 33/33 issuer/source check. Added Nov 12 global MSFT M365 outage (reported onset, restoration not yet established), Nov 13 official OpenAI ChatGPT Wallet limited U.S. rollout, Nov 13 FT-reported Nscale funding risk around earlier Anthropic $45bn compute deal. SPCX remains Nasdaq:SPCX and all 26 entries retained. USSF-317 Nov 13 official indexed target conflicts with evolving independent Nov 18 feed: downgraded to undated timing window; USSF-627 secondary reported flight unconfirmed by first party; Flight15 Nov 13 NET remains conditional pending primary FAA clearance. SpaceX EDGAR CIK1181412 most recent directory filing Nov6; Q4 earnings unannounced. Historical 79-source Oct15 audit not refreshed; compact mobile frontend unchanged.",
-  "lastPartialReview": "2026-11-13T16:55:34.000Z"
+  "lastPartialReview": "2026-11-14T17:01:33.000Z"
 }
