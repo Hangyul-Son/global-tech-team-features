@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov 15 HKT: all 33 official issuer landing/IR endpoints attempted (2 blocked: Adobe and Cloudflare; 14 limited). Starship Flight15 actual Nov13 launch/26 V3 satellites/aborted booster catch updated as REPORTED from Reuters/AP; upper-stage recovery outcome remains unverified at cut-off. New Microsoft–Cerebras Q3 reported hyperscaler arrangement and Amazon–Fermi reported 600 MW forward capacity; avoid treating total Cerebras 700 MW or Fermi 600 MW as energized. SpaceX public SPCX Q3 earnings/Form 10-Q tracked and Q4 earnings undated. Official mission USSF-317 conflicting schedules remain provisional. Full 79-source original Oct15 audit counters deliberately not refreshed. Mobile List/frontend untouched.",
+  "note": "Nov16 HKT: 33/33 issuer IR/newsroom entry points opened; 2 blocked (Adobe/Cloudflare), 14 limited; targeted SEC/SpaceX/FAA checks and AMD primary product announcements. Added 4 events (SpaceX Nov14 Ship42 first successful post-orbit tower catch; AMD Nov10 6th Gen EPYC shipping, Nov12 MI400 inference specs and performance, Nov12 PsiQuantum partnership) and clarified Nov13 Starship launch vs Nov14 catch; Super Heavy booster catch failed. No issuer-confirmed Q4/FY2026 SPCX earnings date. Historic Oct15 79-source audit counters remain unchanged. Mobile frontend untouched.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,8 +5340,8 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-14T17:01:33.000Z",
-    "localDate": "2026-11-15",
+    "checkedAt": "2026-11-15T17:10:20.879Z",
+    "localDate": "2026-11-16",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
     "entryPointsAccessibleOrPartiallyRendered": 31,
@@ -5481,18 +5481,18 @@
         "status": "limited"
       }
     ],
-    "notes": "33/33 issuer endpoints accessed using current primary investor/newsroom URLs. Adobe newsroom returned tool internal error; Cloudflare investor endpoint HTTP 403. 14 other issuer endpoints were rendered partially or showed outdated/static pages. Official SpaceX mission page now readable as PRE-FLIGHT target only; Reuters and AP confirm Nov13 actual Starship liftoff, orbit, 26 V3 deployments and abort of booster catch, but Ship upper-stage recovery not confirmed at Nov14 17:01Z. SpaceX SEC EDGAR 2026-10-22 10-Q (CIK 0001181412) checked; Q4/FY2026 earnings date remains unannounced. FAA Nov17–19 virtual meetings/Dec7 comment cutoff confirmed, no date implied for another launch. FT Amazon/Fermi and Reuters Microsoft/Cerebras items are reported, not issuer-confirmed. Reviewed current cloud/IR calendars for all 33, not an exhaustive SEC docket review."
+    "notes": "Nov16 HKT: 33/33 issuer IR/newsroom entry points opened; 2 blocked (Adobe/Cloudflare), 14 limited; targeted SEC/SpaceX/FAA checks and AMD primary product announcements. Added 4 events (SpaceX Nov14 Ship42 first successful post-orbit tower catch; AMD Nov10 6th Gen EPYC shipping, Nov12 MI400 inference specs and performance, Nov12 PsiQuantum partnership) and clarified Nov13 Starship launch vs Nov14 catch; Super Heavy booster catch failed. No issuer-confirmed Q4/FY2026 SPCX earnings date. Historic Oct15 79-source audit counters remain unchanged. Mobile frontend untouched."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-14T17:01:33.000Z",
-    "scope": "Nov15 33/33 targeted issuer review with primary SpaceX mission/IR/SEC/FAA, Reuters/AP, Cerebras IR and FT; 2 new reported events + Starship 15 launch status update; NOT Oct15 full 79-source audit",
+    "checkedAt": "2026-11-15T17:10:20.879Z",
+    "scope": "Nov16 33/33 targeted issuer/IR primary review, SpaceX SEC/FAA postflight, AMD official November product news; 4 new entries and 1 amended Flight15 event; original Oct15 79-source audit NOT rerun",
     "companies": 33,
-    "events": 146,
+    "events": 150,
     "companiesWithEvents": 33,
-    "confirmedEvents": 111,
+    "confirmedEvents": 114,
     "undatedEvents": 10,
     "estimatedEvents": 15,
-    "reportedEvents": 10,
+    "reportedEvents": 11,
     "confirmedMissingVerifiedAt": 0,
     "eventsWithoutSource": 0
   },
@@ -6852,6 +6852,79 @@
         "SEC SpaceX CIK 0001181412 Q3 10-Q dated Oct22 and issuer IR quarterly results reviewed; most recent accession chain beyond previously checked Nov6 not exhaustively retrieved; full filing sweep pending.",
         "Full FCC Direct-to-Cell spectrum proceedings, NASA contracts and all 33 issuers' entire SEC filing sequences not exhaustively reviewed; do not equate spot-check with full-regulatory verification.",
         "All 33 company source URLs opened for the daily targeted review; original 79-source full audit last succeeded Oct15 and counters remain unchanged. Frontend files not modified."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-15T17:10:20.879Z",
+      "scope": "Nov16 HKT 33/33 issuer IR/newsroom entrypoint checks and verified Nov14 Starship post-orbit catch plus AMD Nov10–12 product releases; targeted SEC/FAA, historic Oct15 full 79-source audit not rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "ADBE",
+        "NET",
+        "NVDA",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "LRCX",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "ARM",
+        "SNOW",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "SPACEX: Flight 15 November 13 liftoff and deployment of 26 Starlink V3 satellites followed by first successful STARSHIP UPPER-STAGE Ship42 tower catch on NOVEMBER 14 (14 orbits, ~22.5h). SpaceX official @SpaceX Nov14 post linked in SpacePolicyOnline and independently corroborated by Spaceflight Now/Payload. Super Heavy B22 catch ABORTED and diverted into Gulf; no full double-catch. Existing Nov13 reported launch card corrected and new Nov14 reported recovery card added, with no unsupported exact clock-time assertion.",
+        "AMD/MSFT/ORCL: AMD official Nov10 availability of 6th Gen Zen6 EPYC SP7 server CPUs. OEM systems are SHIPPING; Azure HDv2 is PREVIEW, Azure/OCI further cloud offerings UPCOMING, not all shipping cloud volume.",
+        "AMD/NVDA: AMD Nov12 MI400 line MI430X memory 432GB HBM4, new MI450X 288GB option and MI455X vendor-run inference benchmark 21,333 tokens/sec/GPU claimed up to +30% vs published NVIDIA result. Clearly labeled AMD reported workload/methodology, not independent like-for-like or commercial volume.",
+        "AMD: Nov12 joint PsiQuantum/AMD expanded quantum-classical HPC+AI hardware/software collaboration; AMD equity investment PLANNED with amount UNDISCLOSED, not a funding close.",
+        "SPACEX: Nasdaq SPCX public-company quarterly financial tracking preserved; IR investor/financials checked but JS content dynamic, SEC Q3 2026 10-Q and Nov4 8-K spot-checked; Q4/FY2026 earnings date UNANNOUNCED. GPU lease commitment October26 remains contingent on specified closing conditions.",
+        "SPACEX: FAA primary Nov17–19 five virtual scoping meetings and Dec7 comment deadline verified; these are neither Starship launch licenses nor operating-capacity approvals. USSF-317 and USSF-627 exact launch/mission times held provisional for first-party reconciliation."
+      ],
+      "coverageGaps": [
+        "Adobe financial newsroom inaccessible; Cloudflare investor endpoint 403 (2/33 blocked). Additional 14 issuer entries have partial/dynamic or historical content, so no claim of exhaustive negative-news coverage from landing pages.",
+        "SpaceX investor relations quarterly results/events and filings pages dynamically rendered; SEC search JS-only. Q3 10-Q and Nov4 director 8-K independently locatable, but comprehensive accession-by-accession SEC sweep after Nov6 not completed. Q4/FY2026 results date still unannounced.",
+        "SpaceX official Flight15 mission page still shows preflight schedule; direct @SpaceX Nov14 confirmation URL blocked (403), but an embedded official post and independent on-site reporting corroborated Nov14 first upper-stage catch. Exact T0/catch times have not been confirmed from a first-party postflight clock log.",
+        "SpaceX USSF-317/USSF-627 secondary launch schedules remain conflicting or unsupported by accessible authoritative postflight mission statement. Held as estimated/undated, no invented launch times.",
+        "Full FCC Direct-to-Cell/spectrum docket, NASA/defense-award database, and all 33 issuers' complete SEC filing sequences not exhaustively retrieved; targeted issuer/primary checks only.",
+        "Original 79-source full source-harvest checkedAt October15, 2026 and 78/79 success counters deliberately preserved; daily 33-company review recorded separately, compact frontend unchanged."
       ]
     }
   ]
