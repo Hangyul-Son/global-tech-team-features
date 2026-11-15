@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-16",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-14T17:01:33.000Z",
+  "lastAttempt": "2026-11-15T17:09:12.658Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -4901,20 +4901,20 @@
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceCheckedAt": "2026-11-14T17:01:33.000Z",
+      "sourceCheckedAt": "2026-11-15T17:09:12.658Z",
       "verifiedAt": null,
       "id": "spacex-starship-flight15-nov13-2026-net",
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Starship Flight 15 launches Nov 13, deploys 26 V3 satellites; booster catch aborted",
+      "title": "SpaceX Flight 15: Nov 13 orbital launch/26 V3 deployment; booster catch aborted, Ship caught Nov 14",
       "type": "Launch",
       "status": "reported",
       "date": "2026-11-13",
       "sourceUrl": "https://www.reuters.com/science/spacex-attempt-first-starship-spacecraft-recovery-land-15th-flight-2026-11-13/",
       "sourceLabel": "Reuters November 13 actual-flight report, supported by AP and official SpaceX preflight mission page",
-      "basis": "ACTUAL Nov 13 launch: Reuters and AP independently report Flight 15 launched from Starbase on Friday Nov 13, reached orbit, and deployed 26 Starlink V3 satellites. Space.com on-site reports approximate liftoff 22:47 UTC (16:47 CST), but the crawled official SpaceX mission page still presents a preflight target of 16:45 Central and does NOT establish an official exact T-0, so no precise time is stored. Booster 22 diverted to the Gulf after aborting the planned tower catch, with a suspected guidance/navigation issue reported from SpaceX's webcast; the booster was NOT caught. Ship 42 remained in orbit for a proposed ~22-hour mission; as of this review at Nov 14 17:01 UTC its return-to-Starbase catch had not yet been independently verified (later Nov 14 US afternoon), and no success of upper-stage recovery is asserted. This card is REPORTED completed launch and partial mission outcome, not an officially verified entire double-catch outcome. SpaceX remains publicly listed Nasdaq:SPCX; Q4/FY2026 earnings date remains unannounced.",
-      "importance": "Starship V3 launch cadence and ~26 Starlink V3 satellite deployment materially advance Starlink capacity, while aborted Super Heavy catch is a reusability/operational execution risk; upper-stage catch outcome remains pending.",
+      "basis": "Starship Flight 15 launched November 13, 2026 from Starbase and deployed 26 Starlink V3 satellites (Reuters, SpacePolicyOnline and Spaceflight Now). Booster 22's intended tower catch was ABORTED and it diverted to a Gulf splashdown; root cause not established in this review. AFTER 14 orbits and ~22.5 hours, Ship 42 made the FIRST successful Starship upper-stage tower catch at Starbase on November 14, 2026. SpaceX's official @SpaceX November 14 post ('Mechazilla catches Starship!') was embedded/linked in SpacePolicyOnline, with independent on-site corroboration; the X permalink itself returned 403 to this reviewer. This is NOT a successful two-stage double catch. Official SpaceX mission page still displays a preflight November 13 target; actual exact liftoff and catch times were reported by independent media rather than independently accessible first-party postflight mission log, so no exact event time is stored. Date here refers to NOVEMBER 13 liftoff, while the separate recovery milestone is NOVEMBER 14. SpaceX is publicly traded Nasdaq:SPCX, repo ID SPACEX. No Q4/FY2026 earnings date has been issued.",
+      "importance": "Actual 26 Starlink V3 satellites deployed plus first return and upper-stage catch are material operational milestones for broadband capacity and Starship reusability. Aborted booster catch means full launch-stack recovery was not achieved; regulatory authorizations and prospective launch cadence are separate.",
       "sources": [
         {
           "label": "SpaceX primary mission description: Nov 13 window and 26 V3 payload plan (page still preflight)",
@@ -4929,12 +4929,6 @@
           "checkedAt": "2026-11-14T17:01:33.000Z"
         },
         {
-          "label": "AP Nov 14 reported launch outcome and still-planned Ship catch",
-          "url": "https://apnews.com/article/f9452dd86770dda36828a35bb27d65ee",
-          "kind": "report",
-          "checkedAt": "2026-11-14T17:01:33.000Z"
-        },
-        {
           "label": "Space.com on-site Nov 13 report, 22:47 UTC approximate liftoff and upper-stage flight still in progress",
           "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
           "kind": "report",
@@ -4945,6 +4939,24 @@
           "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
           "kind": "official",
           "checkedAt": "2026-11-14T17:01:33.000Z"
+        },
+        {
+          "label": "SpaceX official Nov 14 post embedded in SpacePolicyOnline; direct X retrieval blocked",
+          "url": "https://x.com/SpaceX/status/2121715216597827756",
+          "kind": "official",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        },
+        {
+          "label": "SpacePolicyOnline Nov 14 report quoting SpaceX official post and describing 14-orbit catch",
+          "url": "https://spacepolicyonline.com/news/spacex-catches-a-starship/",
+          "kind": "report",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        },
+        {
+          "label": "Spaceflight Now on-site postflight reporting Nov 14 upper-stage catch",
+          "url": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/",
+          "kind": "report",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
         }
       ]
     },
@@ -5168,8 +5180,155 @@
           "checkedAt": "2026-11-14T17:01:33.000Z"
         }
       ]
+    },
+    {
+      "id": "spacex-starship-flight15-upperstage-catch-2026-11-14",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "Starship Ship 42 first successful post-orbit tower catch; booster catch aborted",
+      "type": "Launch",
+      "status": "reported",
+      "date": "2026-11-14",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://spacepolicyonline.com/news/spacex-catches-a-starship/",
+      "sourceLabel": "SpacePolicyOnline Nov 14 quoting official SpaceX post, corroborated by Spaceflight Now and Payload",
+      "sourceCheckedAt": "2026-11-15T17:09:12.658Z",
+      "verifiedAt": null,
+      "basis": "November 14, 2026: after 14 orbits following November 13 liftoff, SpaceX Ship 42 returned to Starbase and was caught by the launch tower's chopstick arms, the first-ever orbital Starship upper-stage catch. SpaceX posted 'Mechazilla catches Starship!' November 14, linked/embedded in SpacePolicyOnline (direct x.com access 403); Spaceflight Now and Payload independently report the event. The Super Heavy booster catch was aborted on November 13; the booster splashed down in the Gulf, so this was NOT a full double-catch or completed full reusability cycle. Reported ~4:20 PM U.S. Eastern time is not stored as an official exact event time. No claim of demonstrated booster+Ship reflight or accelerated launch cadence.",
+      "importance": "Critical Starship recovery and Starlink V3 deployment economics milestone; test one upper-stage recovery component only, not fully reusable end-to-end operations.",
+      "sources": [
+        {
+          "label": "SpaceX official November 14 social confirmation embedded in SpacePolicyOnline (X direct access restricted)",
+          "url": "https://x.com/SpaceX/status/2121715216597827756",
+          "kind": "official",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        },
+        {
+          "label": "SpacePolicyOnline Nov 14 detailed recovery and booster abort report",
+          "url": "https://spacepolicyonline.com/news/spacex-catches-a-starship/",
+          "kind": "report",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        },
+        {
+          "label": "Spaceflight Now live postflight coverage",
+          "url": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/",
+          "kind": "report",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        },
+        {
+          "label": "Payload Space Nov 14 upper-stage catch and ~22.5h flight recap",
+          "url": "https://payloadspace.com/spacex-successfully-catches-starship-upper-stage/",
+          "kind": "report",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        }
+      ]
+    },
+    {
+      "id": "amd-6th-gen-epyc-sp7-shipping-2026-11-10",
+      "companies": [
+        "AMD",
+        "MSFT",
+        "ORCL"
+      ],
+      "title": "AMD launches 6th Gen Zen 6 EPYC SP7; OEM systems shipping, Azure/OCI instances upcoming",
+      "type": "Product",
+      "status": "confirmed",
+      "date": "2026-11-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://newsroom.amd.com/news/6th-gen-epyc-lead-ai-enterprise-computing/",
+      "sourceLabel": "AMD official November 10 product availability announcement",
+      "sourceCheckedAt": "2026-11-15T17:09:12.658Z",
+      "verifiedAt": "2026-11-15T17:09:12.658Z",
+      "basis": "AMD formally announced general availability of 6th Gen EPYC SP7 server processors on November 10, 2026. Server OEM/ODM systems are shipping; named Azure HDv2 is in PREVIEW, HXv2 and Oracle OCI E7 instances are UPCOMING rather than broadly available. Meta is a validation lead customer, not evidence of a measured production-volume ramp. No pricing, shipment quantities, revenue or data-center GW asserted.",
+      "importance": "Direct impact on AMD server CPU share and Zen 6 ramp, AI agent orchestration CPU demand, Oracle/Azure CPU adoption; separate shipping server systems from future cloud-instance launches.",
+      "sources": [
+        {
+          "label": "AMD November 10 general availability and partner statuses",
+          "url": "https://newsroom.amd.com/news/6th-gen-epyc-lead-ai-enterprise-computing/",
+          "kind": "official",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        },
+        {
+          "label": "AMD November 10 6th Gen EPYC press kit",
+          "url": "https://newsroom.amd.com/press-kits/6th-gen-epyc-venice/",
+          "kind": "official",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        }
+      ]
+    },
+    {
+      "id": "amd-mi400-mi455x-mi450x-performance-2026-11-12",
+      "companies": [
+        "AMD",
+        "NVDA"
+      ],
+      "title": "AMD expands Instinct MI400: MI430X specs, MI450X introduced and MI455X inference benchmark",
+      "type": "Product",
+      "status": "confirmed",
+      "date": "2026-11-12",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+      "sourceLabel": "AMD official Nov 12 GPU product and self-reported benchmark disclosure",
+      "sourceCheckedAt": "2026-11-15T17:09:12.658Z",
+      "verifiedAt": "2026-11-15T17:09:12.658Z",
+      "basis": "AMD November 12 disclosure: MI430X described with 432GB HBM4 and up to 23.3TB/s bandwidth; MI450X introduced with 288GB HBM4 per GPU; MI455X/Helios AMD-run DeepSeek-R1 inference MLPerf Offline-configuration test achieved 21,333 tokens/sec/GPU and AMD claims up to 30% advantage over a published NVIDIA Vera Rubin result. The comparison spans distinct submissions/platforms and is VENDOR-REPORTED, not independent reproducible matched-workload verification. Product introduction/specification does not confirm MI450X volume shipments, sales value or installed accelerator capacity.",
+      "importance": "Competitive AMD Instinct MI400 vs NVIDIA Vera Rubin performance/memory roadmap; validate workload/benchmark methodology before financial shipment assumptions.",
+      "sources": [
+        {
+          "label": "AMD official Nov 12 MI400 Series product and test note",
+          "url": "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+          "kind": "official",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        }
+      ]
+    },
+    {
+      "id": "amd-psiquantum-quantum-classical-partnership-2026-11-12",
+      "companies": [
+        "AMD"
+      ],
+      "title": "AMD and PsiQuantum expand hybrid quantum/AI infrastructure partnership; equity investment planned",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-12",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.nasdaq.com/press-release/psiquantum-and-amd-collaborate-build-computing-foundation-utility-scale-quantum",
+      "sourceLabel": "November 12 joint company Business Wire announcement, syndicated by Nasdaq",
+      "sourceCheckedAt": "2026-11-15T17:09:12.658Z",
+      "verifiedAt": "2026-11-15T17:09:12.658Z",
+      "basis": "PsiQuantum and AMD jointly announced an expanded strategic partnership November 12, covering AMD EPYC CPUs, Instinct GPUs, Versal FPGAs, ROCm and PsiQuantum silicon photonics; hybrid quantum, high-performance and AI computing codesign. AMD PLANS to make an equity investment of UNDISCLOSED size, not verified as completed, and agreement did not disclose orders/GPU shipment figures, revenue or monetized quantum capacity.",
+      "importance": "Early-stage quantum-classical co-design/customer ecosystem diversification for AMD; planned undisclosed equity stake is not completed deployment or near-term incremental GPU revenue.",
+      "sources": [
+        {
+          "label": "PsiQuantum/AMD joint Nov 12 primary press release syndicated by Nasdaq",
+          "url": "https://www.nasdaq.com/press-release/psiquantum-and-amd-collaborate-build-computing-foundation-utility-scale-quantum",
+          "kind": "official",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        },
+        {
+          "label": "AMD newsroom links joint announcement",
+          "url": "https://newsroom.amd.com/",
+          "kind": "official",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        },
+        {
+          "label": "Reuters Nov 12 confirmation; equity size undisclosed",
+          "url": "https://www.reuters.com/business/amd-invest-psiquantum-advance-quantum-computing-infrastructure-2026-11-12/",
+          "kind": "report",
+          "checkedAt": "2026-11-15T17:09:12.658Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov 14 HKT targeted 33/33 issuer/source check. Added Nov 12 global MSFT M365 outage (reported onset, restoration not yet established), Nov 13 official OpenAI ChatGPT Wallet limited U.S. rollout, Nov 13 FT-reported Nscale funding risk around earlier Anthropic $45bn compute deal. SPCX remains Nasdaq:SPCX and all 26 entries retained. USSF-317 Nov 13 official indexed target conflicts with evolving independent Nov 18 feed: downgraded to undated timing window; USSF-627 secondary reported flight unconfirmed by first party; Flight15 Nov 13 NET remains conditional pending primary FAA clearance. SpaceX EDGAR CIK1181412 most recent directory filing Nov6; Q4 earnings unannounced. Historical 79-source Oct15 audit not refreshed; compact mobile frontend unchanged.",
-  "lastPartialReview": "2026-11-14T17:01:33.000Z"
+  "verificationNote": "Nov16 HKT targeted 33/33 issuer IR/newsroom entry points attempted (Adobe blocked, Cloudflare 403; several dynamically limited). Material correction: Nov14 first-ever Starship Flight15 Ship42 orbital upper-stage tower catch, AFTER Nov13 liftoff/26 Starlink V3 deployments; booster catch aborted, NOT double-catch. Official SpaceX X account posted recovery but direct link inaccessible; on-site reports corroborate. Added AMD Nov10 shipping Zen6 EPYC SP7 (Azure/OCI cloud instances future), Nov12 Instinct MI400 GPU roadmap and vendor-reported performance, Nov12 PsiQuantum hybrid quantum partnership/planned undisclosed equity investment. SpaceX SPCX SEC Q3 10-Q and investor IR checked; Q4/FY26 earnings date unannounced. FAA Nov17–19 virtual scoping and Dec7 comment cutoff unchanged. USSF-317 and USSF-627 exact dates still provisional. Historical Oct15 full 79-source audit not refreshed. Mobile frontend untouched.",
+  "lastPartialReview": "2026-11-15T17:09:12.658Z"
 }
