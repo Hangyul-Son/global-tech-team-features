@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov16 HKT: 33/33 issuer IR/newsroom entry points opened; 2 blocked (Adobe/Cloudflare), 14 limited; targeted SEC/SpaceX/FAA checks and AMD primary product announcements. Added 4 events (SpaceX Nov14 Ship42 first successful post-orbit tower catch; AMD Nov10 6th Gen EPYC shipping, Nov12 MI400 inference specs and performance, Nov12 PsiQuantum partnership) and clarified Nov13 Starship launch vs Nov14 catch; Super Heavy booster catch failed. No issuer-confirmed Q4/FY2026 SPCX earnings date. Historic Oct15 79-source audit counters remain unchanged. Mobile frontend untouched.",
+  "note": "Nov17 HKT: 33/33 targeted issuer IR/newsroom source-entry checks (2 blocked, 14 limited), official MRVL Dec1 earnings confirmation, official Nov16 OpenAI healthcare/LVMH product announcements, SEC Nov13 Founders Fund/Thiel SpaceX 13G/A ownership. Historic 79-source audit dated Oct15 not rerun. SPCX public issuer earnings tracked; next Q4 date undated. FAA scoping and disputed launch windows retained. Mobile frontend untouched.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,8 +5340,8 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-15T17:10:20.879Z",
-    "localDate": "2026-11-16",
+    "checkedAt": "2026-11-16T17:13:58.041Z",
+    "localDate": "2026-11-17",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
     "entryPointsAccessibleOrPartiallyRendered": 31,
@@ -5481,17 +5481,17 @@
         "status": "limited"
       }
     ],
-    "notes": "Nov16 HKT: 33/33 issuer IR/newsroom entry points opened; 2 blocked (Adobe/Cloudflare), 14 limited; targeted SEC/SpaceX/FAA checks and AMD primary product announcements. Added 4 events (SpaceX Nov14 Ship42 first successful post-orbit tower catch; AMD Nov10 6th Gen EPYC shipping, Nov12 MI400 inference specs and performance, Nov12 PsiQuantum partnership) and clarified Nov13 Starship launch vs Nov14 catch; Super Heavy booster catch failed. No issuer-confirmed Q4/FY2026 SPCX earnings date. Historic Oct15 79-source audit counters remain unchanged. Mobile frontend untouched."
+    "notes": "Nov17 HKT: 33/33 targeted issuer IR/newsroom source-entry checks (2 blocked, 14 limited), official MRVL Dec1 earnings confirmation, official Nov16 OpenAI healthcare/LVMH product announcements, SEC Nov13 Founders Fund/Thiel SpaceX 13G/A ownership. Historic 79-source audit dated Oct15 not rerun. SPCX public issuer earnings tracked; next Q4 date undated. FAA scoping and disputed launch windows retained. Mobile frontend untouched."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-15T17:10:20.879Z",
-    "scope": "Nov16 33/33 targeted issuer/IR primary review, SpaceX SEC/FAA postflight, AMD official November product news; 4 new entries and 1 amended Flight15 event; original Oct15 79-source audit NOT rerun",
+    "checkedAt": "2026-11-16T17:13:58.041Z",
+    "scope": "Nov17 HKT all 33 issuer source-entry spot checks, Marvell confirmed earnings, SpaceX SEC ownership disclosure, OpenAI product/enterprise release. Original Oct15 79-source full harvest NOT rerun.",
     "companies": 33,
-    "events": 150,
+    "events": 153,
     "companiesWithEvents": 33,
-    "confirmedEvents": 114,
+    "confirmedEvents": 118,
     "undatedEvents": 10,
-    "estimatedEvents": 15,
+    "estimatedEvents": 14,
     "reportedEvents": 11,
     "confirmedMissingVerifiedAt": 0,
     "eventsWithoutSource": 0
@@ -6925,6 +6925,77 @@
         "SpaceX USSF-317/USSF-627 secondary launch schedules remain conflicting or unsupported by accessible authoritative postflight mission statement. Held as estimated/undated, no invented launch times.",
         "Full FCC Direct-to-Cell/spectrum docket, NASA/defense-award database, and all 33 issuers' complete SEC filing sequences not exhaustively retrieved; targeted issuer/primary checks only.",
         "Original 79-source full source-harvest checkedAt October15, 2026 and 78/79 success counters deliberately preserved; daily 33-company review recorded separately, compact frontend unchanged."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-16T17:13:58.041Z",
+      "scope": "Nov17 HKT all 33 issuer source-entry spot checks, Marvell confirmed earnings, SpaceX SEC ownership disclosure, OpenAI product/enterprise release. Original Oct15 79-source full harvest NOT rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "LRCX",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "ARM",
+        "SNOW",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "MRVL: official IR calendar confirms Dec1 2026 13:30 PST Q3 FY2027 earnings call. Upgraded existing estimated to CONFIRMED; time converted to Dec2 05:30 HKT. No invented results-release time.",
+        "SPACEX: SEC 13G/A accession 0001426012-26-000007 filed Nov13 by Founders Fund/Thiel. As-of Sep30 aggregate beneficial ownership 314,357,058 Class A, 3.8% of class. Third-party reporting not new issuer financing or new purchase; ownership overlap noted.",
+        "OPENAI/ORCL: OpenAI official Nov16 launches healthcare computer-use agents/clinical evidence search and >20 plugins incl Oracle HDI; enterprise adoption potential but no disclosed revenue/compute commitments.",
+        "OPENAI: official Nov16 signed enterprise AI and publisher-content access arrangement with LVMH Media Division; no transaction value or quantified seats.",
+        "SPACEX: Nasdaq SPCX public-company Q2/Q3 earnings, SEC Q3 filing and financial watch retained. Q4/FY26 date remains UNANNOUNCED. November17–19 FAA meetings and December7 comments are regulatory consultation, not launch permissions. USSF-317/USSF-627 conflicting dates NOT upgraded."
+      ],
+      "coverageGaps": [
+        "Adobe financial newsroom inaccessible and Cloudflare investor endpoint denied access; 14 additional company entrypoints limited/dynamically rendered or historical, so negative-news assertions not exhaustive.",
+        "SpaceX IR quarterly and financial calendars partly dynamically rendered; newest directly confirmed third-party SEC Schedule 13G/A Nov13, but issuer-specific SEC accession-by-accession sweep not complete. Q4/FY2026 earnings not announced.",
+        "SpaceX USSF-317 and USSF-627 changing launch-target dates not reconciled against a contemporaneous primary SpaceX/FAA/NASA postflight statement; no completed flight or exact times inserted.",
+        "NASA contract award database, FAA launches and full FCC Starlink/Direct-to-Cell spectrum dockets not exhaustively swept; historical Oct15 79-source harvest remains untouched, this is a targeted 33-company review.",
+        "Calendar mobile list source code unchanged; UI regression tests delegated to GitHub Actions after push."
       ]
     }
   ]
