@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-17",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-15T17:09:12.658Z",
+  "lastAttempt": "2026-11-16T17:13:58.041Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -694,20 +694,32 @@
       "companies": [
         "MRVL"
       ],
-      "title": "Marvell Technology earnings",
+      "title": "Marvell Q3 FY2027 results & earnings conference call",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-12-01",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-12-01 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
+      "time": "1:30 pm PST (Dec 2, 05:30 Hong Kong)",
+      "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar",
+      "sourceLabel": "Marvell official IR calendar · Q3 FY2027 earnings call",
+      "sourceCheckedAt": "2026-11-16T17:13:58.041Z",
+      "verifiedAt": "2026-11-16T17:13:58.041Z",
+      "basis": "Marvell's investor-relations calendar officially schedules the Q3 FY2027 earnings conference call on Tuesday December 1, 2026, at 1:30 pm Pacific Standard Time (21:30 UTC / December 2 05:30 Hong Kong). The calendar confirms the CALL start, not an independently stated results press-release time; the previously provider-estimated Dec 1 date is upgraded to company-confirmed.",
       "importance": "Custom compute ramps, optical interconnects and cloud demand.",
       "sources": [
+        {
+          "label": "Marvell official earnings IR calendar (Dec 1, 1:30 pm PST)",
+          "url": "https://investor.marvell.com/news-events/ir-calendar",
+          "kind": "official",
+          "checkedAt": "2026-11-16T17:13:58.041Z"
+        },
+        {
+          "label": "Marvell official Q3 FY2027 webcast page",
+          "url": "https://investor.marvell.com/news-events/ir-calendar/detail/20261201-q3-2027-marvell-technology-inc-earnings-conference-call",
+          "kind": "official",
+          "checkedAt": "2026-11-16T17:13:58.041Z"
+        },
         {
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/MRVL/earnings/",
@@ -720,7 +732,11 @@
           "kind": "estimate",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-12-01T21:30:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-16T17:13:58.041Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "ORCL-2026-12-earnings",
@@ -5327,8 +5343,96 @@
           "checkedAt": "2026-11-15T17:09:12.658Z"
         }
       ]
+    },
+    {
+      "id": "spacex-founders-fund-peter-thiel-13ga-2026-11-13",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX SPCX Schedule 13G/A: Peter Thiel / Founders Fund report 3.8% Class A beneficial ownership",
+      "type": "Filing",
+      "status": "confirmed",
+      "date": "2026-11-13",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000142601226000007/0001426012-26-000007-index.html",
+      "sourceLabel": "SEC EDGAR Nov 13 Schedule 13G/A filed by Founders Fund II and affiliates",
+      "sourceCheckedAt": "2026-11-16T17:13:58.041Z",
+      "verifiedAt": "2026-11-16T17:13:58.041Z",
+      "basis": "SEC accession 0001426012-26-000007 is a third-party Schedule 13G/A ownership amendment FILED November 13, 2026, not a SpaceX issuer earnings release. Reporting date of beneficial ownership is SEPTEMBER 30, 2026. Peter Thiel reports aggregate beneficial ownership of 314,357,058 Class A shares (3.8% of class), comprising 17,086,097 sole voting and 297,270,961 shared voting shares. Affiliated funds' reported positions overlap in beneficial ownership; do not add them or treat 3.8% of Class A as 3.8% of total multi-class voting power. This is disclosure of beneficial ownership, not evidence of a new share purchase, change of control or additional SpaceX capital raised.",
+      "importance": "Public SPCX ownership and shareholder alignment; distinguish filing date from September 30 ownership snapshot and affiliate overlap.",
+      "sources": [
+        {
+          "label": "SEC EDGAR Nov 13 Schedule 13G/A filed by Founders Fund II and affiliates",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000142601226000007/0001426012-26-000007-index.html",
+          "kind": "official",
+          "checkedAt": "2026-11-16T17:13:58.041Z"
+        },
+        {
+          "label": "SEC Schedule 13G/A beneficial ownership details, as of Sep 30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000142601226000007/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "kind": "official",
+          "checkedAt": "2026-11-16T17:13:58.041Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-chatgpt-healthcare-agents-plugins-2026-11-16",
+      "companies": [
+        "OPENAI",
+        "ORCL"
+      ],
+      "title": "OpenAI expands ChatGPT for Healthcare with computer-use agents and 20+ plugins",
+      "type": "Product",
+      "status": "confirmed",
+      "date": "2026-11-16",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+      "sourceLabel": "OpenAI official November 16 healthcare product release",
+      "sourceCheckedAt": "2026-11-16T17:13:58.041Z",
+      "verifiedAt": "2026-11-16T17:13:58.041Z",
+      "basis": "OpenAI announced November 16 availability of healthcare-focused computer-use agents in ChatGPT Work and Codex for eligible customers, improvements to trusted clinical search, and more than 20 healthcare plugins including Oracle HDI. Availability depends on workspace permissions and eligible services; medical workflows require appropriate access controls, human review and privacy/BAA arrangements. Neither OpenAI healthcare ARR nor Oracle partnership revenue was disclosed. Nov 16 is announcement/availability date, not a financial reporting date.",
+      "importance": "Enterprise agent distribution, healthcare workflow adoption and software ecosystem attach; Oracle HDI is a listed plugin rather than disclosed OCI compute contract.",
+      "sources": [
+        {
+          "label": "OpenAI official November 16 healthcare product release",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+          "kind": "official",
+          "checkedAt": "2026-11-16T17:13:58.041Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-lvmh-media-partnership-2026-11-16",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI and LVMH Media Division sign enterprise AI and content-discovery partnership",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-16",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/lvmh-media-division-partnership/",
+      "sourceLabel": "OpenAI / LVMH Media Division official November 16 announcement",
+      "sourceCheckedAt": "2026-11-16T17:13:58.041Z",
+      "verifiedAt": "2026-11-16T17:13:58.041Z",
+      "basis": "On November 16, LVMH Group's Media Division and OpenAI announced a signed strategic agreement to deploy ChatGPT Enterprise and AI tools across its publications and improve access to their journalism inside ChatGPT with attribution and links. OpenAI's release states the division includes 17 media brands, but discloses no contract value, license payments, seat counts, revenue contribution or minimum guarantees; it is not an announced financing transaction.",
+      "importance": "Enterprise AI seats and publisher licensing/discovery ecosystem, with no disclosed monetary commitment.",
+      "sources": [
+        {
+          "label": "OpenAI / LVMH Media Division official November 16 announcement",
+          "url": "https://openai.com/index/lvmh-media-division-partnership/",
+          "kind": "official",
+          "checkedAt": "2026-11-16T17:13:58.041Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov16 HKT targeted 33/33 issuer IR/newsroom entry points attempted (Adobe blocked, Cloudflare 403; several dynamically limited). Material correction: Nov14 first-ever Starship Flight15 Ship42 orbital upper-stage tower catch, AFTER Nov13 liftoff/26 Starlink V3 deployments; booster catch aborted, NOT double-catch. Official SpaceX X account posted recovery but direct link inaccessible; on-site reports corroborate. Added AMD Nov10 shipping Zen6 EPYC SP7 (Azure/OCI cloud instances future), Nov12 Instinct MI400 GPU roadmap and vendor-reported performance, Nov12 PsiQuantum hybrid quantum partnership/planned undisclosed equity investment. SpaceX SPCX SEC Q3 10-Q and investor IR checked; Q4/FY26 earnings date unannounced. FAA Nov17–19 virtual scoping and Dec7 comment cutoff unchanged. USSF-317 and USSF-627 exact dates still provisional. Historical Oct15 full 79-source audit not refreshed. Mobile frontend untouched.",
-  "lastPartialReview": "2026-11-15T17:09:12.658Z"
+  "verificationNote": "Nov17 HKT targeted check of 33/33 company IR/newsroom source entry points and primary SpaceX SEC/FAA sources. Official Marvell IR confirms Dec1 Q3 FY2027 earnings call at 1:30pm PST (upgraded from provider estimate). Nov13 SEC Founders Fund/Thiel Schedule 13G/A shows 314.36m Class A shares/3.8% beneficial ownership as of Sep30, not a new SpaceX capital raise. Nov16 OpenAI healthcare agents/20+ plugins incl Oracle HDI and LVMH Media agreement announced; no contract value. SpaceX Nasdaq SPCX Q4/FY26 earnings remains undated, USSF-317 and USSF-627 launch timings unresolved, FAA Nov17–19 scoping not flight authorization. Original Oct15 79-source audit counters retained; no mobile frontend edits.",
+  "lastPartialReview": "2026-11-16T17:13:58.041Z"
 }
