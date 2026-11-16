@@ -1,179 +1,145 @@
 {
-  "reviewedAt": "2026-11-09T02:10:01Z",
-  "reviewDate": "2026-11-09",
-  "publicBase": "https://hangyul-son.github.io/global-tech-team-features/hong-kong-property/",
-  "triggerReason": "Published refresh report remained dated 2 November; no Monday scheduled run recorded as of 10:08 HKT. Trigger catch-up using existing documented [refresh-property] mechanism; no schedule or calendar changes.",
-  "priorDeployment": {
-    "runId": 42503089827,
-    "conclusion": "success",
-    "propertyRefresh": "skipped",
-    "lastPropertyAttempt": "2026-11-02T03:02:39+00:00"
-  },
+  "reviewDate": "2026-11-16",
   "access": {
-    "method": "Authorised public 28Hse pages read with web tool",
-    "result": "All three pages readable; no 403 or access bypass used.",
+    "method": "Public 28Hse pages via web tool",
+    "status": "All three supplied URLs readable",
+    "blocked": false,
+    "bypassUsed": false,
     "environmentReady": true
   },
-  "status": "Cached source summaries re-observed; freshness as of 2026-11-09 not certified",
-  "definitions": {
-    "sale": "Estate-wide adjusted transacted average price per saleable sqft using past 90 days; provider adjusts different unit characteristics.",
-    "rental": "Estate-wide past-90-day average rent per saleable sqft per month, as labelled in source rental summary.",
-    "updateCadence": "Source labels both summaries as updated every Saturday.",
-    "sizeCohort": "All estate unit sizes; not exclusively 2-bedroom / 400–600 saleable sqft.",
-    "indexStatus": "Estate proxies, not official district indexes.",
-    "matchesInitialDataDefinitions": true,
-    "freshness": "Source pages expose relative crawl ages and individual transaction dates, but no explicit metric observation/update date. Read date is not data as-of date.",
-    "comparison": "Differences below compare observations of overlapping rolling windows with different cached ages; not a verified week-on-week movement."
+  "definition": {
+    "sale": "Provider estate-wide average transacted price per sqft using past 90 days, adjusted for different unit characteristics.",
+    "rent": "Provider estate-wide past-90-day average rent per sqft per month.",
+    "updateCadence": "Every Saturday, as labelled in both summary headings.",
+    "sizeCohort": "All estate sizes, not a target-only 2-bedroom 400–600sqft sample.",
+    "metricAsOfDate": null,
+    "note": "None of the three pages displays an explicit as-of timestamp for its headline metrics. Web crawl time and displayed transaction dates are separate evidence, not metric as-of dates.",
+    "matchesPreviousDefinition": true
   },
   "estates": [
     {
       "id": "taikoo-quarry-bay",
       "estate": "Taikoo Shing",
       "url": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
-      "checkedOn": "2026-11-09",
-      "sourceCrawledRelative": "4 days ago",
-      "metricAsOf": null,
-      "currentAsOfReviewCertified": false,
-      "sourceFreshnessStatus": "cached; newer body observed but not certified Nov9-current",
-      "body": {
+      "readDate": "2026-11-16",
+      "cacheAgeReported": "today",
+      "metricAsOfDate": null,
+      "summary": {
+        "salePsf": 17321,
+        "rentPsf": 47,
+        "saleYearAgoPsf": 14390,
+        "saleCount": 48,
+        "rentCount": 179,
+        "reportedGrossYieldPct": 3.3,
+        "reportedTwoBedYieldPct": 3.3
+      },
+      "nov9CachedSummary": {
         "salePsf": 17387,
         "rentPsf": 47,
-        "saleCount": 55,
-        "rentCount": 151,
         "saleYearAgoPsf": 14325,
-        "reportedGrossYieldPct": 3.3,
-        "reported2BedYieldPct": 3.2,
-        "windowDays": 90,
-        "saleAdjustment": "characteristic-adjusted",
-        "rentalWindowDays": 90
+        "saleCount": 55,
+        "rentCount": 151
       },
-      "initial": {
-        "snapshotDate": "2026-11-02",
-        "salePsf": 17351,
-        "rentPsf": 47,
-        "saleCount": 64,
-        "rentCount": 170,
-        "saleYearAgoPsf": 14304
-      },
-      "snapshotDifference": {
-        "salePsf": 36,
+      "differenceFromNov9Cached": {
+        "salePsf": -66,
         "rentPsf": 0,
-        "saleCount": -9,
-        "rentCount": -19,
-        "saleYearAgoPsf": 21
+        "saleYearAgoPsf": 65,
+        "saleCount": -7,
+        "rentCount": 28
       },
-      "definitionMatchesInitial": true,
-      "definitionEvidence": "Sale methodology in page body; both summary headings identify past90days and Saturday updates.",
-      "freshnessEvidence": {
-        "pageTitle": "November2026",
-        "latestDisplayedTransactionDate": "2026-11-04",
-        "titlePricePsf": 16442,
-        "bodyPricePsf": 17387
-      },
-      "notes": [
-        "Body figures used; title/search headline differs.",
-        "Low HK$4.3M/582sf transfer appears in latest transaction rows; not used as a representative market comp."
-      ]
+      "sameBodyAsNov9": false,
+      "latestDisplayedTransactionDate": "2026-11-11",
+      "definitionMatchesPrevious": true,
+      "freshnessAssessment": "Changed headline summary observed on a page reported crawled today; explicit metric as-of remains unavailable.",
+      "titlePricePsf": 16514,
+      "bodyPricePsf": 17321,
+      "notes": "Use body summary, not differing title/headline price. Page includes unusually low 582sf HK$4.3M transfer; do not select it as a representative arm-length comp without verification."
     },
     {
       "id": "olympic",
       "estate": "Park Avenue",
       "url": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
-      "checkedOn": "2026-11-09",
-      "sourceCrawledRelative": "6 days ago",
-      "metricAsOf": null,
-      "currentAsOfReviewCertified": false,
-      "sourceFreshnessStatus": "cached; newer body observed but not certified Nov9-current",
-      "body": {
-        "salePsf": 22240,
+      "readDate": "2026-11-16",
+      "cacheAgeReported": "6 days ago",
+      "metricAsOfDate": null,
+      "summary": {
+        "salePsf": 22237,
         "rentPsf": 55,
+        "saleYearAgoPsf": 18863,
         "saleCount": 18,
         "rentCount": 14,
-        "saleYearAgoPsf": 18866,
         "reportedGrossYieldPct": 3,
-        "reported2BedYieldPct": 3,
-        "windowDays": 90,
-        "saleAdjustment": "characteristic-adjusted",
-        "rentalWindowDays": 90
+        "reportedTwoBedYieldPct": 3
       },
-      "initial": {
-        "snapshotDate": "2026-11-02",
-        "salePsf": 22305,
+      "nov9CachedSummary": {
+        "salePsf": 22240,
         "rentPsf": 55,
+        "saleYearAgoPsf": 18866,
         "saleCount": 18,
-        "rentCount": 27,
-        "saleYearAgoPsf": 18238
+        "rentCount": 14
       },
-      "snapshotDifference": {
-        "salePsf": -65,
+      "differenceFromNov9Cached": {
+        "salePsf": -3,
         "rentPsf": 0,
+        "saleYearAgoPsf": -3,
         "saleCount": 0,
-        "rentCount": -13,
-        "saleYearAgoPsf": 628
+        "rentCount": 0
       },
-      "definitionMatchesInitial": true,
-      "definitionEvidence": "Sale methodology in page body; both summary headings identify past90days and Saturday updates; whole estate includes Phase1 and Phase2 CentralPark.",
-      "freshnessEvidence": {
-        "pageTitle": "November2026",
-        "latestDisplayedTransactionDate": "2026-10-23",
-        "titlePricePsf": 21526,
-        "bodyPricePsf": 22240
-      },
-      "notes": [
-        "Body figures used; title/search headline differs.",
-        "No exact metric date; six-day crawl age can precede SaturdayNov7update."
-      ]
+      "sameBodyAsNov9": false,
+      "latestDisplayedTransactionDate": "2026-10-23",
+      "definitionMatchesPrevious": true,
+      "freshnessAssessment": "Slightly different body summary, but page remains cached and cannot certify latest Saturday/Nov16 metrics. Relative crawl age alone does not establish a new metric observation date.",
+      "titlePricePsf": 21526,
+      "bodyPricePsf": 22237,
+      "notes": "Both phases/all sizes. Body prices changed by HK$3 but rental and sample counts unchanged; do not label this a verified weekly market movement."
     },
     {
       "id": "tseung-kwan-o",
       "estate": "Park Central",
       "url": "https://www.28hse.com/en/estate/detail/park-central-4007",
-      "initialUrl": "https://www.28hse.com.cn/en/estate/detail/park-central-4007",
-      "checkedOn": "2026-11-09",
-      "sourceCrawledRelative": "4 days ago",
-      "metricAsOf": null,
-      "currentAsOfReviewCertified": false,
-      "sourceFreshnessStatus": "cached; newer rental count observed but not certified Nov9-current",
-      "body": {
-        "salePsf": 16263,
+      "readDate": "2026-11-16",
+      "cacheAgeReported": "6 days ago",
+      "metricAsOfDate": null,
+      "summary": {
+        "salePsf": 16283,
         "rentPsf": 44,
-        "saleCount": 25,
-        "rentCount": 82,
-        "saleYearAgoPsf": 14321,
+        "saleYearAgoPsf": 14222,
+        "saleCount": 24,
+        "rentCount": 88,
         "reportedGrossYieldPct": 3.3,
-        "reported2BedYieldPct": 3.3,
-        "windowDays": 90,
-        "saleAdjustment": "characteristic-adjusted",
-        "rentalWindowDays": 90
+        "reportedTwoBedYieldPct": 3.3
       },
-      "initial": {
-        "snapshotDate": "2026-11-02",
+      "nov9CachedSummary": {
         "salePsf": 16263,
         "rentPsf": 44,
+        "saleYearAgoPsf": 14321,
         "saleCount": 25,
-        "rentCount": 78,
-        "saleYearAgoPsf": 14321
+        "rentCount": 82
       },
-      "snapshotDifference": {
-        "salePsf": 0,
+      "differenceFromNov9Cached": {
+        "salePsf": 20,
         "rentPsf": 0,
-        "saleCount": 0,
-        "rentCount": 4,
-        "saleYearAgoPsf": 0
+        "saleYearAgoPsf": -99,
+        "saleCount": -1,
+        "rentCount": 6
       },
-      "definitionMatchesInitial": true,
-      "definitionEvidence": "Sale methodology in page body; both summary headings identify past90days and Saturday updates; estate4007same provider and methodology, .com versus initial.cn host.",
-      "freshnessEvidence": {
-        "pageTitle": "November2026",
-        "latestDisplayedTransactionDate": "2026-10-30",
-        "titlePricePsf": 16178,
-        "bodyPricePsf": 16263
-      },
-      "notes": [
-        "Body figures used; title/search headline differs.",
-        "Some portal asking rental prices HK$4,000 and low psf are likely room/sublet or other atypical offers; do not substitute listing minimum for whole-flat target rent."
-      ]
+      "sameBodyAsNov9": false,
+      "latestDisplayedTransactionDate": "2026-10-30",
+      "definitionMatchesPrevious": true,
+      "freshnessAssessment": "Changed summary observed in cached page; no explicit metric as-of, so latest Saturday/Nov16 freshness unverified.",
+      "titlePricePsf": 16146,
+      "bodyPricePsf": 16283,
+      "notes": "Body summary used, not title price. Extremely low asking rents may represent atypical/room listings; do not substitute listing minima for whole-flat target rent."
     }
   ],
-  "conclusion": "Definitions match initial data. All three cached rent psf figures remain unchanged; rental trend cannot be inferred from this. No verified November9 live snapshot or district rental index was obtained. Source files, bot configuration and remote applications were not changed."
+  "conclusion": "Definitions remain comparable to prior observations. All three body summaries differ from Nov9 observations, but only Taikoo page is reported crawled today and no headline metric has an explicit as-of date. Rental psf is unchanged in all three observations; that is not a verified zero weekly rental change because rolling windows overlap and metric dates are unknown. No source/bot/deployed files or remote applications changed.",
+  "reviewedAt": "2026-11-16T01:58:44Z",
+  "publicBase": "https://hangyul-son.github.io/global-tech-team-features/hong-kong-property/",
+  "triggerReason": "Published report remained dated 9 November; no 16 November scheduled run recorded at review. Last scheduled run occurred late on 9 November. Trigger catch-up via existing documented [refresh-property] mechanism; no calendar or schedule changes.",
+  "priorDeployment": {
+    "runId": 43739599307,
+    "conclusion": "success",
+    "propertyRefresh": "skipped",
+    "lastPropertyAttempt": "2026-11-09T06:32:09+00:00"
+  }
 }

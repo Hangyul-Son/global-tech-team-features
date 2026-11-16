@@ -1,0 +1,145 @@
+{
+  "reviewDate": "2026-11-16",
+  "access": {
+    "method": "Public 28Hse pages via web tool",
+    "status": "All three supplied URLs readable",
+    "blocked": false,
+    "bypassUsed": false,
+    "environmentReady": true
+  },
+  "definition": {
+    "sale": "Provider estate-wide average transacted price per sqft using past 90 days, adjusted for different unit characteristics.",
+    "rent": "Provider estate-wide past-90-day average rent per sqft per month.",
+    "updateCadence": "Every Saturday, as labelled in both summary headings.",
+    "sizeCohort": "All estate sizes, not a target-only 2-bedroom 400–600sqft sample.",
+    "metricAsOfDate": null,
+    "note": "None of the three pages displays an explicit as-of timestamp for its headline metrics. Web crawl time and displayed transaction dates are separate evidence, not metric as-of dates.",
+    "matchesPreviousDefinition": true
+  },
+  "estates": [
+    {
+      "id": "taikoo-quarry-bay",
+      "estate": "Taikoo Shing",
+      "url": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
+      "readDate": "2026-11-16",
+      "cacheAgeReported": "today",
+      "metricAsOfDate": null,
+      "summary": {
+        "salePsf": 17321,
+        "rentPsf": 47,
+        "saleYearAgoPsf": 14390,
+        "saleCount": 48,
+        "rentCount": 179,
+        "reportedGrossYieldPct": 3.3,
+        "reportedTwoBedYieldPct": 3.3
+      },
+      "nov9CachedSummary": {
+        "salePsf": 17387,
+        "rentPsf": 47,
+        "saleYearAgoPsf": 14325,
+        "saleCount": 55,
+        "rentCount": 151
+      },
+      "differenceFromNov9Cached": {
+        "salePsf": -66,
+        "rentPsf": 0,
+        "saleYearAgoPsf": 65,
+        "saleCount": -7,
+        "rentCount": 28
+      },
+      "sameBodyAsNov9": false,
+      "latestDisplayedTransactionDate": "2026-11-11",
+      "definitionMatchesPrevious": true,
+      "freshnessAssessment": "Changed headline summary observed on a page reported crawled today; explicit metric as-of remains unavailable.",
+      "titlePricePsf": 16514,
+      "bodyPricePsf": 17321,
+      "notes": "Use body summary, not differing title/headline price. Page includes unusually low 582sf HK$4.3M transfer; do not select it as a representative arm-length comp without verification."
+    },
+    {
+      "id": "olympic",
+      "estate": "Park Avenue",
+      "url": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
+      "readDate": "2026-11-16",
+      "cacheAgeReported": "6 days ago",
+      "metricAsOfDate": null,
+      "summary": {
+        "salePsf": 22237,
+        "rentPsf": 55,
+        "saleYearAgoPsf": 18863,
+        "saleCount": 18,
+        "rentCount": 14,
+        "reportedGrossYieldPct": 3,
+        "reportedTwoBedYieldPct": 3
+      },
+      "nov9CachedSummary": {
+        "salePsf": 22240,
+        "rentPsf": 55,
+        "saleYearAgoPsf": 18866,
+        "saleCount": 18,
+        "rentCount": 14
+      },
+      "differenceFromNov9Cached": {
+        "salePsf": -3,
+        "rentPsf": 0,
+        "saleYearAgoPsf": -3,
+        "saleCount": 0,
+        "rentCount": 0
+      },
+      "sameBodyAsNov9": false,
+      "latestDisplayedTransactionDate": "2026-10-23",
+      "definitionMatchesPrevious": true,
+      "freshnessAssessment": "Slightly different body summary, but page remains cached and cannot certify latest Saturday/Nov16 metrics. Relative crawl age alone does not establish a new metric observation date.",
+      "titlePricePsf": 21526,
+      "bodyPricePsf": 22237,
+      "notes": "Both phases/all sizes. Body prices changed by HK$3 but rental and sample counts unchanged; do not label this a verified weekly market movement."
+    },
+    {
+      "id": "tseung-kwan-o",
+      "estate": "Park Central",
+      "url": "https://www.28hse.com/en/estate/detail/park-central-4007",
+      "readDate": "2026-11-16",
+      "cacheAgeReported": "6 days ago",
+      "metricAsOfDate": null,
+      "summary": {
+        "salePsf": 16283,
+        "rentPsf": 44,
+        "saleYearAgoPsf": 14222,
+        "saleCount": 24,
+        "rentCount": 88,
+        "reportedGrossYieldPct": 3.3,
+        "reportedTwoBedYieldPct": 3.3
+      },
+      "nov9CachedSummary": {
+        "salePsf": 16263,
+        "rentPsf": 44,
+        "saleYearAgoPsf": 14321,
+        "saleCount": 25,
+        "rentCount": 82
+      },
+      "differenceFromNov9Cached": {
+        "salePsf": 20,
+        "rentPsf": 0,
+        "saleYearAgoPsf": -99,
+        "saleCount": -1,
+        "rentCount": 6
+      },
+      "sameBodyAsNov9": false,
+      "latestDisplayedTransactionDate": "2026-10-30",
+      "definitionMatchesPrevious": true,
+      "freshnessAssessment": "Changed summary observed in cached page; no explicit metric as-of, so latest Saturday/Nov16 freshness unverified.",
+      "titlePricePsf": 16146,
+      "bodyPricePsf": 16283,
+      "notes": "Body summary used, not title price. Extremely low asking rents may represent atypical/room listings; do not substitute listing minima for whole-flat target rent."
+    }
+  ],
+  "conclusion": "Definitions remain comparable to prior observations. All three body summaries differ from Nov9 observations, but only Taikoo page is reported crawled today and no headline metric has an explicit as-of date. Rental psf is unchanged in all three observations; that is not a verified zero weekly rental change because rolling windows overlap and metric dates are unknown. No source/bot/deployed files or remote applications changed.",
+  "reviewedAt": "2026-11-16T01:58:44Z",
+  "publicBase": "https://hangyul-son.github.io/global-tech-team-features/hong-kong-property/",
+  "triggerReason": "Published report remained dated 9 November; no 16 November scheduled run recorded at review. Last scheduled run occurred late on 9 November. Trigger catch-up via existing documented [refresh-property] mechanism; no calendar or schedule changes.",
+  "priorDeployment": {
+    "runId": 43739599307,
+    "conclusion": "success",
+    "propertyRefresh": "skipped",
+    "lastPropertyAttempt": "2026-11-09T06:32:09+00:00"
+  }
+}

@@ -96,16 +96,16 @@
       "region": "Kowloon",
       "estate": "Park Avenue",
       "street": "18 Hoi Ting Road",
-      "salePsf": 22240,
+      "salePsf": 22237,
       "rentPsf": 55,
-      "saleYearAgoPsf": 18866,
+      "saleYearAgoPsf": 18863,
       "saleCount": 18,
       "rentCount": 14,
       "source": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
-      "sourceCrawl": "Cached page crawled 6 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
-      "date": "2026-11-09",
+      "sourceCrawl": "Page crawl reported 6 days ago when rechecked 16 Nov 2026; exact metric as-of unknown",
+      "date": "2026-11-16",
       "targetNote": "466 sq ft 2-bedroom examples fit.",
-      "notes": "Source aggregate includes both phases and all sizes. Sale/rent examples are different towers. Summary re-observed 9 Nov 2026 from a cached page (6 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements.",
+      "notes": "Source aggregate includes both phases and all sizes. Sale/rent examples are different towers. Summary re-observed 9 Nov 2026 from a cached page (6 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements. Summary re-observed 16 Nov 2026; reported page crawl 6 days ago, exact metric as-of not supplied. Differences from earlier overlapping 90-day windows are not verified weekly market movements.",
       "rentAskingRange": null,
       "saleExample": {
         "kind": "asking listing",
@@ -142,11 +142,23 @@
           "saleCount": 18,
           "rentCount": 27,
           "saleYearAgoPsf": 18238
+        },
+        {
+          "date": "2026-11-09",
+          "source": "https://www.28hse.com/en/estate/detail/park-avenue-2560",
+          "sourceCrawl": "Cached page crawled 6 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
+          "salePsf": 22240,
+          "rentPsf": 55,
+          "saleCount": 18,
+          "rentCount": 14,
+          "saleYearAgoPsf": 18866,
+          "summaryCheckedAt": "2026-11-09T02:10:01Z",
+          "summaryFreshness": "cached source observation; not certified current on review date"
         }
       ],
-      "summaryCheckedAt": "2026-11-09T02:10:01Z",
+      "summaryCheckedAt": "2026-11-16T01:58:44Z",
       "metricAsOf": null,
-      "summaryFreshness": "cached source observation; not certified current on review date",
+      "summaryFreshness": "Slightly different body summary, but page remains cached and cannot certify latest Saturday/Nov16 metrics. Relative crawl age alone does not establish a new metric observation date.",
       "summaryWindowDays": 90
     },
     {
@@ -156,16 +168,16 @@
       "region": "New Territories",
       "estate": "Park Central",
       "street": "9 Tong Tak Street",
-      "salePsf": 16263,
+      "salePsf": 16283,
       "rentPsf": 44,
-      "saleYearAgoPsf": 14321,
-      "saleCount": 25,
-      "rentCount": 82,
+      "saleYearAgoPsf": 14222,
+      "saleCount": 24,
+      "rentCount": 88,
       "source": "https://www.28hse.com/en/estate/detail/park-central-4007",
-      "sourceCrawl": "Cached page crawled 4 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
-      "date": "2026-11-09",
+      "sourceCrawl": "Page crawl reported 6 days ago when rechecked 16 Nov 2026; exact metric as-of unknown",
+      "date": "2026-11-16",
       "targetNote": "406–465 sq ft 2-bedroom examples fit.",
-      "notes": "Sale/rent examples have different sizes. Some portal listings at HK$4,000 likely room/sublet rather than whole unit; exclude from target comps. Summary re-observed 9 Nov 2026 from a cached page (4 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements.",
+      "notes": "Sale/rent examples have different sizes. Some portal listings at HK$4,000 likely room/sublet rather than whole unit; exclude from target comps. Summary re-observed 9 Nov 2026 from a cached page (4 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements. Summary re-observed 16 Nov 2026; reported page crawl 6 days ago, exact metric as-of not supplied. Differences from earlier overlapping 90-day windows are not verified weekly market movements.",
       "rentAskingRange": null,
       "saleExample": {
         "kind": "Land Registry transaction via 28Hse",
@@ -202,11 +214,23 @@
           "saleCount": 25,
           "rentCount": 78,
           "saleYearAgoPsf": 14321
+        },
+        {
+          "date": "2026-11-09",
+          "source": "https://www.28hse.com/en/estate/detail/park-central-4007",
+          "sourceCrawl": "Cached page crawled 4 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
+          "salePsf": 16263,
+          "rentPsf": 44,
+          "saleCount": 25,
+          "rentCount": 82,
+          "saleYearAgoPsf": 14321,
+          "summaryCheckedAt": "2026-11-09T02:10:01Z",
+          "summaryFreshness": "cached source observation; not certified current on review date"
         }
       ],
-      "summaryCheckedAt": "2026-11-09T02:10:01Z",
+      "summaryCheckedAt": "2026-11-16T01:58:44Z",
       "metricAsOf": null,
-      "summaryFreshness": "cached source observation; not certified current on review date",
+      "summaryFreshness": "Changed summary observed in cached page; no explicit metric as-of, so latest Saturday/Nov16 freshness unverified.",
       "summaryWindowDays": 90
     },
     {
@@ -216,16 +240,16 @@
       "region": "Hong Kong Island",
       "estate": "Taikoo Shing",
       "street": "Taikoo Wan Road",
-      "salePsf": 17387,
+      "salePsf": 17321,
       "rentPsf": 47,
-      "saleYearAgoPsf": 14325,
-      "saleCount": 55,
-      "rentCount": 151,
+      "saleYearAgoPsf": 14390,
+      "saleCount": 48,
+      "rentCount": 179,
       "source": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
-      "sourceCrawl": "Cached page crawled 4 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
-      "date": "2026-11-09",
+      "sourceCrawl": "Page crawl reported today when rechecked 16 Nov 2026; exact metric as-of unknown",
+      "date": "2026-11-16",
       "targetNote": "530 sqft two-bed transaction fits target.",
-      "notes": " Summary re-observed 9 Nov 2026 from a cached page (4 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements.",
+      "notes": " Summary re-observed 9 Nov 2026 from a cached page (4 days ago); exact metric as-of not supplied. Changes versus the earlier overlapping 90-day window are not week-on-week price or rent movements. Summary re-observed 16 Nov 2026; reported page crawl today, exact metric as-of not supplied. Differences from earlier overlapping 90-day windows are not verified weekly market movements.",
       "rentAskingRange": [
         25800,
         36500
@@ -261,11 +285,23 @@
           "saleCount": 64,
           "rentCount": 170,
           "saleYearAgoPsf": 14304
+        },
+        {
+          "date": "2026-11-09",
+          "source": "https://www.28hse.com/en/estate/detail/taikoo-shing-1140",
+          "sourceCrawl": "Cached page crawled 4 days ago when rechecked 9 Nov 2026; exact metric as-of unknown",
+          "salePsf": 17387,
+          "rentPsf": 47,
+          "saleCount": 55,
+          "rentCount": 151,
+          "saleYearAgoPsf": 14325,
+          "summaryCheckedAt": "2026-11-09T02:10:01Z",
+          "summaryFreshness": "cached source observation; not certified current on review date"
         }
       ],
-      "summaryCheckedAt": "2026-11-09T02:10:01Z",
+      "summaryCheckedAt": "2026-11-16T01:58:44Z",
       "metricAsOf": null,
-      "summaryFreshness": "cached source observation; not certified current on review date",
+      "summaryFreshness": "Changed headline summary observed on a page reported crawled today; explicit metric as-of remains unavailable.",
       "summaryWindowDays": 90
     },
     {
@@ -1017,7 +1053,7 @@
         "price": 373.4,
         "priceA": 413.7,
         "priceB": 357.2,
-        "rent": 185.0,
+        "rent": 185,
         "rentA": 203.3,
         "rentB": 185.3,
         "provisional": false,
@@ -1030,7 +1066,7 @@
         "priceA": 420.4,
         "priceB": 360.4,
         "rent": 181.7,
-        "rentA": 200.0,
+        "rentA": 200,
         "rentB": 181.3,
         "provisional": false,
         "priceProvisional": false,
@@ -1086,7 +1122,7 @@
       },
       {
         "date": "2020-08",
-        "price": 382.0,
+        "price": 382,
         "priceA": 423.9,
         "priceB": 365.6,
         "rent": 181.2,
@@ -1123,7 +1159,7 @@
       {
         "date": "2020-11",
         "price": 380.6,
-        "priceA": 423.0,
+        "priceA": 423,
         "priceB": 365.4,
         "rent": 178.5,
         "rentA": 194.9,
@@ -1182,9 +1218,9 @@
       },
       {
         "date": "2021-04",
-        "price": 391.0,
+        "price": 391,
         "priceA": 434.6,
-        "priceB": 376.0,
+        "priceB": 376,
         "rent": 177.5,
         "rentA": 194.2,
         "rentB": 178.9,
@@ -1206,8 +1242,8 @@
       },
       {
         "date": "2021-06",
-        "price": 394.0,
-        "priceA": 435.0,
+        "price": 394,
+        "priceA": 435,
         "priceB": 381.2,
         "rent": 179.3,
         "rentA": 196.2,
@@ -1218,7 +1254,7 @@
       },
       {
         "date": "2021-07",
-        "price": 398.0,
+        "price": 398,
         "priceA": 439.2,
         "priceB": 385.6,
         "rent": 180.3,
@@ -1254,7 +1290,7 @@
       },
       {
         "date": "2021-10",
-        "price": 396.0,
+        "price": 396,
         "priceA": 440.9,
         "priceB": 381.2,
         "rent": 184.3,
@@ -1270,7 +1306,7 @@
         "priceA": 437.1,
         "priceB": 379.7,
         "rent": 182.9,
-        "rentA": 200.0,
+        "rentA": 200,
         "rentB": 183.4,
         "provisional": false,
         "priceProvisional": false,
@@ -1283,7 +1319,7 @@
         "priceB": 381.3,
         "rent": 182.7,
         "rentA": 200.1,
-        "rentB": 182.0,
+        "rentB": 182,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1319,14 +1355,14 @@
         "priceB": 370.6,
         "rent": 178.5,
         "rentA": 195.6,
-        "rentB": 177.0,
+        "rentB": 177,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
       },
       {
         "date": "2022-04",
-        "price": 385.0,
+        "price": 385,
         "priceA": 425.5,
         "priceB": 372.7,
         "rent": 177.3,
@@ -1351,9 +1387,9 @@
       {
         "date": "2022-06",
         "price": 381.8,
-        "priceA": 419.0,
+        "priceA": 419,
         "priceB": 371.1,
-        "rent": 178.0,
+        "rent": 178,
         "rentA": 193.9,
         "rentB": 177.4,
         "provisional": false,
@@ -1389,7 +1425,7 @@
         "price": 360.3,
         "priceA": 396.3,
         "priceB": 347.9,
-        "rent": 179.0,
+        "rent": 179,
         "rentA": 197.9,
         "rentB": 177.4,
         "provisional": false,
@@ -1401,7 +1437,7 @@
         "price": 350.2,
         "priceA": 385.2,
         "priceB": 337.3,
-        "rent": 178.0,
+        "rent": 178,
         "rentA": 197.4,
         "rentB": 175.5,
         "provisional": false,
@@ -1415,7 +1451,7 @@
         "priceB": 325.4,
         "rent": 176.4,
         "rentA": 195.3,
-        "rentB": 174.0,
+        "rentB": 174,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1424,7 +1460,7 @@
         "date": "2022-12",
         "price": 334.7,
         "priceA": 368.9,
-        "priceB": 322.0,
+        "priceB": 322,
         "rent": 175.5,
         "rentA": 194.6,
         "rentB": 173.1,
@@ -1451,7 +1487,7 @@
         "priceB": 335.4,
         "rent": 175.1,
         "rentA": 194.1,
-        "rentB": 173.0,
+        "rentB": 173,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1486,7 +1522,7 @@
         "priceA": 382.2,
         "priceB": 340.4,
         "rent": 179.9,
-        "rentA": 199.0,
+        "rentA": 199,
         "rentB": 177.7,
         "provisional": false,
         "priceProvisional": false,
@@ -1506,10 +1542,10 @@
       },
       {
         "date": "2023-07",
-        "price": 344.0,
+        "price": 344,
         "priceA": 372.1,
         "priceB": 335.4,
-        "rent": 182.0,
+        "rent": 182,
         "rentA": 201.4,
         "rentB": 180.4,
         "provisional": false,
@@ -1518,7 +1554,7 @@
       },
       {
         "date": "2023-08",
-        "price": 337.0,
+        "price": 337,
         "priceA": 364.1,
         "priceB": 328.2,
         "rent": 184.9,
@@ -1542,7 +1578,7 @@
       },
       {
         "date": "2023-10",
-        "price": 322.0,
+        "price": 322,
         "priceA": 346.9,
         "priceB": 314.2,
         "rent": 185.4,
@@ -1555,7 +1591,7 @@
       {
         "date": "2023-11",
         "price": 315.6,
-        "priceA": 340.0,
+        "priceA": 340,
         "priceB": 307.7,
         "rent": 185.5,
         "rentA": 206.4,
@@ -1569,7 +1605,7 @@
         "price": 311.3,
         "priceA": 336.8,
         "priceB": 302.5,
-        "rent": 186.0,
+        "rent": 186,
         "rentA": 206.9,
         "rentB": 184.1,
         "provisional": false,
@@ -1582,7 +1618,7 @@
         "priceA": 330.7,
         "priceB": 299.6,
         "rent": 185.5,
-        "rentA": 206.0,
+        "rentA": 206,
         "rentB": 183.9,
         "provisional": false,
         "priceProvisional": false,
@@ -1595,7 +1631,7 @@
         "priceB": 294.4,
         "rent": 184.4,
         "rentA": 204.7,
-        "rentB": 183.0,
+        "rentB": 183,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1607,7 +1643,7 @@
         "priceB": 300.1,
         "rent": 184.9,
         "rentA": 205.7,
-        "rentB": 183.0,
+        "rentB": 183,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1618,7 +1654,7 @@
         "priceA": 331.5,
         "priceB": 301.6,
         "rent": 186.9,
-        "rentA": 207.0,
+        "rentA": 207,
         "rentB": 185.9,
         "provisional": false,
         "priceProvisional": false,
@@ -1627,9 +1663,9 @@
       {
         "date": "2024-05",
         "price": 305.5,
-        "priceA": 326.0,
+        "priceA": 326,
         "priceB": 297.8,
-        "rent": 190.0,
+        "rent": 190,
         "rentA": 209.8,
         "rentB": 189.7,
         "provisional": false,
@@ -1662,7 +1698,7 @@
       },
       {
         "date": "2024-08",
-        "price": 292.0,
+        "price": 292,
         "priceA": 310.5,
         "priceB": 285.2,
         "rent": 195.1,
@@ -1678,7 +1714,7 @@
         "priceA": 307.9,
         "priceB": 280.3,
         "rent": 195.3,
-        "rentA": 216.0,
+        "rentA": 216,
         "rentB": 193.7,
         "provisional": false,
         "priceProvisional": false,
@@ -1686,7 +1722,7 @@
       },
       {
         "date": "2024-10",
-        "price": 291.0,
+        "price": 291,
         "priceA": 309.2,
         "priceB": 284.9,
         "rent": 192.7,
@@ -1702,7 +1738,7 @@
         "priceA": 309.3,
         "priceB": 285.3,
         "rent": 191.9,
-        "rentA": 212.0,
+        "rentA": 212,
         "rentB": 190.6,
         "provisional": false,
         "priceProvisional": false,
@@ -1737,7 +1773,7 @@
         "price": 285.6,
         "priceA": 304.8,
         "priceB": 278.7,
-        "rent": 193.0,
+        "rent": 193,
         "rentA": 212.5,
         "rentB": 191.9,
         "provisional": false,
@@ -1763,7 +1799,7 @@
         "priceB": 279.4,
         "rent": 193.9,
         "rentA": 212.7,
-        "rentB": 193.0,
+        "rentB": 193,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1799,7 +1835,7 @@
         "priceB": 280.9,
         "rent": 197.4,
         "rentA": 215.5,
-        "rentB": 197.0,
+        "rentB": 197,
         "provisional": false,
         "priceProvisional": false,
         "rentProvisional": false
@@ -1807,7 +1843,7 @@
       {
         "date": "2025-08",
         "price": 288.8,
-        "priceA": 309.0,
+        "priceA": 309,
         "priceB": 281.1,
         "rent": 199.8,
         "rentA": 219.8,
@@ -1819,7 +1855,7 @@
       {
         "date": "2025-09",
         "price": 293.4,
-        "priceA": 314.0,
+        "priceA": 314,
         "priceB": 286.4,
         "rent": 199.9,
         "rentA": 219.8,
@@ -1856,7 +1892,7 @@
         "date": "2025-12",
         "price": 299.6,
         "priceA": 317.9,
-        "priceB": 293.0,
+        "priceB": 293,
         "rent": 200.5,
         "rentA": 219.8,
         "rentB": 199.1,
@@ -1890,7 +1926,7 @@
       },
       {
         "date": "2026-03",
-        "price": 314.0,
+        "price": 314,
         "priceA": 332.4,
         "priceB": 308.1,
         "rent": 201.9,
@@ -1928,7 +1964,7 @@
         "date": "2026-06",
         "price": 323.4,
         "priceA": 343.3,
-        "priceB": 316.0,
+        "priceB": 316,
         "rent": 205.8,
         "rentA": 221.8,
         "rentB": 205.5,
@@ -1940,7 +1976,7 @@
         "date": "2026-07",
         "price": 320.1,
         "priceA": 340.4,
-        "priceB": 312.0,
+        "priceB": 312,
         "rent": 207.4,
         "rentA": 223.6,
         "rentB": 207.3,
@@ -1952,7 +1988,7 @@
         "date": "2026-08",
         "price": 320.2,
         "priceA": 340.4,
-        "priceB": 312.0,
+        "priceB": 312,
         "rent": 211.2,
         "rentA": 227.9,
         "rentB": 211.3,
@@ -2118,7 +2154,7 @@
       },
       "priceA": {
         "latest": 340.4,
-        "mom": 0.0,
+        "mom": 0,
         "yoy": 8.408,
         "ytd": 7.078
       },
@@ -2935,7 +2971,7 @@
         },
         {
           "date": "2020-08",
-          "price": 382.0,
+          "price": 382,
           "priceA": 423.9,
           "priceB": 365.6,
           "provisional": false
@@ -2957,7 +2993,7 @@
         {
           "date": "2020-11",
           "price": 380.6,
-          "priceA": 423.0,
+          "priceA": 423,
           "priceB": 365.4,
           "provisional": false
         },
@@ -2991,9 +3027,9 @@
         },
         {
           "date": "2021-04",
-          "price": 391.0,
+          "price": 391,
           "priceA": 434.6,
-          "priceB": 376.0,
+          "priceB": 376,
           "provisional": false
         },
         {
@@ -3005,14 +3041,14 @@
         },
         {
           "date": "2021-06",
-          "price": 394.0,
-          "priceA": 435.0,
+          "price": 394,
+          "priceA": 435,
           "priceB": 381.2,
           "provisional": false
         },
         {
           "date": "2021-07",
-          "price": 398.0,
+          "price": 398,
           "priceA": 439.2,
           "priceB": 385.6,
           "provisional": false
@@ -3033,7 +3069,7 @@
         },
         {
           "date": "2021-10",
-          "price": 396.0,
+          "price": 396,
           "priceA": 440.9,
           "priceB": 381.2,
           "provisional": false
@@ -3075,7 +3111,7 @@
         },
         {
           "date": "2022-04",
-          "price": 385.0,
+          "price": 385,
           "priceA": 425.5,
           "priceB": 372.7,
           "provisional": false
@@ -3090,7 +3126,7 @@
         {
           "date": "2022-06",
           "price": 381.8,
-          "priceA": 419.0,
+          "priceA": 419,
           "priceB": 371.1,
           "provisional": false
         },
@@ -3133,7 +3169,7 @@
           "date": "2022-12",
           "price": 334.7,
           "priceA": 368.9,
-          "priceB": 322.0,
+          "priceB": 322,
           "provisional": false
         },
         {
@@ -3180,14 +3216,14 @@
         },
         {
           "date": "2023-07",
-          "price": 344.0,
+          "price": 344,
           "priceA": 372.1,
           "priceB": 335.4,
           "provisional": false
         },
         {
           "date": "2023-08",
-          "price": 337.0,
+          "price": 337,
           "priceA": 364.1,
           "priceB": 328.2,
           "provisional": false
@@ -3201,7 +3237,7 @@
         },
         {
           "date": "2023-10",
-          "price": 322.0,
+          "price": 322,
           "priceA": 346.9,
           "priceB": 314.2,
           "provisional": false
@@ -3209,7 +3245,7 @@
         {
           "date": "2023-11",
           "price": 315.6,
-          "priceA": 340.0,
+          "priceA": 340,
           "priceB": 307.7,
           "provisional": false
         },
@@ -3251,7 +3287,7 @@
         {
           "date": "2024-05",
           "price": 305.5,
-          "priceA": 326.0,
+          "priceA": 326,
           "priceB": 297.8,
           "provisional": false
         },
@@ -3271,7 +3307,7 @@
         },
         {
           "date": "2024-08",
-          "price": 292.0,
+          "price": 292,
           "priceA": 310.5,
           "priceB": 285.2,
           "provisional": false
@@ -3285,7 +3321,7 @@
         },
         {
           "date": "2024-10",
-          "price": 291.0,
+          "price": 291,
           "priceA": 309.2,
           "priceB": 284.9,
           "provisional": false
@@ -3356,14 +3392,14 @@
         {
           "date": "2025-08",
           "price": 288.8,
-          "priceA": 309.0,
+          "priceA": 309,
           "priceB": 281.1,
           "provisional": false
         },
         {
           "date": "2025-09",
           "price": 293.4,
-          "priceA": 314.0,
+          "priceA": 314,
           "priceB": 286.4,
           "provisional": false
         },
@@ -3385,7 +3421,7 @@
           "date": "2025-12",
           "price": 299.6,
           "priceA": 317.9,
-          "priceB": 293.0,
+          "priceB": 293,
           "provisional": false
         },
         {
@@ -3404,7 +3440,7 @@
         },
         {
           "date": "2026-03",
-          "price": 314.0,
+          "price": 314,
           "priceA": 332.4,
           "priceB": 308.1,
           "provisional": false
@@ -3427,21 +3463,21 @@
           "date": "2026-06",
           "price": 323.4,
           "priceA": 343.3,
-          "priceB": 316.0,
+          "priceB": 316,
           "provisional": false
         },
         {
           "date": "2026-07",
           "price": 320.1,
           "priceA": 340.4,
-          "priceB": 312.0,
+          "priceB": 312,
           "provisional": true
         },
         {
           "date": "2026-08",
           "price": 320.2,
           "priceA": 340.4,
-          "priceB": 312.0,
+          "priceB": 312,
           "provisional": true
         },
         {
@@ -3462,7 +3498,7 @@
         },
         {
           "date": "2020-02",
-          "rent": 185.0,
+          "rent": 185,
           "rentA": 203.3,
           "rentB": 185.3,
           "provisional": false
@@ -3470,7 +3506,7 @@
         {
           "date": "2020-03",
           "rent": 181.7,
-          "rentA": 200.0,
+          "rentA": 200,
           "rentB": 181.3,
           "provisional": false
         },
@@ -3610,7 +3646,7 @@
         {
           "date": "2021-11",
           "rent": 182.9,
-          "rentA": 200.0,
+          "rentA": 200,
           "rentB": 183.4,
           "provisional": false
         },
@@ -3618,7 +3654,7 @@
           "date": "2021-12",
           "rent": 182.7,
           "rentA": 200.1,
-          "rentB": 182.0,
+          "rentB": 182,
           "provisional": false
         },
         {
@@ -3639,7 +3675,7 @@
           "date": "2022-03",
           "rent": 178.5,
           "rentA": 195.6,
-          "rentB": 177.0,
+          "rentB": 177,
           "provisional": false
         },
         {
@@ -3658,7 +3694,7 @@
         },
         {
           "date": "2022-06",
-          "rent": 178.0,
+          "rent": 178,
           "rentA": 193.9,
           "rentB": 177.4,
           "provisional": false
@@ -3679,14 +3715,14 @@
         },
         {
           "date": "2022-09",
-          "rent": 179.0,
+          "rent": 179,
           "rentA": 197.9,
           "rentB": 177.4,
           "provisional": false
         },
         {
           "date": "2022-10",
-          "rent": 178.0,
+          "rent": 178,
           "rentA": 197.4,
           "rentB": 175.5,
           "provisional": false
@@ -3695,7 +3731,7 @@
           "date": "2022-11",
           "rent": 176.4,
           "rentA": 195.3,
-          "rentB": 174.0,
+          "rentB": 174,
           "provisional": false
         },
         {
@@ -3716,7 +3752,7 @@
           "date": "2023-02",
           "rent": 175.1,
           "rentA": 194.1,
-          "rentB": 173.0,
+          "rentB": 173,
           "provisional": false
         },
         {
@@ -3736,7 +3772,7 @@
         {
           "date": "2023-05",
           "rent": 179.9,
-          "rentA": 199.0,
+          "rentA": 199,
           "rentB": 177.7,
           "provisional": false
         },
@@ -3749,7 +3785,7 @@
         },
         {
           "date": "2023-07",
-          "rent": 182.0,
+          "rent": 182,
           "rentA": 201.4,
           "rentB": 180.4,
           "provisional": false
@@ -3784,7 +3820,7 @@
         },
         {
           "date": "2023-12",
-          "rent": 186.0,
+          "rent": 186,
           "rentA": 206.9,
           "rentB": 184.1,
           "provisional": false
@@ -3792,7 +3828,7 @@
         {
           "date": "2024-01",
           "rent": 185.5,
-          "rentA": 206.0,
+          "rentA": 206,
           "rentB": 183.9,
           "provisional": false
         },
@@ -3800,26 +3836,26 @@
           "date": "2024-02",
           "rent": 184.4,
           "rentA": 204.7,
-          "rentB": 183.0,
+          "rentB": 183,
           "provisional": false
         },
         {
           "date": "2024-03",
           "rent": 184.9,
           "rentA": 205.7,
-          "rentB": 183.0,
+          "rentB": 183,
           "provisional": false
         },
         {
           "date": "2024-04",
           "rent": 186.9,
-          "rentA": 207.0,
+          "rentA": 207,
           "rentB": 185.9,
           "provisional": false
         },
         {
           "date": "2024-05",
-          "rent": 190.0,
+          "rent": 190,
           "rentA": 209.8,
           "rentB": 189.7,
           "provisional": false
@@ -3848,7 +3884,7 @@
         {
           "date": "2024-09",
           "rent": 195.3,
-          "rentA": 216.0,
+          "rentA": 216,
           "rentB": 193.7,
           "provisional": false
         },
@@ -3862,7 +3898,7 @@
         {
           "date": "2024-11",
           "rent": 191.9,
-          "rentA": 212.0,
+          "rentA": 212,
           "rentB": 190.6,
           "provisional": false
         },
@@ -3882,7 +3918,7 @@
         },
         {
           "date": "2025-02",
-          "rent": 193.0,
+          "rent": 193,
           "rentA": 212.5,
           "rentB": 191.9,
           "provisional": false
@@ -3898,7 +3934,7 @@
           "date": "2025-04",
           "rent": 193.9,
           "rentA": 212.7,
-          "rentB": 193.0,
+          "rentB": 193,
           "provisional": false
         },
         {
@@ -3919,7 +3955,7 @@
           "date": "2025-07",
           "rent": 197.4,
           "rentA": 215.5,
-          "rentB": 197.0,
+          "rentB": 197,
           "provisional": false
         },
         {
