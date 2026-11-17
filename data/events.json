@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-16T17:13:58.041Z",
+  "lastAttempt": "2026-11-17T16:56:05.000Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -5431,8 +5431,62 @@
           "checkedAt": "2026-11-16T17:13:58.041Z"
         }
       ]
+    },
+    {
+      "id": "openai-daybreak-nato-cyberdefense-2026-11-17",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI discloses NATO Daybreak cyber-defense use of up to 300bn tokens per month",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-17",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/",
+      "sourceLabel": "OpenAI official November 17 cybersecurity/NATO announcement",
+      "sourceCheckedAt": "2026-11-17T16:56:05.000Z",
+      "verifiedAt": "2026-11-17T16:56:05.000Z",
+      "basis": "OpenAI's November 17 announcement describes an ONGOING arrangement with NATO Communications and Information Agency (NCIA) giving NATO institutions access to advanced defensive cybersecurity models through Daybreak. It states NATO has used UP TO 300 BILLION raw input and output tokens per month; this is a reported peak scale of consumption, not a recurring minimum or confirmed paid API volume. Also documents authorized defensive use by European agencies and the Ukraine Ministry of Digital Transformation. November 17 is the date of the PUBLIC ANNOUNCEMENT, not the beginning of NATO adoption, procurement, or financial recognition. No contract value, unit token pricing, monetization, guaranteed capacity, GPU count, or infrastructure buildout was disclosed.",
+      "importance": "Material public-sector/defense AI usage signal and high-volume token-demand datapoint; model cautiously because usage is not ARR, signed spend, or guaranteed recurring consumption.",
+      "sources": [
+        {
+          "label": "OpenAI official Nov 17 NATO/Daybreak use and token scale",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/",
+          "kind": "official",
+          "checkedAt": "2026-11-17T16:56:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-chile-public-sector-mou-2026-11-17",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI and Chile sign public-sector AI cooperation MoU without purchase commitment",
+      "type": "Partnership",
+      "status": "confirmed",
+      "date": "2026-11-17",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/introducing-openai-for-chile/",
+      "sourceLabel": "OpenAI official November 17 OpenAI for Chile announcement",
+      "sourceCheckedAt": "2026-11-17T16:56:05.000Z",
+      "verifiedAt": "2026-11-17T16:56:05.000Z",
+      "basis": "OpenAI announced on November 17 its OpenAI for Chile memorandum of understanding with Chile's Ministry of Science, Technology, Knowledge and Innovation, for potential public administration adoption, civil-servant training and startup ecosystem support. Agreement was signed on the sidelines of a conference; its precise signing date was not independently established, so calendar date refers to the ANNOUNCEMENT ONLY. OpenAI explicitly says the MoU sets NO INVESTMENT OR PURCHASING COMMITMENT and concrete activities/resources will be agreed later. Do not count government procurement ARR or hardware demand from this announcement.",
+      "importance": "AI-for-countries geographic distribution pipeline; zero disclosed direct contract bookings or capex commitment.",
+      "sources": [
+        {
+          "label": "OpenAI official Nov 17 Chile MoU, expressly no purchasing commitment",
+          "url": "https://openai.com/index/introducing-openai-for-chile/",
+          "kind": "official",
+          "checkedAt": "2026-11-17T16:56:05.000Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov17 HKT targeted check of 33/33 company IR/newsroom source entry points and primary SpaceX SEC/FAA sources. Official Marvell IR confirms Dec1 Q3 FY2027 earnings call at 1:30pm PST (upgraded from provider estimate). Nov13 SEC Founders Fund/Thiel Schedule 13G/A shows 314.36m Class A shares/3.8% beneficial ownership as of Sep30, not a new SpaceX capital raise. Nov16 OpenAI healthcare agents/20+ plugins incl Oracle HDI and LVMH Media agreement announced; no contract value. SpaceX Nasdaq SPCX Q4/FY26 earnings remains undated, USSF-317 and USSF-627 launch timings unresolved, FAA Nov17–19 scoping not flight authorization. Original Oct15 79-source audit counters retained; no mobile frontend edits.",
-  "lastPartialReview": "2026-11-16T17:13:58.041Z"
+  "verificationNote": "Nov18 HKT targeted review of 33/33 issuer entry points; four blocked (Adobe, ASML, CrowdStrike, Cloudflare), fourteen limited/dynamic. Two official Nov17 OpenAI announcements added: NATO/NCIA Daybreak defensive AI usage up to 300bn tokens per MONTH (not ARR or guaranteed recurring usage); Chile cooperation MoU expressly no purchasing/investment commitments. Nvidia Nov17 17:00 ET earnings call pending at review cutoff (06:00 HKT Nov18); do not report unannounced results. Public Nasdaq:SPCX Q2/Q3 earnings and SEC disclosures retained; no verified Q4 date, new SEC accession or authoritative changed USSF-317/627 flight times established. FAA Nov17–19 virtual meetings and Dec7 comment deadline remain regulatory not approvals. Historic 79-source full harvest Oct15 not rerun; mobile List frontend unchanged.",
+  "lastPartialReview": "2026-11-17T16:56:05.000Z"
 }
