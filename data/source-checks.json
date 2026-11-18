@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov18 HKT: all 33 issuer IR/newsroom entry points attempted via public web (4 blocked, 14 limited/dynamic); official Nov17 OpenAI NATO Daybreak token disclosure and Chile no-purchase MoU added. Nvidia Nov17 17:00 ET earnings scheduled but not yet released at cutoff; SpaceX Nasdaq SPCX Q2/Q3 earnings/SEC reporting remain tracked, Q4 date unannounced and USSF launch times provisional. SEC, FAA, NASA, FCC targeted checks only; original Oct15 79-source full-harvest counters are unchanged; compact mobile List not modified.",
+  "note": "Nov19 HKT: 33 issuer entry points checked; 2 blocked Adobe/Cloudflare, 14 limited. Added 3 confirmed primary-source announcements; updated existing NVIDIA actual earnings & Microsoft Ignite brief. SpaceX public SPCX earnings, SEC 10-Q and NASA/FAA retained, no invented Q4 date/launch completion; NASA weather stand-down on Nov18. Historical 79-source 78/79 counters and Oct15 checkedAt unchanged (not rerun). Compact mobile List unchanged.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,12 +5340,12 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-17T16:56:05.000Z",
-    "localDate": "2026-11-18",
+    "checkedAt": "2026-11-18T16:56:30.000Z",
+    "localDate": "2026-11-19",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 29,
-    "entryPointsBlocked": 4,
+    "entryPointsAccessibleOrPartiallyRendered": 31,
+    "entryPointsBlocked": 2,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
@@ -5398,7 +5398,7 @@
       },
       {
         "id": "ASML",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "LRCX",
@@ -5462,7 +5462,7 @@
       },
       {
         "id": "CRWD",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "PANW",
@@ -5481,15 +5481,15 @@
         "status": "limited"
       }
     ],
-    "notes": "Nov18 HKT: 33/33 company issuer entry points opened (4 blocked Adobe/ASML/CrowdStrike/Cloudflare; 14 partially dynamic). Two official Nov17 OpenAI updates approved, one with NATO up-to-300bn monthly raw tokens and another nonbinding Chile MoU. NVIDIA scheduled 17:00 ET Nov17 call still in the future at review; SpaceX SPCX financial coverage and unresolved launch-status warnings preserved. Original Oct15 79-source complete harvest not rerun. Frontend unchanged."
+    "notes": "Nov19 HKT: all 33 official issuer entry URLs opened (Adobe/Cloudflare blocked, 14 partial). High materiality Nvidia Q3 FY27 financial results, Microsoft Ignite announcements, OpenAI GPT-6.2 and SpaceXSI/NASA updates verified from dated primary releases. No Q4 SPCX earnings date or reconciled USSF-317/627 exact launch clock; no historical 79-source full harvest. Compact mobile List untouched."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-17T16:56:05.000Z",
-    "scope": "Nov18 HKT 33 issuer IR/newsroom entry-point review; two confirmed OpenAI Nov17 announcements. Oct15 full 79-source harvest NOT rerun.",
+    "checkedAt": "2026-11-18T16:56:30.000Z",
+    "scope": "Nov19 HKT targeted 33 issuer IR/newsroom source-entry review plus NVIDIA/Q3, Microsoft Ignite, OpenAI product, SpaceXSI/NASA, SEC 10-Q and FAA targeted primary evidence. Oct15 79-source harvest NOT rerun.",
     "companies": 33,
-    "events": 155,
+    "events": 158,
     "companiesWithEvents": 33,
-    "confirmedEvents": 120,
+    "confirmedEvents": 123,
     "undatedEvents": 10,
     "estimatedEvents": 14,
     "reportedEvents": 11,
@@ -7069,6 +7069,79 @@
         "USSF-317/627 exact launch completion dates/times not resolved against authoritative SpaceX/FAA/NASA postflight sources; do not label secondary dates confirmed.",
         "FAA latest PEIS scoping page accessible; full FCC Direct-to-Cell docket and NASA/defense-award databases not exhaustively swept. No assertion of no developments at those sources.",
         "All 33 issuer landing pages checked; not every linked newsroom and historical SEC filing reviewed. The Oct15 2026 complete 79-source harvest checkedAt and 78/79 counts deliberately preserved, not represented as current."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-18T16:56:30.000Z",
+      "scope": "Nov19 HKT targeted 33 issuer IR/newsroom source-entry review plus NVIDIA/Q3, Microsoft Ignite, OpenAI product, SpaceXSI/NASA, SEC 10-Q and FAA targeted primary evidence. Oct15 79-source harvest NOT rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "LRCX",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "ARM",
+        "SNOW",
+        "SPACEX",
+        "ADBE",
+        "NET"
+      ],
+      "verifiedChanges": [
+        "NVIDIA November 17 official Q3 FY2027: revenue $115.844bn, Data Center $107.6bn; Q4 $130bn +/-3% revenue guide including extra week, zero China DC compute, gross margin 71–72%; booked earnings results separately from forward guide.",
+        "SpaceXSI/NVIDIA November17: Vera Rubin NVL72 shipping and already running at several partners, but SpaceXSI only 'coming online soon' according to NVIDIA. No verified installed SpaceXSI GPUs/MW or delivered compute revenue from this source.",
+        "Microsoft Ignite Nov17–20 existing conference entry enriched with Nov17 official announcements: Copilot Workspaces/Autopilot, Microsoft IQ, Salesforce plugin preview, Code/Cyber models, Cobalt 200 GA. Did not add a redundant conference keynote card.",
+        "OpenAI GPT-6.2 Astra/Sol dated Nov17 from official newsroom, with launch availability and vendor-claimed API input/cache/output prices and performance benchmarks explicitly flagged as company claims.",
+        "NASA November18 CRS-35 Dragon undocking weather stand-down; November19 12:05 EST next possible window is NOT recorded as a confirmed execution. No unconfirmed actual undocking asserted.",
+        "SPACEX Nasdaq:SPCX public company, internal SPACEX: Q2 and Q3 results and Oct22 Q3 SEC 10-Q verified as historically reported; as-of review no company confirmed Q4/FY2026 earnings date. Investor IR rows partly dynamic.",
+        "FA A Nov17–19 virtual meetings and Dec7 PEIS comment deadline from official FAA page retained; no grant/flight approval inferred. USSF-317/627 exact launch outcomes remain provisional due to conflicting/stale official manifest vs secondary reports."
+      ],
+      "coverageGaps": [
+        "Adobe financial newsroom and Cloudflare IR entry blocked (2/33); 14 partially rendered or dynamically populated IR/newsroom pages: NVDA, AAPL, ORCL, CRM, NOW, LRCX, MU, AMZN, GOOGL, META, CRWV, ARM, SNOW, SPACEX.",
+        "SpaceX IR quarterly results/event tables partly dynamic; SEC primary 2026-10-22 Q3 Form10-Q and October 20 Q3 webcast corroborated but filing-by-filing post-Nov13 sweep not exhaustive; no officially dated Q4/FY2026 release.",
+        "SpaceX official launch manifest is stale/conflicts with evolving USSF-317/627 schedule; no primary after-flight exact time reconciliation. FAA PEIS comments are regulatory consultation; no new license inferred.",
+        "NASA/defense/FCC databases not exhaustively searched; no proof of absence of new contracts/spectrum action.",
+        "October15 full 79-source historical audit was not rerun. Company entry-point checks do not equal comprehensive audit."
       ]
     }
   ]
