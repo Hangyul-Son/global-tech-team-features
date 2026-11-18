@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-17T16:56:05.000Z",
+  "lastAttempt": "2026-11-18T16:56:30.000Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -607,19 +607,19 @@
       "companies": [
         "NVDA"
       ],
-      "title": "NVIDIA Q3 FY2027 results & conference call",
+      "title": "NVIDIA Q3 FY2027 actual results: $115.8bn revenue, $107.6bn Data Center; Q4 guide $130bn",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-17",
       "endDate": null,
       "window": null,
       "time": "CFO written commentary / results ~13:20 PT; conference call 14:00 PT (17:00 ET)",
-      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
-      "sourceLabel": "NVIDIA · October 28 earnings-call announcement",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
-      "verifiedAt": "2026-10-30T17:06:53.597Z",
-      "basis": "NVIDIA's October 28 official release schedules its Q3 FY2027 results call for November 17 at 14:00 Pacific (22:00 UTC / November 18 06:00 Hong Kong). Written CFO commentary is expected immediately after results are announced around 13:20 Pacific. The commentary/release timing is approximate; the call start is explicitly scheduled.",
-      "importance": "AI accelerator demand, networking and data-center revenue.",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+      "sourceLabel": "NVIDIA · November 17 official Q3 FY2027 earnings release",
+      "sourceCheckedAt": "2026-11-18T16:56:30.000Z",
+      "verifiedAt": "2026-11-18T16:56:30.000Z",
+      "basis": "NVIDIA reported actual Q3 FY2027 results on November 17 (period ended October 25): revenue $115.844bn (+103% YoY, +20% QoQ), Data Center $107.6bn (+110% YoY), non-GAAP gross margin 74.9% and diluted non-GAAP EPS $2.68. Q4 FY2027 guidance is revenue $130.0bn +/-3%, including a 14-week quarter, with 71-72% GAAP/non-GAAP gross margin and ZERO China Data Center compute sales assumed. NVIDIA said Vera Rubin NVL72 had shipped and was running at some partners; SpaceXSI infrastructure was described as 'coming online soon' and is NOT verified as currently energized. The originally scheduled November 17 14:00 PST/17:00 EST earnings call occurred; original event clock remains the issuer-published start time. Colette Kress is interim CEO after the Nov12 leadership change.",
+      "importance": "Largest AI accelerator revenue indicator. Separate Q4 guidance vs actuals; SpaceXSI is prospective deployment, not shipped units/energized GW at the customer.",
       "sources": [
         {
           "label": "NVIDIA · official earnings call announcement",
@@ -644,6 +644,12 @@
           "url": "https://stockanalysis.com/stocks/nvda/",
           "kind": "estimate",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "NVIDIA official November 17 Q3 FY27 actual results and Q4 outlook",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-18T16:56:30.000Z"
         }
       ],
       "dateConflict": "The official November 17 event and 14:00 PT call supersede an older November 18 provider estimate; the October 28 issuer press release supplies the time.",
@@ -1443,16 +1449,28 @@
       "time": null,
       "sourceUrl": "https://ignite.microsoft.com/en-US/get-help",
       "sourceLabel": "Microsoft · official Ignite event configuration",
-      "sourceCheckedAt": "2026-10-15T07:46:07.615401+00:00",
-      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
-      "basis": "Microsoft’s official event page metadata specifies November 17–20, 2026. Its embedded event configuration gives a November 17 start and November 20 end in Pacific time.",
-      "importance": "Enterprise AI, Azure infrastructure and software demand.",
+      "sourceCheckedAt": "2026-11-18T16:56:30.000Z",
+      "verifiedAt": "2026-11-18T16:56:30.000Z",
+      "basis": "Microsoft’s official event page metadata specifies November 17–20, 2026. Its embedded event configuration gives a November 17 start and November 20 end in Pacific time. Microsoft November 17 official Ignite announcement reports launch of Copilot Workspaces and Autopilot, Microsoft IQ, Agent 365 analytics, Copilot–Salesforce plugin (PREVIEW), Microsoft Code 2 / Cyber models and general availability of Azure Cobalt 200 VMs. Microsoft says Cobalt 200 VMs deliver up to 50% performance uplift vs prior generation, reach 23 regions by end-2026 and become a significant share of new Azure compute in 2027: this is company guidance, not capacity currently installed. Original Nov17–20 conference dates unchanged.",
+      "importance": "Enterprise AI/agent distribution, Salesforce integration (preview), Azure custom CPU ecosystem; Cobalt 200 regional expansion forecast rather than realized deployment.",
       "sources": [
         {
           "label": "Microsoft · official Ignite event configuration",
           "url": "https://ignite.microsoft.com/en-US/get-help",
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+        },
+        {
+          "label": "Microsoft official November 17 Ignite 2026 launch summary",
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/",
+          "kind": "official",
+          "checkedAt": "2026-11-18T16:56:30.000Z"
+        },
+        {
+          "label": "Microsoft official Ignite keynote: models, Maia 300, agent/compute stack",
+          "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+          "kind": "official",
+          "checkedAt": "2026-11-18T16:56:30.000Z"
         }
       ]
     },
@@ -5485,8 +5503,102 @@
           "checkedAt": "2026-11-17T16:56:05.000Z"
         }
       ]
+    },
+    {
+      "id": "openai-gpt62-astra-sol-launch-2026-11-17",
+      "companies": [
+        "OPENAI"
+      ],
+      "title": "OpenAI introduces GPT-6.2 Astra and Sol; new API price/per-task efficiency claims",
+      "type": "Product",
+      "status": "confirmed",
+      "date": "2026-11-17",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "sourceLabel": "OpenAI official model launch article and November 17 newsroom listing",
+      "sourceCheckedAt": "2026-11-18T16:56:30.000Z",
+      "verifiedAt": "2026-11-18T16:56:30.000Z",
+      "basis": "OpenAI's official newsroom lists 'Introducing GPT-6.2 Astra and Sol' under November 17, 2026, and the launch article states access starts 'today' for eligible ChatGPT Work/Codex users and developers. Astra API list rates: $8/million input, $0.40/million cached input, $40/million output; OpenAI describes a 20% input/output rate reduction and 60% additional cache discount vs GPT-6 Astra; Sol keeps prior GPT-6.1 Sol rates. Vendor-reported benchmarking and cost-per-task comparisons are not independently audited, and no ARR/bookings were disclosed.",
+      "importance": "Frontier AI model economics, API competitive pricing, inference token efficiency; no direct disclosed revenue guidance.",
+      "sources": [
+        {
+          "label": "OpenAI November 17 official newsroom listing confirming announcement date",
+          "url": "https://openai.com/news/",
+          "kind": "official",
+          "checkedAt": "2026-11-18T16:56:30.000Z"
+        },
+        {
+          "label": "OpenAI official GPT-6.2 Astra/Sol launch page, availability and API pricing",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "kind": "official",
+          "checkedAt": "2026-11-18T16:56:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "spacexsi-vera-rubin-nvda-q3-disclosure-2026-11-17",
+      "companies": [
+        "SPACEX",
+        "NVDA"
+      ],
+      "title": "NVIDIA Q3 disclosure: Vera Rubin racks coming online soon at SpaceXSI (not yet confirmed live)",
+      "type": "AI infrastructure",
+      "status": "confirmed",
+      "date": "2026-11-17",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+      "sourceLabel": "NVIDIA official November 17 Q3 earnings release",
+      "sourceCheckedAt": "2026-11-18T16:56:30.000Z",
+      "verifiedAt": "2026-11-18T16:56:30.000Z",
+      "basis": "In its November 17 Q3 FY2027 earnings release, NVIDIA said Vera Rubin NVL72 systems had started shipping and racks were running at CoreWeave, Google Cloud, Azure, OCI and Nebius, while SpaceXSI systems were 'coming online soon.' This is a confirmed date for NVIDIA'S STATEMENT only. It is NOT confirmation that SpaceXSI racks are currently online, a completed SpaceX purchase/payment, capacity in MW/GW, installed GPUs, recognized SpaceXAI revenue or a definite commissioning date. Company product/technology claim, not a SpaceX SEC/IR earnings disclosure.",
+      "importance": "Cross-check SpaceX Super Intelligence capex/compute rollout against NVIDIA infrastructure shipments; mark SpaceXSI capacity as prospective rather than energized.",
+      "sources": [
+        {
+          "label": "NVIDIA November 17 Q3 earnings statement identifying SpaceXSI as coming online soon",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-18T16:56:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-nasa-crs35-undocking-weather-standdown-2026-11-18",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "NASA/SpaceX CRS-35 Dragon undocking stood down on weather; next opportunity NET Nov 19",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-18",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
+      "sourceLabel": "NASA November 18 ISS official mission update",
+      "sourceCheckedAt": "2026-11-18T16:56:30.000Z",
+      "verifiedAt": "2026-11-18T16:56:30.000Z",
+      "basis": "NASA announced November 18 that the CRS-35 Dragon undocking opportunity on WEDNESDAY November 18 was cancelled because of unfavorable California-area splashdown weather. NASA described Thursday November 19 at 12:05 PM EST as the NEXT AVAILABLE undocking opportunity, subject to its November 18 12 PM EST weather review and further NASA updates. The calendar date is the confirmed stand-down announcement; neither the November 19 undocking nor splashdown is marked completed, confirmed, or assigned an actual start time. No earnings or additional contract revenue inferred.",
+      "importance": "NASA commercial resupply service operations; weather-related schedule change, not a launch failure or newly awarded contract.",
+      "sources": [
+        {
+          "label": "NASA ISS November 18 weather stand-down and provisional November 19 undocking opportunity",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
+          "kind": "official",
+          "checkedAt": "2026-11-18T16:56:30.000Z"
+        },
+        {
+          "label": "NASA official SpaceX CRS-35 mission overview",
+          "url": "https://www.nasa.gov/mission/nasas-spacex-crs-35/",
+          "kind": "official",
+          "checkedAt": "2026-11-18T16:56:30.000Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov18 HKT targeted review of 33/33 issuer entry points; four blocked (Adobe, ASML, CrowdStrike, Cloudflare), fourteen limited/dynamic. Two official Nov17 OpenAI announcements added: NATO/NCIA Daybreak defensive AI usage up to 300bn tokens per MONTH (not ARR or guaranteed recurring usage); Chile cooperation MoU expressly no purchasing/investment commitments. Nvidia Nov17 17:00 ET earnings call pending at review cutoff (06:00 HKT Nov18); do not report unannounced results. Public Nasdaq:SPCX Q2/Q3 earnings and SEC disclosures retained; no verified Q4 date, new SEC accession or authoritative changed USSF-317/627 flight times established. FAA Nov17–19 virtual meetings and Dec7 comment deadline remain regulatory not approvals. Historic 79-source full harvest Oct15 not rerun; mobile List frontend unchanged.",
-  "lastPartialReview": "2026-11-17T16:56:05.000Z"
+  "verificationNote": "Nov19 HKT targeted 33/33 issuer entry-page review (2 blocked: Adobe, Cloudflare; 14 limited/dynamic). Updated NVIDIA November 17 Q3 FY27 actual $115.8bn sales, $107.6bn DC, Q4 $130bn +/-3% guide / no China DC compute; clarified SpaceXSI Vera Rubin racks are 'coming online soon' NOT energized GW or a dated SpaceX sale. November17 OpenAI GPT-6.2 Astra/Sol confirmed product release, Microsoft Ignite keynote details merged into existing conference card. November18 NASA CRS-35 weather undocking stand-down confirmed; Nov19 next opportunity not completed. SpaceX public Nasdaq:SPCX Q2/Q3 earnings and SEC Form10-Q remain; no verified Q4 earnings day or new primary confirmed USSF-317/627 timings. FAA Nov17–19 virtual PEIS and Dec7 comment deadline remain regulatory. Original Oct15 complete 79-source audit not rerun; frontend compact mobile List untouched.",
+  "lastPartialReview": "2026-11-18T16:56:30.000Z"
 }
