@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-18T16:56:30.000Z",
+  "lastAttempt": "2026-11-19T17:05:32.581Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -778,33 +778,37 @@
       "companies": [
         "CRM"
       ],
-      "title": "Salesforce earnings",
+      "title": "Salesforce Q3 FY2027 earnings release and webcast",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-12-02",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat publishes 2026-12-02 as its next estimated earnings date, based on past reporting schedules. This is a provider estimate, not a company-confirmed announcement. No release time has been confirmed.",
-      "importance": "Agentforce adoption, bookings and enterprise AI budgets.",
+      "time": "Results after U.S. market close Dec 2; earnings webcast 2:00 p.m. PST / 5:00 p.m. EST (Dec 3 06:00 HKT)",
+      "sourceUrl": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
+      "sourceLabel": "Salesforce official November 10 earnings-date announcement",
+      "sourceCheckedAt": "2026-11-19T17:05:32.581Z",
+      "verifiedAt": "2026-11-19T17:05:32.581Z",
+      "basis": "Salesforce's November 10, 2026 first-party investor release explicitly fixes Q3 FY2027 RESULTS for Wednesday December 2 after U.S. market close and its earnings WEBCAST at 2:00 PM Pacific (PST, 22:00 UTC; December 3 06:00 Hong Kong). This upgrades a prior MarketBeat estimate to issuer-confirmed. The precise financial press-release clock time was not disclosed; startAt is the webcast only.",
+      "importance": "Agentforce/data ARR and unit consumption, organic cloud growth, margin outlook and bookings; actual reporting date and call time independently confirmed.",
       "sources": [
         {
-          "label": "MarketBeat earnings calendar",
-          "url": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+          "label": "Salesforce Nov 10 official Q3 FY27 earnings-date announcement",
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-19T17:05:32.581Z"
         },
         {
-          "label": "Stock Analysis",
-          "url": "https://stockanalysis.com/stocks/crm/",
+          "label": "Historical MarketBeat estimate (superseded by official)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/CRM/earnings/",
           "kind": "estimate",
-          "checkedAt": "2026-10-15T07:46:07.615401+00:00"
+          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-12-02T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-19T17:05:32.581Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "ADBE-2026-12-earnings",
@@ -2025,30 +2029,36 @@
       "companies": [
         "PANW"
       ],
-      "title": "Palo Alto Networks Q1 FY2027 results and earnings call",
+      "title": "Palo Alto Networks Q1 FY2027 actual: $3.445bn revenue, NGS ARR $9.73bn; FY27 outlook raised",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-18",
       "endDate": null,
       "window": null,
       "time": "Earnings call: Nov 18, 13:30 PST (Nov 19, 05:30 HKT)",
-      "sourceUrl": "https://investors.paloaltonetworks.com/events/event-details/q1-fy2027-palo-alto-networks-inc-earnings-call",
-      "sourceLabel": "Palo Alto Networks official investor earnings event",
-      "sourceCheckedAt": "2026-11-03T17:03:57.251Z",
-      "verifiedAt": "2026-11-03T17:03:57.251Z",
-      "basis": "Palo Alto Networks' official investor event identifies Q1 FY2027 earnings call on November 18, 2026 at 1:30 p.m. PST. This verifies the earnings call date/time; the precise release time is not separately specified. Prior provider estimate for the reporting date has been superseded by this first-party event listing.",
-      "importance": "Platformization, enterprise cybersecurity budgets, AI security adoption and revenue guidance; verified earnings-call time.",
+      "sourceUrl": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2027-financial",
+      "sourceLabel": "Palo Alto Networks official November 18 FY27 Q1 results and previously announced 1:30pm PST webcast",
+      "sourceCheckedAt": "2026-11-19T17:05:32.581Z",
+      "verifiedAt": "2026-11-19T17:05:32.581Z",
+      "basis": "Palo Alto Networks' November 18, 2026 first-party fiscal Q1 FY2027 results report $3.445bn revenue (+39% YoY), Next-Generation Security ARR $9.73bn (+66%), RPO $21.0bn (+35%), GAAP operating income $96m and adjusted FCF $1.9bn (56.2% adjusted FCF margin). Company raised FY27 revenue guidance to $14.52bn–$14.57bn and guided FY27 NGS ARR $11.475bn–$11.525bn; Q2 FY27 revenue outlook $3.530bn–$3.550bn. Results released after US market close November 18; webcast at 1:30pm PST (21:30 UTC / Nov19 05:30 HKT). Adjusted FCF is not GAAP free cash flow; acquisitions and future guidance not counted as realized bookings.",
+      "importance": "Cybersecurity platformization ARR acceleration, multi-product consolidation and stronger FY27 guide; adjacent open-weight AI inference acquisition is a separate event.",
       "sources": [
         {
-          "label": "Palo Alto Networks Q1 FY2027 official earnings call",
-          "url": "https://investors.paloaltonetworks.com/events/event-details/q1-fy2027-palo-alto-networks-inc-earnings-call",
+          "label": "PANW November 18 FY2027 Q1 financial results/actuals/guide",
+          "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2027-financial",
           "kind": "official",
-          "checkedAt": "2026-11-03T17:03:57.251Z"
+          "checkedAt": "2026-11-19T17:05:32.581Z"
+        },
+        {
+          "label": "PANW official Nov 3 earnings-call scheduling announcement",
+          "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-announce-fiscal-first-quarter-2027-financial",
+          "kind": "official",
+          "checkedAt": "2026-11-19T17:05:32.581Z"
         }
       ],
       "startAt": "2026-11-18T21:30:00Z",
       "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-11-03T17:03:57.251Z",
+      "timeCheckedAt": "2026-11-19T17:05:32.581Z",
       "timeCertainty": "verified"
     },
     {
@@ -5597,8 +5607,35 @@
           "checkedAt": "2026-11-18T16:56:30.000Z"
         }
       ]
+    },
+    {
+      "id": "panw-applied-compute-acquisition-announcement-2026-11-18",
+      "companies": [
+        "PANW"
+      ],
+      "title": "Palo Alto Networks announces $4.5bn all-stock Applied Compute acquisition (not closed)",
+      "type": "M&A",
+      "status": "confirmed",
+      "date": "2026-11-18",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+      "sourceLabel": "Palo Alto Networks official November 18 definitive acquisition agreement announcement",
+      "sourceCheckedAt": "2026-11-19T17:05:32.581Z",
+      "verifiedAt": "2026-11-19T17:05:32.581Z",
+      "basis": "On November 18, 2026 Palo Alto Networks said it entered a definitive agreement to acquire Applied Compute, a private post-training and inference platform for open-weight AI. Transaction is valued at approximately $4.5bn in Palo Alto Networks stock, subject to adjustments, regulatory clearances and other closing conditions. Management expects closing in Palo Alto Networks fiscal Q3 FY2027; there is NO company-confirmed calendar day for completion. This event is the signed/announced AGREEMENT, not an executed acquisition or recognized recurring revenue. No verified MW/GPU purchases, inference revenue, or capex volumes disclosed.",
+      "importance": "A $4.5bn equity-funded transaction potentially extending PANW beyond cyber defense into custom enterprise open-model training and inference; distinct from cybersecurity bookings or confirmed close.",
+      "sources": [
+        {
+          "label": "Palo Alto Networks November 18 acquisition agreement, valuation and conditional FY27 Q3 expected closing",
+          "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+          "kind": "official",
+          "checkedAt": "2026-11-19T17:05:32.581Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov19 HKT targeted 33/33 issuer entry-page review (2 blocked: Adobe, Cloudflare; 14 limited/dynamic). Updated NVIDIA November 17 Q3 FY27 actual $115.8bn sales, $107.6bn DC, Q4 $130bn +/-3% guide / no China DC compute; clarified SpaceXSI Vera Rubin racks are 'coming online soon' NOT energized GW or a dated SpaceX sale. November17 OpenAI GPT-6.2 Astra/Sol confirmed product release, Microsoft Ignite keynote details merged into existing conference card. November18 NASA CRS-35 weather undocking stand-down confirmed; Nov19 next opportunity not completed. SpaceX public Nasdaq:SPCX Q2/Q3 earnings and SEC Form10-Q remain; no verified Q4 earnings day or new primary confirmed USSF-317/627 timings. FAA Nov17–19 virtual PEIS and Dec7 comment deadline remain regulatory. Original Oct15 complete 79-source audit not rerun; frontend compact mobile List untouched.",
-  "lastPartialReview": "2026-11-18T16:56:30.000Z"
+  "verificationNote": "Nov20 HKT targeted review of all 33 tracked issuer landing pages (3 blocked: Adobe, Palo Alto IR homepage, Cloudflare; 16 limited/dynamic). Confirmed Salesforce Dec2 Q3 FY27 earnings webcast 2pm PST from Nov10 issuer announcement (upgraded old estimate); updated PANW Nov18 FY27 Q1 actuals $3.445bn revenue, $9.73bn NGS ARR, FY27 $14.52bn–$14.57bn sales guide; added Nov18 $4.5bn all-stock Applied Compute definitive acquisition agreement (conditional FY27 Q3 close, no exact completion date). SpaceX public Nasdaq:SPCX / internal SPACEX Q2/Q3 earnings and Oct22 SEC Q3 10-Q rechecked; Q4/FY26 earnings date remains unannounced; Starship/USSF mission times not upgraded, NASA CRS-35 Nov19 opportunity not treated as executed. FAA Nov17–19 meetings/Dec7 comment deadline are regulatory, not flight authorizations. Oct15 full 79-source audit not rerun. Compact mobile List unchanged.",
+  "lastPartialReview": "2026-11-19T17:05:32.581Z"
 }
