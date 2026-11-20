@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-19T17:05:32.581Z",
+  "lastAttempt": "2026-11-20T17:07:14.977Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -889,31 +889,25 @@
       "companies": [
         "MU"
       ],
-      "title": "Micron earnings",
+      "title": "Micron Q1 FY2027 earnings webcast — December 17, 2:30 PM Mountain",
       "type": "Earnings",
-      "status": "estimated",
-      "date": "2026-12-23",
+      "status": "confirmed",
+      "date": "2026-12-17",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
-      "sourceLabel": "MarketBeat · historical-schedule estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat still explicitly estimates December 23, 2026; Stock Analysis now displays an estimated December 16. No official next-earnings announcement was found in the reviewed Micron event feed. Retain the existing December 23 provider estimate, flag the disagreement, and do not infer a time.",
-      "importance": "HBM revenue, memory pricing and supply discipline.",
+      "time": "14:30 MST (16:30 EST / Dec 18, 05:30 HKT)",
+      "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-First-Quarter-Results-on-December-17-2026/default.aspx",
+      "sourceLabel": "Micron official November 19, 2026 Q1 FY2027 earnings call notice",
+      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "verifiedAt": "2026-11-20T17:07:14.977Z",
+      "basis": "On November 19, Micron officially announced a fiscal FIRST QUARTER earnings conference call for THURSDAY December 17, 2026 at 2:30 p.m. US Mountain time (MST, 21:30 UTC, Friday December 18 05:30 Hong Kong). Supersedes the previously displayed provider ESTIMATE of December 23. No fiscal Q1 results, guidance, or earnings release time beyond the webcast has been announced in this source.",
+      "importance": "Official HBM/DRAM supply, AI memory pricing and FY27 guidance catalyst; previously inaccurate December 23 estimate replaced.",
       "sources": [
         {
-          "url": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
-          "label": "MarketBeat next earnings estimate",
-          "kind": "estimate",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
-        },
-        {
-          "url": "https://stockanalysis.com/stocks/mu/",
-          "label": "Stock Analysis next earnings estimate",
-          "kind": "estimate",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+          "label": "Micron Nov 19 FY2027 Q1 earnings confirmation",
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-First-Quarter-Results-on-December-17-2026/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
         }
       ],
       "dateConflict": "MarketBeat estimates December 23 versus Stock Analysis December 16. No company-confirmed date was established."
@@ -1494,8 +1488,8 @@
       "sourceLabel": "Anthropic official November 10, 2026 announcement",
       "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
       "verifiedAt": "2026-11-10T17:07:17.494Z",
-      "basis": "Anthropic formally announced on November 10, 2026 that its Class A IPO roadshow HAS BEGUN. Proposed offering 825,000,000 shares: 801,351,354 primary shares and 23,648,646 shareholder shares, plus an expected underwriter option for up to 123,750,000 additional shares. Preliminary expected price RANGE $70–78, Nasdaq ticker ANT applied for. SEC registration statement NOT yet effective; neither final offer price, pricing day nor trading debut has been announced. November 10 is the confirmed ROADSHOW announcement/launch date, NOT the IPO date.",
-      "importance": "Major AI equity capital-markets catalyst; preliminary valuation/issuance sensitivity, primary-versus-secondary proceeds and no issuer-confirmed first trading day.",
+      "basis": "Anthropic formally announced the IPO roadshow launch on November 10, 2026. At THAT historical announcement its proposed 825m-share issuance carried an indicative $70–78 price range, and listing was not yet confirmed. Subsequently the offering was repriced and enlarged: issuer confirmed $83/share on November 18, Nasdaq ANT debut November 19, and completed IPO and Class N placement November 20. Do not reuse the November 10 indicative range as final pricing.",
+      "importance": "Historically confirmed roadshow milestone; preliminary terms superseded by Nov 18 pricing and Nov 20 closing, separately tracked.",
       "sources": [
         {
           "label": "Anthropic issuer announcement Nov 10: IPO roadshow launch",
@@ -1510,41 +1504,34 @@
       "companies": [
         "ANTHROPIC"
       ],
-      "title": "Anthropic proposed Nasdaq ANT IPO · exact listing date unannounced",
+      "title": "Anthropic (ANT) begins Nasdaq trading on November 19 — completed IPO",
       "type": "IPO watch",
-      "status": "estimated",
+      "status": "confirmed",
       "window": null,
-      "date": null,
+      "date": "2026-11-19",
       "endDate": null,
       "time": null,
-      "sourceUrl": "https://www.anthropic.com/news/roadshow-launch",
-      "sourceLabel": "Anthropic official Nov 10 IPO roadshow; listing day not confirmed",
-      "verifiedAt": null,
-      "basis": "Anthropic launched the IPO roadshow Nov 10 for a proposed 825m-share offering with an INDICATIVE $70–78 price range; registration statement remains NOT effective. Anthropic has applied for Nasdaq ANT. No exact pricing or first trading date has been announced. Earlier press speculation about November 16 or late November remains a reported timing indication only, not a company confirmation or completed IPO.",
-      "importance": "Watch item only. No IPO or listing date has been verified.",
-      "sourceCheckedAt": "2026-11-10T17:07:17.494Z",
+      "sourceUrl": "https://www.anthropic.com/news/ipo-close",
+      "sourceLabel": "Anthropic November 20 closing announcement confirms November 19 Nasdaq ANT first trading day",
+      "verifiedAt": "2026-11-20T17:07:14.977Z",
+      "basis": "Anthropic's November 20 company announcement expressly confirms its Class A common stock BEGAN TRADING on Nasdaq Global Select Market on THURSDAY November 19, 2026, under ANT. This is the actual trading debut, not the November 20 closing or November 18 pricing date. The IPO closed November 20, with full greenshoe exercise and concurrent private placement; these are separately recorded events. Former speculative November listing window is superseded and removed.",
+      "importance": "Confirmed frontier-AI IPO trading debut, public equity liquidity and primary-versus-secondary funding; firm-date milestone confirmed retroactively by issuer.",
+      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
       "sources": [
         {
-          "label": "Anthropic Nov 10 roadshow announcement (no listing date)",
-          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "label": "Anthropic Nov 20 company release: ANT first traded Nov 19",
+          "url": "https://www.anthropic.com/news/ipo-close",
           "kind": "official",
-          "checkedAt": "2026-11-10T17:07:17.494Z"
+          "checkedAt": "2026-11-20T17:07:14.977Z"
         },
         {
-          "label": "CNN Oct 26 speculative timing (historical)",
-          "url": "https://www.cnn.com/2026/10/26/tech/anthropic-files-ipo",
-          "kind": "report",
-          "checkedAt": "2026-11-10T17:07:17.494Z"
+          "label": "Anthropic Nov 18 IPO pricing release, listing then expected for Nov 19",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
         }
       ],
-      "estimateKind": "reported-target",
-      "timingWindow": {
-        "start": "2026-11-01",
-        "end": "2026-11-30",
-        "label": "November 2026 · reported target",
-        "precision": "month"
-      },
-      "dateConflict": "Nov 10 issuer-confirmed roadshow is not an IPO debut. Earlier November 16 versus late-November timing speculation is unconfirmed; no verified listing day."
+      "timingWindow": null
     },
     {
       "id": "gtc-berlin-2026",
@@ -1965,31 +1952,25 @@
       "companies": [
         "SNOW"
       ],
-      "title": "Snowflake earnings",
+      "title": "Snowflake Q3 FY2027 earnings — company-confirmed December 2",
       "type": "Earnings",
-      "status": "estimated",
+      "status": "confirmed",
       "date": "2026-12-02",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
-      "sourceLabel": "MarketBeat · published earnings estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
-      "verifiedAt": null,
-      "basis": "MarketBeat explicitly labels this next earnings date as estimated from past reporting schedules. It is not company-confirmed here; no release time has been verified.",
-      "importance": "Data-cloud consumption, AI workloads and enterprise data spending.",
+      "sourceUrl": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q3-FY27-Earnings/default.aspx",
+      "sourceLabel": "Snowflake official investor events page for Q3 FY27 Earnings",
+      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "verifiedAt": "2026-11-20T17:07:14.977Z",
+      "basis": "Snowflake's official investor-events page explicitly lists 'Snowflake Q3 FY27 Earnings' on December 2, 2026 and provides a webcast/calendar link. This directly upgrades the previous third-party estimated date to confirmed. The official page does not expose a verified clock time; no time or timezone is inserted.",
+      "importance": "Confirmed enterprise data-cloud/AI usage and consumption-based software revenue catalyst; official date replaces provider estimate.",
       "sources": [
         {
-          "label": "MarketBeat · published earnings estimate",
-          "url": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-28T03:04:31.746796+00:00"
-        },
-        {
-          "label": "Stock Analysis · published earnings estimate",
-          "url": "https://stockanalysis.com/stocks/snow/",
-          "kind": "estimate",
-          "checkedAt": "2026-10-15T14:42:26.060851+00:00"
+          "label": "Snowflake Q3 FY27 IR event, December 2",
+          "url": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q3-FY27-Earnings/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
         }
       ]
     },
@@ -5580,7 +5561,7 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "NASA/SpaceX CRS-35 Dragon undocking stood down on weather; next opportunity NET Nov 19",
+      "title": "NASA/SpaceX CRS-35 weather stand-down Nov 18; revised NET Nov 20 undocking",
       "type": "Operating update",
       "status": "confirmed",
       "date": "2026-11-18",
@@ -5589,22 +5570,22 @@
       "time": null,
       "sourceUrl": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
       "sourceLabel": "NASA November 18 ISS official mission update",
-      "sourceCheckedAt": "2026-11-18T16:56:30.000Z",
-      "verifiedAt": "2026-11-18T16:56:30.000Z",
-      "basis": "NASA announced November 18 that the CRS-35 Dragon undocking opportunity on WEDNESDAY November 18 was cancelled because of unfavorable California-area splashdown weather. NASA described Thursday November 19 at 12:05 PM EST as the NEXT AVAILABLE undocking opportunity, subject to its November 18 12 PM EST weather review and further NASA updates. The calendar date is the confirmed stand-down announcement; neither the November 19 undocking nor splashdown is marked completed, confirmed, or assigned an actual start time. No earnings or additional contract revenue inferred.",
-      "importance": "NASA commercial resupply service operations; weather-related schedule change, not a launch failure or newly awarded contract.",
+      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "verifiedAt": "2026-11-20T17:07:14.977Z",
+      "basis": "NASA announced November 18 that CRS-35 Dragon's November 18 undocking was cancelled due to recovery-area weather. Its Nov 17 media advisory, subsequently UPDATED ON NOVEMBER 19, sets departure NO EARLIER THAN FRIDAY November 20 at a conditional 12:05 PM EST opportunity, pending weather; splashdown target approximately November 21. November 19 as next opportunity is now SUPERSEDED. The calendar's November 18 date is the confirmed STAND-DOWN date ONLY. At this review no primary-source confirmation establishes that the November 20 undocking or November 21 recovery ACTUALLY OCCURRED. Never infer completion or backdate the proposed attempt to November 18.",
+      "importance": "NASA operational timing and weather risk; explicitly distinguish Nov 18 cancellation from evolving Nov 20 conditional undocking target.",
       "sources": [
         {
-          "label": "NASA ISS November 18 weather stand-down and provisional November 19 undocking opportunity",
+          "label": "NASA Nov 18 official CRS-35 weather stand-down",
           "url": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
           "kind": "official",
-          "checkedAt": "2026-11-18T16:56:30.000Z"
+          "checkedAt": "2026-11-20T17:07:14.977Z"
         },
         {
-          "label": "NASA official SpaceX CRS-35 mission overview",
-          "url": "https://www.nasa.gov/mission/nasas-spacex-crs-35/",
+          "label": "NASA advisory updated Nov 19: undocking NET Fri Nov 20",
+          "url": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
           "kind": "official",
-          "checkedAt": "2026-11-18T16:56:30.000Z"
+          "checkedAt": "2026-11-20T17:07:14.977Z"
         }
       ]
     },
@@ -5634,8 +5615,148 @@
           "checkedAt": "2026-11-19T17:05:32.581Z"
         }
       ]
+    },
+    {
+      "id": "anthropic-ipo-priced-83-per-share-2026-11-18",
+      "companies": [
+        "ANTHROPIC"
+      ],
+      "title": "Anthropic prices Class A IPO at $83 per share; SEC registration effective",
+      "type": "IPO watch",
+      "status": "confirmed",
+      "date": "2026-11-18",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "sourceLabel": "Anthropic official November 18 final IPO pricing and effectiveness announcement",
+      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "verifiedAt": "2026-11-20T17:07:14.977Z",
+      "basis": "On November 18 Anthropic priced an INITIAL Class A public offering of 980,000,000 shares at $83/share (956,351,354 issuer primary and 23,648,646 selling-stockholder secondary) and confirmed SEC registration effectiveness Nov 18. The issuer at that point EXPECTED Nasdaq ANT first trading Nov 19 and closing Nov 20; those subsequently happened and are recorded separately, not assumed from forward guidance. The Nov 18 priced shares EXCLUDED the 147m greenshoe subsequently exercised in full. Do not confuse the Nov 10 roadshow's preliminary $70–78 with final $83.",
+      "importance": "Confirmed offering price and actual equity capital raised trajectory; SEC effectiveness, primary vs secondary and fully exercised greenshoe tracked separately.",
+      "sources": [
+        {
+          "label": "Anthropic Nov 18 offering priced at $83",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
+        },
+        {
+          "label": "Anthropic Nov 20 completion and full greenshoe exercise",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-close-classn-26bn-2026-11-20",
+      "companies": [
+        "ANTHROPIC",
+        "AMD",
+        "AVGO",
+        "GOOGL",
+        "MU",
+        "MSFT",
+        "NVDA",
+        "TSM"
+      ],
+      "title": "Anthropic IPO closes: $93.5bn gross Class A offering plus $26bn Class N placement to AI chip/cloud partners",
+      "type": "Financing",
+      "status": "confirmed",
+      "date": "2026-11-20",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.anthropic.com/news/ipo-close",
+      "sourceLabel": "Anthropic official November 20 IPO close and concurrent Class N equity placement",
+      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "verifiedAt": "2026-11-20T17:07:14.977Z",
+      "basis": "Anthropic confirms IPO CLOSED NOVEMBER 20 at $83/share and FULL 147,000,000-share underwriters option exercise: 1,127,000,000 Class A shares total (1,103,351,354 new shares issued by Anthropic and 23,648,646 secondary shareholder shares); gross Class A offering ~$93.5bn, of which ~$91.6bn received by the issuer BEFORE fees, with NO issuer proceeds on selling-shareholder shares. CONCURRENT private placement of 313,253,007 Class N shares at $83 raised ~$26.0bn from AMD, Broadcom, Google LLC, Micron, Microsoft, NVIDIA and TSMC Partners Ltd; per-buyer allocations undisclosed. Combined ~$119.5bn gross includes secondary proceeds and is NOT $119.5bn of corporate cash retained. This is closing date, distinct from Nov 18 pricing and Nov 19 Nasdaq ANT trading debut. No orders, capacity/GW or GPU revenue are inferred from share subscription.",
+      "importance": "Transformative AI financing and cross-ownership signal, primary vs secondary capital, cloud/chip partner funding; avoid double counting capital raised and GPU spend.",
+      "sources": [
+        {
+          "label": "Anthropic Nov 20: executed IPO and private placement",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
+        },
+        {
+          "label": "Anthropic Nov 18 priced Class A terms",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-project-saturn-32bn-bond-placement-reported-2026-11-20",
+      "companies": [
+        "SPACEX",
+        "NVDA"
+      ],
+      "title": "FT reports Project Saturn ~$32bn GPU-backed bonds; proposed orbital collateral restriction unconfirmed",
+      "type": "Financing",
+      "status": "reported",
+      "date": "2026-11-20",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29",
+      "sourceLabel": "Financial Times November 20 reporting; issuer execution/terms not independently filed",
+      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "verifiedAt": null,
+      "basis": "The FINANCIAL TIMES reported November 20 that lenders to SpaceX's GPU-backed Project Saturn sought a covenant barring the pledged NVIDIA Vera Rubin equipment from being launched into orbit, given repossession difficulty, but whether it was in FINAL DOCUMENTS IS UNKNOWN. FT reports ~$43bn contemplated financing, more than $30bn sold on Thursday NOV 19, including ~$25bn investment-grade bonds backed by multi-year SpaceX GPU lease payments, with reported ~8.3% yield. Other outlets describe ~$32bn bonds placed. The EXACT closing docs, financing scope and 32bn vs 43bn definitions have not been issuer/SEC verified. This report may be part of the previously recorded October 26 ~$40bn Apollo-backed finance-lease COMMITMENT and is NOT an independent second $40bn capex commitment. November 20 is report publication, NOT a verified issuer bond issuance/closing date. No conclusion is drawn that orbital data centers are prohibited.",
+      "importance": "Potential near-term GPU debt funding cost, off-balance-sheet finance and collateral covenants; watch executed debt terms and SpaceX SI cash conversion without double counting.",
+      "sources": [
+        {
+          "label": "Financial Times: Project Saturn collateral location and debt financing",
+          "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29",
+          "kind": "report",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
+        },
+        {
+          "label": "Investors Business Daily: Nov 20 $32bn GPU debt reported",
+          "url": "https://www.investors.com/news/spacex-sells-32-billion-debt-yield-nvidia-ai-chip-financing-orbital-data-center-concerns/",
+          "kind": "report",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
+        }
+      ]
+    },
+    {
+      "id": "spacex-valor-antonio-gracias-13ga-2026-11-16",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX SEC 13G/A: Antonio Gracias/Valor report 5.5% Class A beneficial ownership",
+      "type": "Filing",
+      "status": "confirmed",
+      "date": "2026-11-16",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000121390026120715/0001213900-26-120715-index.html",
+      "sourceLabel": "SEC EDGAR Nov 16 amended Schedule 13G; primary document with ownership details",
+      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "verifiedAt": "2026-11-20T17:07:14.977Z",
+      "basis": "SEC accession 0001213900-26-120715 filed NOVEMBER 16 by Antonio J. Gracias names Space Exploration Technologies Corp (Nasdaq SPCX) as SUBJECT, CIK 1181412. Amendment reports 457,614,684 Class A shares (5.5% OF CLASS), as of the SEPTEMBER 30, 2026 event date, with shared voting/disposition power through Valor-related entities and trusts. 5.5% is of outstanding CLASS A not necessarily multi-class overall voting rights. The November 16 13G/A is a THIRD-PARTY OWNERSHIP FILING, NOT evidence of additional issuer proceeds, a November 16 trading transaction, fresh shareholder purchase or new SpaceX 10-Q.",
+      "importance": "Public-company major shareholder transparency and voting ownership; avoid treating ownership snapshot or overlapping Valor holdings as new capital flows.",
+      "sources": [
+        {
+          "label": "SEC Nov 16 Schedule 13G/A filing index",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000121390026120715/0001213900-26-120715-index.html",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
+        },
+        {
+          "label": "SEC primary Schedule 13G/A showing 457.6m Class A / 5.5%",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000121390026120715/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "kind": "official",
+          "checkedAt": "2026-11-20T17:07:14.977Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov20 HKT targeted review of all 33 tracked issuer landing pages (3 blocked: Adobe, Palo Alto IR homepage, Cloudflare; 16 limited/dynamic). Confirmed Salesforce Dec2 Q3 FY27 earnings webcast 2pm PST from Nov10 issuer announcement (upgraded old estimate); updated PANW Nov18 FY27 Q1 actuals $3.445bn revenue, $9.73bn NGS ARR, FY27 $14.52bn–$14.57bn sales guide; added Nov18 $4.5bn all-stock Applied Compute definitive acquisition agreement (conditional FY27 Q3 close, no exact completion date). SpaceX public Nasdaq:SPCX / internal SPACEX Q2/Q3 earnings and Oct22 SEC Q3 10-Q rechecked; Q4/FY26 earnings date remains unannounced; Starship/USSF mission times not upgraded, NASA CRS-35 Nov19 opportunity not treated as executed. FAA Nov17–19 meetings/Dec7 comment deadline are regulatory, not flight authorizations. Oct15 full 79-source audit not rerun. Compact mobile List unchanged.",
-  "lastPartialReview": "2026-11-19T17:05:32.581Z"
+  "verificationNote": "Nov21 HKT targeted 33-company IR/news/filing review: Anthropic final $83 Nov18 IPO pricing, actual Nov19 Nasdaq ANT debut, Nov20 $93.5bn Class A IPO close and $26.0bn partner Class N placement; Micron Q1 FY27 Dec17 earnings replaces estimated Dec23; Snowflake Dec2 earnings upgraded to official; new Nov16 SpaceX/Valor 13G/A and FT-reported Project Saturn financing/collateral concern. NASA CRS-35 NET Nov20 advisory is CONDITIONAL, not actual undocking. SpaceX Nasdaq:SPCX/internal SPACEX Q4/FY26 earnings still undated; exact disputed USSF launch targets unchanged. All 33 source entry points attempted with 3 blocked and dynamic limitations; Oct15 historical 79-source full audit NOT rerun. Compact mobile List code untouched.",
+  "lastPartialReview": "2026-11-20T17:07:14.977Z"
 }
