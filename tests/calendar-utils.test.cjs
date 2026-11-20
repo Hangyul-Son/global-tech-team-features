@@ -66,7 +66,16 @@ test('all-day end dates are exclusive; estimates are tentative',()=>{
  assert.match(out,/SUMMARY:\[Tentative\] Forecast fixture/);
 });
 test('Reported IPO windows are tentative; undated IPO watch items cannot be exported',()=>{
- const out=unfold(Cal.toICS([event('anthropic-ipo')]));
+ // Isolated historical forecast fixture: Anthropic's November IPO is now completed,
+ // so the production event must remain confirmed while this behavior still gets tested.
+ const reportedWindow={...event('anthropic-ipo'),
+  id:'reported-ipo-window-fixture',
+  title:'Hypothetical IPO reported timing window',
+  status:'estimated',date:null,verifiedAt:null,time:null,
+  timingWindow:{start:'2026-11-01',end:'2026-11-30',label:'November 2026 reported window',precision:'month'},
+  estimateKind:'reported-target',
+ };
+ const out=unfold(Cal.toICS([reportedWindow]));
  assert.match(out,/TIMING WINDOW/);
  assert.match(out,/DTSTART;VALUE=DATE:20261101/);
  assert.match(out,/DTEND;VALUE=DATE:20261201/);
