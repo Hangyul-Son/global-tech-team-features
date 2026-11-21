@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-21",
+  "asOf": "2026-11-22",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-20T17:07:14.977Z",
+  "lastAttempt": "2026-11-21T16:58:49Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -5570,9 +5570,9 @@
       "time": null,
       "sourceUrl": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
       "sourceLabel": "NASA November 18 ISS official mission update",
-      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "sourceCheckedAt": "2026-11-21T16:58:49Z",
       "verifiedAt": "2026-11-20T17:07:14.977Z",
-      "basis": "NASA announced November 18 that CRS-35 Dragon's November 18 undocking was cancelled due to recovery-area weather. Its Nov 17 media advisory, subsequently UPDATED ON NOVEMBER 19, sets departure NO EARLIER THAN FRIDAY November 20 at a conditional 12:05 PM EST opportunity, pending weather; splashdown target approximately November 21. November 19 as next opportunity is now SUPERSEDED. The calendar's November 18 date is the confirmed STAND-DOWN date ONLY. At this review no primary-source confirmation establishes that the November 20 undocking or November 21 recovery ACTUALLY OCCURRED. Never infer completion or backdate the proposed attempt to November 18.",
+      "basis": "NASA's Nov 18 CRS-35 undocking attempt was cancelled owing to weather; this historical event is the Nov 18 CONFIRMED STAND-DOWN only. NASA subsequently reported a SEPARATE ACTUAL Dragon CRS-35 undocking from the ISS on Friday Nov 20 at 12:05 p.m. EST; it has its own new calendar event, so the weather cancellation is not falsely relabeled a launch. NASA projected splashdown at approximately 4:55 p.m. EST Nov 21 (Nov 22 HKT), which had not yet been verified completed at the review cutoff.",
       "importance": "NASA operational timing and weather risk; explicitly distinguish Nov 18 cancellation from evolving Nov 20 conditional undocking target.",
       "sources": [
         {
@@ -5586,6 +5586,12 @@
           "url": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
           "kind": "official",
           "checkedAt": "2026-11-20T17:07:14.977Z"
+        },
+        {
+          "label": "NASA postflight Nov20 CRS-35 actual undocking",
+          "url": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
         }
       ]
     },
@@ -5695,31 +5701,37 @@
         "SPACEX",
         "NVDA"
       ],
-      "title": "FT reports Project Saturn ~$32bn GPU-backed bonds; proposed orbital collateral restriction unconfirmed",
+      "title": "Apollo/Goldman price ~$44bn SpaceX GPU notes; first deliveries/leases planned H1 2027",
       "type": "Financing",
-      "status": "reported",
+      "status": "confirmed",
       "date": "2026-11-20",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29",
-      "sourceLabel": "Financial Times November 20 reporting; issuer execution/terms not independently filed",
-      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
-      "verifiedAt": null,
-      "basis": "The FINANCIAL TIMES reported November 20 that lenders to SpaceX's GPU-backed Project Saturn sought a covenant barring the pledged NVIDIA Vera Rubin equipment from being launched into orbit, given repossession difficulty, but whether it was in FINAL DOCUMENTS IS UNKNOWN. FT reports ~$43bn contemplated financing, more than $30bn sold on Thursday NOV 19, including ~$25bn investment-grade bonds backed by multi-year SpaceX GPU lease payments, with reported ~8.3% yield. Other outlets describe ~$32bn bonds placed. The EXACT closing docs, financing scope and 32bn vs 43bn definitions have not been issuer/SEC verified. This report may be part of the previously recorded October 26 ~$40bn Apollo-backed finance-lease COMMITMENT and is NOT an independent second $40bn capex commitment. November 20 is report publication, NOT a verified issuer bond issuance/closing date. No conclusion is drawn that orbital data centers are prohibited.",
-      "importance": "Potential near-term GPU debt funding cost, off-balance-sheet finance and collateral covenants; watch executed debt terms and SpaceX SI cash conversion without double counting.",
+      "sourceUrl": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+      "sourceLabel": "Apollo and Goldman Sachs Nov 20 primary financing-pricing announcement",
+      "sourceCheckedAt": "2026-11-21T16:58:49Z",
+      "verifiedAt": "2026-11-21T16:58:49Z",
+      "basis": "Apollo and Goldman Sachs announced on November 20, 2026 that approximately $44bn of senior and subordinated notes were successfully PRICED to fund NVIDIA Vera Rubin GPUs and related equipment for SpaceX's terrestrial compute infrastructure. Financing was oversubscribed and upsized; expected GPU delivery and associated lease-schedule commencement remain H1 2027 FORWARD-LOOKING, not completed deployment or guaranteed revenue. This primary confirmation supersedes earlier press-only uncertainty over GPU debt pricing but does not confirm all note settlement proceeds, a closed master lease, specific GPU shipment counts or cash capex. Link this transaction to, rather than ADD it to, SpaceX's earlier Oct 26 approximately $40bn Apollo-managed finance-lease commitment filed in an 8-K; the financing sizes/structures may refer to different layers or stages of the same equipment procurement. FT's proposed restriction on deploying financed hardware in orbit is still MEDIA REPORTED and not verified in signed final covenants. Nov 20 is the primary public PRICING ANNOUNCEMENT day, not a SpaceX lease start.",
+      "importance": "Material AI GPU-financing credit and capacity catalyst for public SpaceX (SPCX) and NVIDIA, but $44bn pricing is not another separate $40bn GPU order; monitor debt settlement, executed lease terms, H1 2027 hardware delivery, funding costs and usage.",
       "sources": [
         {
-          "label": "Financial Times: Project Saturn collateral location and debt financing",
-          "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29",
-          "kind": "report",
-          "checkedAt": "2026-11-20T17:07:14.977Z"
+          "label": "Apollo/Goldman primary Nov20 $44bn GPU notes pricing",
+          "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
         },
         {
-          "label": "Investors Business Daily: Nov 20 $32bn GPU debt reported",
-          "url": "https://www.investors.com/news/spacex-sells-32-billion-debt-yield-nvidia-ai-chip-financing-orbital-data-center-concerns/",
+          "label": "SpaceX SEC Oct26 $40bn master finance-lease commitment",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
+        },
+        {
+          "label": "FT Nov20 collateral covenant report — unverified terms",
+          "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29",
           "kind": "report",
-          "checkedAt": "2026-11-20T17:07:14.977Z"
+          "checkedAt": "2026-11-21T16:58:49Z"
         }
       ]
     },
@@ -5755,8 +5767,137 @@
           "checkedAt": "2026-11-20T17:07:14.977Z"
         }
       ]
+    },
+    {
+      "id": "spacex-nasa-crs35-undocking-completed-2026-11-20",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "NASA confirms SpaceX CRS-35 Dragon undocked from ISS at 12:05 p.m. EST",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-20",
+      "endDate": null,
+      "window": null,
+      "time": "12:05 p.m. EST (November 21, 01:05 Hong Kong)",
+      "sourceUrl": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+      "sourceLabel": "NASA Nov 20 International Space Station post-undocking report",
+      "sourceCheckedAt": "2026-11-21T16:58:49Z",
+      "verifiedAt": "2026-11-21T16:58:49Z",
+      "basis": "NASA published a postflight report on Nov 20 confirming the unpiloted SpaceX CRS-35 Dragon undocked from the ISS Harmony module at 12:05 p.m. EST Nov 20, after the Nov 18 weather stand-down. This is an ACTUALLY COMPLETED undocking, not a predicted NASA window, Starship launch, or proof of splashdown. NASA projected approximate splashdown at 4:55 p.m. EST Nov 21; completion remains unverified as of this HKT review.",
+      "importance": "Completed NASA commercial-resupply milestone for public SpaceX (Nasdaq SPCX), spacecraft recovery timetable and mission execution; do not count splashdown as completed before proof.",
+      "sources": [
+        {
+          "label": "NASA Nov20 post-undocking operational report",
+          "url": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
+        },
+        {
+          "label": "NASA ISS visiting-vehicles log",
+          "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
+        }
+      ],
+      "startAt": "2026-11-20T17:05:00Z",
+      "sourceTimeZone": "America/New_York",
+      "timeCheckedAt": "2026-11-21T16:58:49Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "nvda-ubs-global-tech-ai-2026-12-01",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "NVIDIA presentation at UBS Global Technology and AI Conference",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": "6:35 a.m. PST (7:35 a.m. MST; December 1, 22:35 Hong Kong)",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Upcoming-Event-for-Financial-Community-5d06fa639/default.aspx",
+      "sourceLabel": "NVIDIA official Nov19 investor-event press release",
+      "sourceCheckedAt": "2026-11-21T16:58:49Z",
+      "verifiedAt": "2026-11-21T16:58:49Z",
+      "basis": "NVIDIA announced on November 19 it WILL PRESENT at the 30th Annual UBS Global Technology and AI Conference on Tuesday December 1, 2026 at 6:35 a.m. PACIFIC TIME (PST). The dedicated NVIDIA IR event listing gives 7:35 a.m. Mountain time, consistent with 6:35 a.m. PST. This is a financial-community conference/webcast, NOT an earnings release or guidance update in itself.",
+      "importance": "Management investor Q&A catalyst following Q3 FY2027 earnings: Vera Rubin production/rack scale, AI networking, custom silicon competition, gross margins and supply-chain timing.",
+      "sources": [
+        {
+          "label": "NVIDIA Nov19 dated investor conference announcement",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Upcoming-Event-for-Financial-Community-5d06fa639/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
+        },
+        {
+          "label": "NVIDIA UBS dedicated webcast event",
+          "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/UBS-Global-Technology-and-AI-Conference-2026-v2uBKdJHGN/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
+        }
+      ],
+      "startAt": "2026-12-01T14:35:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-21T16:58:49Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "nvda-amd-china-chip-export-license-hfac-2026-11-19",
+      "companies": [
+        "NVDA",
+        "AMD"
+      ],
+      "title": "US House committee publishes BIS licensing data on NVIDIA/AMD AI chips for China",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-19",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+      "sourceLabel": "US House Foreign Affairs Committee Nov19 export-control information disclosure",
+      "sourceCheckedAt": "2026-11-21T16:58:49Z",
+      "verifiedAt": "2026-11-21T16:58:49Z",
+      "basis": "On November 19, 2026 the US House Foreign Affairs Committee chairman publicly released Commerce/BIS export-license application information concerning NVIDIA and AMD advanced chips for China. The committee describes requested sales involving 3.4m chips and BIS approvals for more than 879,000 chips. These are COMMITTEE-PUBLISHED APPLICATION/LICENSING FIGURES, NOT verified volume shipped, installed in China, recognized sales or evidence of illegal diversion. Neither broad commercial revenue nor the exact customer shipment schedule was independently established in this review. Date is the official document disclosure, not a physical export.",
+      "importance": "Important China AI-compute export-control policy/read-through for NVIDIA and AMD and potential divergence between approved export licenses, actual shipments, bill-to country and booked China revenue.",
+      "sources": [
+        {
+          "label": "US House Foreign Affairs Committee Nov19 license disclosures",
+          "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
+        }
+      ]
+    },
+    {
+      "id": "skhynix-sc26-memory-architecture-showcase-2026-11-20",
+      "companies": [
+        "000660.KS"
+      ],
+      "title": "SK hynix showcases MARS memory-centric AI rack and CXL KV-cache pooling at SC26",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-20",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://news.skhynix.com/en/sc26-ai-hpc-exhibition/",
+      "sourceLabel": "SK hynix official Nov20 retrospective SC26 technology report",
+      "sourceCheckedAt": "2026-11-21T16:58:49Z",
+      "verifiedAt": "2026-11-21T16:58:49Z",
+      "basis": "SK hynix's November 20 official report describes live demonstrations during Supercomputing 2026 (November 15–20) of its MARS (Memory-centric AI Rack System), CXL pooled-memory/KV-cache reuse and related server DRAM/HBM/SSD options. November 20 is the issuer's retrospective publication date, not the start of the multiday conference or a commercial launch day. It does NOT establish HBM4E production shipments, a customer revenue agreement or a committed number of deployed production racks.",
+      "importance": "AI infrastructure memory-content expansion beyond HBM: KV-cache offload/pooling, CXL memory tiering, server DRAM and enterprise SSD opportunities; demonstrated product architecture versus ordered/energized racks.",
+      "sources": [
+        {
+          "label": "SK hynix Nov20 SC26 report",
+          "url": "https://news.skhynix.com/en/sc26-ai-hpc-exhibition/",
+          "kind": "official",
+          "checkedAt": "2026-11-21T16:58:49Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov21 HKT targeted 33-company IR/news/filing review: Anthropic final $83 Nov18 IPO pricing, actual Nov19 Nasdaq ANT debut, Nov20 $93.5bn Class A IPO close and $26.0bn partner Class N placement; Micron Q1 FY27 Dec17 earnings replaces estimated Dec23; Snowflake Dec2 earnings upgraded to official; new Nov16 SpaceX/Valor 13G/A and FT-reported Project Saturn financing/collateral concern. NASA CRS-35 NET Nov20 advisory is CONDITIONAL, not actual undocking. SpaceX Nasdaq:SPCX/internal SPACEX Q4/FY26 earnings still undated; exact disputed USSF launch targets unchanged. All 33 source entry points attempted with 3 blocked and dynamic limitations; Oct15 historical 79-source full audit NOT rerun. Compact mobile List code untouched.",
-  "lastPartialReview": "2026-11-20T17:07:14.977Z"
+  "verificationNote": "Nov22 HKT targeted 33-company IR/newsroom/event entry-point check plus focused official Apollo/Goldman GPU debt pricing, SEC prior finance lease, NASA CRS-35 postflight, NVIDIA Dec1 UBS confirmed investor appearance, House NVIDIA/AMD China BIS licensing disclosure and SK hynix SC26 demonstrations. 4 NEW events, 1 existing SpaceX financing event upgraded media-reported to primary CONFIRMED pricing; original Nov18 NASA cancellation annotated separately from Nov20 ACTUAL undocking. Nov20 $44bn pricing must NOT be added to prior $40bn finance-lease commitment, and H1 2027 GPU deliveries remain forecasts. SpaceX remains PUBLIC Nasdaq:SPCX (SPACEX) with Q2/Q3 earnings retained; Q4/FY26 earnings date unannounced. Launch-date conflicts remain provisional. 4 source landing points blocked and 11 limited/dynamic. Historical Oct15 79-source comprehensive audit not rerun. Compact mobile list UI unchanged.",
+  "lastPartialReview": "2026-11-21T16:58:49Z"
 }
