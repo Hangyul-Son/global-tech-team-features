@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov21 HKT source/issuer entry-point review saved separately from Oct15 exhaustive 79-source audit. Nov21 HKT targeted survey of 33 tracked company issuer IR/newsroom landing points (3 blocked: Adobe, ASML and Cloudflare; 15 dynamic/limited). Focused first-party issuer verification for Anthropic IPO Nov18 $83 pricing, Nov19 Nasdaq ANT debut, Nov20 $93.5bn Class A close and $26bn concurrent partner placement; Micron Dec17 fiscal Q1 earnings replaces outdated Dec23 estimated entry; Snowflake Dec2 date upgraded from provider estimate to official. SpaceX public Nasdaq:SPCX internal SPACEX: Nov16 Antonio Gracias/Valor 13G/A directly verified in SEC EDGAR; FT Nov20 Project Saturn financing/collateral terms treated REPORTED, not a confirmed issuer 8-K/second $40bn debt facility; current Q4/FY26 earnings date still unannounced on accessible IR. NASA Nov19 updated CRS-35 advisory moved next opportunity to NET Nov20: not verified as actual undocking. FAA Starship Nov17–19 virtual scoping and Dec7 comment deadline remain consultation only; USSF-317/627 mission-specific exact launch dates unresolved. Full FCC docket, exhaustive complete issuer SEC histories and all NASA/defense awards NOT re-audited. Historical Oct15 79-source sweep timestamp, successful count and source list unchanged. No frontend or mobile List modifications.",
+  "note": "Nov22 HKT targeted all 33 issuer IR/newsroom/event landing points; focused Apollo/Goldman Nov20 $44bn SpaceX GPU financing primary announcement, NASA CRS-35 Nov20 confirmed undocking, NVIDIA Dec1 UBS event, House BIS China export-license disclosure, SK hynix Nov20 SC26 showcase. Not a complete 79-source or entire issuer SEC history sweep. Four new confirmed dated events, one existing financing status upgraded based on Apollo primary announcement; historical October15 79-source audit and 78/79 result preserved. Four blocked and eleven dynamic/limited issuer landing pages. Compact mobile List untouched.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,12 +5340,12 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-20T17:07:52.021Z",
-    "localDate": "2026-11-21",
+    "checkedAt": "2026-11-21T16:58:49Z",
+    "localDate": "2026-11-22",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 30,
-    "entryPointsBlocked": 3,
+    "entryPointsAccessibleOrPartiallyRendered": 29,
+    "entryPointsBlocked": 4,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
@@ -5362,7 +5362,7 @@
       },
       {
         "id": "AVGO",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "MRVL",
@@ -5386,7 +5386,7 @@
       },
       {
         "id": "NOW",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "ADBE",
@@ -5398,11 +5398,11 @@
       },
       {
         "id": "ASML",
-        "status": "blocked"
+        "status": "accessible"
       },
       {
         "id": "LRCX",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "005930.KS",
@@ -5426,11 +5426,11 @@
       },
       {
         "id": "GOOGL",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "META",
-        "status": "limited"
+        "status": "accessible"
       },
       {
         "id": "ANTHROPIC",
@@ -5462,7 +5462,7 @@
       },
       {
         "id": "CRWD",
-        "status": "accessible"
+        "status": "blocked"
       },
       {
         "id": "PANW",
@@ -5481,18 +5481,18 @@
         "status": "limited"
       }
     ],
-    "notes": "Nov21 HKT targeted survey of 33 tracked company issuer IR/newsroom landing points (3 blocked: Adobe, ASML and Cloudflare; 15 dynamic/limited). Focused first-party issuer verification for Anthropic IPO Nov18 $83 pricing, Nov19 Nasdaq ANT debut, Nov20 $93.5bn Class A close and $26bn concurrent partner placement; Micron Dec17 fiscal Q1 earnings replaces outdated Dec23 estimated entry; Snowflake Dec2 date upgraded from provider estimate to official. SpaceX public Nasdaq:SPCX internal SPACEX: Nov16 Antonio Gracias/Valor 13G/A directly verified in SEC EDGAR; FT Nov20 Project Saturn financing/collateral terms treated REPORTED, not a confirmed issuer 8-K/second $40bn debt facility; current Q4/FY26 earnings date still unannounced on accessible IR. NASA Nov19 updated CRS-35 advisory moved next opportunity to NET Nov20: not verified as actual undocking. FAA Starship Nov17–19 virtual scoping and Dec7 comment deadline remain consultation only; USSF-317/627 mission-specific exact launch dates unresolved. Full FCC docket, exhaustive complete issuer SEC histories and all NASA/defense awards NOT re-audited. Historical Oct15 79-source sweep timestamp, successful count and source list unchanged. No frontend or mobile List modifications."
+    "notes": "Nov22 HKT targeted all 33 issuer IR/newsroom/event landing points; focused Apollo/Goldman Nov20 $44bn SpaceX GPU financing primary announcement, NASA CRS-35 Nov20 confirmed undocking, NVIDIA Dec1 UBS event, House BIS China export-license disclosure, SK hynix Nov20 SC26 showcase. Not a complete 79-source or entire issuer SEC history sweep. 4 issuer landing endpoints blocked (Broadcom, Adobe, CrowdStrike, Cloudflare); 11 partly accessible/dynamic. All 33 company landing entry points were attempted, but this is not a complete every-filing/forward-calendar verification. SpaceX IR events/results dynamic and SEC browse endpoint insufficient to exhaustively establish all post-IPO filings; public EDGAR primary filings/finance SEC checked selectively. No officially confirmed Q4/FY26 earnings date. USSF-317 and USSF-627 exact launches not reconciled against current mission-specific SpaceX/FAA/NASA primary confirmation; no exact launch date promoted. Nov21 CRS-35 splashdown anticipated but not verified completed. FAA Nov17–19 virtual environmental scoping and Dec7 public comments are NOT launch licenses. FCC docket access blocked; NASA/DoD award database not exhaustively swept. Oct15 historical 79-source audit (78 retrieved) remains unchanged, not refreshed without a new comprehensive sweep. No frontend edits."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-20T17:07:52.021Z",
-    "scope": "Nov21 HKT targeted 33-company official IR/newsroom source-entry survey, primary source validation of Anthropic IPO, Micron/Snowflake earnings and SEC/FT/NASA SpaceX disclosures; NOT a rerun of 79 historical source checks.",
+    "checkedAt": "2026-11-21T16:58:49Z",
+    "scope": "Nov22 HKT targeted all 33 issuer IR/newsroom/event landing points; focused Apollo/Goldman Nov20 $44bn SpaceX GPU financing primary announcement, NASA CRS-35 Nov20 confirmed undocking, NVIDIA Dec1 UBS event, House BIS China export-license disclosure, SK hynix Nov20 SC26 showcase. Not a complete 79-source or entire issuer SEC history sweep.",
     "companies": 33,
-    "events": 163,
+    "events": 167,
     "companiesWithEvents": 33,
-    "confirmedEvents": 131,
+    "confirmedEvents": 136,
     "undatedEvents": 10,
     "estimatedEvents": 10,
-    "reportedEvents": 12,
+    "reportedEvents": 11,
     "confirmedMissingVerifiedAt": 0,
     "eventsWithoutSource": 0
   },
@@ -7291,6 +7291,77 @@
         "Adobe, ASML and Cloudflare entry pages blocked; 15 others partial/dynamic; retrieval not proof of completeness.",
         "FCC spectrum proceedings, all NASA/DoD awards and all 33 complete SEC filing sequences not exhaustively verified.",
         "Historical Oct15 79-source systematic audit timestamp/count preserved; mobile List unchanged."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-21T16:58:49Z",
+      "scope": "Nov22 HKT targeted all 33 issuer IR/newsroom/event landing points; focused Apollo/Goldman Nov20 $44bn SpaceX GPU financing primary announcement, NASA CRS-35 Nov20 confirmed undocking, NVIDIA Dec1 UBS event, House BIS China export-license disclosure, SK hynix Nov20 SC26 showcase. Not a complete 79-source or entire issuer SEC history sweep.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "ADBE",
+        "MU",
+        "AMZN",
+        "CRWV",
+        "INTC",
+        "QCOM",
+        "CRWD",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "Nov20 Apollo and Goldman Sachs primary press release confirms PRICING ~$44bn GPU secured notes for SpaceX terrestrial compute. Existing Nov20 FT Project Saturn event upgraded to confirmed PRICING with stable ID; Nov20 date is announcement not delivery/lease settlement. Oct26 SEC $40bn master GPU lease commitment is NOT incremental to $44bn pricing; first GPU delivery/lease commencement expected H1 2027, not completed.",
+        "NASA primary Nov20 postflight confirms Dragon CRS-35 ISS undocking Nov20 12:05 pm EST, new confirmed event, preserving Nov18 cancelled weather stand-down as distinct historical event. Nov21 4:55pm EST splashdown remained an unconfirmed forecast at run cutoff.",
+        "NVIDIA official Nov19 IR confirms Dec1 UBS global technology/AI investor conference appearance 6:35 am PT (14:35 UTC), new scheduled webcast event, NOT earnings.",
+        "House Foreign Affairs Committee primary Nov19 disclosure publishes BIS applications/requested 3.4m NVIDIA/AMD AI chips to China and over 879k APPROVED; not shipments or sales recognized.",
+        "SK hynix Nov20 official SC26 MARS and CXL pooled-memory/KV-cache live demonstrations; no commercial rollout/shipment date inferred.",
+        "SpaceX PUBLIC Nasdaq:SPCX internal ID SPACEX; Q2/Q3 results and Q3 Form10-Q retained; no confirmed Q4/FY26 results date from accessible dynamic IR; USSF-317/627 disputed dates remain provisional."
+      ],
+      "coverageGaps": [
+        "4 issuer landing endpoints blocked (Broadcom, Adobe, CrowdStrike, Cloudflare); 11 partly accessible/dynamic. All 33 company landing entry points were attempted, but this is not a complete every-filing/forward-calendar verification.",
+        "SpaceX IR events/results dynamic and SEC browse endpoint insufficient to exhaustively establish all post-IPO filings; public EDGAR primary filings/finance SEC checked selectively. No officially confirmed Q4/FY26 earnings date.",
+        "USSF-317 and USSF-627 exact launches not reconciled against current mission-specific SpaceX/FAA/NASA primary confirmation; no exact launch date promoted. Nov21 CRS-35 splashdown anticipated but not verified completed.",
+        "FAA Nov17–19 virtual environmental scoping and Dec7 public comments are NOT launch licenses. FCC docket access blocked; NASA/DoD award database not exhaustively swept.",
+        "Oct15 historical 79-source audit (78 retrieved) remains unchanged, not refreshed without a new comprehensive sweep. No frontend edits."
       ]
     }
   ]
