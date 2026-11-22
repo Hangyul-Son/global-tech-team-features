@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov23 HKT targeted all 33 issuer IR/newsroom/event entry points; 31 accessible or partly rendered and 2 blocked (Adobe and Cloudflare), with 10 additional dynamic/limited pages. Focused SpaceX Q3 SEC/EDGAR financial and cash-flow review, NASA CRS-35 completed splashdown, NVIDIA supply-chain commitments, upcoming issuer catalysts and Anthropic Nasdaq ANT status. Two new confirmed events added. Historical Oct15 exhaustive 79-source audit (78/79) preserved unchanged; no claim of full 33-company SEC-history or 79-source refresh. Compact mobile List untouched.",
+  "note": "Nov23 HKT targeted all 33 issuer IR/newsroom/event entry points; 31 accessible or partly rendered and 2 blocked (Adobe and Cloudflare), with 10 additional dynamic/limited pages. Focused SpaceX Q3 SEC/EDGAR financial, Starlink subscriber/ARPU, capex and cash-flow review; NASA CRS-35 completed splashdown; NVIDIA's detailed substrate/advanced-packaging supply-chain commitments; upcoming issuer catalysts; and Anthropic Nasdaq ANT status. Two new confirmed events added. Historical Oct15 exhaustive 79-source audit (78/79) preserved unchanged; no claim of full 33-company SEC-history or 79-source refresh. Compact mobile List untouched.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5495,7 +5495,7 @@
       "NET",
       "SPACEX"
     ],
-    "notes": "Nov23 HKT targeted 33-company issuer entry-point review. Adobe and Cloudflare returned 403; ten other pages were dynamic/limited (Apple, Oracle, Salesforce, Micron, Amazon, Alphabet, Meta, CoreWeave, Snowflake and SpaceX). All 33 entry points were attempted, but full SEC filing histories and all dynamic event lists were not exhaustively verified. SpaceX is publicly listed Nasdaq:SPCX (internal ID SPACEX); SEC EDGAR latest filing by date Nov16 Schedule 13G/A, Q3 Form 10-Q Oct22; no Q4/FY2026 earnings date found. SpaceX Q3 financial, cash flow, capex and nameplate compute data rechecked; NASA CRS-35 Nov21 splashdown confirmed. FAA scoping dates remain consultation only, Flight 15 actual launch status remains reported, and USSF-317/627 exact dates remain unresolved. Historical Oct15 79-source audit remains unchanged."
+    "notes": "Nov23 HKT targeted 33-company issuer entry-point review. Adobe and Cloudflare returned 403; ten other pages were dynamic/limited. All 33 entry points were attempted, but full SEC filing histories and all dynamic event lists were not exhaustively verified. SpaceX is publicly listed Nasdaq:SPCX (internal ID SPACEX); SEC EDGAR latest filing by date Nov16 Schedule 13G/A, Q3 Form 10-Q Oct22; no Q4/FY2026 earnings date found. SpaceX Q3 financials, 13.6m Starlink consumer subscribers, $69 ARPU, 1.7 GW SI nameplate compute, capex, operating cash flow and liquidity rechecked. NASA CRS-35 Nov21 splashdown confirmed. NVIDIA disclosed Kinsus >3.5x ABF capacity, Amkor ~$3bn prior agreements and SPIL multibillion funding, with future production targets not treated as current capacity. FAA scoping dates are consultation only; Flight 15 actual launch remains reported; USSF-317/627 exact dates unresolved. Historical Oct15 79-source audit remains unchanged."
   },
   "coverageAudit": {
     "checkedAt": "2026-11-22T16:58:21Z",
@@ -7431,10 +7431,10 @@
         "SPACEX"
       ],
       "verifiedChanges": [
-        "Added NVIDIA's November 17 official supply-chain expansion announcement with TSMC and advanced-packaging/substrate partners; no supplier capacity or contract value inferred.",
+        "NVIDIA's Nov17 official supply-chain release: Kinsus plans >3.5x dedicated ABF substrate capacity (production H2 2027; additional capacity target Q3 2028); prior Amkor multiyear agreements from July/October total nearly $3bn with prepayments; new SPIL agreement has multibillion-dollar NVIDIA funding and targets dedicated capacity by mid-2029; Samsung Electro-Mechanics amendment; Vera Rubin NVL72/Vera CPUs volume shipments began Q3 using TSMC 5nm/3nm/CoWoS. No TSMC wafer/CoWoS unit capacity or supplier revenue allocation disclosed.",
         "Added NASA's November 21 confirmed CRS-35 Dragon splashdown at 2:03 p.m. PST as a separate event from the November 20 ISS undocking and November 18 weather stand-down.",
-        "SpaceX Q3 SEC earnings release/10-Q rechecked: Q3 revenue $14.575bn, net income $4.404bn, Adjusted EBITDA $8.809bn; Connectivity revenue $5.248bn and SI revenue $7.560bn; Q3 capex $19.593bn and nine-month capex $48.069bn; nine-month operating cash flow $13.097bn; September 30 cash plus marketable securities $89.855bn.",
-        "SpaceX SI nameplate compute was 1.7 GW at September 30; it is explicitly not treated as energized or usable capacity. OCF less PP&E purchases is negative $34.972bn by simple arithmetic, not a company-defined FCF measure.",
+        "SpaceX Q3 SEC release/10-Q: Q3 revenue $14.575bn, net income $4.404bn, Adjusted EBITDA $8.809bn; Connectivity $5.248bn with 13.6m consumer subscribers/$69 ARPU; SI $7.560bn with $431m operating income and $4.953bn Segment Adjusted EBITDA; Q3 capex $19.593bn and nine-month capex $48.069bn; nine-month OCF $13.097bn; September 30 cash plus marketable securities $89.855bn; net IPO proceeds $85.675bn.",
+        "SpaceX SI nameplate compute was 1.7 GW at September 30; it is explicitly not treated as energized or usable capacity. OCF less PP&E purchases is negative $34.972bn by arithmetic, not a company-defined FCF measure.",
         "SEC EDGAR submissions JSON confirms SpaceX CIK 0001181412, ticker SPCX, Nasdaq; latest filing by date is November 16 Schedule 13G/A, followed by November 13 Schedule 13G/A and November 6 Form 8-K. Q3 Form 10-Q was filed October 22.",
         "SpaceX remains a public Nasdaq:SPCX issuer under internal ID SPACEX. No Q4/FY2026 earnings date was found on the accessible dynamic IR events page; undated earnings watch retained.",
         "SpaceX Flight 15 official mission page remains a preflight November 13 target pending regulatory approval; actual flight remains media-reported, not upgraded to primary-confirmed. USSF-317/627 exact launch dates remain unverified.",
