@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-22",
+  "asOf": "2026-11-23",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-21T16:58:49Z",
+  "lastAttempt": "2026-11-22T16:58:21Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -301,12 +301,12 @@
     },
     {
       "id": "ANTHROPIC",
-      "name": "Anthropic",
+      "name": "Anthropic (ANT)",
       "sector": "AI ecosystem",
       "coverage": false,
       "source": "https://www.anthropic.com/news",
       "months": [],
-      "thesis": "Model economics, cloud partnerships and AI compute demand."
+      "thesis": "Publicly listed on Nasdaq as ANT since November 19, 2026; monitor model economics, enterprise adoption, cloud and compute commitments, capital spending and SEC filings."
     },
     {
       "id": "CRWV",
@@ -2979,10 +2979,10 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
       "verifiedAt": null,
-      "basis": "SpaceX is publicly traded on Nasdaq as SPCX following its June 12, 2026 listing. The historical October 20 Q3 earnings, October 22 Form 10-Q and October 26 GPU finance-lease commitment are separately tracked. A November 6 HKT spot check of the issuer's IR and public SEC sources did not establish a confirmed Q4/FY2026 earnings call date, so this remains UNDated. Do not interpret conflicting or undifferentiated launch-manifest snapshots as mission-specific confirmed Starship/Starlink launch dates.",
-      "importance": "Q4 Starlink/Connectivity and SI revenue, capex, cash flow, guidance and Starship milestones.",
+      "basis": "SpaceX is a public Nasdaq issuer (SPCX; internal company ID SPACEX). The accessible official IR Events page is dynamically rendered and did not expose a Q4/FY2026 earnings date in this review; retain this as an undated watch item and do not infer a date from reporting cadence. SEC EDGAR submissions JSON as of November 23 HKT identifies CIK 0001181412, ticker SPCX, Nasdaq, and latest filings by filing date: November 16 Schedule 13G/A (accession 0001213900-26-120715), November 13 Schedule 13G/A (0001426012-26-000007), November 6 Form 8-K (0001628280-26-071689), October 26 Form 8-K (0001104659-26-118614), and October 22 Q3 Form 10-Q (0001628280-26-066880). Q3 earnings and Form 10-Q are separately tracked. No Q4/FY2026 earnings release or webcast date was found in the accessible IR calendar.",
+      "importance": "Track the next company-confirmed quarterly results, guidance, Starlink/Connectivity, SI revenue and compute, capex, cash flow, liquidity, financing and SEC disclosures; do not omit public-company earnings.",
       "sources": [
         {
           "label": "SpaceX IR events",
@@ -3001,6 +3001,18 @@
           "url": "https://ir.spacex.com/events/default.aspx",
           "kind": "official",
           "checkedAt": "2026-10-31T17:02:18.674Z"
+        },
+        {
+          "label": "SEC EDGAR company submissions JSON (CIK 0001181412; SPCX/Nasdaq)",
+          "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
+        },
+        {
+          "label": "SEC Q3 2026 Form 10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
         }
       ]
     },
@@ -3018,10 +3030,10 @@
       "time": "3:30 p.m. CT / 4:30 p.m. ET (October 21, 04:30 HKT)",
       "sourceUrl": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx",
       "sourceLabel": "SpaceX investor relations · Q3 earnings",
-      "sourceCheckedAt": "2026-10-24T16:58:26Z",
-      "verifiedAt": "2026-10-23T17:04:38Z",
-      "basis": "SpaceX, a Nasdaq-listed company since June 12, 2026, reported Q3 2026 results on October 20 and hosted its earnings webcast at 3:30 p.m. CT / 4:30 p.m. ET. SEC Exhibit 99.1 reports $14.575bn revenue, $4.4bn net income, $5.248bn Connectivity revenue, $7.560bn Super Intelligence revenue and $19.593bn capex. Historical confirmed event, not an upcoming forecast.",
-      "importance": "Q3 $14.575bn revenue, $4.404bn net income; Connectivity $5.248bn, Super Intelligence $7.560bn; Q3 capex $19.593bn. Monitor subscriber growth, AI compute economics and Q4 spending.",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "verifiedAt": "2026-11-22T16:58:21Z",
+      "basis": "SpaceX is publicly listed on Nasdaq as SPCX (trading began June 12, 2026). The official Q3 2026 release/SEC filing reports Q3 revenue $14.575bn, net income $4.404bn and Adjusted EBITDA $8.809bn. Segment revenue: Space $1.767bn, Connectivity $5.248bn and Super Intelligence (SI) $7.560bn. Q3 capex was $19.593bn, including $16.444bn SI; nine-month capex was $48.069bn, including $39.995bn SI. Nine-month operating cash flow was $13.097bn; OCF less PP&E purchases is negative $34.972bn by simple arithmetic, NOT a company-defined free-cash-flow measure. September 30 cash and equivalents were $51.294bn and marketable securities $38.561bn. SI nameplate compute was 1.7 GW at September 30 (1.4 GW June 30); nameplate is not proof of energized/usable compute capacity. Q3 event and webcast are historical, not an upcoming earnings estimate.",
+      "importance": "Public-company earnings, AI infrastructure buildout and capital intensity: segment revenue, SI capex, cash conversion, liquidity and the distinction between 1.7 GW nameplate compute and energized capacity.",
       "sources": [
         {
           "label": "SpaceX Q3 earnings webcast",
@@ -3146,10 +3158,10 @@
       "time": null,
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
       "sourceLabel": "SEC EDGAR Form 10-Q",
-      "sourceCheckedAt": "2026-10-24T16:58:26Z",
-      "verifiedAt": "2026-10-24T16:58:26Z",
-      "basis": "SEC EDGAR confirms Space Exploration Technologies Corp. (Nasdaq: SPCX) filed its Form 10-Q on October 22, 2026 for the quarter ended September 30, 2026. Q3 revenue $14.575bn, net income $4.404bn; nine-month operating cash flow $13.097bn versus capex $48.069bn. Historical filing event.",
-      "importance": "AI/Super Intelligence capex intensity, funding and cash conversion; Connectivity margins, Starlink subscriber economics, and related-party/financing disclosures.",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "verifiedAt": "2026-11-22T16:58:21Z",
+      "basis": "SEC EDGAR confirms Space Exploration Technologies Corp. (CIK 0001181412; Nasdaq: SPCX) filed its Q3 2026 Form 10-Q on October 22 for the quarter ended September 30. The filing reports nine-month operating cash flow $13.097bn versus PP&E purchases/capex $48.069bn; this implies negative $34.972bn OCF less PP&E purchases, an analyst arithmetic bridge rather than company-defined FCF. Q3 capex was $19.593bn ($16.444bn SI); nine-month SI capex was $39.995bn. September 30 cash and equivalents plus marketable securities totaled $89.855bn ($51.294bn + $38.561bn). Nine-month financing cash flow included $85.675bn net IPO proceeds. SI nameplate compute was 1.7 GW at September 30, not a disclosed energized/available-GW measure.",
+      "importance": "Cash conversion, capex funding, post-IPO liquidity, AI infrastructure economics and financing exposure.",
       "sources": [
         {
           "label": "SEC EDGAR Form 10-Q",
@@ -3162,6 +3174,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/0001628280-26-066880-index.htm",
           "kind": "official",
           "checkedAt": "2026-10-24T16:58:26Z"
+        },
+        {
+          "label": "SEC company submissions JSON, CIK 0001181412; Nasdaq ticker SPCX",
+          "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
         }
       ]
     },
@@ -3206,10 +3224,10 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/",
       "sourceLabel": "SpaceX investor relations and SEC filings",
-      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
       "verifiedAt": null,
-      "basis": "SpaceX October 26 SEC Form 8-K confirms an October 24 binding commitment letter for an approximately $40bn Apollo-managed GPU finance lease, not a closed $40bn cash-funded purchase. It expects signing/closing before year-end 2026 subject to conditions and delivery/lease schedules in H1 2027. No future exact day published. Monitor SI revenue, capex cash conversion, lease execution, NVIDIA Vera Rubin delivery and follow-up 8-Ks.",
-      "importance": "Track lease closing/delivery and funding needs, Vera Rubin GPU and AI-networking demand, SI infrastructure utilization and returns.",
+      "basis": "SpaceX's Q3 2026 SEC earnings release reports SI revenue $7.560bn, SI operating income $431m and SI Adjusted EBITDA $4.953bn for Q3; SI capex was $16.444bn in Q3 and $39.995bn for nine months. Total capex was $19.593bn in Q3 and $48.069bn for nine months, versus nine-month operating cash flow $13.097bn. September 30 SI nameplate compute was 1.7 GW, up from 1.4 GW June 30; nameplate is not proof of energized/usable compute. Apollo/Goldman announced pricing of approximately $44bn of GPU notes on November 20 to fund Vera Rubin equipment for SpaceX terrestrial compute. Link this financing to, rather than add it on top of, the October 26 approximately $40bn Apollo-managed master finance-lease commitment; they may describe related layers/stages of the same equipment financing. H1 2027 deliveries/lease commencement remain forward-looking. No Q4/FY2026 earnings date was found on the accessible IR events page.",
+      "importance": "AI compute capacity, power/energization, Vera Rubin deliveries, SI revenue and margin, cash capex versus operating cash generation, financing cost and lease execution.",
       "sources": [
         {
           "label": "SpaceX investor relations",
@@ -3234,6 +3252,18 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
           "kind": "official",
           "checkedAt": "2026-10-27T16:57:42Z"
+        },
+        {
+          "label": "SEC Q3 2026 earnings release, Exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
+        },
+        {
+          "label": "Apollo/Goldman Nov 20 GPU-note pricing announcement",
+          "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
         }
       ]
     },
@@ -4926,7 +4956,7 @@
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceCheckedAt": "2026-11-15T17:09:12.658Z",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
       "verifiedAt": null,
       "id": "spacex-starship-flight15-nov13-2026-net",
       "companies": [
@@ -4938,7 +4968,7 @@
       "date": "2026-11-13",
       "sourceUrl": "https://www.reuters.com/science/spacex-attempt-first-starship-spacecraft-recovery-land-15th-flight-2026-11-13/",
       "sourceLabel": "Reuters November 13 actual-flight report, supported by AP and official SpaceX preflight mission page",
-      "basis": "Starship Flight 15 launched November 13, 2026 from Starbase and deployed 26 Starlink V3 satellites (Reuters, SpacePolicyOnline and Spaceflight Now). Booster 22's intended tower catch was ABORTED and it diverted to a Gulf splashdown; root cause not established in this review. AFTER 14 orbits and ~22.5 hours, Ship 42 made the FIRST successful Starship upper-stage tower catch at Starbase on November 14, 2026. SpaceX's official @SpaceX November 14 post ('Mechazilla catches Starship!') was embedded/linked in SpacePolicyOnline, with independent on-site corroboration; the X permalink itself returned 403 to this reviewer. This is NOT a successful two-stage double catch. Official SpaceX mission page still displays a preflight November 13 target; actual exact liftoff and catch times were reported by independent media rather than independently accessible first-party postflight mission log, so no exact event time is stored. Date here refers to NOVEMBER 13 liftoff, while the separate recovery milestone is NOVEMBER 14. SpaceX is publicly traded Nasdaq:SPCX, repo ID SPACEX. No Q4/FY2026 earnings date has been issued.",
+      "basis": "The actual November 13, 2026 Flight 15 launch and deployment of 26 Starlink V3 satellites remain MEDIA-REPORTED, not upgraded to primary-source-confirmed in this review. SpaceX's official Flight 15 page still shows a PRE-FLIGHT target of 'as soon as Friday, November 13' pending regulatory approval; it does not provide an accessible postflight confirmation. Reuters reports the November 13 flight and 26 V3 deployment; the intended Super Heavy booster tower catch was aborted, while the separate November 14 Ship 42 catch was reported as the first upper-stage catch. No exact liftoff time is stored. Do not infer a successful two-stage catch or treat the old preflight target as proof of launch.",
       "importance": "Actual 26 Starlink V3 satellites deployed plus first return and upper-stage catch are material operational milestones for broadband capacity and Starship reusability. Aborted booster catch means full launch-stack recovery was not achieved; regulatory authorizations and prospective launch cadence are separate.",
       "sources": [
         {
@@ -5570,9 +5600,9 @@
       "time": null,
       "sourceUrl": "https://www.nasa.gov/blogs/spacestation/2026/11/18/nasa-spacex-stand-down-from-dragons-undocking-on-wednesday/",
       "sourceLabel": "NASA November 18 ISS official mission update",
-      "sourceCheckedAt": "2026-11-21T16:58:49Z",
-      "verifiedAt": "2026-11-20T17:07:14.977Z",
-      "basis": "NASA's Nov 18 CRS-35 undocking attempt was cancelled owing to weather; this historical event is the Nov 18 CONFIRMED STAND-DOWN only. NASA subsequently reported a SEPARATE ACTUAL Dragon CRS-35 undocking from the ISS on Friday Nov 20 at 12:05 p.m. EST; it has its own new calendar event, so the weather cancellation is not falsely relabeled a launch. NASA projected splashdown at approximately 4:55 p.m. EST Nov 21 (Nov 22 HKT), which had not yet been verified completed at the review cutoff.",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "verifiedAt": "2026-11-22T16:58:21Z",
+      "basis": "NASA confirmed the planned November 18 CRS-35 Dragon undocking was stood down because of weather. NASA later confirmed the actual undocking on November 20 at 12:05 p.m. EST and a separate completed splashdown on November 21 at 2:03 p.m. PST. This record remains only the November 18 cancelled opportunity; the subsequent completed milestones are separate events.",
       "importance": "NASA operational timing and weather risk; explicitly distinguish Nov 18 cancellation from evolving Nov 20 conditional undocking target.",
       "sources": [
         {
@@ -5592,6 +5622,12 @@
           "url": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
           "kind": "official",
           "checkedAt": "2026-11-21T16:58:49Z"
+        },
+        {
+          "label": "NASA Nov 21 CRS-35 completed splashdown report",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
         }
       ]
     },
@@ -5782,10 +5818,10 @@
       "time": "12:05 p.m. EST (November 21, 01:05 Hong Kong)",
       "sourceUrl": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
       "sourceLabel": "NASA Nov 20 International Space Station post-undocking report",
-      "sourceCheckedAt": "2026-11-21T16:58:49Z",
-      "verifiedAt": "2026-11-21T16:58:49Z",
-      "basis": "NASA published a postflight report on Nov 20 confirming the unpiloted SpaceX CRS-35 Dragon undocked from the ISS Harmony module at 12:05 p.m. EST Nov 20, after the Nov 18 weather stand-down. This is an ACTUALLY COMPLETED undocking, not a predicted NASA window, Starship launch, or proof of splashdown. NASA projected approximate splashdown at 4:55 p.m. EST Nov 21; completion remains unverified as of this HKT review.",
-      "importance": "Completed NASA commercial-resupply milestone for public SpaceX (Nasdaq SPCX), spacecraft recovery timetable and mission execution; do not count splashdown as completed before proof.",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "verifiedAt": "2026-11-22T16:58:21Z",
+      "basis": "NASA's November 20 postflight report confirms the unpiloted SpaceX CRS-35 Dragon undocked from the ISS Harmony module at 12:05 p.m. EST on November 20, after the November 18 weather stand-down. NASA subsequently confirmed a separate completed splashdown at 2:03 p.m. PST on November 21; that recovery milestone has its own separate calendar event. Do not conflate undocking, splashdown or the prior cancelled weather opportunity.",
+      "importance": "Completed NASA commercial-resupply mission milestone; undocking and Pacific splashdown are separate confirmed operational events.",
       "sources": [
         {
           "label": "NASA Nov20 post-undocking operational report",
@@ -5798,6 +5834,12 @@
           "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
           "kind": "official",
           "checkedAt": "2026-11-21T16:58:49Z"
+        },
+        {
+          "label": "NASA Nov 21 CRS-35 completed splashdown report",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
         }
       ],
       "startAt": "2026-11-20T17:05:00Z",
@@ -5896,8 +5938,73 @@
           "checkedAt": "2026-11-21T16:58:49Z"
         }
       ]
+    },
+    {
+      "id": "spacex-nasa-crs35-splashdown-completed-2026-11-21",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "NASA confirms SpaceX CRS-35 Dragon splashed down in the Pacific at 2:03 p.m. PST",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-21",
+      "endDate": null,
+      "window": null,
+      "time": "2:03 p.m. PST",
+      "sourceUrl": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
+      "sourceLabel": "NASA November 21 postflight report · CRS-35 completed splashdown",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "verifiedAt": "2026-11-22T16:58:21Z",
+      "basis": "NASA's November 21 postflight report states the unpiloted SpaceX Dragon splashed down in the Pacific near Los Angeles at 2:03 p.m. Pacific Standard Time, completing NASA's 35th SpaceX Commercial Resupply Services mission. This is the ACTUAL completed splashdown, separate from the November 20 ISS undocking and the November 18 weather stand-down. NASA's earlier advisory had targeted approximately 4:55 p.m. EST (1:55 p.m. PST); the confirmed actual time was 2:03 p.m. PST. The date is the local California splashdown date, November 21.",
+      "importance": "Completed NASA commercial-resupply mission and Dragon recovery milestone; separate from the earlier undocking and cancelled weather opportunity.",
+      "sources": [
+        {
+          "label": "NASA Nov 21 CRS-35 completed splashdown report",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
+        },
+        {
+          "label": "NASA Nov 20 post-undocking operational report",
+          "url": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
+        }
+      ],
+      "startAt": "2026-11-21T22:03:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-22T16:58:21Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "nvda-supply-chain-commitments-2026-11-17",
+      "companies": [
+        "NVDA",
+        "TSM"
+      ],
+      "title": "NVIDIA expands long-term supply commitments across substrates, packaging and TSMC manufacturing",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-17",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx",
+      "sourceLabel": "NVIDIA official November 17 supply-chain capacity announcement",
+      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "verifiedAt": "2026-11-22T16:58:21Z",
+      "basis": "NVIDIA announced expanded long-term supply commitments with Amkor, Foxconn, Kinsus, Samsung Electro-Mechanics, SPIL and TSMC across substrates, advanced packaging, wafer and contract manufacturing. NVIDIA's release says Vera Rubin NVL72 and Vera CPUs began volume shipments in Q3 using TSMC 5nm, 3nm and CoWoS technologies. November 17 is the issuer announcement date, not a shipment start date. No supplier-specific contract value, incremental capex, wafer starts, CoWoS capacity quantity or revenue allocation was disclosed; commitments must not be translated into a numerical capacity addition without further evidence.",
+      "importance": "Upstream substrate, advanced-packaging and leading-edge wafer supply for current and next-generation AI accelerator platforms; relevant to TSMC/CoWoS and NVIDIA supply constraints.",
+      "sources": [
+        {
+          "label": "NVIDIA Nov 17 official supply-chain expansion announcement",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Expands-Commitments-With-Supply-Chain-Partners-to-Support-AI-Infrastructure-Buildout/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-22T16:58:21Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov22 HKT targeted 33-company IR/newsroom/event entry-point check plus focused official Apollo/Goldman GPU debt pricing, SEC prior finance lease, NASA CRS-35 postflight, NVIDIA Dec1 UBS confirmed investor appearance, House NVIDIA/AMD China BIS licensing disclosure and SK hynix SC26 demonstrations. 4 NEW events, 1 existing SpaceX financing event upgraded media-reported to primary CONFIRMED pricing; original Nov18 NASA cancellation annotated separately from Nov20 ACTUAL undocking. Nov20 $44bn pricing must NOT be added to prior $40bn finance-lease commitment, and H1 2027 GPU deliveries remain forecasts. SpaceX remains PUBLIC Nasdaq:SPCX (SPACEX) with Q2/Q3 earnings retained; Q4/FY26 earnings date unannounced. Launch-date conflicts remain provisional. 4 source landing points blocked and 11 limited/dynamic. Historical Oct15 79-source comprehensive audit not rerun. Compact mobile list UI unchanged.",
-  "lastPartialReview": "2026-11-21T16:58:49Z"
+  "verificationNote": "Nov23 HKT targeted 33-company official IR/newsroom/event entry-point review; 31 pages accessible or partly rendered, 2 blocked (Adobe and Cloudflare), with 10 additional dynamic/limited pages. Added NVIDIA Nov17 supply-chain commitment event and NASA Nov21 CRS-35 completed splashdown. Rechecked SpaceX public Nasdaq:SPCX/SEC EDGAR, Q3 financials and cash flow, latest Nov16 13G/A, undated Q4/FY2026 earnings, 1.7 GW nameplate compute (not energized), and FAA/Starship date certainty. Updated Anthropic metadata to public Nasdaq:ANT after completed Nov18 pricing, Nov19 first trading and Nov20 close. Historical Oct15 79-source full audit (78/79) remains unchanged; this is a targeted review, not an exhaustive 33-company SEC-history sweep. Compact mobile List unchanged.",
+  "lastPartialReview": "2026-11-22T16:58:21Z"
 }
