@@ -5340,7 +5340,7 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-23T17:28:14Z",
+    "checkedAt": "2026-11-23T17:34:40Z",
     "localDate": "2026-11-24",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
@@ -5626,7 +5626,27 @@
         "kind": "official"
       }
     ],
-    "notes": "Nov24 HKT targeted review of all 33 official company IR/newsroom/event entry points. Fourteen pages were readable, sixteen were limited/dynamic, and Adobe/ASML/Cloudflare were blocked. Focused primary-source review covered CrowdStrike Q3 FY27 results and Zscaler agreement, NVIDIA CEO reinstatement, Workday Nov24 earnings calendar, SpaceX Apollo/Goldman financing and SEC submissions, and NASA CRS-35 postflight status. Full Oct15 79-source audit NOT rerun."
+    "notes": "Nov24 HKT targeted review of all 33 official company IR/newsroom/event entry points. Fourteen pages were readable, sixteen were limited/dynamic, and Adobe/ASML/Cloudflare were blocked. Focused primary-source review covered CrowdStrike Q3 FY27 results and Zscaler agreement, NVIDIA CEO reinstatement, Workday Nov24 earnings calendar, SpaceX Apollo/Goldman financing and SEC submissions, and NASA CRS-35 postflight status. Full Oct15 79-source audit NOT rerun. The Nov24 dataset commit a78128e passed all 64 Python tests and 8 JavaScript tests. Its first Pages deployment attempt reached actions/deploy-pages but the Pages service returned a transient deployment failure; re-running the same job created two github-pages artifacts under one run ID, so deploy-pages rejected the duplicate artifacts. This audit-only follow-up triggers a fresh workflow run with a new run ID; it does not alter calendar event facts or claim the deployment is already live.",
+    "publishingHistory": [
+      {
+        "runId": 45229019708,
+        "attempt": 1,
+        "result": "failed",
+        "stage": "Deploy to GitHub Pages",
+        "detail": "GitHub Pages deployment endpoint returned 'Deployment failed, try again later'; dataset validation and both test suites had passed."
+      },
+      {
+        "runId": 45229019708,
+        "attempt": 2,
+        "result": "failed",
+        "stage": "Deploy to GitHub Pages",
+        "detail": "Same-run retry uploaded a second github-pages artifact; deploy-pages rejected multiple artifacts with the same name."
+      },
+      {
+        "result": "fresh_push_run",
+        "detail": "A new source-audit commit is being pushed to obtain a clean run/artifact namespace; live public-dataset hash verification remains pending until that run succeeds."
+      }
+    ]
   },
   "coverageAudit": {
     "checkedAt": "2026-11-23T17:28:14Z",
@@ -7582,7 +7602,7 @@
       ]
     },
     {
-      "checkedAt": "2026-11-23T17:28:14Z",
+      "checkedAt": "2026-11-23T17:34:40Z",
       "scope": "Nov24 HKT targeted all 33 company IR/newsroom/event entry points; focused CrowdStrike Q3 FY27 results and Zscaler M&A, NVIDIA CEO reinstatement, Workday Nov24 earnings, SpaceX Apollo/Goldman GPU financing and SEC EDGAR, NASA CRS-35 and SpaceX launch/FAA status. Full Oct15 79-source audit NOT rerun.",
       "companiesChecked": [
         "TSM",
@@ -7729,6 +7749,26 @@
           "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
           "status": "retrieved",
           "kind": "official"
+        }
+      ],
+      "publishingObservations": [
+        {
+          "runId": 45229019708,
+          "attempt": 1,
+          "result": "failed",
+          "stage": "Deploy to GitHub Pages",
+          "detail": "GitHub Pages deployment endpoint returned 'Deployment failed, try again later'; dataset validation and both test suites had passed."
+        },
+        {
+          "runId": 45229019708,
+          "attempt": 2,
+          "result": "failed",
+          "stage": "Deploy to GitHub Pages",
+          "detail": "Same-run retry uploaded a second github-pages artifact; deploy-pages rejected multiple artifacts with the same name."
+        },
+        {
+          "result": "fresh_push_run",
+          "detail": "A new source-audit commit is being pushed to obtain a clean run/artifact namespace; live public-dataset hash verification remains pending until that run succeeds."
         }
       ]
     }
