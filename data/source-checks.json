@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Nov23 HKT targeted all 33 issuer IR/newsroom/event entry points; 31 accessible or partly rendered and 2 blocked (Adobe and Cloudflare), with 10 additional dynamic/limited pages. Focused SpaceX Q3 SEC/EDGAR financial, Starlink subscriber/ARPU, capex and cash-flow review; NASA CRS-35 completed splashdown; NVIDIA's detailed substrate/advanced-packaging supply-chain commitments; upcoming issuer catalysts; and Anthropic Nasdaq ANT status. Two new confirmed events added. Historical Oct15 exhaustive 79-source audit (78/79) preserved unchanged; no claim of full 33-company SEC-history or 79-source refresh. Compact mobile List untouched.",
+  "note": "Historical October 15 exhaustive source harvest: 78/79 successful, retained unchanged. Latest targeted review (November 24 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered and 3 blocked; see lastTargetedReview and reviewHistory. Today's targeted review is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,171 +5340,302 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-22T16:58:21Z",
-    "localDate": "2026-11-23",
+    "checkedAt": "2026-11-23T17:28:14Z",
+    "localDate": "2026-11-24",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 31,
-    "entryPointsBlocked": 2,
+    "entryPointsAccessibleOrPartiallyRendered": 30,
+    "entryPointsBlocked": 3,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
         "id": "TSM",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://investor.tsmc.com/english/financial-calendar"
       },
       {
         "id": "NVDA",
-        "status": "accessible"
+        "status": "limited",
+        "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx"
       },
       {
         "id": "AMD",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://ir.amd.com/news-events/ir-calendar"
       },
       {
         "id": "AVGO",
-        "status": "accessible"
+        "status": "limited",
+        "sourceUrl": "https://investors.broadcom.com/company-information/events-presentations"
       },
       {
         "id": "MRVL",
-        "status": "accessible"
+        "status": "limited",
+        "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar"
       },
       {
         "id": "AAPL",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://www.apple.com/investor/earnings-call/"
       },
       {
         "id": "MSFT",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://www.microsoft.com/en-us/Investor"
       },
       {
         "id": "ORCL",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://investor.oracle.com/events-and-presentations/default.aspx"
       },
       {
         "id": "CRM",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://investor.salesforce.com/events-and-presentations/default.aspx"
       },
       {
         "id": "NOW",
-        "status": "accessible"
+        "status": "limited",
+        "sourceUrl": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx"
       },
       {
         "id": "ADBE",
-        "status": "blocked"
+        "status": "blocked",
+        "sourceUrl": "https://news.adobe.com/financial"
       },
       {
         "id": "WDAY",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://investor.workday.com/"
       },
       {
         "id": "ASML",
-        "status": "accessible"
+        "status": "blocked",
+        "sourceUrl": "https://investor.asml.com/quarterly-results"
       },
       {
         "id": "LRCX",
-        "status": "accessible"
+        "status": "limited",
+        "sourceUrl": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call"
       },
       {
         "id": "005930.KS",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://www.samsung.com/global/ir/ir-events-presentations/events/"
       },
       {
         "id": "000660.KS",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://news.skhynix.com/"
       },
       {
         "id": "MU",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://investors.micron.com/events-and-presentations"
       },
       {
         "id": "2454.TW",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events"
       },
       {
         "id": "AMZN",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://ir.aboutamazon.com/quarterly-results/default.aspx"
       },
       {
         "id": "GOOGL",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx"
       },
       {
         "id": "META",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
       },
       {
         "id": "ANTHROPIC",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://www.anthropic.com/news"
       },
       {
         "id": "CRWV",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://investors.coreweave.com/events-and-presentations/default.aspx"
       },
       {
         "id": "NBIS",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://nebius.com/investor-hub"
       },
       {
         "id": "INTC",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://www.intc.com/news-events/ir-calendar"
       },
       {
         "id": "ARM",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations"
       },
       {
         "id": "QCOM",
-        "status": "accessible"
+        "status": "limited",
+        "sourceUrl": "https://investor.qualcomm.com/"
       },
       {
         "id": "SNOW",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://investors.snowflake.com/"
       },
       {
         "id": "CRWD",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://ir.crowdstrike.com/"
       },
       {
         "id": "PANW",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://investors.paloaltonetworks.com/"
       },
       {
         "id": "NET",
-        "status": "blocked"
+        "status": "blocked",
+        "sourceUrl": "https://cloudflare.net/"
       },
       {
         "id": "OPENAI",
-        "status": "accessible"
+        "status": "accessible",
+        "sourceUrl": "https://openai.com/news/"
       },
       {
         "id": "SPACEX",
-        "status": "limited"
+        "status": "limited",
+        "sourceUrl": "https://ir.spacex.com/"
       }
     ],
     "companiesNotFullyReviewed": [
+      "NVDA",
+      "AVGO",
+      "MRVL",
       "AAPL",
       "ORCL",
       "CRM",
+      "NOW",
       "ADBE",
+      "ASML",
+      "LRCX",
       "MU",
       "AMZN",
       "GOOGL",
       "META",
       "CRWV",
+      "QCOM",
       "SNOW",
       "NET",
       "SPACEX"
     ],
-    "notes": "Nov23 HKT targeted 33-company issuer entry-point review. Adobe and Cloudflare returned 403; ten other pages were dynamic/limited. All 33 entry points were attempted, but full SEC filing histories and all dynamic event lists were not exhaustively verified. SpaceX is publicly listed Nasdaq:SPCX (internal ID SPACEX); SEC EDGAR latest filing by date Nov16 Schedule 13G/A, Q3 Form 10-Q Oct22; no Q4/FY2026 earnings date found. SpaceX Q3 financials, 13.6m Starlink consumer subscribers, $69 ARPU, 1.7 GW SI nameplate compute, capex, operating cash flow and liquidity rechecked. NASA CRS-35 Nov21 splashdown confirmed. NVIDIA disclosed Kinsus >3.5x ABF capacity, Amkor ~$3bn prior agreements and SPIL multibillion funding, with future production targets not treated as current capacity. FAA scoping dates are consultation only; Flight 15 actual launch remains reported; USSF-317/627 exact dates unresolved. Historical Oct15 79-source audit remains unchanged."
+    "verifiedChanges": [
+      "CRWD: November 23 official Q3 FY2027 results supersede the prior December 1 call; revenue $1.583bn (+28%), subscription revenue $1.503bn (+29%), ARR $6.26bn (+27%), net new ARR $419.2m, operating cash flow $665.2m, non-GAAP FCF $474.4m; FY27 revenue guide $6.0781–6.0841bn and FY27 net-new-ARR growth guide 45% at midpoint.",
+      "CRWD: November 23 definitive all-stock agreement to acquire Zscaler at ~$43.9bn EV (1.135 CRWD shares per ZS share); expected close H2 FY2028 subject to approvals. Added an undated close watchpoint rather than an invented close date.",
+      "NVDA: November 23 official board release reinstates Jensen Huang as President, CEO and director effective immediately; Colette Kress remains CFO; investigation and National Security/Export Control Committee work continue. GTC D.C. keynote date/time retained from prior official schedule; current agenda page returned HTTP 500, so speaker/agenda recheck remains open.",
+      "SPACEX: Apollo/Goldman November 20 primary release confirms ~$44bn GPU-note pricing for NVIDIA Vera Rubin equipment for SpaceX terrestrial compute, with delivery/lease schedules expected H1 2027. Reconciled to the Oct26 ~$40bn master finance-lease commitment; not a second independent GPU purchase.",
+      "SPACEX: SEC EDGAR submissions JSON confirms CIK 0001181412, Nasdaq ticker SPCX; latest filing by date remains Nov16 Schedule 13G/A, with no later filing shown through Nov23 UTC. Official IR Events page is dynamic and exposes no readable Q4/FY2026 earnings date; retain the earnings watch as undated.",
+      "SPACEX/NASA: NASA confirms CRS-35 Dragon splashdown Nov21 at 14:03 PST; this is separate from Nov20 undocking and Nov18 weather stand-down. SpaceX launch manifest returned no readable server-rendered schedule; USSF-317/627 remain unresolved and no exact future launch date was promoted.",
+      "WDAY: Rechecked official IR calendar and Nov2 issuer release; Q3 FY2027 results remain scheduled after market close Nov24, with call at 13:30 PST / 16:30 EST (Nov25 05:30 HKT). Event had not occurred at the Nov24 HKT review cutoff."
+    ],
+    "coverageGaps": [
+      "Adobe, ASML and Cloudflare official entry URLs were blocked (403/tool fetch failure); their event/financial updates were not treated as absent.",
+      "Sixteen other entry pages were limited or dynamic; 30/33 were accessible or partially rendered, but this was not a full SEC-history sweep for every issuer.",
+      "SpaceX IR Upcoming Events and launch manifest pages are JavaScript/dynamic; EDGAR shows no filing after Nov16 through the Nov23 UTC check, and Q4/FY2026 earnings remains unannounced.",
+      "SpaceX USSF-317/627 launch targets still conflict across indexed/third-party snapshots; no exact liftoff date or time is asserted. FAA scoping is consultation, not a license; the Dec7 comment deadline is not a launch authorization.",
+      "Current NVIDIA GTC D.C. agenda page returned HTTP 500; December 1 keynote date/time retained from earlier issuer evidence, but current speaker/agenda was not revalidated.",
+      "Historical Oct15 exhaustive 79-source audit (78/79) remains unchanged; today's 33-company targeted entry-point review is not represented as a full 79-source or full SEC-history refresh."
+    ],
+    "sourcesChecked": [
+      {
+        "company": "CRWD",
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial",
+        "status": "retrieved",
+        "kind": "official"
+      },
+      {
+        "company": "CRWD",
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero",
+        "status": "retrieved",
+        "kind": "official"
+      },
+      {
+        "company": "NVDA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+        "status": "retrieved",
+        "kind": "official"
+      },
+      {
+        "company": "NVDA",
+        "url": "https://www.nvidia.com/gtc/dc/",
+        "status": "http_500",
+        "kind": "official"
+      },
+      {
+        "company": "WDAY",
+        "url": "https://investor.workday.com/news-and-events/investor-relations-events/default.aspx",
+        "status": "limited_dynamic",
+        "kind": "official"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://ir.spacex.com/",
+        "status": "limited_dynamic",
+        "kind": "official"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://ir.spacex.com/events/default.aspx",
+        "status": "limited_dynamic",
+        "kind": "official"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+        "status": "retrieved",
+        "kind": "official"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://www.spacex.com/launches/",
+        "status": "no_readable_lines",
+        "kind": "official"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
+        "status": "retrieved",
+        "kind": "official"
+      },
+      {
+        "company": "NASA",
+        "url": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
+        "status": "retrieved",
+        "kind": "official"
+      },
+      {
+        "company": "NASA",
+        "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
+        "status": "retrieved",
+        "kind": "official"
+      }
+    ],
+    "notes": "Nov24 HKT targeted review of all 33 official company IR/newsroom/event entry points. Fourteen pages were readable, sixteen were limited/dynamic, and Adobe/ASML/Cloudflare were blocked. Focused primary-source review covered CrowdStrike Q3 FY27 results and Zscaler agreement, NVIDIA CEO reinstatement, Workday Nov24 earnings calendar, SpaceX Apollo/Goldman financing and SEC submissions, and NASA CRS-35 postflight status. Full Oct15 79-source audit NOT rerun."
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-22T16:58:21Z",
-    "scope": "Nov23 HKT targeted review of all 33 official issuer IR/newsroom/event entry points plus focused primary-source review of SpaceX Q3 SEC financials and current filings, NASA CRS-35 recovery, NVIDIA supply-chain commitments, upcoming issuer catalysts and Anthropic post-IPO status. This is not a full 79-source refresh or an exhaustive SEC-history audit for every issuer.",
+    "checkedAt": "2026-11-23T17:28:14Z",
+    "scope": "Nov24 HKT targeted review of all 33 official issuer IR/newsroom/event entry points plus focused primary-source review of CrowdStrike Q3 FY2027 results and Zscaler transaction, NVIDIA CEO reinstatement, Workday earnings timing, SpaceX Apollo/Goldman GPU financing and SEC EDGAR submissions, NASA CRS-35 splashdown and SpaceX/FAA launch-status checks. This is not a full 79-source refresh or an exhaustive SEC-history audit for every issuer.",
     "companies": 33,
-    "events": 169,
+    "events": 172,
     "companiesWithEvents": 33,
-    "confirmedEvents": 138,
-    "undatedEvents": 10,
+    "confirmedEvents": 140,
+    "undatedEvents": 11,
     "estimatedEvents": 10,
     "reportedEvents": 11,
     "confirmedMissingVerifiedAt": 0,
@@ -7448,6 +7579,157 @@
         "SpaceX USSF-317/USSF-627 mission-specific launch dates remain unresolved; Flight 15 actual outcome remains reported, not first-party postflight-confirmed in the accessible mission page.",
         "FCC spectrum docket was not exhaustively reconciled; NASA and DoD award databases were not exhaustively swept. FAA Nov17–19 scoping meetings were environmental consultation, not a launch license.",
         "Historical Oct15 comprehensive 79-source audit (78 retrieved) is preserved unchanged; this targeted review does not advance the full-audit timestamp."
+      ]
+    },
+    {
+      "checkedAt": "2026-11-23T17:28:14Z",
+      "scope": "Nov24 HKT targeted all 33 company IR/newsroom/event entry points; focused CrowdStrike Q3 FY27 results and Zscaler M&A, NVIDIA CEO reinstatement, Workday Nov24 earnings, SpaceX Apollo/Goldman GPU financing and SEC EDGAR, NASA CRS-35 and SpaceX launch/FAA status. Full Oct15 79-source audit NOT rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "ASML",
+        "LRCX",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "QCOM",
+        "SNOW",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "CRWD: November 23 official Q3 FY2027 results supersede the prior December 1 call; revenue $1.583bn (+28%), subscription revenue $1.503bn (+29%), ARR $6.26bn (+27%), net new ARR $419.2m, operating cash flow $665.2m, non-GAAP FCF $474.4m; FY27 revenue guide $6.0781–6.0841bn and FY27 net-new-ARR growth guide 45% at midpoint.",
+        "CRWD: November 23 definitive all-stock agreement to acquire Zscaler at ~$43.9bn EV (1.135 CRWD shares per ZS share); expected close H2 FY2028 subject to approvals. Added an undated close watchpoint rather than an invented close date.",
+        "NVDA: November 23 official board release reinstates Jensen Huang as President, CEO and director effective immediately; Colette Kress remains CFO; investigation and National Security/Export Control Committee work continue. GTC D.C. keynote date/time retained from prior official schedule; current agenda page returned HTTP 500, so speaker/agenda recheck remains open.",
+        "SPACEX: Apollo/Goldman November 20 primary release confirms ~$44bn GPU-note pricing for NVIDIA Vera Rubin equipment for SpaceX terrestrial compute, with delivery/lease schedules expected H1 2027. Reconciled to the Oct26 ~$40bn master finance-lease commitment; not a second independent GPU purchase.",
+        "SPACEX: SEC EDGAR submissions JSON confirms CIK 0001181412, Nasdaq ticker SPCX; latest filing by date remains Nov16 Schedule 13G/A, with no later filing shown through Nov23 UTC. Official IR Events page is dynamic and exposes no readable Q4/FY2026 earnings date; retain the earnings watch as undated.",
+        "SPACEX/NASA: NASA confirms CRS-35 Dragon splashdown Nov21 at 14:03 PST; this is separate from Nov20 undocking and Nov18 weather stand-down. SpaceX launch manifest returned no readable server-rendered schedule; USSF-317/627 remain unresolved and no exact future launch date was promoted.",
+        "WDAY: Rechecked official IR calendar and Nov2 issuer release; Q3 FY2027 results remain scheduled after market close Nov24, with call at 13:30 PST / 16:30 EST (Nov25 05:30 HKT). Event had not occurred at the Nov24 HKT review cutoff."
+      ],
+      "coverageGaps": [
+        "Adobe, ASML and Cloudflare official entry URLs were blocked (403/tool fetch failure); their event/financial updates were not treated as absent.",
+        "Sixteen other entry pages were limited or dynamic; 30/33 were accessible or partially rendered, but this was not a full SEC-history sweep for every issuer.",
+        "SpaceX IR Upcoming Events and launch manifest pages are JavaScript/dynamic; EDGAR shows no filing after Nov16 through the Nov23 UTC check, and Q4/FY2026 earnings remains unannounced.",
+        "SpaceX USSF-317/627 launch targets still conflict across indexed/third-party snapshots; no exact liftoff date or time is asserted. FAA scoping is consultation, not a license; the Dec7 comment deadline is not a launch authorization.",
+        "Current NVIDIA GTC D.C. agenda page returned HTTP 500; December 1 keynote date/time retained from earlier issuer evidence, but current speaker/agenda was not revalidated.",
+        "Historical Oct15 exhaustive 79-source audit (78/79) remains unchanged; today's 33-company targeted entry-point review is not represented as a full 79-source or full SEC-history refresh."
+      ],
+      "sourcesChecked": [
+        {
+          "company": "CRWD",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "CRWD",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "NVDA",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "NVDA",
+          "url": "https://www.nvidia.com/gtc/dc/",
+          "status": "http_500",
+          "kind": "official"
+        },
+        {
+          "company": "WDAY",
+          "url": "https://investor.workday.com/news-and-events/investor-relations-events/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://ir.spacex.com/",
+          "status": "limited_dynamic",
+          "kind": "official"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://ir.spacex.com/events/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.spacex.com/launches/",
+          "status": "no_readable_lines",
+          "kind": "official"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "NASA",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "NASA",
+          "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
+          "status": "retrieved",
+          "kind": "official"
+        }
       ]
     }
   ]

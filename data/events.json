@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-23",
+  "asOf": "2026-11-24",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-22T16:58:21Z",
+  "lastAttempt": "2026-11-23T17:28:14Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -855,9 +855,9 @@
       "time": "13:30 PST / 16:30 EST (Nov 25 05:30 HKT)",
       "sourceUrl": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
       "sourceLabel": "Workday official November 2 earnings-date announcement",
-      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
-      "verifiedAt": "2026-11-05T17:07:56.396Z",
-      "basis": "Workday officially announced on November 2 that it will release fiscal Q3 2027 results after U.S. market close on Tuesday, November 24, 2026, with conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). This company-confirmed date supersedes third-party historical-schedule estimates; the webcast time is distinct from the as-yet-unspecified earnings-release time.",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "verifiedAt": "2026-11-23T17:28:14Z",
+      "basis": "Workday's November 2 issuer release and its current IR events calendar confirm that Q3 FY2027 results are scheduled after the U.S. market close on Tuesday November 24, 2026, with the conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). At the November 24 HKT review cutoff, the U.S. results event had not yet occurred. The webcast time is distinct from the results-release clock time, which the company does not specify.",
       "importance": "HR and finance budgets, subscription backlog and AI agents.",
       "sources": [
         {
@@ -873,10 +873,16 @@
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         },
         {
-          "label": "Workday November 2 official results date & webcast time",
+          "label": "Workday November 2 Q3 FY2027 results-date and webcast announcement",
           "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-11-05T17:07:56.396Z"
+          "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "Workday IR events calendar, upcoming Q3 FY27 call November 24",
+          "url": "https://investor.workday.com/news-and-events/investor-relations-events/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
         }
       ],
       "startAt": "2026-11-24T21:30:00Z",
@@ -1621,7 +1627,7 @@
     },
     {
       "id": "gtc-dc-keynote",
-      "title": "NVIDIA GTC Washington D.C. keynote · speaker needs reconfirmation",
+      "title": "NVIDIA GTC Washington D.C. keynote · speaker listing recheck pending after CEO reinstatement",
       "companies": [
         "NVDA"
       ],
@@ -1633,9 +1639,9 @@
       "status": "confirmed",
       "sourceUrl": "https://www.nvidia.com/gtc/dc/",
       "sourceLabel": "NVIDIA · official regional GTC schedule",
-      "sourceCheckedAt": "2026-11-12T17:09:25.315Z",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
       "verifiedAt": "2026-11-12T17:09:25.315Z",
-      "basis": "NVIDIA's official GTC D.C. website still confirms keynote DECEMBER 1 at 14:00 Eastern (19:00 UTC) and still describes Jensen Huang as CEO and keynote speaker, but NVIDIA officially announced his resignation as CEO and board member NOVEMBER 12. The event DATE/TIME remain confirmed; the named SPEAKER must be independently reverified after the succession, with no assumption that the keynote is canceled, postponed or still presented by Jensen.",
+      "basis": "NVIDIA's earlier official GTC D.C. schedule listed the keynote for December 1 at 14:00 Eastern and named Jensen Huang. NVIDIA's November 23 official board release reinstated Huang as President and CEO effective immediately. However, the GTC D.C. page returned a server error on the November 24 review, so the keynote date/time remain supported by the earlier official schedule but the current speaker listing and agenda were not independently revalidated. Keep the date/time confirmed from the prior issuer schedule; do not infer cancellation, a new speaker or a newly confirmed agenda.",
       "importance": "Scheduled AI platform roadmap keynote; speaker/agenda uncertainty following CEO transition merits monitoring without downgrading confirmed event time.",
       "sources": [
         {
@@ -1649,6 +1655,12 @@
           "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
           "kind": "official",
           "checkedAt": "2026-11-12T17:09:25.315Z"
+        },
+        {
+          "label": "NVIDIA November 23 CEO reinstatement; does not itself reconfirm the keynote agenda",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
         }
       ],
       "startAt": "2026-12-01T19:00:00Z",
@@ -1975,35 +1987,48 @@
       ]
     },
     {
-      "id": "CRWD-2026-12-earnings",
+      "id": "CRWD-2026-11-earnings",
       "companies": [
         "CRWD"
       ],
-      "title": "CrowdStrike Q3 FY2027 earnings release and call",
+      "title": "CrowdStrike Q3 FY2027 actual results — revenue $1.58bn, ARR $6.26bn; FY27 outlook raised",
       "type": "Earnings",
       "status": "confirmed",
-      "date": "2026-12-01",
+      "date": "2026-11-23",
       "endDate": null,
       "window": null,
-      "time": "Earnings after U.S. market close; conference call 2:00 p.m. PST / 5:00 p.m. EST (Dec 2, 06:00 HKT)",
-      "sourceUrl": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-announces-date-fiscal-third-quarter-2027-financial",
-      "sourceLabel": "CrowdStrike November 4 official Q3 FY2027 earnings-call announcement",
-      "sourceCheckedAt": "2026-11-04T17:07:48.597Z",
-      "verifiedAt": "2026-11-04T17:07:48.597Z",
-      "basis": "CrowdStrike's Nov 4, 2026 issuer press release explicitly confirms Q3 FY2027 earnings results after U.S. market close on Tuesday Dec 1, with the conference call at 2:00 p.m. Pacific (PST, 22:00 UTC) / 5:00 p.m. Eastern. This replaces the earlier MarketBeat date estimate. The earnings-release time itself is not separately announced; only the call time is normalized.",
-      "importance": "Cybersecurity ARR, Falcon Flex adoption, operating leverage and AI security demand; company-confirmed earnings day and conference-call time.",
+      "time": "05:00 PST / 08:00 EST (Nov 23, 21:00 HKT)",
+      "sourceUrl": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial",
+      "sourceLabel": "CrowdStrike official November 23 Q3 FY2027 results and conference-call release",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "verifiedAt": "2026-11-23T17:28:14Z",
+      "basis": "CrowdStrike released Q3 FY2027 results for the quarter ended October 31 on November 23, 2026. Revenue was $1.583bn (+28% YoY), including subscription revenue of $1.503bn (+29%); ending ARR was $6.26bn (+27%), with $419.2m net new ARR. GAAP operating loss was $0.8m, non-GAAP operating income $405.5m, GAAP net income $24.9m, operating cash flow $665.2m and non-GAAP free cash flow $474.4m; cash and equivalents were $5.37bn. FY2027 revenue guidance is $6.0781–6.0841bn; Q4 revenue guidance is $1.6381–1.6441bn, and management raised FY27 net-new-ARR growth guidance to 45% YoY at the midpoint. The company says Falcon Guardian exceeded $100m ARR after quarter-end. Its official IR event calendar and results release set the conference call for November 23 at 05:00 Pacific / 08:00 Eastern. This replaces—not supplements—the previously scheduled December 1 call. Free cash flow is the company's non-GAAP measure.",
+      "importance": "Material cybersecurity demand and AI-agent security read-through: ARR acceleration, Falcon platform consolidation, raised guidance and record cash conversion; the actual call date supersedes the prior December 1 schedule.",
       "sources": [
         {
-          "label": "CrowdStrike official November 4 earnings announcement",
+          "label": "CrowdStrike November 23 Q3 FY2027 results and revised call notice",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "CrowdStrike IR event page: November 23 call at 05:00 PST",
+          "url": "https://ir.crowdstrike.com/events-and-presentations",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "CrowdStrike November 4 original December 1 schedule notice, superseded by November 23 release",
           "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-announces-date-fiscal-third-quarter-2027-financial",
           "kind": "official",
-          "checkedAt": "2026-11-04T17:07:48.597Z"
+          "checkedAt": "2026-11-23T17:28:14Z"
         }
       ],
-      "startAt": "2026-12-01T22:00:00Z",
+      "startAt": "2026-11-23T13:00:00Z",
       "sourceTimeZone": "America/Los_Angeles",
       "timeCertainty": "verified",
-      "timeCheckedAt": "2026-11-04T17:07:48.597Z"
+      "timeCheckedAt": "2026-11-23T17:28:14Z",
+      "dateConflict": "CrowdStrike's November 4 issuer notice had scheduled the Q3 FY2027 call for December 1. Its November 23 results release explicitly says the December 1 call was cancelled and replaced by the November 23 call at 05:00 Pacific / 08:00 Eastern. The calendar now records the actual November 23 release and call."
     },
     {
       "id": "PANW-2026-11-earnings",
@@ -2979,40 +3004,40 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
       "verifiedAt": null,
-      "basis": "SpaceX is a public Nasdaq issuer (SPCX; internal company ID SPACEX). The accessible official IR Events page is dynamically rendered and did not expose a Q4/FY2026 earnings date in this review; retain this as an undated watch item and do not infer a date from reporting cadence. SEC EDGAR submissions JSON as of November 23 HKT identifies CIK 0001181412, ticker SPCX, Nasdaq, and latest filings by filing date: November 16 Schedule 13G/A (accession 0001213900-26-120715), November 13 Schedule 13G/A (0001426012-26-000007), November 6 Form 8-K (0001628280-26-071689), October 26 Form 8-K (0001104659-26-118614), and October 22 Q3 Form 10-Q (0001628280-26-066880). Q3 earnings and Form 10-Q are separately tracked. No Q4/FY2026 earnings release or webcast date was found in the accessible IR calendar.",
+      "basis": "SpaceX is a publicly listed Nasdaq issuer (SPCX; internal company ID SPACEX). The SEC EDGAR submissions JSON checked on November 23 UTC identifies CIK 0001181412, ticker SPCX and Nasdaq. Its latest filing by filing date remains the November 16 Schedule 13G/A; preceding recent filings are November 13 Schedule 13G/A, November 6 Form 8-K, October 26 Form 8-K and October 22 Q3 Form 10-Q. No later filing appears through the November 23 UTC check. SpaceX's official IR Events page exposes Upcoming Events and Archived Events headings but no readable upcoming event entry in the current page response. Q2/Q3 2026 earnings and Q3 Form 10-Q remain separately tracked; no company-confirmed Q4/FY2026 results or webcast date was found. Keep this as an undated public-company earnings watchpoint, not a private-company financing-only watch.",
       "importance": "Track the next company-confirmed quarterly results, guidance, Starlink/Connectivity, SI revenue and compute, capex, cash flow, liquidity, financing and SEC disclosures; do not omit public-company earnings.",
       "sources": [
         {
-          "label": "SpaceX IR events",
+          "label": "SpaceX investor relations home and Quarterly Results/Events navigation",
+          "url": "https://ir.spacex.com/",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "SpaceX IR events page; dynamic upcoming-events list",
           "url": "https://ir.spacex.com/events/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-10-23T17:04:38Z"
+          "checkedAt": "2026-11-23T17:28:14Z"
         },
         {
-          "label": "SEC Q3 earnings release",
-          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
-          "kind": "official",
-          "checkedAt": "2026-10-23T17:04:38Z"
-        },
-        {
-          "label": "SpaceX investor events · dynamic listing",
-          "url": "https://ir.spacex.com/events/default.aspx",
-          "kind": "official",
-          "checkedAt": "2026-10-31T17:02:18.674Z"
-        },
-        {
-          "label": "SEC EDGAR company submissions JSON (CIK 0001181412; SPCX/Nasdaq)",
+          "label": "SEC EDGAR submissions JSON, CIK 0001181412 / Nasdaq:SPCX",
           "url": "https://data.sec.gov/submissions/CIK0001181412.json",
           "kind": "official",
-          "checkedAt": "2026-11-22T16:58:21Z"
+          "checkedAt": "2026-11-23T17:28:14Z"
         },
         {
-          "label": "SEC Q3 2026 Form 10-Q",
+          "label": "SpaceX Q3 2026 Form 10-Q, filed October 22",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
           "kind": "official",
-          "checkedAt": "2026-11-22T16:58:21Z"
+          "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "SpaceX Q3 2026 earnings release, filed as Exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
         }
       ]
     },
@@ -3224,9 +3249,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/",
       "sourceLabel": "SpaceX investor relations and SEC filings",
-      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
       "verifiedAt": null,
-      "basis": "SpaceX's Q3 2026 SEC release reports SI revenue $7.560bn, SI operating income $431m (including $1.217bn in Cursor-acquisition share-based compensation) and SI Segment Adjusted EBITDA $4.953bn. SI capex was $16.444bn in Q3 and $39.995bn for nine months; total capex $19.593bn in Q3/$48.069bn nine months versus $13.097bn nine-month operating cash flow. September 30 SI nameplate compute was 1.7 GW, up from 1.4 GW June 30; nameplate is not proof of energized/usable capacity. Apollo/Goldman announced pricing of approximately $44bn of GPU notes on November 20 for NVIDIA Vera Rubin equipment for SpaceX terrestrial compute. Link this financing to, rather than add it on top of, the October 26 approximately $40bn Apollo-managed master finance-lease commitment; they may describe related layers/stages of the same equipment financing. H1 2027 deliveries/lease commencement remain forward-looking, not completed deployment. No Q4/FY2026 earnings date was found in the accessible IR events page.",
+      "basis": "SpaceX's Q3 2026 SEC release reports SI revenue $7.560bn, SI operating income $431m (including $1.217bn in Cursor-acquisition share-based compensation) and SI Segment Adjusted EBITDA $4.953bn. SI capex was $16.444bn in Q3 and $39.995bn for nine months; total capex was $19.593bn in Q3/$48.069bn nine months versus $13.097bn nine-month operating cash flow. September 30 SI nameplate compute was 1.7 GW, up from 1.4 GW June 30; nameplate is not proof of energized/usable capacity. Apollo and Goldman priced approximately $44bn of senior and subordinated notes on November 20 to fund NVIDIA Vera Rubin GPUs and related equipment for SpaceX terrestrial compute. This is the financing layer for the earlier October 26 approximately $40bn master finance-lease commitment, not a second independent GPU purchase. Equipment delivery and lease schedules are expected H1 2027, not completed. No new Q4/FY2026 earnings date was found in the accessible IR events page.",
       "importance": "AI compute, power/energization, Vera Rubin deliveries, SI revenue/margins, capex versus operating cash generation, liquidity, financing cost and lease execution.",
       "sources": [
         {
@@ -3264,6 +3289,12 @@
           "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
           "kind": "official",
           "checkedAt": "2026-11-22T16:58:21Z"
+        },
+        {
+          "label": "Apollo/Goldman November 20 $44bn GPU-note pricing release",
+          "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
         }
       ]
     },
@@ -5737,37 +5768,49 @@
         "SPACEX",
         "NVDA"
       ],
-      "title": "Apollo/Goldman price ~$44bn SpaceX GPU notes; first deliveries/leases planned H1 2027",
+      "title": "Apollo/Goldman price ~$44bn SpaceX GPU notes; Vera Rubin deliveries/lease schedules expected H1 2027",
       "type": "Financing",
       "status": "confirmed",
       "date": "2026-11-20",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
-      "sourceLabel": "Apollo and Goldman Sachs Nov 20 primary financing-pricing announcement",
-      "sourceCheckedAt": "2026-11-21T16:58:49Z",
-      "verifiedAt": "2026-11-21T16:58:49Z",
-      "basis": "Apollo and Goldman Sachs announced on November 20, 2026 that approximately $44bn of senior and subordinated notes were successfully PRICED to fund NVIDIA Vera Rubin GPUs and related equipment for SpaceX's terrestrial compute infrastructure. Financing was oversubscribed and upsized; expected GPU delivery and associated lease-schedule commencement remain H1 2027 FORWARD-LOOKING, not completed deployment or guaranteed revenue. This primary confirmation supersedes earlier press-only uncertainty over GPU debt pricing but does not confirm all note settlement proceeds, a closed master lease, specific GPU shipment counts or cash capex. Link this transaction to, rather than ADD it to, SpaceX's earlier Oct 26 approximately $40bn Apollo-managed finance-lease commitment filed in an 8-K; the financing sizes/structures may refer to different layers or stages of the same equipment procurement. FT's proposed restriction on deploying financed hardware in orbit is still MEDIA REPORTED and not verified in signed final covenants. Nov 20 is the primary public PRICING ANNOUNCEMENT day, not a SpaceX lease start.",
-      "importance": "Material AI GPU-financing credit and capacity catalyst for public SpaceX (SPCX) and NVIDIA, but $44bn pricing is not another separate $40bn GPU order; monitor debt settlement, executed lease terms, H1 2027 hardware delivery, funding costs and usage.",
+      "sourceUrl": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
+      "sourceLabel": "Apollo and Goldman Sachs official November 20 financing-pricing announcement",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "verifiedAt": "2026-11-23T17:28:14Z",
+      "basis": "Apollo and Goldman Sachs announced on November 20, 2026 that approximately $44bn of senior and subordinated notes had been successfully priced to fund NVIDIA Vera Rubin GPUs and related equipment for SpaceX's terrestrial compute buildout. The transaction was oversubscribed and upsized. Apollo says lease schedules are expected to commence upon equipment delivery in H1 2027; this is forward-looking, not a confirmed delivery, energized-GW or revenue date. This note pricing is the financing layer supporting SpaceX's earlier October 26 approximately $40bn Apollo-managed master finance-lease commitment. Do not add $44bn and $40bn as two independent GPU orders or assume that the note face value equals the lease principal. No specific GPU count, MW, delivery schedule by tranche or realized compute capacity was disclosed in the November 20 release. Separate media reporting about possible restrictions on orbital deployment is not a verified covenant in the signed documents.",
+      "importance": "Material public SpaceX/NVIDIA AI infrastructure financing and cost-of-capital catalyst; distinguish priced notes from the related master lease, and financing commitment from actual equipment delivery and energized compute.",
       "sources": [
         {
-          "label": "Apollo/Goldman primary Nov20 $44bn GPU notes pricing",
-          "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+          "label": "Apollo and Goldman Sachs November 20 $44bn SpaceX GPU-note pricing release",
+          "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
           "kind": "official",
-          "checkedAt": "2026-11-21T16:58:49Z"
+          "checkedAt": "2026-11-23T17:28:14Z"
         },
         {
-          "label": "SpaceX SEC Oct26 $40bn master finance-lease commitment",
+          "label": "SpaceX October 26 $40bn Apollo-managed master finance-lease announcement",
+          "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "SpaceX October 26 SEC Form 8-K for the master finance-lease commitment",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
           "kind": "official",
-          "checkedAt": "2026-11-21T16:58:49Z"
+          "checkedAt": "2026-11-23T17:28:14Z"
         },
         {
-          "label": "FT Nov20 collateral covenant report — unverified terms",
+          "label": "Reuters November 20 financing coverage; secondary details, not a substitute for the official transaction release",
+          "url": "https://www.reuters.com/business/media-telecom/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-2026-11-20/",
+          "kind": "report",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "Financial Times collateral/covenant reporting; not verified in signed documents",
           "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29",
           "kind": "report",
-          "checkedAt": "2026-11-21T16:58:49Z"
+          "checkedAt": "2026-11-23T17:28:14Z"
         }
       ]
     },
@@ -5953,9 +5996,9 @@
       "time": "2:03 p.m. PST",
       "sourceUrl": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
       "sourceLabel": "NASA November 21 postflight report · CRS-35 completed splashdown",
-      "sourceCheckedAt": "2026-11-22T16:58:21Z",
-      "verifiedAt": "2026-11-22T16:58:21Z",
-      "basis": "NASA's November 21 postflight report states the unpiloted SpaceX Dragon splashed down in the Pacific near Los Angeles at 2:03 p.m. Pacific Standard Time, completing NASA's 35th SpaceX Commercial Resupply Services mission. This is the ACTUAL completed splashdown, separate from the November 20 ISS undocking and the November 18 weather stand-down. NASA's earlier advisory had targeted approximately 4:55 p.m. EST (1:55 p.m. PST); the confirmed actual time was 2:03 p.m. PST. The date is the local California splashdown date, November 21.",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "verifiedAt": "2026-11-23T17:28:14Z",
+      "basis": "NASA's November 21 postflight report confirms the unpiloted SpaceX Dragon splashed down in the Pacific near Los Angeles at 2:03 p.m. Pacific Standard Time, completing NASA's 35th SpaceX Commercial Resupply Services mission. NASA's current ISS visiting-vehicles log also lists the November 21 CRS-35 splashdown and November 20 undocking. This is the completed splashdown, separate from the November 20 ISS undocking and the November 18 weather stand-down. The actual time is 2:03 p.m. PST (22:03 UTC); the earlier advisory's approximately 1:55 p.m. PST target was not the actual time.",
       "importance": "Completed NASA commercial-resupply mission and Dragon recovery milestone; separate from the earlier undocking and cancelled weather opportunity.",
       "sources": [
         {
@@ -5969,11 +6012,17 @@
           "url": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
           "kind": "official",
           "checkedAt": "2026-11-22T16:58:21Z"
+        },
+        {
+          "label": "NASA ISS visiting-vehicles log confirms Nov 21 CRS-35 splashdown",
+          "url": "https://www.nasa.gov/international-space-station/space-station-visiting-vehicles/",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
         }
       ],
       "startAt": "2026-11-21T22:03:00Z",
       "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-11-22T16:58:21Z",
+      "timeCheckedAt": "2026-11-23T17:28:14Z",
       "timeCertainty": "verified"
     },
     {
@@ -6003,8 +6052,95 @@
           "checkedAt": "2026-11-22T16:58:21Z"
         }
       ]
+    },
+    {
+      "id": "crwd-zscaler-acquisition-2026-11-23",
+      "companies": [
+        "CRWD"
+      ],
+      "title": "CrowdStrike agrees to acquire Zscaler in a $43.9bn all-stock transaction",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2026-11-23",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero",
+      "sourceLabel": "CrowdStrike official November 23 definitive transaction announcement",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "verifiedAt": "2026-11-23T17:28:14Z",
+      "basis": "CrowdStrike and Zscaler announced a definitive, all-stock acquisition agreement on November 23. The stated enterprise value is approximately $43.9bn, based on CrowdStrike's November 20 closing price; each Zscaler share is to receive 1.135 CrowdStrike shares, implying $260.41 per Zscaler share and a 34% premium to Zscaler's November 20 close. Both boards approved the agreement. The companies say the combined company would start with more than $10bn ARR (CrowdStrike $6.26bn and Zscaler $3.9bn at their respective reported quarter-ends). Management estimates a $185bn+ TAM expansion, up to $1bn annualized revenue synergies by the end of the first 30 months after close, and $500m annualized cost synergies within 18–24 months after close; these are forward-looking targets, not realized savings or revenue. The transaction is expected to close in the second half of CrowdStrike FY2028, subject to Zscaler shareholder and regulatory approvals. Until closing the companies continue to operate independently.",
+      "importance": "Potentially transformative cybersecurity platform consolidation: combines endpoint/workload/identity/data protection with Zero Trust SASE and network security, expands AI-agent security reach, but introduces integration, financing, shareholder and antitrust execution risk.",
+      "sources": [
+        {
+          "label": "CrowdStrike definitive acquisition announcement and transaction terms",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "CrowdStrike Q3 FY2027 results and ARR baseline",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        }
+      ]
+    },
+    {
+      "id": "crwd-zscaler-transaction-close-watch",
+      "companies": [
+        "CRWD"
+      ],
+      "title": "CrowdStrike–Zscaler transaction closing · H2 FY2028 target, exact date unannounced",
+      "type": "Operating update",
+      "status": "unannounced",
+      "date": null,
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero",
+      "sourceLabel": "CrowdStrike official transaction terms",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "verifiedAt": null,
+      "basis": "CrowdStrike says the Zscaler acquisition is expected to close in the second half of CrowdStrike fiscal 2028, subject to Zscaler shareholder approval, regulatory approvals and customary closing conditions. No exact closing date is announced. Keep this as an undated transaction watchpoint; do not convert the fiscal-half target into an invented day or imply the deal has closed.",
+      "importance": "Track shareholder vote, antitrust/regulatory review, closing conditions, exchange ratio and integration milestones.",
+      "sources": [
+        {
+          "label": "CrowdStrike definitive acquisition announcement: expected H2 FY2028 close",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        }
+      ]
+    },
+    {
+      "id": "nvda-ceo-reinstatement-2026-11-23",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "NVIDIA board reinstates Jensen Huang as President, CEO and board director",
+      "type": "Governance",
+      "status": "confirmed",
+      "date": "2026-11-23",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+      "sourceLabel": "NVIDIA official November 23 board and leadership announcement",
+      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "verifiedAt": "2026-11-23T17:28:14Z",
+      "basis": "NVIDIA announced on November 23 that its board unanimously reinstated Jensen Huang as President and Chief Executive Officer and as a board director, effective immediately. Colette Kress remains CFO and resumes her regular CFO role after serving as interim CEO. The board said it received input from senior U.S. government officials and viewed the reinstatement as posing no national-security risk. The board's independent investigation continues, a National Security and Export Control Committee has been formed, and NVIDIA is beginning a search for a Chief Compliance Officer. The reinstatement therefore resolves the interim-CEO status but does not mean the investigation or compliance work has concluded.",
+      "importance": "Material governance and export-control oversight change; restores founder-led management ahead of the December 1 GTC Washington D.C. keynote, whose current agenda page could not be reloaded in this review.",
+      "sources": [
+        {
+          "label": "NVIDIA November 23 board reinstatement announcement",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-23T17:28:14Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov23 HKT targeted 33-company official IR/newsroom/event entry-point review; 31 pages accessible or partly rendered, 2 blocked (Adobe and Cloudflare), with 10 additional dynamic/limited pages. Added NVIDIA Nov17 supply-chain event with disclosed Kinsus >3.5x ABF capacity target, prior Amkor ~$3bn agreements, SPIL multibillion funding and H2 2027/Q3 2028/mid-2029 production targets; and NASA Nov21 CRS-35 completed splashdown. Rechecked SpaceX public Nasdaq:SPCX/SEC EDGAR, Q3 segment revenue, Starlink 13.6m subscribers/$69 ARPU, 1.7 GW nameplate (not energized), Q3/9M capex and cash flow, latest Nov16 13G/A, and undated Q4/FY2026 earnings. Anthropic metadata reflects completed Nasdaq:ANT IPO. Historical Oct15 79-source full audit (78/79) remains unchanged; this is a targeted review, not an exhaustive 33-company SEC-history sweep. Compact mobile List unchanged.",
-  "lastPartialReview": "2026-11-22T16:58:21Z"
+  "verificationNote": "Nov24 HKT targeted review attempted all 33 official company IR/newsroom/event entry points: 30 accessible or partially rendered and 3 blocked (Adobe, ASML and Cloudflare); 16 accessible pages remained limited/dynamic. Added CrowdStrike's Nov23 Q3 FY2027 actual results and replaced its cancelled Dec1 call with the Nov23 05:00 PST call; added the $43.9bn all-stock Zscaler agreement and an undated H2 FY2028 close watch; added NVIDIA's Nov23 Jensen Huang reinstatement. Reconciled SpaceX Apollo/Goldman ~$44bn GPU-note pricing to the related Oct26 ~$40bn master finance lease, rechecked EDGAR (latest filing Nov16) and retained undated Q4/FY2026 earnings plus unresolved future launch targets. Workday Nov24 US earnings event remains upcoming at cutoff. NASA CRS-35 splashdown remains confirmed. Historical Oct15 79-source full audit (78/79) is preserved and was NOT rerun. Compact mobile List unchanged.",
+  "lastPartialReview": "2026-11-23T17:28:14Z"
 }
