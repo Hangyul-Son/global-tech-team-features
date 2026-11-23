@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical October 15 exhaustive source harvest: 78/79 successful, retained unchanged. Latest targeted review (November 24 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered and 3 blocked; see lastTargetedReview and reviewHistory. Today's targeted review is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Latest clean Pages recovery run 127 succeeded with 64 Python tests, 8 JavaScript tests, public calendar dataset verification and four property SHA-256 matches; a non-blocking Pages source-setting 403 warning remains. A follow-on source-audit-only Pages run 128 failed at artifact discovery after upload; the event dataset remained unchanged from run 127's verified deployment. A clean new run is being triggered.",
+  "note": "Historical October 15 exhaustive source harvest: 78/79 successful, retained unchanged. Latest targeted review (November 24 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered and 3 blocked; see lastTargetedReview and reviewHistory. Today's targeted review is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Latest clean Pages recovery run 127 succeeded with 64 Python tests, 8 JavaScript tests, public calendar dataset verification and four property SHA-256 matches; a non-blocking Pages source-setting 403 warning remains. A follow-on source-audit-only Pages run 128 failed at artifact discovery after upload; the event dataset remained unchanged from run 127's verified deployment. A clean new run is being triggered. Clean recovery run 129 succeeded with 64 Python tests, 8 JavaScript tests, public calendar dataset verification and four property SHA-256 matches.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,7 +5340,7 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-23T17:38:30Z",
+    "checkedAt": "2026-11-23T17:39:53Z",
     "localDate": "2026-11-24",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
@@ -5626,7 +5626,7 @@
         "kind": "official"
       }
     ],
-    "notes": "Nov24 HKT targeted review of all 33 official company IR/newsroom/event entry points. Fourteen pages were readable, sixteen were limited/dynamic, and Adobe/ASML/Cloudflare were blocked. Focused primary-source review covered CrowdStrike Q3 FY27 results and Zscaler agreement, NVIDIA CEO reinstatement, Workday Nov24 earnings calendar, SpaceX Apollo/Goldman financing and SEC submissions, and NASA CRS-35 postflight status. Full Oct15 79-source audit NOT rerun. The Nov24 dataset commit a78128e passed all 64 Python tests and 8 JavaScript tests. Its first Pages deployment attempt reached actions/deploy-pages but the Pages service returned a transient deployment failure; re-running the same job created two github-pages artifacts under one run ID, so deploy-pages rejected the duplicate artifacts. This audit-only follow-up triggers a fresh workflow run with a new run ID; it does not alter calendar event facts or claim the deployment is already live. Clean recovery run 127 completed successfully: 64 Python tests and 8 JavaScript tests passed; the public calendar matched the approved event dataset; all four Hong Kong property dataset SHA-256 checks matched. The Pages source-setting API still emitted a non-blocking 403 permission warning. Follow-on metadata-only Pages run 128 failed at artifact discovery (zero artifacts returned immediately after successful upload); dataset validation and tests passed. The event dataset is unchanged from the hash-verified run 127. A fresh push run is being triggered for the source-audit metadata.",
+    "notes": "Nov24 HKT targeted review of all 33 official company IR/newsroom/event entry points. Fourteen pages were readable, sixteen were limited/dynamic, and Adobe/ASML/Cloudflare were blocked. Focused primary-source review covered CrowdStrike Q3 FY27 results and Zscaler agreement, NVIDIA CEO reinstatement, Workday Nov24 earnings calendar, SpaceX Apollo/Goldman financing and SEC submissions, and NASA CRS-35 postflight status. Full Oct15 79-source audit NOT rerun. The Nov24 dataset commit a78128e passed all 64 Python tests and 8 JavaScript tests. Its first Pages deployment attempt reached actions/deploy-pages but the Pages service returned a transient deployment failure; re-running the same job created two github-pages artifacts under one run ID, so deploy-pages rejected the duplicate artifacts. This audit-only follow-up triggers a fresh workflow run with a new run ID; it does not alter calendar event facts or claim the deployment is already live. Clean recovery run 127 completed successfully: 64 Python tests and 8 JavaScript tests passed; the public calendar matched the approved event dataset; all four Hong Kong property dataset SHA-256 checks matched. The Pages source-setting API still emitted a non-blocking 403 permission warning. Follow-on metadata-only Pages run 128 failed at artifact discovery (zero artifacts returned immediately after successful upload); dataset validation and tests passed. The event dataset is unchanged from the hash-verified run 127. A fresh push run is being triggered for the source-audit metadata. Fresh run 129 completed successfully after run 128's transient artifact-listing failure: 64 Python tests and 8 JavaScript tests passed, the public calendar matched the approved event dataset, and all four property SHA-256 checks matched.",
     "publishingHistory": [
       {
         "runId": 45229019708,
@@ -5668,13 +5668,26 @@
         "detail": "The artifact upload step completed successfully, but actions/deploy-pages immediately queried the artifact API and received zero github-pages artifacts. No dataset or test failure occurred; the public calendar remains verified by clean run 127 because events.json did not change in this metadata-only commit."
       },
       {
-        "result": "fresh_push_run",
-        "detail": "A new push run is being triggered to retry publication of the source-audit metadata using a new run/artifact namespace. The calendar event dataset itself is unchanged from the already hash-verified run 127."
+        "runId": 45230024706,
+        "runNumber": 129,
+        "commit": "f025cbb5ca6c4cb6be2b4eaa6948e10bc2b09e67",
+        "result": "success",
+        "completedAt": "2026-11-23T17:39:53Z",
+        "pythonTests": 64,
+        "javascriptTests": 8,
+        "publicCalendarDatasetVerification": "passed — public calendar matches approved event dataset",
+        "propertyDatasetSha256Verification": {
+          "data.json": "3f1688cee3ab6ae129f2eb8de10261507dbb615c4e93791313bc8f528982c112",
+          "listings.json": "ef67c44ba666d3044ada95579ea7aac39a834ce05ca62740ee85cca8e4b50fd0",
+          "refresh-status.json": "c1cedbfdff2ba79e48e0abacb1412ce949674fb1d2dc67c42850ce14e040e618",
+          "trends.json": "8b7e7e9be622b3bfb98e315c6b25a70afa4b795405992e8e25f71a6d6c9a21c7"
+        },
+        "note": "Fresh push run 129 succeeded after the run-128 artifact-listing failure. Dataset validation, both test suites, GitHub Pages deployment, public calendar verification and all four property SHA-256 checks passed."
       }
     ]
   },
   "coverageAudit": {
-    "checkedAt": "2026-11-23T17:38:30Z",
+    "checkedAt": "2026-11-23T17:39:53Z",
     "scope": "Nov24 HKT targeted review of all 33 official issuer IR/newsroom/event entry points plus focused primary-source review of CrowdStrike Q3 FY2027 results and Zscaler transaction, NVIDIA CEO reinstatement, Workday earnings timing, SpaceX Apollo/Goldman GPU financing and SEC EDGAR submissions, NASA CRS-35 splashdown and SpaceX/FAA launch-status checks. This is not a full 79-source refresh or an exhaustive SEC-history audit for every issuer.",
     "companies": 33,
     "events": 172,
@@ -7627,7 +7640,7 @@
       ]
     },
     {
-      "checkedAt": "2026-11-23T17:38:30Z",
+      "checkedAt": "2026-11-23T17:39:53Z",
       "scope": "Nov24 HKT targeted all 33 company IR/newsroom/event entry points; focused CrowdStrike Q3 FY27 results and Zscaler M&A, NVIDIA CEO reinstatement, Workday Nov24 earnings, SpaceX Apollo/Goldman GPU financing and SEC EDGAR, NASA CRS-35 and SpaceX launch/FAA status. Full Oct15 79-source audit NOT rerun.",
       "companiesChecked": [
         "TSM",
@@ -7817,8 +7830,21 @@
           "detail": "The artifact upload step completed successfully, but actions/deploy-pages immediately queried the artifact API and received zero github-pages artifacts. No dataset or test failure occurred; the public calendar remains verified by clean run 127 because events.json did not change in this metadata-only commit."
         },
         {
-          "result": "fresh_push_run",
-          "detail": "A new push run is being triggered to retry publication of the source-audit metadata using a new run/artifact namespace. The calendar event dataset itself is unchanged from the already hash-verified run 127."
+          "runId": 45230024706,
+          "runNumber": 129,
+          "commit": "f025cbb5ca6c4cb6be2b4eaa6948e10bc2b09e67",
+          "result": "success",
+          "completedAt": "2026-11-23T17:39:53Z",
+          "pythonTests": 64,
+          "javascriptTests": 8,
+          "publicCalendarDatasetVerification": "passed — public calendar matches approved event dataset",
+          "propertyDatasetSha256Verification": {
+            "data.json": "3f1688cee3ab6ae129f2eb8de10261507dbb615c4e93791313bc8f528982c112",
+            "listings.json": "ef67c44ba666d3044ada95579ea7aac39a834ce05ca62740ee85cca8e4b50fd0",
+            "refresh-status.json": "c1cedbfdff2ba79e48e0abacb1412ce949674fb1d2dc67c42850ce14e040e618",
+            "trends.json": "8b7e7e9be622b3bfb98e315c6b25a70afa4b795405992e8e25f71a6d6c9a21c7"
+          },
+          "note": "Fresh push run 129 succeeded after the run-128 artifact-listing failure. Dataset validation, both test suites, GitHub Pages deployment, public calendar verification and all four property SHA-256 checks passed."
         }
       ]
     }
