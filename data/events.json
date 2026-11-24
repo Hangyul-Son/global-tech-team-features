@@ -6237,6 +6237,41 @@
       ],
       "dateConflict": "SpaceX's official indexed page supplies a 15:55–19:55 UTC target window; Launch Library 2-based trackers show 16:08 UTC as a target time. This is a schedule difference, not an observed liftoff time. No primary postflight source was available at the review cutoff.",
       "estimateKind": "manifest-revision"
+    },
+    {
+      "id": "skhynix-kioxia-indirect-stake-acquisition-scheduled-2026-12-04",
+      "companies": [
+        "000660.KS"
+      ],
+      "title": "SK hynix / Kioxia indirect stake acquisition · Dec 4 scheduled date (subject to change)",
+      "type": "Investment",
+      "status": "estimated",
+      "date": "2026-12-04",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526469266/d79768d6k.htm",
+      "sourceLabel": "SK hynix Form 6-K filed Nov 20 · KRX acquisition disclosure and scheduled date",
+      "sourceCheckedAt": "2026-11-24T17:02:39Z",
+      "verifiedAt": null,
+      "basis": "SK hynix's November 20, 2026 Form 6-K reports its November 20 Korea Exchange disclosure about acquiring common shares of BCPE Pangea Cayman2, Ltd. (SPC2), the vehicle holding an equity stake in Toshiba's former semiconductor business, now Kioxia Holdings. SK hynix plans to acquire 129,000 SPC2 shares through conversion rights under convertible bonds it already holds, plus 1,001 additional shares from a Bain Capital affiliate for JPY100m, bringing its ownership to 130,001 shares / 100% of SPC2 and an indirect approximately 14.1% interest in Kioxia. The filing lists December 4, 2026 as the scheduled acquisition date but explicitly says the schedule may change and the bond-conversion and share-purchase legs may complete on different dates. Therefore Dec 4 is an issuer-scheduled ESTIMATE, not a confirmed completion date. The filing's KRW1.278893tn aggregate acquisition value reflects the original convertible-bond subscription amount; it is not a new KRW1.279tn cash payment due on Dec 4. The additional share purchase is JPY100m, and expected interest income is excluded from the stated value.",
+      "importance": "NAND industry ownership and capital-allocation datapoint; expands SK hynix's indirect exposure to Kioxia, but does not itself indicate a new NAND fab, wafer capacity or HBM supply commitment.",
+      "sources": [
+        {
+          "label": "SK hynix Form 6-K filed Nov 20, 2026 · acquisition terms and scheduled Dec 4 date; filing says schedule may change",
+          "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526469266/d79768d6k.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "Reuters Nov 20 report · SK hynix to become Kioxia's largest shareholder after bond conversion",
+          "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-become-top-shareholder-rival-kioxia-after-bond-conversion-2026-11-20/",
+          "kind": "report",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        }
+      ],
+      "dateConflict": "The issuer calls Dec 4 a scheduled acquisition date but explicitly allows changes and different completion dates for the bond conversion and share-purchase legs. Keep status estimated and do not show a confirmed close or exact time.",
+      "estimateKind": "company-scheduled-date"
     }
   ],
   "verificationNote": "Nov24 HKT targeted review attempted all 33 official company IR/newsroom/event entry points: 30 accessible or partially rendered and 3 blocked (Adobe, ASML and Cloudflare); 16 accessible pages remained limited/dynamic. Added CrowdStrike's Nov23 Q3 FY2027 actual results and replaced its cancelled Dec1 call with the Nov23 05:00 PST call; added the $43.9bn all-stock Zscaler agreement and an undated H2 FY2028 close watch; added NVIDIA's Nov23 Jensen Huang reinstatement. Reconciled SpaceX Apollo/Goldman ~$44bn GPU-note pricing to the related Oct26 ~$40bn master finance lease, rechecked EDGAR (latest filing Nov16) and retained undated Q4/FY2026 earnings plus unresolved future launch targets. Workday Nov24 US earnings event remains upcoming at cutoff. NASA CRS-35 splashdown remains confirmed. Historical Oct15 79-source full audit (78/79) is preserved and was NOT rerun. Compact mobile List unchanged.",
