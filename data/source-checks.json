@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical October 15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November 25 01:30 HKT) attempted all 33 company IR/newsroom/event entry points: 31 accessible or partially rendered (14 usable text, 17 limited/dynamic) and two blocked (Adobe, Cloudflare). ASML's IR homepage and statutory interim report confirm January 27, 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close November 24, with the call November 25 at 05:30 HKT; at review cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results, Q3 Form 10-Q and October 24 Form 8-K were checked directly; Q4/FY2026 earnings remains undated. SpaceX's 10-Q details the $19.6bn 800 MHz spectrum transaction, FCC approval/transfer milestones and payment schedule. The $40bn GPU master-lease commitment and $44bn GPU-note pricing are separate public disclosures with overlap unresolved; do not double-count. USSF-266's official Nov24 15:55–19:55 UTC target window remained open at 17:30 UTC; keep estimated. OpenAI IPO remains undated with no year/quarter scenario. Latest previous GitHub Actions run140 passed 64 Python and 8 Node tests, deployed, verified the public calendar against the approved dataset and matched all four property dataset SHA-256 values. Earlier schema/evidence-label failures were corrected without weakening tests; deploy artifact visibility was resolved by adding actions:read. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit.",
+  "note": "Historical October 15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November 25 01:30 HKT) attempted all 33 company IR/newsroom/event entry points: 31 accessible or partially rendered (14 usable text, 17 limited/dynamic) and two blocked (Adobe, Cloudflare). ASML's IR homepage and statutory interim report confirm January 27, 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close November 24, with the call November 25 at 05:30 HKT; at review cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results, Q3 Form 10-Q and October 24 Form 8-K were checked directly; Q4/FY2026 earnings remains undated. SpaceX's 10-Q details the $19.6bn 800 MHz spectrum transaction, FCC approval/transfer milestones and payment schedule. The $40bn GPU master-lease commitment and $44bn GPU-note pricing are separate public disclosures with overlap unresolved; do not double-count. USSF-266's official Nov24 15:55–19:55 UTC target window remained open at 17:30 UTC; keep estimated. OpenAI IPO remains undated with no year/quarter scenario. Latest previous GitHub Actions run140 passed 64 Python and 8 Node tests, deployed, verified the public calendar against the approved dataset and matched all four property dataset SHA-256 values. Earlier schema/evidence-label failures were corrected without weakening tests; deploy artifact visibility was resolved by adding actions:read. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Latest run141 exposed one regression-test failure: the OpenAI undated watchpoint basis literally contained a year while disclaiming a year-specific scenario. The basis was corrected without weakening the new no-IPO-scenario test; a clean deployment run is pending.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5997,7 +5997,7 @@
         "checkedAt": "2026-11-24T17:30:37Z"
       }
     ],
-    "notes": "November 25 01:30 HKT targeted review reopened all 33 company IR/newsroom/event entry points: 14 usable text, 17 limited/dynamic and 2 blocked (Adobe, Cloudflare). ASML's IR homepage and SEC statutory interim report confirm Jan27 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close Nov24, with the webcast Nov25 05:30 HKT; at this cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX. Direct SEC Q3 release, Oct22 Form 10-Q and Oct24 Form 8-K were reviewed; Q4/FY2026 earnings remains undated. The 10-Q details the 800 MHz spectrum transaction and cash/financing schedule. The $40bn master lease and $44bn GPU-note financing are separately disclosed; overlap is not reconciled and must not be double-counted. USSF-266's 15:55–19:55 UTC target window remained open at 17:30 UTC, so the event remains estimated. OpenAI IPO monitoring remains undated with no year/quarter scenario. Historical Oct15 79-source audit remains 78/79 unchanged. Latest previous Pages run140 passed 64 Python and 8 Node tests, deployed, verified public calendar bytes against the approved dataset and matched all four property SHA-256 values.",
+    "notes": "November 25 01:30 HKT targeted review reopened all 33 company IR/newsroom/event entry points: 14 usable text, 17 limited/dynamic and 2 blocked (Adobe, Cloudflare). ASML's IR homepage and SEC statutory interim report confirm Jan27 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close Nov24, with the webcast Nov25 05:30 HKT; at this cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX. Direct SEC Q3 release, Oct22 Form 10-Q and Oct24 Form 8-K were reviewed; Q4/FY2026 earnings remains undated. The 10-Q details the 800 MHz spectrum transaction and cash/financing schedule. The $40bn master lease and $44bn GPU-note financing are separately disclosed; overlap is not reconciled and must not be double-counted. USSF-266's 15:55–19:55 UTC target window remained open at 17:30 UTC, so the event remains estimated. OpenAI IPO monitoring remains undated with no year/quarter scenario. Historical Oct15 79-source audit remains 78/79 unchanged. Latest previous Pages run140 passed 64 Python and 8 Node tests, deployed, verified public calendar bytes against the approved dataset and matched all four property SHA-256 values. Run141 failed only because the new IPO-scenario guard correctly caught the literal year in the OpenAI watchpoint disclaimer; the event basis has been rewritten to say 'year-specific scenario' without a year, and the test remains intact.",
     "publishingObservations": [
       {
         "runId": 45445667487,
@@ -6084,6 +6084,13 @@
           "trends.json": "8b7e7e9be622b3bfb98e315c6b25a70afa4b795405992e8e25f71a6d6c9a21c7"
         },
         "detail": "Added actions:read permission to the deploy job. A single github-pages artifact was uploaded; deployment and public calendar hash verification passed; all four property dataset SHA-256 checks matched."
+      },
+      {
+        "runId": 45451660098,
+        "runNumber": 141,
+        "commit": "32278db53f362a2445cd01228092d9ac6abba0ee",
+        "result": "failure",
+        "detail": "All dataset validation and build steps reached the Python suite; 63 tests passed and one new regression assertion failed because the OpenAI undated watchpoint basis literally mentioned '2027' while explicitly disclaiming a 2027 scenario. Removed the literal year from the watchpoint wording; retained the regression test. No test was weakened."
       }
     ]
   },
@@ -9224,6 +9231,13 @@
             "trends.json": "8b7e7e9be622b3bfb98e315c6b25a70afa4b795405992e8e25f71a6d6c9a21c7"
           },
           "detail": "Added actions:read permission to the deploy job. A single github-pages artifact was uploaded; deployment and public calendar hash verification passed; all four property dataset SHA-256 checks matched."
+        },
+        {
+          "runId": 45451660098,
+          "runNumber": 141,
+          "commit": "32278db53f362a2445cd01228092d9ac6abba0ee",
+          "result": "failure",
+          "detail": "All dataset validation and build steps reached the Python suite; 63 tests passed and one new regression assertion failed because the OpenAI undated watchpoint basis literally mentioned '2027' while explicitly disclaiming a 2027 scenario. Removed the literal year from the watchpoint wording; retained the regression test. No test was weakened."
         }
       ]
     }

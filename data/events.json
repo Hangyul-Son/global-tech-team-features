@@ -2237,16 +2237,16 @@
       "time": null,
       "sourceUrl": "https://openai.com/news/",
       "sourceLabel": "OpenAI official news · undated monitoring",
-      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "sourceCheckedAt": "2026-11-24T17:43:26Z",
       "verifiedAt": null,
-      "basis": "Undated monitoring target only. The November 25 review of OpenAI's official newsroom found no issuer-confirmed SEC registration, roadshow, pricing, trading debut, listing timetable, year, quarter or scenario window. Do not infer an IPO date or a 2027 scenario from public commentary; update only if OpenAI or a regulator publishes a concrete milestone.",
+      "basis": "Undated monitoring target only. The November 25 review of OpenAI's official newsroom found no issuer-confirmed SEC registration, roadshow, pricing, trading debut, listing timetable, year, quarter or scenario window. Do not infer an IPO date or year-specific scenario from public commentary; update only if OpenAI or a regulator publishes a concrete milestone.",
       "importance": "Possible capital-market access for AI compute spending, ownership/dilution, financing risk; no dated catalyst should be inferred.",
       "sources": [
         {
           "label": "OpenAI official newsroom · current announcement review",
           "url": "https://openai.com/news/",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:30:37Z"
+          "checkedAt": "2026-11-24T17:43:26Z"
         }
       ],
       "estimateKind": null,
