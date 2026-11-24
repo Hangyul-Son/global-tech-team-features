@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-23T17:28:14Z",
+  "lastAttempt": "2026-11-24T17:02:39Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -855,9 +855,9 @@
       "time": "13:30 PST / 16:30 EST (Nov 25 05:30 HKT)",
       "sourceUrl": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
       "sourceLabel": "Workday official November 2 earnings-date announcement",
-      "sourceCheckedAt": "2026-11-23T17:28:14Z",
-      "verifiedAt": "2026-11-23T17:28:14Z",
-      "basis": "Workday's November 2 issuer release and its current IR events calendar confirm that Q3 FY2027 results are scheduled after the U.S. market close on Tuesday November 24, 2026, with the conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). At the November 24 HKT review cutoff, the U.S. results event had not yet occurred. The webcast time is distinct from the results-release clock time, which the company does not specify.",
+      "sourceCheckedAt": "2026-11-24T17:02:39Z",
+      "verifiedAt": "2026-11-24T17:02:39Z",
+      "basis": "Rechecked against Workday's official November 2 issuer release on November 25 HKT (November 24, 09:02 PST). Workday states Q3 FY2027 results will be announced after the U.S. market close on Tuesday November 24, 2026, with the conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). At the current review cutoff the U.S. market had not opened and the scheduled results/call had not occurred. The webcast time is distinct from the results-release clock time, which the company does not specify.",
       "importance": "HR and finance budgets, subscription backlog and AI agents.",
       "sources": [
         {
@@ -876,18 +876,18 @@
           "label": "Workday November 2 Q3 FY2027 results-date and webcast announcement",
           "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:02:39Z"
         },
         {
           "label": "Workday IR events calendar, upcoming Q3 FY27 call November 24",
           "url": "https://investor.workday.com/news-and-events/investor-relations-events/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:02:39Z"
         }
       ],
       "startAt": "2026-11-24T21:30:00Z",
       "sourceTimeZone": "America/Los_Angeles",
-      "timeCheckedAt": "2026-11-05T17:07:56.396Z",
+      "timeCheckedAt": "2026-11-24T17:02:39Z",
       "timeCertainty": "verified"
     },
     {
@@ -3004,9 +3004,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "sourceCheckedAt": "2026-11-24T17:02:39Z",
       "verifiedAt": null,
-      "basis": "SpaceX is a publicly listed Nasdaq issuer (SPCX; internal company ID SPACEX). The SEC EDGAR submissions JSON checked on November 23 UTC identifies CIK 0001181412, ticker SPCX and Nasdaq. Its latest filing by filing date remains the November 16 Schedule 13G/A; preceding recent filings are November 13 Schedule 13G/A, November 6 Form 8-K, October 26 Form 8-K and October 22 Q3 Form 10-Q. No later filing appears through the November 23 UTC check. SpaceX's official IR Events page exposes Upcoming Events and Archived Events headings but no readable upcoming event entry in the current page response. Q2/Q3 2026 earnings and Q3 Form 10-Q remain separately tracked; no company-confirmed Q4/FY2026 results or webcast date was found. Keep this as an undated public-company earnings watchpoint, not a private-company financing-only watch.",
+      "basis": "SpaceX is a publicly listed Nasdaq issuer (SPCX; internal company ID SPACEX). The SEC EDGAR submissions JSON checked on November 23 UTC identifies CIK 0001181412, ticker SPCX and Nasdaq. Its latest filing by filing date remains the November 16 Schedule 13G/A; preceding recent filings are November 13 Schedule 13G/A, November 6 Form 8-K, October 26 Form 8-K and October 22 Q3 Form 10-Q. No later filing appears through the November 23 UTC check. SpaceX's official IR Events page exposes Upcoming Events and Archived Events headings but no readable upcoming event entry in the current page response. Q2/Q3 2026 earnings and Q3 Form 10-Q remain separately tracked; no company-confirmed Q4/FY2026 results or webcast date was found. Keep this as an undated public-company earnings watchpoint, not a private-company financing-only watch. November 25 HKT recheck: the SpaceX IR landing page exposes Quarterly Results and Events navigation, but its current dynamic response does not render the upcoming-events or results list. The SEC EDGAR company browse page likewise did not render its filings table in this review. The last successful full submissions-index snapshot recorded in the prior review was checked November 23 UTC and showed the November 16 Schedule 13G/A as the latest filing by filing date at that time; this run cannot certify whether a newer filing appeared after that snapshot. Q4/FY2026 earnings remains unannounced in accessible first-party evidence and stays undated.",
       "importance": "Track the next company-confirmed quarterly results, guidance, Starlink/Connectivity, SI revenue and compute, capex, cash flow, liquidity, financing and SEC disclosures; do not omit public-company earnings.",
       "sources": [
         {
@@ -3038,6 +3038,24 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
           "checkedAt": "2026-11-23T17:28:14Z"
+        },
+        {
+          "label": "SpaceX Investor Relations landing page · current Quarterly Results and Events navigation; event listings dynamic",
+          "url": "https://ir.spacex.com/",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "SEC EDGAR company browse page · filings table did not render in this review",
+          "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "SEC submissions JSON · current response returned no readable filing array in web view; prior successful snapshot retained separately",
+          "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:02:39Z"
         }
       ]
     },
@@ -4770,37 +4788,43 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Falcon 9 USSF-317 · Nov 13–18 changing launch targets (not flown/verified)",
+      "title": "SpaceX Falcon 9 USSF-317 · Nov 20 launch reported; primary postflight confirmation unavailable",
       "type": "Launch",
-      "status": "estimated",
-      "date": null,
+      "status": "reported",
+      "date": "2026-11-20",
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.spacex.com/launches/ussf317",
-      "sourceLabel": "Original SpaceX USSF-317 launch target (estimated), now conflicting with newer third-party revisions",
-      "sourceCheckedAt": "2026-11-14T17:01:33.000Z",
+      "sourceUrl": "https://content.govdelivery.com/accounts/USDODSFVANDENBERGPA/bulletins/4339d2e",
+      "sourceLabel": "Vandenberg Space Force Base Nov 20 launch-window bulletin; actual liftoff reported by Space.com",
+      "sourceCheckedAt": "2026-11-24T17:02:39Z",
       "verifiedAt": null,
-      "basis": "As checked November 13, SpaceX's indexed USSF-317 mission page continued to show a November 12 20:23 PST / November 13 04:23 UTC target window. Independent launch-feed histories subsequently showed NOV 14, NOV 15, then NOV 18 03:14 UTC (November 17 Pacific). These are materially conflicting target snapshots; the indexed SpaceX page may lag current planning. The date is deliberately REMOVED and a provisional November 13–18 window retained until a current SpaceX/US Space Force primary notice verifies the target. No flight completion, clearance, payload contents or outcome is asserted. Nov 15 HKT follow-up: SpaceX's readable mission page still shows its original Thursday Nov12 PT / Friday Nov13 UTC targeting and a Nov13 backup; this conflicts with a later third-party Nov18 schedule snapshot. These are not verified actual launch outcomes, so keep date NULL with provisional week window rather than asserting a specific launch.",
-      "importance": "A second mission-identified near-term SpaceX national-security launch target; captures planned cadence without treating estimated launch window as flight completion.",
+      "basis": "Space Launch Delta 30 / Vandenberg Space Force Base issued an official November 20 launch update scheduling USSF-317 for Friday November 20 between 6:32 p.m. and 10:32 p.m. Pacific, with a November 21 backup. Space.com subsequently reported that Falcon 9 actually lifted off at 8:20 p.m. Pacific on November 20 and that booster B1100 landed on the Of Course I Still Love You droneship. Spaceflight Now's November 22 NROL-136 coverage independently states that NROL-136 followed the USSF launch by 32 hours, 3 minutes and 21 seconds, consistent with the reported November 20 local launch. The UTC date is November 21, 04:20 UTC; the calendar uses the Vandenberg local mission date, November 20. SpaceX's indexed mission-page snapshot still showed the older November 13 preflight target, and no readable SpaceX/USSF postflight mission page was available in this review. Therefore retain status REPORTED, not confirmed; no exact liftoff time, payload identity or deployment outcome is promoted to first-party-confirmed.",
+      "importance": "Classified U.S. Space Force launch and Vandenberg cadence; distinguish local Pacific launch date from UTC date and reported flight outcome from official postflight confirmation.",
       "sources": [
         {
-          "label": "SpaceX official mission-specific USSF-317 launch target (original Nov 13 UTC)",
+          "label": "SpaceX official USSF-317 mission page · indexed preflight snapshot retained the earlier Nov 13 target; not postflight confirmation",
           "url": "https://www.spacex.com/launches/ussf317",
           "kind": "estimate",
-          "checkedAt": "2026-11-13T16:55:34.000Z"
+          "checkedAt": "2026-11-24T17:02:39Z"
         },
         {
-          "label": "Space Launch Live/Launch Library 2 target-change history to Nov 18",
-          "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-317/",
-          "kind": "report",
-          "checkedAt": "2026-11-13T16:55:34.000Z"
+          "label": "Vandenberg Space Force Base public-affairs launch update · Nov 20 window 6:32–10:32 p.m. PT",
+          "url": "https://content.govdelivery.com/accounts/USDODSFVANDENBERGPA/bulletins/4339d2e",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:02:39Z"
         },
         {
-          "label": "KosmosHub third-party schedule revision log",
-          "url": "https://kosmoshub.space/launches/spacex/falcon-9-block-5-ussf-317",
+          "label": "Space.com Nov 20 USSF-317 postflight report · actual liftoff reported at 8:20 p.m. local PT",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317",
           "kind": "report",
-          "checkedAt": "2026-11-13T16:55:34.000Z"
+          "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "Spaceflight Now Nov 22 NROL-136 report · pad-turnaround interval corroborates the preceding USSF launch",
+          "url": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/",
+          "kind": "report",
+          "checkedAt": "2026-11-24T17:02:39Z"
         }
       ],
       "timingWindow": {
@@ -4809,7 +4833,7 @@
         "label": "13–18 November 2026 · conflicting USSF-317 target dates",
         "precision": "week"
       },
-      "dateConflict": "SpaceX original mission-specific Nov 13 04:23–08:23 UTC target versus Launch Library 2-linked updates through Nov 18 03:14 UTC. Not reconcilable to a single first-party launch date as of review.",
+      "dateConflict": "Older indexed SpaceX mission-page snapshot still showed Nov 13 target; Vandenberg Space Force Base's official Nov20 prelaunch bulletin revised the window to Nov20, and postflight media reports say the flight occurred at 8:20 p.m. PT Nov20. Because the mission-specific first-party postflight page was not readable, the actual date remains REPORTED, not confirmed.",
       "estimateKind": "manifest-revision"
     },
     {
@@ -6139,6 +6163,87 @@
           "checkedAt": "2026-11-23T17:28:14Z"
         }
       ]
+    },
+    {
+      "id": "spacex-nrol-136-falcon9-reported-launch-2026-11-22",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Falcon 9 NROL-136 · Nov 22 launch reported; booster landed at Vandenberg",
+      "type": "Launch",
+      "status": "reported",
+      "date": "2026-11-22",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/",
+      "sourceLabel": "Spaceflight Now Nov 21 live coverage, updated Nov 22 with launch and booster landing; corroborated by Space.com",
+      "sourceCheckedAt": "2026-11-24T17:02:39Z",
+      "verifiedAt": null,
+      "basis": "SpaceX's indexed official launch-manifest snapshot listed NROL-136 for November 22 with a 12:16–12:46 UTC target window. Spaceflight Now reported that Falcon 9 actually lifted off from Vandenberg SLC-4E at 4:23 a.m. Pacific on November 22 (12:23 UTC) carrying the National Reconnaissance Office's NROL-136 mission; booster B1097 returned to Landing Zone 4 about 7.5 minutes after liftoff. Space.com independently reports the November 22 launch and the pad-turnaround record. The calendar uses the Vandenberg local mission date, November 22. The SpaceX launch page was not readable as a postflight page in this review, so the actual flight remains REPORTED rather than first-party-confirmed; no exact clock time or payload count is represented as issuer-confirmed.",
+      "importance": "National Reconnaissance Office proliferated-architecture launch; useful SpaceX government-launch cadence datapoint. The 32-hour pad turnaround after USSF-317 reflects pad/range processing, not reuse of the same booster.",
+      "sources": [
+        {
+          "label": "SpaceX official NROL-136 mission page · indexed preflight target window Nov 22, 12:16–12:46 UTC",
+          "url": "https://www.spacex.com/launches/nrol-136",
+          "kind": "estimate",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "Spaceflight Now Nov 21 live coverage, updated Nov 22 · reports Nov 22 liftoff and B1097 landing",
+          "url": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/",
+          "kind": "report",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "Space.com Nov 22 NROL-136 postflight report · independent corroboration",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
+          "kind": "report",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        }
+      ],
+      "dateConflict": "SpaceX's official indexed manifest supplied the Nov22 target window, while actual liftoff is supported by Spaceflight Now and Space.com postflight reporting. The mission-specific SpaceX page did not expose a readable postflight confirmation; status remains REPORTED."
+    },
+    {
+      "id": "spacex-ussf-266-falcon9-target-2026-11-24",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Falcon 9 USSF-266 · Nov 24 target window (launch not confirmed)",
+      "type": "Launch",
+      "status": "estimated",
+      "date": "2026-11-24",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/ussf-266",
+      "sourceLabel": "SpaceX official mission-specific target window; indexed schedule only",
+      "sourceCheckedAt": "2026-11-24T17:02:39Z",
+      "verifiedAt": null,
+      "basis": "SpaceX's indexed official USSF-266 mission/launch-manifest snapshot lists a November 24, 2026 target with a 15:55–19:55 UTC window. Third-party launch trackers show a 16:08 UTC target within that window and a GO status, but those are schedule/status snapshots, not proof of liftoff. At the November 25 01:02 HKT review cutoff (November 24 17:02 UTC), the published four-hour window was still open. The window corresponds to 23:55 November 24–03:55 November 25 Hong Kong time. No readable SpaceX, FAA or U.S. Space Force postflight confirmation was found; keep this as an ESTIMATED target, not a completed launch. The mission payload remains classified and no payload identity is inferred.",
+      "importance": "Near-term U.S. Space Force launch cadence and government demand watch; do not infer a launch completion, Starshield payload or contract value from the schedule.",
+      "sources": [
+        {
+          "label": "SpaceX official USSF-266 mission page · indexed Nov24 target window 15:55–19:55 UTC",
+          "url": "https://www.spacex.com/launches/ussf-266",
+          "kind": "estimate",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "Space Launch Live / Launch Library 2 · 16:08 UTC schedule target and GO status, not postflight confirmation",
+          "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-266/",
+          "kind": "report",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "SpaceNexus November 2026 SpaceX manifest · USSF-266 still listed as upcoming at review cutoff",
+          "url": "https://spacenexus.us/launches/spacex/2026-11",
+          "kind": "report",
+          "checkedAt": "2026-11-24T17:02:39Z"
+        }
+      ],
+      "dateConflict": "SpaceX's official indexed page supplies a 15:55–19:55 UTC target window; Launch Library 2-based trackers show 16:08 UTC as a target time. This is a schedule difference, not an observed liftoff time. No primary postflight source was available at the review cutoff.",
+      "estimateKind": "manifest-revision"
     }
   ],
   "verificationNote": "Nov24 HKT targeted review attempted all 33 official company IR/newsroom/event entry points: 30 accessible or partially rendered and 3 blocked (Adobe, ASML and Cloudflare); 16 accessible pages remained limited/dynamic. Added CrowdStrike's Nov23 Q3 FY2027 actual results and replaced its cancelled Dec1 call with the Nov23 05:00 PST call; added the $43.9bn all-stock Zscaler agreement and an undated H2 FY2028 close watch; added NVIDIA's Nov23 Jensen Huang reinstatement. Reconciled SpaceX Apollo/Goldman ~$44bn GPU-note pricing to the related Oct26 ~$40bn master finance lease, rechecked EDGAR (latest filing Nov16) and retained undated Q4/FY2026 earnings plus unresolved future launch targets. Workday Nov24 US earnings event remains upcoming at cutoff. NASA CRS-35 splashdown remains confirmed. Historical Oct15 79-source full audit (78/79) is preserved and was NOT rerun. Compact mobile List unchanged.",
