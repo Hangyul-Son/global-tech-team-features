@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-11-25",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-24T17:52:00Z",
+  "lastAttempt": "2026-11-24T18:01:27Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -3009,10 +3009,10 @@
       "window": null,
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
-      "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "sourceLabel": "SpaceX IR Quarterly Results and Events plus SEC EDGAR submissions JSON",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
       "verifiedAt": null,
-      "basis": "SpaceX is a publicly listed Nasdaq issuer (SPCX; internal company ID SPACEX; CIK 0001181412). Its official IR home exposes Quarterly Results and Events; the Financials page exposes SEC Filings navigation but the filings table is dynamically rendered, and the Events page shows Upcoming/Archived headings without readable entries. This review directly accessed the Q3 2026 earnings release, the October 22 Q3 Form 10-Q and the October 24 Form 8-K (filed October 26) disclosing the approximately $40bn Apollo-managed GPU master-lease commitment. The last successful full SEC submissions-index snapshot checked November 23 UTC showed the November 16 Schedule 13G/A as the latest filing by date at that snapshot; today's submissions JSON/EDGAR browse response did not expose a parsed current filing list, so this run cannot certify whether a newer filing appeared after that snapshot. Q2/Q3 earnings and the Q3 10-Q remain separately tracked. No company-confirmed Q4/FY2026 results or webcast date was found; keep this as an undated public-company earnings watchpoint, not a private-company financing-only watch.",
+      "basis": "SpaceX is a publicly listed Nasdaq issuer (SPCX; internal company ID SPACEX; CIK 0001181412). SEC's current submissions JSON identifies the registrant as Space Exploration Technologies Corp., ticker SPCX, exchange Nasdaq. At the Nov 25 HKT review cutoff, the latest filing by filing date was a Nov 16 Schedule 13G/A (accession 0001213900-26-120715), preceded by a Nov 13 Schedule 13G/A (0001426012-26-000007), Nov 6 Form 8-K (0001628280-26-071689), Oct 26 Form 8-K for the GPU master-lease commitment (0001104659-26-118614), Oct 22 Form 10-Q (0001628280-26-066880), and Oct 20 Form 8-K (0001628280-26-066482). SpaceX IR's Quarterly Results page lists Q3 2026 on Oct 20 and Q2 2026 on Aug 4. The IR Events page is dynamically rendered and exposes no readable upcoming Q4/FY2026 date; keep Q4/FY2026 earnings unannounced. This is a current SEC submissions-index check, not an exhaustive read of every filing or a full 33-company SEC filing-history sweep.",
       "importance": "Track the next company-confirmed quarterly results, guidance, Starlink/Connectivity, SI revenue and compute, capex, cash flow, liquidity, financing and SEC disclosures; do not omit public-company earnings.",
       "sources": [
         {
@@ -3091,7 +3091,7 @@
       "time": "3:30 p.m. CT / 4:30 p.m. ET (October 21, 04:30 HKT)",
       "sourceUrl": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx",
       "sourceLabel": "SpaceX investor relations · Q3 earnings",
-      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
       "verifiedAt": "2026-11-22T16:58:21Z",
       "basis": "SpaceX (Nasdaq: SPCX) reported Q3 2026 revenue $14.575bn (+161% YoY), net income $4.404bn and Adjusted EBITDA $8.809bn; the nine-month period still showed a $413m net loss, so Q3 profit should not be extrapolated as year-to-date profitability. Segment revenue: Space $1.767bn (operating loss $7m), Connectivity $5.248bn and Super Intelligence (SI) $7.560bn. Connectivity had 13.6m Starlink consumer subscribers at Sep 30, $69 consumer ARPU, $2.127bn enterprise/government revenue, $2.367bn operating income and $3.499bn Segment Adjusted EBITDA. SI generated $431m operating income (including $1.217bn Cursor-acquisition share-based compensation) and $4.953bn Segment Adjusted EBITDA; SI capex was $16.444bn in Q3. Total Q3 capex was $19.593bn; nine-month capex $48.069bn ($39.995bn SI) versus nine-month operating cash flow $13.097bn. OCF less PP&E purchases is negative $34.972bn by arithmetic, NOT company-defined FCF. Sep 30 cash and equivalents were $51.294bn plus $38.561bn marketable securities. Nine-month financing cash flow was $99.819bn, including $85.675bn net IPO proceeds. SI nameplate compute reached 1.7 GW at Sep 30; the 10-Q defines this as installed GPUs multiplied by all-in power and explicitly says it is not actual power consumption or utilization. The Q3 release identifies Flight 14 as the first revenue-generating Starship mission, delivering 26 Starlink V3 satellites. Q3 earnings is historical; Q4/FY2026 date remains unannounced.",
       "importance": "Public-company results for Starlink subscriber/ARPU and margin tracking, SI revenue and compute economics, segment capex, cash conversion, liquidity and financing. Keep 1.7 GW nameplate separate from energized capacity and distinguish non-GAAP Segment Adjusted EBITDA from GAAP income.",
@@ -3113,6 +3113,12 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
           "kind": "official",
           "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "label": "SEC submissions JSON checked Nov 25 HKT · CIK 0001181412, Nasdaq:SPCX, latest filing date Nov 16",
+          "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+          "kind": "official",
+          "checkedAt": "2026-11-24T18:01:27Z"
         }
       ],
       "startAt": "2026-10-20T20:30:00Z",
@@ -3232,7 +3238,7 @@
       "time": null,
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
       "sourceLabel": "SEC EDGAR Form 10-Q",
-      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
       "verifiedAt": "2026-11-22T16:58:21Z",
       "basis": "SEC EDGAR confirms SpaceX (CIK 0001181412; Nasdaq: SPCX) filed its Q3 2026 Form 10-Q on October 22 for the quarter ended September 30. Nine-month operating cash flow was $13.097bn versus PP&E purchases of $48.069bn; OCF less PP&E purchases is negative $34.972bn by arithmetic, not a company-defined FCF measure. Q3 capex was $19.593bn ($16.444bn SI), and nine-month SI capex $39.995bn. September 30 cash and equivalents plus marketable securities totaled $89.855bn ($51.294bn + $38.561bn). Nine-month financing cash flow was $99.819bn and included $85.675bn net IPO proceeds. Q3 Connectivity revenue was $5.248bn with 13.6m Starlink consumer subscribers and $69 consumer ARPU; SI revenue was $7.560bn. SI nameplate compute was 1.7 GW; the 10-Q defines nameplate as installed GPUs multiplied by all-in power, not actual consumption or utilization. The 10-Q also details the 800 MHz spectrum transaction: approximately $19.6bn total consideration ($11.1bn equity and up to $8.5bn payoff of designated EchoStar debt); FCC approval was May 12 and transfer to the trust closed May 22, 2026. SpaceX had paid $856m to the trust by Sep 30. A 2027 payment schedule assumes a Nov 30, 2027 acquisition closing, with possible additional payments if closing slips to Nov 30, 2028; this schedule assumption is not a separately announced exact closing date.",
       "importance": "Cash conversion, capex funding, post-IPO liquidity, Starlink subscriber economics and AI infrastructure execution.",
@@ -3304,9 +3310,9 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/",
       "sourceLabel": "SpaceX investor relations and SEC filings",
-      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
       "verifiedAt": null,
-      "basis": "SpaceX's Q3 2026 SEC release reports SI revenue $7.560bn, SI operating income $431m (including $1.217bn in Cursor-acquisition share-based compensation) and SI Segment Adjusted EBITDA $4.953bn. SI capex was $16.444bn in Q3 and $39.995bn for nine months; total capex was $19.593bn in Q3/$48.069bn nine months versus $13.097bn nine-month operating cash flow. September 30 SI nameplate compute was 1.7 GW, up from 1.4 GW June 30; the 10-Q defines nameplate as installed GPUs multiplied by all-in power and says it is not actual consumption or utilization. The SEC Oct24 Form 8-K (filed Oct26) discloses a binding commitment letter for an approximately $40bn Apollo-managed master finance lease, subject to closing conditions, with schedules expected to start on GPU delivery in H1 2027. Apollo/Goldman separately announced pricing approximately $44bn of notes on Nov20 to fund Vera Rubin GPUs and related equipment. The public documents do not reconcile whether the $44bn notes and $40bn master lease cover the same equipment/tranches; do not sum them as independent GPU purchases or assume the financing structures are identical. No GPU count, MW, energized capacity or exact delivery date was disclosed. Q4/FY2026 earnings remains unannounced.",
+      "basis": "SpaceX's Q3 2026 SEC release reports SI revenue $7.560bn, SI operating income $431m (including $1.217bn in Cursor-acquisition share-based compensation) and SI Segment Adjusted EBITDA $4.953bn. SI capex was $16.444bn in Q3 and $39.995bn for nine months; total capex was $19.593bn in Q3/$48.069bn nine months versus $13.097bn nine-month operating cash flow. September 30 SI nameplate compute was 1.7 GW, up from 1.4 GW June 30; the 10-Q defines nameplate as installed GPUs multiplied by all-in power and says it is not actual consumption or utilization. The SEC Oct24 Form 8-K (filed Oct26) discloses a binding commitment letter for an approximately $40bn Apollo-managed master finance lease, subject to closing conditions, with schedules expected to start on GPU delivery in H1 2027. Apollo/Goldman separately announced pricing approximately $44bn of notes on Nov20 to fund Vera Rubin GPUs and related equipment. The public documents do not reconcile whether the $44bn notes and $40bn master lease cover the same equipment/tranches; do not sum them as independent GPU purchases or assume the financing structures are identical. No GPU count, MW, energized capacity or exact delivery date was disclosed. Q4/FY2026 earnings remains unannounced. The SEC submissions index was rechecked Nov 25 HKT and still identifies SpaceX as Nasdaq:SPCX; no newer quarterly results or Q4/FY2026 earnings date was present in the accessible IR/SEC index.",
       "importance": "AI compute, power/energization, Vera Rubin deliveries, SI revenue/margins, capex versus operating cash generation, liquidity, financing cost and lease execution.",
       "sources": [
         {
@@ -3350,6 +3356,12 @@
           "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
           "kind": "official",
           "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "label": "SEC submissions JSON checked Nov 25 HKT · CIK 0001181412, Nasdaq:SPCX, latest filing date Nov 16",
+          "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+          "kind": "official",
+          "checkedAt": "2026-11-24T18:01:27Z"
         }
       ]
     },
@@ -3368,7 +3380,7 @@
       "time": null,
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
       "sourceLabel": "SEC Form 8-K filed October 26, 2026",
-      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
       "verifiedAt": "2026-10-27T16:57:42Z",
       "basis": "SpaceX's October 26 SEC Form 8-K reports a binding commitment letter entered October 24 to enter a master finance lease with an Apollo-managed entity, which would acquire and lease NVIDIA GPU pods and related equipment for SpaceX data centers. Aggregate principal payments under the contemplated lease schedules are expected to total approximately $40bn. Closing is subject to specified conditions and was expected before year-end 2026; separate lease schedules are expected to commence upon GPU delivery in H1 2027. This is a commitment letter, not a completed lease, completed GPU delivery or energized compute capacity; no exact closing date, GPU count or MW is disclosed.",
       "importance": "Major financing and GPU demand catalyst: Vera Rubin equipment, Super Intelligence data-center capex, financing costs and liquidity; NVIDIA supply read-through.",
@@ -3384,6 +3396,12 @@
           "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
           "kind": "official",
           "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "label": "SEC submissions JSON checked Nov 25 HKT · CIK 0001181412, Nasdaq:SPCX, latest filing date Nov 16",
+          "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+          "kind": "official",
+          "checkedAt": "2026-11-24T18:01:27Z"
         }
       ]
     },
@@ -4654,59 +4672,56 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX USSF-627 · secondary Nov 11 PT launch report, official record unresolved",
+      "title": "SpaceX USSF-627 · Nov 11 Pacific launch reported; UTC date rolls to Nov 12",
       "type": "Launch",
-      "status": "estimated",
-      "date": null,
+      "status": "reported",
+      "date": "2026-11-11",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.spacex.com/launches/ussf627",
-      "sourceLabel": "Official SpaceX launch page (dynamic/stale indexed data), conflicting independent update",
-      "sourceCheckedAt": "2026-11-13T16:55:34.000Z",
+      "time": "8:36 p.m. PST (reported by Space.com; UTC conversion not asserted)",
+      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos",
+      "sourceLabel": "Space.com Nov 12 postflight report, corroborated by Anadolu Agency and AP-sourced coverage; SpaceX mission page remains stale/dynamic",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
       "verifiedAt": null,
-      "basis": "SpaceX official indexed launch archive previously identified November 10, 2026 03:03–07:03 UTC as a USSF-627 TARGET window. However, on November 10, third-party launch trackers drawing on Launch Library 2 reported the target shifted to November 11, 2026 at 02:49 UTC, with a 02:49–06:49 UTC window (November 10 evening California time). The latest mission-specific SpaceX page is dynamically rendered and did not independently expose the updated time to this review. These are competing SCHEDULE snapshots, not verified actual liftoff. Date deliberately set NULL rather than assert either exact UTC day or T-0; confirm in SpaceX/Space Force official mission archive before restoring a dated card. SpaceX remains publicly traded Nasdaq:SPCX. New November 12 Space.com reporting says Falcon 9 USSF-627 lifted off November 11 at 11:36 p.m. EST (November 12 at 04:36 UTC) and landed booster; however current crawled SpaceX mission archive continues displaying obsolete Nov 10 target. This secondary REPORTED outcome is not first-party confirmed by SpaceX/Space Force here, so the entry remains an undated provisional review rather than asserting a primary-confirmed precise flight.",
-      "importance": "Space Force launch cadence watch for public Nasdaq:SPCX; preserve mission identity without mislabeling a changing target as a completed or fixed-date launch.",
+      "basis": "Space.com reported that Falcon 9 USSF-627 lifted off from Vandenberg at 8:36 p.m. local Pacific time on Wednesday, November 11, and that the booster landed on the Of Course I Still Love You droneship. Anadolu Agency's November 12 report independently says the classified U.S. Space Force mission launched Wednesday and the booster landed; AP-sourced video coverage also appeared November 12. Launch Library 2-based records place the UTC rollover on November 12. Space.com's article contains an internally inconsistent GMT conversion, so this calendar uses the local Pacific date only and does not assert a UTC clock instant. SpaceX's indexed mission page retained an obsolete November 10 target and no readable first-party postflight page was found. Keep the completed flight REPORTED, not primary-source-confirmed.",
+      "importance": "Classified U.S. Space Force launch and Vandenberg cadence; use the local Pacific launch date and do not turn an obsolete manifest snapshot into an actual flight date.",
       "sources": [
         {
-          "label": "SpaceX mission-specific USSF-627 page (dynamic)",
-          "url": "https://www.spacex.com/launches/ussf627",
-          "kind": "official",
-          "checkedAt": "2026-11-10T17:07:17.494Z"
-        },
-        {
-          "label": "SpaceX official upcoming launches (earlier stale Nov 10 indexed snapshot)",
-          "url": "https://www.spacex.com/launches/mission/?missionId=sl5-4",
-          "kind": "official",
-          "checkedAt": "2026-11-10T17:07:17.494Z"
-        },
-        {
-          "label": "Space Launch Live launch schedule history, Nov 11 revised target",
-          "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-627/",
-          "kind": "report",
-          "checkedAt": "2026-11-10T17:07:17.494Z"
-        },
-        {
-          "label": "Local Nov 10 launch-window revision report",
-          "url": "https://www.edhat.com/news/spacex-ussf-627-launch-postponed-vandenberg-new-target-date/",
-          "kind": "report",
-          "checkedAt": "2026-11-10T17:07:17.494Z"
-        },
-        {
-          "label": "Space.com Nov 12 report: USSF-627 liftoff Nov 11 ET; primary confirmation pending",
+          "label": "Space.com Nov 12 postflight report · USSF-627 liftoff at 8:36 p.m. local Pacific on Nov 11",
           "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos",
           "kind": "report",
-          "checkedAt": "2026-11-13T16:55:34.000Z"
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "Anadolu Agency Nov 12 postflight report · confirms USSF-627 launch and booster landing",
+          "url": "https://www.anews.com.tr/world/2026/11/12/spacex-launches-classified-us-space-force-mission-from-california",
+          "kind": "report",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "AP-sourced launch video coverage published Nov 12",
+          "url": "https://www.livetube.tv/news/video-spacex-launch-live-falcon-9-rocket-launches-the-ussf-627-mission",
+          "kind": "report",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "SpaceX official USSF-627 mission page · older indexed target, not postflight confirmation",
+          "url": "https://www.spacex.com/launches/ussf627",
+          "kind": "official",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "SpaceNexus launch ledger · records liftoff on Nov 12 at 04:36 UTC (local Pacific Nov 11)",
+          "url": "https://spacenexus.us/launch/409f6d0e-ussf-627",
+          "kind": "report",
+          "checkedAt": "2026-11-24T18:01:27Z"
         }
       ],
-      "dateConflict": "Earlier official indexed target Nov 10 03:03–07:03 UTC versus updated third-party Nov 11 02:49–06:49 UTC (Nov 10 Pacific); current first-party verified target unavailable. Do not mark flight completed.",
-      "timingWindow": {
-        "start": "2026-11-09",
-        "end": "2026-11-15",
-        "label": "Week of 9 November 2026 — conflicting Nov 10–11 UTC launch targets",
-        "precision": "week"
-      },
-      "estimateKind": "reported-target"
+      "dateConflict": "Earlier SpaceX indexed target showed Nov 10 UTC; revised trackers and postflight reports indicate Nov 11 local Pacific / Nov 12 UTC. One Space.com GMT conversion is internally inconsistent; no UTC time is asserted. First-party postflight confirmation remains unavailable.",
+      "timingWindow": null,
+      "timeCertainty": "reported",
+      "timeCheckedAt": "2026-11-24T18:01:27Z",
+      "sourceTimeZone": "America/Los_Angeles"
     },
     {
       "id": "anthropic-onepwr-3p4bn-1p7gw-generators-reported-2026-11-08",
@@ -6239,41 +6254,56 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX Falcon 9 USSF-266 · Nov 24 target window (launch not confirmed)",
+      "title": "SpaceX Falcon 9 USSF-266 · Nov 24 liftoff reported; primary postflight confirmation unavailable",
       "type": "Launch",
-      "status": "estimated",
+      "status": "reported",
       "date": "2026-11-24",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://www.spacex.com/launches/ussf-266",
-      "sourceLabel": "SpaceX official mission-specific target window; indexed schedule only",
-      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "time": "8:08 a.m. PST (reported by Anadolu Agency; not first-party-confirmed)",
+      "sourceUrl": "https://aa.com.tr/en/americas/spacex-launches-classified-us-space-force-mission-from-california/4136175",
+      "sourceLabel": "Anadolu Agency Nov 24 postflight report; SpaceX mission page supplied the target window but no readable postflight detail",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
       "verifiedAt": null,
-      "basis": "SpaceX's indexed official USSF-266 mission/launch-manifest snapshot lists a November 24, 2026 target with a 15:55–19:55 UTC window. Third-party launch trackers show a 16:08 UTC target and GO status, but those are schedule/status snapshots, not proof of liftoff. At the November 25 01:30 HKT / November 24 17:30 UTC review cutoff, the published four-hour window remained open until 19:55 UTC (November 25 03:55 HKT). No readable SpaceX, FAA or U.S. Space Force postflight confirmation was available; keep this as an ESTIMATED target, not a completed launch. The mission payload remains classified and no payload identity is inferred.",
-      "importance": "Near-term U.S. Space Force launch cadence and government demand watch; do not infer a launch completion, Starshield payload or contract value from the schedule.",
+      "basis": "Anadolu Agency's November 24 postflight report says Falcon 9 USSF-266 lifted off from Vandenberg SLC-4E at 8:08 a.m. local Pacific time (16:08 GMT) during the four-hour launch window. SpaceX's indexed mission-specific page had supplied a 15:55–19:55 UTC target window, while Launch Library 2-based trackers showed a 16:08 UTC target; the reported liftoff is consistent with those schedule snapshots. Spaceflight Now's November 23 article was preflight coverage only. SpaceX's mission page remained dynamically rendered and no readable SpaceX/FAA/U.S. Space Force postflight confirmation was found in this review. Therefore the November 24 local date and 8:08 a.m. time remain REPORTED, not primary-source-confirmed. Do not infer payload identity or treat a tracker GO state as postflight evidence.",
+      "importance": "Classified U.S. Space Force launch and Vandenberg cadence; preserve the reported local date while keeping first-party confirmation separate.",
       "sources": [
         {
-          "label": "SpaceX official USSF-266 mission page · indexed Nov24 target window 15:55–19:55 UTC",
-          "url": "https://www.spacex.com/launches/ussf-266",
-          "kind": "estimate",
-          "checkedAt": "2026-11-24T17:30:37Z"
-        },
-        {
-          "label": "Space Launch Live / Launch Library 2 · 16:08 UTC schedule target and GO status, not postflight confirmation",
-          "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-266/",
+          "label": "Anadolu Agency Nov 24 postflight report · USSF-266 liftoff at 8:08 a.m. local Pacific / 16:08 GMT",
+          "url": "https://aa.com.tr/en/americas/spacex-launches-classified-us-space-force-mission-from-california/4136175",
           "kind": "report",
-          "checkedAt": "2026-11-24T17:30:37Z"
+          "checkedAt": "2026-11-24T18:01:27Z"
         },
         {
-          "label": "SpaceNexus November 2026 SpaceX manifest · USSF-266 still listed as upcoming at review cutoff",
+          "label": "SpaceX official USSF-266 mission page · indexed 15:55–19:55 UTC target window; direct page dynamically rendered",
+          "url": "https://www.spacex.com/launches/ussf-266",
+          "kind": "official",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "Spaceflight Now Nov 23 live coverage · preflight target window, not postflight confirmation",
+          "url": "https://spaceflightnow.com/2026/11/23/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force-3/",
+          "kind": "report",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "TeslaNorth Nov 24 postflight report · reports first-stage landing and links SpaceX X updates",
+          "url": "https://teslanorth.com/2026/11/24/spacex-falcon-9-booster-flies-for-the-29th-time-on-ussf-266/",
+          "kind": "report",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "SpaceNexus Nov 2026 SpaceX launch ledger · 16:08 UTC target/status history, not primary postflight evidence",
           "url": "https://spacenexus.us/launches/spacex/2026-11",
           "kind": "report",
-          "checkedAt": "2026-11-24T17:30:37Z"
+          "checkedAt": "2026-11-24T18:01:27Z"
         }
       ],
-      "dateConflict": "SpaceX's official indexed page supplies a 15:55–19:55 UTC target window; Launch Library 2-based trackers show 16:08 UTC as a target time. This is a schedule difference, not an observed liftoff time. No primary postflight source was available at the review cutoff.",
-      "estimateKind": "manifest-revision"
+      "dateConflict": "The official indexed SpaceX target window was 15:55–19:55 UTC; Anadolu reports 16:08 GMT / 8:08 a.m. PST actual liftoff. Timing is consistent, but the postflight outcome is media-reported rather than confirmed on a readable primary mission page.",
+      "timingWindow": null,
+      "timeCertainty": "reported",
+      "timeCheckedAt": "2026-11-24T18:01:27Z",
+      "sourceTimeZone": "America/Los_Angeles"
     },
     {
       "id": "skhynix-kioxia-indirect-stake-acquisition-scheduled-2026-12-04",
@@ -6309,6 +6339,91 @@
       ],
       "dateConflict": "The issuer calls Dec 4 a scheduled acquisition date but explicitly allows changes and different completion dates for the bond conversion and share-purchase legs. Keep status estimated and do not show a confirmed close or exact time.",
       "estimateKind": "company-scheduled-date"
+    },
+    {
+      "id": "spacex-ussf-380-falcon9-target-2026-11-28",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "SpaceX Falcon 9 USSF-380 · Nov 28 Pacific target (UTC Nov 29); schedule provisional",
+      "type": "Launch",
+      "status": "estimated",
+      "date": "2026-11-28",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.spacex.com/launches/ussf380",
+      "sourceLabel": "SpaceX indexed mission target and Launch Library 2-based trackers; direct mission page dynamically rendered",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
+      "verifiedAt": null,
+      "basis": "SpaceX's indexed USSF-380 mission/manifest target and multiple Launch Library 2-based trackers list November 29, 2026 at 04:39 UTC, equivalent to November 28 at 8:39 p.m. Pacific at Vandenberg SLC-4E; trackers show a four-hour window to 08:39 UTC (00:39 Pacific Nov 29). The trackers cite the SpaceX mission-page target, but the direct SpaceX page rendered no readable mission detail in this review and no current Vandenberg/Space Force launch alert or postflight report was located. Keep the source-local date ESTIMATED as November 28 Pacific; the UTC date rolls to November 29. Do not assert an exact launch time, completed flight or payload identity.",
+      "importance": "Near-term national-security launch cadence; a provisional target only, with classified payload details not inferred.",
+      "sources": [
+        {
+          "label": "SpaceX official USSF-380 mission page · linked primary mission page, dynamically rendered in this review",
+          "url": "https://www.spacex.com/launches/ussf380",
+          "kind": "official",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "Space Launch Now · Launch Library 2-based target Nov 29 04:39 UTC, citing SpaceX mission update",
+          "url": "https://staging-web.spacelaunchnow.app/launch/falcon-9-block-5-ussf-380/",
+          "kind": "estimate",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "SpaceLaunchLive · USSF-380 target and schedule history",
+          "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-380/",
+          "kind": "report",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "Padside · USSF-380 target, Vandenberg local time and four-hour window",
+          "url": "https://padside.space/launch/ussf-380-falcon-9-b0d27def",
+          "kind": "report",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        }
+      ],
+      "dateConflict": "Launch trackers list 04:39 UTC on Nov 29, which is 8:39 p.m. Pacific on Nov 28 at Vandenberg. The direct SpaceX mission page was not text-readable, so this remains an estimated target, not a confirmed launch date or completed flight.",
+      "estimateKind": "reported-target",
+      "sourceTimeZone": "America/Los_Angeles"
+    },
+    {
+      "id": "spacex-nasa-crs25-net-launch-2026-11-29",
+      "companies": [
+        "SPACEX"
+      ],
+      "title": "NASA / SpaceX Northrop Grumman CRS-25 (Cygnus XL) · Nov 29 NET 10:47 a.m. EST",
+      "type": "Launch",
+      "status": "confirmed",
+      "date": "2026-11-29",
+      "endDate": null,
+      "window": null,
+      "time": "NET 10:47 a.m. EST; NASA launch coverage begins 10:25 a.m. EST",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+      "sourceLabel": "NASA Media Advisory M26-089, updated November 18, 2026; latest published NASA/SpaceX NET target",
+      "sourceCheckedAt": "2026-11-24T18:01:27Z",
+      "verifiedAt": "2026-11-24T18:01:27Z",
+      "basis": "NASA's November 18, 2026 Media Advisory M26-089 says NASA, Northrop Grumman and SpaceX are targeting no earlier than 10:47 a.m. EST on Sunday, November 29 for Northrop Grumman CRS-25, a Cygnus XL cargo spacecraft launched on a SpaceX Falcon 9 from SLC-40, Cape Canaveral. NASA's launch coverage begins at 10:25 a.m. EST. An earlier NASA advisory dated November 2 listed 10:49 a.m. EST; the later November 18 advisory supersedes it with 10:47 a.m. The date/time is an official NET target, not a guarantee of liftoff or a completed launch; retain the NET qualifier and update after NASA's postflight report.",
+      "importance": "NASA commercial-resupply launch service and SpaceX Falcon 9 customer cadence; scheduled mission, not completed launch or recognized revenue.",
+      "sources": [
+        {
+          "label": "NASA Media Advisory M26-089 · Nov 18 update, NET Nov 29 at 10:47 a.m. EST",
+          "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+          "kind": "official",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        },
+        {
+          "label": "NASA Media Advisory M26-085 · Nov 2 earlier NET 10:49 a.m. EST, superseded by Nov 18 update",
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
+          "kind": "official",
+          "checkedAt": "2026-11-24T18:01:27Z"
+        }
+      ],
+      "dateConflict": "NASA's Nov 2 advisory listed 10:49 a.m. EST; the later Nov 18 advisory M26-089 lists 10:47 a.m. EST and is the current target. Both are no-earlier-than schedule statements, not actual launch confirmation.",
+      "sourceTimeZone": "America/New_York",
+      "timeCertainty": "reported",
+      "timeCheckedAt": "2026-11-24T18:01:27Z"
     }
   ],
   "verificationNote": "Nov24 HKT targeted review attempted all 33 official company IR/newsroom/event entry points: 30 accessible or partially rendered and 3 blocked (Adobe, ASML and Cloudflare); 16 accessible pages remained limited/dynamic. Added CrowdStrike's Nov23 Q3 FY2027 actual results and replaced its cancelled Dec1 call with the Nov23 05:00 PST call; added the $43.9bn all-stock Zscaler agreement and an undated H2 FY2028 close watch; added NVIDIA's Nov23 Jensen Huang reinstatement. Reconciled SpaceX Apollo/Goldman ~$44bn GPU-note pricing to the related Oct26 ~$40bn master finance lease, rechecked EDGAR (latest filing Nov16) and retained undated Q4/FY2026 earnings plus unresolved future launch targets. Workday Nov24 US earnings event remains upcoming at cutoff. NASA CRS-35 splashdown remains confirmed. Historical Oct15 79-source full audit (78/79) is preserved and was NOT rerun. Compact mobile List unchanged.",
