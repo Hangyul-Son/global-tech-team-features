@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical October15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November25 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered (13 usable text, 17 limited/dynamic) and 3 blocked; see lastTargetedReview and reviewHistory. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. The event dataset commit 105862f9fde6bf4bfb82786f105e0e24b48ad195 adds two SpaceX launch records and downgrades USSF-317 to reported; source-audit metadata is being updated separately. The previous recorded clean Pages deployment is run129 from Nov23; the new commit's push-triggered run and public-dataset hash must be verified before claiming the new dataset is live. The current GitHub connector exposes file/commit operations but not a repository-wide push-run listing or direct Pages hash result.",
+  "note": "Historical October15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November25 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered (13 usable text, 17 limited/dynamic) and 3 blocked; see lastTargetedReview and reviewHistory. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Event dataset commit 47a5f6b (two new SpaceX launch records; USSF-317 downgraded from conflicting estimated window to reported local Nov20 date) passed all 64 Python and 8 Node tests, deployed successfully, and the workflow verified that the public calendar matches the approved event dataset. All four property dataset hashes also matched. Runs 131 and 132 initially failed because the USSF-317 reported record retained a stale timingWindow field; that metadata was removed without weakening tests, and run133 passed. The current source-audit metadata commit will trigger a further deployment check. A non-blocking Pages source-configuration warning remains.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5848,7 +5848,37 @@
         "kind": "official"
       }
     ],
-    "notes": "Nov25 HKT targeted review. Official company IR/newsroom entry points attempted for all 33 tracked companies. 13 rendered usable current content, 17 were limited/dynamic or only partially rendered, and 3 were blocked. Focused primary/reputable-source checks covered Workday's upcoming Q3 FY2027 call; SpaceX IR and SEC EDGAR; FAA Starship environmental review; NASA CRS-35 postflight; Vandenberg Space Force's USSF-317 launch update; and Spaceflight Now/Space.com postflight reports for USSF-317 and NROL-136. USSF-266 remains an estimated official schedule window. Full historical 79-source audit NOT rerun. The event dataset update is committed as 105862f; the source-audit update is being committed separately. GitHub Actions push-run listing and public Pages hash verification are not exposed by the available GitHub connector in this run, so current deployment is not claimed verified."
+    "notes": "Nov25 HKT targeted review. Official company IR/newsroom entry points attempted for all 33 tracked companies: 13 rendered usable current text, 17 were limited/dynamic or only partially rendered, and 3 were blocked. Focused checks covered Workday's upcoming Q3 FY2027 call; SpaceX IR/SEC; FAA Starship PEIS; NASA CRS-35 postflight; Vandenberg Space Force's USSF-317 prelaunch bulletin; and Spaceflight Now/Space.com postflight reports for USSF-317 and NROL-136. USSF-266 remains an estimated official schedule window. Full historical 79-source audit NOT rerun. Event data: two new SpaceX mission records; USSF-317 changed from a conflicting estimated window to reported local Nov20 date; Workday call schedule rechecked. Final event-data commit 47a5f6b passed 64 Python tests and 8 Node tests, deployed successfully, and the workflow confirmed the public calendar matches the approved event dataset. Four Hong Kong property dataset SHA-256 checks also matched. Source-audit metadata is being updated in this commit; its own push-triggered run is still to be checked. A non-blocking Pages-source configuration warning persists.",
+    "publishingObservations": [
+      {
+        "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
+        "runId": 45446173888,
+        "runNumber": 133,
+        "result": "success",
+        "detail": "The final event-dataset commit passed all 64 Python unit tests and all 8 Node tests, built the site, deployed to GitHub Pages, and passed the workflow's public-calendar content/hash verification. The workflow log states: 'Public calendar matches the approved event dataset.' All four Hong Kong property dataset SHA-256 checks (data.json, listings.json, refresh-status.json, trends.json) also matched."
+      },
+      {
+        "runId": 45445991008,
+        "runNumber": 132,
+        "commit": "501204434fe6668edd165b0cb4174159d5daa3ef",
+        "result": "failure",
+        "detail": "The Python suite failed only test_windows_never_assert_exact_event_dates: the USSF-317 event had been moved from an estimated window to a reported date but still retained the old timingWindow field. No tests were weakened."
+      },
+      {
+        "runId": 45445667487,
+        "runNumber": 131,
+        "commit": "105862f9fde6bf4bfb82786f105e0e24b48ad195",
+        "result": "failure",
+        "detail": "Same schema failure as run132: stale timingWindow remained attached to the USSF-317 reported-date record. Fixed by removing timingWindow and estimateKind while retaining reported status and no verifiedAt."
+      },
+      {
+        "runId": 45446173888,
+        "runNumber": 133,
+        "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
+        "result": "success",
+        "detail": "Removed the stale USSF-317 timingWindow and estimateKind metadata in commit 47a5f6b; the reported local date remains explicitly unconfirmed. Full validation, deployment and public calendar verification then passed."
+      }
+    ]
   },
   "coverageAudit": {
     "checkedAt": "2026-11-23T17:39:53Z",
@@ -8386,9 +8416,32 @@
       ],
       "publishingObservations": [
         {
+          "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
+          "runId": 45446173888,
+          "runNumber": 133,
+          "result": "success",
+          "detail": "The final event-dataset commit passed all 64 Python unit tests and all 8 Node tests, built the site, deployed to GitHub Pages, and passed the workflow's public-calendar content/hash verification. The workflow log states: 'Public calendar matches the approved event dataset.' All four Hong Kong property dataset SHA-256 checks (data.json, listings.json, refresh-status.json, trends.json) also matched."
+        },
+        {
+          "runId": 45445991008,
+          "runNumber": 132,
+          "commit": "501204434fe6668edd165b0cb4174159d5daa3ef",
+          "result": "failure",
+          "detail": "The Python suite failed only test_windows_never_assert_exact_event_dates: the USSF-317 event had been moved from an estimated window to a reported date but still retained the old timingWindow field. No tests were weakened."
+        },
+        {
+          "runId": 45445667487,
+          "runNumber": 131,
           "commit": "105862f9fde6bf4bfb82786f105e0e24b48ad195",
-          "result": "pending_verification",
-          "detail": "Event dataset committed to the repository branch used by the default fetch. Push-triggered workflow is expected to validate/build/deploy; current GitHub Actions run listing and live public-dataset SHA-256 result are not available through the connected GitHub operations in this run. Do not claim publication until the workflow verifies the exact commit."
+          "result": "failure",
+          "detail": "Same schema failure as run132: stale timingWindow remained attached to the USSF-317 reported-date record. Fixed by removing timingWindow and estimateKind while retaining reported status and no verifiedAt."
+        },
+        {
+          "runId": 45446173888,
+          "runNumber": 133,
+          "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
+          "result": "success",
+          "detail": "Removed the stale USSF-317 timingWindow and estimateKind metadata in commit 47a5f6b; the reported local date remains explicitly unconfirmed. Full validation, deployment and public calendar verification then passed."
         }
       ]
     }
