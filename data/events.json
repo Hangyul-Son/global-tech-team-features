@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-11-25",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-24T17:02:39Z",
+  "lastAttempt": "2026-11-24T17:17:48Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -3004,7 +3004,7 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-11-24T17:02:39Z",
+      "sourceCheckedAt": "2026-11-24T17:17:48Z",
       "verifiedAt": null,
       "basis": "SpaceX is a publicly listed Nasdaq issuer (SPCX; internal company ID SPACEX). The SEC EDGAR submissions JSON checked on November 23 UTC identifies CIK 0001181412, ticker SPCX and Nasdaq. Its latest filing by filing date remains the November 16 Schedule 13G/A; preceding recent filings are November 13 Schedule 13G/A, November 6 Form 8-K, October 26 Form 8-K and October 22 Q3 Form 10-Q. No later filing appears through the November 23 UTC check. SpaceX's official IR Events page exposes Upcoming Events and Archived Events headings but no readable upcoming event entry in the current page response. Q2/Q3 2026 earnings and Q3 Form 10-Q remain separately tracked; no company-confirmed Q4/FY2026 results or webcast date was found. Keep this as an undated public-company earnings watchpoint, not a private-company financing-only watch. November 25 HKT recheck: the SpaceX IR landing page exposes Quarterly Results and Events navigation, but its current dynamic response does not render the upcoming-events or results list. The SEC EDGAR company browse page likewise did not render its filings table in this review. The last successful full submissions-index snapshot recorded in the prior review was checked November 23 UTC and showed the November 16 Schedule 13G/A as the latest filing by filing date at that time; this run cannot certify whether a newer filing appeared after that snapshot. Q4/FY2026 earnings remains unannounced in accessible first-party evidence and stays undated.",
       "importance": "Track the next company-confirmed quarterly results, guidance, Starlink/Connectivity, SI revenue and compute, capex, cash flow, liquidity, financing and SEC disclosures; do not omit public-company earnings.",
@@ -3013,19 +3013,19 @@
           "label": "SpaceX investor relations home and Quarterly Results/Events navigation",
           "url": "https://ir.spacex.com/",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:17:48Z"
         },
         {
           "label": "SpaceX IR events page; dynamic upcoming-events list",
           "url": "https://ir.spacex.com/events/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:17:48Z"
         },
         {
           "label": "SEC EDGAR submissions JSON, CIK 0001181412 / Nasdaq:SPCX",
           "url": "https://data.sec.gov/submissions/CIK0001181412.json",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:17:48Z"
         },
         {
           "label": "SpaceX Q3 2026 Form 10-Q, filed October 22",
@@ -3043,19 +3043,19 @@
           "label": "SpaceX Investor Relations landing page · current Quarterly Results and Events navigation; event listings dynamic",
           "url": "https://ir.spacex.com/",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:02:39Z"
+          "checkedAt": "2026-11-24T17:17:48Z"
         },
         {
           "label": "SEC EDGAR company browse page · filings table did not render in this review",
           "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:02:39Z"
+          "checkedAt": "2026-11-24T17:17:48Z"
         },
         {
           "label": "SEC submissions JSON · current response returned no readable filing array in web view; prior successful snapshot retained separately",
           "url": "https://data.sec.gov/submissions/CIK0001181412.json",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:02:39Z"
+          "checkedAt": "2026-11-24T17:17:48Z"
         }
       ]
     },
@@ -6252,7 +6252,7 @@
       "time": null,
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526469266/d79768d6k.htm",
       "sourceLabel": "SK hynix Form 6-K filed Nov 20 · KRX acquisition disclosure and scheduled date",
-      "sourceCheckedAt": "2026-11-24T17:02:39Z",
+      "sourceCheckedAt": "2026-11-24T17:17:48Z",
       "verifiedAt": null,
       "basis": "SK hynix's November 20, 2026 Form 6-K reports its November 20 Korea Exchange disclosure about acquiring common shares of BCPE Pangea Cayman2, Ltd. (SPC2), the vehicle holding an equity stake in Toshiba's former semiconductor business, now Kioxia Holdings. SK hynix plans to acquire 129,000 SPC2 shares through conversion rights under convertible bonds it already holds, plus 1,001 additional shares from a Bain Capital affiliate for JPY100m, bringing its ownership to 130,001 shares / 100% of SPC2 and an indirect approximately 14.1% interest in Kioxia. The filing lists December 4, 2026 as the scheduled acquisition date but explicitly says the schedule may change and the bond-conversion and share-purchase legs may complete on different dates. Therefore Dec 4 is an issuer-scheduled ESTIMATE, not a confirmed completion date. The filing's KRW1.278893tn aggregate acquisition value reflects the original convertible-bond subscription amount; it is not a new KRW1.279tn cash payment due on Dec 4. The additional share purchase is JPY100m, and expected interest income is excluded from the stated value. The evidence is tagged as an issuer-scheduled estimate (rather than a confirmed closing) to preserve the filing's express subject-to-change language.",
       "importance": "NAND industry ownership and capital-allocation datapoint; expands SK hynix's indirect exposure to Kioxia, but does not itself indicate a new NAND fab, wafer capacity or HBM supply commitment.",
@@ -6261,13 +6261,13 @@
           "label": "SK hynix Form 6-K filed Nov 20, 2026 · issuer-scheduled Dec 4 date explicitly subject to change",
           "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526469266/d79768d6k.htm",
           "kind": "estimate",
-          "checkedAt": "2026-11-24T17:02:39Z"
+          "checkedAt": "2026-11-24T17:17:48Z"
         },
         {
           "label": "Reuters Nov 20 report · SK hynix to become Kioxia's largest shareholder after bond conversion",
           "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-become-top-shareholder-rival-kioxia-after-bond-conversion-2026-11-20/",
           "kind": "report",
-          "checkedAt": "2026-11-24T17:02:39Z"
+          "checkedAt": "2026-11-24T17:17:48Z"
         }
       ],
       "dateConflict": "The issuer calls Dec 4 a scheduled acquisition date but explicitly allows changes and different completion dates for the bond conversion and share-purchase legs. Keep status estimated and do not show a confirmed close or exact time.",

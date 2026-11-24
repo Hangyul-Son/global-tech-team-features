@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical October15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November25 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered (13 usable text, 17 limited/dynamic) and 3 blocked; see lastTargetedReview and reviewHistory. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Event dataset commit 47a5f6b (two new SpaceX launch records; USSF-317 downgraded from conflicting estimated window to reported local Nov20 date) passed all 64 Python and 8 Node tests, deployed successfully, and the workflow verified that the public calendar matches the approved event dataset. All four property dataset hashes also matched. Runs 131 and 132 initially failed because the USSF-317 reported record retained a stale timingWindow field; that metadata was removed without weakening tests, and run133 passed. The current source-audit metadata commit will trigger a further deployment check. A non-blocking Pages source-configuration warning remains.",
+  "note": "Historical October15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November25 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered (13 usable text, 17 limited/dynamic) and 3 blocked. Focused SEC filing searches surfaced SK hynix's Nov20 Form 6-K, Palo Alto Networks' Nov18 Form 8-K and Marvell's Nov2 Form 8-K, but not a complete latest-filing history for all 33 issuers. The SK hynix 6-K adds a Dec4 scheduled (subject-to-change) Kioxia stake acquisition estimate. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results and Q4/FY2026 undated earnings watch retained. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Event dataset commit 3160b91 passed 64 Python and 8 Node tests, deployed successfully, and verified the public calendar against the approved dataset, with all four property dataset hashes matching. Runs131/132 and 135 had schema/evidence-label failures, all fixed by correcting event metadata without weakening tests. The combined event/source-audit update will trigger a final deployment check. A non-blocking Pages-source configuration warning remains.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,7 +5340,7 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-24T17:02:39Z",
+    "checkedAt": "2026-11-24T17:17:48Z",
     "localDate": "2026-11-25",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
@@ -5542,7 +5542,8 @@
       "SPACEX / USSF-317: updated the previous Nov13–18 conflicting estimate to REPORTED local launch date Nov20 after Vandenberg Space Force Base's official Nov20 prelaunch bulletin and Space.com postflight reporting at 8:20 p.m. PT. Spaceflight Now's Nov22 NROL-136 report independently supports the 32h3m21s pad interval. SpaceX's indexed mission page still showed an older Nov13 target; no readable SpaceX/USSF postflight mission confirmation, so this is reported, not confirmed, and no exact time is stored.",
       "SPACEX / NROL-136: added a REPORTED Nov22 local launch entry. Spaceflight Now and Space.com report a 4:23 a.m. PT / 12:23 UTC launch and B1097 landing at LZ-4; SpaceX's indexed page supplied the preflight Nov22 target window. No readable first-party postflight mission page was available, so the event remains reported.",
       "SPACEX / USSF-266: added the official SpaceX Nov24 15:55–19:55 UTC target window as ESTIMATED. Third-party trackers show a 16:08 UTC target and GO status, but at the Nov25 01:02 HKT cutoff the published window was still open. No launch completion is claimed; target window spans 23:55 Nov24–03:55 Nov25 HKT.",
-      "Other issuer calendars and newsrooms: all 33 repository company entry points were attempted. No additional company-confirmed earnings date, release time or material financial guidance event was sufficiently verified for a dataset change in this review; existing confirmed, estimated and undated statuses were preserved."
+      "Other issuer calendars and newsrooms: all 33 repository company entry points were attempted. No additional company-confirmed earnings date, release time or material financial guidance event was sufficiently verified for a dataset change in this review; existing confirmed, estimated and undated statuses were preserved.",
+      "SK hynix: SEC Form 6-K filed Nov20 discloses conversion of existing SPC2 convertible bonds plus purchase of 1,001 shares for JPY100m, resulting in an indirect approximately 14.1% Kioxia stake. The issuer lists Dec4 as the scheduled acquisition date but says the date may change and transaction legs may complete separately; calendar added Dec4 as an ESTIMATED event. The filing's KRW1.278893tn value is the original bond subscription amount, not a new Dec4 cash payment."
     ],
     "coverageGaps": [
       "Adobe, ASML and Cloudflare official entry points returned access failures (3/33).",
@@ -5550,7 +5551,8 @@
       "SpaceX IR events/results and its mission pages are dynamic. SEC EDGAR company browse and submissions JSON did not expose a current filing table in this web review; the latest successful filing-index snapshot remains the Nov23 UTC check. This is not an exhaustive current SEC filing-history sweep.",
       "USSF-317 and NROL-136 actual launches are reported by reputable space media and aligned with official prelaunch target records, but the mission-specific postflight SpaceX/USSF pages were not readable; keep them reported, not confirmed. USSF-266 remains an estimated official schedule window, not a verified flight.",
       "FAA Starship PEIS public scoping and the Dec7 comment deadline are environmental consultation milestones, not a flight license or launch authorization. The complete FCC spectrum docket and all NASA/defense award records were not exhaustively reviewed.",
-      "The historical October15 79-source audit (78/79 retrieved) remains unchanged. This targeted 33-company entry-point review is not a full 79-source refresh or a complete 33-company SEC filing audit."
+      "The historical October15 79-source audit (78/79 retrieved) remains unchanged. This targeted 33-company entry-point review is not a full 79-source refresh or a complete 33-company SEC filing audit.",
+      "Grouped SEC EDGAR searches surfaced SK hynix's Nov20 Form 6-K, Palo Alto Networks' Nov18 Form 8-K and Marvell's Nov2 Form 8-K; the latest-filing histories for all 33 issuers were not exhaustively reconciled."
     ],
     "sourcesChecked": [
       {
@@ -5846,9 +5848,33 @@
         "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
         "status": "retrieved",
         "kind": "official"
+      },
+      {
+        "company": "000660.KS",
+        "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526469266/d79768d6k.htm",
+        "status": "retrieved",
+        "kind": "official"
+      },
+      {
+        "company": "000660.KS",
+        "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-become-top-shareholder-rival-kioxia-after-bond-conversion-2026-11-20/",
+        "status": "retrieved",
+        "kind": "report"
+      },
+      {
+        "company": "PANW",
+        "url": "https://investors.paloaltonetworks.com/sec-filings/sec-filing/8-k/0001327567-26-000030",
+        "status": "retrieved",
+        "kind": "official"
+      },
+      {
+        "company": "MRVL",
+        "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/0001193125-26-442714-index.html",
+        "status": "retrieved",
+        "kind": "official"
       }
     ],
-    "notes": "Nov25 HKT targeted review. Official company IR/newsroom entry points attempted for all 33 tracked companies: 13 rendered usable current text, 17 were limited/dynamic or only partially rendered, and 3 were blocked. Focused checks covered Workday's upcoming Q3 FY2027 call; SpaceX IR/SEC; FAA Starship PEIS; NASA CRS-35 postflight; Vandenberg Space Force's USSF-317 prelaunch bulletin; and Spaceflight Now/Space.com postflight reports for USSF-317 and NROL-136. USSF-266 remains an estimated official schedule window. Full historical 79-source audit NOT rerun. Event data: two new SpaceX mission records; USSF-317 changed from a conflicting estimated window to reported local Nov20 date; Workday call schedule rechecked. Final event-data commit 47a5f6b passed 64 Python tests and 8 Node tests, deployed successfully, and the workflow confirmed the public calendar matches the approved event dataset. Four Hong Kong property dataset SHA-256 checks also matched. Source-audit metadata is being updated in this commit; its own push-triggered run is still to be checked. A non-blocking Pages-source configuration warning persists.",
+    "notes": "Nov25 HKT targeted review of all 33 company IR/newsroom/event entry points plus focused SEC filing follow-up. 13 entry points rendered usable current text, 17 were limited/dynamic or partially rendered, and 3 were blocked. Material additions include the SK hynix Nov20 Form 6-K and Dec4 issuer-scheduled Kioxia stake acquisition estimate (subject to change), Workday's Nov24 results/call schedule recheck, and SpaceX USSF-317/NROL-136 reported flights plus USSF-266 estimated target window. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q4/FY2026 earnings remains undated. Historical Oct15 79-source audit NOT rerun. Final event commit 3160b91 passed 64 Python and 8 Node tests, deployed, and the workflow confirmed the public calendar matches the approved event dataset; all four property dataset hashes matched. Run135 initially failed because the estimated SK hynix event's SEC source was tagged official rather than estimate; the source is now tagged as an issuer-scheduled estimate while retaining the primary SEC URL, and run136 passed. Earlier USSF-317 timingWindow schema failures in runs131/132 were fixed without weakening tests. A non-blocking Pages-source configuration warning persists.",
     "publishingObservations": [
       {
         "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
@@ -8043,8 +8069,8 @@
       ]
     },
     {
-      "checkedAt": "2026-11-24T17:02:39Z",
-      "scope": "Nov25 HKT targeted review of all 33 official issuer IR/newsroom/event entry points; focused Workday Q3 FY2027 upcoming-call recheck, SpaceX IR/SEC/launch manifest, FAA Starship PEIS, NASA CRS-35, and USSF-317/NROL-136/USSF-266 mission-date reconciliation. Historical Oct15 79-source audit NOT rerun.",
+      "checkedAt": "2026-11-24T17:17:48Z",
+      "scope": "Nov25 HKT targeted review of all 33 official issuer IR/newsroom/event entry points; focused Workday Q3 FY2027 upcoming-call recheck, SpaceX IR/SEC/launch manifest, FAA Starship PEIS, NASA CRS-35, and USSF-317/NROL-136/USSF-266 mission-date reconciliation. Historical Oct15 79-source audit NOT rerun. Follow-up SEC Form 6-K review added SK hynix/Kioxia transaction and Dec4 scheduled estimate.",
       "companiesChecked": [
         "TSM",
         "NVDA",
@@ -8108,7 +8134,8 @@
         "SPACEX / USSF-317: updated the previous Nov13–18 conflicting estimate to REPORTED local launch date Nov20 after Vandenberg Space Force Base's official Nov20 prelaunch bulletin and Space.com postflight reporting at 8:20 p.m. PT. Spaceflight Now's Nov22 NROL-136 report independently supports the 32h3m21s pad interval. SpaceX's indexed mission page still showed an older Nov13 target; no readable SpaceX/USSF postflight mission confirmation, so this is reported, not confirmed, and no exact time is stored.",
         "SPACEX / NROL-136: added a REPORTED Nov22 local launch entry. Spaceflight Now and Space.com report a 4:23 a.m. PT / 12:23 UTC launch and B1097 landing at LZ-4; SpaceX's indexed page supplied the preflight Nov22 target window. No readable first-party postflight mission page was available, so the event remains reported.",
         "SPACEX / USSF-266: added the official SpaceX Nov24 15:55–19:55 UTC target window as ESTIMATED. Third-party trackers show a 16:08 UTC target and GO status, but at the Nov25 01:02 HKT cutoff the published window was still open. No launch completion is claimed; target window spans 23:55 Nov24–03:55 Nov25 HKT.",
-        "Other issuer calendars and newsrooms: all 33 repository company entry points were attempted. No additional company-confirmed earnings date, release time or material financial guidance event was sufficiently verified for a dataset change in this review; existing confirmed, estimated and undated statuses were preserved."
+        "Other issuer calendars and newsrooms: all 33 repository company entry points were attempted. No additional company-confirmed earnings date, release time or material financial guidance event was sufficiently verified for a dataset change in this review; existing confirmed, estimated and undated statuses were preserved.",
+        "SK hynix: SEC Form 6-K filed Nov20 discloses conversion of existing SPC2 convertible bonds plus purchase of 1,001 shares for JPY100m, resulting in an indirect approximately 14.1% Kioxia stake. The issuer lists Dec4 as the scheduled acquisition date but says the date may change and transaction legs may complete separately; calendar added Dec4 as an ESTIMATED event. The filing's KRW1.278893tn value is the original bond subscription amount, not a new Dec4 cash payment."
       ],
       "coverageGaps": [
         "Adobe, ASML and Cloudflare official entry points returned access failures (3/33).",
@@ -8116,7 +8143,8 @@
         "SpaceX IR events/results and its mission pages are dynamic. SEC EDGAR company browse and submissions JSON did not expose a current filing table in this web review; the latest successful filing-index snapshot remains the Nov23 UTC check. This is not an exhaustive current SEC filing-history sweep.",
         "USSF-317 and NROL-136 actual launches are reported by reputable space media and aligned with official prelaunch target records, but the mission-specific postflight SpaceX/USSF pages were not readable; keep them reported, not confirmed. USSF-266 remains an estimated official schedule window, not a verified flight.",
         "FAA Starship PEIS public scoping and the Dec7 comment deadline are environmental consultation milestones, not a flight license or launch authorization. The complete FCC spectrum docket and all NASA/defense award records were not exhaustively reviewed.",
-        "The historical October15 79-source audit (78/79 retrieved) remains unchanged. This targeted 33-company entry-point review is not a full 79-source refresh or a complete 33-company SEC filing audit."
+        "The historical October15 79-source audit (78/79 retrieved) remains unchanged. This targeted 33-company entry-point review is not a full 79-source refresh or a complete 33-company SEC filing audit.",
+        "Grouped SEC EDGAR searches surfaced SK hynix's Nov20 Form 6-K, Palo Alto Networks' Nov18 Form 8-K and Marvell's Nov2 Form 8-K; the latest-filing histories for all 33 issuers were not exhaustively reconciled."
       ],
       "sourcesChecked": [
         {
@@ -8412,36 +8440,74 @@
           "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
           "status": "retrieved",
           "kind": "official"
+        },
+        {
+          "company": "000660.KS",
+          "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526469266/d79768d6k.htm",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "000660.KS",
+          "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-become-top-shareholder-rival-kioxia-after-bond-conversion-2026-11-20/",
+          "status": "retrieved",
+          "kind": "report"
+        },
+        {
+          "company": "PANW",
+          "url": "https://investors.paloaltonetworks.com/sec-filings/sec-filing/8-k/0001327567-26-000030",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "MRVL",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/0001193125-26-442714-index.html",
+          "status": "retrieved",
+          "kind": "official"
         }
       ],
       "publishingObservations": [
         {
-          "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
-          "runId": 45446173888,
-          "runNumber": 133,
-          "result": "success",
-          "detail": "The final event-dataset commit passed all 64 Python unit tests and all 8 Node tests, built the site, deployed to GitHub Pages, and passed the workflow's public-calendar content/hash verification. The workflow log states: 'Public calendar matches the approved event dataset.' All four Hong Kong property dataset SHA-256 checks (data.json, listings.json, refresh-status.json, trends.json) also matched."
+          "runId": 45445667487,
+          "runNumber": 131,
+          "commit": "105862f9fde6bf4bfb82786f105e0e24b48ad195",
+          "result": "failure",
+          "detail": "USSF-317 had been changed to a reported local date but retained the old timingWindow field. test_windows_never_assert_exact_event_dates failed; no tests were weakened."
         },
         {
           "runId": 45445991008,
           "runNumber": 132,
           "commit": "501204434fe6668edd165b0cb4174159d5daa3ef",
           "result": "failure",
-          "detail": "The Python suite failed only test_windows_never_assert_exact_event_dates: the USSF-317 event had been moved from an estimated window to a reported date but still retained the old timingWindow field. No tests were weakened."
-        },
-        {
-          "runId": 45445667487,
-          "runNumber": 131,
-          "commit": "105862f9fde6bf4bfb82786f105e0e24b48ad195",
-          "result": "failure",
-          "detail": "Same schema failure as run132: stale timingWindow remained attached to the USSF-317 reported-date record. Fixed by removing timingWindow and estimateKind while retaining reported status and no verifiedAt."
+          "detail": "Same stale USSF-317 timingWindow schema failure. Removed timingWindow and estimateKind while preserving reported status and null verifiedAt."
         },
         {
           "runId": 45446173888,
           "runNumber": 133,
           "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
           "result": "success",
-          "detail": "Removed the stale USSF-317 timingWindow and estimateKind metadata in commit 47a5f6b; the reported local date remains explicitly unconfirmed. Full validation, deployment and public calendar verification then passed."
+          "detail": "64 Python tests and 8 Node tests passed; site deployed; workflow reported 'Public calendar matches the approved event dataset'; all four property dataset hashes matched."
+        },
+        {
+          "runId": 45446424803,
+          "runNumber": 134,
+          "commit": "ccd15c27647b696d74c8291187ea07038ed5b1f9",
+          "result": "success",
+          "detail": "Source-audit metadata update passed deployment validation and public-dataset verification."
+        },
+        {
+          "runId": 45446734690,
+          "runNumber": 135,
+          "commit": "6e28171ad45c34f2e485074722df8301cb7012ad",
+          "result": "failure",
+          "detail": "test_dates_have_honest_precision_and_provenance required an estimate-kind source for the issuer-scheduled date. The SK hynix SEC filing is primary evidence, but the date is explicitly subject to change; tagged the evidence kind as estimate without changing its official SEC URL or upgrading event status."
+        },
+        {
+          "runId": 45446856550,
+          "runNumber": 136,
+          "commit": "3160b91ca6bdeee6849df44ba9cb7e8f5f309c34",
+          "result": "success",
+          "detail": "After the SK hynix evidence was correctly tagged as an issuer-scheduled estimate, all 64 Python and 8 Node tests passed, the site deployed, the public calendar matched the approved event dataset, and all four property dataset SHA-256 checks matched."
         }
       ]
     }
