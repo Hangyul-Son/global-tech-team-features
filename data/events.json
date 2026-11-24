@@ -3192,7 +3192,7 @@
       "time": null,
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1415404/000110465926121675/sats-20260930x10q.htm",
       "sourceLabel": "SpaceX Q3 SEC earnings release",
-      "sourceCheckedAt": "2026-11-24T17:52:00Z",
+      "sourceCheckedAt": "2026-11-24T17:54:53Z",
       "verifiedAt": null,
       "basis": "EchoStar's Q3 2026 Form 10-Q says the final Spectrum Acquisition Closing, when the trust transfers the licenses to SpaceX, is expected on or about November 30, 2027, following expiry of the Seller Notes make-whole period and eligibility of the 2030 convertible notes; the closing remains subject to applicable conditions and may occur earlier only with additional seller-note payoff. SpaceX's Q3 2026 Form 10-Q independently describes the $19.6bn total consideration ($11.1bn equity and up to $8.5bn designated EchoStar debt payoff), FCC approval on May 12, 2026, and the first-stage Spectrum Transfer Closing to the trust on May 22, 2026; $856m had been paid by SpaceX to the trust by Sep 30. The SpaceX 10-Q's 2027 payment schedule assumes a Nov 30, 2027 acquisition closing and shows possible additional payments if closing slips to Nov 30, 2028. Treat Nov 30, 2027 as an ESTIMATED / on-or-about target, not a confirmed completion date. Important correction: H1 2027 refers to GPU delivery and commencement of lease schedules under the separate $40bn compute financing, not the spectrum acquisition closing.",
       "importance": "Starlink Mobile direct-to-device capacity, competitive mobile economics, regulatory approvals and spectrum capex.",
@@ -3210,10 +3210,10 @@
           "checkedAt": "2026-11-24T17:52:00Z"
         },
         {
-          "label": "EchoStar SEC Q3 2026 Form 10-Q · expected on/about Nov 30, 2027 spectrum acquisition closing",
+          "label": "EchoStar SEC Q3 2026 Form 10-Q · issuer/partner expected closing date on or about Nov 30, 2027",
           "url": "https://www.sec.gov/Archives/edgar/data/1415404/000110465926121675/sats-20260930x10q.htm",
-          "kind": "official",
-          "checkedAt": "2026-11-24T17:52:00Z"
+          "kind": "estimate",
+          "checkedAt": "2026-11-24T17:54:53Z"
         }
       ],
       "timingWindow": null
