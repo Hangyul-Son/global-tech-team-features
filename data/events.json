@@ -4799,7 +4799,7 @@
       "sourceLabel": "Vandenberg Space Force Base Nov 20 launch-window bulletin; actual liftoff reported by Space.com",
       "sourceCheckedAt": "2026-11-24T17:02:39Z",
       "verifiedAt": null,
-      "basis": "Space Launch Delta 30 / Vandenberg Space Force Base issued an official November 20 launch update scheduling USSF-317 for Friday November 20 between 6:32 p.m. and 10:32 p.m. Pacific, with a November 21 backup. Space.com subsequently reported that Falcon 9 actually lifted off at 8:20 p.m. Pacific on November 20 and that booster B1100 landed on the Of Course I Still Love You droneship. Spaceflight Now's November 22 NROL-136 coverage independently states that NROL-136 followed the USSF launch by 32 hours, 3 minutes and 21 seconds, consistent with the reported November 20 local launch. The UTC date is November 21, 04:20 UTC; the calendar uses the Vandenberg local mission date, November 20. SpaceX's indexed mission-page snapshot still showed the older November 13 preflight target, and no readable SpaceX/USSF postflight mission page was available in this review. Therefore retain status REPORTED, not confirmed; no exact liftoff time, payload identity or deployment outcome is promoted to first-party-confirmed.",
+      "basis": "Space Launch Delta 30 / Vandenberg Space Force Base issued an official November 20 launch update scheduling USSF-317 for Friday November 20 between 6:32 p.m. and 10:32 p.m. Pacific, with a November 21 backup. Space.com subsequently reported that Falcon 9 actually lifted off at 8:20 p.m. Pacific on November 20 and that booster B1100 landed on the Of Course I Still Love You droneship. Spaceflight Now's November 22 NROL-136 coverage independently states that NROL-136 followed the USSF launch by 32 hours, 3 minutes and 21 seconds, consistent with the reported November 20 local launch. The UTC date is November 21, 04:20 UTC; the calendar uses the Vandenberg local mission date, November 20. SpaceX's indexed mission-page snapshot still showed the older November 13 preflight target, and no readable SpaceX/USSF postflight mission page was available in this review. Therefore retain status REPORTED, not confirmed; no exact liftoff time, payload identity or deployment outcome is promoted to first-party-confirmed. The prior provisional timingWindow and manifest-revision estimate metadata have been removed now that the mission is recorded as a reported completed launch; the event date is still not first-party-confirmed.",
       "importance": "Classified U.S. Space Force launch and Vandenberg cadence; distinguish local Pacific launch date from UTC date and reported flight outcome from official postflight confirmation.",
       "sources": [
         {
@@ -4827,14 +4827,7 @@
           "checkedAt": "2026-11-24T17:02:39Z"
         }
       ],
-      "timingWindow": {
-        "start": "2026-11-13",
-        "end": "2026-11-18",
-        "label": "13–18 November 2026 · conflicting USSF-317 target dates",
-        "precision": "week"
-      },
-      "dateConflict": "Older indexed SpaceX mission-page snapshot still showed Nov 13 target; Vandenberg Space Force Base's official Nov20 prelaunch bulletin revised the window to Nov20, and postflight media reports say the flight occurred at 8:20 p.m. PT Nov20. Because the mission-specific first-party postflight page was not readable, the actual date remains REPORTED, not confirmed.",
-      "estimateKind": "manifest-revision"
+      "dateConflict": "Older indexed SpaceX mission-page snapshot still showed Nov 13 target; Vandenberg Space Force Base's official Nov20 prelaunch bulletin revised the window to Nov20, and postflight media reports say the flight occurred at 8:20 p.m. PT Nov20. Because the mission-specific first-party postflight page was not readable, the actual date remains REPORTED, not confirmed."
     },
     {
       "id": "tsm-board-40p93bn-capital-appropriations-2026-11-10",
