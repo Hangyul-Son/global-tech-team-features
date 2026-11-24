@@ -141,6 +141,11 @@ class DatasetTests(unittest.TestCase):
         self.assertEqual(events['spacex-q3-2026-earnings']['type'],'Earnings')
         self.assertEqual(events['spacex-financial-disclosure-watch']['status'],'unannounced')
         self.assertIsNone(events['spacex-financial-disclosure-watch']['date'])
+        spectrum=events['spacex-800mhz-spectrum-close-2027-h1']
+        self.assertEqual(spectrum['date'],'2027-11-30')
+        self.assertEqual(spectrum['status'],'estimated')
+        self.assertIn('on or about November 30, 2027',spectrum['basis'])
+        self.assertIn('H1 2027 refers to GPU delivery',spectrum['basis'])
 
     def test_oracle_ai_world_sessions_remain_in_the_conference(self):
         oracle_events=[e for e in self.data['events'] if e['id'].startswith('oracle-ai-world-')]
