@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical October15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November25 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered (13 usable text, 17 limited/dynamic) and 3 blocked. Focused SEC filing searches surfaced SK hynix's Nov20 Form 6-K, Palo Alto Networks' Nov18 Form 8-K and Marvell's Nov2 Form 8-K, but not a complete latest-filing history for all 33 issuers. The SK hynix 6-K adds a Dec4 scheduled (subject-to-change) Kioxia stake acquisition estimate. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results and Q4/FY2026 undated earnings watch retained. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Event dataset commit 3160b91 passed 64 Python and 8 Node tests, deployed successfully, and verified the public calendar against the approved dataset, with all four property dataset hashes matching. Runs131/132 and 135 had schema/evidence-label failures, all fixed by correcting event metadata without weakening tests. The combined event/source-audit update will trigger a final deployment check. A non-blocking Pages-source configuration warning remains.",
+  "note": "Historical October15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November25 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered (13 usable text, 17 limited/dynamic) and 3 blocked. Focused SEC filing searches surfaced SK hynix's Nov20 Form 6-K, Palo Alto Networks' Nov18 Form 8-K and Marvell's Nov2 Form 8-K, but not a complete latest-filing history for all 33 issuers. The SK hynix 6-K adds a Dec4 scheduled (subject-to-change) Kioxia stake acquisition estimate. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results and Q4/FY2026 undated earnings watch retained. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Event dataset commit 3160b91 passed 64 Python and 8 Node tests, deployed successfully, and verified the public calendar against the approved dataset, with all four property dataset hashes matching. Runs131/132 and 135 had schema/evidence-label failures, all fixed by correcting event metadata without weakening tests. Run137 tests/build/artifact upload passed, but Pages deployment failed: the first attempt hit an artifact-metadata error and the retry created duplicate github-pages artifacts. A fresh commit is triggering a clean single-artifact run. A non-blocking Pages-source configuration warning remains.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,7 +5340,7 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-24T17:17:48Z",
+    "checkedAt": "2026-11-24T17:22:20Z",
     "localDate": "2026-11-25",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
@@ -5874,35 +5874,63 @@
         "kind": "official"
       }
     ],
-    "notes": "Nov25 HKT targeted review of all 33 company IR/newsroom/event entry points plus focused SEC filing follow-up. 13 entry points rendered usable current text, 17 were limited/dynamic or partially rendered, and 3 were blocked. Material additions include the SK hynix Nov20 Form 6-K and Dec4 issuer-scheduled Kioxia stake acquisition estimate (subject to change), Workday's Nov24 results/call schedule recheck, and SpaceX USSF-317/NROL-136 reported flights plus USSF-266 estimated target window. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q4/FY2026 earnings remains undated. Historical Oct15 79-source audit NOT rerun. Final event commit 3160b91 passed 64 Python and 8 Node tests, deployed, and the workflow confirmed the public calendar matches the approved event dataset; all four property dataset hashes matched. Run135 initially failed because the estimated SK hynix event's SEC source was tagged official rather than estimate; the source is now tagged as an issuer-scheduled estimate while retaining the primary SEC URL, and run136 passed. Earlier USSF-317 timingWindow schema failures in runs131/132 were fixed without weakening tests. A non-blocking Pages-source configuration warning persists.",
+    "notes": "Nov25 HKT targeted review of all 33 company IR/newsroom/event entry points plus focused SEC filing follow-up. 13 entry points rendered usable current text, 17 were limited/dynamic or partially rendered, and 3 were blocked. Material additions include the SK hynix Nov20 Form 6-K and Dec4 issuer-scheduled Kioxia stake acquisition estimate (subject to change), Workday's Nov24 results/call schedule recheck, and SpaceX USSF-317/NROL-136 reported flights plus USSF-266 estimated target window. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q4/FY2026 earnings remains undated. Historical Oct15 79-source audit NOT rerun. Final event commit 3160b91 passed 64 Python and 8 Node tests, deployed, and the workflow confirmed the public calendar matches the approved event dataset; all four property dataset hashes matched. Run135 initially failed because the estimated SK hynix event's SEC source was tagged official rather than estimate; the source is now tagged as an issuer-scheduled estimate while retaining the primary SEC URL, and run136 passed. Earlier USSF-317 timingWindow schema failures in runs131/132 were fixed without weakening tests. A non-blocking Pages-source configuration warning persists. Run137's first deployment attempt failed at Deploy Pages with an artifact-metadata service error after tests/build passed; retrying the failed job produced two same-named github-pages artifacts and failed. This is an Actions artifact retry issue, not a code/test failure. A fresh source-audit commit is being pushed to trigger a clean run with one artifact.",
     "publishingObservations": [
       {
-        "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
-        "runId": 45446173888,
-        "runNumber": 133,
-        "result": "success",
-        "detail": "The final event-dataset commit passed all 64 Python unit tests and all 8 Node tests, built the site, deployed to GitHub Pages, and passed the workflow's public-calendar content/hash verification. The workflow log states: 'Public calendar matches the approved event dataset.' All four Hong Kong property dataset SHA-256 checks (data.json, listings.json, refresh-status.json, trends.json) also matched."
+        "runId": 45445667487,
+        "runNumber": 131,
+        "commit": "105862f9fde6bf4bfb82786f105e0e24b48ad195",
+        "result": "failure",
+        "detail": "USSF-317 had been changed to a reported local date but retained the old timingWindow field. test_windows_never_assert_exact_event_dates failed; no tests were weakened."
       },
       {
         "runId": 45445991008,
         "runNumber": 132,
         "commit": "501204434fe6668edd165b0cb4174159d5daa3ef",
         "result": "failure",
-        "detail": "The Python suite failed only test_windows_never_assert_exact_event_dates: the USSF-317 event had been moved from an estimated window to a reported date but still retained the old timingWindow field. No tests were weakened."
-      },
-      {
-        "runId": 45445667487,
-        "runNumber": 131,
-        "commit": "105862f9fde6bf4bfb82786f105e0e24b48ad195",
-        "result": "failure",
-        "detail": "Same schema failure as run132: stale timingWindow remained attached to the USSF-317 reported-date record. Fixed by removing timingWindow and estimateKind while retaining reported status and no verifiedAt."
+        "detail": "Same stale USSF-317 timingWindow schema failure. Removed timingWindow and estimateKind while preserving reported status and null verifiedAt."
       },
       {
         "runId": 45446173888,
         "runNumber": 133,
         "commit": "47a5f6bcd49f3c1ee17328cd379324e77cdbb461",
         "result": "success",
-        "detail": "Removed the stale USSF-317 timingWindow and estimateKind metadata in commit 47a5f6b; the reported local date remains explicitly unconfirmed. Full validation, deployment and public calendar verification then passed."
+        "detail": "64 Python tests and 8 Node tests passed; site deployed; workflow reported 'Public calendar matches the approved event dataset'; all four property dataset hashes matched."
+      },
+      {
+        "runId": 45446424803,
+        "runNumber": 134,
+        "commit": "ccd15c27647b696d74c8291187ea07038ed5b1f9",
+        "result": "success",
+        "detail": "Source-audit metadata update passed deployment validation and public-dataset verification."
+      },
+      {
+        "runId": 45446734690,
+        "runNumber": 135,
+        "commit": "6e28171ad45c34f2e485074722df8301cb7012ad",
+        "result": "failure",
+        "detail": "test_dates_have_honest_precision_and_provenance required an estimate-kind source for the issuer-scheduled date. The SK hynix SEC filing is primary evidence, but the date is explicitly subject to change; tagged the evidence kind as estimate without changing its official SEC URL or upgrading event status."
+      },
+      {
+        "runId": 45446856550,
+        "runNumber": 136,
+        "commit": "3160b91ca6bdeee6849df44ba9cb7e8f5f309c34",
+        "result": "success",
+        "detail": "After the SK hynix evidence was correctly tagged as an issuer-scheduled estimate, all 64 Python and 8 Node tests passed, the site deployed, the public calendar matched the approved event dataset, and all four property dataset SHA-256 checks matched."
+      },
+      {
+        "runId": 45447388032,
+        "runNumber": 137,
+        "attempt": 1,
+        "result": "failure",
+        "detail": "All 64 Python and 8 Node tests passed; site build, artifact upload and Pages setup succeeded. Deploy Pages failed with 'Fetching artifact metadata failed'."
+      },
+      {
+        "runId": 45447388032,
+        "runNumber": 137,
+        "attempt": 2,
+        "result": "failure",
+        "detail": "Retrying only the failed job created a second github-pages artifact in the same run; deploy-pages rejected the two same-named artifacts. A fresh push is required for a clean single-artifact deployment."
       }
     ]
   },
@@ -8069,7 +8097,7 @@
       ]
     },
     {
-      "checkedAt": "2026-11-24T17:17:48Z",
+      "checkedAt": "2026-11-24T17:22:20Z",
       "scope": "Nov25 HKT targeted review of all 33 official issuer IR/newsroom/event entry points; focused Workday Q3 FY2027 upcoming-call recheck, SpaceX IR/SEC/launch manifest, FAA Starship PEIS, NASA CRS-35, and USSF-317/NROL-136/USSF-266 mission-date reconciliation. Historical Oct15 79-source audit NOT rerun. Follow-up SEC Form 6-K review added SK hynix/Kioxia transaction and Dec4 scheduled estimate.",
       "companiesChecked": [
         "TSM",
@@ -8508,6 +8536,20 @@
           "commit": "3160b91ca6bdeee6849df44ba9cb7e8f5f309c34",
           "result": "success",
           "detail": "After the SK hynix evidence was correctly tagged as an issuer-scheduled estimate, all 64 Python and 8 Node tests passed, the site deployed, the public calendar matched the approved event dataset, and all four property dataset SHA-256 checks matched."
+        },
+        {
+          "runId": 45447388032,
+          "runNumber": 137,
+          "attempt": 1,
+          "result": "failure",
+          "detail": "All 64 Python and 8 Node tests passed; site build, artifact upload and Pages setup succeeded. Deploy Pages failed with 'Fetching artifact metadata failed'."
+        },
+        {
+          "runId": 45447388032,
+          "runNumber": 137,
+          "attempt": 2,
+          "result": "failure",
+          "detail": "Retrying only the failed job created a second github-pages artifact in the same run; deploy-pages rejected the two same-named artifacts. A fresh push is required for a clean single-artifact deployment."
         }
       ]
     }
