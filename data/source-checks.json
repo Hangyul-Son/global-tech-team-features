@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical October 15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November 25 01:30 HKT) attempted all 33 company IR/newsroom/event entry points: 31 accessible or partially rendered (14 usable text, 17 limited/dynamic) and two blocked (Adobe, Cloudflare). ASML's IR homepage and statutory interim report confirm January 27, 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close November 24, with the call November 25 at 05:30 HKT; at review cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results, Q3 Form 10-Q and October 24 Form 8-K were checked directly; Q4/FY2026 earnings remains undated. SpaceX's 10-Q details the $19.6bn 800 MHz spectrum transaction, FCC approval/transfer milestones and payment schedule. The $40bn GPU master-lease commitment and $44bn GPU-note pricing are separate public disclosures with overlap unresolved; do not double-count. USSF-266's official Nov24 15:55–19:55 UTC target window remained open at 17:30 UTC; keep estimated. OpenAI IPO remains undated with no year/quarter scenario. Latest previous GitHub Actions run140 passed 64 Python and 8 Node tests, deployed, verified the public calendar against the approved dataset and matched all four property dataset SHA-256 values. Earlier schema/evidence-label failures were corrected without weakening tests; deploy artifact visibility was resolved by adding actions:read. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Latest run141 exposed one regression-test failure: the OpenAI undated watchpoint basis literally contained a year while disclaiming a year-specific scenario. The basis was corrected without weakening the new no-IPO-scenario test; a clean deployment run is pending. The follow-up run142 passed all 64 Python and 8 JavaScript tests, uploaded one github-pages artifact, deployed successfully, confirmed the public calendar matches the approved event dataset, and matched all four property dataset SHA-256 checks. The OpenAI watchpoint remains undated and the regression guard is retained. The metadata-only publication run143 passed 64 Python and 8 JavaScript tests and uploaded one artifact, but the Deploy Pages action received zero artifacts from its metadata lookup. This is a transient Actions/Pages artifact API issue; the public event dataset remains hash-verified by run142. A fresh push will retry deployment.",
+  "note": "Historical October 15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November 25 01:30 HKT) attempted all 33 company IR/newsroom/event entry points: 31 accessible or partially rendered (14 usable text, 17 limited/dynamic) and two blocked (Adobe, Cloudflare). ASML's IR homepage and statutory interim report confirm January 27, 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close November 24, with the call November 25 at 05:30 HKT; at review cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results, Q3 Form 10-Q and October 24 Form 8-K were checked directly; Q4/FY2026 earnings remains undated. SpaceX's 10-Q details the $19.6bn 800 MHz spectrum transaction, FCC approval/transfer milestones and payment schedule. The $40bn GPU master-lease commitment and $44bn GPU-note pricing are separate public disclosures with overlap unresolved; do not double-count. USSF-266's official Nov24 15:55–19:55 UTC target window remained open at 17:30 UTC; keep estimated. OpenAI IPO remains undated with no year/quarter scenario. Latest previous GitHub Actions run140 passed 64 Python and 8 Node tests, deployed, verified the public calendar against the approved dataset and matched all four property dataset SHA-256 values. Earlier schema/evidence-label failures were corrected without weakening tests; deploy artifact visibility was resolved by adding actions:read. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Latest run141 exposed one regression-test failure: the OpenAI undated watchpoint basis literally contained a year while disclaiming a year-specific scenario. The basis was corrected without weakening the new no-IPO-scenario test; a clean deployment run is pending. The follow-up run142 passed all 64 Python and 8 JavaScript tests, uploaded one github-pages artifact, deployed successfully, confirmed the public calendar matches the approved event dataset, and matched all four property dataset SHA-256 checks. The OpenAI watchpoint remains undated and the regression guard is retained. The metadata-only publication run143 passed 64 Python and 8 JavaScript tests and uploaded one artifact, but the Deploy Pages action received zero artifacts from its metadata lookup. This is a transient Actions/Pages artifact API issue; the public event dataset remains hash-verified by run142. A fresh push will retry deployment. Fresh run144 succeeded after the run143 artifact-metadata lookup failure: all 64 Python and 8 JavaScript tests passed, one github-pages artifact deployed, public calendar hash verification passed, and all four property dataset SHA-256 checks matched.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5997,7 +5997,7 @@
         "checkedAt": "2026-11-24T17:30:37Z"
       }
     ],
-    "notes": "November 25 01:30 HKT targeted review reopened all 33 company IR/newsroom/event entry points: 14 usable text, 17 limited/dynamic and 2 blocked (Adobe, Cloudflare). ASML's IR homepage and SEC statutory interim report confirm Jan27 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close Nov24, with the webcast Nov25 05:30 HKT; at this cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX. Direct SEC Q3 release, Oct22 Form 10-Q and Oct24 Form 8-K were reviewed; Q4/FY2026 earnings remains undated. The 10-Q details the 800 MHz spectrum transaction and cash/financing schedule. The $40bn master lease and $44bn GPU-note financing are separately disclosed; overlap is not reconciled and must not be double-counted. USSF-266's 15:55–19:55 UTC target window remained open at 17:30 UTC, so the event remains estimated. OpenAI IPO monitoring remains undated with no year/quarter scenario. Historical Oct15 79-source audit remains 78/79 unchanged. Latest previous Pages run140 passed 64 Python and 8 Node tests, deployed, verified public calendar bytes against the approved dataset and matched all four property SHA-256 values. Run141 failed only because the new IPO-scenario guard correctly caught the literal year in the OpenAI watchpoint disclaimer; the event basis has been rewritten to say 'year-specific scenario' without a year, and the test remains intact. Run142 passed all 64 Python and 8 JavaScript tests after removing the year-specific literal from the OpenAI watchpoint. One github-pages artifact uploaded; Pages deployment, public calendar hash verification and all four property dataset SHA-256 checks passed. Run143 passed both test suites and uploaded one artifact, but Deploy Pages again received zero artifacts from the metadata lookup; a clean new push is required rather than a same-run retry.",
+    "notes": "November 25 01:30 HKT targeted review reopened all 33 company IR/newsroom/event entry points: 14 usable text, 17 limited/dynamic and 2 blocked (Adobe, Cloudflare). ASML's IR homepage and SEC statutory interim report confirm Jan27 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close Nov24, with the webcast Nov25 05:30 HKT; at this cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX. Direct SEC Q3 release, Oct22 Form 10-Q and Oct24 Form 8-K were reviewed; Q4/FY2026 earnings remains undated. The 10-Q details the 800 MHz spectrum transaction and cash/financing schedule. The $40bn master lease and $44bn GPU-note financing are separately disclosed; overlap is not reconciled and must not be double-counted. USSF-266's 15:55–19:55 UTC target window remained open at 17:30 UTC, so the event remains estimated. OpenAI IPO monitoring remains undated with no year/quarter scenario. Historical Oct15 79-source audit remains 78/79 unchanged. Latest previous Pages run140 passed 64 Python and 8 Node tests, deployed, verified public calendar bytes against the approved dataset and matched all four property SHA-256 values. Run141 failed only because the new IPO-scenario guard correctly caught the literal year in the OpenAI watchpoint disclaimer; the event basis has been rewritten to say 'year-specific scenario' without a year, and the test remains intact. Run142 passed all 64 Python and 8 JavaScript tests after removing the year-specific literal from the OpenAI watchpoint. One github-pages artifact uploaded; Pages deployment, public calendar hash verification and all four property dataset SHA-256 checks passed. Run143 passed both test suites and uploaded one artifact, but Deploy Pages again received zero artifacts from the metadata lookup; a clean new push is required rather than a same-run retry. Fresh run144 succeeded after run143's transient artifact-metadata failure: 64 Python and 8 JavaScript tests passed, one Pages artifact deployed, public calendar hash matched, and all four property dataset SHA-256 checks matched.",
     "publishingObservations": [
       {
         "runId": 45445667487,
@@ -6115,6 +6115,23 @@
         "commit": "9143a63513ba85f876245b61331240203fe5af09",
         "result": "failure",
         "detail": "All 64 Python and 8 JavaScript tests, static build, Pages setup and single artifact upload passed. Deploy Pages then received zero github-pages artifacts from its artifact-metadata lookup, despite successful upload. This is the same transient GitHub Actions/Pages metadata inconsistency seen in prior retries; not a code/test failure. A fresh push is used for a clean deployment attempt rather than retrying the same run and risking duplicate artifacts."
+      },
+      {
+        "runId": 45452345448,
+        "runNumber": 144,
+        "commit": "3831cb638890a06b262db716cba14f548a3ce9c6",
+        "result": "success",
+        "completedAt": "2026-11-24T17:47:32Z",
+        "pythonTests": 64,
+        "javascriptTests": 8,
+        "publicCalendarDatasetVerification": "passed — public calendar matches the approved event dataset",
+        "propertyDatasetSha256Verification": {
+          "data.json": "3f1688cee3ab6ae129f2eb8de10261507dbb615c4e93791313bc8f528982c112",
+          "listings.json": "ef67c44ba666d3044ada95579ea7aac39a834ce05ca62740ee85cca8e4b50fd0",
+          "refresh-status.json": "c1cedbfdff2ba79e48e0abacb1412ce949674fb1d2dc67c42850ce14e040e618",
+          "trends.json": "8b7e7e9be622b3bfb98e315c6b25a70afa4b795405992e8e25f71a6d9c21c7"
+        },
+        "detail": "Fresh run after the transient run143 artifact-metadata lookup failure. All tests/build passed; one github-pages artifact deployed; public calendar dataset hash matched; all four property dataset SHA-256 checks matched."
       }
     ]
   },
@@ -9286,6 +9303,23 @@
           "commit": "9143a63513ba85f876245b61331240203fe5af09",
           "result": "failure",
           "detail": "All 64 Python and 8 JavaScript tests, static build, Pages setup and single artifact upload passed. Deploy Pages then received zero github-pages artifacts from its artifact-metadata lookup, despite successful upload. This is the same transient GitHub Actions/Pages metadata inconsistency seen in prior retries; not a code/test failure. A fresh push is used for a clean deployment attempt rather than retrying the same run and risking duplicate artifacts."
+        },
+        {
+          "runId": 45452345448,
+          "runNumber": 144,
+          "commit": "3831cb638890a06b262db716cba14f548a3ce9c6",
+          "result": "success",
+          "completedAt": "2026-11-24T17:47:32Z",
+          "pythonTests": 64,
+          "javascriptTests": 8,
+          "publicCalendarDatasetVerification": "passed — public calendar matches the approved event dataset",
+          "propertyDatasetSha256Verification": {
+            "data.json": "3f1688cee3ab6ae129f2eb8de10261507dbb615c4e93791313bc8f528982c112",
+            "listings.json": "ef67c44ba666d3044ada95579ea7aac39a834ce05ca62740ee85cca8e4b50fd0",
+            "refresh-status.json": "c1cedbfdff2ba79e48e0abacb1412ce949674fb1d2dc67c42850ce14e040e618",
+            "trends.json": "8b7e7e9be622b3bfb98e315c6b25a70afa4b795405992e8e25f71a6d9c21c7"
+          },
+          "detail": "Fresh run after the transient run143 artifact-metadata lookup failure. All tests/build passed; one github-pages artifact deployed; public calendar dataset hash matched; all four property dataset SHA-256 checks matched."
         }
       ]
     }
