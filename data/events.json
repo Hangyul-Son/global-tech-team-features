@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-11-25",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-24T17:17:48Z",
+  "lastAttempt": "2026-11-24T17:30:37Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -855,9 +855,9 @@
       "time": "13:30 PST / 16:30 EST (Nov 25 05:30 HKT)",
       "sourceUrl": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
       "sourceLabel": "Workday official November 2 earnings-date announcement",
-      "sourceCheckedAt": "2026-11-24T17:02:39Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": "2026-11-24T17:02:39Z",
-      "basis": "Rechecked against Workday's official November 2 issuer release on November 25 HKT (November 24, 09:02 PST). Workday states Q3 FY2027 results will be announced after the U.S. market close on Tuesday November 24, 2026, with the conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). At the current review cutoff the U.S. market had not opened and the scheduled results/call had not occurred. The webcast time is distinct from the results-release clock time, which the company does not specify.",
+      "basis": "Workday's November 2 official issuer notice confirms Q3 FY2027 results will be announced after the U.S. market close on Tuesday November 24, 2026, with the conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). At the November 25 01:30 HKT / November 24 17:30 UTC review cutoff, the U.S. market had not closed and the results/call had not occurred. No results, guidance or actual release time is inserted; the company specifies the webcast time, not a separate release clock time.",
       "importance": "HR and finance budgets, subscription backlog and AI agents.",
       "sources": [
         {
@@ -883,6 +883,12 @@
           "url": "https://investor.workday.com/news-and-events/investor-relations-events/default.aspx",
           "kind": "official",
           "checkedAt": "2026-11-24T17:02:39Z"
+        },
+        {
+          "label": "Workday official newsroom · Nov 2 Q3 FY2027 results and webcast notice",
+          "url": "https://newsroom.workday.com/2026-11-02-Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24%2C-2026",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ],
       "startAt": "2026-11-24T21:30:00Z",
@@ -1267,22 +1273,22 @@
       "time": null,
       "sourceUrl": "https://investor.asml.com/",
       "sourceLabel": "ASML official investor relations",
-      "sourceCheckedAt": "2026-10-23T01:38:00Z",
-      "verifiedAt": "2026-10-23T01:38:00Z",
-      "basis": "ASML's official investor calendar and 2026 statutory interim report confirm this date. No event start time is assumed.",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "verifiedAt": "2026-11-24T17:30:37Z",
+      "basis": "ASML's official investor-relations homepage lists January 27, 2027 for Q4 2026 quarterly and full-year results. The company's 2026 statutory interim report independently lists January 27, 2027 as the announcement date for fourth-quarter and annual 2026 results. No event start time is published or assumed.",
       "importance": "EUV/DUV demand, bookings, customer capex and outlook.",
       "sources": [
         {
-          "label": "ASML investor relations",
+          "label": "ASML investor relations homepage · upcoming events",
           "url": "https://investor.asml.com/",
           "kind": "official",
-          "checkedAt": "2026-10-23T01:38:00Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "ASML statutory interim report 2026",
+          "label": "ASML 2026 statutory interim report · financial calendar",
           "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm",
           "kind": "official",
-          "checkedAt": "2026-10-23T01:38:00Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ],
       "dateConflict": "Provider status differs; Jan 27–29 uncertainty range. Not company-confirmed here."
@@ -2222,7 +2228,7 @@
       "companies": [
         "OPENAI"
       ],
-      "title": "OpenAI potential public-market financing / IPO · no official date",
+      "title": "OpenAI public-market financing / IPO watchpoint · no issuer date or scenario",
       "type": "IPO watch",
       "status": "unannounced",
       "date": null,
@@ -2231,16 +2237,16 @@
       "time": null,
       "sourceUrl": "https://openai.com/news/",
       "sourceLabel": "OpenAI official news · undated monitoring",
-      "sourceCheckedAt": "2026-10-29T17:06:45.349Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": null,
-      "basis": "Monitor any official OpenAI SEC registration, financing or listing announcement. Public commentary about 2027 is not an issuer-confirmed IPO timetable and must not be rendered as a dated or year-specific calendar scenario. No official listing date was established in the accessible October 29 newsroom review.",
+      "basis": "Undated monitoring target only. The November 25 review of OpenAI's official newsroom found no issuer-confirmed SEC registration, roadshow, pricing, trading debut, listing timetable, year, quarter or scenario window. Do not infer an IPO date or a 2027 scenario from public commentary; update only if OpenAI or a regulator publishes a concrete milestone.",
       "importance": "Possible capital-market access for AI compute spending, ownership/dilution, financing risk; no dated catalyst should be inferred.",
       "sources": [
         {
-          "label": "OpenAI newsroom",
+          "label": "OpenAI official newsroom · current announcement review",
           "url": "https://openai.com/news/",
           "kind": "official",
-          "checkedAt": "2026-10-29T17:06:45.349Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ],
       "estimateKind": null,
@@ -3004,58 +3010,70 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/events/default.aspx",
       "sourceLabel": "SpaceX official IR events",
-      "sourceCheckedAt": "2026-11-24T17:17:48Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": null,
-      "basis": "SpaceX is a publicly listed Nasdaq issuer (SPCX; internal company ID SPACEX). The SEC EDGAR submissions JSON checked on November 23 UTC identifies CIK 0001181412, ticker SPCX and Nasdaq. Its latest filing by filing date remains the November 16 Schedule 13G/A; preceding recent filings are November 13 Schedule 13G/A, November 6 Form 8-K, October 26 Form 8-K and October 22 Q3 Form 10-Q. No later filing appears through the November 23 UTC check. SpaceX's official IR Events page exposes Upcoming Events and Archived Events headings but no readable upcoming event entry in the current page response. Q2/Q3 2026 earnings and Q3 Form 10-Q remain separately tracked; no company-confirmed Q4/FY2026 results or webcast date was found. Keep this as an undated public-company earnings watchpoint, not a private-company financing-only watch. November 25 HKT recheck: the SpaceX IR landing page exposes Quarterly Results and Events navigation, but its current dynamic response does not render the upcoming-events or results list. The SEC EDGAR company browse page likewise did not render its filings table in this review. The last successful full submissions-index snapshot recorded in the prior review was checked November 23 UTC and showed the November 16 Schedule 13G/A as the latest filing by filing date at that time; this run cannot certify whether a newer filing appeared after that snapshot. Q4/FY2026 earnings remains unannounced in accessible first-party evidence and stays undated.",
+      "basis": "SpaceX is a publicly listed Nasdaq issuer (SPCX; internal company ID SPACEX; CIK 0001181412). Its official IR home exposes Quarterly Results and Events; the Financials page exposes SEC Filings navigation but the filings table is dynamically rendered, and the Events page shows Upcoming/Archived headings without readable entries. This review directly accessed the Q3 2026 earnings release, the October 22 Q3 Form 10-Q and the October 24 Form 8-K (filed October 26) disclosing the approximately $40bn Apollo-managed GPU master-lease commitment. The last successful full SEC submissions-index snapshot checked November 23 UTC showed the November 16 Schedule 13G/A as the latest filing by date at that snapshot; today's submissions JSON/EDGAR browse response did not expose a parsed current filing list, so this run cannot certify whether a newer filing appeared after that snapshot. Q2/Q3 earnings and the Q3 10-Q remain separately tracked. No company-confirmed Q4/FY2026 results or webcast date was found; keep this as an undated public-company earnings watchpoint, not a private-company financing-only watch.",
       "importance": "Track the next company-confirmed quarterly results, guidance, Starlink/Connectivity, SI revenue and compute, capex, cash flow, liquidity, financing and SEC disclosures; do not omit public-company earnings.",
       "sources": [
         {
           "label": "SpaceX investor relations home and Quarterly Results/Events navigation",
           "url": "https://ir.spacex.com/",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:17:48Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "SpaceX IR events page; dynamic upcoming-events list",
+          "label": "SpaceX Investor Relations · Upcoming and archived events page",
           "url": "https://ir.spacex.com/events/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:17:48Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "SEC EDGAR submissions JSON, CIK 0001181412 / Nasdaq:SPCX",
+          "label": "SEC EDGAR submissions JSON · CIK 0001181412 / Nasdaq:SPCX",
           "url": "https://data.sec.gov/submissions/CIK0001181412.json",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:17:48Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "SpaceX Q3 2026 Form 10-Q, filed October 22",
+          "label": "SEC EDGAR · SpaceX Q3 2026 Form 10-Q",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SpaceX Q3 2026 earnings release, filed as Exhibit 99.1",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SpaceX Investor Relations landing page · current Quarterly Results and Events navigation; event listings dynamic",
           "url": "https://ir.spacex.com/",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:17:48Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SEC EDGAR company browse page · filings table did not render in this review",
           "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:17:48Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SEC submissions JSON · current response returned no readable filing array in web view; prior successful snapshot retained separately",
           "url": "https://data.sec.gov/submissions/CIK0001181412.json",
           "kind": "official",
-          "checkedAt": "2026-11-24T17:17:48Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "label": "SpaceX Investor Relations · Financials / SEC Filings navigation",
+          "url": "https://ir.spacex.com/financials/",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "label": "SEC EDGAR · SpaceX October 24 Form 8-K, filed October 26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ]
     },
@@ -3073,28 +3091,28 @@
       "time": "3:30 p.m. CT / 4:30 p.m. ET (October 21, 04:30 HKT)",
       "sourceUrl": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx",
       "sourceLabel": "SpaceX investor relations · Q3 earnings",
-      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": "2026-11-22T16:58:21Z",
-      "basis": "SpaceX (Nasdaq: SPCX) reported Q3 2026 revenue $14.575bn (+161% YoY), net income $4.404bn and Adjusted EBITDA $8.809bn; the nine-month period still showed a $413m net loss, so the Q3 profit should not be extrapolated as year-to-date profitability. Segment revenue: Space $1.767bn (operating loss $7m), Connectivity $5.248bn and Super Intelligence (SI) $7.560bn. Connectivity had 13.6m Starlink consumer subscribers at Sep 30 (up 1.6m QoQ), $69 consumer ARPU, $2.127bn enterprise/government revenue, $2.367bn operating income and $3.499bn Segment Adjusted EBITDA. SI generated $431m operating income (including $1.217bn Cursor-acquisition share-based compensation) and $4.953bn Segment Adjusted EBITDA; SI capex was $16.444bn in Q3. Total Q3 capex was $19.593bn; nine-month capex $48.069bn ($39.995bn SI) versus nine-month operating cash flow $13.097bn. OCF less PP&E purchases is negative $34.972bn by arithmetic, NOT company-defined FCF. Sep 30 cash and equivalents were $51.294bn plus $38.561bn marketable securities. Nine-month financing cash flow was $99.819bn, including $85.675bn net IPO proceeds. SI nameplate compute reached 1.7 GW at Sep 30 (1.4 GW June 30); nameplate is not proof of energized/usable compute. The company also says its first revenue-generating Starship mission (Flight 14) delivered 26 Starlink V3 satellites. Q3 earnings is historical; Q4/FY2026 date remains unannounced.",
+      "basis": "SpaceX (Nasdaq: SPCX) reported Q3 2026 revenue $14.575bn (+161% YoY), net income $4.404bn and Adjusted EBITDA $8.809bn; the nine-month period still showed a $413m net loss, so Q3 profit should not be extrapolated as year-to-date profitability. Segment revenue: Space $1.767bn (operating loss $7m), Connectivity $5.248bn and Super Intelligence (SI) $7.560bn. Connectivity had 13.6m Starlink consumer subscribers at Sep 30, $69 consumer ARPU, $2.127bn enterprise/government revenue, $2.367bn operating income and $3.499bn Segment Adjusted EBITDA. SI generated $431m operating income (including $1.217bn Cursor-acquisition share-based compensation) and $4.953bn Segment Adjusted EBITDA; SI capex was $16.444bn in Q3. Total Q3 capex was $19.593bn; nine-month capex $48.069bn ($39.995bn SI) versus nine-month operating cash flow $13.097bn. OCF less PP&E purchases is negative $34.972bn by arithmetic, NOT company-defined FCF. Sep 30 cash and equivalents were $51.294bn plus $38.561bn marketable securities. Nine-month financing cash flow was $99.819bn, including $85.675bn net IPO proceeds. SI nameplate compute reached 1.7 GW at Sep 30; the 10-Q defines this as installed GPUs multiplied by all-in power and explicitly says it is not actual power consumption or utilization. The Q3 release identifies Flight 14 as the first revenue-generating Starship mission, delivering 26 Starlink V3 satellites. Q3 earnings is historical; Q4/FY2026 date remains unannounced.",
       "importance": "Public-company results for Starlink subscriber/ARPU and margin tracking, SI revenue and compute economics, segment capex, cash conversion, liquidity and financing. Keep 1.7 GW nameplate separate from energized capacity and distinguish non-GAAP Segment Adjusted EBITDA from GAAP income.",
       "sources": [
         {
           "label": "SpaceX Q3 earnings webcast",
           "url": "https://ir.spacex.com/events/event-details/2026/Q3-2026-Earnings/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-10-23T17:04:38Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "SEC Q3 earnings release",
+          "label": "SEC EDGAR · SpaceX Q3 2026 earnings release",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
-          "checkedAt": "2026-10-23T17:04:38Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "SpaceX Q3 2026 Form 10-Q",
+          "label": "SEC EDGAR · SpaceX Q3 2026 Form 10-Q",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
           "kind": "official",
-          "checkedAt": "2026-10-24T16:58:26Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ],
       "startAt": "2026-10-20T20:30:00Z",
@@ -3165,27 +3183,34 @@
       "companies": [
         "SPACEX"
       ],
-      "title": "SpaceX 800 MHz spectrum deal · H1 2027 target (date unannounced)",
+      "title": "SpaceX 800 MHz spectrum acquisition · H1 2027 expected closing window (date unannounced)",
       "type": "Operating update",
       "status": "unannounced",
       "date": null,
       "endDate": null,
       "window": null,
       "time": null,
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
       "sourceLabel": "SpaceX Q3 SEC earnings release",
-      "sourceCheckedAt": "2026-10-23T17:04:38Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": null,
-      "basis": "SpaceX's October 20 Q3 SEC filing confirms the October 8 spectrum acquisition agreement and management's H1 2027 expected closing period, subject to regulatory approvals. No exact closing day is announced. Tracked as an undated watch item rather than an unsupported calendar date.",
+      "basis": "SpaceX's Q3 2026 earnings release says the October 8 agreement to acquire up to 14 MHz of paired nationwide 800 MHz spectrum is expected to close in the first half of 2027, subject to regulatory and customary conditions. The Q3 Form 10-Q discloses approximately $19.6bn total consideration ($11.1bn equity and up to $8.5bn designated EchoStar debt payoff), FCC approval on May 12, and transfer of licenses to a trust on May 22, 2026; $856m had been paid by September 30. The 10-Q's 2027 payment schedule assumes a November 30, 2027 acquisition closing and contractual interest-support payments run through at least that date, no later than November 30, 2028. That payment-schedule assumption is not a separately announced exact closing date and is not substituted for management's H1 2027 expected window. Keep the final acquisition closing undated.",
       "importance": "Starlink Mobile direct-to-device capacity, competitive mobile economics, regulatory approvals and spectrum capex.",
       "sources": [
         {
-          "label": "SEC Q3 earnings release",
+          "label": "SEC EDGAR · SpaceX Q3 2026 earnings release (H1 2027 expected close)",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
-          "checkedAt": "2026-10-23T17:04:38Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "label": "SEC EDGAR · SpaceX Q3 2026 Form 10-Q (consideration, FCC approval, transfer and payment schedule)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
-      ]
+      ],
+      "timingWindow": null
     },
     {
       "id": "spacex-q3-2026-10q",
@@ -3201,28 +3226,34 @@
       "time": null,
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
       "sourceLabel": "SEC EDGAR Form 10-Q",
-      "sourceCheckedAt": "2026-11-22T16:58:21Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": "2026-11-22T16:58:21Z",
-      "basis": "SEC EDGAR confirms SpaceX (CIK 0001181412; Nasdaq: SPCX) filed its Q3 2026 Form 10-Q on October 22 for the quarter ended September 30. The related Q3 earnings release reports nine-month operating cash flow $13.097bn versus PP&E purchases $48.069bn; OCF less PP&E purchases is negative $34.972bn by simple arithmetic, not a company-defined FCF measure. Q3 capex was $19.593bn ($16.444bn SI), and nine-month SI capex $39.995bn. September 30 cash and equivalents plus marketable securities totaled $89.855bn ($51.294bn + $38.561bn). Nine-month financing cash flow was $99.819bn and included $85.675bn net IPO proceeds. Q3 Connectivity revenue was $5.248bn with 13.6m Starlink consumer subscribers and $69 consumer ARPU; SI revenue was $7.560bn. SI nameplate compute was 1.7 GW at September 30, not a disclosed energized/available-GW measure.",
+      "basis": "SEC EDGAR confirms SpaceX (CIK 0001181412; Nasdaq: SPCX) filed its Q3 2026 Form 10-Q on October 22 for the quarter ended September 30. Nine-month operating cash flow was $13.097bn versus PP&E purchases of $48.069bn; OCF less PP&E purchases is negative $34.972bn by arithmetic, not a company-defined FCF measure. Q3 capex was $19.593bn ($16.444bn SI), and nine-month SI capex $39.995bn. September 30 cash and equivalents plus marketable securities totaled $89.855bn ($51.294bn + $38.561bn). Nine-month financing cash flow was $99.819bn and included $85.675bn net IPO proceeds. Q3 Connectivity revenue was $5.248bn with 13.6m Starlink consumer subscribers and $69 consumer ARPU; SI revenue was $7.560bn. SI nameplate compute was 1.7 GW; the 10-Q defines nameplate as installed GPUs multiplied by all-in power, not actual consumption or utilization. The 10-Q also details the 800 MHz spectrum transaction: approximately $19.6bn total consideration ($11.1bn equity and up to $8.5bn payoff of designated EchoStar debt); FCC approval was May 12 and transfer to the trust closed May 22, 2026. SpaceX had paid $856m to the trust by Sep 30. A 2027 payment schedule assumes a Nov 30, 2027 acquisition closing, with possible additional payments if closing slips to Nov 30, 2028; this schedule assumption is not a separately announced exact closing date.",
       "importance": "Cash conversion, capex funding, post-IPO liquidity, Starlink subscriber economics and AI infrastructure execution.",
       "sources": [
         {
-          "label": "SEC EDGAR Form 10-Q",
+          "label": "SEC EDGAR · SpaceX Q3 2026 Form 10-Q",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
           "kind": "official",
-          "checkedAt": "2026-10-24T16:58:26Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SEC filing index",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/0001628280-26-066880-index.htm",
           "kind": "official",
-          "checkedAt": "2026-10-24T16:58:26Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SEC company submissions JSON, CIK 0001181412; Nasdaq ticker SPCX",
           "url": "https://data.sec.gov/submissions/CIK0001181412.json",
           "kind": "official",
-          "checkedAt": "2026-11-22T16:58:21Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "label": "SEC EDGAR · SpaceX Q3 2026 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ]
     },
@@ -3267,52 +3298,52 @@
       "time": null,
       "sourceUrl": "https://ir.spacex.com/",
       "sourceLabel": "SpaceX investor relations and SEC filings",
-      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": null,
-      "basis": "SpaceX's Q3 2026 SEC release reports SI revenue $7.560bn, SI operating income $431m (including $1.217bn in Cursor-acquisition share-based compensation) and SI Segment Adjusted EBITDA $4.953bn. SI capex was $16.444bn in Q3 and $39.995bn for nine months; total capex was $19.593bn in Q3/$48.069bn nine months versus $13.097bn nine-month operating cash flow. September 30 SI nameplate compute was 1.7 GW, up from 1.4 GW June 30; nameplate is not proof of energized/usable capacity. Apollo and Goldman priced approximately $44bn of senior and subordinated notes on November 20 to fund NVIDIA Vera Rubin GPUs and related equipment for SpaceX terrestrial compute. This is the financing layer for the earlier October 26 approximately $40bn master finance-lease commitment, not a second independent GPU purchase. Equipment delivery and lease schedules are expected H1 2027, not completed. No new Q4/FY2026 earnings date was found in the accessible IR events page.",
+      "basis": "SpaceX's Q3 2026 SEC release reports SI revenue $7.560bn, SI operating income $431m (including $1.217bn in Cursor-acquisition share-based compensation) and SI Segment Adjusted EBITDA $4.953bn. SI capex was $16.444bn in Q3 and $39.995bn for nine months; total capex was $19.593bn in Q3/$48.069bn nine months versus $13.097bn nine-month operating cash flow. September 30 SI nameplate compute was 1.7 GW, up from 1.4 GW June 30; the 10-Q defines nameplate as installed GPUs multiplied by all-in power and says it is not actual consumption or utilization. The SEC Oct24 Form 8-K (filed Oct26) discloses a binding commitment letter for an approximately $40bn Apollo-managed master finance lease, subject to closing conditions, with schedules expected to start on GPU delivery in H1 2027. Apollo/Goldman separately announced pricing approximately $44bn of notes on Nov20 to fund Vera Rubin GPUs and related equipment. The public documents do not reconcile whether the $44bn notes and $40bn master lease cover the same equipment/tranches; do not sum them as independent GPU purchases or assume the financing structures are identical. No GPU count, MW, energized capacity or exact delivery date was disclosed. Q4/FY2026 earnings remains unannounced.",
       "importance": "AI compute, power/energization, Vera Rubin deliveries, SI revenue/margins, capex versus operating cash generation, liquidity, financing cost and lease execution.",
       "sources": [
         {
           "label": "SpaceX investor relations",
           "url": "https://ir.spacex.com/",
           "kind": "official",
-          "checkedAt": "2026-10-26T17:03:25.738Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "SpaceX Q3 2026 Form 10-Q",
+          "label": "SEC EDGAR · SpaceX Q3 2026 Form 10-Q",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
           "kind": "official",
-          "checkedAt": "2026-10-26T17:03:25.738Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SpaceX October 26 GPU finance-lease announcement",
           "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-10-27T16:57:42Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "SpaceX October 26 SEC Form 8-K",
+          "label": "SEC EDGAR · SpaceX October 24 Form 8-K for GPU master-lease commitment",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
           "kind": "official",
-          "checkedAt": "2026-10-27T16:57:42Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SEC Q3 2026 earnings release, Exhibit 99.1",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
           "kind": "official",
-          "checkedAt": "2026-11-22T16:58:21Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "Apollo/Goldman Nov 20 GPU-note pricing announcement",
           "url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
           "kind": "official",
-          "checkedAt": "2026-11-22T16:58:21Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "Apollo/Goldman November 20 $44bn GPU-note pricing release",
+          "label": "Apollo and Goldman Sachs · November 20 $44bn GPU-note pricing release",
           "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ]
     },
@@ -3331,22 +3362,22 @@
       "time": null,
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
       "sourceLabel": "SEC Form 8-K filed October 26, 2026",
-      "sourceCheckedAt": "2026-10-27T16:57:42Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": "2026-10-27T16:57:42Z",
-      "basis": "SpaceX disclosed on October 26 a binding commitment letter dated October 24 to enter a roughly $40bn master finance lease with an Apollo-managed entity for NVIDIA Vera Rubin GPU pods and related equipment. The master lease is NOT yet closed; subject to conditions, closing expected before year-end 2026 and delivery/lease schedules anticipated in H1 2027. No exact closing/delivery date confirmed. October 26 is disclosure date, not lease closing.",
+      "basis": "SpaceX's October 26 SEC Form 8-K reports a binding commitment letter entered October 24 to enter a master finance lease with an Apollo-managed entity, which would acquire and lease NVIDIA GPU pods and related equipment for SpaceX data centers. Aggregate principal payments under the contemplated lease schedules are expected to total approximately $40bn. Closing is subject to specified conditions and was expected before year-end 2026; separate lease schedules are expected to commence upon GPU delivery in H1 2027. This is a commitment letter, not a completed lease, completed GPU delivery or energized compute capacity; no exact closing date, GPU count or MW is disclosed.",
       "importance": "Major financing and GPU demand catalyst: Vera Rubin equipment, Super Intelligence data-center capex, financing costs and liquidity; NVIDIA supply read-through.",
       "sources": [
         {
-          "label": "SEC Form 8-K",
+          "label": "SEC EDGAR · SpaceX October 24 Form 8-K, filed October 26",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
           "kind": "official",
-          "checkedAt": "2026-10-27T16:57:42Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SpaceX investor press release",
           "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-10-27T16:57:42Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ]
     },
@@ -3891,16 +3922,16 @@
       "time": null,
       "sourceUrl": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
       "sourceLabel": "FAA Starship project official notice",
-      "sourceCheckedAt": "2026-11-05T17:07:56.396Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": "2026-11-05T17:07:56.396Z",
       "basis": "The FAA's updated official Starship Boca Chica programmatic environmental review notice extends the public comment period to December 7, 2026 (previously November 30) after converting the November 17–19 meetings to virtual. Comments can be submitted via regulations.gov, docket FAA-2026-12808. December 7 is a comment deadline, NOT an FAA license decision, approved launch frequency or exact launch date.",
       "importance": "Extended environmental-review scoping deadline; monitor regulatory approval and constraints on Starship launch capacity.",
       "sources": [
         {
-          "label": "FAA Starship project official notice",
+          "label": "FAA official Starship PEIS page · revised December 7, 2026 public-comment deadline",
           "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
           "kind": "official",
-          "checkedAt": "2026-11-05T17:07:56.396Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ]
     },
@@ -5794,40 +5825,40 @@
       "time": null,
       "sourceUrl": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
       "sourceLabel": "Apollo and Goldman Sachs official November 20 financing-pricing announcement",
-      "sourceCheckedAt": "2026-11-23T17:28:14Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": "2026-11-23T17:28:14Z",
-      "basis": "Apollo and Goldman Sachs announced on November 20, 2026 that approximately $44bn of senior and subordinated notes had been successfully priced to fund NVIDIA Vera Rubin GPUs and related equipment for SpaceX's terrestrial compute buildout. The transaction was oversubscribed and upsized. Apollo says lease schedules are expected to commence upon equipment delivery in H1 2027; this is forward-looking, not a confirmed delivery, energized-GW or revenue date. This note pricing is the financing layer supporting SpaceX's earlier October 26 approximately $40bn Apollo-managed master finance-lease commitment. Do not add $44bn and $40bn as two independent GPU orders or assume that the note face value equals the lease principal. No specific GPU count, MW, delivery schedule by tranche or realized compute capacity was disclosed in the November 20 release. Separate media reporting about possible restrictions on orbital deployment is not a verified covenant in the signed documents.",
+      "basis": "Apollo and Goldman Sachs announced on November 20, 2026 that approximately $44bn of senior and subordinated notes had been successfully priced to fund NVIDIA Vera Rubin GPUs and related equipment for SpaceX's terrestrial compute buildout. The transaction was oversubscribed and upsized. Apollo says lease schedules are expected to commence upon equipment delivery in H1 2027; this is forward-looking, not a confirmed delivery, energized-GW or revenue date. This is a separate public financing disclosure from SpaceX's October 24 binding commitment letter for an approximately $40bn Apollo-managed master finance lease, filed October 26. The public documents reviewed do not reconcile whether the notes finance the same equipment/tranches or how they overlap with the master lease. Do not add $44bn and $40bn as independent GPU purchases, and do not claim the notes are the lease's financing layer without definitive documentation. No specific GPU count, MW, delivery schedule by tranche or realized compute capacity was disclosed.",
       "importance": "Material public SpaceX/NVIDIA AI infrastructure financing and cost-of-capital catalyst; distinguish priced notes from the related master lease, and financing commitment from actual equipment delivery and energized compute.",
       "sources": [
         {
-          "label": "Apollo and Goldman Sachs November 20 $44bn SpaceX GPU-note pricing release",
+          "label": "Apollo and Goldman Sachs · November 20 $44bn SpaceX GPU-note pricing release",
           "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SpaceX October 26 $40bn Apollo-managed master finance-lease announcement",
           "url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
-          "label": "SpaceX October 26 SEC Form 8-K for the master finance-lease commitment",
+          "label": "SEC EDGAR · SpaceX October 24 $40bn master finance-lease commitment",
           "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
           "kind": "official",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "Reuters November 20 financing coverage; secondary details, not a substitute for the official transaction release",
           "url": "https://www.reuters.com/business/media-telecom/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-2026-11-20/",
           "kind": "report",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "Financial Times collateral/covenant reporting; not verified in signed documents",
           "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29",
           "kind": "report",
-          "checkedAt": "2026-11-23T17:28:14Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ]
     },
@@ -6211,28 +6242,28 @@
       "time": null,
       "sourceUrl": "https://www.spacex.com/launches/ussf-266",
       "sourceLabel": "SpaceX official mission-specific target window; indexed schedule only",
-      "sourceCheckedAt": "2026-11-24T17:02:39Z",
+      "sourceCheckedAt": "2026-11-24T17:30:37Z",
       "verifiedAt": null,
-      "basis": "SpaceX's indexed official USSF-266 mission/launch-manifest snapshot lists a November 24, 2026 target with a 15:55–19:55 UTC window. Third-party launch trackers show a 16:08 UTC target within that window and a GO status, but those are schedule/status snapshots, not proof of liftoff. At the November 25 01:02 HKT review cutoff (November 24 17:02 UTC), the published four-hour window was still open. The window corresponds to 23:55 November 24–03:55 November 25 Hong Kong time. No readable SpaceX, FAA or U.S. Space Force postflight confirmation was found; keep this as an ESTIMATED target, not a completed launch. The mission payload remains classified and no payload identity is inferred.",
+      "basis": "SpaceX's indexed official USSF-266 mission/launch-manifest snapshot lists a November 24, 2026 target with a 15:55–19:55 UTC window. Third-party launch trackers show a 16:08 UTC target and GO status, but those are schedule/status snapshots, not proof of liftoff. At the November 25 01:30 HKT / November 24 17:30 UTC review cutoff, the published four-hour window remained open until 19:55 UTC (November 25 03:55 HKT). No readable SpaceX, FAA or U.S. Space Force postflight confirmation was available; keep this as an ESTIMATED target, not a completed launch. The mission payload remains classified and no payload identity is inferred.",
       "importance": "Near-term U.S. Space Force launch cadence and government demand watch; do not infer a launch completion, Starshield payload or contract value from the schedule.",
       "sources": [
         {
           "label": "SpaceX official USSF-266 mission page · indexed Nov24 target window 15:55–19:55 UTC",
           "url": "https://www.spacex.com/launches/ussf-266",
           "kind": "estimate",
-          "checkedAt": "2026-11-24T17:02:39Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "Space Launch Live / Launch Library 2 · 16:08 UTC schedule target and GO status, not postflight confirmation",
           "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-266/",
           "kind": "report",
-          "checkedAt": "2026-11-24T17:02:39Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         },
         {
           "label": "SpaceNexus November 2026 SpaceX manifest · USSF-266 still listed as upcoming at review cutoff",
           "url": "https://spacenexus.us/launches/spacex/2026-11",
           "kind": "report",
-          "checkedAt": "2026-11-24T17:02:39Z"
+          "checkedAt": "2026-11-24T17:30:37Z"
         }
       ],
       "dateConflict": "SpaceX's official indexed page supplies a 15:55–19:55 UTC target window; Launch Library 2-based trackers show 16:08 UTC as a target time. This is a schedule difference, not an observed liftoff time. No primary postflight source was available at the review cutoff.",

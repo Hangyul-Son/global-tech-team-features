@@ -130,6 +130,17 @@ class DatasetTests(unittest.TestCase):
         self.assertEqual(events['ocp']['date'],'2026-10-12')
         self.assertEqual(events['ocp']['endDate'],'2026-10-15')
         self.assertEqual(events['anthropic-ipo']['type'],'IPO watch', 'Do not confuse investor day with listing')
+        openai=events['openai-ipo']
+        self.assertEqual(openai['status'],'unannounced')
+        self.assertIsNone(openai['date'])
+        self.assertIsNone(openai['timingWindow'])
+        self.assertNotRegex(openai['title']+' '+openai['basis'],r'\b20\d{2}\b', 'Do not invent an IPO year or scenario')
+        self.assertIn('SPACEX',self.companies)
+        self.assertEqual(events['spacex-ipo-nasdaq-2026']['date'],'2026-06-12')
+        self.assertEqual(events['spacex-ipo-nasdaq-2026']['status'],'confirmed')
+        self.assertEqual(events['spacex-q3-2026-earnings']['type'],'Earnings')
+        self.assertEqual(events['spacex-financial-disclosure-watch']['status'],'unannounced')
+        self.assertIsNone(events['spacex-financial-disclosure-watch']['date'])
 
     def test_oracle_ai_world_sessions_remain_in_the_conference(self):
         oracle_events=[e for e in self.data['events'] if e['id'].startswith('oracle-ai-world-')]

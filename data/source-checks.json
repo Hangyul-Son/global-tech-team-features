@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-15T14:49:27.658306+00:00",
   "successfulSources": 78,
   "totalSources": 79,
-  "note": "Historical October15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November25 HKT) attempted all 33 company IR/newsroom/event entry points: 30 accessible or partially rendered (13 usable text, 17 limited/dynamic) and 3 blocked. Focused SEC filing searches surfaced SK hynix's Nov20 Form 6-K, Palo Alto Networks' Nov18 Form 8-K and Marvell's Nov2 Form 8-K, but not a complete latest-filing history for all 33 issuers. The SK hynix 6-K adds a Dec4 scheduled (subject-to-change) Kioxia stake acquisition estimate. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results and Q4/FY2026 undated earnings watch retained. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit. Event dataset commit 3160b91 passed 64 Python and 8 Node tests, deployed successfully, and verified the public calendar against the approved dataset, with all four property dataset hashes matching. Runs131/132 and 135 had schema/evidence-label failures, all fixed by correcting event metadata without weakening tests. Run137 tests/build/artifact upload passed, but Pages deployment failed: the first attempt hit an artifact-metadata error and the retry created duplicate github-pages artifacts. A fresh commit is triggering a clean single-artifact run. A non-blocking Pages-source configuration warning remains. Run138 passed 64 Python tests, 8 Node tests, build, setup and artifact upload, but Deploy Pages failed on an artifact-metadata API inconsistency (workflow saw no artifact while GitHub's artifact-list API showed one). The live event dataset remains deployed and hash-verified by run136; this commit retries publishing the updated source-audit metadata.",
+  "note": "Historical October 15 exhaustive source harvest remains 78/79 successful and unchanged. Latest targeted review (November 25 01:30 HKT) attempted all 33 company IR/newsroom/event entry points: 31 accessible or partially rendered (14 usable text, 17 limited/dynamic) and two blocked (Adobe, Cloudflare). ASML's IR homepage and statutory interim report confirm January 27, 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close November 24, with the call November 25 at 05:30 HKT; at review cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q3 results, Q3 Form 10-Q and October 24 Form 8-K were checked directly; Q4/FY2026 earnings remains undated. SpaceX's 10-Q details the $19.6bn 800 MHz spectrum transaction, FCC approval/transfer milestones and payment schedule. The $40bn GPU master-lease commitment and $44bn GPU-note pricing are separate public disclosures with overlap unresolved; do not double-count. USSF-266's official Nov24 15:55–19:55 UTC target window remained open at 17:30 UTC; keep estimated. OpenAI IPO remains undated with no year/quarter scenario. Latest previous GitHub Actions run140 passed 64 Python and 8 Node tests, deployed, verified the public calendar against the approved dataset and matched all four property dataset SHA-256 values. Earlier schema/evidence-label failures were corrected without weakening tests; deploy artifact visibility was resolved by adding actions:read. This is not a full 79-source refresh or exhaustive 33-company SEC filing-history audit.",
   "sources": [
     {
       "url": "https://investor.tsmc.com/english/financial-calendar",
@@ -5340,178 +5340,211 @@
     }
   ],
   "lastTargetedReview": {
-    "checkedAt": "2026-11-24T17:23:01Z",
+    "checkedAt": "2026-11-24T17:30:37Z",
     "localDate": "2026-11-25",
     "timezone": "Asia/Hong_Kong",
     "companyEntryPointsAttempted": 33,
-    "entryPointsAccessibleOrPartiallyRendered": 30,
-    "entryPointsBlocked": 3,
+    "entryPointsAccessibleOrPartiallyRendered": 31,
+    "entryPointsBlocked": 2,
     "historicalFullAuditRefresh": false,
     "companies": [
       {
         "id": "TSM",
         "status": "accessible",
-        "sourceUrl": "https://investor.tsmc.com/english/financial-calendar"
+        "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "NVDA",
         "status": "limited",
-        "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx"
+        "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "AMD",
         "status": "accessible",
-        "sourceUrl": "https://ir.amd.com/news-events/ir-calendar"
+        "sourceUrl": "https://ir.amd.com/news-events/ir-calendar",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "AVGO",
         "status": "limited",
-        "sourceUrl": "https://investors.broadcom.com/company-information/events-presentations"
+        "sourceUrl": "https://investors.broadcom.com/company-information/events-presentations",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "MRVL",
         "status": "limited",
-        "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar"
+        "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "AAPL",
         "status": "limited",
-        "sourceUrl": "https://www.apple.com/investor/earnings-call/"
+        "sourceUrl": "https://www.apple.com/investor/earnings-call/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "MSFT",
         "status": "accessible",
-        "sourceUrl": "https://www.microsoft.com/en-us/Investor"
+        "sourceUrl": "https://www.microsoft.com/en-us/Investor",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "ORCL",
         "status": "limited",
-        "sourceUrl": "https://investor.oracle.com/events-and-presentations/default.aspx"
+        "sourceUrl": "https://investor.oracle.com/events-and-presentations/default.aspx",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "CRM",
         "status": "limited",
-        "sourceUrl": "https://investor.salesforce.com/events-and-presentations/default.aspx"
+        "sourceUrl": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "NOW",
         "status": "limited",
-        "sourceUrl": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx"
+        "sourceUrl": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "ADBE",
         "status": "blocked",
-        "sourceUrl": "https://news.adobe.com/financial"
+        "sourceUrl": "https://news.adobe.com/financial",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "WDAY",
         "status": "accessible",
-        "sourceUrl": "https://investor.workday.com/"
+        "sourceUrl": "https://investor.workday.com/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "ASML",
-        "status": "blocked",
-        "sourceUrl": "https://investor.asml.com/quarterly-results"
+        "status": "accessible",
+        "sourceUrl": "https://investor.asml.com/quarterly-results",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "LRCX",
         "status": "limited",
-        "sourceUrl": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call"
+        "sourceUrl": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "005930.KS",
         "status": "accessible",
-        "sourceUrl": "https://www.samsung.com/global/ir/ir-events-presentations/events/"
+        "sourceUrl": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "000660.KS",
         "status": "accessible",
-        "sourceUrl": "https://news.skhynix.com/"
+        "sourceUrl": "https://news.skhynix.com/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "MU",
         "status": "limited",
-        "sourceUrl": "https://investors.micron.com/events-and-presentations"
+        "sourceUrl": "https://investors.micron.com/events-and-presentations",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "2454.TW",
         "status": "accessible",
-        "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events"
+        "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "AMZN",
         "status": "limited",
-        "sourceUrl": "https://ir.aboutamazon.com/quarterly-results/default.aspx"
+        "sourceUrl": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "GOOGL",
         "status": "limited",
-        "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx"
+        "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "META",
         "status": "limited",
-        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "ANTHROPIC",
         "status": "accessible",
-        "sourceUrl": "https://www.anthropic.com/news"
+        "sourceUrl": "https://www.anthropic.com/news",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "CRWV",
         "status": "limited",
-        "sourceUrl": "https://investors.coreweave.com/events-and-presentations/default.aspx"
+        "sourceUrl": "https://investors.coreweave.com/events-and-presentations/default.aspx",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "NBIS",
         "status": "accessible",
-        "sourceUrl": "https://nebius.com/investor-hub"
+        "sourceUrl": "https://nebius.com/investor-hub",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "INTC",
         "status": "limited",
-        "sourceUrl": "https://www.intc.com/news-events/ir-calendar"
+        "sourceUrl": "https://www.intc.com/news-events/ir-calendar",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "ARM",
         "status": "limited",
-        "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations"
+        "sourceUrl": "https://investors.arm.com/news-events/investor-events-presentations",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "QCOM",
         "status": "limited",
-        "sourceUrl": "https://investor.qualcomm.com/"
+        "sourceUrl": "https://investor.qualcomm.com/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "SNOW",
         "status": "accessible",
-        "sourceUrl": "https://investors.snowflake.com/"
+        "sourceUrl": "https://investors.snowflake.com/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "CRWD",
         "status": "accessible",
-        "sourceUrl": "https://ir.crowdstrike.com/"
+        "sourceUrl": "https://ir.crowdstrike.com/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "PANW",
         "status": "accessible",
-        "sourceUrl": "https://investors.paloaltonetworks.com/"
+        "sourceUrl": "https://investors.paloaltonetworks.com/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "NET",
         "status": "blocked",
-        "sourceUrl": "https://cloudflare.net/"
+        "sourceUrl": "https://cloudflare.net/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "OPENAI",
         "status": "accessible",
-        "sourceUrl": "https://openai.com/news/"
+        "sourceUrl": "https://openai.com/news/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "id": "SPACEX",
         "status": "limited",
-        "sourceUrl": "https://ir.spacex.com/"
+        "sourceUrl": "https://ir.spacex.com/",
+        "checkedAt": "2026-11-24T17:30:37Z"
       }
     ],
     "companiesNotFullyReviewed": [
@@ -5523,7 +5556,6 @@
       "CRM",
       "NOW",
       "ADBE",
-      "ASML",
       "LRCX",
       "MU",
       "AMZN",
@@ -5537,221 +5569,255 @@
       "SPACEX"
     ],
     "verifiedChanges": [
-      "Workday: rechecked the official November 2 issuer notice. Q3 FY2027 results remain scheduled after the U.S. market close November 24, with the call at 13:30 Pacific / 16:30 Eastern (November 25, 05:30 HKT). At the Nov25 01:02 HKT / Nov24 09:02 PST cutoff, the U.S. market had not opened and the results event had not occurred; no results or guidance are inserted.",
-      "SPACEX: reaffirmed public-company tracking as Nasdaq:SPCX, internal ID SPACEX. IR home exposes Quarterly Results and Events navigation but current dynamic event/results listings are not readable. SEC EDGAR browse page did not populate its filing table; the last successful full submissions-index snapshot remains the Nov23 UTC check, with Nov16 Schedule 13G/A the latest filing by date at that snapshot. No Q4/FY2026 earnings date is confirmed; keep the public-company earnings watch undated.",
-      "SPACEX / USSF-317: updated the previous Nov13–18 conflicting estimate to REPORTED local launch date Nov20 after Vandenberg Space Force Base's official Nov20 prelaunch bulletin and Space.com postflight reporting at 8:20 p.m. PT. Spaceflight Now's Nov22 NROL-136 report independently supports the 32h3m21s pad interval. SpaceX's indexed mission page still showed an older Nov13 target; no readable SpaceX/USSF postflight mission confirmation, so this is reported, not confirmed, and no exact time is stored.",
-      "SPACEX / NROL-136: added a REPORTED Nov22 local launch entry. Spaceflight Now and Space.com report a 4:23 a.m. PT / 12:23 UTC launch and B1097 landing at LZ-4; SpaceX's indexed page supplied the preflight Nov22 target window. No readable first-party postflight mission page was available, so the event remains reported.",
-      "SPACEX / USSF-266: added the official SpaceX Nov24 15:55–19:55 UTC target window as ESTIMATED. Third-party trackers show a 16:08 UTC target and GO status, but at the Nov25 01:02 HKT cutoff the published window was still open. No launch completion is claimed; target window spans 23:55 Nov24–03:55 Nov25 HKT.",
-      "Other issuer calendars and newsrooms: all 33 repository company entry points were attempted. No additional company-confirmed earnings date, release time or material financial guidance event was sufficiently verified for a dataset change in this review; existing confirmed, estimated and undated statuses were preserved.",
-      "SK hynix: SEC Form 6-K filed Nov20 discloses conversion of existing SPC2 convertible bonds plus purchase of 1,001 shares for JPY100m, resulting in an indirect approximately 14.1% Kioxia stake. The issuer lists Dec4 as the scheduled acquisition date but says the date may change and transaction legs may complete separately; calendar added Dec4 as an ESTIMATED event. The filing's KRW1.278893tn value is the original bond subscription amount, not a new Dec4 cash payment."
+      "All 33 company IR/newsroom/event entry points were reopened on November 25 HKT: 14 rendered usable text, 17 were limited/dynamic, and two remained blocked (Adobe and Cloudflare). ASML's IR pages rendered this time; its Q4/FY2026 results date of January 27, 2027 was independently confirmed against the ASML homepage and 2026 statutory interim report.",
+      "Workday's official November 2 release still schedules Q3 FY2027 results after the U.S. market close November 24 and the webcast at 13:30 PST / 16:30 EST (November 25 05:30 HKT). At the 01:30 HKT cutoff the U.S. market had not closed; no results or guidance were inserted.",
+      "SpaceX remains publicly listed Nasdaq:SPCX under internal ID SPACEX. Official IR Quarterly Results, Events and Financials navigation was checked; current event/filing tables remain dynamic. SEC Q3 earnings release, October 22 Form 10-Q and October 24 Form 8-K (filed October 26) were opened directly. Q4/FY2026 earnings remains undated.",
+      "SpaceX Q3 2026 baseline rechecked: revenue $14.575bn, net income $4.404bn, nine-month net loss $413m, total capex $19.593bn Q3 / $48.069bn 9M, SI capex $16.444bn Q3 / $39.995bn 9M, nine-month OCF $13.097bn, financing cash flow $99.819bn, and 1.7 GW SI nameplate compute. Nameplate is installed-GPU power, not actual consumption/utilization.",
+      "SpaceX's 10-Q details the $19.6bn 800 MHz spectrum transaction ($11.1bn equity plus up to $8.5bn EchoStar debt payoff), FCC approval May 12 and transfer to trust May 22, with $856m paid by September 30. Management's Q3 release expects final closing in H1 2027 subject to conditions; the 10-Q's November 30, 2027 date is a payment-schedule assumption, with a contractual outer limit of November 30, 2028, not a confirmed closing date.",
+      "SpaceX's October 24 binding commitment letter for an approximately $40bn Apollo-managed master GPU finance lease and Apollo/Goldman's November 20 $44bn GPU-note pricing were both rechecked. Public documents do not reconcile whether the structures overlap; the calendar explicitly warns not to add them as independent GPU orders or assume the notes are the lease's financing layer.",
+      "USSF-266 remains an estimated November 24 target with a 15:55–19:55 UTC window. At 17:30 UTC the window was still open; third-party 16:08 UTC GO status is not postflight proof. No launch completion or exact liftoff time was asserted.",
+      "OpenAI's IPO/public-market watch remains undated. README and test coverage now explicitly prohibit assigning a year, quarter, scenario window or listing date without issuer/regulator evidence.",
+      "Historical October 15 full 79-source audit remains 78/79 and unchanged; this is a targeted 33-company source review, not a complete 79-source refresh or exhaustive 33-company SEC filing-history sweep."
     ],
     "coverageGaps": [
-      "Adobe, ASML and Cloudflare official entry points returned access failures (3/33).",
-      "17 other company pages were limited, JavaScript-driven or exposed only the page shell; 13 pages rendered usable current text. Thirty of 33 entry points were accessible or partially rendered, but partial rendering is not a complete calendar review.",
-      "SpaceX IR events/results and its mission pages are dynamic. SEC EDGAR company browse and submissions JSON did not expose a current filing table in this web review; the latest successful filing-index snapshot remains the Nov23 UTC check. This is not an exhaustive current SEC filing-history sweep.",
-      "USSF-317 and NROL-136 actual launches are reported by reputable space media and aligned with official prelaunch target records, but the mission-specific postflight SpaceX/USSF pages were not readable; keep them reported, not confirmed. USSF-266 remains an estimated official schedule window, not a verified flight.",
-      "FAA Starship PEIS public scoping and the Dec7 comment deadline are environmental consultation milestones, not a flight license or launch authorization. The complete FCC spectrum docket and all NASA/defense award records were not exhaustively reviewed.",
-      "The historical October15 79-source audit (78/79 retrieved) remains unchanged. This targeted 33-company entry-point review is not a full 79-source refresh or a complete 33-company SEC filing audit.",
-      "Grouped SEC EDGAR searches surfaced SK hynix's Nov20 Form 6-K, Palo Alto Networks' Nov18 Form 8-K and Marvell's Nov2 Form 8-K; the latest-filing histories for all 33 issuers were not exhaustively reconciled."
+      "Adobe and Cloudflare official entry points remained blocked (2/33). Seventeen additional issuer pages were limited, JavaScript-driven or exposed only partial content; 14 pages rendered usable current text.",
+      "SpaceX IR Upcoming Events and Financials/SEC filing tables remain dynamically rendered. The SEC submissions JSON/EDGAR browse page did not expose a parsed current filing list; the last full submissions-index snapshot remains the November 23 UTC check. No Q4/FY2026 earnings date is confirmed.",
+      "The complete SEC filing history for all 33 companies was not exhaustively reconciled. This is a targeted issuer-calendar/newsroom review, not a full 33-company SEC sweep.",
+      "USSF-266's official target window was still open at the cutoff and no first-party postflight confirmation was readable. USSF-317 and NROL-136 remain reported rather than first-party-confirmed. Starship Flight 15 actual outcomes likewise remain reported where postflight primary pages were not readable.",
+      "The FAA December 7 PEIS comment deadline is environmental consultation, not a flight license or launch authorization. The complete FCC spectrum docket and all NASA/defense award records were not exhaustively reviewed.",
+      "Historical October 15 comprehensive 79-source audit (78/79 retrieved) remains unchanged and is not represented as refreshed."
     ],
     "sourcesChecked": [
       {
         "company": "TSM",
         "url": "https://investor.tsmc.com/english/financial-calendar",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "NVDA",
         "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "AMD",
         "url": "https://ir.amd.com/news-events/ir-calendar",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "AVGO",
         "url": "https://investors.broadcom.com/company-information/events-presentations",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "MRVL",
         "url": "https://investor.marvell.com/news-events/ir-calendar",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "AAPL",
         "url": "https://www.apple.com/investor/earnings-call/",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "MSFT",
         "url": "https://www.microsoft.com/en-us/Investor",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "ORCL",
         "url": "https://investor.oracle.com/events-and-presentations/default.aspx",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "CRM",
         "url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "NOW",
         "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "ADBE",
         "url": "https://news.adobe.com/financial",
         "status": "http_403",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "WDAY",
         "url": "https://investor.workday.com/",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "ASML",
         "url": "https://investor.asml.com/quarterly-results",
-        "status": "http_403",
-        "kind": "official"
+        "status": "retrieved",
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "LRCX",
         "url": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "005930.KS",
         "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "000660.KS",
         "url": "https://news.skhynix.com/",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "MU",
         "url": "https://investors.micron.com/events-and-presentations",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "2454.TW",
         "url": "https://www.mediatek.com/investor-relations/ir-events",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "AMZN",
         "url": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "GOOGL",
         "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "META",
         "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "ANTHROPIC",
         "url": "https://www.anthropic.com/news",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "CRWV",
         "url": "https://investors.coreweave.com/events-and-presentations/default.aspx",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "NBIS",
         "url": "https://nebius.com/investor-hub",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "INTC",
         "url": "https://www.intc.com/news-events/ir-calendar",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "ARM",
         "url": "https://investors.arm.com/news-events/investor-events-presentations",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "QCOM",
         "url": "https://investor.qualcomm.com/",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SNOW",
         "url": "https://investors.snowflake.com/",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "CRWD",
         "url": "https://ir.crowdstrike.com/",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "PANW",
         "url": "https://investors.paloaltonetworks.com/",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "NET",
         "url": "https://cloudflare.net/",
         "status": "http_403",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "OPENAI",
         "url": "https://openai.com/news/",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SPACEX",
         "url": "https://ir.spacex.com/",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SPACEX",
@@ -5793,19 +5859,22 @@
         "company": "SPACEX",
         "url": "https://www.spacex.com/launches/ussf-266",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SPACEX",
         "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-266/",
         "status": "retrieved",
-        "kind": "report"
+        "kind": "report",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SPACEX",
         "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "NASA",
@@ -5817,31 +5886,36 @@
         "company": "NASA",
         "url": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SPACEX",
         "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SPACEX",
         "url": "https://data.sec.gov/submissions/CIK0001181412.json",
         "status": "limited_dynamic",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SPACEX",
         "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "SPACEX",
         "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
         "status": "retrieved",
-        "kind": "official"
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       },
       {
         "company": "WDAY",
@@ -5872,9 +5946,58 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/0001193125-26-442714-index.html",
         "status": "retrieved",
         "kind": "official"
+      },
+      {
+        "company": "ASML",
+        "url": "https://investor.asml.com/",
+        "status": "retrieved",
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
+      },
+      {
+        "company": "ASML",
+        "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm",
+        "status": "retrieved",
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
+      },
+      {
+        "company": "WDAY",
+        "url": "https://newsroom.workday.com/2026-11-02-Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24%2C-2026",
+        "status": "retrieved",
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://ir.spacex.com/events/default.aspx",
+        "status": "limited_dynamic",
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://ir.spacex.com/financials/",
+        "status": "limited_dynamic",
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+        "status": "retrieved",
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
+      },
+      {
+        "company": "SPACEX",
+        "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
+        "status": "retrieved",
+        "kind": "official",
+        "checkedAt": "2026-11-24T17:30:37Z"
       }
     ],
-    "notes": "Nov25 HKT targeted review of all 33 company IR/newsroom/event entry points plus focused SEC filing follow-up. 13 entry points rendered usable current text, 17 were limited/dynamic or partially rendered, and 3 were blocked. Material additions include the SK hynix Nov20 Form 6-K and Dec4 issuer-scheduled Kioxia stake acquisition estimate (subject to change), Workday's Nov24 results/call schedule recheck, and SpaceX USSF-317/NROL-136 reported flights plus USSF-266 estimated target window. SpaceX remains Nasdaq:SPCX / internal ID SPACEX; Q4/FY2026 earnings remains undated. Historical Oct15 79-source audit NOT rerun. Final event commit 3160b91 passed 64 Python and 8 Node tests, deployed, and the workflow confirmed the public calendar matches the approved event dataset; all four property dataset hashes matched. Run135 initially failed because the estimated SK hynix event's SEC source was tagged official rather than estimate; the source is now tagged as an issuer-scheduled estimate while retaining the primary SEC URL, and run136 passed. Earlier USSF-317 timingWindow schema failures in runs131/132 were fixed without weakening tests. A non-blocking Pages-source configuration warning persists. Run137's first deployment attempt failed at Deploy Pages with an artifact-metadata service error after tests/build passed; retrying the failed job produced two same-named github-pages artifacts and failed. This is an Actions artifact retry issue, not a code/test failure. A fresh source-audit commit is being pushed to trigger a clean run with one artifact. Run138 again passed all tests/build and uploaded one github-pages artifact, but Deploy Pages failed because the deploy action's artifact-metadata lookup returned no artifact even though GitHub's artifact-list endpoint showed one. This is a GitHub Pages/Actions metadata inconsistency, not a test or build failure. The public event dataset itself remains deployed and hash-verified by successful run136; this commit retries publication of the source-audit metadata.",
+    "notes": "November 25 01:30 HKT targeted review reopened all 33 company IR/newsroom/event entry points: 14 usable text, 17 limited/dynamic and 2 blocked (Adobe, Cloudflare). ASML's IR homepage and SEC statutory interim report confirm Jan27 2027 Q4/FY2026 results. Workday Q3 FY2027 results remain scheduled after the U.S. market close Nov24, with the webcast Nov25 05:30 HKT; at this cutoff the results/call had not occurred. SpaceX remains Nasdaq:SPCX / internal ID SPACEX. Direct SEC Q3 release, Oct22 Form 10-Q and Oct24 Form 8-K were reviewed; Q4/FY2026 earnings remains undated. The 10-Q details the 800 MHz spectrum transaction and cash/financing schedule. The $40bn master lease and $44bn GPU-note financing are separately disclosed; overlap is not reconciled and must not be double-counted. USSF-266's 15:55–19:55 UTC target window remained open at 17:30 UTC, so the event remains estimated. OpenAI IPO monitoring remains undated with no year/quarter scenario. Historical Oct15 79-source audit remains 78/79 unchanged. Latest previous Pages run140 passed 64 Python and 8 Node tests, deployed, verified public calendar bytes against the approved dataset and matched all four property SHA-256 values.",
     "publishingObservations": [
       {
         "runId": 45445667487,
@@ -5937,6 +6060,30 @@
         "runNumber": 138,
         "result": "failure",
         "detail": "All 64 Python and 8 Node tests passed; build, Pages setup and artifact upload succeeded. Deploy Pages failed with an artifact-metadata API inconsistency: the action reported no github-pages artifact although the GitHub artifact-list endpoint showed one. No dataset/test defect was identified."
+      },
+      {
+        "runId": 45448178652,
+        "runNumber": 139,
+        "commit": "898d36eb57b2e3519f6dd504c001eda3e0dfecc0",
+        "result": "failure",
+        "detail": "64 Python and 8 Node tests, static build and artifact upload passed. Deploy Pages could not see the github-pages artifact because the deploy job lacked Actions artifact read permission; no dataset/test defect."
+      },
+      {
+        "runId": 45448806343,
+        "runNumber": 140,
+        "commit": "9b98b263038795b80f78087c6362af89054d1348",
+        "result": "success",
+        "completedAt": "2026-11-24T17:28:00Z",
+        "pythonTests": 64,
+        "javascriptTests": 8,
+        "publicCalendarDatasetVerification": "passed — public calendar matches the approved event dataset",
+        "propertyDatasetSha256Verification": {
+          "data.json": "3f1688cee3ab6ae129f2eb8de10261507dbb615c4e93791313bc8f528982c112",
+          "listings.json": "ef67c44ba666d3044ada95579ea7aac39a834ce05ca62740ee85cca8e4b50fd0",
+          "refresh-status.json": "c1cedbfdff2ba79e48e0abacb1412ce949674fb1d2dc67c42850ce14e040e618",
+          "trends.json": "8b7e7e9be622b3bfb98e315c6b25a70afa4b795405992e8e25f71a6d6c9a21c7"
+        },
+        "detail": "Added actions:read permission to the deploy job. A single github-pages artifact was uploaded; deployment and public calendar hash verification passed; all four property dataset SHA-256 checks matched."
       }
     ]
   },
@@ -8562,6 +8709,521 @@
           "runNumber": 138,
           "result": "failure",
           "detail": "All 64 Python and 8 Node tests passed; build, Pages setup and artifact upload succeeded. Deploy Pages failed with an artifact-metadata API inconsistency: the action reported no github-pages artifact although the GitHub artifact-list endpoint showed one. No dataset/test defect was identified."
+        }
+      ]
+    },
+    {
+      "checkedAt": "2026-11-24T17:30:37Z",
+      "scope": "Nov25 HKT targeted review of all 33 issuer IR/newsroom/event entry points; focused ASML Q4/FY2026 date cross-check, Workday upcoming earnings, SpaceX Q3 SEC financials, GPU lease/note financing, 800 MHz spectrum/FCC, Q4 earnings watch and USSF-266 target-window status. Historical Oct15 79-source audit NOT rerun.",
+      "companiesChecked": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "MSFT",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "WDAY",
+        "ASML",
+        "LRCX",
+        "005930.KS",
+        "000660.KS",
+        "MU",
+        "2454.TW",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "ANTHROPIC",
+        "CRWV",
+        "NBIS",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "SNOW",
+        "CRWD",
+        "PANW",
+        "NET",
+        "OPENAI",
+        "SPACEX"
+      ],
+      "companiesNotFullyReviewed": [
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "AAPL",
+        "ORCL",
+        "CRM",
+        "NOW",
+        "ADBE",
+        "LRCX",
+        "MU",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRWV",
+        "INTC",
+        "ARM",
+        "QCOM",
+        "NET",
+        "SPACEX"
+      ],
+      "verifiedChanges": [
+        "All 33 company IR/newsroom/event entry points were reopened on November 25 HKT: 14 rendered usable text, 17 were limited/dynamic, and two remained blocked (Adobe and Cloudflare). ASML's IR pages rendered this time; its Q4/FY2026 results date of January 27, 2027 was independently confirmed against the ASML homepage and 2026 statutory interim report.",
+        "Workday's official November 2 release still schedules Q3 FY2027 results after the U.S. market close November 24 and the webcast at 13:30 PST / 16:30 EST (November 25 05:30 HKT). At the 01:30 HKT cutoff the U.S. market had not closed; no results or guidance were inserted.",
+        "SpaceX remains publicly listed Nasdaq:SPCX under internal ID SPACEX. Official IR Quarterly Results, Events and Financials navigation was checked; current event/filing tables remain dynamic. SEC Q3 earnings release, October 22 Form 10-Q and October 24 Form 8-K (filed October 26) were opened directly. Q4/FY2026 earnings remains undated.",
+        "SpaceX Q3 2026 baseline rechecked: revenue $14.575bn, net income $4.404bn, nine-month net loss $413m, total capex $19.593bn Q3 / $48.069bn 9M, SI capex $16.444bn Q3 / $39.995bn 9M, nine-month OCF $13.097bn, financing cash flow $99.819bn, and 1.7 GW SI nameplate compute. Nameplate is installed-GPU power, not actual consumption/utilization.",
+        "SpaceX's 10-Q details the $19.6bn 800 MHz spectrum transaction ($11.1bn equity plus up to $8.5bn EchoStar debt payoff), FCC approval May 12 and transfer to trust May 22, with $856m paid by September 30. Management's Q3 release expects final closing in H1 2027 subject to conditions; the 10-Q's November 30, 2027 date is a payment-schedule assumption, with a contractual outer limit of November 30, 2028, not a confirmed closing date.",
+        "SpaceX's October 24 binding commitment letter for an approximately $40bn Apollo-managed master GPU finance lease and Apollo/Goldman's November 20 $44bn GPU-note pricing were both rechecked. Public documents do not reconcile whether the structures overlap; the calendar explicitly warns not to add them as independent GPU orders or assume the notes are the lease's financing layer.",
+        "USSF-266 remains an estimated November 24 target with a 15:55–19:55 UTC window. At 17:30 UTC the window was still open; third-party 16:08 UTC GO status is not postflight proof. No launch completion or exact liftoff time was asserted.",
+        "OpenAI's IPO/public-market watch remains undated. README and test coverage now explicitly prohibit assigning a year, quarter, scenario window or listing date without issuer/regulator evidence.",
+        "Historical October 15 full 79-source audit remains 78/79 and unchanged; this is a targeted 33-company source review, not a complete 79-source refresh or exhaustive 33-company SEC filing-history sweep."
+      ],
+      "coverageGaps": [
+        "Adobe and Cloudflare official entry points remained blocked (2/33). Seventeen additional issuer pages were limited, JavaScript-driven or exposed only partial content; 14 pages rendered usable current text.",
+        "SpaceX IR Upcoming Events and Financials/SEC filing tables remain dynamically rendered. The SEC submissions JSON/EDGAR browse page did not expose a parsed current filing list; the last full submissions-index snapshot remains the November 23 UTC check. No Q4/FY2026 earnings date is confirmed.",
+        "The complete SEC filing history for all 33 companies was not exhaustively reconciled. This is a targeted issuer-calendar/newsroom review, not a full 33-company SEC sweep.",
+        "USSF-266's official target window was still open at the cutoff and no first-party postflight confirmation was readable. USSF-317 and NROL-136 remain reported rather than first-party-confirmed. Starship Flight 15 actual outcomes likewise remain reported where postflight primary pages were not readable.",
+        "The FAA December 7 PEIS comment deadline is environmental consultation, not a flight license or launch authorization. The complete FCC spectrum docket and all NASA/defense award records were not exhaustively reviewed.",
+        "Historical October 15 comprehensive 79-source audit (78/79 retrieved) remains unchanged and is not represented as refreshed."
+      ],
+      "sourcesChecked": [
+        {
+          "company": "TSM",
+          "url": "https://investor.tsmc.com/english/financial-calendar",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "NVDA",
+          "url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "AMD",
+          "url": "https://ir.amd.com/news-events/ir-calendar",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "AVGO",
+          "url": "https://investors.broadcom.com/company-information/events-presentations",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "MRVL",
+          "url": "https://investor.marvell.com/news-events/ir-calendar",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "AAPL",
+          "url": "https://www.apple.com/investor/earnings-call/",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "MSFT",
+          "url": "https://www.microsoft.com/en-us/Investor",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "ORCL",
+          "url": "https://investor.oracle.com/events-and-presentations/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "CRM",
+          "url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "NOW",
+          "url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-to-Announce-Third-Quarter-2026-Financial-Results-on-October-28/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "ADBE",
+          "url": "https://news.adobe.com/financial",
+          "status": "http_403",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "WDAY",
+          "url": "https://investor.workday.com/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "ASML",
+          "url": "https://investor.asml.com/quarterly-results",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "LRCX",
+          "url": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "005930.KS",
+          "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "000660.KS",
+          "url": "https://news.skhynix.com/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "MU",
+          "url": "https://investors.micron.com/events-and-presentations",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "2454.TW",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "AMZN",
+          "url": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "GOOGL",
+          "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "META",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "ANTHROPIC",
+          "url": "https://www.anthropic.com/news",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "CRWV",
+          "url": "https://investors.coreweave.com/events-and-presentations/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "NBIS",
+          "url": "https://nebius.com/investor-hub",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "INTC",
+          "url": "https://www.intc.com/news-events/ir-calendar",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "ARM",
+          "url": "https://investors.arm.com/news-events/investor-events-presentations",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "QCOM",
+          "url": "https://investor.qualcomm.com/",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SNOW",
+          "url": "https://investors.snowflake.com/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "CRWD",
+          "url": "https://ir.crowdstrike.com/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "PANW",
+          "url": "https://investors.paloaltonetworks.com/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "NET",
+          "url": "https://cloudflare.net/",
+          "status": "http_403",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "OPENAI",
+          "url": "https://openai.com/news/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://ir.spacex.com/",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.spacex.com/launches/ussf317",
+          "status": "stale_indexed_preflight_snapshot",
+          "kind": "official"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://content.govdelivery.com/accounts/USDODSFVANDENBERGPA/bulletins/4339d2e",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317",
+          "status": "retrieved",
+          "kind": "report"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/",
+          "status": "retrieved",
+          "kind": "report"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.spacex.com/launches/nrol-136",
+          "status": "limited_dynamic",
+          "kind": "official"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
+          "status": "retrieved",
+          "kind": "report"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.spacex.com/launches/ussf-266",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://spacelaunchlive.com/launches/falcon-9-block-5-ussf-266/",
+          "status": "retrieved",
+          "kind": "report",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "NASA",
+          "url": "https://www.nasa.gov/blogs/spacestation/",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "NASA",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/11/21/dragon-returns-to-earth-packed-with-science-and-cargo/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://data.sec.gov/submissions/CIK0001181412.json",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "WDAY",
+          "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "000660.KS",
+          "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526469266/d79768d6k.htm",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "000660.KS",
+          "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-become-top-shareholder-rival-kioxia-after-bond-conversion-2026-11-20/",
+          "status": "retrieved",
+          "kind": "report"
+        },
+        {
+          "company": "PANW",
+          "url": "https://investors.paloaltonetworks.com/sec-filings/sec-filing/8-k/0001327567-26-000030",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "MRVL",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442714/0001193125-26-442714-index.html",
+          "status": "retrieved",
+          "kind": "official"
+        },
+        {
+          "company": "ASML",
+          "url": "https://investor.asml.com/",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "ASML",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/statutoryinterimreport20.htm",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "WDAY",
+          "url": "https://newsroom.workday.com/2026-11-02-Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24%2C-2026",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://ir.spacex.com/events/default.aspx",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://ir.spacex.com/financials/",
+          "status": "limited_dynamic",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        },
+        {
+          "company": "SPACEX",
+          "url": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671",
+          "status": "retrieved",
+          "kind": "official",
+          "checkedAt": "2026-11-24T17:30:37Z"
+        }
+      ],
+      "publishingObservations": [
+        {
+          "runId": 45448178652,
+          "runNumber": 139,
+          "commit": "898d36eb57b2e3519f6dd504c001eda3e0dfecc0",
+          "result": "failure",
+          "detail": "64 Python and 8 Node tests, static build and artifact upload passed. Deploy Pages could not see the github-pages artifact because the deploy job lacked Actions artifact read permission; no dataset/test defect."
+        },
+        {
+          "runId": 45448806343,
+          "runNumber": 140,
+          "commit": "9b98b263038795b80f78087c6362af89054d1348",
+          "result": "success",
+          "completedAt": "2026-11-24T17:28:00Z",
+          "pythonTests": 64,
+          "javascriptTests": 8,
+          "publicCalendarDatasetVerification": "passed — public calendar matches the approved event dataset",
+          "propertyDatasetSha256Verification": {
+            "data.json": "3f1688cee3ab6ae129f2eb8de10261507dbb615c4e93791313bc8f528982c112",
+            "listings.json": "ef67c44ba666d3044ada95579ea7aac39a834ce05ca62740ee85cca8e4b50fd0",
+            "refresh-status.json": "c1cedbfdff2ba79e48e0abacb1412ce949674fb1d2dc67c42850ce14e040e618",
+            "trends.json": "8b7e7e9be622b3bfb98e315c6b25a70afa4b795405992e8e25f71a6d6c9a21c7"
+          },
+          "detail": "Added actions:read permission to the deploy job. A single github-pages artifact was uploaded; deployment and public calendar hash verification passed; all four property dataset SHA-256 checks matched."
         }
       ]
     }
