@@ -2,7 +2,7 @@
   "schemaVersion": 4,
   "asOf": "2026-11-25",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-24T18:01:27Z",
+  "lastAttempt": "2026-11-25T02:34:15Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -846,20 +846,32 @@
       "companies": [
         "WDAY"
       ],
-      "title": "Workday Q3 FY2027 earnings & webcast",
+      "title": "Workday Q3 FY2027 actual results — revenue $2.705bn, subscription $2.532bn; FY27 subscription guide raised to $9.958bn",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-11-24",
       "endDate": null,
       "window": null,
       "time": "13:30 PST / 16:30 EST (Nov 25 05:30 HKT)",
-      "sourceUrl": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Announce-Fiscal-2027-Third-Quarter-Financial-Results-on-November-24-2026/default.aspx",
-      "sourceLabel": "Workday official November 2 earnings-date announcement",
-      "sourceCheckedAt": "2026-11-24T17:30:37Z",
+      "sourceUrl": "https://newsroom.workday.com/2026-11-24-Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results",
+      "sourceLabel": "Workday official November 24 Q3 FY2027 results release",
+      "sourceCheckedAt": "2026-11-25T02:34:15Z",
       "verifiedAt": "2026-11-24T17:02:39Z",
-      "basis": "Workday's November 2 official issuer notice confirms Q3 FY2027 results will be announced after the U.S. market close on Tuesday November 24, 2026, with the conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). At the November 25 01:30 HKT / November 24 17:30 UTC review cutoff, the U.S. market had not closed and the results/call had not occurred. No results, guidance or actual release time is inserted; the company specifies the webcast time, not a separate release clock time.",
+      "basis": "Workday's November 2 official issuer notice confirmed Q3 FY2027 results after the U.S. market close on Tuesday November 24, 2026, with the conference call at 1:30 p.m. Pacific / 4:30 p.m. Eastern (November 25, 05:30 Hong Kong). Workday's official November 24 release (newsroom and PR Newswire) reports Q3 FY2027 (quarter ended October 31, 2026) total revenues of $2.705bn (+11.2% YoY) and subscription revenues of $2.532bn (+12.8%). GAAP operating income was $329m (12.1% of revenues), including $51m restructuring expense; non-GAAP operating income $850m (31.4%). Diluted EPS $0.96; non-GAAP diluted EPS $2.82. 12-month subscription revenue backlog $9.216bn (+12.3%); total subscription backlog $27.548bn (+6.1%). Operating cash flow $735m; free cash flow $691m; ~3.8m shares repurchased for $750m; cash and marketable securities $5.643bn. Q4 FY2027 guidance: subscription revenues $2.600bn (+10%) and 31.7% non-GAAP operating margin. FY2027 guidance updated to $9.958bn subscription revenues (+13%) and 31.5% non-GAAP operating margin. Share-price reaction and consensus comparisons are media commentary and are not recorded here. The company specified the webcast time, not a separate release clock time.",
       "importance": "HR and finance budgets, subscription backlog and AI agents.",
       "sources": [
+        {
+          "label": "Workday official newsroom · Nov 24 Q3 FY2027 results release",
+          "url": "https://newsroom.workday.com/2026-11-24-Workday-Announces-Fiscal-2027-Third-Quarter-Financial-Results",
+          "kind": "official",
+          "checkedAt": "2026-11-25T02:34:15Z"
+        },
+        {
+          "label": "Workday Q3 FY2027 results release on PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/workday-announces-fiscal-2027-third-quarter-financial-results-302949793.html",
+          "kind": "official",
+          "checkedAt": "2026-11-25T02:34:15Z"
+        },
         {
           "label": "MarketBeat earnings calendar",
           "url": "https://www.marketbeat.com/stocks/NASDAQ/WDAY/earnings/",
@@ -6418,8 +6430,101 @@
       "sourceTimeZone": "America/New_York",
       "timeCertainty": "reported",
       "timeCheckedAt": "2026-11-24T18:01:27Z"
+    },
+    {
+      "id": "mrvl-ubs-global-tech-ai-2026-12-02",
+      "companies": [
+        "MRVL"
+      ],
+      "title": "Marvell at 30th Annual UBS Global Technology and AI Conference",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-02",
+      "endDate": null,
+      "window": null,
+      "time": "12:15 p.m. MST (December 3, 03:15 Hong Kong)",
+      "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar/detail/20261202-30th-annual-ubs-global-technology-and-ai-conference",
+      "sourceLabel": "Marvell official IR calendar · UBS conference listing",
+      "sourceCheckedAt": "2026-11-25T02:34:15Z",
+      "verifiedAt": "2026-11-25T02:34:15Z",
+      "basis": "Marvell's official IR calendar has a dedicated listing for the 30th Annual UBS Global Technology and AI Conference dated \"Dec 2, 2026 12:15 pm MST\". This is a financial-community conference appearance on the day after Marvell's December 1 Q3 FY2027 earnings call, not an earnings release. No speaker is named in the accessible listing.",
+      "importance": "Management Q&A the day after Q3 FY2027 results: custom AI silicon, optical interconnect and data-center demand.",
+      "sources": [
+        {
+          "label": "Marvell IR calendar · 30th Annual UBS Global Technology and AI Conference",
+          "url": "https://investor.marvell.com/news-events/ir-calendar/detail/20261202-30th-annual-ubs-global-technology-and-ai-conference",
+          "kind": "official",
+          "checkedAt": "2026-11-25T02:34:15Z"
+        }
+      ],
+      "startAt": "2026-12-02T19:15:00Z",
+      "sourceTimeZone": "America/Phoenix",
+      "timeCheckedAt": "2026-11-25T02:34:15Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "msft-2026-annual-shareholders-meeting",
+      "companies": [
+        "MSFT"
+      ],
+      "title": "Microsoft 2026 Annual Shareholders Meeting (virtual)",
+      "type": "Shareholder meeting",
+      "status": "confirmed",
+      "date": "2026-12-08",
+      "endDate": null,
+      "window": null,
+      "time": "8:30 a.m. PT (December 9, 00:30 Hong Kong)",
+      "sourceUrl": "https://www.microsoft.com/en-us/investor/annual-meeting.aspx",
+      "sourceLabel": "Microsoft official investor relations · Annual Meeting page",
+      "sourceCheckedAt": "2026-11-25T02:34:15Z",
+      "verifiedAt": "2026-11-25T02:34:15Z",
+      "basis": "Microsoft's official Investor Relations Annual Meeting page states: \"The 2026 Annual Shareholders Meeting will be held virtually on December 8, 2026, at 8:30 am PT.\" The page links the 2026 proxy statement. No end time is published; none is assumed.",
+      "importance": "Shareholder votes, board and governance items, and management commentary on AI capex and Azure.",
+      "sources": [
+        {
+          "label": "Microsoft IR · 2026 Annual Shareholders Meeting",
+          "url": "https://www.microsoft.com/en-us/investor/annual-meeting.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-25T02:34:15Z"
+        }
+      ],
+      "startAt": "2026-12-08T16:30:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-25T02:34:15Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "lrcx-ubs-global-tech-ai-2026-12-01",
+      "companies": [
+        "LRCX"
+      ],
+      "title": "Lam Research CEO/CFO at UBS Global Technology and AI Conference",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": "8:35 a.m. Pacific / 11:35 a.m. Eastern (December 2, 00:35 Hong Kong)",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-participation-at-upcoming-conference-302942787.html",
+      "sourceLabel": "Lam Research official investor-event announcement (PR Newswire)",
+      "sourceCheckedAt": "2026-11-25T02:34:15Z",
+      "verifiedAt": "2026-11-25T02:34:15Z",
+      "basis": "Lam Research's official release says President and CEO Tim Archer and EVP and CFO Doug Bettinger will participate in the UBS Global Technology and AI Conference on December 1, 2026, at 8:35 a.m. Pacific Time (11:35 a.m. Eastern Time), with a live audio webcast on Lam's investor website. Conference appearance, not an earnings release.",
+      "importance": "WFE demand, memory and leading-edge logic capex, and China export-control exposure.",
+      "sources": [
+        {
+          "label": "Lam Research investor-event announcement on PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-participation-at-upcoming-conference-302942787.html",
+          "kind": "official",
+          "checkedAt": "2026-11-25T02:34:15Z"
+        }
+      ],
+      "startAt": "2026-12-01T16:35:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-25T02:34:15Z",
+      "timeCertainty": "verified"
     }
   ],
-  "verificationNote": "Nov24 HKT targeted review attempted all 33 official company IR/newsroom/event entry points: 30 accessible or partially rendered and 3 blocked (Adobe, ASML and Cloudflare); 16 accessible pages remained limited/dynamic. Added CrowdStrike's Nov23 Q3 FY2027 actual results and replaced its cancelled Dec1 call with the Nov23 05:00 PST call; added the $43.9bn all-stock Zscaler agreement and an undated H2 FY2028 close watch; added NVIDIA's Nov23 Jensen Huang reinstatement. Reconciled SpaceX Apollo/Goldman ~$44bn GPU-note pricing to the related Oct26 ~$40bn master finance lease, rechecked EDGAR (latest filing Nov16) and retained undated Q4/FY2026 earnings plus unresolved future launch targets. Workday Nov24 US earnings event remains upcoming at cutoff. NASA CRS-35 splashdown remains confirmed. Historical Oct15 79-source full audit (78/79) is preserved and was NOT rerun. Compact mobile List unchanged.",
+  "verificationNote": "Nov25 HKT morning targeted update (Claude daily-routine setup run): recorded Workday's Nov24 Q3 FY2027 actual results on the existing earnings event from the official release; added company-confirmed Marvell UBS conference (Dec2 12:15 MST), Microsoft 2026 virtual annual shareholders meeting (Dec8 08:30 PT) and Lam Research UBS conference (Dec1 08:35 PT). Not added (sources unreadable, 403/504): media reports of Jensen Huang congressional appearances (House committees Dec1; Senate Banking hearing Dec3), a media report that Ian Buck takes the Dec1 GTC D.C. keynote slot, and Micron's UBS fireside chat. A provider-sourced CrowdStrike Dec1 call listing was rejected: CrowdStrike already reported Nov23 and cancelled the Dec1 call. Oracle Dec14 remains confirmed per the issuer FAQ recorded earlier; the FAQ page was not reachable this run. Not a full universe review. Nov24 HKT targeted review details remain in the git history; the historical Oct15 79-source full audit was NOT rerun.",
   "lastPartialReview": "2026-11-23T17:28:14Z"
 }
