@@ -10,7 +10,7 @@ This is the working specification for the **Claude Code scheduled task** that ke
 | Start time | **02:37 Asia/Hong_Kong every day**, including weekends (18:37 UTC the previous day). It starts shortly before 3 a.m. so the research is finished and the email is waiting around 3 a.m.; a run usually takes 30–60 minutes. |
 | Repository | `Hangyul-Son/global-tech-team-features`, default branch `claude/build-tech-finance-site-HRNbI` (GitHub Pages deploys from it) |
 | Email | `scripts/daily_brief.py` renders the brief; the **Gmail connector** sends it from the owner's Gmail to **hangyul.son@clsa.com** (fixed recipient). Resend is an optional fallback. |
-| Email access | The Gmail connector (claude.ai → Settings → Connectors) is attached to the scheduled task. If Gmail is disconnected, the scheduled task must be recreated with it after reconnecting. Optional fallback: a Resend API key saved as a network secret for `api.resend.com` on the **global-tech-team-features** environment. |
+| Email access | The Gmail connector must be attached to the scheduled task in the claude.ai routines screen (a task created from a chat session cannot carry connectors in this organization). If Gmail is detached or disconnected, the run cannot send and reports "email not sent". Optional fallback: a Resend API key saved as a network secret for `api.resend.com` on the **global-tech-team-features** environment. |
 | Sender | The owner's connected Gmail account. (Resend fallback: `Global Tech <onboarding@resend.dev>` unless `GLOBAL_TECH_EMAIL_FROM` is set; that shared sender only delivers to the Resend account owner.) |
 
 The schedule lives in Claude (claude.ai → Code → scheduled tasks), not in GitHub Actions or a shell cron. Pausing, rescheduling or deleting it is done there.
