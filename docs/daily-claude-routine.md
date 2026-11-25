@@ -10,7 +10,7 @@ This is the working specification for the **Claude Code scheduled task** that ke
 | Start time | **02:37 Asia/Hong_Kong every day**, including weekends (18:37 UTC the previous day). It starts shortly before 3 a.m. so the research is finished and the email is waiting around 3 a.m.; a run usually takes 30–60 minutes. |
 | Repository | `Hangyul-Son/global-tech-team-features`, default branch `claude/build-tech-finance-site-HRNbI` (GitHub Pages deploys from it) |
 | Email | `scripts/daily_brief.py` → Resend API → **hangyul.son@clsa.com** (fixed recipient) |
-| Email credential | A Resend API key saved as a network secret for `api.resend.com` on the routine's cloud environment. The session proxy injects it; the key never appears in the repository, prompts or logs. |
+| Email credential | A Resend API key saved as a network secret for `api.resend.com` on the routine's cloud environment (**global-tech-team-features**: environment menu → Edit → Network secrets). The session proxy injects it; the key never appears in the repository, prompts or logs. A connected Gmail, Microsoft 365 or Resend connector is used as a fallback when present. Until one of these exists, the routine still updates the calendar and reports "email not sent". |
 | Sender | `Global Tech <onboarding@resend.dev>` unless `GLOBAL_TECH_EMAIL_FROM` is set. Resend's shared `onboarding@resend.dev` sender only delivers to the address that owns the Resend account, so that account must be registered to hangyul.son@clsa.com, or a verified sending domain must be configured. |
 
 The schedule lives in Claude (claude.ai → Code → scheduled tasks), not in GitHub Actions or a shell cron. Pausing, rescheduling or deleting it is done there.
@@ -74,8 +74,13 @@ Fix data problems; never weaken tests to publish.
    "developments": [{"title", "companies": [ids], "date", "detail", "sourceUrl"}],
    "added": [{"title", "date", "sourceUrl"}], "updated": [{"title", "date", "detail", "sourceUrl"}],
    "warnings": ["blocked sources, unverified items, gaps, deployment problems"]}
-- Send: python3 scripts/daily_brief.py --result <result> --report .daily-brief/report.json
-  It reads the dataset as it now stands, so send after the data edit. If it fails because the Resend credential is missing or rejected, do not use any other email route; report it.
+- Render first (reads the dataset as it now stands, so do this after the data edit):
+  python3 scripts/daily_brief.py --result <result> --report .daily-brief/report.json --dry-run --html-out .daily-brief/brief.html
+- Send, in this order of preference:
+  a) Resend: python3 scripts/daily_brief.py --result <result> --report .daily-brief/report.json
+     (works when a Resend key is saved for api.resend.com on this environment; success prints a message id).
+  b) If (a) fails with a credential/host error and an email connector with a send tool (Gmail, Microsoft 365/Outlook or Resend) is available in this session, send the same subject (the "Subject:" line of the dry run) and the HTML in .daily-brief/brief.html, with the plain text as fallback, to hangyul.son@clsa.com only.
+  c) Otherwise report "email not sent: no email credential or connector" in the final report. Never claim an email was sent without a provider message id or connector confirmation, and never send to any other address.
 - Do not commit .daily-brief/.
 
 6. Finish with a short report: Hong Kong run time, result, email status (message id or error), changes with sources, and open issues.
