@@ -1,5 +1,7 @@
 # Update and publish Global Tech daily
 
+> **Superseded (Nov 25, 2026):** this Codex task was never registered. The calendar is now maintained by the Claude Code scheduled routine in [daily-claude-routine.md](daily-claude-routine.md). Do not register this task as well.
+
 This is the saved specification for a **native scheduled Codex task**. Saving this file does not register a scheduled task. No native task was created by this repository change; creation must be confirmed in the platform's Scheduled/Automations controls.
 
 ## Task settings

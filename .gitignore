@@ -3,3 +3,4 @@ __pycache__/
 .cache/
 _site/
 .weekly-refresh/
+.daily-brief/
