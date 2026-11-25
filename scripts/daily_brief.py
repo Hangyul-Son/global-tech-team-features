@@ -9,7 +9,9 @@ optional run report written by the daily routine. It lists, in Hong Kong time:
 * Next 30 days (days 8-30, so nothing is repeated from the 7-day section)
 
 Events involving one of the 12 coverage companies carry a star and are
-highlighted, exactly as on the website. Delivery uses the Resend HTTPS API.
+highlighted, exactly as on the website. The daily routine delivers it through
+the Gmail connector (render with --dry-run --payload-out); this script can also
+send directly through the Resend HTTPS API.
 RESEND_API_KEY may be absent inside a Claude cloud session: the session's
 network proxy injects the saved credential for api.resend.com, so a
 placeholder bearer token is sent and replaced in transit.
@@ -536,6 +538,8 @@ def main(argv=None, environ=None):
     parser.add_argument('--date', help='Hong Kong brief date YYYY-MM-DD (default: today in Hong Kong).')
     parser.add_argument('--site-url', default=DEFAULT_SITE)
     parser.add_argument('--html-out', type=Path, help='Also write the rendered HTML to this path.')
+    parser.add_argument('--payload-out', type=Path,
+                        help='Write {to, subject, text, html} JSON for delivery through an email connector (e.g. Gmail).')
     parser.add_argument('--dry-run', action='store_true', help='Print the text version without contacting the email service.')
     parser.add_argument('--resend-nonce', default='', help='Change to deliberately send a second brief for the same day.')
     args = parser.parse_args(argv)
@@ -551,6 +555,10 @@ def main(argv=None, environ=None):
         if args.html_out:
             args.html_out.parent.mkdir(parents=True, exist_ok=True)
             args.html_out.write_text(body_html, encoding='utf-8')
+        if args.payload_out:
+            args.payload_out.parent.mkdir(parents=True, exist_ok=True)
+            args.payload_out.write_text(json.dumps({'to': [RECIPIENT], 'subject': subject, 'text': text, 'html': body_html},
+                                                   ensure_ascii=False, indent=1), encoding='utf-8')
         if args.dry_run:
             print(f'To: {RECIPIENT}\nSubject: {subject}\n\n{text}', end='')
             return 0

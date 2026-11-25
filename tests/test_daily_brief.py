@@ -173,6 +173,22 @@ class DeliveryTests(unittest.TestCase):
         self.assertEqual(sent.get_header('Authorization'), 'Bearer ' + brief.PROXY_PLACEHOLDER_KEY)
         self.assertEqual(json.loads(sent.data)['from'], 'Global Tech <onboarding@resend.dev>')
 
+    def test_payload_export_for_gmail_connector_does_not_send(self):
+        with tempfile.TemporaryDirectory() as directory:
+            dataset = Path(directory) / 'events.json'
+            dataset.write_text(json.dumps(DATA))
+            out = Path(directory) / 'payload.json'
+            with patch.object(brief, 'urlopen') as request, contextlib.redirect_stdout(io.StringIO()):
+                code = brief.main(['--result', 'unchanged', '--dataset', str(dataset), '--date', '2026-11-25',
+                                   '--dry-run', '--payload-out', str(out)], {})
+            payload = json.loads(out.read_text())
+        self.assertEqual(code, 0)
+        request.assert_not_called()
+        self.assertEqual(payload['to'], ['hangyul.son@clsa.com'])
+        self.assertTrue(payload['subject'].startswith('Global Tech daily brief'))
+        self.assertIn(brief.HIGHLIGHT_BG, payload['html'])
+        self.assertIn('TODAY', payload['text'])
+
     def test_idempotency_is_per_day(self):
         self.assertEqual(brief.idempotency_key(TODAY, 'published'), brief.idempotency_key(TODAY, 'published'))
         self.assertNotEqual(brief.idempotency_key(TODAY, 'published'), brief.idempotency_key(date(2026, 11, 26), 'published'))
