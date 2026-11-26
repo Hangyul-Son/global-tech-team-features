@@ -1,8 +1,8 @@
 {
   "schemaVersion": 4,
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-27",
   "lastSuccessfulRefresh": "2026-10-15T14:42:26.060851+00:00",
-  "lastAttempt": "2026-11-25T02:34:15Z",
+  "lastAttempt": "2026-11-26T19:30:00Z",
   "feedStatus": "reviewed-public-sources",
   "companies": [
     {
@@ -559,21 +559,31 @@
       "window": null,
       "date": "2026-12-01",
       "endDate": null,
-      "time": null,
-      "sourceUrl": "https://ir.amd.com/news-events/ir-calendar",
-      "sourceLabel": "AMD investor-relations calendar",
-      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
-      "basis": "AMD’s official IR calendar lists Dec 1, 2026: UBS Global Technology and AI Conference.",
+      "time": "10:55 a.m. MST (December 2, 01:55 Hong Kong)",
+      "sourceUrl": "https://ir.amd.com/news-events/ir-calendar/detail/20261201-ubs-global-technology-and-ai-conference",
+      "sourceLabel": "AMD official IR calendar event detail",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "AMD's official IR calendar detail page for the UBS Global Technology and AI Conference lists \"Dec 1, 2026 • 10:55 am MST\". No speaker or session length is published; none is assumed.",
       "importance": "Management commentary on AI accelerators, server demand and the semiconductor outlook.",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "sources": [
+        {
+          "label": "AMD IR calendar detail · UBS Global Technology and AI Conference",
+          "url": "https://ir.amd.com/news-events/ir-calendar/detail/20261201-ubs-global-technology-and-ai-conference",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        },
         {
           "label": "AMD investor-relations calendar",
           "url": "https://ir.amd.com/news-events/ir-calendar",
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-12-01T17:55:00Z",
+      "sourceTimeZone": "America/Phoenix",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "amd-barclays-2026",
@@ -586,21 +596,31 @@
       "window": null,
       "date": "2026-12-09",
       "endDate": null,
-      "time": null,
-      "sourceUrl": "https://ir.amd.com/news-events/ir-calendar",
-      "sourceLabel": "AMD investor-relations calendar",
-      "verifiedAt": "2026-10-15T07:46:07.615401+00:00",
-      "basis": "AMD’s official IR calendar lists Dec 9, 2026: Barclays 24th Annual Global Technology Conference.",
+      "time": "9:55 a.m. PST (December 10, 01:55 Hong Kong)",
+      "sourceUrl": "https://ir.amd.com/news-events/ir-calendar/detail/20261209-barclays-24th-annual-global-technology-conference",
+      "sourceLabel": "AMD official IR calendar event detail",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "AMD's official IR calendar detail page for the Barclays 24th Annual Global Technology Conference lists \"Dec 9, 2026\" at \"9:55 am PST\". No speaker or session length is published; none is assumed.",
       "importance": "Management commentary on AI accelerators, server demand and the semiconductor outlook.",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "sources": [
+        {
+          "label": "AMD IR calendar detail · Barclays 24th Annual Global Technology Conference",
+          "url": "https://ir.amd.com/news-events/ir-calendar/detail/20261209-barclays-24th-annual-global-technology-conference",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        },
         {
           "label": "AMD investor-relations calendar",
           "url": "https://ir.amd.com/news-events/ir-calendar",
           "kind": "official",
           "checkedAt": "2026-10-15T07:46:07.615401+00:00"
         }
-      ]
+      ],
+      "startAt": "2026-12-09T17:55:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "NVDA-2026-11-earnings",
@@ -709,7 +729,7 @@
       "time": "1:30 pm PST (Dec 2, 05:30 Hong Kong)",
       "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar",
       "sourceLabel": "Marvell official IR calendar · Q3 FY2027 earnings call",
-      "sourceCheckedAt": "2026-11-16T17:13:58.041Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-11-16T17:13:58.041Z",
       "basis": "Marvell's investor-relations calendar officially schedules the Q3 FY2027 earnings conference call on Tuesday December 1, 2026, at 1:30 pm Pacific Standard Time (21:30 UTC / December 2 05:30 Hong Kong). The calendar confirms the CALL start, not an independently stated results press-release time; the previously provider-estimated Dec 1 date is upgraded to company-confirmed.",
       "importance": "Custom compute ramps, optical interconnects and cloud demand.",
@@ -768,10 +788,17 @@
           "url": "https://investor.oracle.com/faq/default.aspx",
           "kind": "official",
           "checkedAt": "2026-10-29T17:06:45.349Z"
+        },
+        {
+          "label": "Stock Analysis · Est. Earnings Dec 9, 2026",
+          "url": "https://stockanalysis.com/stocks/orcl/",
+          "kind": "estimate",
+          "checkedAt": "2026-11-26T19:30:00Z"
         }
       ],
       "timingWindow": null,
-      "estimateKind": null
+      "estimateKind": null,
+      "dateConflict": "Recheck: on November 26 the Oracle IR FAQ page no longer shows any next-earnings date (it now shows only e-mail alert/contact content), so the October 29 first-party confirmation of December 14 could not be reproduced. Stock Analysis shows \"Est. Earnings Dec 9, 2026\". No official Oracle date announcement or contrary notice was found; status is retained pending Oracle's formal date release (last year announced in early December)."
     },
     {
       "id": "CRM-2026-12-earnings",
@@ -787,7 +814,7 @@
       "time": "Results after U.S. market close Dec 2; earnings webcast 2:00 p.m. PST / 5:00 p.m. EST (Dec 3 06:00 HKT)",
       "sourceUrl": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
       "sourceLabel": "Salesforce official November 10 earnings-date announcement",
-      "sourceCheckedAt": "2026-11-19T17:05:32.581Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-11-19T17:05:32.581Z",
       "basis": "Salesforce's November 10, 2026 first-party investor release explicitly fixes Q3 FY2027 RESULTS for Wednesday December 2 after U.S. market close and its earnings WEBCAST at 2:00 PM Pacific (PST, 22:00 UTC; December 3 06:00 Hong Kong). This upgrades a prior MarketBeat estimate to issuer-confirmed. The precise financial press-release clock time was not disclosed; startAt is the webcast only.",
       "importance": "Agentforce/data ARR and unit consumption, organic cloud growth, margin outlook and bookings; actual reporting date and call time independently confirmed.",
@@ -824,7 +851,7 @@
       "time": "Earnings call: 14:00 Pacific Time (PST)",
       "sourceUrl": "https://www.adobe.com/investor-relations.html",
       "sourceLabel": "Adobe official investor-relations calendar",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "Adobe's official investor-relations page lists Wednesday, December 9, 2026: Q4 & FY2026 earnings call at 2:00 p.m. Pacific Time. This confirms the previously estimated date; December uses PST, so the call is 22:00 UTC, December 10 at 06:00 in Hong Kong. No release clock time or call duration is inferred.",
       "importance": "Creative AI monetization, subscriptions and competitive pressure.",
@@ -922,7 +949,7 @@
       "time": "14:30 MST (16:30 EST / Dec 18, 05:30 HKT)",
       "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-First-Quarter-Results-on-December-17-2026/default.aspx",
       "sourceLabel": "Micron official November 19, 2026 Q1 FY2027 earnings call notice",
-      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-11-20T17:07:14.977Z",
       "basis": "On November 19, Micron officially announced a fiscal FIRST QUARTER earnings conference call for THURSDAY December 17, 2026 at 2:30 p.m. US Mountain time (MST, 21:30 UTC, Friday December 18 05:30 Hong Kong). Supersedes the previously displayed provider ESTIMATE of December 23. No fiscal Q1 results, guidance, or earnings release time beyond the webcast has been announced in this source.",
       "importance": "Official HBM/DRAM supply, AI memory pricing and FY27 guidance catalyst; previously inaccurate December 23 estimate replaced.",
@@ -1598,7 +1625,7 @@
       "status": "confirmed",
       "sourceUrl": "https://www.nvidia.com/gtc/dc/",
       "sourceLabel": "NVIDIA · official regional GTC schedule",
-      "sourceCheckedAt": "2026-10-15T13:04:39.747892+00:00",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-10-15T13:04:39.747892+00:00",
       "basis": "NVIDIA publishes November 30–December 3, 2026 for the full event; the conference/expo runs December 1–3.",
       "importance": "AI compute roadmap, regional infrastructure investment and management commentary.",
@@ -1645,7 +1672,7 @@
     },
     {
       "id": "gtc-dc-keynote",
-      "title": "NVIDIA GTC Washington D.C. keynote · speaker listing recheck pending after CEO reinstatement",
+      "title": "NVIDIA GTC Washington D.C. · Ian Buck spotlight in the Dec 1 2:00 p.m. ET slot (Huang not listed)",
       "companies": [
         "NVDA"
       ],
@@ -1653,15 +1680,27 @@
       "date": "2026-12-01",
       "endDate": null,
       "window": null,
-      "time": "14:00 ET",
+      "time": "2:00–2:40 p.m. EST (December 2, 03:00 Hong Kong)",
       "status": "confirmed",
-      "sourceUrl": "https://www.nvidia.com/gtc/dc/",
-      "sourceLabel": "NVIDIA · official regional GTC schedule",
-      "sourceCheckedAt": "2026-11-23T17:28:14Z",
-      "verifiedAt": "2026-11-12T17:09:25.315Z",
-      "basis": "NVIDIA's earlier official GTC D.C. schedule listed the keynote for December 1 at 14:00 Eastern and named Jensen Huang. NVIDIA's November 23 official board release reinstated Huang as President and CEO effective immediately. However, the GTC D.C. page returned a server error on the November 24 review, so the keynote date/time remain supported by the earlier official schedule but the current speaker listing and agenda were not independently revalidated. Keep the date/time confirmed from the prior issuer schedule; do not infer cancellation, a new speaker or a newly confirmed agenda.",
-      "importance": "Scheduled AI platform roadmap keynote; speaker/agenda uncertainty following CEO transition merits monitoring without downgrading confirmed event time.",
+      "sourceUrl": "https://www.nvidia.com/gtc/dc/spotlight-sessions/",
+      "sourceLabel": "NVIDIA official GTC D.C. spotlight sessions",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "NVIDIA's official GTC D.C. spotlight-sessions page (all times EST) lists for Tuesday, December 1: \"Spotlight : NVIDIA's Full-Stack Platform: Accelerating U.S. Innovation, Industry, and Economic Growth\", 2:00–2:40 p.m., speaker Ian Buck, followed by Justin Boitano (2:50), Kari Briski (3:40) and Rev Lebaredian (4:30–5:10 p.m.). The page does not mention a keynote or Jensen Huang. CNBC (November 24) reported that \"Nvidia has Ian Buck, vice president of hyperscale and high-performance computing, filling the slot\" previously held by Huang's keynote and that NVIDIA declined to say whether Huang would appear. The earlier schedule listed a Huang keynote at 14:00 ET; it is superseded by the current official listing. Event type kept as Keynote for continuity of the stable id.",
+      "importance": "NVIDIA's U.S. policy-facing platform presentation at GTC D.C.; the CEO is not on the official listing while he appears before House committees the same day.",
       "sources": [
+        {
+          "label": "NVIDIA GTC D.C. spotlight sessions · Dec 1 2:00 p.m. EST Ian Buck",
+          "url": "https://www.nvidia.com/gtc/dc/spotlight-sessions/",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        },
+        {
+          "label": "CNBC Nov 24 · Ian Buck filling the GTC D.C. slot",
+          "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+          "kind": "report",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        },
         {
           "label": "NVIDIA official regional GTC schedule",
           "url": "https://www.nvidia.com/gtc/dc/",
@@ -1683,8 +1722,10 @@
       ],
       "startAt": "2026-12-01T19:00:00Z",
       "sourceTimeZone": "America/New_York",
-      "timeCheckedAt": "2026-10-15T13:04:39.747892+00:00",
-      "timeCertainty": "verified"
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified",
+      "endAt": "2026-12-01T19:40:00Z",
+      "dateConflict": "Earlier official schedule: Jensen Huang keynote Dec 1 at 14:00 ET. Current official spotlight page (checked Nov 26 UTC): Ian Buck spotlight 2:00–2:40 p.m. EST, no keynote or Huang listed."
     },
     {
       "id": "CRWV-2026-11-earnings",
@@ -1982,27 +2023,37 @@
       "companies": [
         "SNOW"
       ],
-      "title": "Snowflake Q3 FY2027 earnings — company-confirmed December 2",
+      "title": "Snowflake Q3 FY2027 earnings and conference call",
       "type": "Earnings",
       "status": "confirmed",
       "date": "2026-12-02",
       "endDate": null,
       "window": null,
-      "time": null,
-      "sourceUrl": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q3-FY27-Earnings/default.aspx",
-      "sourceLabel": "Snowflake official investor events page for Q3 FY27 Earnings",
-      "sourceCheckedAt": "2026-11-20T17:07:14.977Z",
-      "verifiedAt": "2026-11-20T17:07:14.977Z",
-      "basis": "Snowflake's official investor-events page explicitly lists 'Snowflake Q3 FY27 Earnings' on December 2, 2026 and provides a webcast/calendar link. This directly upgrades the previous third-party estimated date to confirmed. The official page does not expose a verified clock time; no time or timezone is inserted.",
+      "time": "Results after U.S. close; call 2:00 p.m. PT (December 3, 06:00 Hong Kong)",
+      "sourceUrl": "https://investors.snowflake.com/news/news-details/2026/Snowflake-to-Announce-Financial-Results-for-the-Third-Quarter-of-Fiscal-2027-on-December-2-2026/default.aspx",
+      "sourceLabel": "Snowflake official Nov 2 results-date and conference-call release",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "Snowflake's official November 2, 2026 release states it will release Q3 FY2027 results \"following the close of the U.S. markets on Wednesday, December 2, 2026\" and that \"The conference call will begin at 2 p.m. Pacific Time on December 2, 2026.\" The investor-events page also lists Snowflake Q3 FY27 Earnings on December 2. The call time is published; no separate release clock time or call duration is assumed.",
       "importance": "Confirmed enterprise data-cloud/AI usage and consumption-based software revenue catalyst; official date replaces provider estimate.",
       "sources": [
+        {
+          "label": "Snowflake Nov 2 release · results after close Dec 2, call 2 p.m. PT",
+          "url": "https://investors.snowflake.com/news/news-details/2026/Snowflake-to-Announce-Financial-Results-for-the-Third-Quarter-of-Fiscal-2027-on-December-2-2026/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        },
         {
           "label": "Snowflake Q3 FY27 IR event, December 2",
           "url": "https://investors.snowflake.com/events-and-presentations/event-details/2026/Snowflake-Q3-FY27-Earnings/default.aspx",
           "kind": "official",
           "checkedAt": "2026-11-20T17:07:14.977Z"
         }
-      ]
+      ],
+      "startAt": "2026-12-02T22:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
     },
     {
       "id": "CRWD-2026-11-earnings",
@@ -2312,7 +2363,7 @@
       "time": null,
       "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
       "sourceLabel": "TSMC official financial calendar",
-      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-10-18T07:20:26Z",
       "basis": "The TSMC financial calendar explicitly schedules 'TSMC Monthly Sales - November 2026' for December 10, 2026. No release instant is asserted; the calendar entry is date-only.",
       "importance": "Monthly foundry revenue run-rate, AI demand and capacity trends.",
@@ -2339,7 +2390,7 @@
       "time": null,
       "sourceUrl": "https://investor.tsmc.com/english/financial-calendar",
       "sourceLabel": "TSMC official financial calendar",
-      "sourceCheckedAt": "2026-10-18T07:20:26Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-10-18T07:20:26Z",
       "basis": "The TSMC financial calendar explicitly schedules 'TSMC Monthly Sales - December 2026' for January 8, 2027. No release instant is asserted; the calendar entry is date-only.",
       "importance": "Monthly foundry revenue run-rate and the December quarter exit rate.",
@@ -2677,7 +2728,7 @@
       "time": null,
       "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
       "sourceLabel": "MediaTek official investor events",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-10-28T03:04:31.746796+00:00",
       "basis": "MediaTek's official investor calendar lists monthly sales for November 2026 on 2026-12-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
       "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
@@ -3554,7 +3605,7 @@
       "time": null,
       "sourceUrl": "https://www.zacks.com/stock/research/TSM/earnings-calendar",
       "sourceLabel": "Zacks explicitly published next-earnings estimate",
-      "sourceCheckedAt": "2026-10-28T03:04:31.746796+00:00",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": null,
       "basis": "Zacks' current earnings calendar explicitly says the next TSM earnings release is expected on 2027-01-21. Its estimate disclaimer applies; this is not first-party confirmation. Other reviewed public calendars still show the completed October quarter. No release or call time is inferred.",
       "importance": "Next-quarter results, guidance, capital spending and technology demand.",
@@ -3564,9 +3615,15 @@
           "label": "Zacks explicitly published next-earnings estimate",
           "kind": "estimate",
           "checkedAt": "2026-10-28T03:04:31.746796+00:00"
+        },
+        {
+          "label": "Stock Analysis statistics · next estimated earnings Jan 14, 2027",
+          "url": "https://stockanalysis.com/stocks/tsm/statistics/",
+          "kind": "estimate",
+          "checkedAt": "2026-11-26T19:30:00Z"
         }
       ],
-      "dateConflict": "Provider estimate only. Generic FAQ wording about an announced date is not treated as company confirmation."
+      "dateConflict": "Provider estimates disagree: Zacks (checked Oct 28; not reachable Nov 26) gave January 21, 2027; Stock Analysis (checked Nov 26) says \"The next estimated earnings date is Thursday, January 14, 2027.\" TSMC's official financial calendar has no Q4 results date yet. Generic FAQ wording about an announced date is not treated as company confirmation."
     },
     {
       "id": "LRCX-2027-01-earnings",
@@ -3871,7 +3928,7 @@
       "time": null,
       "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
       "sourceLabel": "MediaTek investor calendar",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-10-31T17:02:18.674Z",
       "basis": "The issuer's official IR Events page lists Jan 5, 2027 as an ex-dividend date. No specific clock time or dividend cash amount is asserted by this card.",
       "importance": "Cash shareholder returns; adjust yield calculations and Taiwan share price for the ex-dividend date.",
@@ -3898,7 +3955,7 @@
       "time": null,
       "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
       "sourceLabel": "MediaTek investor calendar",
-      "sourceCheckedAt": "2026-10-31T17:02:18.674Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-10-31T17:02:18.674Z",
       "basis": "The issuer's official IR Events page lists Jan 29, 2027 as the cash-dividend payable date. The 00:00–00:00 calendar placeholder is NOT treated as a real release or payment time.",
       "importance": "Actual shareholder cash return versus planned distributions.",
@@ -6325,7 +6382,7 @@
       "time": null,
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526469266/d79768d6k.htm",
       "sourceLabel": "SK hynix Form 6-K filed Nov 20 · KRX acquisition disclosure and scheduled date",
-      "sourceCheckedAt": "2026-11-24T17:17:48Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": null,
       "basis": "SK hynix's November 20, 2026 Form 6-K reports its November 20 Korea Exchange disclosure about acquiring common shares of BCPE Pangea Cayman2, Ltd. (SPC2), the vehicle holding an equity stake in Toshiba's former semiconductor business, now Kioxia Holdings. SK hynix plans to acquire 129,000 SPC2 shares through conversion rights under convertible bonds it already holds, plus 1,001 additional shares from a Bain Capital affiliate for JPY100m, bringing its ownership to 130,001 shares / 100% of SPC2 and an indirect approximately 14.1% interest in Kioxia. The filing lists December 4, 2026 as the scheduled acquisition date but explicitly says the schedule may change and the bond-conversion and share-purchase legs may complete on different dates. Therefore Dec 4 is an issuer-scheduled ESTIMATE, not a confirmed completion date. The filing's KRW1.278893tn aggregate acquisition value reflects the original convertible-bond subscription amount; it is not a new KRW1.279tn cash payment due on Dec 4. The additional share purchase is JPY100m, and expected interest income is excluded from the stated value. The evidence is tagged as an issuer-scheduled estimate (rather than a confirmed closing) to preserve the filing's express subject-to-change language.",
       "importance": "NAND industry ownership and capital-allocation datapoint; expands SK hynix's indirect exposure to Kioxia, but does not itself indicate a new NAND fab, wafer capacity or HBM supply commitment.",
@@ -6408,16 +6465,16 @@
       "time": "NET 10:47 a.m. EST; NASA launch coverage begins 10:25 a.m. EST",
       "sourceUrl": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
       "sourceLabel": "NASA Media Advisory M26-089, updated November 18, 2026; latest published NASA/SpaceX NET target",
-      "sourceCheckedAt": "2026-11-24T18:01:27Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-11-24T18:01:27Z",
-      "basis": "NASA's November 18, 2026 Media Advisory M26-089 says NASA, Northrop Grumman and SpaceX are targeting no earlier than 10:47 a.m. EST on Sunday, November 29 for Northrop Grumman CRS-25, a Cygnus XL cargo spacecraft launched on a SpaceX Falcon 9 from SLC-40, Cape Canaveral. NASA's launch coverage begins at 10:25 a.m. EST. An earlier NASA advisory dated November 2 listed 10:49 a.m. EST; the later November 18 advisory supersedes it with 10:47 a.m. The date/time is an official NET target, not a guarantee of liftoff or a completed launch; retain the NET qualifier and update after NASA's postflight report.",
+      "basis": "NASA's November 18, 2026 Media Advisory M26-089 says NASA, Northrop Grumman and SpaceX are targeting no earlier than 10:47 a.m. EST on Sunday, November 29 for Northrop Grumman CRS-25, a Cygnus XL cargo spacecraft launched on a SpaceX Falcon 9 from SLC-40, Cape Canaveral. NASA's launch coverage begins at 10:25 a.m. EST. An earlier NASA advisory dated November 2 listed 10:49 a.m. EST; the later November 18 advisory supersedes it with 10:47 a.m. The date/time is an official NET target, not a guarantee of liftoff or a completed launch; retain the NET qualifier and update after NASA's postflight report. The same NASA advisory (rechecked November 26) schedules Canadarm2 capture of Cygnus XL for Tuesday, December 1, at 2:35 a.m. EST (arrival coverage from 1:10 a.m. EST), contingent on the launch date; no scrub or change was published.",
       "importance": "NASA commercial-resupply launch service and SpaceX Falcon 9 customer cadence; scheduled mission, not completed launch or recognized revenue.",
       "sources": [
         {
           "label": "NASA Media Advisory M26-089 · Nov 18 update, NET Nov 29 at 10:47 a.m. EST",
           "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
           "kind": "official",
-          "checkedAt": "2026-11-24T18:01:27Z"
+          "checkedAt": "2026-11-26T19:30:00Z"
         },
         {
           "label": "NASA Media Advisory M26-085 · Nov 2 earlier NET 10:49 a.m. EST, superseded by Nov 18 update",
@@ -6445,7 +6502,7 @@
       "time": "12:15 p.m. MST (December 3, 03:15 Hong Kong)",
       "sourceUrl": "https://investor.marvell.com/news-events/ir-calendar/detail/20261202-30th-annual-ubs-global-technology-and-ai-conference",
       "sourceLabel": "Marvell official IR calendar · UBS conference listing",
-      "sourceCheckedAt": "2026-11-25T02:34:15Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-11-25T02:34:15Z",
       "basis": "Marvell's official IR calendar has a dedicated listing for the 30th Annual UBS Global Technology and AI Conference dated \"Dec 2, 2026 12:15 pm MST\". This is a financial-community conference appearance on the day after Marvell's December 1 Q3 FY2027 earnings call, not an earnings release. No speaker is named in the accessible listing.",
       "importance": "Management Q&A the day after Q3 FY2027 results: custom AI silicon, optical interconnect and data-center demand.",
@@ -6476,7 +6533,7 @@
       "time": "8:30 a.m. PT (December 9, 00:30 Hong Kong)",
       "sourceUrl": "https://www.microsoft.com/en-us/investor/annual-meeting.aspx",
       "sourceLabel": "Microsoft official investor relations · Annual Meeting page",
-      "sourceCheckedAt": "2026-11-25T02:34:15Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-11-25T02:34:15Z",
       "basis": "Microsoft's official Investor Relations Annual Meeting page states: \"The 2026 Annual Shareholders Meeting will be held virtually on December 8, 2026, at 8:30 am PT.\" The page links the 2026 proxy statement. No end time is published; none is assumed.",
       "importance": "Shareholder votes, board and governance items, and management commentary on AI capex and Azure.",
@@ -6507,7 +6564,7 @@
       "time": "8:35 a.m. Pacific / 11:35 a.m. Eastern (December 2, 00:35 Hong Kong)",
       "sourceUrl": "https://www.prnewswire.com/news-releases/lam-research-corporation-announces-participation-at-upcoming-conference-302942787.html",
       "sourceLabel": "Lam Research official investor-event announcement (PR Newswire)",
-      "sourceCheckedAt": "2026-11-25T02:34:15Z",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
       "verifiedAt": "2026-11-25T02:34:15Z",
       "basis": "Lam Research's official release says President and CEO Tim Archer and EVP and CFO Doug Bettinger will participate in the UBS Global Technology and AI Conference on December 1, 2026, at 8:35 a.m. Pacific Time (11:35 a.m. Eastern Time), with a live audio webcast on Lam's investor website. Conference appearance, not an earnings release.",
       "importance": "WFE demand, memory and leading-edge logic capex, and China export-control exposure.",
@@ -6523,8 +6580,410 @@
       "sourceTimeZone": "America/Los_Angeles",
       "timeCheckedAt": "2026-11-25T02:34:15Z",
       "timeCertainty": "verified"
+    },
+    {
+      "id": "mu-ubs-global-tech-ai-2026-12-01",
+      "companies": [
+        "MU"
+      ],
+      "title": "Micron at 30th Annual UBS Global Technology and AI Conference",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": "8:15 a.m. MT (December 1, 23:15 Hong Kong)",
+      "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Announces-Participation-in-Investor-Events/default.aspx",
+      "sourceLabel": "Micron official Nov 12 investor-events release",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "Micron's official November 12, 2026 release announces participation in the \"30th Annual UBS Global Technology and AI Conference in Scottsdale, Arizona, on Tuesday, December 1, at 8:15 a.m.\" Mountain Time (Arizona, no daylight saving: 15:15 UTC). No speaker is named in the release.",
+      "importance": "Memory pricing, HBM supply and AI data-center demand ahead of the December 17 FQ1 results.",
+      "sources": [
+        {
+          "label": "Micron official Nov 12 investor-events release",
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Announces-Participation-in-Investor-Events/default.aspx",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ],
+      "startAt": "2026-12-01T15:15:00Z",
+      "sourceTimeZone": "America/Phoenix",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "intc-ubs-global-tech-ai-2026-12-01",
+      "companies": [
+        "INTC"
+      ],
+      "title": "Intel fireside chat at UBS Global Technology and AI Conference",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": "1:15 p.m. PST (December 2, 05:15 Hong Kong)",
+      "sourceUrl": "https://www.intc.com/news-events/press-releases/detail/1788/intel-corporation-to-participate-in-upcoming-investor",
+      "sourceLabel": "Intel official Nov 23 investor-events release",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "Intel's official November 23, 2026 release states that on December 1 at 1:15 p.m. PST, David Zinsner, executive vice president and chief financial officer, will participate in a fireside chat at the UBS Global Technology and AI Conference. No duration is published.",
+      "importance": "Foundry execution, data-center CPU share, margins and capital funding.",
+      "sources": [
+        {
+          "label": "Intel official Nov 23 investor-events release",
+          "url": "https://www.intc.com/news-events/press-releases/detail/1788/intel-corporation-to-participate-in-upcoming-investor",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ],
+      "startAt": "2026-12-01T21:15:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "intc-wells-fargo-tmt-2026-12-08",
+      "companies": [
+        "INTC"
+      ],
+      "title": "Intel fireside chat at Wells Fargo TMT Summit",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-08",
+      "endDate": null,
+      "window": null,
+      "time": "11:00 a.m. PST (December 9, 03:00 Hong Kong)",
+      "sourceUrl": "https://www.intc.com/news-events/press-releases/detail/1788/intel-corporation-to-participate-in-upcoming-investor",
+      "sourceLabel": "Intel official Nov 23 investor-events release",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "Intel's official November 23, 2026 release states that on December 8 at 11:00 a.m. PST, John Pitzer, corporate vice president, global treasury and investor relations, will participate in a fireside chat at the Wells Fargo TMT Summit. No duration is published.",
+      "importance": "Foundry execution, data-center CPU share, margins and capital funding.",
+      "sources": [
+        {
+          "label": "Intel official Nov 23 investor-events release",
+          "url": "https://www.intc.com/news-events/press-releases/detail/1788/intel-corporation-to-participate-in-upcoming-investor",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ],
+      "startAt": "2026-12-08T19:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "intc-barclays-global-tech-2026-12-09",
+      "companies": [
+        "INTC"
+      ],
+      "title": "Intel fireside chat at Barclays Global Technology Conference",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-09",
+      "endDate": null,
+      "window": null,
+      "time": "12:50 p.m. PST (December 10, 04:50 Hong Kong)",
+      "sourceUrl": "https://www.intc.com/news-events/press-releases/detail/1788/intel-corporation-to-participate-in-upcoming-investor",
+      "sourceLabel": "Intel official Nov 23 investor-events release",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "Intel's official November 23, 2026 release states that on December 9 at 12:50 p.m. PST, David Zinsner, executive vice president and chief financial officer, will participate in a fireside chat at the Barclays Global Technology Conference. No duration is published.",
+      "importance": "Foundry execution, data-center CPU share, margins and capital funding.",
+      "sources": [
+        {
+          "label": "Intel official Nov 23 investor-events release",
+          "url": "https://www.intc.com/news-events/press-releases/detail/1788/intel-corporation-to-participate-in-upcoming-investor",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ],
+      "startAt": "2026-12-09T20:50:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "panw-barclays-global-tech-2026-12-10",
+      "companies": [
+        "PANW"
+      ],
+      "title": "Palo Alto Networks at Barclays 2026 Global Technology Conference",
+      "type": "Conference",
+      "status": "confirmed",
+      "date": "2026-12-10",
+      "endDate": null,
+      "window": null,
+      "time": "12:15 p.m. PT (December 11, 04:15 Hong Kong)",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-present-at-upcoming-investor-event-302946210.html",
+      "sourceLabel": "Palo Alto Networks official Nov 20 release (PR Newswire)",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "Palo Alto Networks' official November 20, 2026 release says \"members of its management team will be presenting\" at the Barclays 2026 Global Technology Conference on Thursday, December 10, 2026 at 12:15 p.m. PT. Presenters are not named.",
+      "importance": "Platformization, next-gen security ARR and the Applied Compute acquisition.",
+      "sources": [
+        {
+          "label": "Palo Alto Networks official Nov 20 release (PR Newswire)",
+          "url": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-present-at-upcoming-investor-event-302946210.html",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ],
+      "startAt": "2026-12-10T20:15:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "panw-2026-annual-meeting",
+      "companies": [
+        "PANW"
+      ],
+      "title": "Palo Alto Networks 2026 Annual Meeting of Stockholders (virtual)",
+      "type": "Shareholder meeting",
+      "status": "confirmed",
+      "date": "2026-12-08",
+      "endDate": null,
+      "window": null,
+      "time": "11:00 a.m. PT (December 9, 03:00 Hong Kong)",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0001327567/000130817926000432/panw-20261027.htm",
+      "sourceLabel": "Palo Alto Networks definitive proxy statement (SEC DEF 14A)",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "Palo Alto Networks' definitive proxy statement says the annual meeting is \"to be held on Tuesday, December 8, 2026 at 11:00 A.M., Pacific Time\" and \"This year's annual meeting will be a virtual meeting conducted via a live webcast.\" No end time is published.",
+      "importance": "Shareholder votes on directors, say-on-pay and governance items.",
+      "sources": [
+        {
+          "label": "Palo Alto Networks definitive proxy statement (SEC DEF 14A)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000130817926000432/panw-20261027.htm",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ],
+      "startAt": "2026-12-08T19:00:00Z",
+      "sourceTimeZone": "America/Los_Angeles",
+      "timeCheckedAt": "2026-11-26T19:30:00Z",
+      "timeCertainty": "verified"
+    },
+    {
+      "id": "mediatek-monthly-sales-2026-12",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek December 2026 monthly sales",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-01-08",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "MediaTek's official investor calendar lists \"Monthly Sales - December 2026\" on 2027-01-08; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
+      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-monthly-sales-2027-01",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek January 2027 monthly sales",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-02-11",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "MediaTek's official investor calendar lists \"Monthly Sales - January 2027\" on 2027-02-11; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
+      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-monthly-sales-2027-02",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek February 2027 monthly sales",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-03-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "MediaTek's official investor calendar lists \"Monthly Sales - February 2027\" on 2027-03-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
+      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-monthly-sales-2027-03",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek March 2027 monthly sales",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-04-09",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "MediaTek's official investor calendar lists \"Monthly Sales - March 2027\" on 2027-04-09; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
+      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-monthly-sales-2027-04",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek April 2027 monthly sales",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-05-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "MediaTek's official investor calendar lists \"Monthly Sales - April 2027\" on 2027-05-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
+      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-monthly-sales-2027-05",
+      "companies": [
+        "2454.TW"
+      ],
+      "title": "MediaTek May 2027 monthly sales",
+      "type": "Operating update",
+      "status": "confirmed",
+      "date": "2027-06-10",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.mediatek.com/investor-relations/ir-events",
+      "sourceLabel": "MediaTek official investor events",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": "2026-11-26T19:30:00Z",
+      "basis": "MediaTek's official investor calendar lists \"Monthly Sales - May 2027\" on 2027-06-10; the 17:00–18:00 GMT+8 calendar slot is not treated as a verified release instant.",
+      "importance": "Monthly semiconductor sales trends and handset/edge-AI demand.",
+      "sources": [
+        {
+          "label": "MediaTek investor events",
+          "url": "https://www.mediatek.com/investor-relations/ir-events",
+          "kind": "official",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "nvda-huang-house-transcribed-interview-2026-12-01",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "Jensen Huang closed-door transcribed interview with three House committees · media-reported",
+      "type": "Governance",
+      "status": "reported",
+      "date": "2026-12-01",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+      "sourceLabel": "CNBC · Nov 24 report on Huang congressional appearances",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": null,
+      "basis": "CNBC (November 24, 2026) reports Huang is \"scheduled to speak with three House committees\" (Foreign Affairs, the Select Committee on the CCP and the Select Committee on Intelligence) in a closed-door transcribed interview, and that the committee chairs said Huang \"has confirmed he will appear for the transcribed interview on Dec. 1.\" No time is published and no official committee or NVIDIA notice was read; media-reported only.",
+      "importance": "Export-control and national-security scrutiny of NVIDIA following the CEO reinstatement; possible read-across to China sales and compliance.",
+      "sources": [
+        {
+          "label": "CNBC · Nov 24, 2026 Huang congressional appearances",
+          "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+          "kind": "report",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "nvda-huang-senate-banking-hearing-2026-12-03",
+      "companies": [
+        "NVDA"
+      ],
+      "title": "Jensen Huang testimony at Senate Banking Committee export-controls hearing · media-reported",
+      "type": "Governance",
+      "status": "reported",
+      "date": "2026-12-03",
+      "endDate": null,
+      "window": null,
+      "time": null,
+      "sourceUrl": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+      "sourceLabel": "CNBC · Nov 24 report on Huang congressional appearances",
+      "sourceCheckedAt": "2026-11-26T19:30:00Z",
+      "verifiedAt": null,
+      "basis": "CNBC (November 24, 2026) reports the Senate Banking Committee \"will hold a hearing\" on December 3 and that Chair Sen. Tim Scott said Huang \"will publicly testify as the sole witness.\" The committee hearing notice (banking.senate.gov) could not be reached and no time is published; the article does not carry a separate confirmation from Huang or NVIDIA. Media-reported only.",
+      "importance": "Export-control and national-security scrutiny of NVIDIA following the CEO reinstatement; possible read-across to China sales and compliance.",
+      "sources": [
+        {
+          "label": "CNBC · Nov 24, 2026 Huang congressional appearances",
+          "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+          "kind": "report",
+          "checkedAt": "2026-11-26T19:30:00Z"
+        }
+      ]
     }
   ],
-  "verificationNote": "Nov25 HKT morning targeted update (Claude daily-routine setup run): recorded Workday's Nov24 Q3 FY2027 actual results on the existing earnings event from the official release; added company-confirmed Marvell UBS conference (Dec2 12:15 MST), Microsoft 2026 virtual annual shareholders meeting (Dec8 08:30 PT) and Lam Research UBS conference (Dec1 08:35 PT). Not added (sources unreadable, 403/504): media reports of Jensen Huang congressional appearances (House committees Dec1; Senate Banking hearing Dec3), a media report that Ian Buck takes the Dec1 GTC D.C. keynote slot, and Micron's UBS fireside chat. A provider-sourced CrowdStrike Dec1 call listing was rejected: CrowdStrike already reported Nov23 and cancelled the Dec1 call. Oracle Dec14 remains confirmed per the issuer FAQ recorded earlier; the FAQ page was not reachable this run. Not a full universe review. Nov24 HKT targeted review details remain in the git history; the historical Oct15 79-source full audit was NOT rerun.",
-  "lastPartialReview": "2026-11-23T17:28:14Z"
+  "verificationNote": "Nov27 HKT daily routine (targeted, not a full universe review): 4 research groups covered all 33 companies, but many IR/provider hosts were unreachable or 403 (aws.amazon.com, investor.apple.com, asml.com, broadcom, arm, qualcomm, paloaltonetworks.com, servicenow, snowflake.com, samsung, MarketBeat, Zacks). Added company-confirmed Micron UBS (Dec1 08:15 MT), Intel UBS/Wells Fargo/Barclays fireside chats (Dec1, Dec8, Dec9), Palo Alto Networks annual meeting (Dec8 11:00 PT) and Barclays (Dec10 12:15 PT), MediaTek monthly-sales dates Jan8–Jun10 2027, and media-reported Huang House interview (Dec1) and Senate Banking hearing (Dec3). Updated: Snowflake call 2:00 p.m. PT Dec2; AMD UBS 10:55 MST and Barclays 9:55 PST; GTC D.C. Dec1 2:00 p.m. slot now an Ian Buck spotlight (Huang not listed); TSMC Q4 provider conflict (Jan14 vs Jan21); Oracle Dec14 confirmation could not be reproduced (FAQ no longer shows it; Stock Analysis Dec9) - flagged, not changed; NG CRS-25 capture Dec1 02:35 EST. lastSuccessfulRefresh not advanced; historical Oct15 79-source full audit NOT rerun.",
+  "lastPartialReview": "2026-11-26T19:30:00Z"
 }
