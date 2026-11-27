@@ -371,7 +371,7 @@ def compose(data, today, result, report, site_url, generated_at=None):
     text = '\n'.join(t) + '\n'
 
     # ---------------- HTML ----------------
-    font = "font-family:-apple-system,'Segoe UI',Arial,Helvetica,sans-serif;"
+    font = "font-family:'Segoe UI',Arial,sans-serif;"
     h = [f'<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
          f'<title>{esc(subject)}</title></head>'
          f'<body style="margin:0;padding:0;background:#f3f5f8;{font}color:#1c2533;">'
